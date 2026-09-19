@@ -1,0 +1,24 @@
+#!/bin/sh
+# Strip AI attribution trailers from commit messages.
+#
+# Enforcement, not a convention: any tool that appends a Claude/AI trailer or a
+# "Generated with" footer gets it removed before the commit is written,
+# regardless of what that tool was told.
+#
+# The patterns are anchored to whole trailer lines, and the co-author form
+# requires an <email>, so prose that merely mentions these strings — including
+# this project's own documentation about them — survives intact.
+#
+# Active only when core.hooksPath is set (see CLAUDE.md); a fresh clone needs:
+#   git config core.hooksPath .githooks
+
+perl -0pi -e '
+  # Co-authored-by: Claude ... <someone@somewhere>   (email required)
+  s/^[ \t]*Co-authored-by:[ \t]*(?:Claude|Anthropic)\b[^\n]*<[^>\n]*>[ \t]*\r?\n?//gmi;
+  # Claude-Session: / Claude-Model: / Claude-Version: <value>
+  s/^[ \t]*Claude-[A-Za-z]+:[ \t]*\S+[ \t]*\r?\n?//gmi;
+  # [emoji] Generated with [Claude Code](...)  — only as its own line
+  s/^[^\w\n]{0,4}[ \t]*Generated with[ \t]*\[?Claude(?:[ \t]*Code)?\]?[^\n]*\r?\n?//gmi;
+  s/\n{3,}/\n\n/g;
+  s/\s+\z/\n/;
+' "$1"
