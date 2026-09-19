@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Icon from '../components/Icon.astro';
+import feeds from '../data/feed-cache.json';
+
+const tech = feeds.tech ?? { fetchedAt: null, repos: [], showhn: [] };
+
+const fmtDay = (iso) => new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+const fmtStars = (n) => (n >= 1000 ? `${(n / 1000).toFixed(1)}k` : String(n));
+const updated = tech.fetchedAt
+  ? new Date(tech.fetchedAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
+  : null;
+
+const description =
+  'Newly released open source worth a look — breakout repositories and things ' +
+  'people shipped this week. Collected and rebuilt daily.';
+---
+
+<BaseLayout title="Signals — new open source worth a look" description={description}>
+  <main id="main" class="wrap">
+    <a class="back" href="https://debasisnishank.com">&larr; debasisnishank.com</a>
+
+    <header>
+      <h1>Signals</h1>
+      <p class="lede">
+        Open source I'd actually open a tab for — repositories that broke out in
+        the last three weeks, and tools people shipped rather than wrote about.
+        Collected automatically, filtered to drop reading lists and interview
+        prep, and rebuilt every morning.
+      </p>
+    </header>
+
+    {tech.repos.length > 0 && (
+      <section class="group">
+        <h2>New repositories</h2>
+        <div class="grid">
+          {tech.repos.map((r) => (
+            <article class="card">
+              <div class="card__top">
+                <a class="card__name" href={r.url} target="_blank" rel="noopener noreferrer">{r.name}</a>
+                <span class="card__stars">{fmtStars(r.stars)}&#9733;</span>
+              </div>
+              <p class="card__desc">{r.description}</p>
+              <div class="card__meta">
+                {r.language && <span class="card__lang">{r.language}</span>}
+                <span>new as of {fmtDay(r.created)}</span>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {tech.showhn.length > 0 && (
+      <section class="group">
+        <h2>Shipped on Show HN</h2>
+        <ul class="list">
+          {tech.showhn.map((h) => (
+            <li class="row">
+              <a class="row__title" href={h.url} target="_blank" rel="noopener noreferrer">{h.title}</a>
+              <span class="row__meta">
+                {h.points} points &middot;{' '}
+                <a href={h.discussion} target="_blank" rel="noopener noreferrer">{h.comments} comments</a>
+                {' '}&middot; {fmtDay(h.created)}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {tech.repos.length === 0 && tech.showhn.length === 0 && (
+      <p class="lede">Nothing collected yet — the next scheduled build will fill this in.</p>
+    )}
+
+    <footer class="foot">
+      <p>
+        Sources: the GitHub search API and Hacker News.
+        {updated && <> Last collected {updated}.</>}
+      </p>
+      <a href="https://github.com/debasisnishank" target="_blank" rel="noopener noreferrer">
+        <Icon name="github" /> Debasis Nishank on GitHub &rarr;
+      </a>
+    </footer>
+  </main>
+</BaseLayout>

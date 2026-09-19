@@ -1,0 +1,16 @@
+{
+  "name": "signals",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node scripts/refresh-feeds.mjs && astro build",
+    "preview": "astro preview",
+    "refresh-feeds": "node scripts/refresh-feeds.mjs"
+  },
+  "dependencies": {
+    "astro": "^4.16.0",
+    "@astrojs/sitemap": "3.2.1"
+  }
+}

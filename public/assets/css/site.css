@@ -1,0 +1,266 @@
+/* signals.debasisnishank.com
+ *
+ * Deliberately standalone rather than a copy of the main site's stylesheet.
+ * It shares the design tokens below — the same palette and typefaces as
+ * debasisnishank.com — but only the ~200 lines this one page needs, so the
+ * two can't drift in the confusing way a partial copy would.
+ */
+
+:root {
+  --clr-bg: #FFEFD5;
+  --clr-txt: #003153;
+  --clr-header: #CA2E55;
+  --clr-anchor: #03B5AA;
+  --clr-toggle: #E6FDDD;
+  --clr-rule: rgba(0, 0, 0, 0.1);
+
+  --font-display: 'Reforma1918', Georgia, serif;
+  --font-body: 'Reforma1969', Georgia, serif;
+  --font-section: 'SpaceGrotesk', system-ui, sans-serif;
+  --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --card-radius: 4px;
+}
+
+html[data-theme='dark'] {
+  --clr-bg: #003153;
+  --clr-txt: #FFEFD5;
+  --clr-header: #FD673B;
+  --clr-anchor: #17ffee;
+  --clr-toggle: #305200;
+  --clr-rule: rgba(255, 255, 255, 0.12);
+}
+
+@font-face {
+  font-family: 'Reforma1918';
+  src: url('../fonts/Reforma1918/Reforma1918-GrisItalica.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Reforma1969';
+  src: url('../fonts/Reforma1969/Reforma1969-Blanca.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Reforma1969';
+  src: url('../fonts/Reforma1969/Reforma1969-Gris.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('../fonts/SpaceGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--clr-bg);
+  color: var(--clr-txt);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--clr-anchor); }
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--clr-txt);
+  color: var(--clr-bg);
+  padding: 0.6rem 1rem;
+  z-index: 10;
+}
+.skip-link:focus { left: 0; }
+
+.wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: var(--space-lg) var(--space-md) var(--space-md);
+}
+@media (max-width: 640px) {
+  .wrap { padding: var(--space-md) var(--space-sm); }
+}
+
+.back {
+  display: inline-block;
+  font-size: 0.9rem;
+  margin-bottom: var(--space-lg);
+  text-decoration: none;
+}
+.back:hover { text-decoration: underline; }
+
+h1 {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.lede {
+  max-width: 62ch;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  opacity: 0.85;
+  margin-top: var(--space-sm);
+}
+
+h2 {
+  font-family: var(--font-section);
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--clr-header);
+  margin: 0 0 var(--space-md);
+}
+
+.group { margin-top: var(--space-lg); }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-md);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  border: 1px solid var(--clr-rule);
+  border-radius: var(--card-radius);
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+.card:hover {
+  border-color: var(--clr-header);
+  transform: translateY(-3px);
+}
+.card__top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+.card__name {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  color: var(--clr-header);
+  word-break: break-word;
+  text-decoration: none;
+}
+.card__name:hover { text-decoration: underline; }
+.card__stars {
+  flex-shrink: 0;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  font-variant-numeric: tabular-nums;
+}
+.card__desc {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+.card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: auto;
+  padding-top: 0.35rem;
+  font-size: 0.78rem;
+  opacity: 0.6;
+}
+.card__lang::before {
+  content: '';
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin-right: 0.4em;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.list { list-style: none; margin: 0; padding: 0; }
+.row {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--clr-rule);
+}
+.row:last-child { border-bottom: 0; }
+.row__title {
+  display: block;
+  font-size: 1rem;
+  color: var(--clr-txt);
+  text-decoration: none;
+}
+.row__title:hover { color: var(--clr-header); text-decoration: underline; }
+.row__meta {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.78rem;
+  opacity: 0.6;
+}
+
+.foot {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--clr-rule);
+  font-size: 0.82rem;
+  opacity: 0.7;
+}
+.foot a { display: inline-flex; align-items: center; gap: 0.45rem; }
+.foot svg { pointer-events: none; }
+
+/* Theme toggle — same control as the main site. */
+.checkbox { position: fixed; top: 0; right: 0; z-index: 5; }
+.checkbox input { opacity: 0; }
+.label {
+  background-color: var(--clr-txt);
+  position: fixed;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  padding: 5px;
+  height: 26px;
+  width: 50px;
+  margin: 28px;
+  transform: scale(1.1);
+}
+.label svg { color: var(--clr-bg); pointer-events: none; }
+.label .ball {
+  background-color: var(--clr-toggle);
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0);
+  transition: transform 0.2s linear;
+}
+.checkbox input:checked + .label .ball { transform: translateX(24px); }
+.checkbox input:focus + .label { outline: rgb(59, 153, 252) auto 5px; }
+
+@media print {
+  .checkbox, .back { display: none !important; }
+  body { background: #fff; color: #000; }
+  .card { break-inside: avoid; }
+}
