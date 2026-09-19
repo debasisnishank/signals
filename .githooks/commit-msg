@@ -1,15 +1,15 @@
 #!/bin/sh
-# Strip AI attribution trailers from commit messages.
+# Strip machine-generated attribution trailers from commit messages.
 #
-# Enforcement, not a convention: any tool that appends a Claude/AI trailer or a
-# "Generated with" footer gets it removed before the commit is written,
-# regardless of what that tool was told.
+# Commits in this repository are authored by Debasis Nishank. Some tooling
+# appends co-author trailers or "generated with" footers; this removes them
+# before the commit is written, regardless of what that tooling was told.
 #
-# The patterns are anchored to whole trailer lines, and the co-author form
-# requires an <email>, so prose that merely mentions these strings — including
-# this project's own documentation about them — survives intact.
+# Patterns are anchored to whole trailer lines, and the co-author form requires
+# an <email>, so prose that merely mentions these strings survives intact.
+# Legitimate human co-authors are preserved.
 #
-# Active only when core.hooksPath is set (see CLAUDE.md); a fresh clone needs:
+# Active only when core.hooksPath is set. A fresh clone re-enables it with:
 #   git config core.hooksPath .githooks
 
 perl -0pi -e '
