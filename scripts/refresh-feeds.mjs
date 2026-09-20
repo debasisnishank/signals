@@ -197,7 +197,14 @@ try {
   );
 }
 
-if (JSON.stringify(cache) !== before) {
+// CI owns this file: it commits the refreshed cache back after every run, so a
+// local build that also wrote it would conflict on the next pull for no gain —
+// the page renders from the in-memory data either way. Set PERSIST_FEEDS=1 to
+// override (e.g. to seed or repair the archive by hand).
+const persist = process.env.GITHUB_ACTIONS === 'true' || process.env.PERSIST_FEEDS === '1';
+if (!persist) {
+  console.log('  --  local run: rendering with fresh data, leaving the cache file alone');
+} else if (JSON.stringify(cache) !== before) {
   mkdirSync(dirname(CACHE_PATH), { recursive: true });
   writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2) + '\n');
 }
