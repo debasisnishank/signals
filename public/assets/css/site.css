@@ -289,10 +289,11 @@ h2 {
 .day .list { margin-top: var(--space-md); }
 .card__gain { color: var(--clr-anchor); opacity: 0.9; }
 
-/* Visitor count — left of the fixed theme toggle (50px wide at scale(1.1),
-   28px margin), so it starts clear of it. */
+/* Visitor count — left of the theme toggle at rest. Absolute, not fixed, so it
+   scrolls away rather than sitting over the page on a phone. `right` clears the
+   toggle (50px wide at scale(1.1), 28px margin). */
 .visitors {
-  position: fixed;
+  position: absolute;
   top: 28px;
   right: 92px;
   z-index: 5;
