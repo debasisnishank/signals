@@ -9,7 +9,9 @@ on:
     - cron: '0 6 * * *'
 
 permissions:
-  contents: read
+  # write: the build commits each day's collected discoveries back, which is
+  # the only way the dated archive accumulates across runs.
+  contents: write
   pages: write
   id-token: write
 
@@ -30,6 +32,24 @@ jobs:
           # Raises the GitHub search API rate limit for the discovery query.
           # No other credential is needed; Hacker News is unauthenticated.
           GITHUB_TOKEN: ${{ github.token }}
+
+      # Without this the archive resets every run: CI builds from a fresh
+      # checkout, so anything collected today would be discarded.
+      # Pushes made with the default GITHUB_TOKEN do not trigger workflows,
+      # so this cannot loop.
+      - name: Persist collected discoveries
+        continue-on-error: true   # a data hiccup must not block the deploy
+        run: |
+          if [ -z "$(git status --porcelain src/data/feed-cache.json)" ]; then
+            echo "No change to log."
+            exit 0
+          fi
+          git config user.name "Debasis Nishank"
+          git config user.email "nishankdebasis4@gmail.com"
+          git add src/data/feed-cache.json
+          git commit -m "Log discoveries for $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
 
   deploy:
     needs: build

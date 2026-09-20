@@ -264,3 +264,27 @@ h2 {
   body { background: #fff; color: #000; }
   .card { break-inside: avoid; }
 }
+
+/* Dated log */
+.day { margin-top: var(--space-lg); }
+.day__head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: var(--space-md);
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--clr-rule);
+}
+.day__head h2 { margin: 0; }
+.badge {
+  font-family: var(--font-section);
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.2em 0.5em;
+  border-radius: 100px;
+  color: var(--clr-bg);
+  background: var(--clr-header);
+}
+.day .list { margin-top: var(--space-md); }
+.card__gain { color: var(--clr-anchor); opacity: 0.9; }

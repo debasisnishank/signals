@@ -1,7 +1,7 @@
 # signals.debasisnishank.com
 
-A daily feed of newly released open source worth a look: repositories that broke
-out in the last three weeks, and tools people shipped on Show HN.
+A dated log of newly released open source: repositories that broke out, and
+tools people shipped on Show HN, each filed under the day it first appeared.
 
 ## How it works
 
@@ -13,6 +13,19 @@ instead.
 
 GitHub Actions rebuilds daily at 06:00 UTC. The only credential is the workflow's
 own `GITHUB_TOKEN`, used to raise the search API rate limit.
+
+## The archive
+
+The search window is rolling, so a repository drops out after three weeks even
+though it was a real find. `feed-cache.json` therefore also keeps an `archive`
+recording each item under the date it was **first** seen, and keeps it there —
+that is what makes this a log rather than a leaderboard, and it is where the
+"new today" badge and the "+N since" star deltas come from.
+
+The archive only accumulates because the workflow commits the refreshed data
+back after each run; a fresh CI checkout would otherwise discard it. Those
+pushes use the default `GITHUB_TOKEN`, which does not trigger workflows, so
+there is no loop. Entries older than 120 days are pruned.
 
 ## Filtering
 

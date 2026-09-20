@@ -109,6 +109,55 @@ async function fetchTech() {
   return { repos, showhn };
 }
 
+/* ---------------------------------------------------------------------------
+ * Dated archive.
+ *
+ * The search window is rolling, so a repo drops out after three weeks even
+ * though it was a real find. The archive records each item under the date it
+ * FIRST appeared and keeps it there permanently, which is what makes this a log
+ * rather than a leaderboard — and it gives "new today" and star deltas for free.
+ *
+ * This only accumulates because CI commits the data back; a fresh checkout each
+ * build would otherwise start from whatever is in the repo.
+ * ------------------------------------------------------------------------- */
+const ARCHIVE_DAYS = 120;
+
+function mergeArchive(archive, today, repos, showhn) {
+  const seen = archive.repos ?? {};
+  const seenHn = archive.showhn ?? {};
+
+  for (const r of repos) {
+    const prev = seen[r.name];
+    if (prev) {
+      // Already known: refresh the mutable fields, keep the discovery date.
+      prev.stars = r.stars;
+      prev.description = r.description ?? prev.description;
+      prev.language = r.language ?? prev.language;
+      prev.lastSeen = today;
+    } else {
+      seen[r.name] = { ...r, firstSeen: today, lastSeen: today, starsAtFirstSeen: r.stars };
+    }
+  }
+
+  for (const h of showhn) {
+    const key = h.discussion || h.url;
+    const prev = seenHn[key];
+    if (prev) {
+      prev.points = h.points;
+      prev.comments = h.comments;
+      prev.lastSeen = today;
+    } else {
+      seenHn[key] = { ...h, firstSeen: today, lastSeen: today };
+    }
+  }
+
+  // Keep the file from growing without bound.
+  const cutoff = new Date(Date.now() - ARCHIVE_DAYS * 86400_000).toISOString().slice(0, 10);
+  const prune = (o) => Object.fromEntries(Object.entries(o).filter(([, v]) => v.firstSeen >= cutoff));
+
+  return { repos: prune(seen), showhn: prune(seenHn) };
+}
+
 const cache = readCache();
 const before = JSON.stringify(cache);
 const now = new Date().toISOString();
@@ -121,7 +170,22 @@ try {
   const data = await fetchTech();
   const changed = FIELDS.some((f) => JSON.stringify(cache.tech?.[f]) !== JSON.stringify(data[f]));
   if (changed) cache.tech = { fetchedAt: now, ...data };
+
+  const today = now.slice(0, 10);
+  const before = {
+    repos: Object.keys(cache.archive?.repos ?? {}).length,
+    showhn: Object.keys(cache.archive?.showhn ?? {}).length,
+  };
+  cache.archive = mergeArchive(cache.archive ?? {}, today, data.repos, data.showhn);
+  const added =
+    (Object.keys(cache.archive.repos).length - before.repos) +
+    (Object.keys(cache.archive.showhn).length - before.showhn);
+
   console.log(`  ok  discoveries: ${size(data)} item(s)${changed ? ' (updated)' : ' (unchanged)'}`);
+  console.log(
+    `  ok  archive: ${Object.keys(cache.archive.repos).length} repo(s), ` +
+    `${Object.keys(cache.archive.showhn).length} show hn — ${added} new today`,
+  );
 } catch (err) {
   const kept = size(cache.tech);
   degraded++;

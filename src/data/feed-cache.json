@@ -1,12 +1,21 @@
 {
   "tech": {
-    "fetchedAt": "2026-09-19T08:54:30.339Z",
+    "fetchedAt": "2026-09-20T17:36:37.642Z",
     "repos": [
+      {
+        "name": "browser-use/jev-ultrafast",
+        "description": "i. am. speed.",
+        "language": "Python",
+        "stars": 11237,
+        "url": "https://github.com/browser-use/jev-ultrafast",
+        "created": "2026-09-16T21:30:12Z",
+        "topics": []
+      },
       {
         "name": "lnkiai/m3e-canvas",
         "description": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
         "language": "TypeScript",
-        "stars": 7451,
+        "stars": 7759,
         "url": "https://github.com/lnkiai/m3e-canvas",
         "created": "2026-09-02T04:36:34Z",
         "topics": [
@@ -17,28 +26,10 @@
         ]
       },
       {
-        "name": "browser-use/jev-ultrafast",
-        "description": "i. am. speed.",
-        "language": "Python",
-        "stars": 6295,
-        "url": "https://github.com/browser-use/jev-ultrafast",
-        "created": "2026-09-16T21:30:12Z",
-        "topics": []
-      },
-      {
-        "name": "ashemag/human-atlas",
-        "description": "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
-        "language": "TypeScript",
-        "stars": 3652,
-        "url": "https://github.com/ashemag/human-atlas",
-        "created": "2026-09-05T00:24:43Z",
-        "topics": []
-      },
-      {
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 3625,
+        "stars": 4930,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": []
@@ -47,7 +38,7 @@
         "name": "Human-Agent-Society/reef",
         "description": "Continual learning infra for self-improving agents",
         "language": "Python",
-        "stars": 3567,
+        "stars": 3773,
         "url": "https://github.com/Human-Agent-Society/reef",
         "created": "2026-08-31T01:39:18Z",
         "topics": [
@@ -58,82 +49,295 @@
         ]
       },
       {
+        "name": "ashemag/human-atlas",
+        "description": "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
+        "language": "TypeScript",
+        "stars": 3699,
+        "url": "https://github.com/ashemag/human-atlas",
+        "created": "2026-09-05T00:24:43Z",
+        "topics": []
+      },
+      {
         "name": "sdli1995/dlssg_for_sm86",
         "description": "Here is a dlssg for RTX30 Series GPU ",
         "language": null,
-        "stars": 3465,
+        "stars": 3626,
         "url": "https://github.com/sdli1995/dlssg_for_sm86",
         "created": "2026-09-07T16:16:48Z",
+        "topics": []
+      },
+      {
+        "name": "robbietilton/Compositor",
+        "description": "The Photoshop alternative for Mac",
+        "language": "Swift",
+        "stars": 3449,
+        "url": "https://github.com/robbietilton/Compositor",
+        "created": "2026-09-16T20:35:54Z",
         "topics": []
       },
       {
         "name": "anthropics/commerce-agents",
         "description": "Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
         "language": "Python",
-        "stars": 2967,
+        "stars": 2994,
         "url": "https://github.com/anthropics/commerce-agents",
         "created": "2026-09-01T12:30:12Z",
-        "topics": []
-      },
-      {
-        "name": "Rion-Wu-tech/wechat-intelligence-hub",
-        "description": "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
-        "language": "Python",
-        "stars": 2429,
-        "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
-        "created": "2026-09-04T15:00:53Z",
         "topics": []
       }
     ],
     "showhn": [
       {
+        "title": "CUA-S1 – A System One Model for Computer Use",
+        "url": "https://github.com/trycua/cua",
+        "points": 87,
+        "comments": 10,
+        "discussion": "https://news.ycombinator.com/item?id=49767564",
+        "created": "2026-09-19T15:52:51.000Z"
+      },
+      {
+        "title": "Sigabrt.dev – cronjob monitor with an SSH TUI",
+        "url": "https://sigabrt.dev",
+        "points": 47,
+        "comments": 25,
+        "discussion": "https://news.ycombinator.com/item?id=49765354",
+        "created": "2026-09-19T10:47:59.000Z"
+      },
+      {
         "title": "LiveWorld – Every 24/7 YouTube live camera on one globe",
         "url": "https://liveworld.info/",
-        "points": 32,
-        "comments": 29,
+        "points": 41,
+        "comments": 37,
         "discussion": "https://news.ycombinator.com/item?id=49762099",
         "created": "2026-09-19T00:30:34.000Z"
       },
       {
         "title": "Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
         "url": "https://cactuscompute.com/needle",
-        "points": 198,
-        "comments": 88,
+        "points": 230,
+        "comments": 91,
         "discussion": "https://news.ycombinator.com/item?id=49748553",
         "created": "2026-09-18T00:11:44.000Z"
       },
       {
         "title": "Scry, programmable internet search w/ congestion pricing",
         "url": "https://scry.io/",
-        "points": 51,
-        "comments": 23,
+        "points": 60,
+        "comments": 25,
         "discussion": "https://news.ycombinator.com/item?id=49748041",
         "created": "2026-09-17T23:15:57.000Z"
       },
       {
         "title": "Microsoft Office running with Wine on Linux with no virtualization",
         "url": "https://github.com/Tombert/office365_flake",
-        "points": 86,
-        "comments": 82,
+        "points": 92,
+        "comments": 90,
         "discussion": "https://news.ycombinator.com/item?id=49746401",
         "created": "2026-09-17T20:52:22.000Z"
+      }
+    ]
+  },
+  "archive": {
+    "repos": {
+      "browser-use/jev-ultrafast": {
+        "name": "browser-use/jev-ultrafast",
+        "description": "i. am. speed.",
+        "language": "Python",
+        "stars": 11237,
+        "url": "https://github.com/browser-use/jev-ultrafast",
+        "created": "2026-09-16T21:30:12Z",
+        "topics": [],
+        "firstSeen": "2026-09-19",
+        "lastSeen": "2026-09-20",
+        "starsAtFirstSeen": 6295
       },
-      {
+      "lnkiai/m3e-canvas": {
+        "name": "lnkiai/m3e-canvas",
+        "description": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+        "language": "TypeScript",
+        "stars": 7759,
+        "url": "https://github.com/lnkiai/m3e-canvas",
+        "created": "2026-09-02T04:36:34Z",
+        "topics": [
+          "design-tool",
+          "material-3-expressive",
+          "material-design",
+          "material3"
+        ],
+        "firstSeen": "2026-09-19",
+        "lastSeen": "2026-09-20",
+        "starsAtFirstSeen": 7451
+      },
+      "tamaratran/fast-jev-compaction": {
+        "name": "tamaratran/fast-jev-compaction",
+        "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
+        "language": "TypeScript",
+        "stars": 4930,
+        "url": "https://github.com/tamaratran/fast-jev-compaction",
+        "created": "2026-09-17T05:57:20Z",
+        "topics": [],
+        "firstSeen": "2026-09-19",
+        "lastSeen": "2026-09-20",
+        "starsAtFirstSeen": 3625
+      },
+      "Human-Agent-Society/reef": {
+        "name": "Human-Agent-Society/reef",
+        "description": "Continual learning infra for self-improving agents",
+        "language": "Python",
+        "stars": 3773,
+        "url": "https://github.com/Human-Agent-Society/reef",
+        "created": "2026-08-31T01:39:18Z",
+        "topics": [
+          "agent-infrastructure",
+          "ai-agents",
+          "continual-learning",
+          "inference"
+        ],
+        "firstSeen": "2026-09-19",
+        "lastSeen": "2026-09-20",
+        "starsAtFirstSeen": 3567
+      },
+      "ashemag/human-atlas": {
+        "name": "ashemag/human-atlas",
+        "description": "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
+        "language": "TypeScript",
+        "stars": 3699,
+        "url": "https://github.com/ashemag/human-atlas",
+        "created": "2026-09-05T00:24:43Z",
+        "topics": [],
+        "firstSeen": "2026-09-19",
+        "lastSeen": "2026-09-20",
+        "starsAtFirstSeen": 3652
+      },
+      "sdli1995/dlssg_for_sm86": {
+        "name": "sdli1995/dlssg_for_sm86",
+        "description": "Here is a dlssg for RTX30 Series GPU ",
+        "language": null,
+        "stars": 3626,
+        "url": "https://github.com/sdli1995/dlssg_for_sm86",
+        "created": "2026-09-07T16:16:48Z",
+        "topics": [],
+        "firstSeen": "2026-09-19",
+        "lastSeen": "2026-09-20",
+        "starsAtFirstSeen": 3465
+      },
+      "robbietilton/Compositor": {
+        "name": "robbietilton/Compositor",
+        "description": "The Photoshop alternative for Mac",
+        "language": "Swift",
+        "stars": 3449,
+        "url": "https://github.com/robbietilton/Compositor",
+        "created": "2026-09-16T20:35:54Z",
+        "topics": [],
+        "firstSeen": "2026-09-20",
+        "lastSeen": "2026-09-20",
+        "starsAtFirstSeen": 3449
+      },
+      "anthropics/commerce-agents": {
+        "name": "anthropics/commerce-agents",
+        "description": "Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+        "language": "Python",
+        "stars": 2994,
+        "url": "https://github.com/anthropics/commerce-agents",
+        "created": "2026-09-01T12:30:12Z",
+        "topics": [],
+        "firstSeen": "2026-09-19",
+        "lastSeen": "2026-09-20",
+        "starsAtFirstSeen": 2967
+      },
+      "Rion-Wu-tech/wechat-intelligence-hub": {
+        "name": "Rion-Wu-tech/wechat-intelligence-hub",
+        "description": "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
+        "language": "Python",
+        "stars": 2429,
+        "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
+        "created": "2026-09-04T15:00:53Z",
+        "topics": [],
+        "firstSeen": "2026-09-19",
+        "lastSeen": "2026-09-19",
+        "starsAtFirstSeen": 2429
+      }
+    },
+    "showhn": {
+      "https://news.ycombinator.com/item?id=49767564": {
+        "title": "CUA-S1 – A System One Model for Computer Use",
+        "url": "https://github.com/trycua/cua",
+        "points": 87,
+        "comments": 10,
+        "discussion": "https://news.ycombinator.com/item?id=49767564",
+        "created": "2026-09-19T15:52:51.000Z",
+        "firstSeen": "2026-09-20",
+        "lastSeen": "2026-09-20"
+      },
+      "https://news.ycombinator.com/item?id=49765354": {
+        "title": "Sigabrt.dev – cronjob monitor with an SSH TUI",
+        "url": "https://sigabrt.dev",
+        "points": 47,
+        "comments": 25,
+        "discussion": "https://news.ycombinator.com/item?id=49765354",
+        "created": "2026-09-19T10:47:59.000Z",
+        "firstSeen": "2026-09-20",
+        "lastSeen": "2026-09-20"
+      },
+      "https://news.ycombinator.com/item?id=49762099": {
+        "title": "LiveWorld – Every 24/7 YouTube live camera on one globe",
+        "url": "https://liveworld.info/",
+        "points": 41,
+        "comments": 37,
+        "discussion": "https://news.ycombinator.com/item?id=49762099",
+        "created": "2026-09-19T00:30:34.000Z",
+        "firstSeen": "2026-09-19",
+        "lastSeen": "2026-09-20"
+      },
+      "https://news.ycombinator.com/item?id=49748553": {
+        "title": "Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
+        "url": "https://cactuscompute.com/needle",
+        "points": 230,
+        "comments": 91,
+        "discussion": "https://news.ycombinator.com/item?id=49748553",
+        "created": "2026-09-18T00:11:44.000Z",
+        "firstSeen": "2026-09-19",
+        "lastSeen": "2026-09-20"
+      },
+      "https://news.ycombinator.com/item?id=49748041": {
+        "title": "Scry, programmable internet search w/ congestion pricing",
+        "url": "https://scry.io/",
+        "points": 60,
+        "comments": 25,
+        "discussion": "https://news.ycombinator.com/item?id=49748041",
+        "created": "2026-09-17T23:15:57.000Z",
+        "firstSeen": "2026-09-19",
+        "lastSeen": "2026-09-20"
+      },
+      "https://news.ycombinator.com/item?id=49746401": {
+        "title": "Microsoft Office running with Wine on Linux with no virtualization",
+        "url": "https://github.com/Tombert/office365_flake",
+        "points": 92,
+        "comments": 90,
+        "discussion": "https://news.ycombinator.com/item?id=49746401",
+        "created": "2026-09-17T20:52:22.000Z",
+        "firstSeen": "2026-09-19",
+        "lastSeen": "2026-09-20"
+      },
+      "https://news.ycombinator.com/item?id=49746346": {
         "title": "Snapdrop: Instantly share files between devices. No setup, no signup",
         "url": "https://snapdrop.me",
         "points": 101,
         "comments": 46,
         "discussion": "https://news.ycombinator.com/item?id=49746346",
-        "created": "2026-09-17T20:48:04.000Z"
+        "created": "2026-09-17T20:48:04.000Z",
+        "firstSeen": "2026-09-19",
+        "lastSeen": "2026-09-19"
       },
-      {
+      "https://news.ycombinator.com/item?id=49744416": {
         "title": "Ax-check.com – Can agents use your product?",
         "url": "https://www.ax-check.com/",
         "points": 32,
         "comments": 37,
         "discussion": "https://news.ycombinator.com/item?id=49744416",
-        "created": "2026-09-17T18:08:02.000Z"
+        "created": "2026-09-17T18:08:02.000Z",
+        "firstSeen": "2026-09-19",
+        "lastSeen": "2026-09-19"
       }
-    ]
+    }
   }
 }
