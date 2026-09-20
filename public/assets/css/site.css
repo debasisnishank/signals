@@ -289,7 +289,33 @@ h2 {
 .day .list { margin-top: var(--space-md); }
 .card__gain { color: var(--clr-anchor); opacity: 0.9; }
 
+/* Visitor count — left of the fixed theme toggle (50px wide at scale(1.1),
+   28px margin), so it starts clear of it. */
 .visitors {
-  margin: 0.4rem 0 0;
+  position: fixed;
+  top: 28px;
+  right: 92px;
+  z-index: 5;
+  margin: 0;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-section);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--clr-txt);
+  opacity: 0.45;
   font-variant-numeric: tabular-nums;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+/* The toggle keeps its margin at every width, so `right` must clear it at all
+   sizes — only the type shrinks. */
+@media (max-width: 560px) {
+  .visitors {
+    font-size: 0.6rem;
+    letter-spacing: 0.06em;
+  }
 }
