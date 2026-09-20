@@ -288,3 +288,8 @@ h2 {
 }
 .day .list { margin-top: var(--space-md); }
 .card__gain { color: var(--clr-anchor); opacity: 0.9; }
+
+.visitors {
+  margin: 0.4rem 0 0;
+  font-variant-numeric: tabular-nums;
+}
