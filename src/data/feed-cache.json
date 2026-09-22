@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-09-21T12:37:58.511Z",
+    "fetchedAt": "2026-09-22T11:24:41.156Z",
     "repos": [
       {
         "name": "browser-use/jev-ultrafast",
-        "description": "i. am. speed.",
+        "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 14272,
+        "stars": 17351,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": []
@@ -15,7 +15,7 @@
         "name": "lnkiai/m3e-canvas",
         "description": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
         "language": "TypeScript",
-        "stars": 7891,
+        "stars": 7978,
         "url": "https://github.com/lnkiai/m3e-canvas",
         "created": "2026-09-02T04:36:34Z",
         "topics": [
@@ -29,7 +29,7 @@
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 5792,
+        "stars": 6175,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": []
@@ -38,96 +38,101 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 4996,
+        "stars": 6123,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": []
       },
       {
+        "name": "mizorewww/laya-mlx",
+        "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+        "language": "Python",
+        "stars": 4808,
+        "url": "https://github.com/mizorewww/laya-mlx",
+        "created": "2026-09-19T13:50:26Z",
+        "topics": [
+          "apple-silicon",
+          "decision-model",
+          "inference",
+          "laya"
+        ]
+      },
+      {
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 4105,
+        "stars": 4667,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
-        "topics": []
-      },
-      {
-        "name": "ashemag/human-atlas",
-        "description": "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
-        "language": "TypeScript",
-        "stars": 3733,
-        "url": "https://github.com/ashemag/human-atlas",
-        "created": "2026-09-05T00:24:43Z",
         "topics": []
       },
       {
         "name": "sdli1995/dlssg_for_sm86",
         "description": "Here is a dlssg for RTX30 Series GPU ",
         "language": null,
-        "stars": 3699,
+        "stars": 3760,
         "url": "https://github.com/sdli1995/dlssg_for_sm86",
         "created": "2026-09-07T16:16:48Z",
         "topics": []
       },
       {
-        "name": "anthropics/commerce-agents",
-        "description": "Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
-        "language": "Python",
-        "stars": 3008,
-        "url": "https://github.com/anthropics/commerce-agents",
-        "created": "2026-09-01T12:30:12Z",
+        "name": "ashemag/human-atlas",
+        "description": "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
+        "language": "TypeScript",
+        "stars": 3755,
+        "url": "https://github.com/ashemag/human-atlas",
+        "created": "2026-09-05T00:24:43Z",
         "topics": []
       }
     ],
     "showhn": [
       {
+        "title": "Foremerge – Catch intent conflicts between parallel coding agents",
+        "url": "https://github.com/naw103/foremerge",
+        "points": 42,
+        "comments": 13,
+        "discussion": "https://news.ycombinator.com/item?id=49789356",
+        "created": "2026-09-21T16:22:06.000Z"
+      },
+      {
+        "title": "Lossless-memory – a personal AI memory that never summarizes",
+        "url": "https://github.com/aru-labs/lossless-memory",
+        "points": 62,
+        "comments": 27,
+        "discussion": "https://news.ycombinator.com/item?id=49786419",
+        "created": "2026-09-21T12:28:17.000Z"
+      },
+      {
         "title": "Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
         "url": "https://github.com/volotat/mini-AGI/",
-        "points": 163,
-        "comments": 29,
+        "points": 263,
+        "comments": 60,
         "discussion": "https://news.ycombinator.com/item?id=49783133",
         "created": "2026-09-21T04:42:37.000Z"
       },
       {
+        "title": "jevals – replacing LLM judges with typed Jev decisions",
+        "url": "https://github.com/openlayer-ai/jevals",
+        "points": 42,
+        "comments": 3,
+        "discussion": "https://news.ycombinator.com/item?id=49780849",
+        "created": "2026-09-20T22:39:47.000Z"
+      },
+      {
         "title": "Radius – A Meetup.com Alternative",
         "url": "https://radius.to/",
-        "points": 148,
-        "comments": 65,
+        "points": 161,
+        "comments": 76,
         "discussion": "https://news.ycombinator.com/item?id=49777539",
         "created": "2026-09-20T16:51:26.000Z"
       },
       {
         "title": "A competition for small neural networks that play strategy games",
         "url": "https://tinybrains.dev",
-        "points": 89,
-        "comments": 28,
+        "points": 106,
+        "comments": 40,
         "discussion": "https://news.ycombinator.com/item?id=49776523",
         "created": "2026-09-20T14:59:10.000Z"
-      },
-      {
-        "title": "CUA-S1 – A System One Model for Computer Use",
-        "url": "https://github.com/trycua/cua",
-        "points": 89,
-        "comments": 10,
-        "discussion": "https://news.ycombinator.com/item?id=49767564",
-        "created": "2026-09-19T15:52:51.000Z"
-      },
-      {
-        "title": "Sigabrt.dev – cronjob monitor with an SSH TUI",
-        "url": "https://sigabrt.dev",
-        "points": 76,
-        "comments": 34,
-        "discussion": "https://news.ycombinator.com/item?id=49765354",
-        "created": "2026-09-19T10:47:59.000Z"
-      },
-      {
-        "title": "LiveWorld – Every 24/7 YouTube live camera on one globe",
-        "url": "https://liveworld.info/",
-        "points": 41,
-        "comments": 37,
-        "discussion": "https://news.ycombinator.com/item?id=49762099",
-        "created": "2026-09-19T00:30:34.000Z"
       }
     ]
   },
@@ -135,21 +140,21 @@
     "repos": {
       "browser-use/jev-ultrafast": {
         "name": "browser-use/jev-ultrafast",
-        "description": "i. am. speed.",
+        "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 14272,
+        "stars": 17351,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": [],
         "firstSeen": "2026-09-19",
-        "lastSeen": "2026-09-21",
+        "lastSeen": "2026-09-22",
         "starsAtFirstSeen": 6295
       },
       "lnkiai/m3e-canvas": {
         "name": "lnkiai/m3e-canvas",
         "description": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
         "language": "TypeScript",
-        "stars": 7891,
+        "stars": 7978,
         "url": "https://github.com/lnkiai/m3e-canvas",
         "created": "2026-09-02T04:36:34Z",
         "topics": [
@@ -159,19 +164,19 @@
           "material3"
         ],
         "firstSeen": "2026-09-19",
-        "lastSeen": "2026-09-21",
+        "lastSeen": "2026-09-22",
         "starsAtFirstSeen": 7451
       },
       "tamaratran/fast-jev-compaction": {
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 5792,
+        "stars": 6175,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": [],
         "firstSeen": "2026-09-19",
-        "lastSeen": "2026-09-21",
+        "lastSeen": "2026-09-22",
         "starsAtFirstSeen": 3625
       },
       "Human-Agent-Society/reef": {
@@ -195,36 +200,36 @@
         "name": "ashemag/human-atlas",
         "description": "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
         "language": "TypeScript",
-        "stars": 3733,
+        "stars": 3755,
         "url": "https://github.com/ashemag/human-atlas",
         "created": "2026-09-05T00:24:43Z",
         "topics": [],
         "firstSeen": "2026-09-19",
-        "lastSeen": "2026-09-21",
+        "lastSeen": "2026-09-22",
         "starsAtFirstSeen": 3652
       },
       "sdli1995/dlssg_for_sm86": {
         "name": "sdli1995/dlssg_for_sm86",
         "description": "Here is a dlssg for RTX30 Series GPU ",
         "language": null,
-        "stars": 3699,
+        "stars": 3760,
         "url": "https://github.com/sdli1995/dlssg_for_sm86",
         "created": "2026-09-07T16:16:48Z",
         "topics": [],
         "firstSeen": "2026-09-19",
-        "lastSeen": "2026-09-21",
+        "lastSeen": "2026-09-22",
         "starsAtFirstSeen": 3465
       },
       "robbietilton/Compositor": {
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 4105,
+        "stars": 4667,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": [],
         "firstSeen": "2026-09-20",
-        "lastSeen": "2026-09-21",
+        "lastSeen": "2026-09-22",
         "starsAtFirstSeen": 3449
       },
       "anthropics/commerce-agents": {
@@ -255,13 +260,30 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 4996,
+        "stars": 6123,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": [],
         "firstSeen": "2026-09-21",
-        "lastSeen": "2026-09-21",
+        "lastSeen": "2026-09-22",
         "starsAtFirstSeen": 4996
+      },
+      "mizorewww/laya-mlx": {
+        "name": "mizorewww/laya-mlx",
+        "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+        "language": "Python",
+        "stars": 4808,
+        "url": "https://github.com/mizorewww/laya-mlx",
+        "created": "2026-09-19T13:50:26Z",
+        "topics": [
+          "apple-silicon",
+          "decision-model",
+          "inference",
+          "laya"
+        ],
+        "firstSeen": "2026-09-22",
+        "lastSeen": "2026-09-22",
+        "starsAtFirstSeen": 4808
       }
     },
     "showhn": {
@@ -348,32 +370,62 @@
       "https://news.ycombinator.com/item?id=49777539": {
         "title": "Radius – A Meetup.com Alternative",
         "url": "https://radius.to/",
-        "points": 148,
-        "comments": 65,
+        "points": 161,
+        "comments": 76,
         "discussion": "https://news.ycombinator.com/item?id=49777539",
         "created": "2026-09-20T16:51:26.000Z",
         "firstSeen": "2026-09-20",
-        "lastSeen": "2026-09-21"
+        "lastSeen": "2026-09-22"
       },
       "https://news.ycombinator.com/item?id=49783133": {
         "title": "Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
         "url": "https://github.com/volotat/mini-AGI/",
-        "points": 163,
-        "comments": 29,
+        "points": 263,
+        "comments": 60,
         "discussion": "https://news.ycombinator.com/item?id=49783133",
         "created": "2026-09-21T04:42:37.000Z",
         "firstSeen": "2026-09-21",
-        "lastSeen": "2026-09-21"
+        "lastSeen": "2026-09-22"
       },
       "https://news.ycombinator.com/item?id=49776523": {
         "title": "A competition for small neural networks that play strategy games",
         "url": "https://tinybrains.dev",
-        "points": 89,
-        "comments": 28,
+        "points": 106,
+        "comments": 40,
         "discussion": "https://news.ycombinator.com/item?id=49776523",
         "created": "2026-09-20T14:59:10.000Z",
         "firstSeen": "2026-09-21",
-        "lastSeen": "2026-09-21"
+        "lastSeen": "2026-09-22"
+      },
+      "https://news.ycombinator.com/item?id=49789356": {
+        "title": "Foremerge – Catch intent conflicts between parallel coding agents",
+        "url": "https://github.com/naw103/foremerge",
+        "points": 42,
+        "comments": 13,
+        "discussion": "https://news.ycombinator.com/item?id=49789356",
+        "created": "2026-09-21T16:22:06.000Z",
+        "firstSeen": "2026-09-22",
+        "lastSeen": "2026-09-22"
+      },
+      "https://news.ycombinator.com/item?id=49786419": {
+        "title": "Lossless-memory – a personal AI memory that never summarizes",
+        "url": "https://github.com/aru-labs/lossless-memory",
+        "points": 62,
+        "comments": 27,
+        "discussion": "https://news.ycombinator.com/item?id=49786419",
+        "created": "2026-09-21T12:28:17.000Z",
+        "firstSeen": "2026-09-22",
+        "lastSeen": "2026-09-22"
+      },
+      "https://news.ycombinator.com/item?id=49780849": {
+        "title": "jevals – replacing LLM judges with typed Jev decisions",
+        "url": "https://github.com/openlayer-ai/jevals",
+        "points": 42,
+        "comments": 3,
+        "discussion": "https://news.ycombinator.com/item?id=49780849",
+        "created": "2026-09-20T22:39:47.000Z",
+        "firstSeen": "2026-09-22",
+        "lastSeen": "2026-09-22"
       }
     }
   }
