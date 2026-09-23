@@ -1,35 +1,35 @@
 {
   "tech": {
-    "fetchedAt": "2026-09-22T11:24:41.156Z",
+    "fetchedAt": "2026-09-23T11:21:36.185Z",
     "repos": [
+      {
+        "name": "NandhaKishorM/laya",
+        "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
+        "language": "Python",
+        "stars": 18815,
+        "url": "https://github.com/NandhaKishorM/laya",
+        "created": "2026-09-18T04:46:33Z",
+        "topics": [
+          "calibration",
+          "classification",
+          "decision-model",
+          "huggingface"
+        ]
+      },
       {
         "name": "browser-use/jev-ultrafast",
         "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 17351,
+        "stars": 18690,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": []
       },
       {
-        "name": "lnkiai/m3e-canvas",
-        "description": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
-        "language": "TypeScript",
-        "stars": 7978,
-        "url": "https://github.com/lnkiai/m3e-canvas",
-        "created": "2026-09-02T04:36:34Z",
-        "topics": [
-          "design-tool",
-          "material-3-expressive",
-          "material-design",
-          "material3"
-        ]
-      },
-      {
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 6175,
+        "stars": 6462,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": []
@@ -38,7 +38,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 6123,
+        "stars": 6462,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": []
@@ -47,7 +47,7 @@
         "name": "mizorewww/laya-mlx",
         "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
         "language": "Python",
-        "stars": 4808,
+        "stars": 5738,
         "url": "https://github.com/mizorewww/laya-mlx",
         "created": "2026-09-19T13:50:26Z",
         "topics": [
@@ -58,81 +58,85 @@
         ]
       },
       {
+        "name": "jaredpalmer/kev",
+        "description": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
+        "language": "Python",
+        "stars": 5157,
+        "url": "https://github.com/jaredpalmer/kev",
+        "created": "2026-09-17T20:49:39Z",
+        "topics": [
+          "decision-model",
+          "jev",
+          "qwen3"
+        ]
+      },
+      {
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 4667,
+        "stars": 5074,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": []
       },
       {
-        "name": "sdli1995/dlssg_for_sm86",
-        "description": "Here is a dlssg for RTX30 Series GPU ",
-        "language": null,
-        "stars": 3760,
-        "url": "https://github.com/sdli1995/dlssg_for_sm86",
-        "created": "2026-09-07T16:16:48Z",
-        "topics": []
-      },
-      {
-        "name": "ashemag/human-atlas",
-        "description": "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
-        "language": "TypeScript",
-        "stars": 3755,
-        "url": "https://github.com/ashemag/human-atlas",
-        "created": "2026-09-05T00:24:43Z",
+        "name": "TheoLeeCJ/SemIf",
+        "description": "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.",
+        "language": "Python",
+        "stars": 3990,
+        "url": "https://github.com/TheoLeeCJ/SemIf",
+        "created": "2026-09-16T03:51:21Z",
         "topics": []
       }
     ],
     "showhn": [
       {
+        "title": "AI·rete·RAG – a Rete rule engine decides, RAG explains why",
+        "url": "https://ai-rete-rag.com/",
+        "points": 37,
+        "comments": 3,
+        "discussion": "https://news.ycombinator.com/item?id=49803683",
+        "created": "2026-09-22T16:15:06.000Z"
+      },
+      {
+        "title": "Drop – A rootless Linux sandbox with gVisor support",
+        "url": "https://droprun.sh/",
+        "points": 173,
+        "comments": 59,
+        "discussion": "https://news.ycombinator.com/item?id=49801329",
+        "created": "2026-09-22T13:52:47.000Z"
+      },
+      {
+        "title": "JevBench, a reproducible benchmark for typed decision models",
+        "url": "https://benchmarkheaven.com/jev-models",
+        "points": 111,
+        "comments": 29,
+        "discussion": "https://news.ycombinator.com/item?id=49800574",
+        "created": "2026-09-22T13:01:03.000Z"
+      },
+      {
+        "title": "Training a model to identify AI web content from structure alone",
+        "url": "https://arxiv.org/abs/2609.15369",
+        "points": 60,
+        "comments": 16,
+        "discussion": "https://news.ycombinator.com/item?id=49800566",
+        "created": "2026-09-22T13:00:49.000Z"
+      },
+      {
+        "title": "Npunlock – Run custom C kernels for Intel NPUs",
+        "url": "https://github.com/hsfzxjy/npunlock",
+        "points": 32,
+        "comments": 8,
+        "discussion": "https://news.ycombinator.com/item?id=49800513",
+        "created": "2026-09-22T12:58:02.000Z"
+      },
+      {
         "title": "Foremerge – Catch intent conflicts between parallel coding agents",
         "url": "https://github.com/naw103/foremerge",
-        "points": 42,
-        "comments": 13,
+        "points": 45,
+        "comments": 17,
         "discussion": "https://news.ycombinator.com/item?id=49789356",
         "created": "2026-09-21T16:22:06.000Z"
-      },
-      {
-        "title": "Lossless-memory – a personal AI memory that never summarizes",
-        "url": "https://github.com/aru-labs/lossless-memory",
-        "points": 62,
-        "comments": 27,
-        "discussion": "https://news.ycombinator.com/item?id=49786419",
-        "created": "2026-09-21T12:28:17.000Z"
-      },
-      {
-        "title": "Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
-        "url": "https://github.com/volotat/mini-AGI/",
-        "points": 263,
-        "comments": 60,
-        "discussion": "https://news.ycombinator.com/item?id=49783133",
-        "created": "2026-09-21T04:42:37.000Z"
-      },
-      {
-        "title": "jevals – replacing LLM judges with typed Jev decisions",
-        "url": "https://github.com/openlayer-ai/jevals",
-        "points": 42,
-        "comments": 3,
-        "discussion": "https://news.ycombinator.com/item?id=49780849",
-        "created": "2026-09-20T22:39:47.000Z"
-      },
-      {
-        "title": "Radius – A Meetup.com Alternative",
-        "url": "https://radius.to/",
-        "points": 161,
-        "comments": 76,
-        "discussion": "https://news.ycombinator.com/item?id=49777539",
-        "created": "2026-09-20T16:51:26.000Z"
-      },
-      {
-        "title": "A competition for small neural networks that play strategy games",
-        "url": "https://tinybrains.dev",
-        "points": 106,
-        "comments": 40,
-        "discussion": "https://news.ycombinator.com/item?id=49776523",
-        "created": "2026-09-20T14:59:10.000Z"
       }
     ]
   },
@@ -142,12 +146,12 @@
         "name": "browser-use/jev-ultrafast",
         "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 17351,
+        "stars": 18690,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": [],
         "firstSeen": "2026-09-19",
-        "lastSeen": "2026-09-22",
+        "lastSeen": "2026-09-23",
         "starsAtFirstSeen": 6295
       },
       "lnkiai/m3e-canvas": {
@@ -171,12 +175,12 @@
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 6175,
+        "stars": 6462,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": [],
         "firstSeen": "2026-09-19",
-        "lastSeen": "2026-09-22",
+        "lastSeen": "2026-09-23",
         "starsAtFirstSeen": 3625
       },
       "Human-Agent-Society/reef": {
@@ -224,12 +228,12 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 4667,
+        "stars": 5074,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": [],
         "firstSeen": "2026-09-20",
-        "lastSeen": "2026-09-22",
+        "lastSeen": "2026-09-23",
         "starsAtFirstSeen": 3449
       },
       "anthropics/commerce-agents": {
@@ -260,19 +264,19 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 6123,
+        "stars": 6462,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": [],
         "firstSeen": "2026-09-21",
-        "lastSeen": "2026-09-22",
+        "lastSeen": "2026-09-23",
         "starsAtFirstSeen": 4996
       },
       "mizorewww/laya-mlx": {
         "name": "mizorewww/laya-mlx",
         "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
         "language": "Python",
-        "stars": 4808,
+        "stars": 5738,
         "url": "https://github.com/mizorewww/laya-mlx",
         "created": "2026-09-19T13:50:26Z",
         "topics": [
@@ -282,8 +286,53 @@
           "laya"
         ],
         "firstSeen": "2026-09-22",
-        "lastSeen": "2026-09-22",
+        "lastSeen": "2026-09-23",
         "starsAtFirstSeen": 4808
+      },
+      "NandhaKishorM/laya": {
+        "name": "NandhaKishorM/laya",
+        "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
+        "language": "Python",
+        "stars": 18815,
+        "url": "https://github.com/NandhaKishorM/laya",
+        "created": "2026-09-18T04:46:33Z",
+        "topics": [
+          "calibration",
+          "classification",
+          "decision-model",
+          "huggingface"
+        ],
+        "firstSeen": "2026-09-23",
+        "lastSeen": "2026-09-23",
+        "starsAtFirstSeen": 18815
+      },
+      "jaredpalmer/kev": {
+        "name": "jaredpalmer/kev",
+        "description": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
+        "language": "Python",
+        "stars": 5157,
+        "url": "https://github.com/jaredpalmer/kev",
+        "created": "2026-09-17T20:49:39Z",
+        "topics": [
+          "decision-model",
+          "jev",
+          "qwen3"
+        ],
+        "firstSeen": "2026-09-23",
+        "lastSeen": "2026-09-23",
+        "starsAtFirstSeen": 5157
+      },
+      "TheoLeeCJ/SemIf": {
+        "name": "TheoLeeCJ/SemIf",
+        "description": "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.",
+        "language": "Python",
+        "stars": 3990,
+        "url": "https://github.com/TheoLeeCJ/SemIf",
+        "created": "2026-09-16T03:51:21Z",
+        "topics": [],
+        "firstSeen": "2026-09-23",
+        "lastSeen": "2026-09-23",
+        "starsAtFirstSeen": 3990
       }
     },
     "showhn": {
@@ -400,12 +449,12 @@
       "https://news.ycombinator.com/item?id=49789356": {
         "title": "Foremerge – Catch intent conflicts between parallel coding agents",
         "url": "https://github.com/naw103/foremerge",
-        "points": 42,
-        "comments": 13,
+        "points": 45,
+        "comments": 17,
         "discussion": "https://news.ycombinator.com/item?id=49789356",
         "created": "2026-09-21T16:22:06.000Z",
         "firstSeen": "2026-09-22",
-        "lastSeen": "2026-09-22"
+        "lastSeen": "2026-09-23"
       },
       "https://news.ycombinator.com/item?id=49786419": {
         "title": "Lossless-memory – a personal AI memory that never summarizes",
@@ -426,6 +475,56 @@
         "created": "2026-09-20T22:39:47.000Z",
         "firstSeen": "2026-09-22",
         "lastSeen": "2026-09-22"
+      },
+      "https://news.ycombinator.com/item?id=49803683": {
+        "title": "AI·rete·RAG – a Rete rule engine decides, RAG explains why",
+        "url": "https://ai-rete-rag.com/",
+        "points": 37,
+        "comments": 3,
+        "discussion": "https://news.ycombinator.com/item?id=49803683",
+        "created": "2026-09-22T16:15:06.000Z",
+        "firstSeen": "2026-09-23",
+        "lastSeen": "2026-09-23"
+      },
+      "https://news.ycombinator.com/item?id=49801329": {
+        "title": "Drop – A rootless Linux sandbox with gVisor support",
+        "url": "https://droprun.sh/",
+        "points": 173,
+        "comments": 59,
+        "discussion": "https://news.ycombinator.com/item?id=49801329",
+        "created": "2026-09-22T13:52:47.000Z",
+        "firstSeen": "2026-09-23",
+        "lastSeen": "2026-09-23"
+      },
+      "https://news.ycombinator.com/item?id=49800574": {
+        "title": "JevBench, a reproducible benchmark for typed decision models",
+        "url": "https://benchmarkheaven.com/jev-models",
+        "points": 111,
+        "comments": 29,
+        "discussion": "https://news.ycombinator.com/item?id=49800574",
+        "created": "2026-09-22T13:01:03.000Z",
+        "firstSeen": "2026-09-23",
+        "lastSeen": "2026-09-23"
+      },
+      "https://news.ycombinator.com/item?id=49800566": {
+        "title": "Training a model to identify AI web content from structure alone",
+        "url": "https://arxiv.org/abs/2609.15369",
+        "points": 60,
+        "comments": 16,
+        "discussion": "https://news.ycombinator.com/item?id=49800566",
+        "created": "2026-09-22T13:00:49.000Z",
+        "firstSeen": "2026-09-23",
+        "lastSeen": "2026-09-23"
+      },
+      "https://news.ycombinator.com/item?id=49800513": {
+        "title": "Npunlock – Run custom C kernels for Intel NPUs",
+        "url": "https://github.com/hsfzxjy/npunlock",
+        "points": 32,
+        "comments": 8,
+        "discussion": "https://news.ycombinator.com/item?id=49800513",
+        "created": "2026-09-22T12:58:02.000Z",
+        "firstSeen": "2026-09-23",
+        "lastSeen": "2026-09-23"
       }
     }
   }
