@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-09-24T11:34:09.444Z",
+    "fetchedAt": "2026-09-25T11:40:51.044Z",
     "repos": [
       {
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 21931,
+        "stars": 23915,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -20,34 +20,16 @@
         "name": "browser-use/jev-ultrafast",
         "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 19495,
+        "stars": 20021,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": []
       },
       {
-        "name": "tamaratran/fast-jev-compaction",
-        "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
-        "language": "TypeScript",
-        "stars": 6662,
-        "url": "https://github.com/tamaratran/fast-jev-compaction",
-        "created": "2026-09-17T05:57:20Z",
-        "topics": []
-      },
-      {
-        "name": "zai-org/ZCode",
-        "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-        "language": "TypeScript",
-        "stars": 6656,
-        "url": "https://github.com/zai-org/ZCode",
-        "created": "2026-09-20T12:01:16Z",
-        "topics": []
-      },
-      {
         "name": "jaredpalmer/kev",
-        "description": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
+        "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 6537,
+        "stars": 6869,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -57,10 +39,28 @@
         ]
       },
       {
+        "name": "tamaratran/fast-jev-compaction",
+        "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
+        "language": "TypeScript",
+        "stars": 6781,
+        "url": "https://github.com/tamaratran/fast-jev-compaction",
+        "created": "2026-09-17T05:57:20Z",
+        "topics": []
+      },
+      {
+        "name": "zai-org/ZCode",
+        "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+        "language": "TypeScript",
+        "stars": 6749,
+        "url": "https://github.com/zai-org/ZCode",
+        "created": "2026-09-20T12:01:16Z",
+        "topics": []
+      },
+      {
         "name": "mizorewww/laya-mlx",
         "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
         "language": "Python",
-        "stars": 6126,
+        "stars": 6291,
         "url": "https://github.com/mizorewww/laya-mlx",
         "created": "2026-09-19T13:50:26Z",
         "topics": [
@@ -74,7 +74,7 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 5338,
+        "stars": 5487,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": []
@@ -83,7 +83,7 @@
         "name": "TheoLeeCJ/SemIf-OpenJev",
         "description": "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.",
         "language": "Python",
-        "stars": 4172,
+        "stars": 4279,
         "url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
         "created": "2026-09-16T03:51:21Z",
         "topics": []
@@ -91,52 +91,52 @@
     ],
     "showhn": [
       {
+        "title": "Koi.rest – watch some fish and regain your balance",
+        "url": "https://koi.rest",
+        "points": 191,
+        "comments": 55,
+        "discussion": "https://news.ycombinator.com/item?id=49837006",
+        "created": "2026-09-24T21:33:03.000Z"
+      },
+      {
+        "title": "Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+        "url": "https://github.com/devdotfast/whiteboard",
+        "points": 326,
+        "comments": 120,
+        "discussion": "https://news.ycombinator.com/item?id=49833867",
+        "created": "2026-09-24T17:21:36.000Z"
+      },
+      {
+        "title": "Air-gapped file encryption as self-decrypting HTML page",
+        "url": "https://cms-sfx-demo.apeleg.com/",
+        "points": 74,
+        "comments": 25,
+        "discussion": "https://news.ycombinator.com/item?id=49827375",
+        "created": "2026-09-24T07:22:17.000Z"
+      },
+      {
         "title": "How long do I need to work at my salary before I can coast, or retire?",
         "url": "https://github.com/karmanyaahm/budget-tools/tree/main/fire",
-        "points": 48,
-        "comments": 63,
+        "points": 51,
+        "comments": 70,
         "discussion": "https://news.ycombinator.com/item?id=49826059",
         "created": "2026-09-24T03:53:54.000Z"
       },
       {
         "title": "An open-source manufacturing ERP/MES/QMS",
         "url": "https://carbon.ms/self-hosted",
-        "points": 40,
-        "comments": 17,
+        "points": 52,
+        "comments": 27,
         "discussion": "https://news.ycombinator.com/item?id=49824715",
         "created": "2026-09-24T00:45:17.000Z"
       },
       {
-        "title": "I built a post-mortem debugger for native Windows x64/x86 crashes",
-        "url": "https://www.forensicdbg.com",
-        "points": 34,
-        "comments": 5,
-        "discussion": "https://news.ycombinator.com/item?id=49821086",
-        "created": "2026-09-23T19:15:55.000Z"
-      },
-      {
-        "title": "AI·rete·RAG – a Rete rule engine decides, RAG explains why",
-        "url": "https://ai-rete-rag.com/",
-        "points": 43,
-        "comments": 9,
-        "discussion": "https://news.ycombinator.com/item?id=49803683",
-        "created": "2026-09-22T16:15:06.000Z"
-      },
-      {
-        "title": "Drop – A rootless Linux sandbox with gVisor support",
-        "url": "https://droprun.sh/",
-        "points": 186,
-        "comments": 62,
-        "discussion": "https://news.ycombinator.com/item?id=49801329",
-        "created": "2026-09-22T13:52:47.000Z"
-      },
-      {
-        "title": "JevBench, a reproducible benchmark for typed decision models",
-        "url": "https://benchmarkheaven.com/jev-models",
-        "points": 143,
-        "comments": 36,
-        "discussion": "https://news.ycombinator.com/item?id=49800574",
-        "created": "2026-09-22T13:01:03.000Z"
+        "title": "Make cursed fonts like Times New Bastard",
+        "url": "https://bastardica.mitpit.com",
+        "points": 726,
+        "comments": 97,
+        "discussion": "https://news.ycombinator.com/item?id=49823738",
+        "created": "2026-09-23T22:53:28.000Z"
       }
     ]
   },
@@ -146,12 +146,12 @@
         "name": "browser-use/jev-ultrafast",
         "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 19495,
+        "stars": 20021,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": [],
         "firstSeen": "2026-09-19",
-        "lastSeen": "2026-09-24",
+        "lastSeen": "2026-09-25",
         "starsAtFirstSeen": 6295
       },
       "lnkiai/m3e-canvas": {
@@ -175,12 +175,12 @@
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 6662,
+        "stars": 6781,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": [],
         "firstSeen": "2026-09-19",
-        "lastSeen": "2026-09-24",
+        "lastSeen": "2026-09-25",
         "starsAtFirstSeen": 3625
       },
       "Human-Agent-Society/reef": {
@@ -228,12 +228,12 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 5338,
+        "stars": 5487,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": [],
         "firstSeen": "2026-09-20",
-        "lastSeen": "2026-09-24",
+        "lastSeen": "2026-09-25",
         "starsAtFirstSeen": 3449
       },
       "anthropics/commerce-agents": {
@@ -264,19 +264,19 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 6656,
+        "stars": 6749,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": [],
         "firstSeen": "2026-09-21",
-        "lastSeen": "2026-09-24",
+        "lastSeen": "2026-09-25",
         "starsAtFirstSeen": 4996
       },
       "mizorewww/laya-mlx": {
         "name": "mizorewww/laya-mlx",
         "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
         "language": "Python",
-        "stars": 6126,
+        "stars": 6291,
         "url": "https://github.com/mizorewww/laya-mlx",
         "created": "2026-09-19T13:50:26Z",
         "topics": [
@@ -286,14 +286,14 @@
           "laya"
         ],
         "firstSeen": "2026-09-22",
-        "lastSeen": "2026-09-24",
+        "lastSeen": "2026-09-25",
         "starsAtFirstSeen": 4808
       },
       "NandhaKishorM/laya": {
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 21931,
+        "stars": 23915,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -303,14 +303,14 @@
           "huggingface"
         ],
         "firstSeen": "2026-09-23",
-        "lastSeen": "2026-09-24",
+        "lastSeen": "2026-09-25",
         "starsAtFirstSeen": 18815
       },
       "jaredpalmer/kev": {
         "name": "jaredpalmer/kev",
-        "description": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
+        "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 6537,
+        "stars": 6869,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -319,7 +319,7 @@
           "qwen3"
         ],
         "firstSeen": "2026-09-23",
-        "lastSeen": "2026-09-24",
+        "lastSeen": "2026-09-25",
         "starsAtFirstSeen": 5157
       },
       "TheoLeeCJ/SemIf": {
@@ -338,12 +338,12 @@
         "name": "TheoLeeCJ/SemIf-OpenJev",
         "description": "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.",
         "language": "Python",
-        "stars": 4172,
+        "stars": 4279,
         "url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
         "created": "2026-09-16T03:51:21Z",
         "topics": [],
         "firstSeen": "2026-09-24",
-        "lastSeen": "2026-09-24",
+        "lastSeen": "2026-09-25",
         "starsAtFirstSeen": 4172
       }
     },
@@ -541,22 +541,22 @@
       "https://news.ycombinator.com/item?id=49826059": {
         "title": "How long do I need to work at my salary before I can coast, or retire?",
         "url": "https://github.com/karmanyaahm/budget-tools/tree/main/fire",
-        "points": 48,
-        "comments": 63,
+        "points": 51,
+        "comments": 70,
         "discussion": "https://news.ycombinator.com/item?id=49826059",
         "created": "2026-09-24T03:53:54.000Z",
         "firstSeen": "2026-09-24",
-        "lastSeen": "2026-09-24"
+        "lastSeen": "2026-09-25"
       },
       "https://news.ycombinator.com/item?id=49824715": {
         "title": "An open-source manufacturing ERP/MES/QMS",
         "url": "https://carbon.ms/self-hosted",
-        "points": 40,
-        "comments": 17,
+        "points": 52,
+        "comments": 27,
         "discussion": "https://news.ycombinator.com/item?id=49824715",
         "created": "2026-09-24T00:45:17.000Z",
         "firstSeen": "2026-09-24",
-        "lastSeen": "2026-09-24"
+        "lastSeen": "2026-09-25"
       },
       "https://news.ycombinator.com/item?id=49821086": {
         "title": "I built a post-mortem debugger for native Windows x64/x86 crashes",
@@ -567,6 +567,46 @@
         "created": "2026-09-23T19:15:55.000Z",
         "firstSeen": "2026-09-24",
         "lastSeen": "2026-09-24"
+      },
+      "https://news.ycombinator.com/item?id=49837006": {
+        "title": "Koi.rest – watch some fish and regain your balance",
+        "url": "https://koi.rest",
+        "points": 191,
+        "comments": 55,
+        "discussion": "https://news.ycombinator.com/item?id=49837006",
+        "created": "2026-09-24T21:33:03.000Z",
+        "firstSeen": "2026-09-25",
+        "lastSeen": "2026-09-25"
+      },
+      "https://news.ycombinator.com/item?id=49833867": {
+        "title": "Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+        "url": "https://github.com/devdotfast/whiteboard",
+        "points": 326,
+        "comments": 120,
+        "discussion": "https://news.ycombinator.com/item?id=49833867",
+        "created": "2026-09-24T17:21:36.000Z",
+        "firstSeen": "2026-09-25",
+        "lastSeen": "2026-09-25"
+      },
+      "https://news.ycombinator.com/item?id=49827375": {
+        "title": "Air-gapped file encryption as self-decrypting HTML page",
+        "url": "https://cms-sfx-demo.apeleg.com/",
+        "points": 74,
+        "comments": 25,
+        "discussion": "https://news.ycombinator.com/item?id=49827375",
+        "created": "2026-09-24T07:22:17.000Z",
+        "firstSeen": "2026-09-25",
+        "lastSeen": "2026-09-25"
+      },
+      "https://news.ycombinator.com/item?id=49823738": {
+        "title": "Make cursed fonts like Times New Bastard",
+        "url": "https://bastardica.mitpit.com",
+        "points": 726,
+        "comments": 97,
+        "discussion": "https://news.ycombinator.com/item?id=49823738",
+        "created": "2026-09-23T22:53:28.000Z",
+        "firstSeen": "2026-09-25",
+        "lastSeen": "2026-09-25"
       }
     }
   }
