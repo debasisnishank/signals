@@ -29,6 +29,24 @@ const fmtDate = (d) =>
 const fmtStars = (n) => (n >= 1000 ? `${(n / 1000).toFixed(1)}k` : String(n));
 const gained = (r) => (r.stars ?? 0) - (r.starsAtFirstSeen ?? r.stars ?? 0);
 
+// The date navigator: the same days, grouped by month, newest first.
+const months = [];
+for (const day of log) {
+  const key = day.date.slice(0, 7);
+  if (months.at(-1)?.key !== key) {
+    months.push({
+      key,
+      label: new Date(key + '-15T12:00:00Z').toLocaleDateString('en-US', { month: 'long', year: 'numeric' }),
+      days: [],
+    });
+  }
+  months.at(-1).days.push(day);
+}
+const dayId = (d) => `d-${d}`;
+const fmtNavDay = (d) =>
+  new Date(d + 'T12:00:00Z').toLocaleDateString('en-US', { weekday: 'short', day: 'numeric' });
+const count = (day) => day.repos.length + day.showhn.length;
+
 const totalRepos = Object.keys(archive.repos).length;
 const description =
   'A dated log of newly released open source — breakout repositories and ' +
@@ -53,8 +71,10 @@ const description =
       <p class="lede">Nothing recorded yet — the next scheduled run will start the log.</p>
     )}
 
+    <div class="layout">
+    <div class="log">
     {log.map((day) => (
-      <section class="day">
+      <section class="day" id={dayId(day.date)}>
         <div class="day__head">
           <h2>{fmtDate(day.date)}</h2>
           {day.date === today && <span class="badge">new today</span>}
@@ -93,6 +113,31 @@ const description =
         )}
       </section>
     ))}
+    </div>
+
+    {log.length > 0 && (
+      <nav class="dates" aria-label="Jump to date">
+        <details class="dates__panel" open>
+          <summary>Jump to date</summary>
+          {months.map((m, i) => (
+            <details class="month" open={i === 0}>
+              <summary>{m.label}</summary>
+              <ol>
+                {m.days.map((day) => (
+                  <li>
+                    <a href={`#${dayId(day.date)}`}>
+                      <span>{fmtNavDay(day.date)}</span>
+                      <span class="dates__count">{count(day)}</span>
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </details>
+          ))}
+        </details>
+      </nav>
+    )}
+    </div>
 
     <footer class="foot">
       <p>
@@ -104,4 +149,38 @@ const description =
       </a>
     </footer>
   </main>
+
+  <script>
+    const nav = document.querySelector('.dates');
+    if (nav) {
+      // Narrow screens show the navigator above the log, so start it folded;
+      // wide screens have no toggle for it, so keep it open there.
+      const panel = nav.querySelector('.dates__panel');
+      const narrow = matchMedia('(max-width: 959px)');
+      const fit = () => panel?.toggleAttribute('open', !narrow.matches);
+      fit();
+      narrow.addEventListener('change', fit);
+
+      // Mark the day currently being read, opening its month if it was folded.
+      const links = new Map(
+        [...nav.querySelectorAll('a')].map((a) => [a.getAttribute('href').slice(1), a]),
+      );
+      let current;
+      const observer = new IntersectionObserver(
+        (entries) => {
+          for (const e of entries) {
+            if (!e.isIntersecting) continue;
+            const link = links.get(e.target.id);
+            if (!link || link === current) continue;
+            current?.removeAttribute('aria-current');
+            link.setAttribute('aria-current', 'location');
+            link.closest('.month')?.setAttribute('open', '');
+            current = link;
+          }
+        },
+        { rootMargin: '0px 0px -70% 0px' },
+      );
+      document.querySelectorAll('.day[id]').forEach((s) => observer.observe(s));
+    }
+  </script>
 </BaseLayout>

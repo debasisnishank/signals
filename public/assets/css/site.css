@@ -323,3 +323,104 @@ h2 {
     letter-spacing: 0.06em;
   }
 }
+
+/* Date navigator — a sticky column beside the log on wide screens, a folded
+   panel above it on narrow ones. `top` clears the fixed theme toggle. */
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+.day { scroll-margin-top: var(--space-md); }
+
+.dates {
+  font-family: var(--font-section);
+  font-size: 0.8rem;
+}
+.dates summary {
+  cursor: pointer;
+  list-style-position: outside;
+}
+.dates__panel > summary {
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  color: var(--clr-header);
+  padding: 0.5rem 0;
+}
+.month { margin-top: 0.6rem; }
+.month > summary {
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  padding: 0.2rem 0;
+}
+.dates ol {
+  list-style: none;
+  margin: 0.3rem 0 0;
+  padding: 0;
+}
+.dates a {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.3rem 0.6rem;
+  border-left: 2px solid var(--clr-rule);
+  color: var(--clr-txt);
+  text-decoration: none;
+  font-variant-numeric: tabular-nums;
+}
+.dates a:hover { color: var(--clr-header); border-left-color: var(--clr-header); }
+.dates a[aria-current] {
+  color: var(--clr-header);
+  border-left-color: var(--clr-header);
+}
+.dates__count { opacity: 0.7; }
+
+@media (max-width: 959px) {
+  .dates {
+    order: -1;
+    margin-top: var(--space-md);
+    border: 1px solid var(--clr-rule);
+    border-radius: var(--card-radius);
+    padding: 0.25rem 1rem;
+  }
+  .dates ol {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+    column-gap: 0.5rem;
+  }
+  .dates__panel[open] { padding-bottom: 0.75rem; }
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (min-width: 960px) {
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 10rem;
+    gap: var(--space-lg);
+    align-items: start;
+  }
+  .dates {
+    position: sticky;
+    top: 6rem;
+    margin-top: var(--space-lg);
+    max-height: calc(100vh - 8rem);
+    overflow-y: auto;
+  }
+  /* The panel is always open here; its toggle only matters on a phone. */
+  .dates__panel > summary { display: none; }
+  .dates__panel::before {
+    content: 'Jump to date';
+    display: block;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-size: 0.72rem;
+    color: var(--clr-header);
+    padding: 0.5rem 0;
+  }
+}
+
+@media print {
+  .dates { display: none !important; }
+}
