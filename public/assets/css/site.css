@@ -424,3 +424,46 @@ html { scroll-behavior: smooth; }
 @media print {
   .dates { display: none !important; }
 }
+
+/* Category chips and the tag each item carries. */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: var(--space-lg);
+}
+.chip {
+  min-height: 2rem;
+  padding: 0.3rem 0.85rem;
+  border: 1px solid var(--clr-rule);
+  border-radius: 100px;
+  background: transparent;
+  color: var(--clr-txt);
+  font-family: var(--font-section);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.chip:hover { border-color: var(--clr-header); }
+.chip:focus-visible { outline: 2px solid var(--clr-anchor); outline-offset: 2px; }
+.chip[aria-pressed='true'] {
+  background: var(--clr-header);
+  border-color: var(--clr-header);
+  color: var(--clr-bg);
+}
+.chip__n { opacity: 0.75; font-variant-numeric: tabular-nums; }
+.chips + .day { margin-top: var(--space-md); }
+
+.tag {
+  font-family: var(--font-section);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.68rem;
+}
+
+[hidden] { display: none !important; }
+
+@media print {
+  .chips { display: none !important; }
+}

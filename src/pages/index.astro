@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Icon from '../components/Icon.astro';
 import feeds from '../data/feed-cache.json';
+import { CATEGORIES, OTHER, categorize } from '../lib/categories.js';
 
 const tech = feeds.tech ?? { fetchedAt: null, repos: [], showhn: [] };
 const archive = feeds.archive ?? { repos: {}, showhn: {} };
@@ -12,8 +13,8 @@ const bucket = (d) => {
   if (!days.has(d)) days.set(d, { date: d, repos: [], showhn: [] });
   return days.get(d);
 };
-for (const r of Object.values(archive.repos)) bucket(r.firstSeen).repos.push(r);
-for (const h of Object.values(archive.showhn)) bucket(h.firstSeen).showhn.push(h);
+for (const r of Object.values(archive.repos)) bucket(r.firstSeen).repos.push({ ...r, category: categorize(r) });
+for (const h of Object.values(archive.showhn)) bucket(h.firstSeen).showhn.push({ ...h, category: categorize(h) });
 
 for (const d of days.values()) {
   d.repos.sort((a, b) => b.stars - a.stars);
@@ -42,6 +43,19 @@ for (const day of log) {
   }
   months.at(-1).days.push(day);
 }
+// Filter chips: only categories that have something in them, busiest first.
+const tally = new Map();
+for (const day of log) {
+  for (const item of [...day.repos, ...day.showhn]) {
+    tally.set(item.category.id, (tally.get(item.category.id) ?? 0) + 1);
+  }
+}
+const chips = [...CATEGORIES, OTHER]
+  .filter((c) => tally.has(c.id))
+  .map((c) => ({ ...c, n: tally.get(c.id) }))
+  .sort((a, b) => b.n - a.n);
+const totalItems = [...tally.values()].reduce((a, b) => a + b, 0);
+
 const dayId = (d) => `d-${d}`;
 const fmtNavDay = (d) =>
   new Date(d + 'T12:00:00Z').toLocaleDateString('en-US', { weekday: 'short', day: 'numeric' });
@@ -73,6 +87,18 @@ const description =
 
     <div class="layout">
     <div class="log">
+    {chips.length > 1 && (
+      <div class="chips" role="group" aria-label="Filter by category" hidden>
+        <button type="button" class="chip" data-cat="all" aria-pressed="true">
+          All <span class="chip__n">{totalItems}</span>
+        </button>
+        {chips.map((c) => (
+          <button type="button" class="chip" data-cat={c.id} aria-pressed="false">
+            {c.label} <span class="chip__n">{c.n}</span>
+          </button>
+        ))}
+      </div>
+    )}
     {log.map((day) => (
       <section class="day" id={dayId(day.date)}>
         <div class="day__head">
@@ -83,13 +109,14 @@ const description =
         {day.repos.length > 0 && (
           <div class="grid">
             {day.repos.map((r) => (
-              <article class="card">
+              <article class="card" data-cat={r.category.id}>
                 <div class="card__top">
                   <a class="card__name" href={r.url} target="_blank" rel="noopener noreferrer">{r.name}</a>
                   <span class="card__stars">{fmtStars(r.stars)}&#9733;</span>
                 </div>
                 <p class="card__desc">{r.description}</p>
                 <div class="card__meta">
+                  <span class="tag">{r.category.label}</span>
                   {r.language && <span class="card__lang">{r.language}</span>}
                   {gained(r) > 0 && <span class="card__gain">+{fmtStars(gained(r))} since</span>}
                 </div>
@@ -101,10 +128,10 @@ const description =
         {day.showhn.length > 0 && (
           <ul class="list">
             {day.showhn.map((h) => (
-              <li class="row">
+              <li class="row" data-cat={h.category.id}>
                 <a class="row__title" href={h.url} target="_blank" rel="noopener noreferrer">{h.title}</a>
                 <span class="row__meta">
-                  Show HN &middot; {h.points} points &middot;{' '}
+                  <span class="tag">{h.category.label}</span> &middot; Show HN &middot; {h.points} points &middot;{' '}
                   <a href={h.discussion} target="_blank" rel="noopener noreferrer">{h.comments} comments</a>
                 </span>
               </li>
@@ -151,6 +178,50 @@ const description =
   </main>
 
   <script>
+    // Category chips. Hidden without JS, since they would do nothing; the
+    // choice lives in ?c= so a filtered view can be linked to.
+    const chipBar = document.querySelector('.chips');
+    if (chipBar) {
+      const buttons = [...chipBar.querySelectorAll('.chip')];
+      const items = [...document.querySelectorAll('.day [data-cat]')];
+
+      const apply = (cat) => {
+        if (!buttons.some((b) => b.dataset.cat === cat)) cat = 'all';
+        for (const b of buttons) b.setAttribute('aria-pressed', String(b.dataset.cat === cat));
+        for (const el of items) el.hidden = cat !== 'all' && el.dataset.cat !== cat;
+
+        // Drop days, and their navigator entries, that the filter emptied.
+        for (const day of document.querySelectorAll('.day')) {
+          const shown = day.querySelectorAll('[data-cat]:not([hidden])').length;
+          const empty = shown === 0;
+          day.hidden = empty;
+          for (const block of day.querySelectorAll('.grid, .list')) {
+            block.hidden = !block.querySelector('[data-cat]:not([hidden])');
+          }
+          const link = document.querySelector(`.dates a[href="#${day.id}"]`);
+          if (link) {
+            link.closest('li').hidden = empty;
+            link.querySelector('.dates__count').textContent = String(shown);
+          }
+        }
+        for (const month of document.querySelectorAll('.dates .month')) {
+          month.hidden = !month.querySelector('li:not([hidden])');
+        }
+
+        const url = new URL(location.href);
+        if (cat === 'all') url.searchParams.delete('c');
+        else url.searchParams.set('c', cat);
+        history.replaceState(null, '', url);
+      };
+
+      chipBar.addEventListener('click', (e) => {
+        const b = e.target.closest('.chip');
+        if (b) apply(b.dataset.cat);
+      });
+      chipBar.hidden = false;
+      apply(new URLSearchParams(location.search).get('c') ?? 'all');
+    }
+
     const nav = document.querySelector('.dates');
     if (nav) {
       // Narrow screens show the navigator above the log, so start it folded;
