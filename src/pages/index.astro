@@ -147,7 +147,7 @@ const description =
         <details class="dates__panel" open>
           <summary>Jump to date</summary>
           {months.map((m, i) => (
-            <details class="month" open={i === 0}>
+            <details class="month" name="months" open={i === 0}>
               <summary>{m.label}</summary>
               <ol>
                 {m.days.map((day) => (
@@ -252,6 +252,15 @@ const description =
         { rootMargin: '0px 0px -70% 0px' },
       );
       document.querySelectorAll('.day[id]').forEach((s) => observer.observe(s));
+
+      // One month open at a time. `name` on the <details> does this natively;
+      // this covers browsers that predate it.
+      const months = [...nav.querySelectorAll('.month')];
+      for (const m of months) {
+        m.addEventListener('toggle', () => {
+          if (m.open) for (const o of months) if (o !== m) o.open = false;
+        });
+      }
     }
   </script>
 </BaseLayout>

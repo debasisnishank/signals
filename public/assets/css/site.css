@@ -338,7 +338,28 @@ html { scroll-behavior: smooth; }
 }
 .dates summary {
   cursor: pointer;
-  list-style-position: outside;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+.dates summary::-webkit-details-marker { display: none; }
+/* Our own disclosure arrow: the native marker sat outside the column and was
+   clipped by its scroll box, so the months didn't look clickable. */
+.dates summary::before {
+  content: '';
+  flex-shrink: 0;
+  width: 0.4em;
+  height: 0.4em;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform 0.15s ease;
+}
+.dates details[open] > summary::before { transform: rotate(45deg); }
+.month > summary:hover { opacity: 1; color: var(--clr-header); }
+@media (prefers-reduced-motion: reduce) {
+  .dates summary::before { transition: none; }
 }
 .dates__panel > summary {
   letter-spacing: 0.14em;
