@@ -37,6 +37,11 @@ function readCache() {
  * ------------------------------------------------------------------------- */
 const DISCOVERY_WINDOW_DAYS = 21;
 const DISCOVERY_LIMIT = 8;
+// The 21-day chart is held by a few big breakouts for weeks, so on its own it
+// admits about one new repo a day. A second, narrow window catches repos in
+// their first days, before they could ever outrank those.
+const FRESH_WINDOW_DAYS = 3;
+const FRESH_LIMIT = 10;
 const SHOWHN_LIMIT = 6;
 
 // Curated lists and study material: popular, but not a new tool.
@@ -59,21 +64,17 @@ function isUsefulRepo(r) {
   return !NOT_A_DISCOVERY.test(r.name) && !NOT_A_DISCOVERY.test(r.description);
 }
 
-async function fetchTech() {
-  const headers = { Accept: 'application/vnd.github+json', 'User-Agent': 'astro-build' };
-  if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+const daysAgo = (n) => new Date(Date.now() - n * 86400_000).toISOString().slice(0, 10);
 
-  const since = new Date(Date.now() - DISCOVERY_WINDOW_DAYS * 86400_000).toISOString().slice(0, 10);
-  const q = `created:>${since} stars:>40`;
+async function searchRepos(q, limit, headers) {
   const res = await fetch(
     `https://api.github.com/search/repositories?q=${encodeURIComponent(q)}&sort=stars&order=desc&per_page=40`,
     { headers },
   );
   if (!res.ok) throw new Error(`repo search ${res.status} ${res.statusText}`);
-
-  const repos = ((await res.json()).items ?? [])
+  return ((await res.json()).items ?? [])
     .filter(isUsefulRepo)
-    .slice(0, DISCOVERY_LIMIT)
+    .slice(0, limit)
     .map((r) => ({
       name: r.full_name,
       description: r.description,
@@ -83,6 +84,15 @@ async function fetchTech() {
       created: r.created_at,
       topics: (r.topics ?? []).slice(0, 4),
     }));
+}
+
+async function fetchTech() {
+  const headers = { Accept: 'application/vnd.github+json', 'User-Agent': 'astro-build' };
+  if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+
+  const breakouts = await searchRepos(`created:>${daysAgo(DISCOVERY_WINDOW_DAYS)} stars:>40`, DISCOVERY_LIMIT, headers);
+  const fresh = await searchRepos(`created:>${daysAgo(FRESH_WINDOW_DAYS)} stars:>40`, FRESH_LIMIT, headers);
+  const repos = [...new Map([...breakouts, ...fresh].map((r) => [r.name, r])).values()];
 
   // Show HN: things people built and shipped, rather than things written about.
   const cutoff = Math.floor(Date.now() / 1000) - DISCOVERY_WINDOW_DAYS * 86400;
