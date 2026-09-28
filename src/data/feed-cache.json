@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-09-28T11:17:03.291Z",
+    "fetchedAt": "2026-09-28T13:39:50.983Z",
     "repos": [
       {
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 27233,
+        "stars": 27349,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -20,7 +20,7 @@
         "name": "browser-use/jev-ultrafast",
         "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 21004,
+        "stars": 21027,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": [],
@@ -34,7 +34,7 @@
         "name": "jaredpalmer/kev",
         "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 7551,
+        "stars": 7575,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -52,7 +52,7 @@
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 7063,
+        "stars": 7074,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": []
@@ -61,7 +61,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 6992,
+        "stars": 7009,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": []
@@ -70,7 +70,7 @@
         "name": "mizorewww/laya-mlx",
         "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
         "language": "Python",
-        "stars": 6534,
+        "stars": 6543,
         "url": "https://github.com/mizorewww/laya-mlx",
         "created": "2026-09-19T13:50:26Z",
         "topics": [
@@ -84,7 +84,7 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 5932,
+        "stars": 5947,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": []
@@ -93,7 +93,7 @@
         "name": "Mak5er/AirCard",
         "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
         "language": "Swift",
-        "stars": 4642,
+        "stars": 4664,
         "url": "https://github.com/Mak5er/AirCard",
         "created": "2026-09-16T22:20:15Z",
         "topics": []
@@ -102,7 +102,7 @@
         "name": "dzhng/jevgrep",
         "description": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
         "language": "TypeScript",
-        "stars": 1062,
+        "stars": 1146,
         "url": "https://github.com/dzhng/jevgrep",
         "created": "2026-09-26T04:06:56Z",
         "topics": [
@@ -116,7 +116,7 @@
         "name": "feitangyuan/onetake",
         "description": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.",
         "language": "Python",
-        "stars": 632,
+        "stars": 651,
         "url": "https://github.com/feitangyuan/onetake",
         "created": "2026-09-26T05:35:17Z",
         "topics": [
@@ -130,7 +130,7 @@
         "name": "lemomo-ai/lemo-opuscar",
         "description": "39 film styles, each a reusable style prompt plus a short film made entirely in code by Claude Opus 5.5. Pick a style, bring your own story, and let your agent direct. | Opus5.5 x 39 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
         "language": "JavaScript",
-        "stars": 456,
+        "stars": 474,
         "url": "https://github.com/lemomo-ai/lemo-opuscar",
         "created": "2026-09-26T10:10:41Z",
         "topics": [
@@ -141,24 +141,10 @@
         ]
       },
       {
-        "name": "jaydendavisnc/inkwave",
-        "description": "Splatoon-style 4v4 turf-war shooter for the browser, built on three.js. No build step.",
-        "language": "JavaScript",
-        "stars": 280,
-        "url": "https://github.com/jaydendavisnc/inkwave",
-        "created": "2026-09-26T12:50:22Z",
-        "topics": [
-          "browser-game",
-          "game",
-          "javascript",
-          "shooter"
-        ]
-      },
-      {
         "name": "kaankiziltug/logo-design-skill",
         "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
         "language": "HTML",
-        "stars": 273,
+        "stars": 289,
         "url": "https://github.com/kaankiziltug/logo-design-skill",
         "created": "2026-09-26T08:23:34Z",
         "topics": [
@@ -169,10 +155,24 @@
         ]
       },
       {
+        "name": "jaydendavisnc/inkwave",
+        "description": "Splatoon-style 4v4 turf-war shooter for the browser, built on three.js. No build step.",
+        "language": "JavaScript",
+        "stars": 285,
+        "url": "https://github.com/jaydendavisnc/inkwave",
+        "created": "2026-09-26T12:50:22Z",
+        "topics": [
+          "browser-game",
+          "game",
+          "javascript",
+          "shooter"
+        ]
+      },
+      {
         "name": "AgentSystemLabs/agent-office",
         "description": "A cartoon 3D office where your team hires Claude Code workers at desks, shares live terminals, talks over voice, and tracks GitHub issues and PRs.",
         "language": "TypeScript",
-        "stars": 219,
+        "stars": 233,
         "url": "https://github.com/AgentSystemLabs/agent-office",
         "created": "2026-09-26T00:32:48Z",
         "topics": []
@@ -192,28 +192,28 @@
         ]
       },
       {
-        "name": "ZacharyZhang-NY/OmaPhoto",
-        "description": "Layered image editor for Linux and Omarchy, a port of Compositor",
-        "language": "C++",
-        "stars": 182,
-        "url": "https://github.com/ZacharyZhang-NY/OmaPhoto",
-        "created": "2026-09-26T04:44:52Z",
-        "topics": []
-      },
-      {
         "name": "moguzbulbul/blueprint-animation",
         "description": "Claude Design skill: animated before → after UX redesign, explained step by step through a blueprint drawing. By @moguzbulbul.",
         "language": "JavaScript",
-        "stars": 176,
+        "stars": 199,
         "url": "https://github.com/moguzbulbul/blueprint-animation",
         "created": "2026-09-27T21:48:33Z",
+        "topics": []
+      },
+      {
+        "name": "ZacharyZhang-NY/OmaPhoto",
+        "description": "Layered image editor for Linux and Omarchy, a port of Compositor",
+        "language": "C++",
+        "stars": 184,
+        "url": "https://github.com/ZacharyZhang-NY/OmaPhoto",
+        "created": "2026-09-26T04:44:52Z",
         "topics": []
       },
       {
         "name": "DanFessler/trellis",
         "description": "Fractal layouts for web apps: nest panels to any depth, zoom to the part you need, and keep every view alive.",
         "language": "TypeScript",
-        "stars": 166,
+        "stars": 173,
         "url": "https://github.com/DanFessler/trellis",
         "created": "2026-09-26T07:52:44Z",
         "topics": []
@@ -222,10 +222,19 @@
     "posts": [
       {
         "source": "showhn",
+        "title": "Hntui – A TUI for Hacker News",
+        "url": "https://github.com/ahmd-sh/hntui",
+        "points": 33,
+        "comments": 14,
+        "discussion": "https://news.ycombinator.com/item?id=49876760",
+        "created": "2026-09-28T12:11:20.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "Lofi Cities – Pixel-art city nights with browser-generated lofi",
         "url": "https://loficities.com/",
-        "points": 257,
-        "comments": 112,
+        "points": 276,
+        "comments": 115,
         "discussion": "https://news.ycombinator.com/item?id=49869574",
         "created": "2026-09-27T18:44:30.000Z"
       },
@@ -233,7 +242,7 @@
         "source": "showhn",
         "title": "TinyAIArena watch AI agents battle it out",
         "url": "https://tinyaiarena.com/",
-        "points": 110,
+        "points": 114,
         "comments": 44,
         "discussion": "https://news.ycombinator.com/item?id=49867775",
         "created": "2026-09-27T15:51:28.000Z"
@@ -242,8 +251,8 @@
         "source": "showhn",
         "title": "Building a Markdown editor for Mac, iOS and web",
         "url": "https://www.markdown.beauty/",
-        "points": 67,
-        "comments": 49,
+        "points": 68,
+        "comments": 50,
         "discussion": "https://news.ycombinator.com/item?id=49866597",
         "created": "2026-09-27T13:44:45.000Z"
       },
@@ -260,19 +269,10 @@
         "source": "showhn",
         "title": "Reladraw – A diagram language where you decide where to place things",
         "url": "https://github.com/reladraw/reladraw",
-        "points": 396,
+        "points": 397,
         "comments": 115,
         "discussion": "https://news.ycombinator.com/item?id=49858513",
         "created": "2026-09-26T17:10:40.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "A Claude Code skill to analyze your chess games",
-        "url": "https://github.com/brumar/chess-postmortem-skills",
-        "points": 75,
-        "comments": 55,
-        "discussion": "https://news.ycombinator.com/item?id=49857528",
-        "created": "2026-09-26T15:34:53.000Z"
       },
       {
         "source": "launchhn",
@@ -296,7 +296,7 @@
         "source": "hn",
         "title": "Imp is a full port of DSPy to the BEAM",
         "url": "https://github.com/deepfates/imp",
-        "points": 78,
+        "points": 88,
         "comments": 7,
         "discussion": "https://news.ycombinator.com/item?id=49869995",
         "created": "2026-09-27T19:28:23.000Z"
@@ -327,7 +327,7 @@
         "name": "browser-use/jev-ultrafast",
         "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 21004,
+        "stars": 21027,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": [],
@@ -361,7 +361,7 @@
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 7063,
+        "stars": 7074,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": [],
@@ -414,7 +414,7 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 5932,
+        "stars": 5947,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": [],
@@ -450,7 +450,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 6992,
+        "stars": 7009,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": [],
@@ -462,7 +462,7 @@
         "name": "mizorewww/laya-mlx",
         "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
         "language": "Python",
-        "stars": 6534,
+        "stars": 6543,
         "url": "https://github.com/mizorewww/laya-mlx",
         "created": "2026-09-19T13:50:26Z",
         "topics": [
@@ -479,7 +479,7 @@
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 27233,
+        "stars": 27349,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -496,7 +496,7 @@
         "name": "jaredpalmer/kev",
         "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 7551,
+        "stars": 7575,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -541,7 +541,7 @@
         "name": "Mak5er/AirCard",
         "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
         "language": "Swift",
-        "stars": 4642,
+        "stars": 4664,
         "url": "https://github.com/Mak5er/AirCard",
         "created": "2026-09-16T22:20:15Z",
         "topics": [],
@@ -553,7 +553,7 @@
         "name": "dzhng/jevgrep",
         "description": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
         "language": "TypeScript",
-        "stars": 1062,
+        "stars": 1146,
         "url": "https://github.com/dzhng/jevgrep",
         "created": "2026-09-26T04:06:56Z",
         "topics": [
@@ -570,7 +570,7 @@
         "name": "feitangyuan/onetake",
         "description": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.",
         "language": "Python",
-        "stars": 632,
+        "stars": 651,
         "url": "https://github.com/feitangyuan/onetake",
         "created": "2026-09-26T05:35:17Z",
         "topics": [
@@ -587,7 +587,7 @@
         "name": "lemomo-ai/lemo-opuscar",
         "description": "39 film styles, each a reusable style prompt plus a short film made entirely in code by Claude Opus 5.5. Pick a style, bring your own story, and let your agent direct. | Opus5.5 x 39 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
         "language": "JavaScript",
-        "stars": 456,
+        "stars": 474,
         "url": "https://github.com/lemomo-ai/lemo-opuscar",
         "created": "2026-09-26T10:10:41Z",
         "topics": [
@@ -604,7 +604,7 @@
         "name": "jaydendavisnc/inkwave",
         "description": "Splatoon-style 4v4 turf-war shooter for the browser, built on three.js. No build step.",
         "language": "JavaScript",
-        "stars": 280,
+        "stars": 285,
         "url": "https://github.com/jaydendavisnc/inkwave",
         "created": "2026-09-26T12:50:22Z",
         "topics": [
@@ -621,7 +621,7 @@
         "name": "kaankiziltug/logo-design-skill",
         "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
         "language": "HTML",
-        "stars": 273,
+        "stars": 289,
         "url": "https://github.com/kaankiziltug/logo-design-skill",
         "created": "2026-09-26T08:23:34Z",
         "topics": [
@@ -638,7 +638,7 @@
         "name": "AgentSystemLabs/agent-office",
         "description": "A cartoon 3D office where your team hires Claude Code workers at desks, shares live terminals, talks over voice, and tracks GitHub issues and PRs.",
         "language": "TypeScript",
-        "stars": 219,
+        "stars": 233,
         "url": "https://github.com/AgentSystemLabs/agent-office",
         "created": "2026-09-26T00:32:48Z",
         "topics": [],
@@ -667,7 +667,7 @@
         "name": "ZacharyZhang-NY/OmaPhoto",
         "description": "Layered image editor for Linux and Omarchy, a port of Compositor",
         "language": "C++",
-        "stars": 182,
+        "stars": 184,
         "url": "https://github.com/ZacharyZhang-NY/OmaPhoto",
         "created": "2026-09-26T04:44:52Z",
         "topics": [],
@@ -679,7 +679,7 @@
         "name": "moguzbulbul/blueprint-animation",
         "description": "Claude Design skill: animated before → after UX redesign, explained step by step through a blueprint drawing. By @moguzbulbul.",
         "language": "JavaScript",
-        "stars": 176,
+        "stars": 199,
         "url": "https://github.com/moguzbulbul/blueprint-animation",
         "created": "2026-09-27T21:48:33Z",
         "topics": [],
@@ -691,7 +691,7 @@
         "name": "DanFessler/trellis",
         "description": "Fractal layouts for web apps: nest panels to any depth, zoom to the part you need, and keep every view alive.",
         "language": "TypeScript",
-        "stars": 166,
+        "stars": 173,
         "url": "https://github.com/DanFessler/trellis",
         "created": "2026-09-26T07:52:44Z",
         "topics": [],
@@ -1035,7 +1035,7 @@
         "source": "showhn",
         "title": "Reladraw – A diagram language where you decide where to place things",
         "url": "https://github.com/reladraw/reladraw",
-        "points": 396,
+        "points": 397,
         "comments": 115,
         "discussion": "https://news.ycombinator.com/item?id=49858513",
         "created": "2026-09-26T17:10:40.000Z",
@@ -1068,8 +1068,8 @@
         "source": "showhn",
         "title": "Lofi Cities – Pixel-art city nights with browser-generated lofi",
         "url": "https://loficities.com/",
-        "points": 257,
-        "comments": 112,
+        "points": 276,
+        "comments": 115,
         "discussion": "https://news.ycombinator.com/item?id=49869574",
         "created": "2026-09-27T18:44:30.000Z",
         "firstSeen": "2026-09-28",
@@ -1079,7 +1079,7 @@
         "source": "showhn",
         "title": "TinyAIArena watch AI agents battle it out",
         "url": "https://tinyaiarena.com/",
-        "points": 110,
+        "points": 114,
         "comments": 44,
         "discussion": "https://news.ycombinator.com/item?id=49867775",
         "created": "2026-09-27T15:51:28.000Z",
@@ -1090,8 +1090,8 @@
         "source": "showhn",
         "title": "Building a Markdown editor for Mac, iOS and web",
         "url": "https://www.markdown.beauty/",
-        "points": 67,
-        "comments": 49,
+        "points": 68,
+        "comments": 50,
         "discussion": "https://news.ycombinator.com/item?id=49866597",
         "created": "2026-09-27T13:44:45.000Z",
         "firstSeen": "2026-09-28",
@@ -1134,7 +1134,7 @@
         "source": "hn",
         "title": "Imp is a full port of DSPy to the BEAM",
         "url": "https://github.com/deepfates/imp",
-        "points": 78,
+        "points": 88,
         "comments": 7,
         "discussion": "https://news.ycombinator.com/item?id=49869995",
         "created": "2026-09-27T19:28:23.000Z",
@@ -1162,88 +1162,110 @@
         "created": "2026-09-22T18:55:00.112Z",
         "firstSeen": "2026-09-28",
         "lastSeen": "2026-09-28"
+      },
+      "https://news.ycombinator.com/item?id=49876760": {
+        "source": "showhn",
+        "title": "Hntui – A TUI for Hacker News",
+        "url": "https://github.com/ahmd-sh/hntui",
+        "points": 33,
+        "comments": 14,
+        "discussion": "https://news.ycombinator.com/item?id=49876760",
+        "created": "2026-09-28T12:11:20.000Z",
+        "firstSeen": "2026-09-28",
+        "lastSeen": "2026-09-28"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-09-28T11:17:03.291Z",
+    "fetchedAt": "2026-09-28T13:39:50.983Z",
     "hn": [
       {
         "title": "When did Google get so weird?",
         "url": "https://sancho.bearblog.dev/google-weird/",
-        "points": 1362,
-        "comments": 742,
+        "points": 1484,
+        "comments": 793,
         "discussion": "https://news.ycombinator.com/item?id=49870367"
       },
       {
         "title": "Owed a billion dollars in Nvidia stock",
         "url": "https://colo.to/nvidia-stock-narrative.html",
-        "points": 757,
-        "comments": 312,
+        "points": 856,
+        "comments": 364,
         "discussion": "https://news.ycombinator.com/item?id=49872723"
       },
       {
         "title": "Ember-1",
         "url": "https://fireworks.ai/blog/ember-1",
-        "points": 484,
-        "comments": 219,
+        "points": 514,
+        "comments": 227,
         "discussion": "https://news.ycombinator.com/item?id=49868830"
       },
       {
-        "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
-        "url": "https://loficities.com/",
-        "points": 257,
-        "comments": 112,
-        "discussion": "https://news.ycombinator.com/item?id=49869574"
+        "title": "AI companies in race to demonstrate their model most threatening to humanity",
+        "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
+        "points": 283,
+        "comments": 199,
+        "discussion": "https://news.ycombinator.com/item?id=49875148"
       },
       {
         "title": "Don't couple your Go code to GitHub",
         "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
-        "points": 254,
-        "comments": 116,
+        "points": 279,
+        "comments": 137,
         "discussion": "https://news.ycombinator.com/item?id=49868404"
+      },
+      {
+        "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+        "url": "https://loficities.com/",
+        "points": 276,
+        "comments": 115,
+        "discussion": "https://news.ycombinator.com/item?id=49869574"
       },
       {
         "title": "In an $80 motel room, a discovery to shed light on the origins of life",
         "url": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
-        "points": 254,
-        "comments": 94,
+        "points": 264,
+        "comments": 98,
         "discussion": "https://news.ycombinator.com/item?id=49866951"
       },
       {
         "title": "Self-Hosting on the Dark Web",
         "url": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/",
-        "points": 216,
-        "comments": 83,
+        "points": 261,
+        "comments": 95,
         "discussion": "https://news.ycombinator.com/item?id=49870295"
       },
       {
-        "title": "Replacing the old battery on rechargeable bike lights",
-        "url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/",
-        "points": 177,
-        "comments": 96,
-        "discussion": "https://news.ycombinator.com/item?id=49866515"
+        "title": "SpaceX's Starship launching to orbit for first time ever today",
+        "url": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-launching-to-orbit-for-1st-time-ever-on-sept-28-watch-it-live",
+        "points": 196,
+        "comments": 115,
+        "discussion": "https://news.ycombinator.com/item?id=49875411"
       },
       {
         "title": "The state of SIMD in Rust in 2026",
         "url": "https://shnatsel.github.io/state-of-simd-rust-2026/",
-        "points": 163,
-        "comments": 39,
+        "points": 177,
+        "comments": 45,
         "discussion": "https://news.ycombinator.com/item?id=49844629"
-      },
-      {
-        "title": "There is more to code review than (automatable) detection",
-        "url": "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/",
-        "points": 142,
-        "comments": 88,
-        "discussion": "https://news.ycombinator.com/item?id=49857281"
       }
     ],
     "lobsters": [
       {
+        "title": "Yes, no AI is now a feature",
+        "url": "https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature/",
+        "points": 40,
+        "comments": 6,
+        "discussion": "https://lobste.rs/s/sxcz4v/yes_no_ai_is_now_feature",
+        "tags": [
+          "practices",
+          "vibecoding"
+        ]
+      },
+      {
         "title": "“They had no concept of a duty of care to their users.”",
         "url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
-        "points": 148,
+        "points": 159,
         "comments": 39,
         "discussion": "https://lobste.rs/s/1colyy/they_had_no_concept_duty_care_their_users",
         "tags": [
@@ -1253,48 +1275,27 @@
       {
         "title": "What makes Lisp difficult to read?",
         "url": "https://paultm.nl/paren-thesis",
-        "points": 21,
-        "comments": 9,
+        "points": 30,
+        "comments": 13,
         "discussion": "https://lobste.rs/s/fqype1/what_makes_lisp_difficult_read",
         "tags": [
           "plt"
         ]
       },
       {
-        "title": "postmarketOS rebrands as Nura",
-        "url": "https://nura.eco/blog/2026/09/27/nura-rename/",
-        "points": 64,
-        "comments": 9,
-        "discussion": "https://lobste.rs/s/msjitj/postmarketos_rebrands_as_nura",
+        "title": "Hijacking the PS5's RTMP Stream",
+        "url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
+        "points": 10,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/8oyww7/hijacking_ps5_s_rtmp_stream",
         "tags": [
-          "linux"
-        ]
-      },
-      {
-        "title": "Yes, no AI is now a feature",
-        "url": "https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature/",
-        "points": 13,
-        "comments": 2,
-        "discussion": "https://lobste.rs/s/sxcz4v/yes_no_ai_is_now_feature",
-        "tags": [
-          "practices",
-          "vibecoding"
-        ]
-      },
-      {
-        "title": "Don't couple your Go code to GitHub",
-        "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
-        "points": 30,
-        "comments": 15,
-        "discussion": "https://lobste.rs/s/e5vf6k/don_t_couple_your_go_code_github",
-        "tags": [
-          "go"
+          "networking"
         ]
       },
       {
         "title": "Rickrolling with a Pharmacy cross",
         "url": "https://hugoarnal.com/blog/rickroll-pharmacy-cross/",
-        "points": 8,
+        "points": 15,
         "comments": 0,
         "discussion": "https://lobste.rs/s/6p91by/rickrolling_with_pharmacy_cross",
         "tags": [
@@ -1302,41 +1303,51 @@
         ]
       },
       {
-        "title": "Fool's Expertise",
-        "url": "https://bcantrill.dtrace.org/2026/09/27/fools-expertise/",
-        "points": 16,
-        "comments": 3,
-        "discussion": "https://lobste.rs/s/hjkktn/fool_s_expertise",
+        "title": "When did Google get so weird?",
+        "url": "https://sancho.bearblog.dev/google-weird/",
+        "points": 15,
+        "comments": 4,
+        "discussion": "https://lobste.rs/s/aig5tr/when_did_google_get_so_weird",
         "tags": [
           "vibecoding"
         ]
       },
       {
-        "title": "Ten Lines Of Code That Changed My World",
-        "url": "https://pixelambacht.nl/2026/ten-lines-of-code/",
-        "points": 46,
-        "comments": 13,
-        "discussion": "https://lobste.rs/s/fpk9gq/ten_lines_code_changed_my_world",
+        "title": "Leaving them behind",
+        "url": "https://dbushell.com/2026/09/28/leaving-them-behind/",
+        "points": 14,
+        "comments": 3,
+        "discussion": "https://lobste.rs/s/h3igdh/leaving_them_behind",
         "tags": [
-          "programming"
+          "vibecoding"
         ]
       },
       {
-        "title": "Replacing the old battery on rechargeable bike lights",
-        "url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/",
-        "points": 10,
+        "title": "postmarketOS rebrands as Nura",
+        "url": "https://nura.eco/blog/2026/09/27/nura-rename/",
+        "points": 71,
+        "comments": 11,
+        "discussion": "https://lobste.rs/s/msjitj/postmarketos_rebrands_as_nura",
+        "tags": [
+          "linux"
+        ]
+      },
+      {
+        "title": "Don't couple your Go code to GitHub",
+        "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+        "points": 35,
+        "comments": 16,
+        "discussion": "https://lobste.rs/s/e5vf6k/don_t_couple_your_go_code_github",
+        "tags": [
+          "go"
+        ]
+      },
+      {
+        "title": "Fool's Expertise",
+        "url": "https://bcantrill.dtrace.org/2026/09/27/fools-expertise/",
+        "points": 21,
         "comments": 4,
-        "discussion": "https://lobste.rs/s/pfzhxp/replacing_old_battery_on_rechargeable",
-        "tags": [
-          "hardware"
-        ]
-      },
-      {
-        "title": "One month without AI",
-        "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-        "points": 88,
-        "comments": 12,
-        "discussion": "https://lobste.rs/s/ivbx5f/one_month_without_ai",
+        "discussion": "https://lobste.rs/s/hjkktn/fool_s_expertise",
         "tags": [
           "vibecoding"
         ]
@@ -1344,27 +1355,39 @@
     ],
     "devto": [
       {
-        "title": "I burned out. Now I don't know how to start again.",
-        "url": "https://dev.to/embernoglow/i-burned-out-now-i-dont-know-how-to-start-again-1h79",
-        "points": 23,
-        "comments": 17,
-        "discussion": "https://dev.to/embernoglow/i-burned-out-now-i-dont-know-how-to-start-again-1h79",
+        "title": "Build a Contract Obligations Review App with ToolJet MCP",
+        "url": "https://dev.to/tooljet/build-a-contract-obligations-review-app-with-tooljet-mcp-ema",
+        "points": 36,
+        "comments": 1,
+        "discussion": "https://dev.to/tooljet/build-a-contract-obligations-review-app-with-tooljet-mcp-ema",
         "tags": [
-          "discuss",
-          "help",
-          "productivity"
+          "ai",
+          "webdev",
+          "javascript"
         ]
       },
       {
-        "title": "I Tried to Prompt a 3D DEV Library Into Existence. Then I Had to Build My Own Level Editor.",
-        "url": "https://dev.to/mikachu/i-tried-to-prompt-a-3d-dev-library-into-existence-then-i-had-to-build-my-own-level-editor-37gf",
-        "points": 19,
-        "comments": 4,
-        "discussion": "https://dev.to/mikachu/i-tried-to-prompt-a-3d-dev-library-into-existence-then-i-had-to-build-my-own-level-editor-37gf",
+        "title": "The 7 Walls JavaScript Hits — and How WebAssembly Gets Past Them",
+        "url": "https://dev.to/james_anderson_h/the-7-walls-javascript-hits-and-how-webassembly-gets-past-them-3khk",
+        "points": 24,
+        "comments": 13,
+        "discussion": "https://dev.to/james_anderson_h/the-7-walls-javascript-hits-and-how-webassembly-gets-past-them-3khk",
         "tags": [
-          "devchallenge",
-          "sanitychallenge",
-          "ai"
+          "webassembly",
+          "webdev",
+          "javascript"
+        ]
+      },
+      {
+        "title": "ATLOCK v5: I'm 13. I Had One Laptop. So I Built a Security Suite. 🔐",
+        "url": "https://dev.to/akhourianmolkumar/atlock-v5-im-13-i-had-one-laptop-so-i-built-a-security-suite-1jea",
+        "points": 18,
+        "comments": 4,
+        "discussion": "https://dev.to/akhourianmolkumar/atlock-v5-im-13-i-had-one-laptop-so-i-built-a-security-suite-1jea",
+        "tags": [
+          "security",
+          "python",
+          "cybersecurity"
         ]
       },
       {
@@ -1380,22 +1403,34 @@
         ]
       },
       {
-        "title": "The 7 Walls JavaScript Hits — and How WebAssembly Gets Past Them",
-        "url": "https://dev.to/james_anderson_h/the-7-walls-javascript-hits-and-how-webassembly-gets-past-them-3khk",
-        "points": 14,
-        "comments": 6,
-        "discussion": "https://dev.to/james_anderson_h/the-7-walls-javascript-hits-and-how-webassembly-gets-past-them-3khk",
+        "title": "Dear Coder: Open This If You're Feeling AI FOMO",
+        "url": "https://dev.to/canro91/dear-coder-open-this-if-youre-feeling-ai-fomo-58d4",
+        "points": 16,
+        "comments": 5,
+        "discussion": "https://dev.to/canro91/dear-coder-open-this-if-youre-feeling-ai-fomo-58d4",
         "tags": [
-          "webassembly",
-          "webdev",
-          "javascript"
+          "career",
+          "ai",
+          "programming"
+        ]
+      },
+      {
+        "title": "Half the AI agents in production are if-statements with a GPU bill",
+        "url": "https://dev.to/cyclopt_dimitrisk/half-the-ai-agents-in-production-are-if-statements-with-a-gpu-bill-4934",
+        "points": 15,
+        "comments": 5,
+        "discussion": "https://dev.to/cyclopt_dimitrisk/half-the-ai-agents-in-production-are-if-statements-with-a-gpu-bill-4934",
+        "tags": [
+          "ai",
+          "programming",
+          "architecture"
         ]
       },
       {
         "title": "AI Can Fix the Bug Before You Understand It — That’s More Dangerous Than It Sounds",
         "url": "https://dev.to/robertadam987_/ai-can-fix-the-bug-before-you-understand-it-thats-more-dangerous-than-it-sounds-466j",
-        "points": 13,
-        "comments": 3,
+        "points": 15,
+        "comments": 4,
         "discussion": "https://dev.to/robertadam987_/ai-can-fix-the-bug-before-you-understand-it-thats-more-dangerous-than-it-sounds-466j",
         "tags": [
           "ai",
@@ -1406,8 +1441,8 @@
       {
         "title": "ToolTrap: “tool results are data” wasn’t enough",
         "url": "https://dev.to/himanshu_748/tooltrap-tool-results-are-data-wasnt-enough-25oh",
-        "points": 12,
-        "comments": 3,
+        "points": 13,
+        "comments": 4,
         "discussion": "https://dev.to/himanshu_748/tooltrap-tool-results-are-data-wasnt-enough-25oh",
         "tags": [
           "devchallenge",
@@ -1419,36 +1454,12 @@
         "title": "Implementation is where judgements go to become invisible",
         "url": "https://dev.to/tom_jones_230c4659491adcd/implementation-is-where-judgements-go-to-become-invisible-4p1h",
         "points": 10,
-        "comments": 9,
+        "comments": 13,
         "discussion": "https://dev.to/tom_jones_230c4659491adcd/implementation-is-where-judgements-go-to-become-invisible-4p1h",
         "tags": [
           "testing",
           "programming",
           "discuss"
-        ]
-      },
-      {
-        "title": "Dear Coder: Open This If You're Feeling AI FOMO",
-        "url": "https://dev.to/canro91/dear-coder-open-this-if-youre-feeling-ai-fomo-58d4",
-        "points": 10,
-        "comments": 4,
-        "discussion": "https://dev.to/canro91/dear-coder-open-this-if-youre-feeling-ai-fomo-58d4",
-        "tags": [
-          "career",
-          "ai",
-          "programming"
-        ]
-      },
-      {
-        "title": "Half the AI agents in production are if-statements with a GPU bill",
-        "url": "https://dev.to/cyclopt_dimitrisk/half-the-ai-agents-in-production-are-if-statements-with-a-gpu-bill-4934",
-        "points": 10,
-        "comments": 2,
-        "discussion": "https://dev.to/cyclopt_dimitrisk/half-the-ai-agents-in-production-are-if-statements-with-a-gpu-bill-4934",
-        "tags": [
-          "ai",
-          "programming",
-          "architecture"
         ]
       },
       {
