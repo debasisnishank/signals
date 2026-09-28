@@ -4,21 +4,26 @@ import Icon from '../components/Icon.astro';
 import feeds from '../data/feed-cache.json';
 import { CATEGORIES, OTHER, categorize } from '../lib/categories.js';
 
-const tech = feeds.tech ?? { fetchedAt: null, repos: [], showhn: [] };
-const archive = feeds.archive ?? { repos: {}, showhn: {} };
+const tech = feeds.tech ?? { fetchedAt: null };
+const archive = feeds.archive ?? {};
+// Posts used to be Show HN only, under `showhn`; the next refresh migrates them.
+const posts = archive.posts ?? Object.fromEntries(
+  Object.entries(archive.showhn ?? {}).map(([k, v]) => [k, { source: 'showhn', ...v }]),
+);
+const SOURCE_LABEL = { showhn: 'Show HN', launchhn: 'Launch HN', hn: 'HN front page' };
 
 // Group every item by the day it was first seen — that is the log.
 const days = new Map();
 const bucket = (d) => {
-  if (!days.has(d)) days.set(d, { date: d, repos: [], showhn: [] });
+  if (!days.has(d)) days.set(d, { date: d, repos: [], posts: [] });
   return days.get(d);
 };
-for (const r of Object.values(archive.repos)) bucket(r.firstSeen).repos.push({ ...r, category: categorize(r) });
-for (const h of Object.values(archive.showhn)) bucket(h.firstSeen).showhn.push({ ...h, category: categorize(h) });
+for (const r of Object.values(archive.repos ?? {})) bucket(r.firstSeen).repos.push({ ...r, category: categorize(r) });
+for (const h of Object.values(posts)) bucket(h.firstSeen).posts.push({ ...h, category: categorize(h) });
 
 for (const d of days.values()) {
   d.repos.sort((a, b) => b.stars - a.stars);
-  d.showhn.sort((a, b) => b.points - a.points);
+  d.posts.sort((a, b) => b.points - a.points);
 }
 const log = [...days.values()].sort((a, b) => (a.date < b.date ? 1 : -1));
 const today = (tech.fetchedAt ?? new Date().toISOString()).slice(0, 10);
@@ -46,7 +51,7 @@ for (const day of log) {
 // Filter chips: only categories that have something in them, busiest first.
 const tally = new Map();
 for (const day of log) {
-  for (const item of [...day.repos, ...day.showhn]) {
+  for (const item of [...day.repos, ...day.posts]) {
     tally.set(item.category.id, (tally.get(item.category.id) ?? 0) + 1);
   }
 }
@@ -59,9 +64,9 @@ const totalItems = [...tally.values()].reduce((a, b) => a + b, 0);
 const dayId = (d) => `d-${d}`;
 const fmtNavDay = (d) =>
   new Date(d + 'T12:00:00Z').toLocaleDateString('en-US', { weekday: 'short', day: 'numeric' });
-const count = (day) => day.repos.length + day.showhn.length;
+const count = (day) => day.repos.length + day.posts.length;
 
-const totalRepos = Object.keys(archive.repos).length;
+const totalRepos = Object.keys(archive.repos ?? {}).length;
 const description =
   'A dated log of newly released open source — breakout repositories and ' +
   'tools people shipped, recorded on the day each one showed up.';
@@ -119,19 +124,24 @@ const description =
                   <span class="tag">{r.category.label}</span>
                   {r.language && <span class="card__lang">{r.language}</span>}
                   {gained(r) > 0 && <span class="card__gain">+{fmtStars(gained(r))} since</span>}
+                  {r.hn && (
+                    <a class="card__hn" href={r.hn.url} target="_blank" rel="noopener noreferrer">
+                      discussed on HN &middot; {r.hn.points} pts
+                    </a>
+                  )}
                 </div>
               </article>
             ))}
           </div>
         )}
 
-        {day.showhn.length > 0 && (
+        {day.posts.length > 0 && (
           <ul class="list">
-            {day.showhn.map((h) => (
+            {day.posts.map((h) => (
               <li class="row" data-cat={h.category.id}>
                 <a class="row__title" href={h.url} target="_blank" rel="noopener noreferrer">{h.title}</a>
                 <span class="row__meta">
-                  <span class="tag">{h.category.label}</span> &middot; Show HN &middot; {h.points} points &middot;{' '}
+                  <span class="tag">{h.category.label}</span> &middot; {SOURCE_LABEL[h.source] ?? 'HN'} &middot; {h.points} points &middot;{' '}
                   <a href={h.discussion} target="_blank" rel="noopener noreferrer">{h.comments} comments</a>
                 </span>
               </li>

@@ -22,11 +22,27 @@ function warn(msg) {
 }
 
 function readCache() {
+  let cache;
   try {
-    return JSON.parse(readFileSync(CACHE_PATH, 'utf8'));
+    cache = JSON.parse(readFileSync(CACHE_PATH, 'utf8'));
   } catch {
-    return { tech: { fetchedAt: null, repos: [], showhn: [] } };
+    cache = { tech: { fetchedAt: null, repos: [], posts: [] } };
   }
+  // Before Launch HN and front-page releases joined, Show HN was the only kind
+  // of post and lived under `showhn`. Carry those entries over, keeping their
+  // discovery dates.
+  if (cache.archive?.showhn) {
+    cache.archive.posts ??= {};
+    for (const [k, v] of Object.entries(cache.archive.showhn)) {
+      cache.archive.posts[k] ??= { source: 'showhn', ...v };
+    }
+    delete cache.archive.showhn;
+  }
+  if (cache.tech && 'showhn' in cache.tech) {
+    cache.tech.posts ??= cache.tech.showhn.map((h) => ({ source: 'showhn', ...h }));
+    delete cache.tech.showhn;
+  }
+  return cache;
 }
 
 /* ---------------------------------------------------------------------------
@@ -43,6 +59,13 @@ const DISCOVERY_LIMIT = 8;
 const FRESH_WINDOW_DAYS = 3;
 const FRESH_LIMIT = 10;
 const SHOWHN_LIMIT = 6;
+const LAUNCHHN_LIMIT = 4;
+// Front-page stories only count when they announce something that shipped:
+// a repository link, or a title that says it was released.
+const FRONTPAGE_WINDOW_DAYS = 2;
+const FRONTPAGE_LIMIT = 4;
+const RELEASE =
+  /\b(released?|v\d+(\.\d+)+|open[- ]sourc(e|ed|ing)|introducing|announcing|now available)\b/i;
 
 // Curated lists and study material: popular, but not a new tool.
 const NOT_A_DISCOVERY =
@@ -86,37 +109,87 @@ async function searchRepos(q, limit, headers) {
     }));
 }
 
-async function fetchTech() {
+async function fetchRepos() {
   const headers = { Accept: 'application/vnd.github+json', 'User-Agent': 'astro-build' };
   if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
 
   const breakouts = await searchRepos(`created:>${daysAgo(DISCOVERY_WINDOW_DAYS)} stars:>40`, DISCOVERY_LIMIT, headers);
   const fresh = await searchRepos(`created:>${daysAgo(FRESH_WINDOW_DAYS)} stars:>40`, FRESH_LIMIT, headers);
-  const repos = [...new Map([...breakouts, ...fresh].map((r) => [r.name, r])).values()];
+  return [...new Map([...breakouts, ...fresh].map((r) => [r.name, r])).values()];
+}
 
-  // Show HN: things people built and shipped, rather than things written about.
-  const cutoff = Math.floor(Date.now() / 1000) - DISCOVERY_WINDOW_DAYS * 86400;
-  const hnRes = await fetch(
-    'https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&hitsPerPage=40' +
-    `&numericFilters=points>30,created_at_i>${cutoff}`,
-    { headers: { 'User-Agent': 'astro-build' } },
-  );
-  if (!hnRes.ok) throw new Error(`show hn ${hnRes.status} ${hnRes.statusText}`);
+/* ---------------------------------------------------------------------------
+ * Hacker News, via the Algolia API. Show HN and Launch HN are things people
+ * shipped by definition; the front page is kept only where a story announces a
+ * release. All three become `posts`, told apart by `source`.
+ * ------------------------------------------------------------------------- */
+const HN_API = 'https://hn.algolia.com/api/v1';
+const HN_HEADERS = { headers: { 'User-Agent': 'astro-build' } };
+const secondsAgo = (days) => Math.floor(Date.now() / 1000) - days * 86400;
 
-  const showhn = ((await hnRes.json()).hits ?? [])
-    .filter((h) => h.title && h.url)
-    .slice(0, SHOWHN_LIMIT)
-    .map((h) => ({
-      title: h.title.replace(/^Show HN:\s*/i, '').trim(),
-      url: h.url,
-      points: h.points,
-      comments: h.num_comments ?? 0,
-      discussion: `https://news.ycombinator.com/item?id=${h.objectID}`,
-      created: new Date(h.created_at_i * 1000).toISOString(),
-    }));
+async function hnSearch(endpoint, params) {
+  const url = `${HN_API}/${endpoint}?${new URLSearchParams(params)}`;
+  const res = await fetch(url, HN_HEADERS);
+  if (!res.ok) throw new Error(`hn ${endpoint} ${res.status} ${res.statusText}`);
+  return (await res.json()).hits ?? [];
+}
 
-  if (!repos.length && !showhn.length) throw new Error('no usable discoveries');
-  return { repos, showhn };
+const normUrl = (u) => u.toLowerCase().replace(/\/+$/, '');
+const discussionUrl = (h) => `https://news.ycombinator.com/item?id=${h.objectID}`;
+
+function toPost(h, source) {
+  return {
+    source,
+    title: h.title.replace(/^(Show|Launch) HN:\s*/i, '').trim(),
+    // Launch HN posts are often text-only; the thread is then the link.
+    url: h.url || discussionUrl(h),
+    points: h.points,
+    comments: h.num_comments ?? 0,
+    discussion: discussionUrl(h),
+    created: new Date(h.created_at_i * 1000).toISOString(),
+  };
+}
+
+async function fetchShowHN() {
+  const hits = await hnSearch('search_by_date', {
+    tags: 'show_hn', hitsPerPage: 40,
+    numericFilters: `points>30,created_at_i>${secondsAgo(DISCOVERY_WINDOW_DAYS)}`,
+  });
+  return hits.filter((h) => h.title && h.url).slice(0, SHOWHN_LIMIT).map((h) => toPost(h, 'showhn'));
+}
+
+async function fetchLaunchHN() {
+  const hits = await hnSearch('search_by_date', {
+    tags: 'launch_hn', hitsPerPage: 20,
+    numericFilters: `points>20,created_at_i>${secondsAgo(DISCOVERY_WINDOW_DAYS)}`,
+  });
+  return hits.filter((h) => h.title).slice(0, LAUNCHHN_LIMIT).map((h) => toPost(h, 'launchhn'));
+}
+
+async function fetchFrontPageReleases() {
+  const hits = await hnSearch('search_by_date', {
+    tags: 'front_page', hitsPerPage: 100,
+    numericFilters: `points>50,created_at_i>${secondsAgo(FRONTPAGE_WINDOW_DAYS)}`,
+  });
+  return hits
+    .filter((h) => h.title && h.url && !/^(Show|Launch|Ask) HN/i.test(h.title))
+    .filter((h) => /^https:\/\/github\.com\//.test(h.url) || RELEASE.test(h.title))
+    .sort((a, b) => b.points - a.points)
+    .slice(0, FRONTPAGE_LIMIT)
+    .map((h) => toPost(h, 'hn'));
+}
+
+/** The best-received HN thread linking to a repository, if one did well. */
+async function findDiscussion(repoUrl) {
+  const hits = await hnSearch('search', {
+    query: repoUrl, restrictSearchableAttributes: 'url', tags: 'story', hitsPerPage: 10,
+  });
+  const base = normUrl(repoUrl);
+  const best = hits
+    .filter((h) => h.url && (normUrl(h.url) === base || normUrl(h.url).startsWith(base + '/')))
+    .sort((a, b) => b.points - a.points)[0];
+  if (!best || best.points < 20) return null;
+  return { points: best.points, comments: best.num_comments ?? 0, url: discussionUrl(best) };
 }
 
 /* ---------------------------------------------------------------------------
@@ -132,9 +205,9 @@ async function fetchTech() {
  * ------------------------------------------------------------------------- */
 const ARCHIVE_DAYS = 120;
 
-function mergeArchive(archive, today, repos, showhn) {
+function mergeArchive(archive, today, repos, posts) {
   const seen = archive.repos ?? {};
-  const seenHn = archive.showhn ?? {};
+  const seenPosts = archive.posts ?? {};
 
   for (const r of repos) {
     const prev = seen[r.name];
@@ -143,21 +216,23 @@ function mergeArchive(archive, today, repos, showhn) {
       prev.stars = r.stars;
       prev.description = r.description ?? prev.description;
       prev.language = r.language ?? prev.language;
+      if (r.hn) prev.hn = r.hn;
       prev.lastSeen = today;
     } else {
-      seen[r.name] = { ...r, firstSeen: today, lastSeen: today, starsAtFirstSeen: r.stars };
+      const { hn, ...rest } = r;
+      seen[r.name] = { ...rest, ...(hn && { hn }), firstSeen: today, lastSeen: today, starsAtFirstSeen: r.stars };
     }
   }
 
-  for (const h of showhn) {
+  for (const h of posts) {
     const key = h.discussion || h.url;
-    const prev = seenHn[key];
+    const prev = seenPosts[key];
     if (prev) {
       prev.points = h.points;
       prev.comments = h.comments;
       prev.lastSeen = today;
     } else {
-      seenHn[key] = { ...h, firstSeen: today, lastSeen: today };
+      seenPosts[key] = { ...h, firstSeen: today, lastSeen: today };
     }
   }
 
@@ -165,46 +240,68 @@ function mergeArchive(archive, today, repos, showhn) {
   const cutoff = new Date(Date.now() - ARCHIVE_DAYS * 86400_000).toISOString().slice(0, 10);
   const prune = (o) => Object.fromEntries(Object.entries(o).filter(([, v]) => v.firstSeen >= cutoff));
 
-  return { repos: prune(seen), showhn: prune(seenHn) };
+  return { repos: prune(seen), posts: prune(seenPosts) };
 }
 
+let raw = '';
+try { raw = readFileSync(CACHE_PATH, 'utf8'); } catch {}
 const cache = readCache();
-const before = JSON.stringify(cache);
 const now = new Date().toISOString();
 let degraded = 0;
 
-const FIELDS = ['repos', 'showhn'];
-const size = (o) => FIELDS.reduce((n, f) => n + (o?.[f]?.length ?? 0), 0);
+// Each source stands alone: one failing API costs only its own items for the
+// day, and the archive keeps everything it already had.
+async function collect(label, fn) {
+  try {
+    const items = await fn();
+    console.log(`  ok  ${label}: ${items.length} item(s)`);
+    return items;
+  } catch (err) {
+    degraded++;
+    warn(`${label} fetch failed (${err.message}); nothing new from it today.`);
+    return [];
+  }
+}
 
-try {
-  const data = await fetchTech();
-  const changed = FIELDS.some((f) => JSON.stringify(cache.tech?.[f]) !== JSON.stringify(data[f]));
+const repos = await collect('github repos', fetchRepos);
+const posts = [
+  ...(await collect('show hn', fetchShowHN)),
+  ...(await collect('launch hn', fetchLaunchHN)),
+  ...(await collect('hn front-page releases', fetchFrontPageReleases)),
+];
+
+// A repo that made HN gets a link to the thread rather than a second entry.
+let lookupFailed = false;
+for (const r of repos) {
+  try {
+    const hn = await findDiscussion(r.url);
+    if (hn) r.hn = hn;
+  } catch (err) {
+    lookupFailed = true;
+  }
+}
+if (lookupFailed) warn('some HN discussion lookups failed; those repos keep their earlier links.');
+
+const repoUrls = new Set(
+  [...Object.values(cache.archive?.repos ?? {}), ...repos].map((r) => normUrl(r.url)),
+);
+const isLoggedRepo = (u) => [...repoUrls].some((base) => normUrl(u) === base || normUrl(u).startsWith(base + '/'));
+const newPosts = posts.filter((p) => p.source !== 'hn' || !isLoggedRepo(p.url));
+
+if (repos.length || newPosts.length) {
+  const data = { repos, posts: newPosts };
+  const changed = ['repos', 'posts'].some((f) => JSON.stringify(cache.tech?.[f]) !== JSON.stringify(data[f]));
   if (changed) cache.tech = { fetchedAt: now, ...data };
 
-  const today = now.slice(0, 10);
-  const before = {
-    repos: Object.keys(cache.archive?.repos ?? {}).length,
-    showhn: Object.keys(cache.archive?.showhn ?? {}).length,
-  };
-  cache.archive = mergeArchive(cache.archive ?? {}, today, data.repos, data.showhn);
-  const added =
-    (Object.keys(cache.archive.repos).length - before.repos) +
-    (Object.keys(cache.archive.showhn).length - before.showhn);
-
-  console.log(`  ok  discoveries: ${size(data)} item(s)${changed ? ' (updated)' : ' (unchanged)'}`);
+  const count = (a) => Object.keys(a?.repos ?? {}).length + Object.keys(a?.posts ?? {}).length;
+  const had = count(cache.archive);
+  cache.archive = mergeArchive(cache.archive ?? {}, now.slice(0, 10), repos, newPosts);
   console.log(
     `  ok  archive: ${Object.keys(cache.archive.repos).length} repo(s), ` +
-    `${Object.keys(cache.archive.showhn).length} show hn — ${added} new today`,
+    `${Object.keys(cache.archive.posts).length} post(s) — ${count(cache.archive) - had} new today`,
   );
-} catch (err) {
-  const kept = size(cache.tech);
-  degraded++;
-  warn(
-    `discovery fetch failed (${err.message}). ` +
-    (kept
-      ? `Falling back to ${kept} cached item(s) from ${cache.tech?.fetchedAt ?? 'an earlier build'}.`
-      : 'No cached data either — the page will show its empty state.'),
-  );
+} else {
+  warn(`every source failed; serving the archive as of ${cache.tech?.fetchedAt ?? 'an earlier build'}.`);
 }
 
 // CI owns this file: it commits the refreshed cache back after every run, so a
@@ -214,10 +311,10 @@ try {
 const persist = process.env.GITHUB_ACTIONS === 'true' || process.env.PERSIST_FEEDS === '1';
 if (!persist) {
   console.log('  --  local run: rendering with fresh data, leaving the cache file alone');
-} else if (JSON.stringify(cache) !== before) {
+} else if (JSON.stringify(cache, null, 2) + '\n' !== raw) {
   mkdirSync(dirname(CACHE_PATH), { recursive: true });
   writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2) + '\n');
 }
 
-console.log(degraded ? '\nfeeds: degraded — serving cached data, build continues.\n'
+console.log(degraded ? '\nfeeds: degraded — some sources failed, build continues.\n'
                      : '\nfeeds: fresh.\n');
