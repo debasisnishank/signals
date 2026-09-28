@@ -10,7 +10,7 @@ const archive = feeds.archive ?? {};
 const posts = archive.posts ?? Object.fromEntries(
   Object.entries(archive.showhn ?? {}).map(([k, v]) => [k, { source: 'showhn', ...v }]),
 );
-const SOURCE_LABEL = { showhn: 'Show HN', launchhn: 'Launch HN', hn: 'HN front page' };
+const SOURCE_LABEL = { showhn: 'Show HN', launchhn: 'Launch HN', hn: 'HN front page', lobsters: 'Lobsters' };
 
 // Group every item by the day it was first seen — that is the log.
 const days = new Map();
@@ -84,6 +84,7 @@ const description =
         morning and filed under the day it turned up, so this reads as a log
         rather than a leaderboard. Star counts keep updating after the fact.
       </p>
+      <p class="lede"><a href="/reading">Today's reading &rarr;</a> articles and news, kept apart from the log.</p>
     </header>
 
     {log.length === 0 && (
@@ -178,8 +179,8 @@ const description =
 
     <footer class="foot">
       <p>
-        {totalRepos} repositories logged so far. Sources: the GitHub search API
-        and Hacker News. Rebuilt every morning.
+        {totalRepos} repositories logged so far. Sources: the GitHub search API,
+        Hacker News and Lobsters. Rebuilt every morning.
       </p>
       <a href="https://github.com/debasisnishank" target="_blank" rel="noopener noreferrer">
         <Icon name="github" /> Debasis Nishank on GitHub &rarr;

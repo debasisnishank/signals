@@ -179,6 +179,88 @@ async function fetchFrontPageReleases() {
     .map((h) => toPost(h, 'hn'));
 }
 
+/* ---------------------------------------------------------------------------
+ * Lobsters: its `show` tag is the same kind of item as Show HN, from a smaller,
+ * more technical crowd, so it joins the log.
+ * ------------------------------------------------------------------------- */
+const LOBSTERS_LIMIT = 4;
+const LOBSTERS_MIN_SCORE = 8;
+
+async function lobsters(path) {
+  const res = await fetch(`https://lobste.rs/${path}`, HN_HEADERS);
+  if (!res.ok) throw new Error(`lobsters ${path} ${res.status} ${res.statusText}`);
+  return res.json();
+}
+
+async function fetchLobstersShow() {
+  const cutoff = Date.now() - DISCOVERY_WINDOW_DAYS * 86400_000;
+  return (await lobsters('t/show.json'))
+    .filter((s) => s.title && s.url && s.score >= LOBSTERS_MIN_SCORE && Date.parse(s.created_at) > cutoff)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, LOBSTERS_LIMIT)
+    .map((s) => ({
+      source: 'lobsters',
+      title: s.title,
+      url: s.url,
+      points: s.score,
+      comments: s.comment_count ?? 0,
+      discussion: s.comments_url,
+      created: new Date(s.created_at).toISOString(),
+    }));
+}
+
+/* ---------------------------------------------------------------------------
+ * Reading (/reading): what developers are reading today — articles and news,
+ * which the log deliberately leaves out. Replaced whole on every run and never
+ * archived; yesterday's headlines are not worth keeping.
+ * ------------------------------------------------------------------------- */
+const READING_LIMIT = 10;
+// Listicles and roundups: "7 Best AI Tools for …", "Top 10 …".
+const LISTICLE = /^\s*(the\s+)?(\d+|top \d+)\s+(best|top|must|essential|ways|tips|tools|free)\b|\btop \d+\b/i;
+
+async function fetchReadingHN() {
+  const hits = await hnSearch('search', { tags: 'front_page', hitsPerPage: 30 });
+  return hits
+    .filter((h) => h.title)
+    .sort((a, b) => b.points - a.points)
+    .slice(0, READING_LIMIT)
+    .map((h) => ({
+      title: h.title,
+      url: h.url || discussionUrl(h),
+      points: h.points,
+      comments: h.num_comments ?? 0,
+      discussion: discussionUrl(h),
+    }));
+}
+
+async function fetchReadingLobsters() {
+  return (await lobsters('hottest.json')).slice(0, READING_LIMIT).map((s) => ({
+    title: s.title,
+    url: s.url || s.comments_url,
+    points: s.score,
+    comments: s.comment_count ?? 0,
+    discussion: s.comments_url,
+    tags: s.tags ?? [],
+  }));
+}
+
+async function fetchReadingDevTo() {
+  const res = await fetch('https://dev.to/api/articles?top=1&per_page=30', HN_HEADERS);
+  if (!res.ok) throw new Error(`dev.to ${res.status} ${res.statusText}`);
+  return (await res.json())
+    .filter((a) => a.title && !LISTICLE.test(a.title))
+    .sort((a, b) => b.positive_reactions_count - a.positive_reactions_count)
+    .slice(0, READING_LIMIT)
+    .map((a) => ({
+      title: a.title,
+      url: a.url,
+      points: a.positive_reactions_count,
+      comments: a.comments_count ?? 0,
+      discussion: a.url,
+      tags: (a.tag_list ?? []).slice(0, 3),
+    }));
+}
+
 /** The best-received HN thread linking to a repository, if one did well. */
 async function findDiscussion(repoUrl) {
   const hits = await hnSearch('search', {
@@ -268,6 +350,7 @@ const posts = [
   ...(await collect('show hn', fetchShowHN)),
   ...(await collect('launch hn', fetchLaunchHN)),
   ...(await collect('hn front-page releases', fetchFrontPageReleases)),
+  ...(await collect('lobsters show', fetchLobstersShow)),
 ];
 
 // A repo that made HN gets a link to the thread rather than a second entry.
@@ -303,6 +386,20 @@ if (repos.length || newPosts.length) {
 } else {
   warn(`every source failed; serving the archive as of ${cache.tech?.fetchedAt ?? 'an earlier build'}.`);
 }
+
+// Reading is all-or-nothing per source: a failed source keeps yesterday's list
+// rather than leaving its column empty.
+const reading = {
+  hn: await collect('reading: hn front page', fetchReadingHN),
+  lobsters: await collect('reading: lobsters', fetchReadingLobsters),
+  devto: await collect('reading: dev.to', fetchReadingDevTo),
+};
+const prevReading = cache.reading ?? {};
+cache.reading = { fetchedAt: prevReading.fetchedAt ?? null };
+for (const [k, items] of Object.entries(reading)) {
+  cache.reading[k] = items.length ? items : prevReading[k] ?? [];
+}
+if (Object.values(reading).some((items) => items.length)) cache.reading.fetchedAt = now;
 
 // CI owns this file: it commits the refreshed cache back after every run, so a
 // local build that also wrote it would conflict on the next pull for no gain —

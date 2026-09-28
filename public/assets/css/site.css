@@ -290,6 +290,7 @@ h2 {
 .card__gain { color: var(--clr-anchor); opacity: 0.9; }
 .card__hn { color: inherit; opacity: 0.8; white-space: nowrap; }
 .card__hn:hover { opacity: 1; }
+.reading__home { margin-left: auto; font-size: 0.85rem; }
 
 /* Visitor count — left of the theme toggle at rest. Absolute, not fixed, so it
    scrolls away rather than sitting over the page on a phone. `right` clears the

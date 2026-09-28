@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import feeds from '../data/feed-cache.json';
+
+// Today's reading, apart from the log: replaced on every refresh, never archived.
+const reading = feeds.reading ?? {};
+const columns = [
+  { id: 'hn', label: 'Hacker News', unit: 'points', home: 'https://news.ycombinator.com/' },
+  { id: 'lobsters', label: 'Lobsters', unit: 'points', home: 'https://lobste.rs/' },
+  { id: 'devto', label: 'DEV', unit: 'reactions', home: 'https://dev.to/' },
+].map((c) => ({ ...c, items: reading[c.id] ?? [] }));
+
+const updated = reading.fetchedAt
+  ? new Date(reading.fetchedAt).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })
+  : null;
+const description = 'What developers are reading today, from Hacker News, Lobsters and DEV — refreshed every morning.';
+---
+
+<BaseLayout title="Signals — today's reading" description={description}>
+  <main id="main" class="wrap">
+    <a class="back" href="/">&larr; Signals</a>
+
+    <header>
+      <h1>Today's reading</h1>
+      <p class="lede">
+        The articles and news developers are reading, taken fresh each morning
+        from three front pages. Unlike <a href="/">the log</a>, nothing here is
+        kept: tomorrow's run replaces it.
+        {updated && <> Last refreshed {updated}.</>}
+      </p>
+    </header>
+
+    {columns.every((c) => c.items.length === 0) && (
+      <p class="lede">Nothing collected yet — the next scheduled run will fill this in.</p>
+    )}
+
+    {columns.filter((c) => c.items.length).map((c) => (
+      <section class="day" id={c.id}>
+        <div class="day__head">
+          <h2>{c.label}</h2>
+          <a class="reading__home" href={c.home} target="_blank" rel="noopener noreferrer">front page &rarr;</a>
+        </div>
+        <ol class="list">
+          {c.items.map((it) => (
+            <li class="row">
+              <a class="row__title" href={it.url} target="_blank" rel="noopener noreferrer">{it.title}</a>
+              <span class="row__meta">
+                {it.tags?.length > 0 && <><span class="tag">{it.tags.join(' · ')}</span> &middot; </>}
+                {it.points} {c.unit} &middot;{' '}
+                <a href={it.discussion} target="_blank" rel="noopener noreferrer">{it.comments} comments</a>
+              </span>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))}
+  </main>
+</BaseLayout>
