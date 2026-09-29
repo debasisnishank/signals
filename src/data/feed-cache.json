@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-09-29T06:18:19.968Z",
+    "fetchedAt": "2026-09-29T06:19:35.396Z",
     "repos": [
       {
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 27911,
+        "stars": 27913,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -34,7 +34,7 @@
         "name": "jaredpalmer/kev",
         "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 7703,
+        "stars": 7704,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -61,7 +61,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 7084,
+        "stars": 7085,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": []
@@ -84,7 +84,7 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 6050,
+        "stars": 6051,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": []
@@ -93,7 +93,7 @@
         "name": "Mak5er/AirCard",
         "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
         "language": "Swift",
-        "stars": 4769,
+        "stars": 4770,
         "url": "https://github.com/Mak5er/AirCard",
         "created": "2026-09-16T22:20:15Z",
         "topics": []
@@ -102,13 +102,13 @@
         "name": "firelex/jeff",
         "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
         "language": "Python",
-        "stars": 578,
+        "stars": 579,
         "url": "https://github.com/firelex/jeff",
         "created": "2026-09-28T16:18:39Z",
         "topics": [],
         "hn": {
           "points": 433,
-          "comments": 161,
+          "comments": 162,
           "url": "https://news.ycombinator.com/item?id=49883844"
         }
       },
@@ -217,6 +217,15 @@
     "posts": [
       {
         "source": "showhn",
+        "title": "Pac-Bench – How well can models one-shot a Pac-Man game?",
+        "url": "https://jonclegg.github.io/pacman-bakeoff/",
+        "points": 31,
+        "comments": 19,
+        "discussion": "https://news.ycombinator.com/item?id=49885493",
+        "created": "2026-09-28T22:43:12.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "Destroy Any Website with Stickman",
         "url": "https://destroy.spritefusion.com/",
         "points": 129,
@@ -228,7 +237,7 @@
         "source": "showhn",
         "title": "HN.watch – Videos of all Hacker News posts",
         "url": "https://hn.watch/",
-        "points": 150,
+        "points": 151,
         "comments": 87,
         "discussion": "https://news.ycombinator.com/item?id=49879401",
         "created": "2026-09-28T15:16:13.000Z"
@@ -259,15 +268,6 @@
         "comments": 47,
         "discussion": "https://news.ycombinator.com/item?id=49875308",
         "created": "2026-09-28T08:55:31.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Lofi Cities – Pixel-art city nights with browser-generated lofi",
-        "url": "https://loficities.com/",
-        "points": 308,
-        "comments": 135,
-        "discussion": "https://news.ycombinator.com/item?id=49869574",
-        "created": "2026-09-27T18:44:30.000Z"
       },
       {
         "source": "launchhn",
@@ -418,7 +418,7 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 6050,
+        "stars": 6051,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": [],
@@ -454,7 +454,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 7084,
+        "stars": 7085,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": [],
@@ -483,7 +483,7 @@
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 27911,
+        "stars": 27913,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -500,7 +500,7 @@
         "name": "jaredpalmer/kev",
         "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 7703,
+        "stars": 7704,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -545,7 +545,7 @@
         "name": "Mak5er/AirCard",
         "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
         "language": "Swift",
-        "stars": 4769,
+        "stars": 4770,
         "url": "https://github.com/Mak5er/AirCard",
         "created": "2026-09-16T22:20:15Z",
         "topics": [],
@@ -707,13 +707,13 @@
         "name": "firelex/jeff",
         "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
         "language": "Python",
-        "stars": 578,
+        "stars": 579,
         "url": "https://github.com/firelex/jeff",
         "created": "2026-09-28T16:18:39Z",
         "topics": [],
         "hn": {
           "points": 433,
-          "comments": 161,
+          "comments": 162,
           "url": "https://news.ycombinator.com/item?id=49883844"
         },
         "firstSeen": "2026-09-29",
@@ -1309,7 +1309,7 @@
         "source": "showhn",
         "title": "HN.watch – Videos of all Hacker News posts",
         "url": "https://hn.watch/",
-        "points": 150,
+        "points": 151,
         "comments": 87,
         "discussion": "https://news.ycombinator.com/item?id=49879401",
         "created": "2026-09-28T15:16:13.000Z",
@@ -1359,11 +1359,22 @@
         "created": "2026-09-28T21:26:41.000Z",
         "firstSeen": "2026-09-29",
         "lastSeen": "2026-09-29"
+      },
+      "https://news.ycombinator.com/item?id=49885493": {
+        "source": "showhn",
+        "title": "Pac-Bench – How well can models one-shot a Pac-Man game?",
+        "url": "https://jonclegg.github.io/pacman-bakeoff/",
+        "points": 31,
+        "comments": 19,
+        "discussion": "https://news.ycombinator.com/item?id=49885493",
+        "created": "2026-09-28T22:43:12.000Z",
+        "firstSeen": "2026-09-29",
+        "lastSeen": "2026-09-29"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-09-29T06:18:19.968Z",
+    "fetchedAt": "2026-09-29T06:19:35.396Z",
     "hn": [
       {
         "title": "When did Google get so weird?",
