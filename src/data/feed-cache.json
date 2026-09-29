@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-09-29T07:05:03.000Z",
+    "fetchedAt": "2026-09-29T12:38:48.901Z",
     "repos": [
       {
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 27942,
+        "stars": 28167,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -20,7 +20,7 @@
         "name": "browser-use/jev-ultrafast",
         "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 21236,
+        "stars": 21297,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": [],
@@ -34,7 +34,7 @@
         "name": "jaredpalmer/kev",
         "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 7716,
+        "stars": 7797,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -52,7 +52,7 @@
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 7160,
+        "stars": 7170,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": []
@@ -61,7 +61,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 7094,
+        "stars": 7137,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": []
@@ -70,7 +70,7 @@
         "name": "mizorewww/laya-mlx",
         "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
         "language": "Python",
-        "stars": 6593,
+        "stars": 6612,
         "url": "https://github.com/mizorewww/laya-mlx",
         "created": "2026-09-19T13:50:26Z",
         "topics": [
@@ -84,7 +84,7 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 6070,
+        "stars": 6279,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": []
@@ -93,7 +93,7 @@
         "name": "Mak5er/AirCard",
         "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
         "language": "Swift",
-        "stars": 4788,
+        "stars": 4895,
         "url": "https://github.com/Mak5er/AirCard",
         "created": "2026-09-16T22:20:15Z",
         "topics": []
@@ -102,42 +102,70 @@
         "name": "firelex/jeff",
         "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
         "language": "Python",
-        "stars": 625,
+        "stars": 846,
         "url": "https://github.com/firelex/jeff",
         "created": "2026-09-28T16:18:39Z",
         "topics": [],
         "hn": {
-          "points": 453,
-          "comments": 168,
+          "points": 523,
+          "comments": 197,
           "url": "https://news.ycombinator.com/item?id=49883844"
         }
-      },
-      {
-        "name": "moguzbulbul/blueprint-animation",
-        "description": "Claude Design skill: animated before → after UX redesign, explained step by step through a blueprint drawing. By @moguzbulbul.",
-        "language": "JavaScript",
-        "stars": 281,
-        "url": "https://github.com/moguzbulbul/blueprint-animation",
-        "created": "2026-09-27T21:48:33Z",
-        "topics": []
-      },
-      {
-        "name": "brainbrick-trades/The-Quant-Trading-Vault",
-        "description": "5800+ trading strategies unlocked.",
-        "language": null,
-        "stars": 273,
-        "url": "https://github.com/brainbrick-trades/The-Quant-Trading-Vault",
-        "created": "2026-09-27T04:24:34Z",
-        "topics": []
       },
       {
         "name": "JoasASantos/Offensive-Security-AI-Models",
         "description": "Uncensored AI models or those fine-tuned for cybersecurity tasks.",
         "language": null,
-        "stars": 223,
+        "stars": 325,
         "url": "https://github.com/JoasASantos/Offensive-Security-AI-Models",
         "created": "2026-09-27T20:36:30Z",
+        "topics": [],
+        "hn": {
+          "points": 33,
+          "comments": 9,
+          "url": "https://news.ycombinator.com/item?id=49888937"
+        }
+      },
+      {
+        "name": "brainbrick-trades/The-Quant-Trading-Vault",
+        "description": "5800+ trading strategies unlocked.",
+        "language": null,
+        "stars": 296,
+        "url": "https://github.com/brainbrick-trades/The-Quant-Trading-Vault",
+        "created": "2026-09-27T04:24:34Z",
         "topics": []
+      },
+      {
+        "name": "moguzbulbul/blueprint-animation",
+        "description": "Claude Design skill: animated before → after UX redesign, explained step by step through a blueprint drawing. By @moguzbulbul.",
+        "language": "JavaScript",
+        "stars": 295,
+        "url": "https://github.com/moguzbulbul/blueprint-animation",
+        "created": "2026-09-27T21:48:33Z",
+        "topics": []
+      },
+      {
+        "name": "openJiuwen-ai/iCode",
+        "description": "A lightweight, extensible, fully offline development platform and agent/workflow toolkit for the AI era, with an intuitive TUI, easy deployment, and complete control over your data, agents, and workflows.",
+        "language": "Python",
+        "stars": 220,
+        "url": "https://github.com/openJiuwen-ai/iCode",
+        "created": "2026-09-28T03:35:08Z",
+        "topics": []
+      },
+      {
+        "name": "Appllama/liquid-glass-chat-ui",
+        "description": "Explore liquid-glass chat UIs with animated portraits, interactive stories, and floating composers.",
+        "language": "TypeScript",
+        "stars": 195,
+        "url": "https://github.com/Appllama/liquid-glass-chat-ui",
+        "created": "2026-09-27T13:33:00Z",
+        "topics": [
+          "animation",
+          "chat-ui",
+          "expo",
+          "expo-router"
+        ]
       },
       {
         "name": "BagasRizkyHarySaputra/MLBB-waydroid-LinuxCloudMLBB",
@@ -154,29 +182,24 @@
         ]
       },
       {
-        "name": "Appllama/liquid-glass-chat-ui",
-        "description": "Explore liquid-glass chat UIs with animated portraits, interactive stories, and floating composers.",
-        "language": "TypeScript",
-        "stars": 192,
-        "url": "https://github.com/Appllama/liquid-glass-chat-ui",
-        "created": "2026-09-27T13:33:00Z",
-        "topics": [
-          "animation",
-          "chat-ui",
-          "expo",
-          "expo-router"
-        ]
+        "name": "chasmlol/2010-rust-rewrite-mashup",
+        "description": "MW2, Skate 3 and Minecraft in one Rust game: IW4L's MW2 rewrite with Skate 3 mode and a real Minecraft world map",
+        "language": "Rust",
+        "stars": 185,
+        "url": "https://github.com/chasmlol/2010-rust-rewrite-mashup",
+        "created": "2026-09-27T23:47:01Z",
+        "topics": []
       },
       {
         "name": "seamusc/papermono-shopping-list",
         "description": "E-paper shopping list for the M5Stack PaperMono, with a FastAPI server and phone web UI",
         "language": "C++",
-        "stars": 150,
+        "stars": 158,
         "url": "https://github.com/seamusc/papermono-shopping-list",
         "created": "2026-09-27T12:05:30Z",
         "topics": [],
         "hn": {
-          "points": 133,
+          "points": 139,
           "comments": 58,
           "url": "https://news.ycombinator.com/item?id=49875801"
         }
@@ -189,29 +212,6 @@
         "url": "https://github.com/aicheye/supersidian",
         "created": "2026-09-28T00:51:44Z",
         "topics": []
-      },
-      {
-        "name": "chasmlol/2010-rust-rewrite-mashup",
-        "description": "MW2, Skate 3 and Minecraft in one Rust game: IW4L's MW2 rewrite with Skate 3 mode and a real Minecraft world map",
-        "language": "Rust",
-        "stars": 142,
-        "url": "https://github.com/chasmlol/2010-rust-rewrite-mashup",
-        "created": "2026-09-27T23:47:01Z",
-        "topics": []
-      },
-      {
-        "name": "seven-discord/Discord-Booster-Server",
-        "description": "Discord Server Booster — Open-source automation tool and bot script designed to manage, track, and optimize Discord server boost perks role rewards, and community engagement.",
-        "language": "C++",
-        "stars": 141,
-        "url": "https://github.com/seven-discord/Discord-Booster-Server",
-        "created": "2026-09-28T16:02:55Z",
-        "topics": [
-          "discord",
-          "discord-boost",
-          "discord-boost-tool",
-          "discord-guild"
-        ]
       }
     ],
     "posts": [
@@ -219,8 +219,8 @@
         "source": "showhn",
         "title": "Pac-Bench – How well can models one-shot a Pac-Man game?",
         "url": "https://jonclegg.github.io/pacman-bakeoff/",
-        "points": 40,
-        "comments": 27,
+        "points": 69,
+        "comments": 44,
         "discussion": "https://news.ycombinator.com/item?id=49885493",
         "created": "2026-09-28T22:43:12.000Z"
       },
@@ -228,8 +228,8 @@
         "source": "showhn",
         "title": "Destroy Any Website with Stickman",
         "url": "https://destroy.spritefusion.com/",
-        "points": 136,
-        "comments": 32,
+        "points": 145,
+        "comments": 36,
         "discussion": "https://news.ycombinator.com/item?id=49880601",
         "created": "2026-09-28T16:31:28.000Z"
       },
@@ -237,8 +237,8 @@
         "source": "showhn",
         "title": "HN.watch – Videos of all Hacker News posts",
         "url": "https://hn.watch/",
-        "points": 156,
-        "comments": 89,
+        "points": 197,
+        "comments": 96,
         "discussion": "https://news.ycombinator.com/item?id=49879401",
         "created": "2026-09-28T15:16:13.000Z"
       },
@@ -246,7 +246,7 @@
         "source": "showhn",
         "title": "Hntui – A TUI for Hacker News",
         "url": "https://github.com/ahmd-sh/hntui",
-        "points": 107,
+        "points": 110,
         "comments": 64,
         "discussion": "https://news.ycombinator.com/item?id=49876760",
         "created": "2026-09-28T12:11:20.000Z"
@@ -255,7 +255,7 @@
         "source": "showhn",
         "title": "PaperMono, e-ink fridge magnet shopping list with mobile web page",
         "url": "https://github.com/seamusc/papermono-shopping-list",
-        "points": 133,
+        "points": 139,
         "comments": 58,
         "discussion": "https://news.ycombinator.com/item?id=49875801",
         "created": "2026-09-28T10:14:41.000Z"
@@ -264,8 +264,8 @@
         "source": "showhn",
         "title": "Free alternative to graphics design giants",
         "url": "https://scissor.studio/",
-        "points": 115,
-        "comments": 47,
+        "points": 124,
+        "comments": 50,
         "discussion": "https://news.ycombinator.com/item?id=49875308",
         "created": "2026-09-28T08:55:31.000Z"
       },
@@ -274,7 +274,7 @@
         "title": "Vespper (YC F24) – SOTA Docx MCP",
         "url": "https://www.vespper.com/blog/launching-vespper-docx-mcp",
         "points": 34,
-        "comments": 11,
+        "comments": 14,
         "discussion": "https://news.ycombinator.com/item?id=49881505",
         "created": "2026-09-28T17:34:36.000Z"
       },
@@ -300,10 +300,19 @@
         "source": "hn",
         "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
         "url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
-        "points": 79,
-        "comments": 15,
+        "points": 113,
+        "comments": 24,
         "discussion": "https://news.ycombinator.com/item?id=49884625",
         "created": "2026-09-28T21:26:41.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "Jeeves. Reasoning improves Jev-like decision models",
+        "url": "https://github.com/PostHog/jeeves",
+        "points": 54,
+        "comments": 15,
+        "discussion": "https://news.ycombinator.com/item?id=49891290",
+        "created": "2026-09-29T11:13:54.000Z"
       },
       {
         "source": "lobsters",
@@ -331,7 +340,7 @@
         "name": "browser-use/jev-ultrafast",
         "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 21236,
+        "stars": 21297,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": [],
@@ -365,7 +374,7 @@
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 7160,
+        "stars": 7170,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": [],
@@ -418,7 +427,7 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 6070,
+        "stars": 6279,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": [],
@@ -454,7 +463,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 7094,
+        "stars": 7137,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": [],
@@ -466,7 +475,7 @@
         "name": "mizorewww/laya-mlx",
         "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
         "language": "Python",
-        "stars": 6593,
+        "stars": 6612,
         "url": "https://github.com/mizorewww/laya-mlx",
         "created": "2026-09-19T13:50:26Z",
         "topics": [
@@ -483,7 +492,7 @@
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 27942,
+        "stars": 28167,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -500,7 +509,7 @@
         "name": "jaredpalmer/kev",
         "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 7716,
+        "stars": 7797,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -545,7 +554,7 @@
         "name": "Mak5er/AirCard",
         "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
         "language": "Swift",
-        "stars": 4788,
+        "stars": 4895,
         "url": "https://github.com/Mak5er/AirCard",
         "created": "2026-09-16T22:20:15Z",
         "topics": [],
@@ -683,7 +692,7 @@
         "name": "moguzbulbul/blueprint-animation",
         "description": "Claude Design skill: animated before → after UX redesign, explained step by step through a blueprint drawing. By @moguzbulbul.",
         "language": "JavaScript",
-        "stars": 281,
+        "stars": 295,
         "url": "https://github.com/moguzbulbul/blueprint-animation",
         "created": "2026-09-27T21:48:33Z",
         "topics": [],
@@ -707,13 +716,13 @@
         "name": "firelex/jeff",
         "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
         "language": "Python",
-        "stars": 625,
+        "stars": 846,
         "url": "https://github.com/firelex/jeff",
         "created": "2026-09-28T16:18:39Z",
         "topics": [],
         "hn": {
-          "points": 453,
-          "comments": 168,
+          "points": 523,
+          "comments": 197,
           "url": "https://news.ycombinator.com/item?id=49883844"
         },
         "firstSeen": "2026-09-29",
@@ -741,7 +750,7 @@
         "name": "brainbrick-trades/The-Quant-Trading-Vault",
         "description": "5800+ trading strategies unlocked.",
         "language": null,
-        "stars": 273,
+        "stars": 296,
         "url": "https://github.com/brainbrick-trades/The-Quant-Trading-Vault",
         "created": "2026-09-27T04:24:34Z",
         "topics": [],
@@ -753,19 +762,24 @@
         "name": "JoasASantos/Offensive-Security-AI-Models",
         "description": "Uncensored AI models or those fine-tuned for cybersecurity tasks.",
         "language": null,
-        "stars": 223,
+        "stars": 325,
         "url": "https://github.com/JoasASantos/Offensive-Security-AI-Models",
         "created": "2026-09-27T20:36:30Z",
         "topics": [],
         "firstSeen": "2026-09-29",
         "lastSeen": "2026-09-29",
-        "starsAtFirstSeen": 214
+        "starsAtFirstSeen": 214,
+        "hn": {
+          "points": 33,
+          "comments": 9,
+          "url": "https://news.ycombinator.com/item?id=49888937"
+        }
       },
       "Appllama/liquid-glass-chat-ui": {
         "name": "Appllama/liquid-glass-chat-ui",
         "description": "Explore liquid-glass chat UIs with animated portraits, interactive stories, and floating composers.",
         "language": "TypeScript",
-        "stars": 192,
+        "stars": 195,
         "url": "https://github.com/Appllama/liquid-glass-chat-ui",
         "created": "2026-09-27T13:33:00Z",
         "topics": [
@@ -782,12 +796,12 @@
         "name": "seamusc/papermono-shopping-list",
         "description": "E-paper shopping list for the M5Stack PaperMono, with a FastAPI server and phone web UI",
         "language": "C++",
-        "stars": 150,
+        "stars": 158,
         "url": "https://github.com/seamusc/papermono-shopping-list",
         "created": "2026-09-27T12:05:30Z",
         "topics": [],
         "hn": {
-          "points": 133,
+          "points": 139,
           "comments": 58,
           "url": "https://news.ycombinator.com/item?id=49875801"
         },
@@ -811,7 +825,7 @@
         "name": "chasmlol/2010-rust-rewrite-mashup",
         "description": "MW2, Skate 3 and Minecraft in one Rust game: IW4L's MW2 rewrite with Skate 3 mode and a real Minecraft world map",
         "language": "Rust",
-        "stars": 142,
+        "stars": 185,
         "url": "https://github.com/chasmlol/2010-rust-rewrite-mashup",
         "created": "2026-09-27T23:47:01Z",
         "topics": [],
@@ -847,6 +861,18 @@
         "firstSeen": "2026-09-29",
         "lastSeen": "2026-09-29",
         "starsAtFirstSeen": 141
+      },
+      "openJiuwen-ai/iCode": {
+        "name": "openJiuwen-ai/iCode",
+        "description": "A lightweight, extensible, fully offline development platform and agent/workflow toolkit for the AI era, with an intuitive TUI, easy deployment, and complete control over your data, agents, and workflows.",
+        "language": "Python",
+        "stars": 220,
+        "url": "https://github.com/openJiuwen-ai/iCode",
+        "created": "2026-09-28T03:35:08Z",
+        "topics": [],
+        "firstSeen": "2026-09-29",
+        "lastSeen": "2026-09-29",
+        "starsAtFirstSeen": 220
       }
     },
     "posts": {
@@ -1316,7 +1342,7 @@
         "source": "showhn",
         "title": "Hntui – A TUI for Hacker News",
         "url": "https://github.com/ahmd-sh/hntui",
-        "points": 107,
+        "points": 110,
         "comments": 64,
         "discussion": "https://news.ycombinator.com/item?id=49876760",
         "created": "2026-09-28T12:11:20.000Z",
@@ -1327,8 +1353,8 @@
         "source": "showhn",
         "title": "Destroy Any Website with Stickman",
         "url": "https://destroy.spritefusion.com/",
-        "points": 136,
-        "comments": 32,
+        "points": 145,
+        "comments": 36,
         "discussion": "https://news.ycombinator.com/item?id=49880601",
         "created": "2026-09-28T16:31:28.000Z",
         "firstSeen": "2026-09-29",
@@ -1338,8 +1364,8 @@
         "source": "showhn",
         "title": "HN.watch – Videos of all Hacker News posts",
         "url": "https://hn.watch/",
-        "points": 156,
-        "comments": 89,
+        "points": 197,
+        "comments": 96,
         "discussion": "https://news.ycombinator.com/item?id=49879401",
         "created": "2026-09-28T15:16:13.000Z",
         "firstSeen": "2026-09-29",
@@ -1349,7 +1375,7 @@
         "source": "showhn",
         "title": "PaperMono, e-ink fridge magnet shopping list with mobile web page",
         "url": "https://github.com/seamusc/papermono-shopping-list",
-        "points": 133,
+        "points": 139,
         "comments": 58,
         "discussion": "https://news.ycombinator.com/item?id=49875801",
         "created": "2026-09-28T10:14:41.000Z",
@@ -1360,8 +1386,8 @@
         "source": "showhn",
         "title": "Free alternative to graphics design giants",
         "url": "https://scissor.studio/",
-        "points": 115,
-        "comments": 47,
+        "points": 124,
+        "comments": 50,
         "discussion": "https://news.ycombinator.com/item?id=49875308",
         "created": "2026-09-28T08:55:31.000Z",
         "firstSeen": "2026-09-29",
@@ -1372,7 +1398,7 @@
         "title": "Vespper (YC F24) – SOTA Docx MCP",
         "url": "https://www.vespper.com/blog/launching-vespper-docx-mcp",
         "points": 34,
-        "comments": 11,
+        "comments": 14,
         "discussion": "https://news.ycombinator.com/item?id=49881505",
         "created": "2026-09-28T17:34:36.000Z",
         "firstSeen": "2026-09-29",
@@ -1382,8 +1408,8 @@
         "source": "hn",
         "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
         "url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
-        "points": 79,
-        "comments": 15,
+        "points": 113,
+        "comments": 24,
         "discussion": "https://news.ycombinator.com/item?id=49884625",
         "created": "2026-09-28T21:26:41.000Z",
         "firstSeen": "2026-09-29",
@@ -1393,95 +1419,117 @@
         "source": "showhn",
         "title": "Pac-Bench – How well can models one-shot a Pac-Man game?",
         "url": "https://jonclegg.github.io/pacman-bakeoff/",
-        "points": 40,
-        "comments": 27,
+        "points": 69,
+        "comments": 44,
         "discussion": "https://news.ycombinator.com/item?id=49885493",
         "created": "2026-09-28T22:43:12.000Z",
+        "firstSeen": "2026-09-29",
+        "lastSeen": "2026-09-29"
+      },
+      "https://news.ycombinator.com/item?id=49891290": {
+        "source": "hn",
+        "title": "Jeeves. Reasoning improves Jev-like decision models",
+        "url": "https://github.com/PostHog/jeeves",
+        "points": 54,
+        "comments": 15,
+        "discussion": "https://news.ycombinator.com/item?id=49891290",
+        "created": "2026-09-29T11:13:54.000Z",
         "firstSeen": "2026-09-29",
         "lastSeen": "2026-09-29"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-09-29T07:05:03.000Z",
+    "fetchedAt": "2026-09-29T12:38:48.901Z",
     "hn": [
       {
         "title": "Sonnet 5.5",
         "url": "https://www.anthropic.com/claude-sonnet-5-5",
-        "points": 725,
-        "comments": 491,
+        "points": 828,
+        "comments": 559,
         "discussion": "https://news.ycombinator.com/item?id=49881850"
+      },
+      {
+        "title": "Updated Google Maps shows destruction of the city of Rafah",
+        "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
+        "points": 683,
+        "comments": 550,
+        "discussion": "https://news.ycombinator.com/item?id=49879645"
       },
       {
         "title": "Pirating the Pirates",
         "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
-        "points": 523,
-        "comments": 256,
+        "points": 625,
+        "comments": 314,
         "discussion": "https://news.ycombinator.com/item?id=49880036"
       },
       {
         "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
         "url": "https://github.com/firelex/jeff",
-        "points": 450,
-        "comments": 168,
+        "points": 522,
+        "comments": 197,
         "discussion": "https://news.ycombinator.com/item?id=49883844"
-      },
-      {
-        "title": "Updated Google Maps shows destruction of the city of Rafah",
-        "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
-        "points": 437,
-        "comments": 245,
-        "discussion": "https://news.ycombinator.com/item?id=49879645"
-      },
-      {
-        "title": "It's Time to Investigate the AI Labs",
-        "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-        "points": 433,
-        "comments": 162,
-        "discussion": "https://news.ycombinator.com/item?id=49883471"
       },
       {
         "title": "Kids turned low-traffic NPR Spotify comments into a secret group chat",
         "url": "https://www.thisamericanlife.org/897/transcript",
-        "points": 370,
-        "comments": 207,
+        "points": 436,
+        "comments": 233,
         "discussion": "https://news.ycombinator.com/item?id=49879697"
-      },
-      {
-        "title": "World Labs Is Joining AMD",
-        "url": "https://www.worldlabs.ai/blog/amd-announcement",
-        "points": 258,
-        "comments": 108,
-        "discussion": "https://news.ycombinator.com/item?id=49883760"
       },
       {
         "title": "Hijacking the PS5's RTMP stream",
         "url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
-        "points": 244,
-        "comments": 74,
+        "points": 267,
+        "comments": 87,
         "discussion": "https://news.ycombinator.com/item?id=49879702"
+      },
+      {
+        "title": "California farmers are struggling to sell grapes as demand for wine drops",
+        "url": "https://www.kqed.org/news/12101534/california-farmers-are-struggling-to-sell-grapes-as-demand-for-wine-drops",
+        "points": 266,
+        "comments": 671,
+        "discussion": "https://news.ycombinator.com/item?id=49883539"
       },
       {
         "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
         "url": "https://stateofutopia.com/experiments/microllmlab/",
-        "points": 212,
-        "comments": 77,
+        "points": 257,
+        "comments": 89,
         "discussion": "https://news.ycombinator.com/item?id=49882781"
       },
       {
         "title": "Does Reddit have an astroturfing problem? What the data suggests",
         "url": "https://www.petervijeh.com/projects/reddit-astroturf",
-        "points": 188,
-        "comments": 229,
+        "points": 252,
+        "comments": 314,
         "discussion": "https://news.ycombinator.com/item?id=49877678"
+      },
+      {
+        "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+        "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+        "points": 197,
+        "comments": 246,
+        "discussion": "https://news.ycombinator.com/item?id=49879883"
       }
     ],
     "lobsters": [
       {
+        "title": "CoW — a stacking window manager for Wayland",
+        "url": "https://cow-wm.codeberg.page/cow/",
+        "points": 25,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/tyivfg/cow_stacking_window_manager_for_wayland",
+        "tags": [
+          "freebsd",
+          "linux"
+        ]
+      },
+      {
         "title": "Bill Gates tries to install Movie Maker",
         "url": "https://www.techemails.com/p/bill-gates-tries-to-install-movie-maker",
-        "points": 78,
-        "comments": 7,
+        "points": 107,
+        "comments": 11,
         "discussion": "https://lobste.rs/s/lfqtgh/bill_gates_tries_install_movie_maker",
         "tags": [
           "windows"
@@ -1490,7 +1538,7 @@
       {
         "title": "What Would A Serious AI Product Look Like?",
         "url": "https://blog.glyph.im/2026/09/serious-ai-product.html",
-        "points": 61,
+        "points": 78,
         "comments": 6,
         "discussion": "https://lobste.rs/s/q2rymh/what_would_serious_ai_product_look_like",
         "tags": [
@@ -1500,10 +1548,21 @@
         ]
       },
       {
+        "title": "My experience writing automated tests for a SPA",
+        "url": "https://reecoute.fr/tech_blog/2026-09-28_my-experience-writing-automated-tests-for-a-spa",
+        "points": 12,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/vlywx2/my_experience_writing_automated_tests",
+        "tags": [
+          "testing",
+          "web"
+        ]
+      },
+      {
         "title": "Yes, no AI is now a feature",
         "url": "https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature/",
-        "points": 114,
-        "comments": 10,
+        "points": 117,
+        "comments": 15,
         "discussion": "https://lobste.rs/s/sxcz4v/yes_no_ai_is_now_feature",
         "tags": [
           "practices",
@@ -1513,8 +1572,8 @@
       {
         "title": "Hijacking the PS5's RTMP Stream",
         "url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
-        "points": 48,
-        "comments": 10,
+        "points": 53,
+        "comments": 11,
         "discussion": "https://lobste.rs/s/8oyww7/hijacking_ps5_s_rtmp_stream",
         "tags": [
           "networking"
@@ -1523,18 +1582,29 @@
       {
         "title": "Leaving them behind",
         "url": "https://dbushell.com/2026/09/28/leaving-them-behind/",
-        "points": 58,
-        "comments": 20,
+        "points": 68,
+        "comments": 22,
         "discussion": "https://lobste.rs/s/h3igdh/leaving_them_behind",
         "tags": [
           "vibecoding"
         ]
       },
       {
+        "title": "State of the (Tagged) Union Address by Andrew Kelley",
+        "url": "https://www.youtube.com/watch?v=zwi5b5xSsKA",
+        "points": 35,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/okds3e/state_tagged_union_address_by_andrew",
+        "tags": [
+          "video",
+          "zig"
+        ]
+      },
+      {
         "title": "When did Google get so weird?",
         "url": "https://sancho.bearblog.dev/google-weird/",
-        "points": 65,
-        "comments": 10,
+        "points": 68,
+        "comments": 11,
         "discussion": "https://lobste.rs/s/aig5tr/when_did_google_get_so_weird",
         "tags": [
           "vibecoding"
@@ -1543,44 +1613,11 @@
       {
         "title": "What makes Lisp difficult to read?",
         "url": "https://paultm.nl/paren-thesis",
-        "points": 70,
-        "comments": 41,
+        "points": 77,
+        "comments": 43,
         "discussion": "https://lobste.rs/s/fqype1/what_makes_lisp_difficult_read",
         "tags": [
           "plt"
-        ]
-      },
-      {
-        "title": "My experience writing automated tests for a SPA",
-        "url": "https://reecoute.fr/tech_blog/2026-09-28_my-experience-writing-automated-tests-for-a-spa",
-        "points": 4,
-        "comments": 0,
-        "discussion": "https://lobste.rs/s/vlywx2/my_experience_writing_automated_tests",
-        "tags": [
-          "testing",
-          "web"
-        ]
-      },
-      {
-        "title": "HardenedBSD August / September 2026 Status Report",
-        "url": "https://hardenedbsd.org/article/shawn-webb/2026-09-27/hardenedbsd-august-september-2026-status-report",
-        "points": 17,
-        "comments": 0,
-        "discussion": "https://lobste.rs/s/roo5hm/hardenedbsd_august_september_2026",
-        "tags": [
-          "freebsd",
-          "security"
-        ]
-      },
-      {
-        "title": "State of the (Tagged) Union Address by Andrew Kelley",
-        "url": "https://www.youtube.com/watch?v=zwi5b5xSsKA",
-        "points": 18,
-        "comments": 0,
-        "discussion": "https://lobste.rs/s/okds3e/state_tagged_union_address_by_andrew",
-        "tags": [
-          "video",
-          "zig"
         ]
       }
     ],
@@ -1588,8 +1625,8 @@
       {
         "title": "Claude e Obsidian - Como uma QA utiliza essas ferramentas no dia-a-dia",
         "url": "https://dev.to/he4rt/claude-e-obsidian-como-uma-qa-utiliza-essas-ferramentas-no-dia-a-dia-51jc",
-        "points": 90,
-        "comments": 0,
+        "points": 94,
+        "comments": 3,
         "discussion": "https://dev.to/he4rt/claude-e-obsidian-como-uma-qa-utiliza-essas-ferramentas-no-dia-a-dia-51jc",
         "tags": [
           "ai",
@@ -1600,7 +1637,7 @@
       {
         "title": "🗓️ Monthly Dev 💫SPECIAL💫 Report: September 2026",
         "url": "https://dev.to/francistrdev/monthly-dev-special-report-september-2026-3jd7",
-        "points": 61,
+        "points": 68,
         "comments": 24,
         "discussion": "https://dev.to/francistrdev/monthly-dev-special-report-september-2026-3jd7",
         "tags": [
@@ -1610,22 +1647,21 @@
         ]
       },
       {
-        "title": "The 7 Walls JavaScript Hits — and How WebAssembly Gets Past Them",
-        "url": "https://dev.to/james_anderson_h/the-7-walls-javascript-hits-and-how-webassembly-gets-past-them-3khk",
-        "points": 33,
-        "comments": 22,
-        "discussion": "https://dev.to/james_anderson_h/the-7-walls-javascript-hits-and-how-webassembly-gets-past-them-3khk",
+        "title": "The Accidental Blogger: How I Ended Up on DEV",
+        "url": "https://dev.to/sylwia-lask/the-accidental-blogger-how-i-ended-up-on-dev-5a3f",
+        "points": 59,
+        "comments": 31,
+        "discussion": "https://dev.to/sylwia-lask/the-accidental-blogger-how-i-ended-up-on-dev-5a3f",
         "tags": [
-          "webassembly",
-          "webdev",
-          "javascript"
+          "mentalhealth",
+          "discuss"
         ]
       },
       {
         "title": "I Replaced a Gate That Accepted Everyone With a Gate That Accepted No One. My Tests Couldn't Tell the Difference.",
         "url": "https://dev.to/kenielzep97/i-replaced-a-gate-that-accepted-everyone-with-a-gate-that-accepted-no-one-my-tests-couldnt-tell-2n37",
         "points": 25,
-        "comments": 8,
+        "comments": 9,
         "discussion": "https://dev.to/kenielzep97/i-replaced-a-gate-that-accepted-everyone-with-a-gate-that-accepted-no-one-my-tests-couldnt-tell-2n37",
         "tags": [
           "python",
@@ -1634,58 +1670,22 @@
         ]
       },
       {
-        "title": "Half the AI agents in production are if-statements with a GPU bill",
-        "url": "https://dev.to/cyclopt_dimitrisk/half-the-ai-agents-in-production-are-if-statements-with-a-gpu-bill-4934",
-        "points": 24,
-        "comments": 19,
-        "discussion": "https://dev.to/cyclopt_dimitrisk/half-the-ai-agents-in-production-are-if-statements-with-a-gpu-bill-4934",
+        "title": "React 19 useFormStatus Returning False? I Built a SubmitButton That Fixes It",
+        "url": "https://dev.to/shubhradev/react-19-useformstatus-returning-false-i-built-a-submitbutton-that-fixes-it-4o0j",
+        "points": 22,
+        "comments": 2,
+        "discussion": "https://dev.to/shubhradev/react-19-useformstatus-returning-false-i-built-a-submitbutton-that-fixes-it-4o0j",
         "tags": [
-          "ai",
-          "programming",
-          "architecture"
-        ]
-      },
-      {
-        "title": "ToolTrap: “tool results are data” wasn’t enough",
-        "url": "https://dev.to/himanshu_748/tooltrap-tool-results-are-data-wasnt-enough-25oh",
-        "points": 20,
-        "comments": 13,
-        "discussion": "https://dev.to/himanshu_748/tooltrap-tool-results-are-data-wasnt-enough-25oh",
-        "tags": [
-          "devchallenge",
-          "kagglechallenge",
-          "ai"
-        ]
-      },
-      {
-        "title": "How to Work With Agentic Teammates: A Practical Guide to Assigning, Governing, and Reviewing AI Work",
-        "url": "https://dev.to/therealmrmumba/how-to-work-with-agentic-teammates-a-practical-guide-to-assigning-governing-and-reviewing-ai-work-2316",
-        "points": 16,
-        "comments": 0,
-        "discussion": "https://dev.to/therealmrmumba/how-to-work-with-agentic-teammates-a-practical-guide-to-assigning-governing-and-reviewing-ai-work-2316",
-        "tags": [
-          "ai",
-          "programming",
-          "productivity"
-        ]
-      },
-      {
-        "title": "What If Bureaucracy Was a 16-Bit Boss Fight?",
-        "url": "https://dev.to/danielecangi/what-if-bureaucracy-was-a-16-bit-boss-fight-5fjd",
-        "points": 15,
-        "comments": 3,
-        "discussion": "https://dev.to/danielecangi/what-if-bureaucracy-was-a-16-bit-boss-fight-5fjd",
-        "tags": [
-          "contributorswanted",
-          "gamedev",
-          "showdev"
+          "react",
+          "javascript",
+          "webdev"
         ]
       },
       {
         "title": "I Stopped Measuring My Programming Ability by How Much Code I Write.",
         "url": "https://dev.to/mikachu/i-stopped-measuring-my-programming-ability-by-how-much-code-i-write-44g3",
-        "points": 14,
-        "comments": 4,
+        "points": 21,
+        "comments": 6,
         "discussion": "https://dev.to/mikachu/i-stopped-measuring-my-programming-ability-by-how-much-code-i-write-44g3",
         "tags": [
           "ai",
@@ -1694,21 +1694,57 @@
         ]
       },
       {
-        "title": "Count It or Compute It: When a Tool Returns Rows, the Models That Count Them Right Spend the Tokens",
-        "url": "https://dev.to/gde/count-it-or-compute-it-when-a-tool-returns-rows-the-models-that-count-them-right-spend-the-tokens-2hae",
-        "points": 10,
-        "comments": 3,
-        "discussion": "https://dev.to/gde/count-it-or-compute-it-when-a-tool-returns-rows-the-models-that-count-them-right-spend-the-tokens-2hae",
+        "title": "Who's Accountable When the AI Was Just Following Instructions?",
+        "url": "https://dev.to/james_anderson_h/whos-accountable-when-the-ai-was-just-following-instructions-1efl",
+        "points": 15,
+        "comments": 4,
+        "discussion": "https://dev.to/james_anderson_h/whos-accountable-when-the-ai-was-just-following-instructions-1efl",
         "tags": [
-          "devchallenge",
-          "kagglechallenge",
-          "ai"
+          "ai",
+          "ethics",
+          "agents"
+        ]
+      },
+      {
+        "title": "I Gave ChatGPT My Full Codebase. The Results Scared Me — But Not for the Reason You Think.",
+        "url": "https://dev.to/infoinlet1/i-gave-chatgpt-my-full-codebase-the-results-scared-me-but-not-for-the-reason-you-think-2ggk",
+        "points": 15,
+        "comments": 4,
+        "discussion": "https://dev.to/infoinlet1/i-gave-chatgpt-my-full-codebase-the-results-scared-me-but-not-for-the-reason-you-think-2ggk",
+        "tags": [
+          "ai",
+          "programming",
+          "security"
+        ]
+      },
+      {
+        "title": "I'm an ER doctor. After decades without touching code, I built 3 websites with AI in one month — on my phone.",
+        "url": "https://dev.to/branislav_kuga_4118d3b3ab/im-an-er-doctor-after-decades-without-touching-code-i-built-3-websites-with-ai-in-one-month-on-5ccm",
+        "points": 12,
+        "comments": 5,
+        "discussion": "https://dev.to/branislav_kuga_4118d3b3ab/im-an-er-doctor-after-decades-without-touching-code-i-built-3-websites-with-ai-in-one-month-on-5ccm",
+        "tags": [
+          "showdev",
+          "ai",
+          "webdev"
+        ]
+      },
+      {
+        "title": "Pausing an agent mid-task and resuming it four minutes later, with its memory intact",
+        "url": "https://dev.to/remdore/pausing-an-agent-mid-task-and-resuming-it-four-minutes-later-with-its-memory-intact-1ipg",
+        "points": 12,
+        "comments": 0,
+        "discussion": "https://dev.to/remdore/pausing-an-agent-mid-task-and-resuming-it-four-minutes-later-with-its-memory-intact-1ipg",
+        "tags": [
+          "ai",
+          "devops",
+          "cloud"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-09-29T07:05:03.000Z",
+    "fetchedAt": "2026-09-29T12:38:48.901Z",
     "candidates": {
       "https://discord.com/blog/discord-update-september-25-2026": {
         "source": "Discord",
@@ -2182,6 +2218,13 @@
         "discussion": "https://lobste.rs/s/ppfyza/how_notion_handles_concurrent_editing",
         "published": "2026-09-20T12:06:29.397Z",
         "summary": ""
+      },
+      "https://www.figma.com/blog/london-office-expansion": {
+        "source": "Figma",
+        "title": "Figma invests in the UK with expanded London office",
+        "url": "https://www.figma.com/blog/london-office-expansion/",
+        "published": "2026-09-29T16:47:00.000Z",
+        "summary": "With our new London office, we’re getting closer to our customers and community."
       }
     }
   }
