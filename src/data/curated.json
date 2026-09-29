@@ -19,7 +19,27 @@
     "https://news.ycombinator.com/item?id=49869995": {
       "why": "Unlike the Python original, each agent is a supervised OTP process, and prompts are built from typed signatures so model replies are validated rather than parsed by hand.",
       "pickedOn": "2026-09-29"
+    },
+    "jaydendavisnc/inkwave": {
+      "why": "Not a tech demo: it's a playable online 4v4 game with room codes, bots that backfill dropped players, and liquid-ink simulation, all in one HTML file with no build step.",
+      "pickedOn": "2026-09-29"
+    },
+    "seamusc/papermono-shopping-list": {
+      "why": "A complete, readable ~2,400-line firmware rather than a snippet, notable for handling e-paper partial-refresh ghosting and Wi-Fi duty-cycling so it can seed other firmware.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://news.ycombinator.com/item?id=49876760": {
+      "why": "Ships as a self-contained binary with vim keys, mouse and themes; built on OpenTUI and Effect, so it doubles as a readable example of an Effect-based terminal app.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://news.ycombinator.com/item?id=49875308": {
+      "why": "A real client-side WebAssembly raster-plus-vector editor that runs without an account, positioned as a free alternative rather than another subscription design suite.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://news.ycombinator.com/item?id=49884625": {
+      "why": "A 0.5B ternary model sliced across seven ESP32-S3 boards, attention and MLP on nodes, a master doing tokenization, linked in an SPI daisy-chain pipeline.",
+      "pickedOn": "2026-09-29"
     }
   },
-  "updatedAt": "2026-09-29T06:32:39.867Z"
+  "updatedAt": "2026-09-29T06:34:08.543Z"
 }
