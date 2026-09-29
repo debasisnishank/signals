@@ -41,5 +41,247 @@
       "pickedOn": "2026-09-29"
     }
   },
-  "updatedAt": "2026-09-29T06:34:08.543Z"
+  "updatedAt": "2026-09-29T07:04:28.287Z",
+  "deepdives": {
+    "https://blog.cloudflare.com/voidzero-update": {
+      "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
+      "url": "https://blog.cloudflare.com/voidzero-update/",
+      "source": "Cloudflare",
+      "published": "2026-09-28T13:00:00.000Z",
+      "topic": "performance",
+      "why": "How the VoidZero team sped up JavaScript compilation, linting and testing, including a 10x faster React compiler, and the trade-offs behind those gains.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://blog.cloudflare.com/kitesurf-update": {
+      "title": "The road to the agentic browser: A Kitesurf update",
+      "url": "https://blog.cloudflare.com/kitesurf-update/",
+      "source": "Cloudflare",
+      "published": "2026-09-28T13:00:00.000Z",
+      "topic": "infrastructure",
+      "why": "What it takes to build a Workers-based browser engine for agents: DOM performance work, WebMCP support, and rendering, backed by test-suite numbers.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://blog.cloudflare.com/rust-workers-emscripten-target": {
+      "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
+      "url": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
+      "source": "Cloudflare",
+      "published": "2026-09-28T13:00:00.000Z",
+      "topic": "infrastructure",
+      "why": "How a new Emscripten target unlocks previously unsupported Rust libraries and Tokio async on Workers, and the wasm-bindgen limits that had to be solved.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://blog.cloudflare.com/containers-cross-tenant-vulnerability": {
+      "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+      "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
+      "source": "Cloudflare",
+      "published": "2026-09-24T15:00:00.000Z",
+      "topic": "reliability",
+      "why": "An incident postmortem of a cross-tenant disk data exposure in multi-tenant containers, explaining dm-thin storage behavior, impact, and the fix.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://blog.cloudflare.com/vary-support": {
+      "title": "We just shipped support for the ugliest part of HTTP: Vary",
+      "url": "https://blog.cloudflare.com/vary-support/",
+      "source": "Cloudflare",
+      "published": "2026-09-22T14:04:31.000Z",
+      "topic": "infrastructure",
+      "why": "Explains the HTTP Vary header, why caches mishandle it, and how to normalize, pass through, or bypass cache keys for ambiguous content negotiation.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math": {
+      "title": "Saving another 100TB of RAM with math (and Rust)",
+      "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+      "source": "Cloudflare",
+      "published": "2026-09-18T17:23:58.000Z",
+      "topic": "performance",
+      "why": "How Cloudflare reclaimed over 100TB of RAM by fixing memory-hungry consistent hashing in Rust, walking through the math, profiling, and algorithm changes.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css": {
+      "title": "Improving site performance by shipping more CSS",
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "source": "GitHub",
+      "published": "2026-09-25T15:00:00.000Z",
+      "topic": "performance",
+      "why": "How GitHub replaced CSS-in-JS across github.com with static CSS and cut rendering and runtime cost, with the migration tradeoffs.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app": {
+      "title": "Rendering huge pull requests in the GitHub Copilot app",
+      "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+      "source": "GitHub",
+      "published": "2026-09-23T18:29:49.000Z",
+      "topic": "performance",
+      "why": "How GitHub rebuilt its diff renderer to open million-line pull requests with hundreds of inline comments without freezing the UI.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252?source=rss----2615bd06b42e---4": {
+      "title": "Trading a Cloud Identity for Your Own: Workload Attestation on Managed Compute",
+      "url": "https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252?source=rss----2615bd06b42e---4",
+      "source": "Netflix",
+      "published": "2026-09-25T16:01:03.000Z",
+      "topic": "infrastructure",
+      "why": "How Netflix issues and verifies its own workload identities on managed compute instead of trusting cloud provider identity.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4": {
+      "title": "Leave the Class Path in the Rearview Mirror",
+      "url": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4",
+      "source": "Netflix",
+      "published": "2026-09-18T16:01:02.000Z",
+      "topic": "architecture",
+      "why": "Why Netflix moved its JVM services off the traditional classpath, what it uses instead, and the tradeoffs involved.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems": {
+      "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
+      "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
+      "source": "Meta",
+      "published": "2026-09-21T16:00:37.000Z",
+      "topic": "architecture",
+      "why": "How Meta designed a generic assignment-problem solver for resource allocation, separating problem specification, storage, solving, and debugging.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable": {
+      "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
+      "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/",
+      "source": "Meta",
+      "published": "2026-09-21T12:00:00.000Z",
+      "topic": "infrastructure",
+      "why": "The engineering behind a petabit-class transoceanic subsea cable, including deploying multi-core fiber at scale over 7,000 km.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://shopify.engineering/helix": {
+      "title": "Helix: The internal tool powering our Shopify app's native migration",
+      "url": "https://shopify.engineering/helix",
+      "source": "Shopify",
+      "published": "2026-09-21T21:12:33.000Z",
+      "topic": "architecture",
+      "why": "How Shopify's Helix tool drives LLM rewrites of its app into Swift and Kotlin using small checkpoints and strict quality gates.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://medium.com/airbnb-engineering/the-guest-journey-updated-in-real-time-extending-airbnbs-sequence-recommender-with-chronon-8f1582578553?source=rss----53c7c27702d5---4": {
+      "title": "The guest journey, updated in real time: extending Airbnb’s sequence recommender with Chronon",
+      "url": "https://medium.com/airbnb-engineering/the-guest-journey-updated-in-real-time-extending-airbnbs-sequence-recommender-with-chronon-8f1582578553?source=rss----53c7c27702d5---4",
+      "source": "Airbnb",
+      "published": "2026-09-17T17:01:02.000Z",
+      "topic": "architecture",
+      "why": "How Airbnb extended its sequence recommender to refresh the guest journey in real time with Chronon, and the streaming pipeline trade-offs involved.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://medium.com/airbnb-engineering/beyond-the-model-engineering-ai-infra-with-scientific-judgement-371316d43261?source=rss----53c7c27702d5---4": {
+      "title": "Beyond the model: Engineering AI infra with scientific judgement",
+      "url": "https://medium.com/airbnb-engineering/beyond-the-model-engineering-ai-infra-with-scientific-judgement-371316d43261?source=rss----53c7c27702d5---4",
+      "source": "Airbnb",
+      "published": "2026-09-15T17:06:18.000Z",
+      "topic": "infrastructure",
+      "why": "How Airbnb engineers build and operate AI infrastructure, using scientific judgement to decide what to build versus buy and how to validate it.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://medium.com/pinterest-engineering/partition-finalization-in-pinterests-next-generation-db-ingestion-framework-4c7da6e4cc8f?source=rss----4c5a5f6279b6---4": {
+      "title": "Partition Finalization in Pinterest’s Next-Generation DB Ingestion Framework",
+      "url": "https://medium.com/pinterest-engineering/partition-finalization-in-pinterests-next-generation-db-ingestion-framework-4c7da6e4cc8f?source=rss----4c5a5f6279b6---4",
+      "source": "Pinterest",
+      "published": "2026-09-25T15:01:03.000Z",
+      "topic": "databases",
+      "why": "How Pinterest finalizes partitions in its next-generation DB ingestion framework, covering the coordination and correctness problems at scale.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://muratbuffalo.blogspot.com/2026/09/in-search-of-compositional-theory-of.html": {
+      "title": "In Search of a Compositional Theory of Self-Stabilization",
+      "url": "https://muratbuffalo.blogspot.com/2026/09/in-search-of-compositional-theory-of.html",
+      "source": "Murat Demirbas",
+      "published": "2026-09-21T16:55:13.615Z",
+      "topic": "distributed",
+      "why": "Explains why composing self-stabilizing systems is hard and how that lens helps diagnose and prevent metastable failures in distributed systems.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://david.alvarezrosa.com/posts/tuning-a-server-for-benchmarking": {
+      "title": "Tuning a Server for Benchmarking",
+      "url": "https://david.alvarezrosa.com/posts/tuning-a-server-for-benchmarking/",
+      "source": "Lobsters",
+      "published": "2026-09-26T11:48:40.380Z",
+      "discussion": "https://lobste.rs/s/fejuat/tuning_server_for_benchmarking",
+      "topic": "performance",
+      "why": "Shows how to configure and tune a server so benchmark measurements are accurate and reproducible instead of distorted by the host.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://andanti.no/blog/signedmesh.html": {
+      "title": "I want my mesh networks to be signed, not encrypted",
+      "url": "https://andanti.no/blog/SignedMesh.html",
+      "source": "Lobsters",
+      "published": "2026-09-23T14:39:46.740Z",
+      "discussion": "https://lobste.rs/s/r3ydgj/i_want_my_mesh_networks_be_signed_not",
+      "topic": "infrastructure",
+      "why": "Argues mesh networks should authenticate and sign traffic rather than only encrypt it, illustrating a concrete networking design trade-off.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://blog.apnic.net/2026/09/22/latest-bgp-hijack-targets-hosting-software-vendor": {
+      "title": "Latest BGP hijack targets hosting software vendor",
+      "url": "https://blog.apnic.net/2026/09/22/latest-bgp-hijack-targets-hosting-software-vendor/",
+      "source": "Lobsters",
+      "published": "2026-09-23T11:55:38.027Z",
+      "discussion": "https://lobste.rs/s/eqme8i/latest_bgp_hijack_targets_hosting",
+      "topic": "infrastructure",
+      "why": "A real BGP hijack incident shows how internet routing can be subverted and what it exposes about trust in the protocol.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://www.notion.com/blog/how-notion-handles-concurrent-editing-with-crdts": {
+      "title": "How Notion handles concurrent editing with CRDTs",
+      "url": "https://www.notion.com/blog/how-notion-handles-concurrent-editing-with-crdts",
+      "source": "Lobsters",
+      "published": "2026-09-20T12:06:29.397Z",
+      "discussion": "https://lobste.rs/s/ppfyza/how_notion_handles_concurrent_editing",
+      "topic": "distributed",
+      "why": "Explains how Notion models shared documents as CRDTs, the concrete concurrency problems that creates, and the trade-offs chosen.",
+      "pickedOn": "2026-09-29"
+    }
+  },
+  "deepdiveSkips": {
+    "https://discord.com/blog/discord-update-september-25-2026": "2026-09-29",
+    "https://discord.com/blog/safer-for-teens-same-discord-for-adults": "2026-09-29",
+    "https://discord.com/blog/adding-the-discord-updates-you-want-to-see": "2026-09-29",
+    "https://blog.cloudflare.com/vinext-nextjs-on-vite": "2026-09-29",
+    "https://blog.cloudflare.com/cloudflare-cf-cli-launch": "2026-09-29",
+    "https://blog.cloudflare.com/how-fast-is-the-web": "2026-09-29",
+    "https://blog.cloudflare.com/forge-open-source-generation-pipeline": "2026-09-29",
+    "https://blog.cloudflare.com/introducing-the-cold-start": "2026-09-29",
+    "https://blog.cloudflare.com/emdash-cms-plugin-registry": "2026-09-29",
+    "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter": "2026-09-29",
+    "https://blog.cloudflare.com/turnstile-spin": "2026-09-29",
+    "https://blog.cloudflare.com/worker-previews": "2026-09-29",
+    "https://blog.cloudflare.com/python-workers-ga": "2026-09-29",
+    "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns": "2026-09-29",
+    "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers": "2026-09-29",
+    "https://blog.cloudflare.com/workers-granular-authorization": "2026-09-29",
+    "https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum": "2026-09-29",
+    "https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk": "2026-09-29",
+    "https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe": "2026-09-29",
+    "https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse": "2026-09-29",
+    "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses": "2026-09-29",
+    "https://www.figma.com/blog/what-it-takes-to-build-great-products-now": "2026-09-29",
+    "https://www.figma.com/blog/the-power-of-product-based-learning": "2026-09-29",
+    "https://www.figma.com/blog/source-material-aitana-pico": "2026-09-29",
+    "https://www.figma.com/blog/try-these-5-weave-tools-and-share-your-own": "2026-09-29",
+    "https://www.figma.com/blog/source-material-zach-lieberman": "2026-09-29",
+    "https://aws.amazon.com/blogs/architecture/readyons-four-walls-of-tenant-isolation-on-amazon-eks": "2026-09-29",
+    "https://aws.amazon.com/blogs/architecture/how-csiro-built-scalable-cost-optimized-genomic-variant-querying-on-aws": "2026-09-29",
+    "https://aws.amazon.com/blogs/architecture/how-equinix-cut-operational-overhead-with-a-shared-services-architecture-on-amazon-eks": "2026-09-29",
+    "https://aws.amazon.com/blogs/architecture/building-cloud-native-pacs-on-aws": "2026-09-29",
+    "https://aws.amazon.com/blogs/architecture/how-dhi-group-accelerates-generative-ai-workloads-from-idea-to-production-using-hackathons": "2026-09-29",
+    "https://medium.com/pinterest-engineering/beyond-two-towers-launching-the-3-tower-engagement-co-train-model-part-2-0b96167d2c14?source=rss----4c5a5f6279b6---4": "2026-09-29",
+    "https://dropbox.tech/culture/learnings-from-deploying-ai-at-company-scale": "2026-09-29",
+    "https://dropbox.tech/developers/new-dropbox-api-documentation": "2026-09-29",
+    "https://muratbuffalo.blogspot.com/2026/09/what-happens-when-model-eats-stack.html": "2026-09-29",
+    "https://muratbuffalo.blogspot.com/2026/09/academic-doomerism.html": "2026-09-29",
+    "http://brooker.co.za/blog/2026/09/28/engineering-system-one.html": "2026-09-29",
+    "https://danluu.com/brain-off": "2026-09-29",
+    "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream": "2026-09-29",
+    "https://dthompson.us/posts/deploying-guix-images-on-linode.html": "2026-09-29",
+    "https://csixty4.medium.com/pick-is-a-living-fossil-of-computer-history-36d74408d557": "2026-09-29",
+    "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol.html": "2026-09-29",
+    "https://david.alvarezrosa.com/posts/self-hosting-behind-cgnat": "2026-09-29",
+    "https://remy.wang/blog/ra-ra.html": "2026-09-29",
+    "https://github.com/dtonon/squalk": "2026-09-29"
+  }
 }
