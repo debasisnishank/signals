@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-09-29T06:34:46.487Z",
+    "fetchedAt": "2026-09-29T06:58:03.423Z",
     "repos": [
       {
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 27923,
+        "stars": 27940,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -20,7 +20,7 @@
         "name": "browser-use/jev-ultrafast",
         "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 21226,
+        "stars": 21234,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": [],
@@ -34,7 +34,7 @@
         "name": "jaredpalmer/kev",
         "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 7705,
+        "stars": 7711,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -52,7 +52,7 @@
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 7159,
+        "stars": 7160,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": []
@@ -61,7 +61,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 7089,
+        "stars": 7092,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": []
@@ -70,7 +70,7 @@
         "name": "mizorewww/laya-mlx",
         "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
         "language": "Python",
-        "stars": 6592,
+        "stars": 6593,
         "url": "https://github.com/mizorewww/laya-mlx",
         "created": "2026-09-19T13:50:26Z",
         "topics": [
@@ -84,7 +84,7 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 6058,
+        "stars": 6068,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": []
@@ -93,7 +93,7 @@
         "name": "Mak5er/AirCard",
         "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
         "language": "Swift",
-        "stars": 4774,
+        "stars": 4782,
         "url": "https://github.com/Mak5er/AirCard",
         "created": "2026-09-16T22:20:15Z",
         "topics": []
@@ -102,13 +102,13 @@
         "name": "firelex/jeff",
         "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
         "language": "Python",
-        "stars": 597,
+        "stars": 619,
         "url": "https://github.com/firelex/jeff",
         "created": "2026-09-28T16:18:39Z",
         "topics": [],
         "hn": {
-          "points": 437,
-          "comments": 163,
+          "points": 448,
+          "comments": 167,
           "url": "https://news.ycombinator.com/item?id=49883844"
         }
       },
@@ -125,7 +125,7 @@
         "name": "brainbrick-trades/The-Quant-Trading-Vault",
         "description": "5800+ trading strategies unlocked.",
         "language": null,
-        "stars": 269,
+        "stars": 273,
         "url": "https://github.com/brainbrick-trades/The-Quant-Trading-Vault",
         "created": "2026-09-27T04:24:34Z",
         "topics": []
@@ -134,7 +134,7 @@
         "name": "JoasASantos/Offensive-Security-AI-Models",
         "description": "Uncensored AI models or those fine-tuned for cybersecurity tasks.",
         "language": null,
-        "stars": 216,
+        "stars": 223,
         "url": "https://github.com/JoasASantos/Offensive-Security-AI-Models",
         "created": "2026-09-27T20:36:30Z",
         "topics": []
@@ -157,7 +157,7 @@
         "name": "Appllama/liquid-glass-chat-ui",
         "description": "Explore liquid-glass chat UIs with animated portraits, interactive stories, and floating composers.",
         "language": "TypeScript",
-        "stars": 191,
+        "stars": 192,
         "url": "https://github.com/Appllama/liquid-glass-chat-ui",
         "created": "2026-09-27T13:33:00Z",
         "topics": [
@@ -194,7 +194,7 @@
         "name": "chasmlol/2010-rust-rewrite-mashup",
         "description": "MW2, Skate 3 and Minecraft in one Rust game: IW4L's MW2 rewrite with Skate 3 mode and a real Minecraft world map",
         "language": "Rust",
-        "stars": 140,
+        "stars": 142,
         "url": "https://github.com/chasmlol/2010-rust-rewrite-mashup",
         "created": "2026-09-27T23:47:01Z",
         "topics": []
@@ -214,8 +214,8 @@
         "source": "showhn",
         "title": "Pac-Bench – How well can models one-shot a Pac-Man game?",
         "url": "https://jonclegg.github.io/pacman-bakeoff/",
-        "points": 35,
-        "comments": 20,
+        "points": 39,
+        "comments": 25,
         "discussion": "https://news.ycombinator.com/item?id=49885493",
         "created": "2026-09-28T22:43:12.000Z"
       },
@@ -223,7 +223,7 @@
         "source": "showhn",
         "title": "Destroy Any Website with Stickman",
         "url": "https://destroy.spritefusion.com/",
-        "points": 132,
+        "points": 136,
         "comments": 32,
         "discussion": "https://news.ycombinator.com/item?id=49880601",
         "created": "2026-09-28T16:31:28.000Z"
@@ -232,7 +232,7 @@
         "source": "showhn",
         "title": "HN.watch – Videos of all Hacker News posts",
         "url": "https://hn.watch/",
-        "points": 153,
+        "points": 156,
         "comments": 88,
         "discussion": "https://news.ycombinator.com/item?id=49879401",
         "created": "2026-09-28T15:16:13.000Z"
@@ -259,7 +259,7 @@
         "source": "showhn",
         "title": "Free alternative to graphics design giants",
         "url": "https://scissor.studio/",
-        "points": 114,
+        "points": 115,
         "comments": 47,
         "discussion": "https://news.ycombinator.com/item?id=49875308",
         "created": "2026-09-28T08:55:31.000Z"
@@ -269,7 +269,7 @@
         "title": "Vespper (YC F24) – SOTA Docx MCP",
         "url": "https://www.vespper.com/blog/launching-vespper-docx-mcp",
         "points": 34,
-        "comments": 10,
+        "comments": 11,
         "discussion": "https://news.ycombinator.com/item?id=49881505",
         "created": "2026-09-28T17:34:36.000Z"
       },
@@ -295,8 +295,8 @@
         "source": "hn",
         "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
         "url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
-        "points": 76,
-        "comments": 13,
+        "points": 78,
+        "comments": 15,
         "discussion": "https://news.ycombinator.com/item?id=49884625",
         "created": "2026-09-28T21:26:41.000Z"
       },
@@ -326,7 +326,7 @@
         "name": "browser-use/jev-ultrafast",
         "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 21226,
+        "stars": 21234,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": [],
@@ -360,7 +360,7 @@
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 7159,
+        "stars": 7160,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": [],
@@ -413,7 +413,7 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 6058,
+        "stars": 6068,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": [],
@@ -449,7 +449,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 7089,
+        "stars": 7092,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": [],
@@ -461,7 +461,7 @@
         "name": "mizorewww/laya-mlx",
         "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
         "language": "Python",
-        "stars": 6592,
+        "stars": 6593,
         "url": "https://github.com/mizorewww/laya-mlx",
         "created": "2026-09-19T13:50:26Z",
         "topics": [
@@ -478,7 +478,7 @@
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 27923,
+        "stars": 27940,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -495,7 +495,7 @@
         "name": "jaredpalmer/kev",
         "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 7705,
+        "stars": 7711,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -540,7 +540,7 @@
         "name": "Mak5er/AirCard",
         "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
         "language": "Swift",
-        "stars": 4774,
+        "stars": 4782,
         "url": "https://github.com/Mak5er/AirCard",
         "created": "2026-09-16T22:20:15Z",
         "topics": [],
@@ -702,13 +702,13 @@
         "name": "firelex/jeff",
         "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
         "language": "Python",
-        "stars": 597,
+        "stars": 619,
         "url": "https://github.com/firelex/jeff",
         "created": "2026-09-28T16:18:39Z",
         "topics": [],
         "hn": {
-          "points": 437,
-          "comments": 163,
+          "points": 448,
+          "comments": 167,
           "url": "https://news.ycombinator.com/item?id=49883844"
         },
         "firstSeen": "2026-09-29",
@@ -736,7 +736,7 @@
         "name": "brainbrick-trades/The-Quant-Trading-Vault",
         "description": "5800+ trading strategies unlocked.",
         "language": null,
-        "stars": 269,
+        "stars": 273,
         "url": "https://github.com/brainbrick-trades/The-Quant-Trading-Vault",
         "created": "2026-09-27T04:24:34Z",
         "topics": [],
@@ -748,7 +748,7 @@
         "name": "JoasASantos/Offensive-Security-AI-Models",
         "description": "Uncensored AI models or those fine-tuned for cybersecurity tasks.",
         "language": null,
-        "stars": 216,
+        "stars": 223,
         "url": "https://github.com/JoasASantos/Offensive-Security-AI-Models",
         "created": "2026-09-27T20:36:30Z",
         "topics": [],
@@ -760,7 +760,7 @@
         "name": "Appllama/liquid-glass-chat-ui",
         "description": "Explore liquid-glass chat UIs with animated portraits, interactive stories, and floating composers.",
         "language": "TypeScript",
-        "stars": 191,
+        "stars": 192,
         "url": "https://github.com/Appllama/liquid-glass-chat-ui",
         "created": "2026-09-27T13:33:00Z",
         "topics": [
@@ -806,7 +806,7 @@
         "name": "chasmlol/2010-rust-rewrite-mashup",
         "description": "MW2, Skate 3 and Minecraft in one Rust game: IW4L's MW2 rewrite with Skate 3 mode and a real Minecraft world map",
         "language": "Rust",
-        "stars": 140,
+        "stars": 142,
         "url": "https://github.com/chasmlol/2010-rust-rewrite-mashup",
         "created": "2026-09-27T23:47:01Z",
         "topics": [],
@@ -1305,7 +1305,7 @@
         "source": "showhn",
         "title": "Destroy Any Website with Stickman",
         "url": "https://destroy.spritefusion.com/",
-        "points": 132,
+        "points": 136,
         "comments": 32,
         "discussion": "https://news.ycombinator.com/item?id=49880601",
         "created": "2026-09-28T16:31:28.000Z",
@@ -1316,7 +1316,7 @@
         "source": "showhn",
         "title": "HN.watch – Videos of all Hacker News posts",
         "url": "https://hn.watch/",
-        "points": 153,
+        "points": 156,
         "comments": 88,
         "discussion": "https://news.ycombinator.com/item?id=49879401",
         "created": "2026-09-28T15:16:13.000Z",
@@ -1338,7 +1338,7 @@
         "source": "showhn",
         "title": "Free alternative to graphics design giants",
         "url": "https://scissor.studio/",
-        "points": 114,
+        "points": 115,
         "comments": 47,
         "discussion": "https://news.ycombinator.com/item?id=49875308",
         "created": "2026-09-28T08:55:31.000Z",
@@ -1350,7 +1350,7 @@
         "title": "Vespper (YC F24) – SOTA Docx MCP",
         "url": "https://www.vespper.com/blog/launching-vespper-docx-mcp",
         "points": 34,
-        "comments": 10,
+        "comments": 11,
         "discussion": "https://news.ycombinator.com/item?id=49881505",
         "created": "2026-09-28T17:34:36.000Z",
         "firstSeen": "2026-09-29",
@@ -1360,8 +1360,8 @@
         "source": "hn",
         "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
         "url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
-        "points": 76,
-        "comments": 13,
+        "points": 78,
+        "comments": 15,
         "discussion": "https://news.ycombinator.com/item?id=49884625",
         "created": "2026-09-28T21:26:41.000Z",
         "firstSeen": "2026-09-29",
@@ -1371,8 +1371,8 @@
         "source": "showhn",
         "title": "Pac-Bench – How well can models one-shot a Pac-Man game?",
         "url": "https://jonclegg.github.io/pacman-bakeoff/",
-        "points": 35,
-        "comments": 20,
+        "points": 39,
+        "comments": 25,
         "discussion": "https://news.ycombinator.com/item?id=49885493",
         "created": "2026-09-28T22:43:12.000Z",
         "firstSeen": "2026-09-29",
@@ -1381,76 +1381,76 @@
     }
   },
   "reading": {
-    "fetchedAt": "2026-09-29T06:34:46.487Z",
+    "fetchedAt": "2026-09-29T06:58:03.423Z",
     "hn": [
       {
         "title": "Sonnet 5.5",
         "url": "https://www.anthropic.com/claude-sonnet-5-5",
-        "points": 712,
-        "comments": 478,
+        "points": 724,
+        "comments": 489,
         "discussion": "https://news.ycombinator.com/item?id=49881850"
       },
       {
         "title": "Pirating the Pirates",
         "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
-        "points": 514,
-        "comments": 250,
+        "points": 522,
+        "comments": 256,
         "discussion": "https://news.ycombinator.com/item?id=49880036"
       },
       {
         "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
         "url": "https://github.com/firelex/jeff",
-        "points": 437,
-        "comments": 163,
+        "points": 448,
+        "comments": 167,
         "discussion": "https://news.ycombinator.com/item?id=49883844"
-      },
-      {
-        "title": "It's Time to Investigate the AI Labs",
-        "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-        "points": 416,
-        "comments": 157,
-        "discussion": "https://news.ycombinator.com/item?id=49883471"
       },
       {
         "title": "Updated Google Maps shows destruction of the city of Rafah",
         "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
-        "points": 407,
-        "comments": 221,
+        "points": 432,
+        "comments": 242,
         "discussion": "https://news.ycombinator.com/item?id=49879645"
+      },
+      {
+        "title": "It's Time to Investigate the AI Labs",
+        "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+        "points": 432,
+        "comments": 162,
+        "discussion": "https://news.ycombinator.com/item?id=49883471"
       },
       {
         "title": "Kids turned low-traffic NPR Spotify comments into a secret group chat",
         "url": "https://www.thisamericanlife.org/897/transcript",
-        "points": 363,
-        "comments": 203,
+        "points": 368,
+        "comments": 206,
         "discussion": "https://news.ycombinator.com/item?id=49879697"
       },
       {
         "title": "World Labs Is Joining AMD",
         "url": "https://www.worldlabs.ai/blog/amd-announcement",
-        "points": 251,
-        "comments": 105,
+        "points": 258,
+        "comments": 108,
         "discussion": "https://news.ycombinator.com/item?id=49883760"
       },
       {
         "title": "Hijacking the PS5's RTMP stream",
         "url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
-        "points": 237,
+        "points": 243,
         "comments": 73,
         "discussion": "https://news.ycombinator.com/item?id=49879702"
       },
       {
         "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
         "url": "https://stateofutopia.com/experiments/microllmlab/",
-        "points": 203,
+        "points": 212,
         "comments": 77,
         "discussion": "https://news.ycombinator.com/item?id=49882781"
       },
       {
         "title": "Does Reddit have an astroturfing problem? What the data suggests",
         "url": "https://www.petervijeh.com/projects/reddit-astroturf",
-        "points": 182,
-        "comments": 220,
+        "points": 188,
+        "comments": 228,
         "discussion": "https://news.ycombinator.com/item?id=49877678"
       }
     ],
@@ -1458,7 +1458,7 @@
       {
         "title": "Bill Gates tries to install Movie Maker",
         "url": "https://www.techemails.com/p/bill-gates-tries-to-install-movie-maker",
-        "points": 73,
+        "points": 77,
         "comments": 7,
         "discussion": "https://lobste.rs/s/lfqtgh/bill_gates_tries_install_movie_maker",
         "tags": [
@@ -1468,7 +1468,7 @@
       {
         "title": "What Would A Serious AI Product Look Like?",
         "url": "https://blog.glyph.im/2026/09/serious-ai-product.html",
-        "points": 59,
+        "points": 60,
         "comments": 6,
         "discussion": "https://lobste.rs/s/q2rymh/what_would_serious_ai_product_look_like",
         "tags": [
@@ -1480,7 +1480,7 @@
       {
         "title": "Yes, no AI is now a feature",
         "url": "https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature/",
-        "points": 113,
+        "points": 114,
         "comments": 10,
         "discussion": "https://lobste.rs/s/sxcz4v/yes_no_ai_is_now_feature",
         "tags": [
@@ -1501,7 +1501,7 @@
       {
         "title": "Leaving them behind",
         "url": "https://dbushell.com/2026/09/28/leaving-them-behind/",
-        "points": 56,
+        "points": 57,
         "comments": 20,
         "discussion": "https://lobste.rs/s/h3igdh/leaving_them_behind",
         "tags": [
@@ -1511,7 +1511,7 @@
       {
         "title": "When did Google get so weird?",
         "url": "https://sancho.bearblog.dev/google-weird/",
-        "points": 61,
+        "points": 64,
         "comments": 10,
         "discussion": "https://lobste.rs/s/aig5tr/when_did_google_get_so_weird",
         "tags": [
@@ -1521,7 +1521,7 @@
       {
         "title": "What makes Lisp difficult to read?",
         "url": "https://paultm.nl/paren-thesis",
-        "points": 69,
+        "points": 70,
         "comments": 41,
         "discussion": "https://lobste.rs/s/fqype1/what_makes_lisp_difficult_read",
         "tags": [
@@ -1529,25 +1529,25 @@
         ]
       },
       {
-        "title": "HardenedBSD August / September 2026 Status Report",
-        "url": "https://hardenedbsd.org/article/shawn-webb/2026-09-27/hardenedbsd-august-september-2026-status-report",
-        "points": 16,
-        "comments": 0,
-        "discussion": "https://lobste.rs/s/roo5hm/hardenedbsd_august_september_2026",
-        "tags": [
-          "freebsd",
-          "security"
-        ]
-      },
-      {
         "title": "My experience writing automated tests for a SPA",
         "url": "https://reecoute.fr/tech_blog/2026-09-28_my-experience-writing-automated-tests-for-a-spa",
-        "points": 3,
+        "points": 4,
         "comments": 0,
         "discussion": "https://lobste.rs/s/vlywx2/my_experience_writing_automated_tests",
         "tags": [
           "testing",
           "web"
+        ]
+      },
+      {
+        "title": "HardenedBSD August / September 2026 Status Report",
+        "url": "https://hardenedbsd.org/article/shawn-webb/2026-09-27/hardenedbsd-august-september-2026-status-report",
+        "points": 17,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/roo5hm/hardenedbsd_august_september_2026",
+        "tags": [
+          "freebsd",
+          "security"
         ]
       },
       {
@@ -1579,7 +1579,7 @@
         "title": "🗓️ Monthly Dev 💫SPECIAL💫 Report: September 2026",
         "url": "https://dev.to/francistrdev/monthly-dev-special-report-september-2026-3jd7",
         "points": 61,
-        "comments": 23,
+        "comments": 24,
         "discussion": "https://dev.to/francistrdev/monthly-dev-special-report-september-2026-3jd7",
         "tags": [
           "discuss",
@@ -1684,5 +1684,483 @@
         ]
       }
     ]
+  },
+  "deepdives": {
+    "fetchedAt": "2026-09-29T06:58:03.423Z",
+    "candidates": {
+      "https://discord.com/blog/discord-update-september-25-2026": {
+        "source": "Discord",
+        "title": "Discord Update: September 25, 2026",
+        "url": "https://discord.com/blog/discord-update-september-25-2026",
+        "published": "2026-09-25T00:00:00.000Z",
+        "summary": "Here's the Discord Changelog from September 25, 2026, so you can stay informed on what’s new in recent app updates!"
+      },
+      "https://discord.com/blog/safer-for-teens-same-discord-for-adults": {
+        "source": "Discord",
+        "title": "Safer for Teens, Same Discord for Adults",
+        "url": "https://discord.com/blog/safer-for-teens-same-discord-for-adults",
+        "published": "2026-09-22T00:00:00.000Z",
+        "summary": "We’re launching a revamped, privacy-focused age assurance solution including methods that won’t require an ID or selfie. Here’s how it works."
+      },
+      "https://discord.com/blog/adding-the-discord-updates-you-want-to-see": {
+        "source": "Discord",
+        "title": "Adding the Discord Updates YOU Want to See",
+        "url": "https://discord.com/blog/adding-the-discord-updates-you-want-to-see",
+        "published": "2026-09-16T00:00:00.000Z",
+        "summary": "For Discord’s birthday, we wanted to celebrate YOU, so we asked you what you wanted to see… and we cooked up new things that you all asked for!"
+      },
+      "https://blog.cloudflare.com/vinext-nextjs-on-vite": {
+        "source": "Cloudflare",
+        "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
+        "url": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
+        "published": "2026-09-28T14:51:57.000Z",
+        "summary": "Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release brings advanced cache warming, broader compatibility, and an automated testing pipeline."
+      },
+      "https://blog.cloudflare.com/cloudflare-cf-cli-launch": {
+        "source": "Cloudflare",
+        "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+        "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+        "published": "2026-09-28T14:50:37.000Z",
+        "summary": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator."
+      },
+      "https://blog.cloudflare.com/how-fast-is-the-web": {
+        "source": "Cloudflare",
+        "title": "How fast is the web? Explore billions of real-user measurements with BEACON",
+        "url": "https://blog.cloudflare.com/how-fast-is-the-web/",
+        "published": "2026-09-28T14:43:05.000Z",
+        "summary": "Cloudflare is open-sourcing the BEACON dataset, making billions of anonymized Real User Monitoring (RUM) performance records publicly available on Google BigQuery. Explore real-world Core Web Vitals, soft navigation metrics, and performance breakdowns across browsers and regions."
+      },
+      "https://blog.cloudflare.com/voidzero-update": {
+        "source": "Cloudflare",
+        "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
+        "url": "https://blog.cloudflare.com/voidzero-update/",
+        "published": "2026-09-28T13:00:00.000Z",
+        "summary": "Since joining Cloudflare, VoidZero has delivered more than 80 releases that drastically speed up JavaScript compilation, linting, and testing. From a 10x faster React compiler to Vite+ 1.0, here’s how we are building faster tools for developers and AI agents."
+      },
+      "https://blog.cloudflare.com/forge-open-source-generation-pipeline": {
+        "source": "Cloudflare",
+        "title": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
+        "url": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/",
+        "published": "2026-09-28T13:00:00.000Z",
+        "summary": "Forge is a pluggable, open-source pipeline that runs in CI to generate SDKs, CLIs, and documentation directly from API definitions. By shifting generation upstream into individual team repositories, Forge keeps developer tools continuously in sync."
+      },
+      "https://blog.cloudflare.com/kitesurf-update": {
+        "source": "Cloudflare",
+        "title": "The road to the agentic browser: A Kitesurf update",
+        "url": "https://blog.cloudflare.com/kitesurf-update/",
+        "published": "2026-09-28T13:00:00.000Z",
+        "summary": "We’ve updated Kitesurf, our Workers-based browser for AI agents, with WebMCP support, improved DOM performance, and terminal-based rendering. With over 730,000 Web Platform subtests passing, agents can now navigate complex sites faster."
+      },
+      "https://blog.cloudflare.com/introducing-the-cold-start": {
+        "source": "Cloudflare",
+        "title": "Introducing The Cold Start: pitch your startup live at Cloudflare Connect",
+        "url": "https://blog.cloudflare.com/introducing-the-cold-start/",
+        "published": "2026-09-28T13:00:00.000Z",
+        "summary": "Cloudflare is launching The Cold Start, a startup competition giving five early-stage companies five minutes on stage at Cloudflare Connect. Grand Prize winner receives $500,000 in credits, a San Francisco billboard, and an invitation to our VIP speakers dinner."
+      },
+      "https://blog.cloudflare.com/emdash-cms-plugin-registry": {
+        "source": "Cloudflare",
+        "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
+        "url": "https://blog.cloudflare.com/emdash-cms-plugin-registry/",
+        "published": "2026-09-28T13:00:00.000Z",
+        "summary": "EmDash 1.0 is a stable, open source CMS built for Astro, with agent-friendly workflows, secure sandboxed plugins, and a decentralized registry that keeps publishers in control."
+      },
+      "https://blog.cloudflare.com/rust-workers-emscripten-target": {
+        "source": "Cloudflare",
+        "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
+        "url": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
+        "published": "2026-09-28T13:00:00.000Z",
+        "summary": "With the new experimental support for the Emscripten target in Rust Workers, many previously unsupported Rust libraries and applications can now be built and deployed directly to Cloudflare’s global Workers platform, including upcoming support for Tokio async."
+      },
+      "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter": {
+        "source": "Cloudflare",
+        "title": "Cloudflare’s 2026 Annual Founders’ Letter",
+        "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
+        "published": "2026-09-27T17:00:00.000Z",
+        "summary": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. As automated traffic surpasses human activity, we reflect on the rise of AI agents, new creators, and how we can help build a fair, sustainable future for the web."
+      },
+      "https://blog.cloudflare.com/turnstile-spin": {
+        "source": "Cloudflare",
+        "title": "Agents can now set up your website’s security with Turnstile Spin",
+        "url": "https://blog.cloudflare.com/turnstile-spin/",
+        "published": "2026-09-25T13:00:00.000Z",
+        "summary": "Misconfiguring Turnstile by skipping backend validation leaves sites exposed to bots. Turnstile Spin fixes incomplete setups by using your preferred AI coding agent to wire up server-side verification."
+      },
+      "https://blog.cloudflare.com/containers-cross-tenant-vulnerability": {
+        "source": "Cloudflare",
+        "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+        "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
+        "published": "2026-09-24T15:00:00.000Z",
+        "summary": "External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and the steps we took to remediate it."
+      },
+      "https://blog.cloudflare.com/vary-support": {
+        "source": "Cloudflare",
+        "title": "We just shipped support for the ugliest part of HTTP: Vary",
+        "url": "https://blog.cloudflare.com/vary-support/",
+        "published": "2026-09-22T14:04:31.000Z",
+        "summary": "Vary support is now available in Cache Rules on every plan. You can normalize known negotiation headers, pass exact values through to the origin when those small differences matter, or bypass cache when the variation is too unpredictable."
+      },
+      "https://blog.cloudflare.com/worker-previews": {
+        "source": "Cloudflare",
+        "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
+        "url": "https://blog.cloudflare.com/worker-previews/",
+        "published": "2026-09-22T13:00:00.000Z",
+        "summary": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production."
+      },
+      "https://blog.cloudflare.com/python-workers-ga": {
+        "source": "Cloudflare",
+        "title": "Python Workers are now generally available",
+        "url": "https://blog.cloudflare.com/python-workers-ga/",
+        "published": "2026-09-21T13:00:00.000Z",
+        "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code."
+      },
+      "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math": {
+        "source": "Cloudflare",
+        "title": "Saving another 100TB of RAM with math (and Rust)",
+        "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+        "published": "2026-09-18T17:23:58.000Z",
+        "summary": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based service's RAM usage with statistics."
+      },
+      "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns": {
+        "source": "Cloudflare",
+        "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
+        "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
+        "published": "2026-09-16T20:06:17.000Z",
+        "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation."
+      },
+      "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers": {
+        "source": "Cloudflare",
+        "title": "Have it both ways: stay discoverable in search while disallowing AI training",
+        "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+        "published": "2026-09-15T13:00:00.000Z",
+        "summary": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft."
+      },
+      "https://blog.cloudflare.com/workers-granular-authorization": {
+        "source": "Cloudflare",
+        "title": "Give every teammate and agent the right level of access to your Workers",
+        "url": "https://blog.cloudflare.com/workers-granular-authorization/",
+        "published": "2026-09-15T13:00:00.000Z",
+        "summary": "You can now scope access to individual Workers and assign narrower Developer Platform roles, so teammates, CI tokens, and agents get only the access they need to debug, deploy, or monitor safely."
+      },
+      "https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum": {
+        "source": "Stripe",
+        "title": "Travel’s AI dilemma at Skift Global Forum",
+        "url": "https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum",
+        "published": "2026-09-28T00:00:00.000Z",
+        "summary": "At the “great recalibration”-themed travel conference, Airbnb CEO Brian Chesky called AI “an existential risk” to his company and “literally the best thing to ever happen” to it in the same discussion. That sums up many travel leaders’ push-and-pull relationship with AI."
+      },
+      "https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk": {
+        "source": "Stripe",
+        "title": "New trends in global card fraud: How 3D Secure and regional mandates are affecting risk",
+        "url": "https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk",
+        "published": "2026-09-22T00:00:00.000Z",
+        "summary": "We analyzed billions of transactions on Stripe from January 2022 to March 2026 to understand how card fraud patterns differ by region and country, what's driving those differences, and how businesses can respond."
+      },
+      "https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe": {
+        "source": "Stripe",
+        "title": "Analyzing rising fraud attempts among travel and leisure businesses on Stripe",
+        "url": "https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe",
+        "published": "2026-09-18T00:00:00.000Z",
+        "summary": "Last year, Stripe data shows fraud attempts against travel and leisure businesses hit a four-year high. We analyzed payment activity from more than 200,000 active travel and leisure businesses on Stripe to understand where fraud is rising, how effectively it’s being blocked, and what businesses can do in response."
+      },
+      "https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse": {
+        "source": "Stripe",
+        "title": "SaaS platforms are surging despite the SaaSpocalypse",
+        "url": "https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse",
+        "published": "2026-09-17T00:00:00.000Z",
+        "summary": "The SaaSpocalypse was a useful warning for the software industry, but SaaS platforms that help businesses run core operations are more deeply embedded. New platform businesses on Stripe are up 182% year over year."
+      },
+      "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css": {
+        "source": "GitHub",
+        "title": "Improving site performance by shipping more CSS",
+        "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+        "published": "2026-09-25T15:00:00.000Z",
+        "summary": "How we fully migrated github.com away from CSS-in-JS. The post Improving site performance by shipping more CSS appeared first on The GitHub Blog ."
+      },
+      "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app": {
+        "source": "GitHub",
+        "title": "Rendering huge pull requests in the GitHub Copilot app",
+        "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+        "published": "2026-09-23T18:29:49.000Z",
+        "summary": "How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments. The post Rendering huge pull requests in the GitHub Copilot app appeared first on The GitHub Blog ."
+      },
+      "https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252?source=rss----2615bd06b42e---4": {
+        "source": "Netflix",
+        "title": "Trading a Cloud Identity for Your Own: Workload Attestation on Managed Compute",
+        "url": "https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252?source=rss----2615bd06b42e---4",
+        "published": "2026-09-25T16:01:03.000Z",
+        "summary": ""
+      },
+      "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4": {
+        "source": "Netflix",
+        "title": "Leave the Class Path in the Rearview Mirror",
+        "url": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4",
+        "published": "2026-09-18T16:01:02.000Z",
+        "summary": ""
+      },
+      "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses": {
+        "source": "Meta",
+        "title": "Bringing Private Processing to Meta AI Glasses",
+        "url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/",
+        "published": "2026-09-24T00:00:00.000Z",
+        "summary": "We believe glasses are the best form factor for having AI help throughout your day. They can understand your personal context better than other kinds of devices and keep you present without picking up a mobile phone. Most of the time, glasses are helping you see well, protecting your eyes and complementing your look, and [...] Read More... The post Bringing Private Processing to Meta AI Glasses ap"
+      },
+      "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems": {
+        "source": "Meta",
+        "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
+        "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
+        "published": "2026-09-21T16:00:37.000Z",
+        "summary": "We’re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an assignment problem, how to store it efficiently in memory, how to solve it, and how to debug it. This separation of concerns is crucial to [...] Read More... The post Open-Sourcin"
+      },
+      "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable": {
+        "source": "Meta",
+        "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
+        "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/",
+        "published": "2026-09-21T12:00:00.000Z",
+        "summary": "Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, connecting France and the United States over approximately 7,000 km (4,300 mi). Expected to enter service in 2029, it will be the first subsea cable system to deploy multi-core fiber technology at scale, doubling [...] Read More... The post Inside Petal: Building "
+      },
+      "https://shopify.engineering/helix": {
+        "source": "Shopify",
+        "title": "Helix: The internal tool powering our Shopify app's native migration",
+        "url": "https://shopify.engineering/helix",
+        "published": "2026-09-21T21:12:33.000Z",
+        "summary": "We built Helix to help LLMs rebuild the Shopify app in Swift and Kotlin, using small checkpoints and strict quality gates to keep the code shippable."
+      },
+      "https://www.figma.com/blog/what-it-takes-to-build-great-products-now": {
+        "source": "Figma",
+        "title": "What it takes to build great products now",
+        "url": "https://www.figma.com/blog/what-it-takes-to-build-great-products-now/",
+        "published": "2026-09-24T20:44:00.000Z",
+        "summary": "Getting to a prototype is easier than ever. The harder work is sustaining speed all the way to launch, choosing the right direction, and creating products that stand out. Here’s what that takes."
+      },
+      "https://www.figma.com/blog/the-power-of-product-based-learning": {
+        "source": "Figma",
+        "title": "The power of product-based learning",
+        "url": "https://www.figma.com/blog/the-power-of-product-based-learning/",
+        "published": "2026-09-23T15:56:00.000Z",
+        "summary": "There’s a big difference between having an idea and making it real, and in that space is where learning happens. Here’s how teachers are using Figma to give their students hands-on design experiences."
+      },
+      "https://www.figma.com/blog/source-material-aitana-pico": {
+        "source": "Figma",
+        "title": "Source material: Graphic designer Aitana Picó wants us to appreciate bad trends",
+        "url": "https://www.figma.com/blog/source-material-aitana-pico/",
+        "published": "2026-09-21T17:24:00.000Z",
+        "summary": "The multidisciplinary designer and artist shares what’s in her “mental database”: an off-putting tarot deck, a Jockstrap CD, and a recurring dream about aerial silks."
+      },
+      "https://www.figma.com/blog/try-these-5-weave-tools-and-share-your-own": {
+        "source": "Figma",
+        "title": "Try these 5 Weave tools—and share your own",
+        "url": "https://www.figma.com/blog/try-these-5-weave-tools-and-share-your-own/",
+        "published": "2026-09-16T12:00:00.000Z",
+        "summary": "Community publishing is now live for Weave tools. Here are a few tools that stand out, from turning a moodboard into a realistic room mockup to previewing your next nail set."
+      },
+      "https://www.figma.com/blog/source-material-zach-lieberman": {
+        "source": "Figma",
+        "title": "Source material: Artist and educator Zach Lieberman likes to break things",
+        "url": "https://www.figma.com/blog/source-material-zach-lieberman/",
+        "published": "2026-09-15T20:52:00.000Z",
+        "summary": "The creative coder explains the throughline between drawing and computation, and why he’s jealous of pioneering artist Lillian Schwartz."
+      },
+      "https://aws.amazon.com/blogs/architecture/readyons-four-walls-of-tenant-isolation-on-amazon-eks": {
+        "source": "AWS Architecture",
+        "title": "ReadyOn’s Four Walls of tenant isolation on Amazon EKS",
+        "url": "https://aws.amazon.com/blogs/architecture/readyons-four-walls-of-tenant-isolation-on-amazon-eks/",
+        "published": "2026-09-18T21:33:13.000Z",
+        "summary": "ReadyOn runs a multi-tenant platform on Amazon EKS that handles highly sensitive enterprise data. This post describes their Four Walls model: four independent layers of tenant isolation combining Kubernetes namespaces, Karpenter node pools, Amazon VPC security groups, and per-tenant Amazon Aurora databases for zero-trust defense in depth."
+      },
+      "https://aws.amazon.com/blogs/architecture/how-csiro-built-scalable-cost-optimized-genomic-variant-querying-on-aws": {
+        "source": "AWS Architecture",
+        "title": "How CSIRO built scalable, cost-optimized genomic variant querying on AWS",
+        "url": "https://aws.amazon.com/blogs/architecture/how-csiro-built-scalable-cost-optimized-genomic-variant-querying-on-aws/",
+        "published": "2026-09-18T14:35:42.000Z",
+        "summary": "Learn how researchers at CSIRO, Australia's national science agency, built Serverless Beacon (sBeacon), a scalable serverless solution for securely querying genomic variant data on AWS. sBeacon implements the GA4GH Beacon standard using Amazon S3, AWS Lambda, Amazon DynamoDB, and Amazon Athena to support production-scale clinical and research applications."
+      },
+      "https://aws.amazon.com/blogs/architecture/how-equinix-cut-operational-overhead-with-a-shared-services-architecture-on-amazon-eks": {
+        "source": "AWS Architecture",
+        "title": "How Equinix cut operational overhead with a shared services architecture on Amazon EKS",
+        "url": "https://aws.amazon.com/blogs/architecture/how-equinix-cut-operational-overhead-with-a-shared-services-architecture-on-amazon-eks/",
+        "published": "2026-09-17T18:00:56.000Z",
+        "summary": "Equinix, the world's digital infrastructure company, built a shared services architecture on Amazon EKS to eliminate the operational sprawl of its self-managed Kubernetes environment. Learn how a multi-account North Star architecture centralized governance and shared services, delivering 4x faster deployments and 40% less operational overhead."
+      },
+      "https://aws.amazon.com/blogs/architecture/building-cloud-native-pacs-on-aws": {
+        "source": "AWS Architecture",
+        "title": "Building cloud-native PACS on AWS",
+        "url": "https://aws.amazon.com/blogs/architecture/building-cloud-native-pacs-on-aws/",
+        "published": "2026-09-17T15:21:06.000Z",
+        "summary": "A hybrid cloud architecture pattern for modernizing medical imaging on AWS. Learn how multi-hospital networks can centralize PACS archives, enable cross-facility interoperability, and use Amazon S3 storage tiers to manage cost and retention at scale."
+      },
+      "https://aws.amazon.com/blogs/architecture/how-dhi-group-accelerates-generative-ai-workloads-from-idea-to-production-using-hackathons": {
+        "source": "AWS Architecture",
+        "title": "How DHI Group accelerates generative AI workloads from idea to production using hackathons",
+        "url": "https://aws.amazon.com/blogs/architecture/how-dhi-group-accelerates-generative-ai-workloads-from-idea-to-production-using-hackathons/",
+        "published": "2026-09-17T15:13:42.000Z",
+        "summary": "Learn how DHI Group partnered with AWS to move generative AI workloads from idea to production using a structured hackathon. This post covers the Hackathon Acceleration Package, the winning ClearanceJobs and AgileATS agentic architecture on Amazon Bedrock AgentCore, and the principles that make hackathons a repeatable path to production."
+      },
+      "https://medium.com/airbnb-engineering/the-guest-journey-updated-in-real-time-extending-airbnbs-sequence-recommender-with-chronon-8f1582578553?source=rss----53c7c27702d5---4": {
+        "source": "Airbnb",
+        "title": "The guest journey, updated in real time: extending Airbnb’s sequence recommender with Chronon",
+        "url": "https://medium.com/airbnb-engineering/the-guest-journey-updated-in-real-time-extending-airbnbs-sequence-recommender-with-chronon-8f1582578553?source=rss----53c7c27702d5---4",
+        "published": "2026-09-17T17:01:02.000Z",
+        "summary": ""
+      },
+      "https://medium.com/airbnb-engineering/beyond-the-model-engineering-ai-infra-with-scientific-judgement-371316d43261?source=rss----53c7c27702d5---4": {
+        "source": "Airbnb",
+        "title": "Beyond the model: Engineering AI infra with scientific judgement",
+        "url": "https://medium.com/airbnb-engineering/beyond-the-model-engineering-ai-infra-with-scientific-judgement-371316d43261?source=rss----53c7c27702d5---4",
+        "published": "2026-09-15T17:06:18.000Z",
+        "summary": ""
+      },
+      "https://medium.com/pinterest-engineering/partition-finalization-in-pinterests-next-generation-db-ingestion-framework-4c7da6e4cc8f?source=rss----4c5a5f6279b6---4": {
+        "source": "Pinterest",
+        "title": "Partition Finalization in Pinterest’s Next-Generation DB Ingestion Framework",
+        "url": "https://medium.com/pinterest-engineering/partition-finalization-in-pinterests-next-generation-db-ingestion-framework-4c7da6e4cc8f?source=rss----4c5a5f6279b6---4",
+        "published": "2026-09-25T15:01:03.000Z",
+        "summary": ""
+      },
+      "https://medium.com/pinterest-engineering/beyond-two-towers-launching-the-3-tower-engagement-co-train-model-part-2-0b96167d2c14?source=rss----4c5a5f6279b6---4": {
+        "source": "Pinterest",
+        "title": "Beyond Two Towers: Launching the 3-Tower Engagement Co-Train Model (Part 2)",
+        "url": "https://medium.com/pinterest-engineering/beyond-two-towers-launching-the-3-tower-engagement-co-train-model-part-2-0b96167d2c14?source=rss----4c5a5f6279b6---4",
+        "published": "2026-09-17T15:01:05.000Z",
+        "summary": ""
+      },
+      "https://dropbox.tech/culture/learnings-from-deploying-ai-at-company-scale": {
+        "source": "Dropbox",
+        "title": "Dropbox CTO Ali Dasdan on moving from AI adoption to transformation",
+        "url": "https://dropbox.tech/culture/learnings-from-deploying-ai-at-company-scale",
+        "published": "2026-09-23T07:00:00.000Z",
+        "summary": "Meaningful AI gains depend on rethinking workflows, measuring real outcomes, and keeping human judgment at the center of how work gets done."
+      },
+      "https://dropbox.tech/developers/new-dropbox-api-documentation": {
+        "source": "Dropbox",
+        "title": "Introducing our new Dropbox API documentation",
+        "url": "https://dropbox.tech/developers/new-dropbox-api-documentation",
+        "published": "2026-09-21T14:30:00.000Z",
+        "summary": "Learn about the newly launched version of the Dropbox API documentation and its modern design and features."
+      },
+      "https://muratbuffalo.blogspot.com/2026/09/what-happens-when-model-eats-stack.html": {
+        "source": "Murat Demirbas",
+        "title": "What Happens When the Model Eats the Stack? Rethinking the Research Agenda for Data Agents to Withstand the Bitter Lesson",
+        "url": "https://muratbuffalo.blogspot.com/2026/09/what-happens-when-model-eats-stack.html",
+        "published": "2026-09-23T23:04:29.506Z",
+        "summary": "General methods that scale with computation will inevitably displace hand-engineered domain knowledge! Sutton’s Bitter Lesson hangs like a Sword of Damocles over all of us. This paper, which just dropped, applies that lesson to data agents, and says that as LLMs improve, they will quickly absorb the agent scaffolding researchers have spent the last few years painstakingly building. It argues that "
+      },
+      "https://muratbuffalo.blogspot.com/2026/09/in-search-of-compositional-theory-of.html": {
+        "source": "Murat Demirbas",
+        "title": "In Search of a Compositional Theory of Self-Stabilization",
+        "url": "https://muratbuffalo.blogspot.com/2026/09/in-search-of-compositional-theory-of.html",
+        "published": "2026-09-21T16:55:13.615Z",
+        "summary": "My quest for a principled solution for metastable failures has taken me back to my roots on self-stabilization, as this recent paper related the problem to composition of self-stabilizing systems. But, my literature search for recent work on composing self-stabilizing systems didn't yield anything useful. The layered stabilization idea was already in place by the early 2000s, and nothing fundament"
+      },
+      "https://muratbuffalo.blogspot.com/2026/09/academic-doomerism.html": {
+        "source": "Murat Demirbas",
+        "title": "Academic Doomerism",
+        "url": "https://muratbuffalo.blogspot.com/2026/09/academic-doomerism.html",
+        "published": "2026-09-16T06:13:33.922Z",
+        "summary": "AI doomerism is everywhere these days. Every field, and recently humanity as a whole, has had its \"we're finished\" post. In contrast to the run-of-the-mill hot take, Jason Potts has written an economics paper on why academia is doomed . So let's dive in. What does a university sell? Potts says a university is really a platform. It is a hub that connects many different groups: undergrads, grads, te"
+      },
+      "http://brooker.co.za/blog/2026/09/28/engineering-system-one.html": {
+        "source": "Marc Brooker",
+        "title": "Small Decisions: Engineering a Leading Model",
+        "url": "http://brooker.co.za/blog/2026/09/28/engineering-system-one.html",
+        "published": "2026-09-28T00:00:00.000Z",
+        "summary": "Small Decisions: Engineering a Leading Model Or trying to, at least. My day job has been primarily in AI for three years now, but I’d be the first to admit that’s been almost entirely in one corner of AI: infrastructure, safety, and tools for AI agents. That work has brought me in contact with a lot of the AI science (and I’d dabbled there over the previous decade), but I’m super far from the day-"
+      },
+      "https://danluu.com/brain-off": {
+        "source": "Dan Luu",
+        "title": "There's no point at which turning your brain off will work",
+        "url": "https://danluu.com/brain-off/",
+        "published": "2026-09-18T00:00:00.000Z",
+        "summary": "In early 2025, I started seeing people turn off their brain as they use LLMs 1 . They would have an LLM take an action (summarize text, write some code, etc.), and just assume that it worked 2 . This generally didn't work in early 2025 and the result was often quite silly. As LLMs have gotten better, I've seen more of this. Sometimes, people will try to get the LLM to write some code for them and "
+      },
+      "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream": {
+        "source": "Lobsters",
+        "title": "Hijacking the PS5's RTMP Stream",
+        "url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
+        "discussion": "https://lobste.rs/s/8oyww7/hijacking_ps5_s_rtmp_stream",
+        "published": "2026-09-28T11:45:16.525Z",
+        "summary": ""
+      },
+      "https://dthompson.us/posts/deploying-guix-images-on-linode.html": {
+        "source": "Lobsters",
+        "title": "Deploying Guix images on Linode",
+        "url": "https://dthompson.us/posts/deploying-guix-images-on-linode.html",
+        "discussion": "https://lobste.rs/s/mf2lic/deploying_guix_images_on_linode",
+        "published": "2026-09-27T00:10:18.481Z",
+        "summary": ""
+      },
+      "https://david.alvarezrosa.com/posts/tuning-a-server-for-benchmarking": {
+        "source": "Lobsters",
+        "title": "Tuning a Server for Benchmarking",
+        "url": "https://david.alvarezrosa.com/posts/tuning-a-server-for-benchmarking/",
+        "discussion": "https://lobste.rs/s/fejuat/tuning_server_for_benchmarking",
+        "published": "2026-09-26T11:48:40.380Z",
+        "summary": ""
+      },
+      "https://csixty4.medium.com/pick-is-a-living-fossil-of-computer-history-36d74408d557": {
+        "source": "Lobsters",
+        "title": "Pick OS is a Living Fossil of Computer History",
+        "url": "https://csixty4.medium.com/pick-is-a-living-fossil-of-computer-history-36d74408d557",
+        "discussion": "https://lobste.rs/s/1skdhv/pick_os_is_living_fossil_computer_history",
+        "published": "2026-09-24T06:14:19.318Z",
+        "summary": ""
+      },
+      "https://andanti.no/blog/signedmesh.html": {
+        "source": "Lobsters",
+        "title": "I want my mesh networks to be signed, not encrypted",
+        "url": "https://andanti.no/blog/SignedMesh.html",
+        "discussion": "https://lobste.rs/s/r3ydgj/i_want_my_mesh_networks_be_signed_not",
+        "published": "2026-09-23T14:39:46.740Z",
+        "summary": ""
+      },
+      "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol.html": {
+        "source": "Lobsters",
+        "title": "Radicle: Disclosure of Vulnerability in the Network Protocol",
+        "url": "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol.html",
+        "discussion": "https://lobste.rs/s/ad5vwg/radicle_disclosure_vulnerability",
+        "published": "2026-09-23T14:34:37.015Z",
+        "summary": ""
+      },
+      "https://blog.apnic.net/2026/09/22/latest-bgp-hijack-targets-hosting-software-vendor": {
+        "source": "Lobsters",
+        "title": "Latest BGP hijack targets hosting software vendor",
+        "url": "https://blog.apnic.net/2026/09/22/latest-bgp-hijack-targets-hosting-software-vendor/",
+        "discussion": "https://lobste.rs/s/eqme8i/latest_bgp_hijack_targets_hosting",
+        "published": "2026-09-23T11:55:38.027Z",
+        "summary": ""
+      },
+      "https://david.alvarezrosa.com/posts/self-hosting-behind-cgnat": {
+        "source": "Lobsters",
+        "title": "Self-Hosting Behind CGNAT",
+        "url": "https://david.alvarezrosa.com/posts/self-hosting-behind-cgnat/",
+        "discussion": "https://lobste.rs/s/sus08k/self_hosting_behind_cgnat",
+        "published": "2026-09-21T17:53:28.062Z",
+        "summary": ""
+      },
+      "https://remy.wang/blog/ra-ra.html": {
+        "source": "Lobsters",
+        "title": "Relation algebra is not relational algebra",
+        "url": "https://remy.wang/blog/ra-ra.html",
+        "discussion": "https://lobste.rs/s/t5fquc/relation_algebra_is_not_relational",
+        "published": "2026-09-21T17:01:35.726Z",
+        "summary": ""
+      },
+      "https://github.com/dtonon/squalk": {
+        "source": "Lobsters",
+        "title": "Squalk: an old-school forum engine built on Nostr (NIP-29 groups, NIP-7D threads)",
+        "url": "https://github.com/dtonon/squalk",
+        "discussion": "https://lobste.rs/s/haq46t/squalk_old_school_forum_engine_built_on",
+        "published": "2026-09-21T14:44:12.725Z",
+        "summary": ""
+      },
+      "https://www.notion.com/blog/how-notion-handles-concurrent-editing-with-crdts": {
+        "source": "Lobsters",
+        "title": "How Notion handles concurrent editing with CRDTs",
+        "url": "https://www.notion.com/blog/how-notion-handles-concurrent-editing-with-crdts",
+        "discussion": "https://lobste.rs/s/ppfyza/how_notion_handles_concurrent_editing",
+        "published": "2026-09-20T12:06:29.397Z",
+        "summary": ""
+      }
+    }
   }
 }
