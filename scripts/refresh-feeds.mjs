@@ -261,6 +261,101 @@ async function fetchReadingDevTo() {
     }));
 }
 
+/* ---------------------------------------------------------------------------
+ * Deep dives (/deep-dives): engineering writing on architecture, reliability,
+ * databases and distributed systems. Company blogs mix these with launches and
+ * hiring posts, and only reading the article tells them apart, so this step
+ * only gathers candidates. The curation run on the VPS reads each one and
+ * decides what the page shows.
+ * ------------------------------------------------------------------------- */
+const DEEP_DIVE_FEEDS = [
+  ['Cloudflare', 'https://blog.cloudflare.com/rss/'],
+  ['Netflix', 'https://netflixtechblog.com/feed'],
+  ['Discord', 'https://discord.com/blog/rss.xml'],
+  ['Stripe', 'https://stripe.com/blog/feed.rss'],
+  ['Slack', 'https://slack.engineering/feed/'],
+  ['Dropbox', 'https://dropbox.tech/feed'],
+  ['GitHub', 'https://github.blog/engineering/feed/'],
+  ['Figma', 'https://www.figma.com/blog/feed/atom.xml'],
+  ['Shopify', 'https://shopify.engineering/blog.atom'],
+  ['Meta', 'https://engineering.fb.com/feed/'],
+  ['Pinterest', 'https://medium.com/feed/pinterest-engineering'],
+  ['Airbnb', 'https://medium.com/feed/airbnb-engineering'],
+  ['AWS Architecture', 'https://aws.amazon.com/blogs/architecture/feed/'],
+  ['Marc Brooker', 'https://brooker.co.za/blog/rss.xml'],
+  ['Martin Kleppmann', 'https://martin.kleppmann.com/feed.rss'],
+  ['Kyle Kingsbury', 'https://aphyr.com/posts.atom'],
+  ['Murat Demirbas', 'https://muratbuffalo.blogspot.com/feeds/posts/default'],
+  ['Dan Luu', 'https://danluu.com/atom.xml'],
+];
+// Candidates wait this long for a verdict before they are dropped unjudged.
+const DEEP_DIVE_WINDOW_DAYS = 14;
+const LOBSTERS_DEEP_TAGS = 'distributed,databases,performance,scaling,networking';
+const LOBSTERS_DEEP_MIN_SCORE = 10;
+const FEED_HEADERS = {
+  headers: { 'User-Agent': 'Mozilla/5.0 (compatible; signals-feed/1.0; +https://signals.debasisnishank.com)' },
+};
+
+const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
+const decodeXml = (s) =>
+  s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(Number(d)))
+    .replace(/&(\w+);/g, (m, n) => ENTITIES[n] ?? m);
+const plain = (html) => decodeXml(decodeXml(html).replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+
+/** RSS items and Atom entries, reduced to what the curation run needs. */
+function parseFeed(xml) {
+  return (xml.match(/<(item|entry)[\s>][\s\S]*?<\/\1>/g) ?? []).map((block) => {
+    const tag = (name) => block.match(new RegExp(`<${name}(?:\\s[^>]*)?>([\\s\\S]*?)</${name}>`))?.[1];
+    // Atom has several <link>s (Blogger adds replies/edit/self); want the page.
+    const links = [...block.matchAll(/<link\b([^>]*?)\/?>/g)].map((m) => ({
+      rel: m[1].match(/rel=["']([^"']+)/)?.[1] ?? 'alternate',
+      href: m[1].match(/href=["']([^"']+)/)?.[1],
+    }));
+    const url = links.find((l) => l.href && l.rel === 'alternate')?.href ?? tag('link')?.trim();
+    const date = tag('pubDate') ?? tag('published') ?? tag('dc:date') ?? tag('updated');
+    return {
+      title: plain(tag('title') ?? ''),
+      url: url && decodeXml(url).trim(),
+      published: date && !isNaN(Date.parse(date)) ? new Date(date).toISOString() : null,
+      summary: plain(tag('description') ?? tag('summary') ?? tag('content') ?? '').slice(0, 400),
+    };
+  });
+}
+
+async function fetchDeepDives() {
+  const cutoff = Date.now() - DEEP_DIVE_WINDOW_DAYS * 86400_000;
+  const found = [];
+  const failed = [];
+  await Promise.all(DEEP_DIVE_FEEDS.map(async ([source, url]) => {
+    try {
+      const res = await fetch(url, { ...FEED_HEADERS, signal: AbortSignal.timeout(15_000) });
+      if (!res.ok) throw new Error(`${res.status}`);
+      for (const item of parseFeed(await res.text())) {
+        if (item.title && item.url && item.published && Date.parse(item.published) > cutoff) {
+          found.push({ source, ...item });
+        }
+      }
+    } catch {
+      failed.push(source);
+    }
+  }));
+  if (failed.length) warn(`deep-dive feeds failed: ${failed.join(', ')}; the rest still count.`);
+
+  // Lobsters' systems tags surface good writing from blogs not listed above.
+  const stories = await lobsters(`t/${LOBSTERS_DEEP_TAGS}.json`);
+  for (const s of stories) {
+    if (s.url && s.score >= LOBSTERS_DEEP_MIN_SCORE && Date.parse(s.created_at) > cutoff) {
+      found.push({
+        source: 'Lobsters', title: s.title, url: s.url, discussion: s.comments_url,
+        published: new Date(s.created_at).toISOString(), summary: '',
+      });
+    }
+  }
+  return found;
+}
+
 /** The best-received HN thread linking to a repository, if one did well. */
 async function findDiscussion(repoUrl) {
   const hits = await hnSearch('search', {
@@ -400,6 +495,16 @@ for (const [k, items] of Object.entries(reading)) {
   cache.reading[k] = items.length ? items : prevReading[k] ?? [];
 }
 if (Object.values(reading).some((items) => items.length)) cache.reading.fetchedAt = now;
+
+// Deep-dive candidates accumulate until they age out of the window; the
+// curation run on the VPS judges each once and keeps its own record.
+const deepDives = await collect('deep dives', fetchDeepDives);
+const prevDeep = cache.deepdives?.candidates ?? {};
+const deepCutoff = new Date(Date.now() - DEEP_DIVE_WINDOW_DAYS * 86400_000).toISOString();
+const candidates = Object.fromEntries(Object.entries(prevDeep).filter(([, c]) => c.published >= deepCutoff));
+for (const d of deepDives) candidates[normUrl(d.url)] ??= d;
+cache.deepdives = { fetchedAt: deepDives.length ? now : cache.deepdives?.fetchedAt ?? null, candidates };
+console.log(`  ok  deep dives: ${Object.keys(candidates).length} candidate(s) in the window`);
 
 // CI owns this file: it commits the refreshed cache back after every run, so a
 // local build that also wrote it would conflict on the next pull for no gain —

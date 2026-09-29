@@ -1,0 +1,127 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import curated from '../data/curated.json';
+
+// Engineering writing worth keeping: the curation run reads each article from
+// the blogs refresh-feeds follows and keeps only real deep dives. Unlike
+// /reading this is an archive — a good postmortem does not date.
+const TOPICS = {
+  architecture: 'Architecture',
+  reliability: 'Reliability & postmortems',
+  databases: 'Databases',
+  distributed: 'Distributed systems',
+  performance: 'Performance',
+  infrastructure: 'Infrastructure',
+};
+
+const articles = Object.values(curated.deepdives ?? {})
+  .filter((a) => TOPICS[a.topic])
+  .sort((a, b) => (a.published < b.published ? 1 : -1));
+
+// Filed by the month each was published, newest first.
+const months = [];
+for (const a of articles) {
+  const key = a.published.slice(0, 7);
+  if (months.at(-1)?.key !== key) {
+    months.push({
+      key,
+      label: new Date(key + '-15T12:00:00Z').toLocaleDateString('en-US', { month: 'long', year: 'numeric' }),
+      items: [],
+    });
+  }
+  months.at(-1).items.push(a);
+}
+
+const chips = Object.entries(TOPICS)
+  .map(([id, label]) => ({ id, label, n: articles.filter((a) => a.topic === id).length }))
+  .filter((c) => c.n)
+  .sort((a, b) => b.n - a.n);
+
+const fmtDay = (iso) => new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+const description =
+  'Engineering deep dives on architecture, reliability, databases and distributed systems, ' +
+  'picked from company and personal engineering blogs.';
+---
+
+<BaseLayout title="Signals — deep dives" description={description}>
+  <main id="main" class="wrap">
+    <a class="back" href="/">&larr; Signals</a>
+
+    <header>
+      <h1>Deep dives</h1>
+      <p class="lede">
+        How real systems are built and how they fail: architecture, fault
+        tolerance, postmortems, databases and performance work, from the
+        engineering blogs of companies like Cloudflare, Netflix and Stripe and
+        from people who write about distributed systems. Each article is read
+        before it is kept; launches, marketing and hiring posts are left out.
+      </p>
+    </header>
+
+    {articles.length === 0 && (
+      <p class="lede">Nothing kept yet — the next morning's run will start the list.</p>
+    )}
+
+    {chips.length > 1 && (
+      <div class="chips" role="group" aria-label="Filter by topic" hidden>
+        <button type="button" class="chip" data-cat="all" aria-pressed="true">
+          All <span class="chip__n">{articles.length}</span>
+        </button>
+        {chips.map((c) => (
+          <button type="button" class="chip" data-cat={c.id} aria-pressed="false">
+            {c.label} <span class="chip__n">{c.n}</span>
+          </button>
+        ))}
+      </div>
+    )}
+
+    {months.map((m) => (
+      <section class="day">
+        <div class="day__head"><h2>{m.label}</h2></div>
+        <ol class="list">
+          {m.items.map((a) => (
+            <li class="row" data-cat={a.topic}>
+              <a class="row__title" href={a.url} target="_blank" rel="noopener noreferrer">{a.title}</a>
+              <p class="picks__why">{a.why}</p>
+              <span class="row__meta">
+                <span class="tag">{TOPICS[a.topic]}</span> &middot; {a.source} &middot; {fmtDay(a.published)}
+                {a.discussion && (
+                  <> &middot; <a href={a.discussion} target="_blank" rel="noopener noreferrer">discussion</a></>
+                )}
+              </span>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))}
+  </main>
+
+  <script>
+    // Topic chips, as on the log: hidden without JS, choice kept in ?t=.
+    const chipBar = document.querySelector('.chips');
+    if (chipBar) {
+      const buttons = [...chipBar.querySelectorAll('.chip')];
+      const rows = [...document.querySelectorAll('.row[data-cat]')];
+
+      const apply = (cat) => {
+        if (!buttons.some((b) => b.dataset.cat === cat)) cat = 'all';
+        for (const b of buttons) b.setAttribute('aria-pressed', String(b.dataset.cat === cat));
+        for (const r of rows) r.hidden = cat !== 'all' && r.dataset.cat !== cat;
+        for (const s of document.querySelectorAll('.day')) {
+          s.hidden = !s.querySelector('.row:not([hidden])');
+        }
+        const url = new URL(location.href);
+        if (cat === 'all') url.searchParams.delete('t');
+        else url.searchParams.set('t', cat);
+        history.replaceState(null, '', url);
+      };
+
+      chipBar.addEventListener('click', (e) => {
+        const b = e.target.closest('.chip');
+        if (b) apply(b.dataset.cat);
+      });
+      chipBar.hidden = false;
+      apply(new URLSearchParams(location.search).get('t') ?? 'all');
+    }
+  </script>
+</BaseLayout>

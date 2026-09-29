@@ -8,6 +8,8 @@
 #
 # The model reads untrusted READMEs and comments, so it runs as the `curator`
 # user, which cannot read /root and with it the deploy key. Git stays with root.
+#
+# Pass a stage name (picks or deepdives) to run just that one by hand.
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
@@ -18,7 +20,7 @@ git reset -q --hard origin/main
 out=$(mktemp)
 chown curator "$out"
 trap 'rm -f "$out"' EXIT
-runuser -u curator -- env HOME=/home/curator CURATED_OUT="$out" node scripts/curate.mjs
+runuser -u curator -- env HOME=/home/curator CURATED_OUT="$out" node scripts/curate.mjs "$@"
 
 if [ ! -s "$out" ]; then
   echo "No new picks."
