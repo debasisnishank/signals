@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-09-29T06:58:03.423Z",
+    "fetchedAt": "2026-09-29T07:05:03.000Z",
     "repos": [
       {
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 27940,
+        "stars": 27942,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -20,7 +20,7 @@
         "name": "browser-use/jev-ultrafast",
         "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 21234,
+        "stars": 21236,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": [],
@@ -34,7 +34,7 @@
         "name": "jaredpalmer/kev",
         "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 7711,
+        "stars": 7716,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -61,7 +61,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 7092,
+        "stars": 7094,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": []
@@ -84,7 +84,7 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 6068,
+        "stars": 6070,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": []
@@ -93,7 +93,7 @@
         "name": "Mak5er/AirCard",
         "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
         "language": "Swift",
-        "stars": 4782,
+        "stars": 4788,
         "url": "https://github.com/Mak5er/AirCard",
         "created": "2026-09-16T22:20:15Z",
         "topics": []
@@ -102,13 +102,13 @@
         "name": "firelex/jeff",
         "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
         "language": "Python",
-        "stars": 619,
+        "stars": 625,
         "url": "https://github.com/firelex/jeff",
         "created": "2026-09-28T16:18:39Z",
         "topics": [],
         "hn": {
-          "points": 448,
-          "comments": 167,
+          "points": 453,
+          "comments": 168,
           "url": "https://news.ycombinator.com/item?id=49883844"
         }
       },
@@ -116,7 +116,7 @@
         "name": "moguzbulbul/blueprint-animation",
         "description": "Claude Design skill: animated before → after UX redesign, explained step by step through a blueprint drawing. By @moguzbulbul.",
         "language": "JavaScript",
-        "stars": 280,
+        "stars": 281,
         "url": "https://github.com/moguzbulbul/blueprint-animation",
         "created": "2026-09-27T21:48:33Z",
         "topics": []
@@ -200,13 +200,18 @@
         "topics": []
       },
       {
-        "name": "yasinozmeen/animasyon-stil-katalogu",
-        "description": "irticalen videoları için 20 animasyon tarzı: her biri kendi kısa filmiyle. Tarzı README'den seç.",
-        "language": "HTML",
-        "stars": 138,
-        "url": "https://github.com/yasinozmeen/animasyon-stil-katalogu",
-        "created": "2026-09-27T05:32:16Z",
-        "topics": []
+        "name": "seven-discord/Discord-Booster-Server",
+        "description": "Discord Server Booster — Open-source automation tool and bot script designed to manage, track, and optimize Discord server boost perks role rewards, and community engagement.",
+        "language": "C++",
+        "stars": 141,
+        "url": "https://github.com/seven-discord/Discord-Booster-Server",
+        "created": "2026-09-28T16:02:55Z",
+        "topics": [
+          "discord",
+          "discord-boost",
+          "discord-boost-tool",
+          "discord-guild"
+        ]
       }
     ],
     "posts": [
@@ -214,8 +219,8 @@
         "source": "showhn",
         "title": "Pac-Bench – How well can models one-shot a Pac-Man game?",
         "url": "https://jonclegg.github.io/pacman-bakeoff/",
-        "points": 39,
-        "comments": 25,
+        "points": 40,
+        "comments": 27,
         "discussion": "https://news.ycombinator.com/item?id=49885493",
         "created": "2026-09-28T22:43:12.000Z"
       },
@@ -233,7 +238,7 @@
         "title": "HN.watch – Videos of all Hacker News posts",
         "url": "https://hn.watch/",
         "points": 156,
-        "comments": 88,
+        "comments": 89,
         "discussion": "https://news.ycombinator.com/item?id=49879401",
         "created": "2026-09-28T15:16:13.000Z"
       },
@@ -295,7 +300,7 @@
         "source": "hn",
         "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
         "url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
-        "points": 78,
+        "points": 79,
         "comments": 15,
         "discussion": "https://news.ycombinator.com/item?id=49884625",
         "created": "2026-09-28T21:26:41.000Z"
@@ -326,7 +331,7 @@
         "name": "browser-use/jev-ultrafast",
         "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 21234,
+        "stars": 21236,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": [],
@@ -413,7 +418,7 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 6068,
+        "stars": 6070,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": [],
@@ -449,7 +454,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 7092,
+        "stars": 7094,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": [],
@@ -478,7 +483,7 @@
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 27940,
+        "stars": 27942,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -495,7 +500,7 @@
         "name": "jaredpalmer/kev",
         "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 7711,
+        "stars": 7716,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -540,7 +545,7 @@
         "name": "Mak5er/AirCard",
         "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
         "language": "Swift",
-        "stars": 4782,
+        "stars": 4788,
         "url": "https://github.com/Mak5er/AirCard",
         "created": "2026-09-16T22:20:15Z",
         "topics": [],
@@ -678,7 +683,7 @@
         "name": "moguzbulbul/blueprint-animation",
         "description": "Claude Design skill: animated before → after UX redesign, explained step by step through a blueprint drawing. By @moguzbulbul.",
         "language": "JavaScript",
-        "stars": 280,
+        "stars": 281,
         "url": "https://github.com/moguzbulbul/blueprint-animation",
         "created": "2026-09-27T21:48:33Z",
         "topics": [],
@@ -702,13 +707,13 @@
         "name": "firelex/jeff",
         "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
         "language": "Python",
-        "stars": 619,
+        "stars": 625,
         "url": "https://github.com/firelex/jeff",
         "created": "2026-09-28T16:18:39Z",
         "topics": [],
         "hn": {
-          "points": 448,
-          "comments": 167,
+          "points": 453,
+          "comments": 168,
           "url": "https://news.ycombinator.com/item?id=49883844"
         },
         "firstSeen": "2026-09-29",
@@ -825,6 +830,23 @@
         "firstSeen": "2026-09-29",
         "lastSeen": "2026-09-29",
         "starsAtFirstSeen": 138
+      },
+      "seven-discord/Discord-Booster-Server": {
+        "name": "seven-discord/Discord-Booster-Server",
+        "description": "Discord Server Booster — Open-source automation tool and bot script designed to manage, track, and optimize Discord server boost perks role rewards, and community engagement.",
+        "language": "C++",
+        "stars": 141,
+        "url": "https://github.com/seven-discord/Discord-Booster-Server",
+        "created": "2026-09-28T16:02:55Z",
+        "topics": [
+          "discord",
+          "discord-boost",
+          "discord-boost-tool",
+          "discord-guild"
+        ],
+        "firstSeen": "2026-09-29",
+        "lastSeen": "2026-09-29",
+        "starsAtFirstSeen": 141
       }
     },
     "posts": {
@@ -1317,7 +1339,7 @@
         "title": "HN.watch – Videos of all Hacker News posts",
         "url": "https://hn.watch/",
         "points": 156,
-        "comments": 88,
+        "comments": 89,
         "discussion": "https://news.ycombinator.com/item?id=49879401",
         "created": "2026-09-28T15:16:13.000Z",
         "firstSeen": "2026-09-29",
@@ -1360,7 +1382,7 @@
         "source": "hn",
         "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
         "url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
-        "points": 78,
+        "points": 79,
         "comments": 15,
         "discussion": "https://news.ycombinator.com/item?id=49884625",
         "created": "2026-09-28T21:26:41.000Z",
@@ -1371,8 +1393,8 @@
         "source": "showhn",
         "title": "Pac-Bench – How well can models one-shot a Pac-Man game?",
         "url": "https://jonclegg.github.io/pacman-bakeoff/",
-        "points": 39,
-        "comments": 25,
+        "points": 40,
+        "comments": 27,
         "discussion": "https://news.ycombinator.com/item?id=49885493",
         "created": "2026-09-28T22:43:12.000Z",
         "firstSeen": "2026-09-29",
@@ -1381,48 +1403,48 @@
     }
   },
   "reading": {
-    "fetchedAt": "2026-09-29T06:58:03.423Z",
+    "fetchedAt": "2026-09-29T07:05:03.000Z",
     "hn": [
       {
         "title": "Sonnet 5.5",
         "url": "https://www.anthropic.com/claude-sonnet-5-5",
-        "points": 724,
-        "comments": 489,
+        "points": 725,
+        "comments": 491,
         "discussion": "https://news.ycombinator.com/item?id=49881850"
       },
       {
         "title": "Pirating the Pirates",
         "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
-        "points": 522,
+        "points": 523,
         "comments": 256,
         "discussion": "https://news.ycombinator.com/item?id=49880036"
       },
       {
         "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
         "url": "https://github.com/firelex/jeff",
-        "points": 448,
-        "comments": 167,
+        "points": 450,
+        "comments": 168,
         "discussion": "https://news.ycombinator.com/item?id=49883844"
       },
       {
         "title": "Updated Google Maps shows destruction of the city of Rafah",
         "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
-        "points": 432,
-        "comments": 242,
+        "points": 437,
+        "comments": 245,
         "discussion": "https://news.ycombinator.com/item?id=49879645"
       },
       {
         "title": "It's Time to Investigate the AI Labs",
         "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-        "points": 432,
+        "points": 433,
         "comments": 162,
         "discussion": "https://news.ycombinator.com/item?id=49883471"
       },
       {
         "title": "Kids turned low-traffic NPR Spotify comments into a secret group chat",
         "url": "https://www.thisamericanlife.org/897/transcript",
-        "points": 368,
-        "comments": 206,
+        "points": 370,
+        "comments": 207,
         "discussion": "https://news.ycombinator.com/item?id=49879697"
       },
       {
@@ -1435,8 +1457,8 @@
       {
         "title": "Hijacking the PS5's RTMP stream",
         "url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
-        "points": 243,
-        "comments": 73,
+        "points": 244,
+        "comments": 74,
         "discussion": "https://news.ycombinator.com/item?id=49879702"
       },
       {
@@ -1450,7 +1472,7 @@
         "title": "Does Reddit have an astroturfing problem? What the data suggests",
         "url": "https://www.petervijeh.com/projects/reddit-astroturf",
         "points": 188,
-        "comments": 228,
+        "comments": 229,
         "discussion": "https://news.ycombinator.com/item?id=49877678"
       }
     ],
@@ -1458,7 +1480,7 @@
       {
         "title": "Bill Gates tries to install Movie Maker",
         "url": "https://www.techemails.com/p/bill-gates-tries-to-install-movie-maker",
-        "points": 77,
+        "points": 78,
         "comments": 7,
         "discussion": "https://lobste.rs/s/lfqtgh/bill_gates_tries_install_movie_maker",
         "tags": [
@@ -1468,7 +1490,7 @@
       {
         "title": "What Would A Serious AI Product Look Like?",
         "url": "https://blog.glyph.im/2026/09/serious-ai-product.html",
-        "points": 60,
+        "points": 61,
         "comments": 6,
         "discussion": "https://lobste.rs/s/q2rymh/what_would_serious_ai_product_look_like",
         "tags": [
@@ -1501,7 +1523,7 @@
       {
         "title": "Leaving them behind",
         "url": "https://dbushell.com/2026/09/28/leaving-them-behind/",
-        "points": 57,
+        "points": 58,
         "comments": 20,
         "discussion": "https://lobste.rs/s/h3igdh/leaving_them_behind",
         "tags": [
@@ -1511,7 +1533,7 @@
       {
         "title": "When did Google get so weird?",
         "url": "https://sancho.bearblog.dev/google-weird/",
-        "points": 64,
+        "points": 65,
         "comments": 10,
         "discussion": "https://lobste.rs/s/aig5tr/when_did_google_get_so_weird",
         "tags": [
@@ -1590,7 +1612,7 @@
       {
         "title": "The 7 Walls JavaScript Hits — and How WebAssembly Gets Past Them",
         "url": "https://dev.to/james_anderson_h/the-7-walls-javascript-hits-and-how-webassembly-gets-past-them-3khk",
-        "points": 32,
+        "points": 33,
         "comments": 22,
         "discussion": "https://dev.to/james_anderson_h/the-7-walls-javascript-hits-and-how-webassembly-gets-past-them-3khk",
         "tags": [
@@ -1686,7 +1708,7 @@
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-09-29T06:58:03.423Z",
+    "fetchedAt": "2026-09-29T07:05:03.000Z",
     "candidates": {
       "https://discord.com/blog/discord-update-september-25-2026": {
         "source": "Discord",
