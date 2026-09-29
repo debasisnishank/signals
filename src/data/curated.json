@@ -1,3 +1,25 @@
 {
-  "picks": {}
+  "picks": {
+    "dzhng/jevgrep": {
+      "why": "Asks an LLM to judge relevance across folders, files and declarations, returning verbatim excerpts as a semantic starting point for agents; needs only Node and a provider key.",
+      "pickedOn": "2026-09-29"
+    },
+    "ZacharyZhang-NY/OmaPhoto": {
+      "why": "A from-scratch Linux port that reads and writes the original Compositor .comp projects and follows the Omarchy theme, so files move between it and the macOS app instead of being re-created.",
+      "pickedOn": "2026-09-29"
+    },
+    "DanFessler/trellis": {
+      "why": "Split into a framework-agnostic core with React and custom-element adapters, it keeps every nested panel mounted while users drag, split, float and zoom the workspace.",
+      "pickedOn": "2026-09-29"
+    },
+    "firelex/jeff": {
+      "why": "Returns a calibrated probability per option in a single forward pass, about 22ms, with no generated text to parse, and runs locally on small fine-tuned models you can retrain.",
+      "pickedOn": "2026-09-29"
+    },
+    "https://news.ycombinator.com/item?id=49869995": {
+      "why": "Unlike the Python original, each agent is a supervised OTP process, and prompts are built from typed signatures so model replies are validated rather than parsed by hand.",
+      "pickedOn": "2026-09-29"
+    }
+  },
+  "updatedAt": "2026-09-29T06:32:39.867Z"
 }
