@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Icon from '../components/Icon.astro';
 import feeds from '../data/feed-cache.json';
+import curated from '../data/curated.json';
 import { CATEGORIES, OTHER, categorize } from '../lib/categories.js';
 
 const tech = feeds.tech ?? { fetchedAt: null };
@@ -11,6 +12,8 @@ const posts = archive.posts ?? Object.fromEntries(
   Object.entries(archive.showhn ?? {}).map(([k, v]) => [k, { source: 'showhn', ...v }]),
 );
 const SOURCE_LABEL = { showhn: 'Show HN', launchhn: 'Launch HN', hn: 'HN front page', lobsters: 'Lobsters' };
+// Picks from the daily curation run, keyed like the archive.
+const why = (key) => curated.picks?.[key]?.why;
 
 // Group every item by the day it was first seen — that is the log.
 const days = new Map();
@@ -18,8 +21,8 @@ const bucket = (d) => {
   if (!days.has(d)) days.set(d, { date: d, repos: [], posts: [] });
   return days.get(d);
 };
-for (const r of Object.values(archive.repos ?? {})) bucket(r.firstSeen).repos.push({ ...r, category: categorize(r) });
-for (const h of Object.values(posts)) bucket(h.firstSeen).posts.push({ ...h, category: categorize(h) });
+for (const [k, r] of Object.entries(archive.repos ?? {})) bucket(r.firstSeen).repos.push({ ...r, category: categorize(r), why: why(k) });
+for (const [k, h] of Object.entries(posts)) bucket(h.firstSeen).posts.push({ ...h, category: categorize(h), why: why(k) });
 
 for (const d of days.values()) {
   d.repos.sort((a, b) => b.stars - a.stars);
@@ -121,6 +124,7 @@ const description =
                   <span class="card__stars">{fmtStars(r.stars)}&#9733;</span>
                 </div>
                 <p class="card__desc">{r.description}</p>
+                {r.why && <p class="pick"><span class="pick__label">Pick</span> {r.why}</p>}
                 <div class="card__meta">
                   <span class="tag">{r.category.label}</span>
                   {r.language && <span class="card__lang">{r.language}</span>}
@@ -141,6 +145,7 @@ const description =
             {day.posts.map((h) => (
               <li class="row" data-cat={h.category.id}>
                 <a class="row__title" href={h.url} target="_blank" rel="noopener noreferrer">{h.title}</a>
+                {h.why && <p class="pick"><span class="pick__label">Pick</span> {h.why}</p>}
                 <span class="row__meta">
                   <span class="tag">{h.category.label}</span> &middot; {SOURCE_LABEL[h.source] ?? 'HN'} &middot; {h.points} points &middot;{' '}
                   <a href={h.discussion} target="_blank" rel="noopener noreferrer">{h.comments} comments</a>

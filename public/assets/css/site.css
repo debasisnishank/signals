@@ -491,3 +491,18 @@ html { scroll-behavior: smooth; }
 @media print {
   .chips { display: none !important; }
 }
+
+/* Curated picks: a one-line "why it matters" under the item. */
+.pick {
+  margin: 0.3rem 0 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+.pick__label {
+  margin-right: 0.35em;
+  font-family: var(--font-section);
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--clr-anchor);
+}
