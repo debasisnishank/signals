@@ -27,6 +27,8 @@ for (const [k, h] of Object.entries(posts)) bucket(h.firstSeen).posts.push({ ...
 for (const d of days.values()) {
   d.repos.sort((a, b) => b.stars - a.stars);
   d.posts.sort((a, b) => b.points - a.points);
+  // The day's picks lead the day, repos first, as a short read-this-first list.
+  d.picks = [...d.repos, ...d.posts].filter((i) => i.why);
 }
 const log = [...days.values()].sort((a, b) => (a.date < b.date ? 1 : -1));
 const today = (tech.fetchedAt ?? new Date().toISOString()).slice(0, 10);
@@ -63,6 +65,7 @@ const chips = [...CATEGORIES, OTHER]
   .map((c) => ({ ...c, n: tally.get(c.id) }))
   .sort((a, b) => b.n - a.n);
 const totalItems = [...tally.values()].reduce((a, b) => a + b, 0);
+const totalPicks = log.reduce((n, day) => n + day.picks.length, 0);
 
 const dayId = (d) => `d-${d}`;
 const fmtNavDay = (d) =>
@@ -101,6 +104,11 @@ const description =
         <button type="button" class="chip" data-cat="all" aria-pressed="true">
           All <span class="chip__n">{totalItems}</span>
         </button>
+        {totalPicks > 0 && (
+          <button type="button" class="chip chip--picks" data-cat="picks" aria-pressed="false">
+            Picks <span class="chip__n">{totalPicks}</span>
+          </button>
+        )}
         {chips.map((c) => (
           <button type="button" class="chip" data-cat={c.id} aria-pressed="false">
             {c.label} <span class="chip__n">{c.n}</span>
@@ -115,6 +123,23 @@ const description =
           {day.date === today && <span class="badge">new today</span>}
         </div>
 
+        {day.picks.length > 0 && (
+          <div class="picks">
+            <p class="picks__label">Picks <span>&middot; worth opening first</span></p>
+            <ol>
+            {day.picks.map((i) => (
+              <li class="picks__item" data-cat={i.category.id}>
+                <a class="picks__title" href={i.url} target="_blank" rel="noopener noreferrer">{i.name ?? i.title}</a>
+                <span class="picks__src">
+                  {i.name ? `${fmtStars(i.stars)}★` : `${SOURCE_LABEL[i.source] ?? 'HN'} · ${i.points} points`}
+                </span>
+                <p class="picks__why">{i.why}</p>
+              </li>
+            ))}
+            </ol>
+          </div>
+        )}
+
         {day.repos.length > 0 && (
           <div class="grid">
             {day.repos.map((r) => (
@@ -124,9 +149,9 @@ const description =
                   <span class="card__stars">{fmtStars(r.stars)}&#9733;</span>
                 </div>
                 <p class="card__desc">{r.description}</p>
-                {r.why && <p class="pick"><span class="pick__label">Pick</span> {r.why}</p>}
                 <div class="card__meta">
                   <span class="tag">{r.category.label}</span>
+                  {r.why && <span class="tag tag--pick">Pick</span>}
                   {r.language && <span class="card__lang">{r.language}</span>}
                   {gained(r) > 0 && <span class="card__gain">+{fmtStars(gained(r))} since</span>}
                   {r.hn && (
@@ -145,9 +170,8 @@ const description =
             {day.posts.map((h) => (
               <li class="row" data-cat={h.category.id}>
                 <a class="row__title" href={h.url} target="_blank" rel="noopener noreferrer">{h.title}</a>
-                {h.why && <p class="pick"><span class="pick__label">Pick</span> {h.why}</p>}
                 <span class="row__meta">
-                  <span class="tag">{h.category.label}</span> &middot; {SOURCE_LABEL[h.source] ?? 'HN'} &middot; {h.points} points &middot;{' '}
+                  <span class="tag">{h.category.label}</span>{h.why && <> <span class="tag tag--pick">Pick</span></>} &middot; {SOURCE_LABEL[h.source] ?? 'HN'} &middot; {h.points} points &middot;{' '}
                   <a href={h.discussion} target="_blank" rel="noopener noreferrer">{h.comments} comments</a>
                 </span>
               </li>
@@ -204,14 +228,18 @@ const description =
       const apply = (cat) => {
         if (!buttons.some((b) => b.dataset.cat === cat)) cat = 'all';
         for (const b of buttons) b.setAttribute('aria-pressed', String(b.dataset.cat === cat));
-        for (const el of items) el.hidden = cat !== 'all' && el.dataset.cat !== cat;
+        for (const el of items) {
+          el.hidden = cat === 'picks' ? !el.closest('.picks') : cat !== 'all' && el.dataset.cat !== cat;
+        }
 
         // Drop days, and their navigator entries, that the filter emptied.
         for (const day of document.querySelectorAll('.day')) {
-          const shown = day.querySelectorAll('[data-cat]:not([hidden])').length;
+          // Picks repeat items from the day, so they only count on their own view.
+          const counted = cat === 'picks' ? '.picks [data-cat]' : '.grid [data-cat], .list [data-cat]';
+          const shown = [...day.querySelectorAll(counted)].filter((el) => !el.hidden).length;
           const empty = shown === 0;
           day.hidden = empty;
-          for (const block of day.querySelectorAll('.grid, .list')) {
+          for (const block of day.querySelectorAll('.grid, .list, .picks')) {
             block.hidden = !block.querySelector('[data-cat]:not([hidden])');
           }
           const link = document.querySelector(`.dates a[href="#${day.id}"]`);

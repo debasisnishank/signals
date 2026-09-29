@@ -492,17 +492,41 @@ html { scroll-behavior: smooth; }
   .chips { display: none !important; }
 }
 
-/* Curated picks: a one-line "why it matters" under the item. */
-.pick {
-  margin: 0.3rem 0 0;
-  font-size: 0.88rem;
-  line-height: 1.45;
-}
-.pick__label {
-  margin-right: 0.35em;
+/* Curated picks: the day's short list, ahead of everything else, each with a
+   line on why it is worth opening. */
+.picks ol { list-style: none; margin: 0; padding: 0; }
+.picks__label {
+  margin: 0 0 0.2rem;
   font-family: var(--font-section);
-  font-size: 0.62rem;
+  font-size: 0.68rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--clr-anchor);
 }
+.picks__label span { opacity: 0.7; letter-spacing: 0.06em; text-transform: none; }
+.picks {
+  margin: var(--space-sm) 0 var(--space-md);
+  padding: 0.25rem 0 0.25rem 1rem;
+  border-left: 2px solid var(--clr-anchor);
+}
+.picks__item { padding: 0.45rem 0; }
+.picks__title {
+  font-size: 1rem;
+  color: var(--clr-txt);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.picks__title:hover { color: var(--clr-header); text-decoration: underline; }
+.picks__src {
+  margin-left: 0.5em;
+  font-size: 0.78rem;
+  opacity: 0.6;
+  white-space: nowrap;
+}
+.picks__why {
+  margin: 0.15rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+.tag--pick { color: var(--clr-anchor); }
