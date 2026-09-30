@@ -39,9 +39,29 @@
     "https://news.ycombinator.com/item?id=49884625": {
       "why": "A 0.5B ternary model sliced across seven ESP32-S3 boards, attention and MLP on nodes, a master doing tokenization, linked in an SPI daisy-chain pipeline.",
       "pickedOn": "2026-09-29"
+    },
+    "chasmlol/2010-rust-rewrite-mashup": {
+      "why": "IW4L is a from-scratch Rust reimplementation of MW2's multiplayer engine; the mashup runs a real endless Minecraft world and Skate 3 physics on top, as a playable build rather than a concept.",
+      "pickedOn": "2026-09-30"
+    },
+    "openJiuwen-ai/iCode": {
+      "why": "iCode runs agents, models and workflows fully offline in a TUI, with per-turn diffs, rollback and token/cost trajectory views; pre-1.0, so formats and defaults still change.",
+      "pickedOn": "2026-09-30"
+    },
+    "https://lobste.rs/s/haq46t/squalk_old_school_forum_engine_built_on": {
+      "why": "Squalk implements a forum as a view over Nostr relays using NIP-29 groups and NIP-7D threads, so identity is a user keypair and posts are signed events instead of rows in a private database.",
+      "pickedOn": "2026-09-30"
+    },
+    "https://news.ycombinator.com/item?id=49875801": {
+      "why": "Complete, readable ~2,400-line C++ firmware for the M5Stack PaperMono e-ink badge, covering partial-refresh ghosting and low-power sync; usable as a base for other hardware.",
+      "pickedOn": "2026-09-30"
+    },
+    "https://news.ycombinator.com/item?id=49891290": {
+      "why": "PostHog's decision models return calibrated yes/no probabilities in one forward pass, and Jeeves adds reasoning before the decision to improve accuracy on hard cases while keeping that interface.",
+      "pickedOn": "2026-09-30"
     }
   },
-  "updatedAt": "2026-09-29T07:04:28.287Z",
+  "updatedAt": "2026-09-30T06:32:03.311Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -282,6 +302,7 @@
     "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol.html": "2026-09-29",
     "https://david.alvarezrosa.com/posts/self-hosting-behind-cgnat": "2026-09-29",
     "https://remy.wang/blog/ra-ra.html": "2026-09-29",
-    "https://github.com/dtonon/squalk": "2026-09-29"
+    "https://github.com/dtonon/squalk": "2026-09-29",
+    "https://www.figma.com/blog/london-office-expansion": "2026-09-30"
   }
 }
