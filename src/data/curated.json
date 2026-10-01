@@ -59,9 +59,29 @@
     "https://news.ycombinator.com/item?id=49891290": {
       "why": "PostHog's decision models return calibrated yes/no probabilities in one forward pass, and Jeeves adds reasoning before the decision to improve accuracy on hard cases while keeping that interface.",
       "pickedOn": "2026-09-30"
+    },
+    "feder-cr/dots": {
+      "why": "Ships a Firefox engine patched in C++ so the anti-bot fingerprint lives inside the browser rather than injectable JS; swappable model, persistent profiles, runs locally.",
+      "pickedOn": "2026-10-01"
+    },
+    "openai/mcp-extensions": {
+      "why": "OpenAI's official SDK bolting ChatGPT-specific capabilities (sidebar entrypoints, file viewers, composer mentions) onto plain MCP, with TS and Python packages and a spec, usable now.",
+      "pickedOn": "2026-10-01"
+    },
+    "deepseek-ai/DeepGEMM-Ascend": {
+      "why": "Ports DeepGEMM to Ascend NPUs behind a fully API-compatible surface, hiding fractal-layout and alignment details; covers FP4/FP8 GEMM and MegaMoE on real hardware.",
+      "pickedOn": "2026-10-01"
+    },
+    "santtiago49/system-design-trainer": {
+      "why": "Its capacity model is deterministic code instead of an LLM, so runs are reproducible; 15 graded levels with localStorage progress and a labeled mock when no Jev key is set.",
+      "pickedOn": "2026-10-01"
+    },
+    "https://news.ycombinator.com/item?id=49901736": {
+      "why": "Pins prompts and CLI and keeps raw logs forever so drift is measured statistically, not by vibes; append-only v0 that runs on a Max subscription with no API key.",
+      "pickedOn": "2026-10-01"
     }
   },
-  "updatedAt": "2026-09-30T06:32:03.311Z",
+  "updatedAt": "2026-10-01T06:31:53.823Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -255,6 +275,42 @@
       "topic": "distributed",
       "why": "Explains how Notion models shared documents as CRDTs, the concrete concurrency problems that creates, and the trade-offs chosen.",
       "pickedOn": "2026-09-29"
+    },
+    "https://blog.cloudflare.com/ai-driven-cryptography-discovery": {
+      "title": "Using AI to chart a course for our post-quantum migration",
+      "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
+      "source": "Cloudflare",
+      "published": "2026-09-29T13:00:00.000Z",
+      "topic": "infrastructure",
+      "why": "Explains how Cloudflare plans a platform-wide post-quantum cryptography migration, from discovering where crypto is used to tracking progress and sequencing upgrades.",
+      "pickedOn": "2026-10-01"
+    },
+    "https://blog.cloudflare.com/pq-ca-with-mtcs": {
+      "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+      "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
+      "source": "Cloudflare",
+      "published": "2026-09-29T13:00:00.000Z",
+      "topic": "architecture",
+      "why": "Describes Merkle Tree Certificates, a Web PKI redesign that makes transparency first-party and scales post-quantum signatures efficiently for certificate issuance.",
+      "pickedOn": "2026-10-01"
+    },
+    "https://blog.cloudflare.com/ipsec-downgrade-protection": {
+      "title": "Preventing quantum downgrade attacks against IPsec",
+      "url": "https://blog.cloudflare.com/ipsec-downgrade-protection/",
+      "source": "Cloudflare",
+      "published": "2026-09-29T13:00:00.000Z",
+      "topic": "infrastructure",
+      "why": "Explains quantum downgrade attacks on IPsec and the IETF mitigation Cloudflare implemented, showing how protocol peers are tricked into weaker cryptography.",
+      "pickedOn": "2026-10-01"
+    },
+    "https://dropbox.tech/machine-learning/evolving-calendar-assistant-reclaim-to-be-ai-native": {
+      "title": "Evolving our calendar assistant Reclaim to be AI-native without starting over",
+      "url": "https://dropbox.tech/machine-learning/evolving-calendar-assistant-reclaim-to-be-ai-native",
+      "source": "Dropbox",
+      "published": "2026-09-29T13:00:00.000Z",
+      "topic": "architecture",
+      "why": "How Dropbox added natural-language scheduling to Reclaim by layering AI over existing calendar logic rather than rebuilding, and the trade-offs that forced.",
+      "pickedOn": "2026-10-01"
     }
   },
   "deepdiveSkips": {
@@ -303,6 +359,17 @@
     "https://david.alvarezrosa.com/posts/self-hosting-behind-cgnat": "2026-09-29",
     "https://remy.wang/blog/ra-ra.html": "2026-09-29",
     "https://github.com/dtonon/squalk": "2026-09-29",
-    "https://www.figma.com/blog/london-office-expansion": "2026-09-30"
+    "https://www.figma.com/blog/london-office-expansion": "2026-09-30",
+    "https://blog.cloudflare.com/cloudflare-certificate-authority": "2026-10-01",
+    "https://blog.cloudflare.com/ai-era-framework": "2026-10-01",
+    "https://blog.cloudflare.com/adaptive-ai-waf-testing": "2026-10-01",
+    "https://blog.cloudflare.com/threat-signals": "2026-10-01",
+    "https://blog.cloudflare.com/post-quantum-visibility": "2026-10-01",
+    "https://blog.cloudflare.com/application-profiles": "2026-10-01",
+    "https://stripe.com/blog/helping-personal-agents-shop-more-intelligently-and-reliably-with-link": "2026-10-01",
+    "https://medium.com/airbnb-engineering/personalization-without-user-identity-8e7891a1d486?source=rss----53c7c27702d5---4": "2026-10-01",
+    "https://aws.amazon.com/blogs/architecture/build-adaptive-ai-interfaces-with-the-ag-ui-protocol-agent-swarms-and-nova-act-on-aws": "2026-10-01",
+    "https://mechanicalrabbit.github.io/funsql.jl/stable/two-kinds-of-sql-query-builders/#two-kinds-of-sql-query-builders": "2026-10-01",
+    "https://www.youtube.com/watch?v=25x0uusckuu": "2026-10-01"
   }
 }
