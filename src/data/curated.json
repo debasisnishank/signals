@@ -79,9 +79,29 @@
     "https://news.ycombinator.com/item?id=49901736": {
       "why": "Pins prompts and CLI and keeps raw logs forever so drift is measured statistically, not by vibes; append-only v0 that runs on a Max subscription with no API key.",
       "pickedOn": "2026-10-01"
+    },
+    "https://news.ycombinator.com/item?id=49902382": {
+      "why": "Executes snippets against your real shell and can be hosted remotely over SSH, so existing notes and runbooks become runnable instead of copy-paste.",
+      "pickedOn": "2026-10-02"
+    },
+    "https://news.ycombinator.com/item?id=49894351": {
+      "why": "Runs multiple distros as systemd-nspawn containers in one VM, reproducing WSL's host file editing and port sharing; positioned against distrobox.",
+      "pickedOn": "2026-10-02"
+    },
+    "https://news.ycombinator.com/item?id=49906100": {
+      "why": "Reproduces DLSS 5's 71-block network byte-exactly, intermediates included, with an independent WebGPU port, though you supply the 141 MiB weights.",
+      "pickedOn": "2026-10-02"
+    },
+    "https://lobste.rs/s/yj721w/asm_bots_core_war_real_8086_machine_code": {
+      "why": "Players write warriors in real 8086 assembly (NASM) instead of Redcode, with up to 16 bots sharing one 64 KB core.",
+      "pickedOn": "2026-10-02"
+    },
+    "https://news.ycombinator.com/item?id=49903993": {
+      "why": "Hand-written linear algebra with no autograd framework lets it update weights mid-inference and check gradients to 3e-8; toy scale and CPU-only.",
+      "pickedOn": "2026-10-02"
     }
   },
-  "updatedAt": "2026-10-01T06:31:53.823Z",
+  "updatedAt": "2026-10-02T06:32:04.617Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -311,6 +331,24 @@
       "topic": "architecture",
       "why": "How Dropbox added natural-language scheduling to Reclaim by layering AI over existing calendar logic rather than rebuilding, and the trade-offs that forced.",
       "pickedOn": "2026-10-01"
+    },
+    "https://blog.cloudflare.com/faster-agent-sandboxes": {
+      "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
+      "url": "https://blog.cloudflare.com/faster-agent-sandboxes/",
+      "source": "Cloudflare",
+      "published": "2026-09-30T12:58:00.000Z",
+      "topic": "architecture",
+      "why": "How rearchitecting a container runtime and scheduler for on-demand sandboxes cut median startup from about 4s to 648ms.",
+      "pickedOn": "2026-10-02"
+    },
+    "https://aws.amazon.com/blogs/architecture/running-multi-day-az-evacuation-drills-with-arc-zonal-shift": {
+      "title": "Running multi-day AZ evacuation drills with ARC Zonal Shift",
+      "url": "https://aws.amazon.com/blogs/architecture/running-multi-day-az-evacuation-drills-with-arc-zonal-shift/",
+      "source": "AWS Architecture",
+      "published": "2026-09-30T19:01:57.000Z",
+      "topic": "reliability",
+      "why": "How to run a 48-72 hour single-AZ evacuation drill to expose autoscaling, DNS, and connection failures short failover tests miss.",
+      "pickedOn": "2026-10-02"
     }
   },
   "deepdiveSkips": {
@@ -370,6 +408,18 @@
     "https://medium.com/airbnb-engineering/personalization-without-user-identity-8e7891a1d486?source=rss----53c7c27702d5---4": "2026-10-01",
     "https://aws.amazon.com/blogs/architecture/build-adaptive-ai-interfaces-with-the-ag-ui-protocol-agent-swarms-and-nova-act-on-aws": "2026-10-01",
     "https://mechanicalrabbit.github.io/funsql.jl/stable/two-kinds-of-sql-query-builders/#two-kinds-of-sql-query-builders": "2026-10-01",
-    "https://www.youtube.com/watch?v=25x0uusckuu": "2026-10-01"
+    "https://www.youtube.com/watch?v=25x0uusckuu": "2026-10-01",
+    "https://blog.cloudflare.com/100-million-donations": "2026-10-02",
+    "https://blog.cloudflare.com/auto-router": "2026-10-02",
+    "https://blog.cloudflare.com/real-time-issue-detection": "2026-10-02",
+    "https://blog.cloudflare.com/simplifying-domains": "2026-10-02",
+    "https://blog.cloudflare.com/monetization-gateway-beta": "2026-10-02",
+    "https://blog.cloudflare.com/pay-per-use": "2026-10-02",
+    "https://blog.cloudflare.com/ai-model-overuse-user-insights": "2026-10-02",
+    "https://blog.cloudflare.com/agentic-web": "2026-10-02",
+    "https://stripe.com/blog/ousd-now-live-on-stripe": "2026-10-02",
+    "https://aws.amazon.com/blogs/architecture/how-mhk-built-a-hipaa-eligible-agentic-ai-solution-on-amazon-bedrock": "2026-10-02",
+    "https://blog.cloudflare.com/cloudflare-basin": "2026-10-02",
+    "https://www.oliverdunk.com/2026/09/30/iana-reply": "2026-10-02"
   }
 }
