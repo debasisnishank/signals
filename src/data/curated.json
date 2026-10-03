@@ -99,9 +99,29 @@
     "https://news.ycombinator.com/item?id=49903993": {
       "why": "Hand-written linear algebra with no autograd framework lets it update weights mid-inference and check gradients to 3e-8; toy scale and CPU-only.",
       "pickedOn": "2026-10-02"
+    },
+    "ZacharyZhang-NY/Ely-GPUI-Components": {
+      "why": "Rare component set for Zed's GPUI framework; ships light and dark and each component compiles to WASM so you can try it live, though it is early and macOS-tested only.",
+      "pickedOn": "2026-10-03"
+    },
+    "chasmlol/SkyCraft": {
+      "why": "Runs both games unmodified and links them over shared memory: Minecraft supplies movement, blocks and combat while Skyrim keeps its world, drawing and saves.",
+      "pickedOn": "2026-10-03"
+    },
+    "CAPCOM-TD-OSS/REDox": {
+      "why": "CAPCOM's engine data layer for .NET; its fixed-size token DOM keeps tape-parser speed while staying editable, instead of choosing between System.Text.Json and Newtonsoft.",
+      "pickedOn": "2026-10-03"
+    },
+    "https://news.ycombinator.com/item?id=49926726": {
+      "why": "Small code editor whose editor and pixel renderer share one x86-64 assembly core, translated to AArch64 at build time; still a solo, early project.",
+      "pickedOn": "2026-10-03"
+    },
+    "https://news.ycombinator.com/item?id=49916997": {
+      "why": "Parser generator that builds the whole AST before walking it, so grammars avoid Yacc-style mid-rule action hacks; lexer, parser and walker come from one dependency-free tool.",
+      "pickedOn": "2026-10-03"
     }
   },
-  "updatedAt": "2026-10-02T06:32:04.617Z",
+  "updatedAt": "2026-10-03T06:33:01.137Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -349,6 +369,34 @@
       "topic": "reliability",
       "why": "How to run a 48-72 hour single-AZ evacuation drill to expose autoscaling, DNS, and connection failures short failover tests miss.",
       "pickedOn": "2026-10-02"
+    },
+    "https://blog.cloudflare.com/workers-kv-instant": {
+      "title": "Introducing Workers KV Instant — powered by Quicksilver",
+      "url": "https://blog.cloudflare.com/workers-kv-instant/",
+      "source": "Cloudflare",
+      "published": "2026-10-01T13:00:00.000Z",
+      "topic": "infrastructure",
+      "why": "Shows how Cloudflare reused its internal Quicksilver store to give Workers KV instant global replication with sub-2ms p99 reads and no cold reads.",
+      "pickedOn": "2026-10-03"
+    },
+    "https://blog.cloudflare.com/cloudflare-k2-streams": {
+      "title": "Announcing Cloudflare K2: serverless event streams",
+      "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+      "source": "Cloudflare",
+      "published": "2026-10-01T13:00:00.000Z",
+      "topic": "distributed",
+      "why": "Explains how K2 builds a durable partitioned event log on R2 object storage to decouple producers and consumers and never drop events.",
+      "pickedOn": "2026-10-03"
+    },
+    "https://www.tigrisdata.com/blog/quick-fdb-kafka": {
+      "title": "We used a database as a message queue. Now we use Kafka",
+      "url": "https://www.tigrisdata.com/blog/quick-fdb-kafka/",
+      "source": "Lobsters",
+      "published": "2026-09-30T20:28:27.900Z",
+      "discussion": "https://lobste.rs/s/0xfpgo/we_used_database_as_message_queue_now_we",
+      "topic": "distributed",
+      "why": "Why running task queues inside FoundationDB put read load on user requests, and how moving async work to Kafka cut that load and custom code.",
+      "pickedOn": "2026-10-03"
     }
   },
   "deepdiveSkips": {
@@ -420,6 +468,17 @@
     "https://stripe.com/blog/ousd-now-live-on-stripe": "2026-10-02",
     "https://aws.amazon.com/blogs/architecture/how-mhk-built-a-hipaa-eligible-agentic-ai-solution-on-amazon-bedrock": "2026-10-02",
     "https://blog.cloudflare.com/cloudflare-basin": "2026-10-02",
-    "https://www.oliverdunk.com/2026/09/30/iana-reply": "2026-10-02"
+    "https://www.oliverdunk.com/2026/09/30/iana-reply": "2026-10-02",
+    "https://blog.cloudflare.com/clef-decision-models": "2026-10-03",
+    "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later": "2026-10-03",
+    "https://blog.cloudflare.com/managed-cloudflare-os": "2026-10-03",
+    "https://blog.cloudflare.com/next-git-platform-on-cloudflare": "2026-10-03",
+    "https://blog.cloudflare.com/ai-search-ga": "2026-10-03",
+    "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support": "2026-10-03",
+    "https://discord.com/blog/halloween-2026": "2026-10-03",
+    "https://stripe.com/blog/where-pricing-is-headed": "2026-10-03",
+    "https://shopify.engineering/shopgym": "2026-10-03",
+    "https://www.figma.com/blog/workflow-lab-from-design-system-to-campaign-in-figma-weave": "2026-10-03",
+    "https://aws.amazon.com/blogs/architecture/accelerating-airline-retailing-innovation-how-datalex-modernized-with-aws-experience-based-acceleration-and-agentic-ai": "2026-10-03"
   }
 }
