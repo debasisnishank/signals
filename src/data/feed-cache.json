@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-10-04T06:33:18.470Z",
+    "fetchedAt": "2026-10-04T12:12:32.915Z",
     "repos": [
       {
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 30520,
+        "stars": 30577,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -20,7 +20,7 @@
         "name": "browser-use/jev-ultrafast",
         "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 21923,
+        "stars": 21939,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": [],
@@ -34,7 +34,7 @@
         "name": "Niko1221/Strata",
         "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
         "language": "C++",
-        "stars": 8875,
+        "stars": 9228,
         "url": "https://github.com/Niko1221/Strata",
         "created": "2026-09-24T16:40:20Z",
         "topics": []
@@ -43,7 +43,7 @@
         "name": "jaredpalmer/kev",
         "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 8377,
+        "stars": 8407,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -52,7 +52,7 @@
           "qwen3"
         ],
         "hn": {
-          "points": 462,
+          "points": 463,
           "comments": 211,
           "url": "https://news.ycombinator.com/item?id=49783999"
         }
@@ -61,7 +61,7 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 7398,
+        "stars": 7464,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": []
@@ -70,7 +70,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 7381,
+        "stars": 7387,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": []
@@ -79,7 +79,7 @@
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 7363,
+        "stars": 7368,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": []
@@ -88,7 +88,7 @@
         "name": "mizorewww/laya-mlx",
         "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
         "language": "Python",
-        "stars": 6745,
+        "stars": 6749,
         "url": "https://github.com/mizorewww/laya-mlx",
         "created": "2026-09-19T13:50:26Z",
         "topics": [
@@ -102,7 +102,7 @@
         "name": "facebookincubator/muse-gadget-sdk",
         "description": "Open source SDK to build Muse gadgets",
         "language": "C",
-        "stars": 948,
+        "stars": 1019,
         "url": "https://github.com/facebookincubator/muse-gadget-sdk",
         "created": "2026-10-02T18:21:23Z",
         "topics": []
@@ -111,7 +111,7 @@
         "name": "QingYunA/answer-me-with-html",
         "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
         "language": "JavaScript",
-        "stars": 552,
+        "stars": 748,
         "url": "https://github.com/QingYunA/answer-me-with-html",
         "created": "2026-10-02T09:57:40Z",
         "topics": [
@@ -122,91 +122,116 @@
         ]
       },
       {
-        "name": "whirlchat/whirl",
-        "description": "The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.",
-        "language": "TypeScript",
-        "stars": 343,
-        "url": "https://github.com/whirlchat/whirl",
-        "created": "2026-10-02T13:50:42Z",
+        "name": "BlackCrewmanFringe/AutoCad",
+        "description": "Autocad is a professional desktop software utility that provides an intuitive interface to configure and manage complex projects with ease.",
+        "language": null,
+        "stars": 414,
+        "url": "https://github.com/BlackCrewmanFringe/AutoCad",
+        "created": "2026-10-04T11:36:47Z",
         "topics": [
-          "ai",
-          "ai-chat",
-          "chat",
-          "convex"
+          "autocad",
+          "autocad-for-win",
+          "autocad-for-windows-2026",
+          "autocad-for-windows-crack"
         ]
       },
       {
-        "name": "mizorewww/x_gift_bot",
-        "description": "X Premium gift CLI and redemption site",
-        "language": "Go",
-        "stars": 215,
-        "url": "https://github.com/mizorewww/x_gift_bot",
-        "created": "2026-10-02T10:29:43Z",
-        "topics": []
-      },
-      {
-        "name": "Jakeschincariol/replica-skill",
-        "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
-        "language": "Python",
-        "stars": 176,
-        "url": "https://github.com/Jakeschincariol/replica-skill",
-        "created": "2026-10-03T12:07:49Z",
+        "name": "purpleproviderclip/Windows-Optimizer",
+        "description": "An advanced software utility designed to optimize your Windows experience by streamlining performance and enhancing overall efficiency, providing a...",
+        "language": null,
+        "stars": 409,
+        "url": "https://github.com/purpleproviderclip/Windows-Optimizer",
+        "created": "2026-10-02T20:09:25Z",
         "topics": [
-          "agent",
-          "agent-skills",
-          "app-clone",
-          "claude"
+          "fps-booster-no-lag",
+          "frame-rate-boost",
+          "game-booster-free",
+          "optimize-windows"
         ]
       },
       {
-        "name": "zzzz7788990213-ops/EvoVLM",
-        "description": "Evolving Multimodal Inference Programs: LLM-guided evolutionary search for accurate and efficient vision-language inference.",
-        "language": "Python",
-        "stars": 171,
-        "url": "https://github.com/zzzz7788990213-ops/EvoVLM",
-        "created": "2026-10-02T01:03:55Z",
-        "topics": []
-      },
-      {
-        "name": "ythx-101/live-panel-skill",
-        "description": "Config-driven animated architecture diagrams: turn one JSON file into a terminal-style, always-running diagram or a light-theme infographic that moves. Outputs H.264 mp4 or a live web page; also a Claude Code style skill (SKILL.md).",
-        "language": "HTML",
-        "stars": 163,
-        "url": "https://github.com/ythx-101/live-panel-skill",
-        "created": "2026-10-03T16:53:36Z",
-        "topics": []
-      },
-      {
-        "name": "NuvexNetwork/nuvex",
-        "description": "Solana-native verifiable compute and oracle protocol.  Programs accept a job, an input, constraints, and a callback. Randomness is the first job. An active node can fulfill a VRF request with an ECVRF proof after it locks the configured stake and sends a heartbeat. Fees still do not move.",
-        "language": "Rust",
-        "stars": 153,
-        "url": "https://github.com/NuvexNetwork/nuvex",
-        "created": "2026-10-02T15:38:29Z",
+        "name": "GreenSorcererShears/SolidWorks-CAD",
+        "description": "Integrates professional desktop software utility configurations to optimize streamlined workflow in your projects with unparalleled precision and...",
+        "language": null,
+        "stars": 409,
+        "url": "https://github.com/GreenSorcererShears/SolidWorks-CAD",
+        "created": "2026-10-02T20:07:26Z",
         "topics": [
-          "cli",
-          "crates",
-          "ecvrf",
-          "rust"
+          "cad-automation",
+          "cad-hack",
+          "download-solidworks-crack",
+          "get-solidworks-crack"
         ]
       },
       {
-        "name": "NuvexNetwork/nuvex-web",
-        "description": "The Nuvex website. It does not read chain state and it does not submit transactions.  The protocol, the documentation site, and the off-chain services are separate repositories.",
-        "language": "TypeScript",
-        "stars": 152,
-        "url": "https://github.com/NuvexNetwork/nuvex-web",
-        "created": "2026-10-02T15:42:15Z",
-        "topics": []
+        "name": "ScreenEvaluate/KMS-Pico",
+        "description": "Kms Pico Free optimizes your professional desktop environment by providing a customizable and efficient utility configuration.",
+        "language": null,
+        "stars": 408,
+        "url": "https://github.com/ScreenEvaluate/KMS-Pico",
+        "created": "2026-10-02T20:03:50Z",
+        "topics": [
+          "activation-fix",
+          "free-excel-word",
+          "key-management-system",
+          "kms-auto-2026"
+        ]
       },
       {
-        "name": "NuvexNetwork/nuvex-docs",
-        "description": "The Nuvex documentation site.  The protocol, the website, and the off-chain services are separate repositories.",
-        "language": "MDX",
-        "stars": 151,
-        "url": "https://github.com/NuvexNetwork/nuvex-docs",
-        "created": "2026-10-02T15:58:11Z",
-        "topics": []
+        "name": "Ceilingmoreminisce/Discord-Server-Raider",
+        "description": "Automate server management and enhance security on your GitHub-hosted projects using Discords's powerful bot that optimizes resource allocation and...",
+        "language": null,
+        "stars": 408,
+        "url": "https://github.com/Ceilingmoreminisce/Discord-Server-Raider",
+        "created": "2026-10-02T20:01:04Z",
+        "topics": [
+          "discord-bot-raid",
+          "discord-multitools",
+          "discord-nuke",
+          "discord-raid"
+        ]
+      },
+      {
+        "name": "Blockadezoshack/Microsoft-Project",
+        "description": "Microsoft Project optimizes professional workflow management by providing a comprehensive project and resource planning tool that streamlines task...",
+        "language": null,
+        "stars": 408,
+        "url": "https://github.com/Blockadezoshack/Microsoft-Project",
+        "created": "2026-10-04T11:37:45Z",
+        "topics": [
+          "business-planning",
+          "enterprise-tools",
+          "how-to-install-ms-project",
+          "microsoft-project"
+        ]
+      },
+      {
+        "name": "BladesmanSound/DVD-Creator",
+        "description": "Efficiently organizes digital media files into polished DVD structures, eliminating manual formatting labor.",
+        "language": null,
+        "stars": 407,
+        "url": "https://github.com/BladesmanSound/DVD-Creator",
+        "created": "2026-10-02T20:01:20Z",
+        "topics": [
+          "acer-nitro",
+          "ais-data",
+          "aiseesoft-data-recovery-speed-comparison",
+          "aiseesoft-fonelab-for-ios"
+        ]
+      },
+      {
+        "name": "ColonyBiomancerCall/StartAll-Back",
+        "description": "Startall Back optimizes professional desktop software utility configurations by providing a comprehensive and flexible foundation to manage complex...",
+        "language": null,
+        "stars": 406,
+        "url": "https://github.com/ColonyBiomancerCall/StartAll-Back",
+        "created": "2026-10-02T20:08:04Z",
+        "topics": [
+          "start-menu",
+          "startallback",
+          "startallback-pro",
+          "startallback-pro-download"
+        ]
       }
     ],
     "posts": [
@@ -214,8 +239,8 @@
         "source": "showhn",
         "title": "Offrun – manage every coding agent from one workspace",
         "url": "https://offrun.dev/",
-        "points": 74,
-        "comments": 61,
+        "points": 75,
+        "comments": 63,
         "discussion": "https://news.ycombinator.com/item?id=49942434",
         "created": "2026-10-03T08:40:17.000Z"
       },
@@ -223,8 +248,8 @@
         "source": "showhn",
         "title": "Thoreau BASIC – What if BASIC hadn't gone out of fashion?",
         "url": "https://thoreaubasic.com/",
-        "points": 47,
-        "comments": 16,
+        "points": 67,
+        "comments": 38,
         "discussion": "https://news.ycombinator.com/item?id=49942103",
         "created": "2026-10-03T07:28:54.000Z"
       },
@@ -232,7 +257,7 @@
         "source": "showhn",
         "title": "Made an open-source Lego AI generator",
         "url": "https://github.com/anteloc/ldraw-nova",
-        "points": 145,
+        "points": 146,
         "comments": 49,
         "discussion": "https://news.ycombinator.com/item?id=49937916",
         "created": "2026-10-02T20:00:15.000Z"
@@ -241,8 +266,8 @@
         "source": "showhn",
         "title": "Pi pod – Run your pi coding agent in sandboxes on your own server",
         "url": "https://pipod.dev/",
-        "points": 89,
-        "comments": 32,
+        "points": 103,
+        "comments": 39,
         "discussion": "https://news.ycombinator.com/item?id=49937304",
         "created": "2026-10-02T19:10:38.000Z"
       },
@@ -250,7 +275,7 @@
         "source": "showhn",
         "title": "Our space game has a built-in RISC-V emulator that runs Linux",
         "url": "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/",
-        "points": 75,
+        "points": 81,
         "comments": 28,
         "discussion": "https://news.ycombinator.com/item?id=49931993",
         "created": "2026-10-02T10:40:31.000Z"
@@ -259,7 +284,7 @@
         "source": "showhn",
         "title": "Audionaut – an open-source cross-platform multitrack audio editor",
         "url": "https://github.com/kvoltmer/Audionaut",
-        "points": 146,
+        "points": 148,
         "comments": 47,
         "discussion": "https://news.ycombinator.com/item?id=49931031",
         "created": "2026-10-02T08:05:48.000Z"
@@ -344,7 +369,7 @@
         "name": "browser-use/jev-ultrafast",
         "description": "Fastest and cheapest web agent",
         "language": "Python",
-        "stars": 21923,
+        "stars": 21939,
         "url": "https://github.com/browser-use/jev-ultrafast",
         "created": "2026-09-16T21:30:12Z",
         "topics": [],
@@ -378,7 +403,7 @@
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 7363,
+        "stars": 7368,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": [],
@@ -431,7 +456,7 @@
         "name": "robbietilton/Compositor",
         "description": "The Photoshop alternative for Mac",
         "language": "Swift",
-        "stars": 7398,
+        "stars": 7464,
         "url": "https://github.com/robbietilton/Compositor",
         "created": "2026-09-16T20:35:54Z",
         "topics": [],
@@ -467,7 +492,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 7381,
+        "stars": 7387,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": [],
@@ -479,7 +504,7 @@
         "name": "mizorewww/laya-mlx",
         "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
         "language": "Python",
-        "stars": 6745,
+        "stars": 6749,
         "url": "https://github.com/mizorewww/laya-mlx",
         "created": "2026-09-19T13:50:26Z",
         "topics": [
@@ -496,7 +521,7 @@
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 30520,
+        "stars": 30577,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -513,7 +538,7 @@
         "name": "jaredpalmer/kev",
         "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 8377,
+        "stars": 8407,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -525,7 +550,7 @@
         "lastSeen": "2026-10-04",
         "starsAtFirstSeen": 5157,
         "hn": {
-          "points": 462,
+          "points": 463,
           "comments": 211,
           "url": "https://news.ycombinator.com/item?id=49783999"
         }
@@ -1138,7 +1163,7 @@
         "name": "Niko1221/Strata",
         "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
         "language": "C++",
-        "stars": 8875,
+        "stars": 9228,
         "url": "https://github.com/Niko1221/Strata",
         "created": "2026-09-24T16:40:20Z",
         "topics": [],
@@ -1150,7 +1175,7 @@
         "name": "facebookincubator/muse-gadget-sdk",
         "description": "Open source SDK to build Muse gadgets",
         "language": "C",
-        "stars": 948,
+        "stars": 1019,
         "url": "https://github.com/facebookincubator/muse-gadget-sdk",
         "created": "2026-10-02T18:21:23Z",
         "topics": [],
@@ -1277,7 +1302,7 @@
         "name": "QingYunA/answer-me-with-html",
         "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
         "language": "JavaScript",
-        "stars": 552,
+        "stars": 748,
         "url": "https://github.com/QingYunA/answer-me-with-html",
         "created": "2026-10-02T09:57:40Z",
         "topics": [
@@ -1371,6 +1396,142 @@
         "firstSeen": "2026-10-04",
         "lastSeen": "2026-10-04",
         "starsAtFirstSeen": 163
+      },
+      "BlackCrewmanFringe/AutoCad": {
+        "name": "BlackCrewmanFringe/AutoCad",
+        "description": "Autocad is a professional desktop software utility that provides an intuitive interface to configure and manage complex projects with ease.",
+        "language": null,
+        "stars": 414,
+        "url": "https://github.com/BlackCrewmanFringe/AutoCad",
+        "created": "2026-10-04T11:36:47Z",
+        "topics": [
+          "autocad",
+          "autocad-for-win",
+          "autocad-for-windows-2026",
+          "autocad-for-windows-crack"
+        ],
+        "firstSeen": "2026-10-04",
+        "lastSeen": "2026-10-04",
+        "starsAtFirstSeen": 414
+      },
+      "purpleproviderclip/Windows-Optimizer": {
+        "name": "purpleproviderclip/Windows-Optimizer",
+        "description": "An advanced software utility designed to optimize your Windows experience by streamlining performance and enhancing overall efficiency, providing a...",
+        "language": null,
+        "stars": 409,
+        "url": "https://github.com/purpleproviderclip/Windows-Optimizer",
+        "created": "2026-10-02T20:09:25Z",
+        "topics": [
+          "fps-booster-no-lag",
+          "frame-rate-boost",
+          "game-booster-free",
+          "optimize-windows"
+        ],
+        "firstSeen": "2026-10-04",
+        "lastSeen": "2026-10-04",
+        "starsAtFirstSeen": 409
+      },
+      "GreenSorcererShears/SolidWorks-CAD": {
+        "name": "GreenSorcererShears/SolidWorks-CAD",
+        "description": "Integrates professional desktop software utility configurations to optimize streamlined workflow in your projects with unparalleled precision and...",
+        "language": null,
+        "stars": 409,
+        "url": "https://github.com/GreenSorcererShears/SolidWorks-CAD",
+        "created": "2026-10-02T20:07:26Z",
+        "topics": [
+          "cad-automation",
+          "cad-hack",
+          "download-solidworks-crack",
+          "get-solidworks-crack"
+        ],
+        "firstSeen": "2026-10-04",
+        "lastSeen": "2026-10-04",
+        "starsAtFirstSeen": 409
+      },
+      "ScreenEvaluate/KMS-Pico": {
+        "name": "ScreenEvaluate/KMS-Pico",
+        "description": "Kms Pico Free optimizes your professional desktop environment by providing a customizable and efficient utility configuration.",
+        "language": null,
+        "stars": 408,
+        "url": "https://github.com/ScreenEvaluate/KMS-Pico",
+        "created": "2026-10-02T20:03:50Z",
+        "topics": [
+          "activation-fix",
+          "free-excel-word",
+          "key-management-system",
+          "kms-auto-2026"
+        ],
+        "firstSeen": "2026-10-04",
+        "lastSeen": "2026-10-04",
+        "starsAtFirstSeen": 408
+      },
+      "Ceilingmoreminisce/Discord-Server-Raider": {
+        "name": "Ceilingmoreminisce/Discord-Server-Raider",
+        "description": "Automate server management and enhance security on your GitHub-hosted projects using Discords's powerful bot that optimizes resource allocation and...",
+        "language": null,
+        "stars": 408,
+        "url": "https://github.com/Ceilingmoreminisce/Discord-Server-Raider",
+        "created": "2026-10-02T20:01:04Z",
+        "topics": [
+          "discord-bot-raid",
+          "discord-multitools",
+          "discord-nuke",
+          "discord-raid"
+        ],
+        "firstSeen": "2026-10-04",
+        "lastSeen": "2026-10-04",
+        "starsAtFirstSeen": 408
+      },
+      "Blockadezoshack/Microsoft-Project": {
+        "name": "Blockadezoshack/Microsoft-Project",
+        "description": "Microsoft Project optimizes professional workflow management by providing a comprehensive project and resource planning tool that streamlines task...",
+        "language": null,
+        "stars": 408,
+        "url": "https://github.com/Blockadezoshack/Microsoft-Project",
+        "created": "2026-10-04T11:37:45Z",
+        "topics": [
+          "business-planning",
+          "enterprise-tools",
+          "how-to-install-ms-project",
+          "microsoft-project"
+        ],
+        "firstSeen": "2026-10-04",
+        "lastSeen": "2026-10-04",
+        "starsAtFirstSeen": 408
+      },
+      "BladesmanSound/DVD-Creator": {
+        "name": "BladesmanSound/DVD-Creator",
+        "description": "Efficiently organizes digital media files into polished DVD structures, eliminating manual formatting labor.",
+        "language": null,
+        "stars": 407,
+        "url": "https://github.com/BladesmanSound/DVD-Creator",
+        "created": "2026-10-02T20:01:20Z",
+        "topics": [
+          "acer-nitro",
+          "ais-data",
+          "aiseesoft-data-recovery-speed-comparison",
+          "aiseesoft-fonelab-for-ios"
+        ],
+        "firstSeen": "2026-10-04",
+        "lastSeen": "2026-10-04",
+        "starsAtFirstSeen": 407
+      },
+      "ColonyBiomancerCall/StartAll-Back": {
+        "name": "ColonyBiomancerCall/StartAll-Back",
+        "description": "Startall Back optimizes professional desktop software utility configurations by providing a comprehensive and flexible foundation to manage complex...",
+        "language": null,
+        "stars": 406,
+        "url": "https://github.com/ColonyBiomancerCall/StartAll-Back",
+        "created": "2026-10-02T20:08:04Z",
+        "topics": [
+          "start-menu",
+          "startallback",
+          "startallback-pro",
+          "startallback-pro-download"
+        ],
+        "firstSeen": "2026-10-04",
+        "lastSeen": "2026-10-04",
+        "starsAtFirstSeen": 406
       }
     },
     "posts": {
@@ -2192,7 +2353,7 @@
         "source": "showhn",
         "title": "Audionaut – an open-source cross-platform multitrack audio editor",
         "url": "https://github.com/kvoltmer/Audionaut",
-        "points": 146,
+        "points": 148,
         "comments": 47,
         "discussion": "https://news.ycombinator.com/item?id=49931031",
         "created": "2026-10-02T08:05:48.000Z",
@@ -2214,7 +2375,7 @@
         "source": "showhn",
         "title": "Made an open-source Lego AI generator",
         "url": "https://github.com/anteloc/ldraw-nova",
-        "points": 145,
+        "points": 146,
         "comments": 49,
         "discussion": "https://news.ycombinator.com/item?id=49937916",
         "created": "2026-10-02T20:00:15.000Z",
@@ -2247,8 +2408,8 @@
         "source": "showhn",
         "title": "Offrun – manage every coding agent from one workspace",
         "url": "https://offrun.dev/",
-        "points": 74,
-        "comments": 61,
+        "points": 75,
+        "comments": 63,
         "discussion": "https://news.ycombinator.com/item?id=49942434",
         "created": "2026-10-03T08:40:17.000Z",
         "firstSeen": "2026-10-04",
@@ -2258,8 +2419,8 @@
         "source": "showhn",
         "title": "Thoreau BASIC – What if BASIC hadn't gone out of fashion?",
         "url": "https://thoreaubasic.com/",
-        "points": 47,
-        "comments": 16,
+        "points": 67,
+        "comments": 38,
         "discussion": "https://news.ycombinator.com/item?id=49942103",
         "created": "2026-10-03T07:28:54.000Z",
         "firstSeen": "2026-10-04",
@@ -2269,8 +2430,8 @@
         "source": "showhn",
         "title": "Pi pod – Run your pi coding agent in sandboxes on your own server",
         "url": "https://pipod.dev/",
-        "points": 89,
-        "comments": 32,
+        "points": 103,
+        "comments": 39,
         "discussion": "https://news.ycombinator.com/item?id=49937304",
         "created": "2026-10-02T19:10:38.000Z",
         "firstSeen": "2026-10-04",
@@ -2280,7 +2441,7 @@
         "source": "showhn",
         "title": "Our space game has a built-in RISC-V emulator that runs Linux",
         "url": "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/",
-        "points": 75,
+        "points": 81,
         "comments": 28,
         "discussion": "https://news.ycombinator.com/item?id=49931993",
         "created": "2026-10-02T10:40:31.000Z",
@@ -2290,85 +2451,85 @@
     }
   },
   "reading": {
-    "fetchedAt": "2026-10-04T06:33:18.470Z",
+    "fetchedAt": "2026-10-04T12:12:32.915Z",
     "hn": [
       {
-        "title": "Kolibri: A Sovereign Open-Weight Model",
-        "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-        "points": 567,
-        "comments": 311,
-        "discussion": "https://news.ycombinator.com/item?id=49942706"
+        "title": "Tell HN: Bob Cringely has died",
+        "url": "https://news.ycombinator.com/item?id=49949438",
+        "points": 520,
+        "comments": 103,
+        "discussion": "https://news.ycombinator.com/item?id=49949438"
       },
       {
         "title": "We're going to need default hard budget caps on pretty much everything",
         "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-        "points": 351,
-        "comments": 177,
+        "points": 473,
+        "comments": 233,
         "discussion": "https://news.ycombinator.com/item?id=49949235"
-      },
-      {
-        "title": "Tell HN: Bob Cringely has died",
-        "url": "https://news.ycombinator.com/item?id=49949438",
-        "points": 330,
-        "comments": 61,
-        "discussion": "https://news.ycombinator.com/item?id=49949438"
-      },
-      {
-        "title": "Hole Punch: Sling your spaceship around gravitational fields",
-        "url": "https://notoriousbfg.com/hole-punch/",
-        "points": 271,
-        "comments": 62,
-        "discussion": "https://news.ycombinator.com/item?id=49946393"
       },
       {
         "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
         "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
-        "points": 216,
-        "comments": 26,
+        "points": 324,
+        "comments": 53,
         "discussion": "https://news.ycombinator.com/item?id=49946895"
+      },
+      {
+        "title": "Hole Punch: Sling your spaceship around gravitational fields",
+        "url": "https://notoriousbfg.com/hole-punch/",
+        "points": 306,
+        "comments": 69,
+        "discussion": "https://news.ycombinator.com/item?id=49946393"
+      },
+      {
+        "title": "So you think you could be an electrician?",
+        "url": "https://asteriskmag.com/issues/15/so-you-think-you-could-be-an-electrician",
+        "points": 285,
+        "comments": 212,
+        "discussion": "https://news.ycombinator.com/item?id=49910462"
+      },
+      {
+        "title": "I quit OpenAI because its culture is broken",
+        "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+        "points": 267,
+        "comments": 518,
+        "discussion": "https://news.ycombinator.com/item?id=49944227"
+      },
+      {
+        "title": "Treachery in the Rodin Museum 3D scan verdict",
+        "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+        "points": 220,
+        "comments": 102,
+        "discussion": "https://news.ycombinator.com/item?id=49946355"
+      },
+      {
+        "title": "Agents don't need memory, they need documentation",
+        "url": "https://liao.gg/blog/agents-dont-need-memory",
+        "points": 216,
+        "comments": 113,
+        "discussion": "https://news.ycombinator.com/item?id=49945933"
       },
       {
         "title": "Celebrating the 100th birthday of the kidney donated to him as a teenager",
         "url": "https://www.whec.com/top-news/webster-man-celebrating-the-100th-birthday-of-the-kidney-his-mom-donated-to-him-as-a-teenager/",
-        "points": 185,
-        "comments": 42,
+        "points": 205,
+        "comments": 52,
         "discussion": "https://news.ycombinator.com/item?id=49923873"
       },
       {
         "title": "FTL: A new operating system for clouds",
         "url": "https://ftl-os.org/",
-        "points": 166,
-        "comments": 66,
+        "points": 179,
+        "comments": 69,
         "discussion": "https://news.ycombinator.com/item?id=49944912"
-      },
-      {
-        "title": "I quit OpenAI because its culture is broken",
-        "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
-        "points": 157,
-        "comments": 419,
-        "discussion": "https://news.ycombinator.com/item?id=49944227"
-      },
-      {
-        "title": "C++ Insights – See your source code with the eyes of a Compiler",
-        "url": "https://github.com/andreasfertig/cppinsights",
-        "points": 151,
-        "comments": 30,
-        "discussion": "https://news.ycombinator.com/item?id=49928361"
-      },
-      {
-        "title": "Treachery in the Rodin Museum 3D scan verdict",
-        "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
-        "points": 144,
-        "comments": 70,
-        "discussion": "https://news.ycombinator.com/item?id=49946355"
       }
     ],
     "lobsters": [
       {
         "title": "Why don’t more developers \"use the platform\"?",
         "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
-        "points": 24,
-        "comments": 9,
+        "points": 41,
+        "comments": 19,
         "discussion": "https://lobste.rs/s/srduzv/why_don_t_more_developers_use_platform",
         "tags": [
           "web"
@@ -2377,17 +2538,27 @@
       {
         "title": "Rust's derive often implies inline",
         "url": "https://yossarian.net/til/post/rust-s-derive-often-implies-inline/",
-        "points": 13,
-        "comments": 4,
+        "points": 25,
+        "comments": 10,
         "discussion": "https://lobste.rs/s/dldhpw/rust_s_derive_often_implies_inline",
         "tags": [
           "rust"
         ]
       },
       {
+        "title": "Kolibri: A Sovereign Open-Weight Model",
+        "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+        "points": 8,
+        "comments": 3,
+        "discussion": "https://lobste.rs/s/qcgjpu/kolibri_sovereign_open_weight_model",
+        "tags": [
+          "vibecoding"
+        ]
+      },
+      {
         "title": "I got targeted: Trying to get your credentials via a git post-checkout hook",
         "url": "https://frankwiles.com/posts/i-got-targeted/",
-        "points": 111,
+        "points": 121,
         "comments": 37,
         "discussion": "https://lobste.rs/s/cd5gdk/i_got_targeted_trying_get_your",
         "tags": [
@@ -2396,10 +2567,30 @@
         ]
       },
       {
+        "title": "We’re going to need default hard budget caps on pretty much everything",
+        "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+        "points": 9,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/xkwswd/we_re_going_need_default_hard_budget_caps",
+        "tags": [
+          "practices"
+        ]
+      },
+      {
+        "title": "System-level ad-blocking in Android",
+        "url": "https://kevinboone.me/adblock.html",
+        "points": 17,
+        "comments": 11,
+        "discussion": "https://lobste.rs/s/hk0ohb/system_level_ad_blocking_android",
+        "tags": [
+          "android"
+        ]
+      },
+      {
         "title": "The Era of Software Quality, or the Era of Ostriches?",
         "url": "https://blogs.gnome.org/mcatanzaro/2026/10/02/the-era-of-software-quality-or-the-era-of-ostriches/",
-        "points": 29,
-        "comments": 44,
+        "points": 33,
+        "comments": 52,
         "discussion": "https://lobste.rs/s/elziso/era_software_quality_era_ostriches",
         "tags": [
           "practices",
@@ -2407,50 +2598,20 @@
         ]
       },
       {
-        "title": "System-level ad-blocking in Android",
-        "url": "https://kevinboone.me/adblock.html",
-        "points": 10,
-        "comments": 7,
-        "discussion": "https://lobste.rs/s/hk0ohb/system_level_ad_blocking_android",
+        "title": "grubby: static site generator for git repos written in Ruby",
+        "url": "https://git.btxx.org/grubby",
+        "points": 2,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/xpyahx/grubby_static_site_generator_for_git",
         "tags": [
-          "android"
-        ]
-      },
-      {
-        "title": "How to Hack Time, With C2PA",
-        "url": "https://www.da.vidbuchanan.co.uk/blog/hacking-time.html",
-        "points": 18,
-        "comments": 2,
-        "discussion": "https://lobste.rs/s/u8uvlr/how_hack_time_with_c2pa",
-        "tags": [
-          "cryptography",
-          "security"
-        ]
-      },
-      {
-        "title": "Zig 0.17.0 Release Notes",
-        "url": "https://ziglang.org/download/0.17.0/release-notes.html",
-        "points": 123,
-        "comments": 13,
-        "discussion": "https://lobste.rs/s/wcmfft/zig_0_17_0_release_notes",
-        "tags": [
-          "zig"
-        ]
-      },
-      {
-        "title": "Two-Stack Sliding-Window Aggregation",
-        "url": "https://orlp.net/blog/two-stack-sliding-window-aggregation/",
-        "points": 19,
-        "comments": 3,
-        "discussion": "https://lobste.rs/s/49glor/two_stack_sliding_window_aggregation",
-        "tags": [
-          "compsci"
+          "ruby",
+          "vcs"
         ]
       },
       {
         "title": "An Update on Orion for Linux and Windows",
         "url": "https://blog.kagi.com/update-orion-linux-windows",
-        "points": 13,
+        "points": 19,
         "comments": 4,
         "discussion": "https://lobste.rs/s/xruas8/update_on_orion_for_linux_windows",
         "tags": [
@@ -2462,7 +2623,7 @@
       {
         "title": "Rust, In Sickness & In Health",
         "url": "https://www.youtube.com/watch?v=3kbPyuAtk7g",
-        "points": 11,
+        "points": 17,
         "comments": 0,
         "discussion": "https://lobste.rs/s/hfq43j/rust_sickness_health",
         "tags": [
@@ -2475,8 +2636,8 @@
       {
         "title": "EmbedCatalog is participating in Hacktoberfest 2026",
         "url": "https://dev.to/anthonymax/embedcatalog-is-participating-in-hacktoberfest-2026-7f4",
-        "points": 68,
-        "comments": 4,
+        "points": 129,
+        "comments": 5,
         "discussion": "https://dev.to/anthonymax/embedcatalog-is-participating-in-hacktoberfest-2026-7f4",
         "tags": [
           "webdev",
@@ -2485,22 +2646,22 @@
         ]
       },
       {
-        "title": "I Made 866 Commits in 5 Weeks. My Understanding Didn't Keep Up.",
-        "url": "https://dev.to/mikachu/i-made-866-commits-in-5-weeks-my-understanding-didnt-keep-up-cmo",
-        "points": 38,
-        "comments": 9,
-        "discussion": "https://dev.to/mikachu/i-made-866-commits-in-5-weeks-my-understanding-didnt-keep-up-cmo",
+        "title": "Turn Your GitHub Contribution Graph Into an ASCII City",
+        "url": "https://dev.to/sizzlebop/turn-your-github-contribution-graph-into-an-ascii-city-ic5",
+        "points": 37,
+        "comments": 5,
+        "discussion": "https://dev.to/sizzlebop/turn-your-github-contribution-graph-into-an-ascii-city-ic5",
         "tags": [
-          "ai",
-          "productivity",
-          "programming"
+          "github",
+          "opensource",
+          "go"
         ]
       },
       {
         "title": "Never Stranded Again: How I Built an Edge AI Bus Guardian for My Friend Tejas Using TabPFN & SerpApi",
         "url": "https://dev.to/kakeroth/never-stranded-again-how-i-built-an-edge-ai-bus-guardian-for-my-friend-tejas-using-tabpfn-serpapi-57i3",
         "points": 35,
-        "comments": 3,
+        "comments": 4,
         "discussion": "https://dev.to/kakeroth/never-stranded-again-how-i-built-an-edge-ai-bus-guardian-for-my-friend-tejas-using-tabpfn-serpapi-57i3",
         "tags": [
           "devchallenge",
@@ -2511,7 +2672,7 @@
       {
         "title": "I Made Spider-Man Swing Without Animating a Single Frame",
         "url": "https://dev.to/lovestaco/i-made-spider-man-swing-without-animating-a-single-frame-blender-rigging-and-mcp-14f7",
-        "points": 26,
+        "points": 32,
         "comments": 2,
         "discussion": "https://dev.to/lovestaco/i-made-spider-man-swing-without-animating-a-single-frame-blender-rigging-and-mcp-14f7",
         "tags": [
@@ -2521,33 +2682,33 @@
         ]
       },
       {
-        "title": "Turn Your GitHub Contribution Graph Into an ASCII City",
-        "url": "https://dev.to/sizzlebop/turn-your-github-contribution-graph-into-an-ascii-city-ic5",
-        "points": 25,
-        "comments": 5,
-        "discussion": "https://dev.to/sizzlebop/turn-your-github-contribution-graph-into-an-ascii-city-ic5",
+        "title": "I built my husband a vim trainer with a Gemma coach that runs in the browser",
+        "url": "https://dev.to/sizzlebop/i-built-my-husband-a-vim-trainer-with-a-gemma-coach-that-runs-in-the-browser-5fmh",
+        "points": 28,
+        "comments": 4,
+        "discussion": "https://dev.to/sizzlebop/i-built-my-husband-a-vim-trainer-with-a-gemma-coach-that-runs-in-the-browser-5fmh",
         "tags": [
-          "github",
-          "opensource",
-          "go"
+          "devchallenge",
+          "weekendchallenge",
+          "hf26challenge"
         ]
       },
       {
-        "title": "Everyone Told You to Grind DSA. They Left Out Two Things.",
-        "url": "https://dev.to/james_anderson_h/the-developer-triangle-dsa-ai-and-the-skill-that-actually-gets-you-hired-as-a-beginner-2g5m",
-        "points": 23,
-        "comments": 0,
-        "discussion": "https://dev.to/james_anderson_h/the-developer-triangle-dsa-ai-and-the-skill-that-actually-gets-you-hired-as-a-beginner-2g5m",
+        "title": "SafePlate: Building an AI Allergy & Histamine Recipe Agent (with Sentry Agent Tracing)",
+        "url": "https://dev.to/amanmaurya92/safeplate-building-an-ai-allergy-histamine-recipe-agent-with-sentry-agent-tracing-5a8i",
+        "points": 27,
+        "comments": 2,
+        "discussion": "https://dev.to/amanmaurya92/safeplate-building-an-ai-allergy-histamine-recipe-agent-with-sentry-agent-tracing-5a8i",
         "tags": [
-          "beginners",
-          "career",
-          "ai"
+          "hf26challenge",
+          "sentry",
+          "opensource"
         ]
       },
       {
         "title": "I contribute to OpenTelemetry and still shipped two retired attribute names, so I built Attrition",
         "url": "https://dev.to/apples_one_cd174284bffb/i-contribute-to-opentelemetry-and-still-shipped-two-retired-attribute-names-so-i-built-attrition-129i",
-        "points": 20,
+        "points": 21,
         "comments": 2,
         "discussion": "https://dev.to/apples_one_cd174284bffb/i-contribute-to-opentelemetry-and-still-shipped-two-retired-attribute-names-so-i-built-attrition-129i",
         "tags": [
@@ -2557,27 +2718,27 @@
         ]
       },
       {
-        "title": "I built a Tool for helping my friend next interview",
-        "url": "https://dev.to/aarishmansur/i-built-a-tool-for-helping-my-friend-next-interview-2c09",
-        "points": 15,
-        "comments": 4,
-        "discussion": "https://dev.to/aarishmansur/i-built-a-tool-for-helping-my-friend-next-interview-2c09",
+        "title": "Building a landslide rain check for a friend in Pokhara",
+        "url": "https://dev.to/siddhartha_bhattarai_a084/building-a-landslide-rain-check-for-a-friend-in-pokhara-2kfg",
+        "points": 18,
+        "comments": 0,
+        "discussion": "https://dev.to/siddhartha_bhattarai_a084/building-a-landslide-rain-check-for-a-friend-in-pokhara-2kfg",
         "tags": [
-          "devchallenge",
-          "weekendchallenge",
-          "hf26challenge"
+          "hf26challenge",
+          "opensource",
+          "devtoforhumanity"
         ]
       },
       {
-        "title": "I Was Overwhelmed, So I Turned My GitHub Profile Into a Roguelike Dungeon",
-        "url": "https://dev.to/g00ds0ul/i-was-overwhelmed-so-i-turned-my-github-profile-into-a-roguelike-dungeon-17a8",
+        "title": "I built the same app twice — by hand, then with AI. I trust the fast one less.",
+        "url": "https://dev.to/infoinlet1/i-built-the-same-app-twice-by-hand-then-with-ai-i-trust-the-fast-one-less-5gbn",
         "points": 14,
-        "comments": 6,
-        "discussion": "https://dev.to/g00ds0ul/i-was-overwhelmed-so-i-turned-my-github-profile-into-a-roguelike-dungeon-17a8",
+        "comments": 0,
+        "discussion": "https://dev.to/infoinlet1/i-built-the-same-app-twice-by-hand-then-with-ai-i-trust-the-fast-one-less-5gbn",
         "tags": [
-          "csharp",
-          "gamedev",
-          "github"
+          "ai",
+          "webdev",
+          "csharp"
         ]
       },
       {
@@ -2595,7 +2756,7 @@
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-10-04T06:33:18.470Z",
+    "fetchedAt": "2026-10-04T12:12:32.915Z",
     "candidates": {
       "https://discord.com/blog/discord-update-september-25-2026": {
         "source": "Discord",
@@ -2920,14 +3081,6 @@
         "url": "https://github.com/dtonon/squalk",
         "discussion": "https://lobste.rs/s/haq46t/squalk_old_school_forum_engine_built_on",
         "published": "2026-09-21T14:44:12.725Z",
-        "summary": ""
-      },
-      "https://www.notion.com/blog/how-notion-handles-concurrent-editing-with-crdts": {
-        "source": "Lobsters",
-        "title": "How Notion handles concurrent editing with CRDTs",
-        "url": "https://www.notion.com/blog/how-notion-handles-concurrent-editing-with-crdts",
-        "discussion": "https://lobste.rs/s/ppfyza/how_notion_handles_concurrent_editing",
-        "published": "2026-09-20T12:06:29.397Z",
         "summary": ""
       },
       "https://www.figma.com/blog/london-office-expansion": {
@@ -3347,6 +3500,14 @@
         "url": "https://verdagon.dev/blog/boundary-memory-safety",
         "discussion": "https://lobste.rs/s/ajtnc6/second_golden_spike_memory_safety_across",
         "published": "2026-10-01T14:12:03.343Z",
+        "summary": ""
+      },
+      "https://kobzol.github.io/rust/2026/09/30/stf-august-september-2026.html": {
+        "source": "Lobsters",
+        "title": "Upstream Rust maintenance report",
+        "url": "https://kobzol.github.io/rust/2026/09/30/stf-august-september-2026.html",
+        "discussion": "https://lobste.rs/s/cdkmaf/upstream_rust_maintenance_report",
+        "published": "2026-10-03T01:27:47.619Z",
         "summary": ""
       }
     }
