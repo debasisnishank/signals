@@ -119,9 +119,29 @@
     "https://news.ycombinator.com/item?id=49916997": {
       "why": "Parser generator that builds the whole AST before walking it, so grammars avoid Yacc-style mid-rule action hacks; lexer, parser and walker come from one dependency-free tool.",
       "pickedOn": "2026-10-03"
+    },
+    "StayLameBro/backburner": {
+      "why": "Splits a 27B model across a Mac and a plugged-in iPhone over USB-C for faster prefill and larger context, with token-identical output; measured, not just an idea.",
+      "pickedOn": "2026-10-04"
+    },
+    "youcci/playport": {
+      "why": "Runs the car side of CarPlay on a Mac and streams it to any browser, replacing the usual dongle or Android head unit with a JVM server and WebCodecs client.",
+      "pickedOn": "2026-10-04"
+    },
+    "Remocn/remocn-studio": {
+      "why": "Instead of generating pixels, the agent writes an editable Remotion project in code, so you can retouch the result rather than re-generating the whole video.",
+      "pickedOn": "2026-10-04"
+    },
+    "QingYunA/answer-me-with-html": {
+      "why": "Ships a CLI that turns a short Markdown draft into a styled page, cutting output tokens about 7x versus asking the model to write HTML directly.",
+      "pickedOn": "2026-10-04"
+    },
+    "https://news.ycombinator.com/item?id=49931031": {
+      "why": "Lightweight JUCE-based editor for cutting and multitrack work rather than a full DAW, and it exposes sessions over MCP so an agent's edits land as single undo steps.",
+      "pickedOn": "2026-10-04"
     }
   },
-  "updatedAt": "2026-10-03T06:33:01.137Z",
+  "updatedAt": "2026-10-04T06:32:48.874Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -397,6 +417,43 @@
       "topic": "distributed",
       "why": "Why running task queues inside FoundationDB put read load on user requests, and how moving async work to Kafka cut that load and custom code.",
       "pickedOn": "2026-10-03"
+    },
+    "https://blog.cloudflare.com/streamline": {
+      "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
+      "url": "https://blog.cloudflare.com/streamline/",
+      "source": "Cloudflare",
+      "published": "2026-10-02T16:13:45.000Z",
+      "topic": "architecture",
+      "why": "A video pipeline built from long-lived containers, Durable Objects orchestration, and Workers control signaling, showing how to design media processing decoupled from request lifecycles.",
+      "pickedOn": "2026-10-04"
+    },
+    "https://blog.cloudflare.com/network-performance-birthday-week-2026": {
+      "title": "2026 Birthday week: network performance update",
+      "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
+      "source": "Cloudflare",
+      "published": "2026-10-02T13:00:00.000Z",
+      "topic": "performance",
+      "why": "How Cloudflare measures latency against the 1,000 largest networks, a new Challenge Pages methodology, and where network improvements moved real connection times.",
+      "pickedOn": "2026-10-04"
+    },
+    "https://aws.amazon.com/blogs/architecture/architect-highly-available-oracle-database-on-amazon-evs-and-fsx-for-ontap": {
+      "title": "Architect highly available Oracle Database on Amazon EVS and FSx for ONTAP",
+      "url": "https://aws.amazon.com/blogs/architecture/architect-highly-available-oracle-database-on-amazon-evs-and-fsx-for-ontap/",
+      "source": "AWS Architecture",
+      "published": "2026-10-02T17:57:01.000Z",
+      "topic": "architecture",
+      "why": "Design trade-offs for running Oracle on VMware-in-AWS: bare metal sizing, separate vSAN and NFS storage tiers, and SnapMirror cross-region DR planning.",
+      "pickedOn": "2026-10-04"
+    },
+    "https://verdagon.dev/blog/boundary-memory-safety": {
+      "title": "The Second Golden Spike: Memory Safety Across the Valen/Rust Boundary",
+      "url": "https://verdagon.dev/blog/boundary-memory-safety",
+      "source": "Lobsters",
+      "published": "2026-10-01T14:12:03.343Z",
+      "discussion": "https://lobste.rs/s/ajtnc6/second_golden_spike_memory_safety_across",
+      "topic": "architecture",
+      "why": "Explains how the Valen language upholds memory safety and borrow checking across a direct Rust boundary, and the design trade-offs of merging two safety models.",
+      "pickedOn": "2026-10-04"
     }
   },
   "deepdiveSkips": {
@@ -479,6 +536,17 @@
     "https://stripe.com/blog/where-pricing-is-headed": "2026-10-03",
     "https://shopify.engineering/shopgym": "2026-10-03",
     "https://www.figma.com/blog/workflow-lab-from-design-system-to-campaign-in-figma-weave": "2026-10-03",
-    "https://aws.amazon.com/blogs/architecture/accelerating-airline-retailing-innovation-how-datalex-modernized-with-aws-experience-based-acceleration-and-agentic-ai": "2026-10-03"
+    "https://aws.amazon.com/blogs/architecture/accelerating-airline-retailing-innovation-how-datalex-modernized-with-aws-experience-based-acceleration-and-agentic-ai": "2026-10-03",
+    "https://blog.cloudflare.com/introducing-web-search-api": "2026-10-04",
+    "https://blog.cloudflare.com/one-observability-platform": "2026-10-04",
+    "https://blog.cloudflare.com/cloudflare-tracing": "2026-10-04",
+    "https://blog.cloudflare.com/enterprise-for-all-update": "2026-10-04",
+    "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway": "2026-10-04",
+    "https://blog.cloudflare.com/account-abuse-protection-dashboard": "2026-10-04",
+    "https://blog.cloudflare.com/protected-quick-tunnels": "2026-10-04",
+    "https://blog.cloudflare.com/civil-society-automation": "2026-10-04",
+    "https://aws.amazon.com/blogs/architecture/deploy-oracle-database-step-by-step-on-amazon-evs-with-fsx-for-ontap": "2026-10-04",
+    "https://aws.amazon.com/blogs/architecture/deploy-open-source-regional-availability-tools-in-your-vpc": "2026-10-04",
+    "https://onlineonly.christies.com/s/fine-printed-books-manuscripts-science/carrier-pigeon-internet-protocol-150/325216": "2026-10-04"
   }
 }
