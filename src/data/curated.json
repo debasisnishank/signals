@@ -139,9 +139,29 @@
     "https://news.ycombinator.com/item?id=49931031": {
       "why": "Lightweight JUCE-based editor for cutting and multitrack work rather than a full DAW, and it exposes sessions over MCP so an agent's edits land as single undo steps.",
       "pickedOn": "2026-10-04"
+    },
+    "ythx-101/live-panel-skill": {
+      "why": "One JSON file drives either a terminal-style always-running diagram or a light-theme infographic, exporting H.264 mp4 or a live page, and it doubles as a Claude Code skill.",
+      "pickedOn": "2026-10-06"
+    },
+    "allenv0/SCM": {
+      "why": "Indexes video frames alongside photos and runs fully offline on macOS, so it covers footage as well as stills without uploading anything.",
+      "pickedOn": "2026-10-06"
+    },
+    "noahdunnagan/mcopt": {
+      "why": "Swaps Minecraft Java's OpenGL path for a native Metal renderer on Apple Silicon; explicitly alpha, so expect rough edges and missing features.",
+      "pickedOn": "2026-10-06"
+    },
+    "https://news.ycombinator.com/item?id=49931993": {
+      "why": "A shipped commercial game embeds a RISC-V emulator that boots Linux, making emulation part of gameplay rather than a standalone demo.",
+      "pickedOn": "2026-10-06"
+    },
+    "https://news.ycombinator.com/item?id=49957116": {
+      "why": "A script that reclaims the disk space Apple Intelligence reserves on macOS 27 instead of only toggling the feature off.",
+      "pickedOn": "2026-10-06"
     }
   },
-  "updatedAt": "2026-10-04T06:32:48.874Z",
+  "updatedAt": "2026-10-06T06:33:57.339Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -454,6 +474,26 @@
       "topic": "architecture",
       "why": "Explains how the Valen language upholds memory safety and borrow checking across a direct Rust boundary, and the design trade-offs of merging two safety models.",
       "pickedOn": "2026-10-04"
+    },
+    "https://kobzol.github.io/rust/2026/09/30/stf-august-september-2026.html": {
+      "title": "Upstream Rust maintenance report",
+      "url": "https://kobzol.github.io/rust/2026/09/30/stf-august-september-2026.html",
+      "source": "Lobsters",
+      "published": "2026-10-03T01:27:47.619Z",
+      "discussion": "https://lobste.rs/s/cdkmaf/upstream_rust_maintenance_report",
+      "topic": "performance",
+      "why": "A maintainer's account of real Rust toolchain performance work: shrinking the target directory 5-35%, speeding up the parser and Polonius, and measuring compiler performance on ARM.",
+      "pickedOn": "2026-10-06"
+    },
+    "https://www.iroh.computer/blog/iroh-global-content-discovery": {
+      "title": "Iroh global content discovery",
+      "url": "https://www.iroh.computer/blog/iroh-global-content-discovery",
+      "source": "Lobsters",
+      "published": "2026-10-04T19:19:42.619Z",
+      "discussion": "https://lobste.rs/s/eoibah/iroh_global_content_discovery",
+      "topic": "distributed",
+      "why": "Dissects BitTorrent's Mainline DHT and transfer protocol to design permissionless global content discovery, covering DHT design and the trade-offs involved.",
+      "pickedOn": "2026-10-06"
     }
   },
   "deepdiveSkips": {
@@ -547,6 +587,10 @@
     "https://blog.cloudflare.com/civil-society-automation": "2026-10-04",
     "https://aws.amazon.com/blogs/architecture/deploy-oracle-database-step-by-step-on-amazon-evs-with-fsx-for-ontap": "2026-10-04",
     "https://aws.amazon.com/blogs/architecture/deploy-open-source-regional-availability-tools-in-your-vpc": "2026-10-04",
-    "https://onlineonly.christies.com/s/fine-printed-books-manuscripts-science/carrier-pigeon-internet-protocol-150/325216": "2026-10-04"
+    "https://onlineonly.christies.com/s/fine-printed-books-manuscripts-science/carrier-pigeon-internet-protocol-150/325216": "2026-10-04",
+    "https://blog.cloudflare.com/birthday-week-2026-wrap-up": "2026-10-06",
+    "https://blog.cloudflare.com/one-year-later-1111-interns": "2026-10-06",
+    "http://brooker.co.za/blog/2026/10/04/encoders.html": "2026-10-06",
+    "https://vincent.bernat.ch/en/blog/2026-http-over-ssh": "2026-10-06"
   }
 }
