@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-10-06T13:12:02.737Z",
+    "fetchedAt": "2026-10-07T06:33:10.901Z",
     "repos": [
       {
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 31109,
+        "stars": 31264,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -17,47 +17,43 @@
         ]
       },
       {
-        "name": "browser-use/jev-ultrafast",
-        "description": "Fastest and cheapest web agent",
-        "language": "Python",
-        "stars": 22164,
-        "url": "https://github.com/browser-use/jev-ultrafast",
-        "created": "2026-09-16T21:30:12Z",
-        "topics": [],
-        "hn": {
-          "points": 93,
-          "comments": 14,
-          "url": "https://news.ycombinator.com/item?id=49735979"
-        }
-      },
-      {
         "name": "Niko1221/Strata",
         "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
         "language": "C++",
-        "stars": 15002,
+        "stars": 16105,
         "url": "https://github.com/Niko1221/Strata",
         "created": "2026-09-24T16:40:20Z",
         "topics": [],
         "hn": {
-          "points": 918,
-          "comments": 416,
+          "points": 922,
+          "comments": 421,
           "url": "https://news.ycombinator.com/item?id=49953495"
         }
       },
       {
-        "name": "robbietilton/Compositor",
-        "description": "The Photoshop alternative for Mac",
-        "language": "Swift",
-        "stars": 8674,
-        "url": "https://github.com/robbietilton/Compositor",
-        "created": "2026-09-16T20:35:54Z",
-        "topics": []
+        "name": "storytold/photocraft",
+        "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
+        "language": "Rust",
+        "stars": 9679,
+        "url": "https://github.com/storytold/photocraft",
+        "created": "2026-09-30T13:37:48Z",
+        "topics": [
+          "adobe",
+          "adobe-photoshop-2026",
+          "adobe-photoshop-2026-ai",
+          "art"
+        ],
+        "hn": {
+          "points": 109,
+          "comments": 66,
+          "url": "https://news.ycombinator.com/item?id=49981449"
+        }
       },
       {
         "name": "jaredpalmer/kev",
         "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 8559,
+        "stars": 8620,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -67,7 +63,7 @@
         ],
         "hn": {
           "points": 463,
-          "comments": 211,
+          "comments": 210,
           "url": "https://news.ycombinator.com/item?id=49783999"
         }
       },
@@ -75,7 +71,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 7461,
+        "stars": 7486,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": []
@@ -84,16 +80,30 @@
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 7435,
+        "stars": 7453,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": []
       },
       {
+        "name": "jev-chat/jev-chat-jarvis",
+        "description": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
+        "language": "Kotlin",
+        "stars": 7411,
+        "url": "https://github.com/jev-chat/jev-chat-jarvis",
+        "created": "2026-09-21T11:12:53Z",
+        "topics": [
+          "accessibility-service",
+          "ai-assistant",
+          "android",
+          "chat-assistant"
+        ]
+      },
+      {
         "name": "mizorewww/laya-mlx",
         "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
         "language": "Python",
-        "stars": 6790,
+        "stars": 6798,
         "url": "https://github.com/mizorewww/laya-mlx",
         "created": "2026-09-19T13:50:26Z",
         "topics": [
@@ -107,186 +117,167 @@
         "name": "elstongun/leviathan",
         "description": "**Deep memory for agents over large datasets.**   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
         "language": "Rust",
-        "stars": 545,
+        "stars": 648,
         "url": "https://github.com/elstongun/leviathan",
         "created": "2026-10-05T08:57:44Z",
         "topics": []
       },
       {
-        "name": "AgentMemoryRepo/agentmemoryrepo",
-        "description": "Spec for Agent Memory Repo",
-        "language": null,
-        "stars": 455,
-        "url": "https://github.com/AgentMemoryRepo/agentmemoryrepo",
-        "created": "2026-10-04T22:10:48Z",
+        "name": "rit3zh/morphlet",
+        "description": "A native, morphing floating tray for React Native.",
+        "language": "TypeScript",
+        "stars": 223,
+        "url": "https://github.com/rit3zh/morphlet",
+        "created": "2026-10-05T12:21:15Z",
         "topics": []
       },
       {
-        "name": "gangmoonrotation/Discord-Quest-Completer",
-        "description": "Discord Quest Completer optimizes your gaming experience by providing a comprehensive solution to auto-completing quests in popular games directly through...",
-        "language": null,
-        "stars": 392,
-        "url": "https://github.com/gangmoonrotation/Discord-Quest-Completer",
-        "created": "2026-10-05T10:20:56Z",
+        "name": "Henryfud/werm",
+        "description": "A 302 neuron network on the real C. elegans wiring diagram, with a steering layer for local language models.",
+        "language": "HTML",
+        "stars": 197,
+        "url": "https://github.com/Henryfud/werm",
+        "created": "2026-10-06T00:49:18Z",
         "topics": [
-          "discord-automation",
-          "discord-orbs",
-          "discord-quest",
-          "discord-quest-completer-2026"
+          "c-elegans",
+          "computational-neuroscience",
+          "connectome",
+          "genome"
         ]
       },
       {
-        "name": "HectoTeacher56/Adobe-Substance-3d",
-        "description": "Adobe Substance 3D optimizes professional desktop software utility configurations by providing a seamless and advanced platform that unlocks powerful...",
-        "language": null,
-        "stars": 392,
-        "url": "https://github.com/HectoTeacher56/Adobe-Substance-3d",
-        "created": "2026-10-05T10:14:25Z",
+        "name": "GTKottman/mortiflix-oss",
+        "description": "A motion design studio on your own machine: Claude makes the video step by step, you approve every stage. Bring your own Claude Code or API key.",
+        "language": "JavaScript",
+        "stars": 187,
+        "url": "https://github.com/GTKottman/mortiflix-oss",
+        "created": "2026-10-05T15:15:13Z",
         "topics": [
-          "substance",
-          "substance-3d",
-          "substance-3d-painter",
-          "substance-abuse"
+          "ai-agents",
+          "claude",
+          "claude-code",
+          "harness"
         ]
       },
       {
-        "name": "SwimmerShield/Better-Discord",
-        "description": "Enhances efficiency in managing complex desktop software configurations with a dedicated and highly-functional tool that bypasses redundant steps.",
-        "language": null,
-        "stars": 392,
-        "url": "https://github.com/SwimmerShield/Better-Discord",
-        "created": "2026-10-05T10:17:22Z",
+        "name": "yoge7388095s/eth-trading-bot",
+        "description": "Automated trading bot for Ethereum with gas preview, router support and terminal menu.",
+        "language": "JavaScript",
+        "stars": 156,
+        "url": "https://github.com/yoge7388095s/eth-trading-bot",
+        "created": "2026-10-05T21:43:03Z",
         "topics": [
-          "bd-theme",
-          "better-discord-plugins",
-          "betterdiscord-addon",
-          "betterdiscord-plugin"
+          "arbitrage",
+          "ethereum",
+          "nodejs",
+          "solidity"
         ]
       },
       {
-        "name": "VarnishTrackPrize/ultra-Iso",
-        "description": "Ultra Iso optimizes professional desktop software utility configurations by providing a meticulously curated set of settings tailored to enhance...",
-        "language": null,
-        "stars": 392,
-        "url": "https://github.com/VarnishTrackPrize/ultra-Iso",
-        "created": "2026-10-05T10:31:38Z",
+        "name": "Hiteater-wzm/eeo",
+        "description": "An open community where brands define themselves for AI",
+        "language": "JavaScript",
+        "stars": 153,
+        "url": "https://github.com/Hiteater-wzm/eeo",
+        "created": "2026-10-05T12:24:03Z",
+        "topics": []
+      },
+      {
+        "name": "h100envy/gem-search",
+        "description": "Rainbow spider that X-rays memecoins: bundles, linked wallets, dev history. Scanner, Telegram bot, live Bundle Index.",
+        "language": "Python",
+        "stars": 150,
+        "url": "https://github.com/h100envy/gem-search",
+        "created": "2026-10-05T13:12:12Z",
         "topics": [
-          "activation-tools",
-          "iso-editor",
-          "iso-image",
-          "ultraiso-2026"
+          "memecoin",
+          "open-source",
+          "pumpfun",
+          "scanner"
         ]
       },
       {
-        "name": "Noblebroplain/Ads-Blocker",
-        "description": "Ads Blocker is a professional desktop utility that optimizes browsing experience by effectively blocking all intrusive ads, ensuring an uninterrupted and...",
-        "language": null,
-        "stars": 392,
-        "url": "https://github.com/Noblebroplain/Ads-Blocker",
-        "created": "2026-10-05T10:15:28Z",
-        "topics": [
-          "adblock-lists",
-          "adblocker-ultimate-list",
-          "adblockplus",
-          "adguard-list"
-        ]
+        "name": "Autumn1337/better-statusline",
+        "description": "A status line for Claude Code: the session's figures as dot-matrix rings, and the music you are playing beside them",
+        "language": "TypeScript",
+        "stars": 143,
+        "url": "https://github.com/Autumn1337/better-statusline",
+        "created": "2026-10-05T08:44:27Z",
+        "topics": []
       },
       {
-        "name": "KazekagePyre/Adobe-Audition",
-        "description": "Adobe Audition optimizes audio production workflows with its robust suite of editing tools and seamless integration capabilities, providing a powerful...",
-        "language": null,
-        "stars": 392,
-        "url": "https://github.com/KazekagePyre/Adobe-Audition",
-        "created": "2026-10-05T10:14:11Z",
-        "topics": [
-          "acrobat",
-          "acrobat-pro-dc",
-          "adobe-audition"
-        ]
+        "name": "kandinskylab/kandinsky-6",
+        "description": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+        "language": "Python",
+        "stars": 134,
+        "url": "https://github.com/kandinskylab/kandinsky-6",
+        "created": "2026-10-05T09:06:41Z",
+        "topics": []
       },
       {
-        "name": "pauseseamandart18/AnyDesk",
-        "description": "Enhance remote access with secure and efficient desktop utility configuration using AnyDesk - a streamlined solution empowering professionals to unlock...",
-        "language": null,
-        "stars": 392,
-        "url": "https://github.com/pauseseamandart18/AnyDesk",
-        "created": "2026-10-05T10:15:29Z",
-        "topics": [
-          "ai-employees",
-          "anydesk-alternative",
-          "anydesk-api",
-          "anydesk-config"
-        ]
-      },
-      {
-        "name": "CrewPotterRectify/Autodesk-Inventor",
-        "description": "Revolutionize your professional design workflows with this desktop utility configuration that optimizes collaboration and enhances data management in...",
-        "language": null,
-        "stars": 392,
-        "url": "https://github.com/CrewPotterRectify/Autodesk-Inventor",
-        "created": "2026-10-05T10:16:51Z",
-        "topics": [
-          "autodesk-inventor-pro",
-          "autodesk-inventor-pro-pc",
-          "inventor",
-          "inventor-automation"
-        ]
+        "name": "VelaPayments/vela-server",
+        "description": "NestJS backend for Vela’s Stellar payment prototype, with payment-request validation, WebAuthn authorization, and transaction services.",
+        "language": "TypeScript",
+        "stars": 131,
+        "url": "https://github.com/VelaPayments/vela-server",
+        "created": "2026-10-05T20:48:09Z",
+        "topics": []
       }
     ],
     "posts": [
       {
         "source": "showhn",
+        "title": "OpenChart – OSS TradingView alternative with your own AI agent",
+        "url": "https://github.com/longsurf-ai/openchart",
+        "points": 40,
+        "comments": 17,
+        "discussion": "https://news.ycombinator.com/item?id=49979793",
+        "created": "2026-10-06T15:16:45.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "I turned my iPhone and a $20 smart plug into an f-stop timer",
+        "url": "https://peterszentkiralyi.eu/darkplug/",
+        "points": 78,
+        "comments": 30,
+        "discussion": "https://news.ycombinator.com/item?id=49978595",
+        "created": "2026-10-06T13:58:07.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "Parseable, an open observability datalake, handles 100M time-series/min",
+        "url": "https://www.parseable.com",
+        "points": 82,
+        "comments": 22,
+        "discussion": "https://news.ycombinator.com/item?id=49978171",
+        "created": "2026-10-06T13:30:50.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "MailAccess – the true Email OSINT framework",
         "url": "https://mailaccess.pro",
-        "points": 34,
+        "points": 67,
         "comments": 0,
         "discussion": "https://news.ycombinator.com/item?id=49977385",
         "created": "2026-10-06T12:24:18.000Z"
       },
       {
         "source": "showhn",
+        "title": "Pumpkins.sh – claim, carve, and display a pumpkin to the world",
+        "url": "https://pumpkins.sh/",
+        "points": 33,
+        "comments": 9,
+        "discussion": "https://news.ycombinator.com/item?id=49965227",
+        "created": "2026-10-05T14:18:09.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "Minigraf – An embedded, bi-temporal graph database in Rust",
         "url": "https://github.com/project-minigraf/minigraf",
-        "points": 35,
-        "comments": 28,
+        "points": 40,
+        "comments": 31,
         "discussion": "https://news.ycombinator.com/item?id=49963394",
         "created": "2026-10-05T11:18:18.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Build with Python – a beginner course where your code draws",
-        "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
-        "points": 47,
-        "comments": 18,
-        "discussion": "https://news.ycombinator.com/item?id=49956771",
-        "created": "2026-10-04T18:59:25.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Nightwatch – a Mac menu-bar app that tells you when tonight is clear",
-        "url": "https://github.com/rsutcliffe/nightwatch",
-        "points": 81,
-        "comments": 26,
-        "discussion": "https://news.ycombinator.com/item?id=49952148",
-        "created": "2026-10-04T09:31:01.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "AI search for every photo and every frame of video on macOS",
-        "url": "https://github.com/allenv0/SCM",
-        "points": 168,
-        "comments": 73,
-        "discussion": "https://news.ycombinator.com/item?id=49952111",
-        "created": "2026-10-04T09:24:52.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Photoc – Command-line tools for photographers",
-        "url": "https://github.com/ahmetomerv/photoc",
-        "points": 51,
-        "comments": 6,
-        "discussion": "https://news.ycombinator.com/item?id=49944196",
-        "created": "2026-10-03T13:42:23.000Z"
       },
       {
         "source": "launchhn",
@@ -325,6 +316,51 @@
         "created": "2026-09-17T16:22:15.000Z"
       },
       {
+        "source": "hn",
+        "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+        "url": "https://github.com/FeSens/openTPU",
+        "points": 272,
+        "comments": 327,
+        "discussion": "https://news.ycombinator.com/item?id=49980715",
+        "created": "2026-10-06T16:23:25.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
+        "url": "https://github.com/boykopovar/AnyPS5",
+        "points": 198,
+        "comments": 152,
+        "discussion": "https://news.ycombinator.com/item?id=49985664",
+        "created": "2026-10-06T23:28:08.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+        "url": "https://penguin-mail.com/",
+        "points": 146,
+        "comments": 72,
+        "discussion": "https://news.ycombinator.com/item?id=49984716",
+        "created": "2026-10-06T21:59:43.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "Strands Decider 2B: a small, open-source, decision model",
+        "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+        "points": 115,
+        "comments": 25,
+        "discussion": "https://news.ycombinator.com/item?id=49987076",
+        "created": "2026-10-07T02:02:11.000Z"
+      },
+      {
+        "source": "lobsters",
+        "title": "Brut, the Brutal Router for Unix Tools",
+        "url": "https://brut.sh",
+        "points": 23,
+        "comments": 12,
+        "discussion": "https://lobste.rs/s/dwbksa/brut_brutal_router_for_unix_tools",
+        "created": "2026-10-06T17:17:23.875Z"
+      },
+      {
         "source": "lobsters",
         "title": "Squalk: an old-school forum engine built on Nostr (NIP-29 groups, NIP-7D threads)",
         "url": "https://github.com/dtonon/squalk",
@@ -335,30 +371,21 @@
       },
       {
         "source": "lobsters",
+        "title": "Pared - remove unwanted Apple Intelligence models without disabling SIP",
+        "url": "https://github.com/4evy/pared",
+        "points": 12,
+        "comments": 2,
+        "discussion": "https://lobste.rs/s/tcmpcw/pared_remove_unwanted_apple",
+        "created": "2026-10-06T18:27:16.404Z"
+      },
+      {
+        "source": "lobsters",
         "title": "Jev-powered autocorrection",
         "url": "https://levmiseri.com/nospace",
         "points": 12,
         "comments": 21,
         "discussion": "https://lobste.rs/s/ayyuqc/jev_powered_autocorrection",
         "created": "2026-09-22T18:55:00.112Z"
-      },
-      {
-        "source": "lobsters",
-        "title": "outis: Fight AI spam by generating and sending a fake \"user unknown\" bounce emails",
-        "url": "https://github.com/dtonon/outis",
-        "points": 11,
-        "comments": 9,
-        "discussion": "https://lobste.rs/s/1h7qzj/outis_fight_ai_spam_by_generating_sending",
-        "created": "2026-10-01T15:54:02.796Z"
-      },
-      {
-        "source": "lobsters",
-        "title": "ASM Bots: Core War in real 8086 machine code",
-        "url": "https://asmbots.io",
-        "points": 10,
-        "comments": 1,
-        "discussion": "https://lobste.rs/s/yj721w/asm_bots_core_war_real_8086_machine_code",
-        "created": "2026-10-01T01:59:24.607Z"
       }
     ]
   },
@@ -402,12 +429,12 @@
         "name": "tamaratran/fast-jev-compaction",
         "description": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim.",
         "language": "TypeScript",
-        "stars": 7435,
+        "stars": 7453,
         "url": "https://github.com/tamaratran/fast-jev-compaction",
         "created": "2026-09-17T05:57:20Z",
         "topics": [],
         "firstSeen": "2026-09-19",
-        "lastSeen": "2026-10-06",
+        "lastSeen": "2026-10-07",
         "starsAtFirstSeen": 3625
       },
       "Human-Agent-Society/reef": {
@@ -491,19 +518,19 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 7461,
+        "stars": 7486,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": [],
         "firstSeen": "2026-09-21",
-        "lastSeen": "2026-10-06",
+        "lastSeen": "2026-10-07",
         "starsAtFirstSeen": 4996
       },
       "mizorewww/laya-mlx": {
         "name": "mizorewww/laya-mlx",
         "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
         "language": "Python",
-        "stars": 6790,
+        "stars": 6798,
         "url": "https://github.com/mizorewww/laya-mlx",
         "created": "2026-09-19T13:50:26Z",
         "topics": [
@@ -513,14 +540,14 @@
           "laya"
         ],
         "firstSeen": "2026-09-22",
-        "lastSeen": "2026-10-06",
+        "lastSeen": "2026-10-07",
         "starsAtFirstSeen": 4808
       },
       "NandhaKishorM/laya": {
         "name": "NandhaKishorM/laya",
         "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
         "language": "Python",
-        "stars": 31109,
+        "stars": 31264,
         "url": "https://github.com/NandhaKishorM/laya",
         "created": "2026-09-18T04:46:33Z",
         "topics": [
@@ -530,14 +557,14 @@
           "huggingface"
         ],
         "firstSeen": "2026-09-23",
-        "lastSeen": "2026-10-06",
+        "lastSeen": "2026-10-07",
         "starsAtFirstSeen": 18815
       },
       "jaredpalmer/kev": {
         "name": "jaredpalmer/kev",
         "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
         "language": "Python",
-        "stars": 8559,
+        "stars": 8620,
         "url": "https://github.com/jaredpalmer/kev",
         "created": "2026-09-17T20:49:39Z",
         "topics": [
@@ -546,11 +573,11 @@
           "qwen3"
         ],
         "firstSeen": "2026-09-23",
-        "lastSeen": "2026-10-06",
+        "lastSeen": "2026-10-07",
         "starsAtFirstSeen": 5157,
         "hn": {
           "points": 463,
-          "comments": 211,
+          "comments": 210,
           "url": "https://news.ycombinator.com/item?id=49783999"
         }
       },
@@ -1162,16 +1189,16 @@
         "name": "Niko1221/Strata",
         "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
         "language": "C++",
-        "stars": 15002,
+        "stars": 16105,
         "url": "https://github.com/Niko1221/Strata",
         "created": "2026-09-24T16:40:20Z",
         "topics": [],
         "firstSeen": "2026-10-03",
-        "lastSeen": "2026-10-06",
+        "lastSeen": "2026-10-07",
         "starsAtFirstSeen": 6903,
         "hn": {
-          "points": 918,
-          "comments": 416,
+          "points": 922,
+          "comments": 421,
           "url": "https://news.ycombinator.com/item?id=49953495"
         }
       },
@@ -1662,12 +1689,12 @@
         "name": "elstongun/leviathan",
         "description": "**Deep memory for agents over large datasets.**   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
         "language": "Rust",
-        "stars": 545,
+        "stars": 648,
         "url": "https://github.com/elstongun/leviathan",
         "created": "2026-10-05T08:57:44Z",
         "topics": [],
         "firstSeen": "2026-10-06",
-        "lastSeen": "2026-10-06",
+        "lastSeen": "2026-10-07",
         "starsAtFirstSeen": 438
       },
       "gangmoonrotation/Discord-Quest-Completer": {
@@ -1850,6 +1877,173 @@
         "firstSeen": "2026-10-06",
         "lastSeen": "2026-10-06",
         "starsAtFirstSeen": 392
+      },
+      "storytold/photocraft": {
+        "name": "storytold/photocraft",
+        "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
+        "language": "Rust",
+        "stars": 9679,
+        "url": "https://github.com/storytold/photocraft",
+        "created": "2026-09-30T13:37:48Z",
+        "topics": [
+          "adobe",
+          "adobe-photoshop-2026",
+          "adobe-photoshop-2026-ai",
+          "art"
+        ],
+        "hn": {
+          "points": 109,
+          "comments": 66,
+          "url": "https://news.ycombinator.com/item?id=49981449"
+        },
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07",
+        "starsAtFirstSeen": 9679
+      },
+      "jev-chat/jev-chat-jarvis": {
+        "name": "jev-chat/jev-chat-jarvis",
+        "description": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
+        "language": "Kotlin",
+        "stars": 7411,
+        "url": "https://github.com/jev-chat/jev-chat-jarvis",
+        "created": "2026-09-21T11:12:53Z",
+        "topics": [
+          "accessibility-service",
+          "ai-assistant",
+          "android",
+          "chat-assistant"
+        ],
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07",
+        "starsAtFirstSeen": 7411
+      },
+      "rit3zh/morphlet": {
+        "name": "rit3zh/morphlet",
+        "description": "A native, morphing floating tray for React Native.",
+        "language": "TypeScript",
+        "stars": 223,
+        "url": "https://github.com/rit3zh/morphlet",
+        "created": "2026-10-05T12:21:15Z",
+        "topics": [],
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07",
+        "starsAtFirstSeen": 223
+      },
+      "Henryfud/werm": {
+        "name": "Henryfud/werm",
+        "description": "A 302 neuron network on the real C. elegans wiring diagram, with a steering layer for local language models.",
+        "language": "HTML",
+        "stars": 197,
+        "url": "https://github.com/Henryfud/werm",
+        "created": "2026-10-06T00:49:18Z",
+        "topics": [
+          "c-elegans",
+          "computational-neuroscience",
+          "connectome",
+          "genome"
+        ],
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07",
+        "starsAtFirstSeen": 197
+      },
+      "GTKottman/mortiflix-oss": {
+        "name": "GTKottman/mortiflix-oss",
+        "description": "A motion design studio on your own machine: Claude makes the video step by step, you approve every stage. Bring your own Claude Code or API key.",
+        "language": "JavaScript",
+        "stars": 187,
+        "url": "https://github.com/GTKottman/mortiflix-oss",
+        "created": "2026-10-05T15:15:13Z",
+        "topics": [
+          "ai-agents",
+          "claude",
+          "claude-code",
+          "harness"
+        ],
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07",
+        "starsAtFirstSeen": 187
+      },
+      "yoge7388095s/eth-trading-bot": {
+        "name": "yoge7388095s/eth-trading-bot",
+        "description": "Automated trading bot for Ethereum with gas preview, router support and terminal menu.",
+        "language": "JavaScript",
+        "stars": 156,
+        "url": "https://github.com/yoge7388095s/eth-trading-bot",
+        "created": "2026-10-05T21:43:03Z",
+        "topics": [
+          "arbitrage",
+          "ethereum",
+          "nodejs",
+          "solidity"
+        ],
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07",
+        "starsAtFirstSeen": 156
+      },
+      "Hiteater-wzm/eeo": {
+        "name": "Hiteater-wzm/eeo",
+        "description": "An open community where brands define themselves for AI",
+        "language": "JavaScript",
+        "stars": 153,
+        "url": "https://github.com/Hiteater-wzm/eeo",
+        "created": "2026-10-05T12:24:03Z",
+        "topics": [],
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07",
+        "starsAtFirstSeen": 153
+      },
+      "h100envy/gem-search": {
+        "name": "h100envy/gem-search",
+        "description": "Rainbow spider that X-rays memecoins: bundles, linked wallets, dev history. Scanner, Telegram bot, live Bundle Index.",
+        "language": "Python",
+        "stars": 150,
+        "url": "https://github.com/h100envy/gem-search",
+        "created": "2026-10-05T13:12:12Z",
+        "topics": [
+          "memecoin",
+          "open-source",
+          "pumpfun",
+          "scanner"
+        ],
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07",
+        "starsAtFirstSeen": 150
+      },
+      "Autumn1337/better-statusline": {
+        "name": "Autumn1337/better-statusline",
+        "description": "A status line for Claude Code: the session's figures as dot-matrix rings, and the music you are playing beside them",
+        "language": "TypeScript",
+        "stars": 143,
+        "url": "https://github.com/Autumn1337/better-statusline",
+        "created": "2026-10-05T08:44:27Z",
+        "topics": [],
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07",
+        "starsAtFirstSeen": 143
+      },
+      "kandinskylab/kandinsky-6": {
+        "name": "kandinskylab/kandinsky-6",
+        "description": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+        "language": "Python",
+        "stars": 134,
+        "url": "https://github.com/kandinskylab/kandinsky-6",
+        "created": "2026-10-05T09:06:41Z",
+        "topics": [],
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07",
+        "starsAtFirstSeen": 134
+      },
+      "VelaPayments/vela-server": {
+        "name": "VelaPayments/vela-server",
+        "description": "NestJS backend for Vela’s Stellar payment prototype, with payment-request validation, WebAuthn authorization, and transaction services.",
+        "language": "TypeScript",
+        "stars": 131,
+        "url": "https://github.com/VelaPayments/vela-server",
+        "created": "2026-10-05T20:48:09Z",
+        "topics": [],
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07",
+        "starsAtFirstSeen": 131
       }
     },
     "posts": {
@@ -2269,7 +2463,7 @@
         "discussion": "https://news.ycombinator.com/item?id=49804931",
         "created": "2026-09-22T17:26:36.000Z",
         "firstSeen": "2026-09-28",
-        "lastSeen": "2026-10-06"
+        "lastSeen": "2026-10-07"
       },
       "https://news.ycombinator.com/item?id=49743049": {
         "source": "launchhn",
@@ -2280,7 +2474,7 @@
         "discussion": "https://news.ycombinator.com/item?id=49743049",
         "created": "2026-09-17T16:22:15.000Z",
         "firstSeen": "2026-09-28",
-        "lastSeen": "2026-10-06"
+        "lastSeen": "2026-10-07"
       },
       "https://news.ycombinator.com/item?id=49869995": {
         "source": "hn",
@@ -2302,7 +2496,7 @@
         "discussion": "https://lobste.rs/s/haq46t/squalk_old_school_forum_engine_built_on",
         "created": "2026-09-21T14:44:12.725Z",
         "firstSeen": "2026-09-28",
-        "lastSeen": "2026-10-06"
+        "lastSeen": "2026-10-07"
       },
       "https://lobste.rs/s/ayyuqc/jev_powered_autocorrection": {
         "source": "lobsters",
@@ -2313,7 +2507,7 @@
         "discussion": "https://lobste.rs/s/ayyuqc/jev_powered_autocorrection",
         "created": "2026-09-22T18:55:00.112Z",
         "firstSeen": "2026-09-28",
-        "lastSeen": "2026-10-06"
+        "lastSeen": "2026-10-07"
       },
       "https://news.ycombinator.com/item?id=49876760": {
         "source": "showhn",
@@ -2379,7 +2573,7 @@
         "discussion": "https://news.ycombinator.com/item?id=49881505",
         "created": "2026-09-28T17:34:36.000Z",
         "firstSeen": "2026-09-29",
-        "lastSeen": "2026-10-06"
+        "lastSeen": "2026-10-07"
       },
       "https://news.ycombinator.com/item?id=49884625": {
         "source": "hn",
@@ -2555,7 +2749,7 @@
         "discussion": "https://news.ycombinator.com/item?id=49911995",
         "created": "2026-09-30T17:37:40.000Z",
         "firstSeen": "2026-10-01",
-        "lastSeen": "2026-10-06"
+        "lastSeen": "2026-10-07"
       },
       "https://news.ycombinator.com/item?id=49903713": {
         "source": "hn",
@@ -2814,12 +3008,12 @@
         "source": "showhn",
         "title": "Minigraf – An embedded, bi-temporal graph database in Rust",
         "url": "https://github.com/project-minigraf/minigraf",
-        "points": 35,
-        "comments": 28,
+        "points": 40,
+        "comments": 31,
         "discussion": "https://news.ycombinator.com/item?id=49963394",
         "created": "2026-10-05T11:18:18.000Z",
         "firstSeen": "2026-10-06",
-        "lastSeen": "2026-10-06"
+        "lastSeen": "2026-10-07"
       },
       "https://news.ycombinator.com/item?id=49952148": {
         "source": "showhn",
@@ -2847,12 +3041,12 @@
         "source": "showhn",
         "title": "MailAccess – the true Email OSINT framework",
         "url": "https://mailaccess.pro",
-        "points": 34,
+        "points": 67,
         "comments": 0,
         "discussion": "https://news.ycombinator.com/item?id=49977385",
         "created": "2026-10-06T12:24:18.000Z",
         "firstSeen": "2026-10-06",
-        "lastSeen": "2026-10-06"
+        "lastSeen": "2026-10-07"
       },
       "https://news.ycombinator.com/item?id=49944196": {
         "source": "showhn",
@@ -2864,89 +3058,242 @@
         "created": "2026-10-03T13:42:23.000Z",
         "firstSeen": "2026-10-06",
         "lastSeen": "2026-10-06"
+      },
+      "https://news.ycombinator.com/item?id=49979793": {
+        "source": "showhn",
+        "title": "OpenChart – OSS TradingView alternative with your own AI agent",
+        "url": "https://github.com/longsurf-ai/openchart",
+        "points": 40,
+        "comments": 17,
+        "discussion": "https://news.ycombinator.com/item?id=49979793",
+        "created": "2026-10-06T15:16:45.000Z",
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07"
+      },
+      "https://news.ycombinator.com/item?id=49978595": {
+        "source": "showhn",
+        "title": "I turned my iPhone and a $20 smart plug into an f-stop timer",
+        "url": "https://peterszentkiralyi.eu/darkplug/",
+        "points": 78,
+        "comments": 30,
+        "discussion": "https://news.ycombinator.com/item?id=49978595",
+        "created": "2026-10-06T13:58:07.000Z",
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07"
+      },
+      "https://news.ycombinator.com/item?id=49978171": {
+        "source": "showhn",
+        "title": "Parseable, an open observability datalake, handles 100M time-series/min",
+        "url": "https://www.parseable.com",
+        "points": 82,
+        "comments": 22,
+        "discussion": "https://news.ycombinator.com/item?id=49978171",
+        "created": "2026-10-06T13:30:50.000Z",
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07"
+      },
+      "https://news.ycombinator.com/item?id=49965227": {
+        "source": "showhn",
+        "title": "Pumpkins.sh – claim, carve, and display a pumpkin to the world",
+        "url": "https://pumpkins.sh/",
+        "points": 33,
+        "comments": 9,
+        "discussion": "https://news.ycombinator.com/item?id=49965227",
+        "created": "2026-10-05T14:18:09.000Z",
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07"
+      },
+      "https://news.ycombinator.com/item?id=49980715": {
+        "source": "hn",
+        "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+        "url": "https://github.com/FeSens/openTPU",
+        "points": 272,
+        "comments": 327,
+        "discussion": "https://news.ycombinator.com/item?id=49980715",
+        "created": "2026-10-06T16:23:25.000Z",
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07"
+      },
+      "https://news.ycombinator.com/item?id=49985664": {
+        "source": "hn",
+        "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
+        "url": "https://github.com/boykopovar/AnyPS5",
+        "points": 198,
+        "comments": 152,
+        "discussion": "https://news.ycombinator.com/item?id=49985664",
+        "created": "2026-10-06T23:28:08.000Z",
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07"
+      },
+      "https://news.ycombinator.com/item?id=49984716": {
+        "source": "hn",
+        "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+        "url": "https://penguin-mail.com/",
+        "points": 146,
+        "comments": 72,
+        "discussion": "https://news.ycombinator.com/item?id=49984716",
+        "created": "2026-10-06T21:59:43.000Z",
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07"
+      },
+      "https://news.ycombinator.com/item?id=49987076": {
+        "source": "hn",
+        "title": "Strands Decider 2B: a small, open-source, decision model",
+        "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+        "points": 115,
+        "comments": 25,
+        "discussion": "https://news.ycombinator.com/item?id=49987076",
+        "created": "2026-10-07T02:02:11.000Z",
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07"
+      },
+      "https://lobste.rs/s/dwbksa/brut_brutal_router_for_unix_tools": {
+        "source": "lobsters",
+        "title": "Brut, the Brutal Router for Unix Tools",
+        "url": "https://brut.sh",
+        "points": 23,
+        "comments": 12,
+        "discussion": "https://lobste.rs/s/dwbksa/brut_brutal_router_for_unix_tools",
+        "created": "2026-10-06T17:17:23.875Z",
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07"
+      },
+      "https://lobste.rs/s/tcmpcw/pared_remove_unwanted_apple": {
+        "source": "lobsters",
+        "title": "Pared - remove unwanted Apple Intelligence models without disabling SIP",
+        "url": "https://github.com/4evy/pared",
+        "points": 12,
+        "comments": 2,
+        "discussion": "https://lobste.rs/s/tcmpcw/pared_remove_unwanted_apple",
+        "created": "2026-10-06T18:27:16.404Z",
+        "firstSeen": "2026-10-07",
+        "lastSeen": "2026-10-07"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-10-06T13:12:02.737Z",
+    "fetchedAt": "2026-10-07T06:33:10.901Z",
     "hn": [
       {
-        "title": "Web Search API",
-        "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
-        "points": 566,
-        "comments": 263,
-        "discussion": "https://news.ycombinator.com/item?id=49963171"
+        "title": "Mistral Large 4",
+        "url": "https://mistral.ai/news/mistral-large-4/\\",
+        "points": 1704,
+        "comments": 1005,
+        "discussion": "https://news.ycombinator.com/item?id=49977979"
       },
       {
-        "title": "Beam: Reflection's 501B open-weight model",
-        "url": "https://reflection.ai/blog/introducing-beam",
-        "points": 483,
-        "comments": 156,
-        "discussion": "https://news.ycombinator.com/item?id=49969183"
+        "title": "Sharing AI progress in mathematics",
+        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+        "points": 740,
+        "comments": 670,
+        "discussion": "https://news.ycombinator.com/item?id=49984923"
       },
       {
-        "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
-        "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-        "points": 398,
-        "comments": 268,
-        "discussion": "https://news.ycombinator.com/item?id=49970667"
+        "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+        "points": 290,
+        "comments": 31,
+        "discussion": "https://news.ycombinator.com/item?id=49980487"
       },
       {
-        "title": "Apple and a hacker's future",
-        "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
-        "points": 275,
-        "comments": 235,
-        "discussion": "https://news.ycombinator.com/item?id=49962857"
+        "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+        "url": "https://github.com/FeSens/openTPU",
+        "points": 272,
+        "comments": 327,
+        "discussion": "https://news.ycombinator.com/item?id=49980715"
       },
       {
-        "title": "Example.com just launched the biggest redesign in decades",
-        "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
-        "points": 262,
-        "comments": 169,
-        "discussion": "https://news.ycombinator.com/item?id=49971921"
+        "title": "Decisions API is in public beta",
+        "url": "https://developers.openai.com/api/docs/guides/decisions",
+        "points": 233,
+        "comments": 108,
+        "discussion": "https://news.ycombinator.com/item?id=49984025"
       },
       {
-        "title": "The lamps in my house",
-        "url": "https://arslan.io/2026/10/05/the-lamps-in-my-house/",
-        "points": 242,
-        "comments": 102,
-        "discussion": "https://news.ycombinator.com/item?id=49965152"
+        "title": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
+        "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+        "points": 225,
+        "comments": 360,
+        "discussion": "https://news.ycombinator.com/item?id=49983703"
       },
       {
-        "title": "Competitive Programmer's Handbook (2018) [pdf]",
-        "url": "https://cses.fi/book/book.pdf",
-        "points": 238,
-        "comments": 56,
-        "discussion": "https://news.ycombinator.com/item?id=49944049"
+        "title": "What's Earth's dominant species by mass?",
+        "url": "https://signoregalilei.com/2026/09/27/whats-earths-dominant-species-by-mass/",
+        "points": 202,
+        "comments": 136,
+        "discussion": "https://news.ycombinator.com/item?id=49977531"
       },
       {
-        "title": "Find the flattest route between any two points in SF",
-        "url": "https://flattensf.com/",
-        "points": 236,
-        "comments": 80,
-        "discussion": "https://news.ycombinator.com/item?id=49971230"
+        "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
+        "url": "https://github.com/boykopovar/AnyPS5",
+        "points": 198,
+        "comments": 152,
+        "discussion": "https://news.ycombinator.com/item?id=49985664"
       },
       {
-        "title": "Dust: Pretraining Transformers Without Backpropagation",
-        "url": "https://qlabs.sh/research/dust",
-        "points": 231,
-        "comments": 61,
-        "discussion": "https://news.ycombinator.com/item?id=49970871"
+        "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+        "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+        "points": 168,
+        "comments": 90,
+        "discussion": "https://news.ycombinator.com/item?id=49981905"
       },
       {
-        "title": "Why Common Lisp is now the best programming language",
-        "url": "https://www.vivienhenz.com/common-lisp",
-        "points": 230,
-        "comments": 294,
-        "discussion": "https://news.ycombinator.com/item?id=49973598"
+        "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+        "url": "https://penguin-mail.com/",
+        "points": 146,
+        "comments": 72,
+        "discussion": "https://news.ycombinator.com/item?id=49984716"
       }
     ],
     "lobsters": [
       {
+        "title": "Janet on x32: 32-bit Pointers, 64-bit Speed, 25% Less RAM",
+        "url": "https://alexalejandre.com/programming/lisp/janet-for-the-x32-abi/",
+        "points": 21,
+        "comments": 7,
+        "discussion": "https://lobste.rs/s/am1cuw/janet_on_x32_32_bit_pointers_64_bit_speed_25",
+        "tags": [
+          "linux",
+          "performance"
+        ]
+      },
+      {
+        "title": "That Time I Worked With a Laptop Thief (2025)",
+        "url": "https://blog.pipetogrep.org/2025/07/27/that-time-i-worked-with-a-laptop-thief/",
+        "points": 48,
+        "comments": 8,
+        "discussion": "https://lobste.rs/s/0slgpl/time_i_worked_with_laptop_thief_2025",
+        "tags": [
+          "security"
+        ]
+      },
+      {
+        "title": "Brut, the Brutal Router for Unix Tools",
+        "url": "https://brut.sh",
+        "points": 23,
+        "comments": 12,
+        "discussion": "https://lobste.rs/s/dwbksa/brut_brutal_router_for_unix_tools",
+        "tags": [
+          "show",
+          "unix"
+        ]
+      },
+      {
+        "title": "A sustainable web career, for when all this blows over",
+        "url": "https://dbushell.com/2026/10/07/sustainable-web-career/",
+        "points": 34,
+        "comments": 18,
+        "discussion": "https://lobste.rs/s/jxhi2i/sustainable_web_career_for_when_all_this",
+        "tags": [
+          "vibecoding",
+          "web"
+        ]
+      },
+      {
         "title": "Email Self Hosters - what are you using?",
         "url": "https://lobste.rs/s/rwloew/email_self_hosters_what_are_you_using",
-        "points": 31,
-        "comments": 36,
+        "points": 73,
+        "comments": 71,
         "discussion": "https://lobste.rs/s/rwloew/email_self_hosters_what_are_you_using",
         "tags": [
           "ask",
@@ -2954,32 +3301,43 @@
         ]
       },
       {
-        "title": "Async Rust: Where does the scheduler live?",
-        "url": "https://herecomesthemoon.net/2026/10/async-rust-where-does-the-scheduler-live/",
-        "points": 46,
-        "comments": 13,
-        "discussion": "https://lobste.rs/s/okk4bg/async_rust_where_does_scheduler_live",
+        "title": "A Terminal Protocol for Program Status (OSC 7501)",
+        "url": "https://mitchellh.com/writing/program-status-osc7501",
+        "points": 13,
+        "comments": 6,
+        "discussion": "https://lobste.rs/s/rmh4fg/terminal_protocol_for_program_status_osc",
         "tags": [
-          "rust"
+          "programming"
         ]
       },
       {
-        "title": "Gleam doesn't compile to Erlang source anymore",
-        "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
-        "points": 109,
-        "comments": 13,
-        "discussion": "https://lobste.rs/s/2svplr/gleam_doesn_t_compile_erlang_source",
+        "title": "Last rites for Gentoo's Chromium package",
+        "url": "https://lwn.net/SubscriberLink/1097760/2be4d9e3eeb59039/",
+        "points": 29,
+        "comments": 3,
+        "discussion": "https://lobste.rs/s/fpcicg/last_rites_for_gentoo_s_chromium_package",
         "tags": [
-          "compilers",
-          "erlang",
-          "gleam"
+          "browsers",
+          "linux",
+          "practices"
+        ]
+      },
+      {
+        "title": "Is COSMIC DE mogging KDE Plasma?",
+        "url": "https://thelibre.news/is-cosmic-de-mogging-kde-plasma/",
+        "points": 15,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/7qjhic/is_cosmic_de_mogging_kde_plasma",
+        "tags": [
+          "design",
+          "linux"
         ]
       },
       {
         "title": "Montray - a tray icon for systemd service health",
         "url": "https://github.com/dimonomid/montray/",
-        "points": 10,
-        "comments": 0,
+        "points": 32,
+        "comments": 5,
         "discussion": "https://lobste.rs/s/gveu0c/montray_tray_icon_for_systemd_service",
         "tags": [
           "linux",
@@ -2987,148 +3345,24 @@
         ]
       },
       {
-        "title": "Open Source as We Know It Is Dead",
-        "url": "https://jross.me/open-source-as-we-know-it-is-dead/",
-        "points": 18,
-        "comments": 16,
-        "discussion": "https://lobste.rs/s/1hnx0k/open_source_as_we_know_it_is_dead",
-        "tags": [
-          "vibecoding"
-        ]
-      },
-      {
-        "title": "Flirt is now Open-Source",
-        "url": "https://blog.buenzli.dev/flirt-is-open-source/",
-        "points": 45,
-        "comments": 21,
-        "discussion": "https://lobste.rs/s/9iztqv/flirt_is_now_open_source",
-        "tags": [
-          "vcs"
-        ]
-      },
-      {
-        "title": "Friendship ended with Deno, now Node is my best friend",
-        "url": "https://dbushell.com/2026/10/03/deno-to-node/",
-        "points": 56,
-        "comments": 40,
-        "discussion": "https://lobste.rs/s/a9kwzv/friendship_ended_with_deno_now_node_is_my",
-        "tags": [
-          "nodejs"
-        ]
-      },
-      {
-        "title": "Another step towards elm v1",
-        "url": "https://elm-lang.org/news/another-step-towards-elm-v1",
-        "points": 74,
-        "comments": 1,
-        "discussion": "https://lobste.rs/s/fks4pf/another_step_towards_elm_v1",
-        "tags": [
-          "elm"
-        ]
-      },
-      {
-        "title": "Mold 3.0.0 Released",
-        "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
-        "points": 31,
-        "comments": 12,
-        "discussion": "https://lobste.rs/s/9srb4r/mold_3_0_0_released",
-        "tags": [
-          "release",
-          "rust",
-          "vibecoding"
-        ]
-      },
-      {
-        "title": "Golang tool to check SPF, DKIM, TLSA, and TLS settings for mailservers",
-        "url": "https://git.sig-io.nl/Sig-IO/mailcheck/",
-        "points": 11,
+        "title": "Pared - remove unwanted Apple Intelligence models without disabling SIP",
+        "url": "https://github.com/4evy/pared",
+        "points": 12,
         "comments": 2,
-        "discussion": "https://lobste.rs/s/bw7k1r/golang_tool_check_spf_dkim_tlsa_tls",
+        "discussion": "https://lobste.rs/s/tcmpcw/pared_remove_unwanted_apple",
         "tags": [
-          "email",
-          "go",
+          "mac",
+          "show",
           "vibecoding"
         ]
       }
     ],
     "devto": [
       {
-        "title": "Why you still need a Website Portfolio, even though everyone can Vibe Code it.",
-        "url": "https://dev.to/francistrdev/why-you-still-need-a-website-portfolio-even-though-everyone-can-vibe-code-it-e63",
-        "points": 93,
-        "comments": 29,
-        "discussion": "https://dev.to/francistrdev/why-you-still-need-a-website-portfolio-even-though-everyone-can-vibe-code-it-e63",
-        "tags": [
-          "discuss",
-          "community",
-          "showdev"
-        ]
-      },
-      {
-        "title": "The Parts of a Job Search We Don't See",
-        "url": "https://dev.to/hemapriya_kanagala/the-parts-of-a-job-search-we-dont-see-3a6",
-        "points": 72,
-        "comments": 13,
-        "discussion": "https://dev.to/hemapriya_kanagala/the-parts-of-a-job-search-we-dont-see-3a6",
-        "tags": [
-          "discuss",
-          "community",
-          "career"
-        ]
-      },
-      {
-        "title": "I Built My Friend a Mock Interviewer That Read His Rust Code",
-        "url": "https://dev.to/yashksaini/i-built-my-friend-a-mock-interviewer-that-read-his-rust-code-1gif",
-        "points": 40,
-        "comments": 4,
-        "discussion": "https://dev.to/yashksaini/i-built-my-friend-a-mock-interviewer-that-read-his-rust-code-1gif",
-        "tags": [
-          "devchallenge",
-          "hf26challenge",
-          "ai"
-        ]
-      },
-      {
-        "title": "What \"best practice\" did you quietly stop following?",
-        "url": "https://dev.to/mikachu/what-best-practice-did-you-quietly-stop-following-53ne",
-        "points": 33,
-        "comments": 14,
-        "discussion": "https://dev.to/mikachu/what-best-practice-did-you-quietly-stop-following-53ne",
-        "tags": [
-          "discuss",
-          "watercooler",
-          "programming"
-        ]
-      },
-      {
-        "title": "AI Is Making It Too Easy to Avoid Thinking",
-        "url": "https://dev.to/sizzlebop/ai-is-making-it-too-easy-to-avoid-thinking-3hnk",
-        "points": 20,
-        "comments": 2,
-        "discussion": "https://dev.to/sizzlebop/ai-is-making-it-too-easy-to-avoid-thinking-3hnk",
-        "tags": [
-          "ai",
-          "productivity",
-          "learning"
-        ]
-      },
-      {
-        "title": "Build a Tiny Virtual Pet on Arduino in 60 Minutes 🐾",
-        "url": "https://dev.to/heraistudio/build-a-tiny-virtual-pet-on-arduino-in-60-minutes-2cf",
-        "points": 19,
-        "comments": 1,
-        "discussion": "https://dev.to/heraistudio/build-a-tiny-virtual-pet-on-arduino-in-60-minutes-2cf",
-        "tags": [
-          "arduino",
-          "beginners",
-          "programming"
-        ]
-      },
-      {
         "title": "Your GitHub README Isn't a Profile. It's a Storefront. (Here Are the 5 Rules I Used",
         "url": "https://dev.to/akhourianmolkumar/your-github-readme-isnt-a-profile-its-a-storefront-here-are-the-5-rules-i-used-57jm",
-        "points": 18,
-        "comments": 3,
+        "points": 34,
+        "comments": 24,
         "discussion": "https://dev.to/akhourianmolkumar/your-github-readme-isnt-a-profile-its-a-storefront-here-are-the-5-rules-i-used-57jm",
         "tags": [
           "github",
@@ -3137,45 +3371,117 @@
         ]
       },
       {
-        "title": "Spider-Man Moonwalked Off a Billboard and Only My Test Suite Noticed",
-        "url": "https://dev.to/lovestaco/spider-man-moonwalked-off-a-billboard-and-only-my-test-suite-noticed-46k7",
-        "points": 17,
-        "comments": 0,
-        "discussion": "https://dev.to/lovestaco/spider-man-moonwalked-off-a-billboard-and-only-my-test-suite-noticed-46k7",
+        "title": "Your AI Agent Will Do Something Terrible. Here's How to Survive It.",
+        "url": "https://dev.to/james_anderson_h/your-ai-agent-will-do-something-terrible-heres-how-to-survive-it-4lc8",
+        "points": 23,
+        "comments": 16,
+        "discussion": "https://dev.to/james_anderson_h/your-ai-agent-will-do-something-terrible-heres-how-to-survive-it-4lc8",
         "tags": [
-          "blender",
-          "python",
-          "gamedev"
-        ]
-      },
-      {
-        "title": "Touch Grass: 6 Project Ideas for People Who Live in a Terminal (Hacktoberfest DEV Challenge, Week 1)",
-        "url": "https://dev.to/devopsdaily/touch-grass-6-project-ideas-for-people-who-live-in-a-terminal-hacktoberfest-dev-challenge-week-1-1e7n",
-        "points": 17,
-        "comments": 0,
-        "discussion": "https://dev.to/devopsdaily/touch-grass-6-project-ideas-for-people-who-live-in-a-terminal-hacktoberfest-dev-challenge-week-1-1e7n",
-        "tags": [
-          "hacktoberfest",
           "ai",
-          "devops"
+          "agents",
+          "security"
         ]
       },
       {
-        "title": "Publishing Markdown to Substack from an Agent Skill",
-        "url": "https://dev.to/gde/publishing-markdown-to-substack-from-an-agent-skill-258f",
+        "title": "Aborting a Fetch Doesn't Stop Your Node.js Server. Here's What Does.",
+        "url": "https://dev.to/shubhradev/aborting-a-fetch-doesnt-stop-your-nodejs-server-heres-what-does-2fek",
+        "points": 22,
+        "comments": 11,
+        "discussion": "https://dev.to/shubhradev/aborting-a-fetch-doesnt-stop-your-nodejs-server-heres-what-does-2fek",
+        "tags": [
+          "node",
+          "javascript",
+          "postgres"
+        ]
+      },
+      {
+        "title": "Why Your TypeScript Code Still Crashes in Production",
+        "url": "https://dev.to/smtahosin/why-your-typescript-code-still-crashes-in-production-2bf4",
+        "points": 18,
+        "comments": 4,
+        "discussion": "https://dev.to/smtahosin/why-your-typescript-code-still-crashes-in-production-2bf4",
+        "tags": [
+          "typescript",
+          "javascript",
+          "beginners"
+        ]
+      },
+      {
+        "title": "Behind Cloudflare and nginx, All My Users Had the Same IP",
+        "url": "https://dev.to/mrviduus/behind-cloudflare-and-nginx-all-my-users-had-the-same-ip-3hae",
         "points": 16,
         "comments": 2,
-        "discussion": "https://dev.to/gde/publishing-markdown-to-substack-from-an-agent-skill-258f",
+        "discussion": "https://dev.to/mrviduus/behind-cloudflare-and-nginx-all-my-users-had-the-same-ip-3hae",
         "tags": [
-          "substack",
-          "writing",
-          "devtools"
+          "security",
+          "webdev",
+          "dotnet"
+        ]
+      },
+      {
+        "title": "Data Types Across Programming Languages: What You Actually Need to Know",
+        "url": "https://dev.to/kenwalger/data-types-across-programming-languages-what-you-actually-need-to-know-39eo",
+        "points": 16,
+        "comments": 2,
+        "discussion": "https://dev.to/kenwalger/data-types-across-programming-languages-what-you-actually-need-to-know-39eo",
+        "tags": [
+          "programming",
+          "javascript",
+          "rust"
+        ]
+      },
+      {
+        "title": "Notion's API almost never errors out. That's the hard part.",
+        "url": "https://dev.to/eugeniya_ivanova_4a58eadc/notions-api-almost-never-errors-out-thats-the-hard-part-5g2k",
+        "points": 16,
+        "comments": 0,
+        "discussion": "https://dev.to/eugeniya_ivanova_4a58eadc/notions-api-almost-never-errors-out-thats-the-hard-part-5g2k",
+        "tags": [
+          "notion",
+          "api",
+          "webdev"
+        ]
+      },
+      {
+        "title": "🌿 AI Nature Quest: I Built an AI That Wants You to Stop Using It",
+        "url": "https://dev.to/extinctsion/ai-nature-quest-i-built-an-ai-that-wants-you-to-stop-using-it-56g6",
+        "points": 15,
+        "comments": 1,
+        "discussion": "https://dev.to/extinctsion/ai-nature-quest-i-built-an-ai-that-wants-you-to-stop-using-it-56g6",
+        "tags": [
+          "devchallenge",
+          "hf26challenge",
+          "gemma"
+        ]
+      },
+      {
+        "title": "I built an AI that only works when my phone is in my pocket",
+        "url": "https://dev.to/codeswithroh/i-built-an-ai-that-only-works-when-my-phone-is-in-my-pocket-3ipn",
+        "points": 15,
+        "comments": 2,
+        "discussion": "https://dev.to/codeswithroh/i-built-an-ai-that-only-works-when-my-phone-is-in-my-pocket-3ipn",
+        "tags": [
+          "devchallenge",
+          "hf26challenge",
+          "gemma"
+        ]
+      },
+      {
+        "title": "The scarcest skill on my team has the lowest status: the 'no'",
+        "url": "https://dev.to/infoinlet1/the-scarcest-skill-on-my-team-has-the-lowest-status-the-no-l7a",
+        "points": 14,
+        "comments": 1,
+        "discussion": "https://dev.to/infoinlet1/the-scarcest-skill-on-my-team-has-the-lowest-status-the-no-l7a",
+        "tags": [
+          "ai",
+          "webdev",
+          "career"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-10-06T13:12:02.737Z",
+    "fetchedAt": "2026-10-07T06:33:10.901Z",
     "candidates": {
       "https://discord.com/blog/discord-update-september-25-2026": {
         "source": "Discord",
@@ -3267,13 +3573,6 @@
         "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
         "published": "2026-09-24T15:00:00.000Z",
         "summary": "External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and the steps we took to remediate it."
-      },
-      "https://blog.cloudflare.com/vary-support": {
-        "source": "Cloudflare",
-        "title": "We just shipped support for the ugliest part of HTTP: Vary",
-        "url": "https://blog.cloudflare.com/vary-support/",
-        "published": "2026-09-22T14:04:31.000Z",
-        "summary": "Vary support is now available in Cache Rules on every plan. You can normalize known negotiation headers, pass exact values through to the origin when those small differences matter, or bypass cache when the variation is too unpredictable."
       },
       "https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum": {
         "source": "Stripe",
@@ -3885,6 +4184,77 @@
         "url": "https://cedardb.com/blog/sqldoom/",
         "discussion": "https://lobste.rs/s/qf2mtz/we_ported_original_doom_sql",
         "published": "2026-10-05T10:27:06.699Z",
+        "summary": ""
+      },
+      "https://blog.cloudflare.com/root-ksk-2024-rollover": {
+        "source": "Cloudflare",
+        "title": "The keys to the Internet change on October 11. Are you ready?",
+        "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
+        "published": "2026-10-06T17:50:11.000Z",
+        "summary": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover."
+      },
+      "https://discord.com/blog/discord-patch-notes-october-6-2026": {
+        "source": "Discord",
+        "title": "Discord Patch Notes: October 6, 2026",
+        "url": "https://discord.com/blog/discord-patch-notes-october-6-2026",
+        "published": "2026-10-06T00:00:00.000Z",
+        "summary": "Check out the finer details of the more technical fixes implemented into Discord recently."
+      },
+      "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development": {
+        "source": "GitHub",
+        "title": "Building Git infrastructure for agent-scale development",
+        "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+        "published": "2026-10-06T20:57:56.000Z",
+        "summary": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog ."
+      },
+      "https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent": {
+        "source": "Figma",
+        "title": "3 ways product designers use the Figma agent for craft, speed, and creative expression",
+        "url": "https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/",
+        "published": "2026-10-06T14:00:00.000Z",
+        "summary": "Here’s how teams at Uber, Granola, and Atlassian support high-quality, fast-moving work with the Figma agent, now generally available."
+      },
+      "https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent": {
+        "source": "Figma",
+        "title": "Workflow lab: Staying in the flow with Figma’s agent",
+        "url": "https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent/",
+        "published": "2026-10-06T14:00:00.000Z",
+        "summary": "Knowing what work to hand to an agent is a skill of its own. This workflow shows how a designer shapes a new temporary-access feature while the Figma agent handles the library updates, crit feedback, and a first draft of a design system spec."
+      },
+      "https://www.figma.com/blog/figma-agent-and-design-systems": {
+        "source": "Figma",
+        "title": "How to lighten design system upkeep with the Figma agent",
+        "url": "https://www.figma.com/blog/figma-agent-and-design-systems/",
+        "published": "2026-10-06T14:00:00.000Z",
+        "summary": "Figma’s agent can take on repetitive work across your design system, from maintaining your library to automating how designs adhere to it. Here, we share a few ways to put the Figma agent to work."
+      },
+      "https://medium.com/airbnb-engineering/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb-cea7ee9b1ab2?source=rss----53c7c27702d5---4": {
+        "source": "Airbnb",
+        "title": "Beyond synthetic testing: Capturing and replaying real database workloads at Airbnb",
+        "url": "https://medium.com/airbnb-engineering/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb-cea7ee9b1ab2?source=rss----53c7c27702d5---4",
+        "published": "2026-10-06T17:01:04.000Z",
+        "summary": ""
+      },
+      "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta": {
+        "source": "Meta",
+        "title": "NTS: Authenticated Time at Meta",
+        "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
+        "published": "2026-10-06T16:00:06.000Z",
+        "summary": "Meta’s public time service now speaks NTS (Network Time Security, RFC 8915) at nts.meta.com. Packets are authenticated, so a device can verify the time came from us and was not modified on the way. Our NTS servers hold no per-client state. Cookie keys are derived, not stored and not replicated. We’ve open sourced everything, including [...] Read More... The post NTS: Authenticated Time at Meta app"
+      },
+      "https://medium.com/pinterest-engineering/metrics-board-building-an-agent-ready-metrics-layer-2c8fefe68756?source=rss----4c5a5f6279b6---4": {
+        "source": "Pinterest",
+        "title": "Metrics Board: Building an Agent-ready Metrics Layer",
+        "url": "https://medium.com/pinterest-engineering/metrics-board-building-an-agent-ready-metrics-layer-2c8fefe68756?source=rss----4c5a5f6279b6---4",
+        "published": "2026-10-06T16:01:02.000Z",
+        "summary": ""
+      },
+      "https://alexalejandre.com/programming/lisp/janet-for-the-x32-abi": {
+        "source": "Lobsters",
+        "title": "Janet on x32: 32-bit Pointers, 64-bit Speed, 25% Less RAM",
+        "url": "https://alexalejandre.com/programming/lisp/janet-for-the-x32-abi/",
+        "discussion": "https://lobste.rs/s/am1cuw/janet_on_x32_32_bit_pointers_64_bit_speed_25",
+        "published": "2026-10-06T22:26:46.902Z",
         "summary": ""
       }
     }
