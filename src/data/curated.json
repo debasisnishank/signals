@@ -159,9 +159,29 @@
     "https://news.ycombinator.com/item?id=49957116": {
       "why": "A script that reclaims the disk space Apple Intelligence reserves on macOS 27 instead of only toggling the feature off.",
       "pickedOn": "2026-10-06"
+    },
+    "elstongun/leviathan": {
+      "why": "Single static binary with published benchmarks: returns cited result cards at roughly 450 tokens whatever the dataset size, instead of grepping raw history.",
+      "pickedOn": "2026-10-07"
+    },
+    "https://news.ycombinator.com/item?id=49963394": {
+      "why": "Self-contained library crate that drops the external database dependency, providing its own storage, transaction and query engines with full bi-temporality.",
+      "pickedOn": "2026-10-07"
+    },
+    "Adolanium/hermes-gadget-sdk": {
+      "why": "Runs the same device core in a desktop simulator or browser installer, so you can try it or add sensors and a custom face without a firmware toolchain.",
+      "pickedOn": "2026-10-07"
+    },
+    "empero-org/brewery-ai": {
+      "why": "A guided chat agent covering data prep, base-model choice, hyperparameters and publishing; its demo models were trained end-to-end in one session on a single rented GPU.",
+      "pickedOn": "2026-10-07"
+    },
+    "https://news.ycombinator.com/item?id=49944196": {
+      "why": "Read-only by default, writing only with --apply, and prints JSON for scripting; it reads JPEG and Sony ARW but not most other RAW formats or HEIC yet.",
+      "pickedOn": "2026-10-07"
     }
   },
-  "updatedAt": "2026-10-06T06:33:57.339Z",
+  "updatedAt": "2026-10-07T06:32:26.142Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -591,6 +611,8 @@
     "https://blog.cloudflare.com/birthday-week-2026-wrap-up": "2026-10-06",
     "https://blog.cloudflare.com/one-year-later-1111-interns": "2026-10-06",
     "http://brooker.co.za/blog/2026/10/04/encoders.html": "2026-10-06",
-    "https://vincent.bernat.ch/en/blog/2026-http-over-ssh": "2026-10-06"
+    "https://vincent.bernat.ch/en/blog/2026-http-over-ssh": "2026-10-06",
+    "https://aws.amazon.com/blogs/architecture/announcing-the-aws-digital-sovereignty-well-architected-lens": "2026-10-07",
+    "https://cedardb.com/blog/sqldoom": "2026-10-07"
   }
 }
