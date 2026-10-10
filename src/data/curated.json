@@ -199,9 +199,29 @@
     "https://news.ycombinator.com/item?id=49991986": {
       "why": "Renders Linux processes as an interactive 3D scene as an alternative to top/htop, offering a different read on process relationships.",
       "pickedOn": "2026-10-09"
+    },
+    "LoreanXavier/pt-pc": {
+      "why": "Not an emulator: a hand-rebuilt C++/Vulkan renderer and game logic that streams levels, models and cutscenes at runtime from your own dumped PS4 copy, so no game assets ship.",
+      "pickedOn": "2026-10-10"
+    },
+    "noahdunnagan/fsearch": {
+      "why": "A Spotlight/mdfind alternative for macOS pairing typo-tolerant fuzzy filename matching with indexed content grep, claiming roughly 1 ms lookups across 8 million files.",
+      "pickedOn": "2026-10-10"
+    },
+    "https://news.ycombinator.com/item?id=50009904": {
+      "why": "A k9s alternative that replaces memorized keystrokes with clickable panes and one ctrl+p search across resource kinds and objects, plus an offline demo backend for trying it without a cluster.",
+      "pickedOn": "2026-10-10"
+    },
+    "https://news.ycombinator.com/item?id=49996149": {
+      "why": "Unlike Iceberg and Delta, DuckLake keeps table metadata in a SQL catalog rather than manifest files, leaving data as Parquet and queryable directly from DuckDB with time travel.",
+      "pickedOn": "2026-10-10"
+    },
+    "https://news.ycombinator.com/item?id=50016489": {
+      "why": "Microsoft's sandbox unifies several containment backends (bubblewrap, Seatbelt, Windows Sandbox, microVMs) behind one policy model and Rust, .NET and Node SDKs for running untrusted code.",
+      "pickedOn": "2026-10-10"
     }
   },
-  "updatedAt": "2026-10-09T06:34:32.683Z",
+  "updatedAt": "2026-10-10T06:33:11.519Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -618,6 +638,26 @@
       "topic": "reliability",
       "why": "Examines how submarine cable cuts could disconnect Taiwan and what resilience measures reduce the risk of major internet outages.",
       "pickedOn": "2026-10-09"
+    },
+    "https://www.hetzner.com/blog/the-hetzner-cloud-network-stack-history-and-technical-overview": {
+      "title": "The history of the Hetzner Cloud network stack",
+      "url": "https://www.hetzner.com/blog/the-hetzner-cloud-network-stack-history-and-technical-overview/",
+      "source": "Lobsters",
+      "published": "2026-10-08T15:02:28.693Z",
+      "discussion": "https://lobste.rs/s/aco14q/history_hetzner_cloud_network_stack",
+      "topic": "infrastructure",
+      "why": "Traces how Hetzner evolved its cloud network stack to a custom-orchestrated Open vSwitch design and the trade-offs of owning each layer.",
+      "pickedOn": "2026-10-10"
+    },
+    "https://pranitha.dev/posts/rwlock-vs-lockfree": {
+      "title": "The Performance Cost of RwLock in Our Read-Heavy Workload",
+      "url": "https://pranitha.dev/posts/rwlock-vs-lockfree/",
+      "source": "Lobsters",
+      "published": "2026-10-08T11:58:52.090Z",
+      "discussion": "https://lobste.rs/s/pioj21/performance_cost_rwlock_our_read_heavy",
+      "topic": "performance",
+      "why": "Compares RwLock against atomic replacement in a read-heavy concurrent service, with measurements showing where each approach wins or costs.",
+      "pickedOn": "2026-10-10"
     }
   },
   "deepdiveSkips": {
@@ -724,6 +764,7 @@
     "https://www.figma.com/blog/figma-agent-and-design-systems": "2026-10-09",
     "http://martin.kleppmann.com/2026/10/07/centre-for-cryptographic-trust-infrastructure.html": "2026-10-09",
     "https://blog.cloudflare.com/radar-redesign": "2026-10-09",
-    "https://hexrat.cc/pages/blog/2026_10_07": "2026-10-09"
+    "https://hexrat.cc/pages/blog/2026_10_07": "2026-10-09",
+    "https://blog.cloudflare.com/deno-joins-cloudflare": "2026-10-10"
   }
 }
