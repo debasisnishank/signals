@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-10-10T06:33:49.084Z",
+    "fetchedAt": "2026-10-10T12:20:28.035Z",
     "repos": [
       {
         "name": "storytold/photocraft",
         "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
         "language": "Rust",
-        "stars": 37033,
+        "stars": 38921,
         "url": "https://github.com/storytold/photocraft",
         "created": "2026-09-30T13:37:48Z",
         "topics": [
@@ -25,7 +25,7 @@
         "name": "Niko1221/Strata",
         "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
         "language": "C++",
-        "stars": 19867,
+        "stars": 20243,
         "url": "https://github.com/Niko1221/Strata",
         "created": "2026-09-24T16:40:20Z",
         "topics": [],
@@ -39,7 +39,7 @@
         "name": "shihabal3amri/DiPlay",
         "description": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
         "language": "Kotlin",
-        "stars": 8535,
+        "stars": 8767,
         "url": "https://github.com/shihabal3amri/DiPlay",
         "created": "2026-09-24T15:36:38Z",
         "topics": []
@@ -48,7 +48,7 @@
         "name": "storytold/lightcraft",
         "description": "An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust.",
         "language": "Rust",
-        "stars": 8017,
+        "stars": 8390,
         "url": "https://github.com/storytold/lightcraft",
         "created": "2026-09-30T14:09:27Z",
         "topics": [
@@ -62,7 +62,7 @@
         "name": "yetone/magpie",
         "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
         "language": "Go",
-        "stars": 7710,
+        "stars": 8264,
         "url": "https://github.com/yetone/magpie",
         "created": "2026-09-23T16:22:35Z",
         "topics": [
@@ -73,33 +73,10 @@
         ]
       },
       {
-        "name": "zai-org/ZCode",
-        "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-        "language": "TypeScript",
-        "stars": 7621,
-        "url": "https://github.com/zai-org/ZCode",
-        "created": "2026-09-20T12:01:16Z",
-        "topics": []
-      },
-      {
-        "name": "jev-chat/jev-chat-jarvis",
-        "description": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
-        "language": "Kotlin",
-        "stars": 7531,
-        "url": "https://github.com/jev-chat/jev-chat-jarvis",
-        "created": "2026-09-21T11:12:53Z",
-        "topics": [
-          "accessibility-service",
-          "ai-assistant",
-          "android",
-          "chat-assistant"
-        ]
-      },
-      {
         "name": "storytold/filmcraft",
         "description": "An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.",
         "language": "Rust",
-        "stars": 7455,
+        "stars": 7865,
         "url": "https://github.com/storytold/filmcraft",
         "created": "2026-09-30T13:41:20Z",
         "topics": [
@@ -110,10 +87,33 @@
         ]
       },
       {
+        "name": "zai-org/ZCode",
+        "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+        "language": "TypeScript",
+        "stars": 7636,
+        "url": "https://github.com/zai-org/ZCode",
+        "created": "2026-09-20T12:01:16Z",
+        "topics": []
+      },
+      {
+        "name": "jev-chat/jev-chat-jarvis",
+        "description": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
+        "language": "Kotlin",
+        "stars": 7544,
+        "url": "https://github.com/jev-chat/jev-chat-jarvis",
+        "created": "2026-09-21T11:12:53Z",
+        "topics": [
+          "accessibility-service",
+          "ai-assistant",
+          "android",
+          "chat-assistant"
+        ]
+      },
+      {
         "name": "noahdunnagan/fsearch",
         "description": "Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.",
         "language": "Rust",
-        "stars": 1279,
+        "stars": 1384,
         "url": "https://github.com/noahdunnagan/fsearch",
         "created": "2026-10-08T17:50:33Z",
         "topics": []
@@ -122,7 +122,7 @@
         "name": "t4t5/omdrop-owl",
         "description": "airdrop for non-apple devices",
         "language": "Shell",
-        "stars": 648,
+        "stars": 943,
         "url": "https://github.com/t4t5/omdrop-owl",
         "created": "2026-10-08T06:38:33Z",
         "topics": [
@@ -177,10 +177,29 @@
         "name": "ThariqS/ai-newtab",
         "description": "Claude generates a daily new tab page based on your browser history.",
         "language": "TypeScript",
-        "stars": 560,
+        "stars": 603,
         "url": "https://github.com/ThariqS/ai-newtab",
         "created": "2026-10-08T17:44:43Z",
         "topics": []
+      },
+      {
+        "name": "franzenzenhofer/big-arrow-on-the-screen",
+        "description": "Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.",
+        "language": "Swift",
+        "stars": 541,
+        "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+        "created": "2026-10-08T08:39:15Z",
+        "topics": [
+          "accessibility",
+          "ai-agents",
+          "claude-code",
+          "cli"
+        ],
+        "hn": {
+          "points": 400,
+          "comments": 177,
+          "url": "https://news.ycombinator.com/item?id=50018817"
+        }
       },
       {
         "name": "passrhymegazebo/AnyUnlock",
@@ -223,25 +242,6 @@
           "how-to-install-total-commander",
           "productivity-utility"
         ]
-      },
-      {
-        "name": "franzenzenhofer/big-arrow-on-the-screen",
-        "description": "Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.",
-        "language": "Swift",
-        "stars": 503,
-        "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-        "created": "2026-10-08T08:39:15Z",
-        "topics": [
-          "accessibility",
-          "ai-agents",
-          "claude-code",
-          "cli"
-        ],
-        "hn": {
-          "points": 392,
-          "comments": 174,
-          "url": "https://news.ycombinator.com/item?id=50018817"
-        }
       }
     ],
     "posts": [
@@ -249,8 +249,8 @@
         "source": "showhn",
         "title": "Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
         "url": "https://carrierexplode.com/",
-        "points": 271,
-        "comments": 35,
+        "points": 343,
+        "comments": 42,
         "discussion": "https://news.ycombinator.com/item?id=50024499",
         "created": "2026-10-09T18:10:55.000Z"
       },
@@ -258,8 +258,8 @@
         "source": "showhn",
         "title": "The rarest tech books and docs you've probably never read",
         "url": "https://readrare.com/",
-        "points": 112,
-        "comments": 34,
+        "points": 141,
+        "comments": 53,
         "discussion": "https://news.ycombinator.com/item?id=50024055",
         "created": "2026-10-09T17:39:44.000Z"
       },
@@ -267,8 +267,8 @@
         "source": "showhn",
         "title": "Let your AI agents paint big arrows, boxes and text on your screen",
         "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-        "points": 392,
-        "comments": 174,
+        "points": 400,
+        "comments": 177,
         "discussion": "https://news.ycombinator.com/item?id=50018817",
         "created": "2026-10-09T11:03:48.000Z"
       },
@@ -285,7 +285,7 @@
         "source": "showhn",
         "title": "Quake ported to safe Rust, playable in browser",
         "url": "https://quake-srp.pages.dev/",
-        "points": 226,
+        "points": 229,
         "comments": 176,
         "discussion": "https://news.ycombinator.com/item?id=50016312",
         "created": "2026-10-09T05:22:58.000Z"
@@ -493,7 +493,7 @@
         "name": "zai-org/ZCode",
         "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
         "language": "TypeScript",
-        "stars": 7621,
+        "stars": 7636,
         "url": "https://github.com/zai-org/ZCode",
         "created": "2026-09-20T12:01:16Z",
         "topics": [],
@@ -1164,7 +1164,7 @@
         "name": "Niko1221/Strata",
         "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
         "language": "C++",
-        "stars": 19867,
+        "stars": 20243,
         "url": "https://github.com/Niko1221/Strata",
         "created": "2026-09-24T16:40:20Z",
         "topics": [],
@@ -1857,7 +1857,7 @@
         "name": "storytold/photocraft",
         "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
         "language": "Rust",
-        "stars": 37033,
+        "stars": 38921,
         "url": "https://github.com/storytold/photocraft",
         "created": "2026-09-30T13:37:48Z",
         "topics": [
@@ -1879,7 +1879,7 @@
         "name": "jev-chat/jev-chat-jarvis",
         "description": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
         "language": "Kotlin",
-        "stars": 7531,
+        "stars": 7544,
         "url": "https://github.com/jev-chat/jev-chat-jarvis",
         "created": "2026-09-21T11:12:53Z",
         "topics": [
@@ -2075,7 +2075,7 @@
         "name": "shihabal3amri/DiPlay",
         "description": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
         "language": "Kotlin",
-        "stars": 8535,
+        "stars": 8767,
         "url": "https://github.com/shihabal3amri/DiPlay",
         "created": "2026-09-24T15:36:38Z",
         "topics": [],
@@ -2087,7 +2087,7 @@
         "name": "yetone/magpie",
         "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
         "language": "Go",
-        "stars": 7710,
+        "stars": 8264,
         "url": "https://github.com/yetone/magpie",
         "created": "2026-09-23T16:22:35Z",
         "topics": [
@@ -2210,7 +2210,7 @@
         "name": "storytold/lightcraft",
         "description": "An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust.",
         "language": "Rust",
-        "stars": 8017,
+        "stars": 8390,
         "url": "https://github.com/storytold/lightcraft",
         "created": "2026-09-30T14:09:27Z",
         "topics": [
@@ -2239,7 +2239,7 @@
         "name": "noahdunnagan/fsearch",
         "description": "Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.",
         "language": "Rust",
-        "stars": 1279,
+        "stars": 1384,
         "url": "https://github.com/noahdunnagan/fsearch",
         "created": "2026-10-08T17:50:33Z",
         "topics": [],
@@ -2251,7 +2251,7 @@
         "name": "storytold/filmcraft",
         "description": "An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.",
         "language": "Rust",
-        "stars": 7455,
+        "stars": 7865,
         "url": "https://github.com/storytold/filmcraft",
         "created": "2026-09-30T13:41:20Z",
         "topics": [
@@ -2268,7 +2268,7 @@
         "name": "t4t5/omdrop-owl",
         "description": "airdrop for non-apple devices",
         "language": "Shell",
-        "stars": 648,
+        "stars": 943,
         "url": "https://github.com/t4t5/omdrop-owl",
         "created": "2026-10-08T06:38:33Z",
         "topics": [
@@ -2335,7 +2335,7 @@
         "name": "ThariqS/ai-newtab",
         "description": "Claude generates a daily new tab page based on your browser history.",
         "language": "TypeScript",
-        "stars": 560,
+        "stars": 603,
         "url": "https://github.com/ThariqS/ai-newtab",
         "created": "2026-10-08T17:44:43Z",
         "topics": [],
@@ -2398,7 +2398,7 @@
         "name": "franzenzenhofer/big-arrow-on-the-screen",
         "description": "Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.",
         "language": "Swift",
-        "stars": 503,
+        "stars": 541,
         "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
         "created": "2026-10-08T08:39:15Z",
         "topics": [
@@ -2408,8 +2408,8 @@
           "cli"
         ],
         "hn": {
-          "points": 392,
-          "comments": 174,
+          "points": 400,
+          "comments": 177,
           "url": "https://news.ycombinator.com/item?id=50018817"
         },
         "firstSeen": "2026-10-10",
@@ -3632,7 +3632,7 @@
         "source": "showhn",
         "title": "Quake ported to safe Rust, playable in browser",
         "url": "https://quake-srp.pages.dev/",
-        "points": 226,
+        "points": 229,
         "comments": 176,
         "discussion": "https://news.ycombinator.com/item?id=50016312",
         "created": "2026-10-09T05:22:58.000Z",
@@ -3709,8 +3709,8 @@
         "source": "hn",
         "title": "Let your AI agents paint big arrows, boxes and text on your screen",
         "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-        "points": 392,
-        "comments": 174,
+        "points": 400,
+        "comments": 177,
         "discussion": "https://news.ycombinator.com/item?id=50018817",
         "created": "2026-10-09T11:03:48.000Z",
         "firstSeen": "2026-10-09",
@@ -3731,8 +3731,8 @@
         "source": "showhn",
         "title": "Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
         "url": "https://carrierexplode.com/",
-        "points": 271,
-        "comments": 35,
+        "points": 343,
+        "comments": 42,
         "discussion": "https://news.ycombinator.com/item?id=50024499",
         "created": "2026-10-09T18:10:55.000Z",
         "firstSeen": "2026-10-10",
@@ -3742,8 +3742,8 @@
         "source": "showhn",
         "title": "The rarest tech books and docs you've probably never read",
         "url": "https://readrare.com/",
-        "points": 112,
-        "comments": 34,
+        "points": 141,
+        "comments": 53,
         "discussion": "https://news.ycombinator.com/item?id=50024055",
         "created": "2026-10-09T17:39:44.000Z",
         "firstSeen": "2026-10-10",
@@ -3763,85 +3763,106 @@
     }
   },
   "reading": {
-    "fetchedAt": "2026-10-10T06:33:49.084Z",
+    "fetchedAt": "2026-10-10T12:20:28.035Z",
     "hn": [
       {
         "title": "Cloudflare acquires Deno",
         "url": "https://deno.com/blog/cloudflare",
-        "points": 1156,
-        "comments": 592,
+        "points": 1263,
+        "comments": 639,
         "discussion": "https://news.ycombinator.com/item?id=50019911"
-      },
-      {
-        "title": "Sorry, I'm in a meeting",
-        "url": "https://iminafleeting.com/",
-        "points": 853,
-        "comments": 246,
-        "discussion": "https://news.ycombinator.com/item?id=50018088"
       },
       {
         "title": "Triple-A Minesweeper",
         "url": "https://minesweeper.mikelacher.com/",
-        "points": 842,
-        "comments": 163,
+        "points": 1055,
+        "comments": 204,
         "discussion": "https://news.ycombinator.com/item?id=50022292"
+      },
+      {
+        "title": "Sorry, I'm in a meeting",
+        "url": "https://iminafleeting.com/",
+        "points": 929,
+        "comments": 260,
+        "discussion": "https://news.ycombinator.com/item?id=50018088"
       },
       {
         "title": "Our $445M Series D",
         "url": "https://oxide.computer/blog/our-445m-series-d",
-        "points": 635,
-        "comments": 294,
+        "points": 667,
+        "comments": 300,
         "discussion": "https://news.ycombinator.com/item?id=50020014"
       },
       {
         "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
         "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
-        "points": 518,
-        "comments": 290,
+        "points": 598,
+        "comments": 325,
         "discussion": "https://news.ycombinator.com/item?id=50026555"
-      },
-      {
-        "title": "Typesafe AI raises $870M at $7.5B",
-        "url": "https://typesafe.ai/blog/series-ai",
-        "points": 335,
-        "comments": 240,
-        "discussion": "https://news.ycombinator.com/item?id=50023450"
       },
       {
         "title": "REA Reverse – Engineer Anything",
         "url": "https://rea.tools/",
-        "points": 282,
-        "comments": 91,
+        "points": 477,
+        "comments": 193,
         "discussion": "https://news.ycombinator.com/item?id=50028275"
+      },
+      {
+        "title": "Typesafe AI raises $870M at $7.5B",
+        "url": "https://typesafe.ai/blog/series-ai",
+        "points": 382,
+        "comments": 294,
+        "discussion": "https://news.ycombinator.com/item?id=50023450"
       },
       {
         "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
         "url": "https://carrierexplode.com/",
-        "points": 271,
-        "comments": 35,
+        "points": 343,
+        "comments": 42,
         "discussion": "https://news.ycombinator.com/item?id=50024499"
       },
       {
         "title": "'Wallace and Gromit,' 90% Alone",
         "url": "https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone",
-        "points": 192,
-        "comments": 24,
+        "points": 230,
+        "comments": 33,
         "discussion": "https://news.ycombinator.com/item?id=50020533"
       },
       {
-        "title": "Anthropic AI model submits false tip on unsolved Philly murder",
-        "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-        "points": 140,
+        "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+        "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+        "points": 219,
         "comments": 106,
-        "discussion": "https://news.ycombinator.com/item?id=50027118"
+        "discussion": "https://news.ycombinator.com/item?id=50029123"
       }
     ],
     "lobsters": [
       {
+        "title": "oh, apparently it's not possible to portably check for string-to-float conversion errors in standard c",
+        "url": "https://sebsite.pw/w/20261009-strtod.html",
+        "points": 21,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/rb2ulg/oh_apparently_it_s_not_possible_portably",
+        "tags": [
+          "c"
+        ]
+      },
+      {
+        "title": "No Man Is an Island",
+        "url": "https://borretti.me/article/no-man-is-an-island",
+        "points": 33,
+        "comments": 7,
+        "discussion": "https://lobste.rs/s/nxspz6/no_man_is_island",
+        "tags": [
+          "philosophy",
+          "vibecoding"
+        ]
+      },
+      {
         "title": "Programming Isn’t Special",
         "url": "https://blog.glyph.im/2026/10/programming-isnt-special.html",
-        "points": 67,
-        "comments": 36,
+        "points": 73,
+        "comments": 44,
         "discussion": "https://lobste.rs/s/ily7as/programming_isn_t_special",
         "tags": [
           "art",
@@ -3851,8 +3872,8 @@
       {
         "title": "A tale of four theorem provers, or: A (reasonably) opinionated comparison of Isabelle/HOL, Lean, HOL4, and Agda",
         "url": "https://blueberrywren.dev/blog/primes/",
-        "points": 31,
-        "comments": 6,
+        "points": 36,
+        "comments": 8,
         "discussion": "https://lobste.rs/s/4dwrz0/tale_four_theorem_provers_reasonably",
         "tags": [
           "design",
@@ -3860,21 +3881,10 @@
         ]
       },
       {
-        "title": "Why Are Coding Agents So Dumb?",
-        "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
-        "points": 32,
-        "comments": 15,
-        "discussion": "https://lobste.rs/s/t5htlf/why_are_coding_agents_so_dumb",
-        "tags": [
-          "rant",
-          "vibecoding"
-        ]
-      },
-      {
         "title": "Python 3.15.0",
         "url": "https://www.python.org/downloads/release/python-3150/",
-        "points": 37,
-        "comments": 2,
+        "points": 50,
+        "comments": 5,
         "discussion": "https://lobste.rs/s/rpiwtb/python_3_15_0",
         "tags": [
           "python",
@@ -3882,9 +3892,20 @@
         ]
       },
       {
+        "title": "Why Are Coding Agents So Dumb?",
+        "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
+        "points": 35,
+        "comments": 18,
+        "discussion": "https://lobste.rs/s/t5htlf/why_are_coding_agents_so_dumb",
+        "tags": [
+          "rant",
+          "vibecoding"
+        ]
+      },
+      {
         "title": "Unison Cloud is now open source",
         "url": "https://www.unison-lang.org/blog/unison-cloud-open-source/",
-        "points": 40,
+        "points": 47,
         "comments": 2,
         "discussion": "https://lobste.rs/s/zubabn/unison_cloud_is_now_open_source",
         "tags": [
@@ -3892,60 +3913,34 @@
         ]
       },
       {
-        "title": "No Man Is an Island",
-        "url": "https://borretti.me/article/no-man-is-an-island",
-        "points": 15,
+        "title": "There's little that's \"inevitable\" about AI",
+        "url": "https://deadsimpletech.com/blog/llms-arent-inevitable",
+        "points": 7,
         "comments": 0,
-        "discussion": "https://lobste.rs/s/nxspz6/no_man_is_island",
+        "discussion": "https://lobste.rs/s/lgxq91/there_s_little_s_inevitable_about_ai",
         "tags": [
-          "philosophy",
           "vibecoding"
-        ]
-      },
-      {
-        "title": "oh, apparently it's not possible to portably check for string-to-float conversion errors in standard c",
-        "url": "https://sebsite.pw/w/20261009-strtod.html",
-        "points": 4,
-        "comments": 0,
-        "discussion": "https://lobste.rs/s/rb2ulg/oh_apparently_it_s_not_possible_portably",
-        "tags": [
-          "c"
         ]
       },
       {
         "title": "Cloudflare shutting down Deno is news, not just PR",
         "url": "https://lobste.rs/s/8rrtma/cloudflare_shutting_down_deno_is_news_not",
-        "points": 32,
-        "comments": 8,
+        "points": 44,
+        "comments": 10,
         "discussion": "https://lobste.rs/s/8rrtma/cloudflare_shutting_down_deno_is_news_not",
         "tags": [
           "meta"
         ]
       },
       {
-        "title": "There are many themes, but this one is yours",
-        "url": "https://earendil.com/posts/system-theme/",
-        "points": 17,
-        "comments": 5,
-        "discussion": "https://lobste.rs/s/3zcaxw/there_are_many_themes_this_one_is_yours",
+        "title": "1-click MMI execution in Android",
+        "url": "https://karansaini.com/mmi-android/",
+        "points": 4,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/txa6dj/1_click_mmi_execution_android",
         "tags": [
-          "a11y",
-          "design",
-          "vibecoding"
-        ]
-      },
-      {
-        "title": "Branches in branch-free code",
-        "url": "https://00f.net/2026/10/09/llvm-compiles-branch-free-code-into-branches-on-risc-v/",
-        "points": 15,
-        "comments": 0,
-        "discussion": "https://lobste.rs/s/dsbt5a/branches_branch_free_code",
-        "tags": [
-          "assembly",
-          "c",
-          "compilers",
-          "rust",
-          "zig"
+          "android",
+          "security"
         ]
       }
     ],
@@ -3953,8 +3948,8 @@
       {
         "title": "Dev Opportunity Radar #20: $2M AI Reasoning Challenge, PayPal AI Hackathon, and Coinbase Analytics Challenge",
         "url": "https://dev.to/devengers/dev-opportunity-radar-20-2m-ai-reasoning-challenge-paypal-ai-hackathon-and-coinbase-analytics-1fec",
-        "points": 82,
-        "comments": 10,
+        "points": 91,
+        "comments": 13,
         "discussion": "https://dev.to/devengers/dev-opportunity-radar-20-2m-ai-reasoning-challenge-paypal-ai-hackathon-and-coinbase-analytics-1fec",
         "tags": [
           "discuss",
@@ -3963,22 +3958,10 @@
         ]
       },
       {
-        "title": "PLOT 🌿 - TabPFN on Real Frost Data Tells You to Touch Grass",
-        "url": "https://dev.to/pranjal_manhgaye_d94d7a8f/plot-tabpfn-on-real-frost-data-tells-you-to-touch-grass-54k1",
-        "points": 65,
-        "comments": 7,
-        "discussion": "https://dev.to/pranjal_manhgaye_d94d7a8f/plot-tabpfn-on-real-frost-data-tells-you-to-touch-grass-54k1",
-        "tags": [
-          "devchallenge",
-          "hf26challenge",
-          "productivity"
-        ]
-      },
-      {
         "title": "Super-Intelligent Yes-Men: Are We Training AI to Ignore the Truth?",
         "url": "https://dev.to/dannwaneri/super-intelligent-yes-men-are-we-training-ai-to-ignore-the-truth-epp",
-        "points": 38,
-        "comments": 17,
+        "points": 39,
+        "comments": 20,
         "discussion": "https://dev.to/dannwaneri/super-intelligent-yes-men-are-we-training-ai-to-ignore-the-truth-epp",
         "tags": [
           "devchallenge",
@@ -3987,21 +3970,21 @@
         ]
       },
       {
-        "title": "AI Got Better While I Was Away. Software Didn't.",
-        "url": "https://dev.to/the_nortern_dev/ai-got-better-while-i-was-away-software-didnt-4b2b",
-        "points": 29,
-        "comments": 34,
-        "discussion": "https://dev.to/the_nortern_dev/ai-got-better-while-i-was-away-software-didnt-4b2b",
+        "title": "What Do You Drink While You Work?",
+        "url": "https://dev.to/xulingfeng/what-do-you-drink-while-you-work-17bm",
+        "points": 39,
+        "comments": 54,
+        "discussion": "https://dev.to/xulingfeng/what-do-you-drink-while-you-work-17bm",
         "tags": [
-          "ai",
-          "programming",
-          "webdev"
+          "discuss",
+          "career",
+          "programming"
         ]
       },
       {
         "title": "Zero-Screen Dungeon Master: The Voice-Only RPG Where Your Real Walk Drives the Story",
         "url": "https://dev.to/vidisha_gupta_/zero-screen-dungeon-master-the-voice-only-rpg-where-your-real-walk-drives-the-story-3m68",
-        "points": 26,
+        "points": 27,
         "comments": 3,
         "discussion": "https://dev.to/vidisha_gupta_/zero-screen-dungeon-master-the-voice-only-rpg-where-your-real-walk-drives-the-story-3m68",
         "tags": [
@@ -4011,38 +3994,39 @@
         ]
       },
       {
-        "title": "FieldIssue: take a walk, report a problem, come back with evidence",
-        "url": "https://dev.to/himanshu_748/fieldissue-take-a-walk-report-a-problem-come-back-with-evidence-e40",
-        "points": 19,
-        "comments": 0,
-        "discussion": "https://dev.to/himanshu_748/fieldissue-take-a-walk-report-a-problem-come-back-with-evidence-e40",
-        "tags": [
-          "devchallenge",
-          "hf26challenge"
-        ]
-      },
-      {
-        "title": "The YAML Norway problem and cron's day-of-month trap: two config formats that lie to you",
-        "url": "https://dev.to/devopsdaily/the-yaml-norway-problem-and-crons-day-of-month-trap-two-config-formats-that-lie-to-you-a11",
-        "points": 18,
-        "comments": 1,
-        "discussion": "https://dev.to/devopsdaily/the-yaml-norway-problem-and-crons-day-of-month-trap-two-config-formats-that-lie-to-you-a11",
-        "tags": [
-          "yaml",
-          "linux",
-          "devops"
-        ]
-      },
-      {
         "title": "The Stack I'd Need for Claude to Direct a Whole YouTube Video in Blender",
         "url": "https://dev.to/lovestaco/the-stack-id-need-for-claude-to-direct-a-whole-youtube-video-in-blender-2ekd",
-        "points": 17,
+        "points": 24,
         "comments": 0,
         "discussion": "https://dev.to/lovestaco/the-stack-id-need-for-claude-to-direct-a-whole-youtube-video-in-blender-2ekd",
         "tags": [
           "blender",
           "ai",
           "mcp"
+        ]
+      },
+      {
+        "title": "I Built an AI Game That Wants You to Go Outside",
+        "url": "https://dev.to/sizzlebop/i-built-an-ai-game-that-wants-you-to-go-outside-3a6k",
+        "points": 24,
+        "comments": 3,
+        "discussion": "https://dev.to/sizzlebop/i-built-an-ai-game-that-wants-you-to-go-outside-3a6k",
+        "tags": [
+          "devchallenge",
+          "hf26challenge",
+          "showdev"
+        ]
+      },
+      {
+        "title": "WildProof: Go Outside With a Question, Come Back With Evidence",
+        "url": "https://dev.to/dj29/wildproof-go-outside-with-a-question-come-back-with-evidence-574e",
+        "points": 20,
+        "comments": 3,
+        "discussion": "https://dev.to/dj29/wildproof-go-outside-with-a-question-come-back-with-evidence-574e",
+        "tags": [
+          "devchallenge",
+          "hf26challenge",
+          "opensource"
         ]
       },
       {
@@ -4061,18 +4045,30 @@
         "title": "Does Your LLM Know the Boundary? I Left the Doors Open and 6 of 10 AI Agents Crowned Themselves",
         "url": "https://dev.to/t-rexbytes/does-your-llm-know-the-boundary-i-left-the-doors-open-and-6-of-10-ai-agents-crowned-themselves-4o42",
         "points": 15,
-        "comments": 5,
+        "comments": 6,
         "discussion": "https://dev.to/t-rexbytes/does-your-llm-know-the-boundary-i-left-the-doors-open-and-6-of-10-ai-agents-crowned-themselves-4o42",
         "tags": [
           "devchallenge",
           "kagglechallenge",
           "ai"
         ]
+      },
+      {
+        "title": "Leaf Peep: an open model reads the trees, so you know where to walk this weekend",
+        "url": "https://dev.to/sbis04/leaf-peep-an-open-model-reads-the-trees-so-you-know-where-to-walk-this-weekend-16hk",
+        "points": 14,
+        "comments": 2,
+        "discussion": "https://dev.to/sbis04/leaf-peep-an-open-model-reads-the-trees-so-you-know-where-to-walk-this-weekend-16hk",
+        "tags": [
+          "devchallenge",
+          "hf26challenge",
+          "gemma"
+        ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-10-10T06:33:49.084Z",
+    "fetchedAt": "2026-10-10T12:20:28.035Z",
     "candidates": {
       "https://blog.cloudflare.com/vinext-nextjs-on-vite": {
         "source": "Cloudflare",
@@ -4172,14 +4168,6 @@
         "url": "https://dthompson.us/posts/deploying-guix-images-on-linode.html",
         "discussion": "https://lobste.rs/s/mf2lic/deploying_guix_images_on_linode",
         "published": "2026-09-27T00:10:18.481Z",
-        "summary": ""
-      },
-      "https://david.alvarezrosa.com/posts/tuning-a-server-for-benchmarking": {
-        "source": "Lobsters",
-        "title": "Tuning a Server for Benchmarking",
-        "url": "https://david.alvarezrosa.com/posts/tuning-a-server-for-benchmarking/",
-        "discussion": "https://lobste.rs/s/fejuat/tuning_server_for_benchmarking",
-        "published": "2026-09-26T11:48:40.380Z",
         "summary": ""
       },
       "https://www.figma.com/blog/london-office-expansion": {
