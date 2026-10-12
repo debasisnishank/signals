@@ -219,9 +219,29 @@
     "https://news.ycombinator.com/item?id=50016489": {
       "why": "Microsoft's sandbox unifies several containment backends (bubblewrap, Seatbelt, Windows Sandbox, microVMs) behind one policy model and Rust, .NET and Node SDKs for running untrusted code.",
       "pickedOn": "2026-10-10"
+    },
+    "t4t5/omdrop-owl": {
+      "why": "Ships a userspace AWDL implementation so it works over ordinary Intel and MediaTek Wi-Fi, though only on the specific cards in its tested-hardware table.",
+      "pickedOn": "2026-10-12"
+    },
+    "marclou/mailcheap": {
+      "why": "A complete self-hosted Next.js newsletter with editor, list, SES bounce and complaint handling, stats and archive, released once without support.",
+      "pickedOn": "2026-10-12"
+    },
+    "franzenzenhofer/big-arrow-on-the-screen": {
+      "why": "A click-through overlay CLI that draws then removes its own markings, so agents can point at screen regions without a screenshot round-trip.",
+      "pickedOn": "2026-10-12"
+    },
+    "rociiu/talorys": {
+      "why": "Deploys as a single-user Cloudflare Worker with its own storage and scheduled reminders from one npx command, with no hosted backend or telemetry.",
+      "pickedOn": "2026-10-12"
+    },
+    "storytold/filmcraft": {
+      "why": "Implements its own H.264, HEVC, ProRes and AAC codecs in Rust and runs natively and in the browser via WASM instead of wrapping FFmpeg.",
+      "pickedOn": "2026-10-12"
     }
   },
-  "updatedAt": "2026-10-10T06:33:11.519Z",
+  "updatedAt": "2026-10-12T06:34:21.977Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -658,6 +678,45 @@
       "topic": "performance",
       "why": "Compares RwLock against atomic replacement in a read-heavy concurrent service, with measurements showing where each approach wins or costs.",
       "pickedOn": "2026-10-10"
+    },
+    "https://purplesyringa.moe/blog/vectorized-clz-and-ctz": {
+      "title": "Vectorized CLZ and CTZ",
+      "url": "https://purplesyringa.moe/blog/vectorized-clz-and-ctz/",
+      "source": "Lobsters",
+      "published": "2026-10-09T17:45:44.713Z",
+      "discussion": "https://lobste.rs/s/9xcc2g/vectorized_clz_ctz",
+      "topic": "performance",
+      "why": "Explains how to vectorize count-leading-zeros and count-trailing-zeros with SIMD, the bit tricks involved, and the resulting speedups.",
+      "pickedOn": "2026-10-12"
+    },
+    "https://matklad.github.io/2020/01/02/spinlocks-considered-harmful.html": {
+      "title": "Spinlocks Considered Harmful (2020)",
+      "url": "https://matklad.github.io/2020/01/02/spinlocks-considered-harmful.html",
+      "source": "Lobsters",
+      "published": "2026-10-09T13:33:23.334Z",
+      "discussion": "https://lobste.rs/s/8mj9bb/spinlocks_considered_harmful_2020",
+      "topic": "performance",
+      "why": "Explains why spinlocks hurt throughput and latency under contention, and which scheduling-aware alternatives avoid those costs.",
+      "pickedOn": "2026-10-12"
+    },
+    "https://www.cs.cit.tum.de/fileadmin/w00cfj/dis/papers/btrees-are-back.pdf": {
+      "title": "B-Trees Are Back: Engineering Fast and Pageable Node Layouts",
+      "url": "https://www.cs.cit.tum.de/fileadmin/w00cfj/dis/papers/btrees-are-back.pdf",
+      "source": "Lobsters",
+      "published": "2026-10-09T00:52:27.658Z",
+      "discussion": "https://lobste.rs/s/gvbqdy/b_trees_are_back_engineering_fast",
+      "topic": "databases",
+      "why": "Shows cache- and page-aware node layouts that make B-trees fast and pageable, and the trade-offs against classic designs.",
+      "pickedOn": "2026-10-12"
+    },
+    "https://muratbuffalo.blogspot.com/2026/10/atlas-infinite-mongodbs-disaggregated.html": {
+      "title": "Atlas Infinite: MongoDB's Disaggregated Architecture",
+      "url": "https://muratbuffalo.blogspot.com/2026/10/atlas-infinite-mongodbs-disaggregated.html",
+      "source": "Murat Demirbas",
+      "published": "2026-10-11T01:37:26.362Z",
+      "topic": "databases",
+      "why": "Describes how MongoDB disaggregated compute from storage in Atlas while keeping WiredTiger efficient, and the trade-offs that design required.",
+      "pickedOn": "2026-10-12"
     }
   },
   "deepdiveSkips": {
@@ -765,6 +824,13 @@
     "http://martin.kleppmann.com/2026/10/07/centre-for-cryptographic-trust-infrastructure.html": "2026-10-09",
     "https://blog.cloudflare.com/radar-redesign": "2026-10-09",
     "https://hexrat.cc/pages/blog/2026_10_07": "2026-10-09",
-    "https://blog.cloudflare.com/deno-joins-cloudflare": "2026-10-10"
+    "https://blog.cloudflare.com/deno-joins-cloudflare": "2026-10-10",
+    "https://blog.cloudflare.com/clef-faster-cheaper-multimodal": "2026-10-12",
+    "https://blog.cloudflare.com/workers-on-demand-profiling": "2026-10-12",
+    "https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption": "2026-10-12",
+    "https://www.figma.com/blog/sightlines-issue-no3": "2026-10-12",
+    "https://medium.com/pinterest-engineering/from-activity-to-intent-generating-user-journeys-with-llms-9652b9417626?source=rss----4c5a5f6279b6---4": "2026-10-12",
+    "https://theconsensus.dev/p/2026/10/08/deepthi-sigireddi-from-supabase.html": "2026-10-12",
+    "https://pings.utwente.io": "2026-10-12"
   }
 }
