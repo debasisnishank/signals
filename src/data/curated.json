@@ -239,9 +239,29 @@
     "storytold/filmcraft": {
       "why": "Implements its own H.264, HEVC, ProRes and AAC codecs in Rust and runs natively and in the browser via WASM instead of wrapping FFmpeg.",
       "pickedOn": "2026-10-12"
+    },
+    "aindeev/agent-chrome-relay": {
+      "why": "Agents hand over a whole goal in one command and it replays what worked on that site before, driving your logged-in Chrome in background tabs; today you build it from source.",
+      "pickedOn": "2026-10-13"
+    },
+    "jhaizhou-ops/d2r-mobile": {
+      "why": "A compatibility layer rather than an emulator, running a user-supplied Switch copy natively with full touch controls; you must supply your own game files.",
+      "pickedOn": "2026-10-13"
+    },
+    "https://news.ycombinator.com/item?id=50052251": {
+      "why": "Statically recompiles PS2 game binaries to WebAssembly instead of emulating hardware cycle by cycle, an approach the thread questions for timing-sensitive vector units.",
+      "pickedOn": "2026-10-13"
+    },
+    "https://news.ycombinator.com/item?id=50049132": {
+      "why": "Browser-only notebook that keeps lecture PDF text selectable beneath handwritten ink, needs no account or server, and exports ink as vectors back into the PDF.",
+      "pickedOn": "2026-10-13"
+    },
+    "https://news.ycombinator.com/item?id=50041573": {
+      "why": "Embeds the unmodified upstream Linux amdgpu driver as a PCIDriverKit extension so an iPad can run LLM inference on an AMD GPU in a Thunderbolt enclosure.",
+      "pickedOn": "2026-10-13"
     }
   },
-  "updatedAt": "2026-10-12T06:34:21.977Z",
+  "updatedAt": "2026-10-13T06:33:11.577Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -717,6 +737,36 @@
       "topic": "databases",
       "why": "Describes how MongoDB disaggregated compute from storage in Atlas while keeping WiredTiger efficient, and the trade-offs that design required.",
       "pickedOn": "2026-10-12"
+    },
+    "https://pydantic.dev/articles/dynamic-shredding-2026-01-26": {
+      "title": "How shredding JSON is giving Logfire 1000x query speedups",
+      "url": "https://pydantic.dev/articles/dynamic-shredding-2026-01-26",
+      "source": "Lobsters",
+      "published": "2026-10-11T06:16:26.688Z",
+      "discussion": "https://lobste.rs/s/6vjx1k/how_shredding_json_is_giving_logfire",
+      "topic": "performance",
+      "why": "Explains dynamic shredding, an optimization that rewrites semi-structured attribute data so previously timing-out queries finish in under a second.",
+      "pickedOn": "2026-10-13"
+    },
+    "https://n-the-loop.com/blog/consistency-is-not-a-localized-property": {
+      "title": "Consistency is not a localized property",
+      "url": "https://n-the-loop.com/blog/consistency-is-not-a-localized-property/",
+      "source": "Lobsters",
+      "published": "2026-10-11T00:51:28.569Z",
+      "discussion": "https://lobste.rs/s/rhy5zp/consistency_is_not_localized_property",
+      "topic": "distributed",
+      "why": "Argues consistency is an end-to-end property no single component can own, using Kafka's exactly-once work to show why someone must own the global guarantee.",
+      "pickedOn": "2026-10-13"
+    },
+    "https://blog.scientific-python.org/numpy/searchsorted": {
+      "title": "Making np.searchsorted up to 25× Faster in NumPy 2.5",
+      "url": "https://blog.scientific-python.org/numpy/searchsorted/",
+      "source": "Lobsters",
+      "published": "2026-10-10T23:25:51.517Z",
+      "discussion": "https://lobste.rs/s/fbs3k7/making_np_searchsorted_up_25x_faster",
+      "topic": "performance",
+      "why": "Shows vectorizing NumPy's binary search with branch elimination and cache-friendly layouts to replace per-key loops, reaching a 25x speedup.",
+      "pickedOn": "2026-10-13"
     }
   },
   "deepdiveSkips": {
@@ -831,6 +881,8 @@
     "https://www.figma.com/blog/sightlines-issue-no3": "2026-10-12",
     "https://medium.com/pinterest-engineering/from-activity-to-intent-generating-user-journeys-with-llms-9652b9417626?source=rss----4c5a5f6279b6---4": "2026-10-12",
     "https://theconsensus.dev/p/2026/10/08/deepthi-sigireddi-from-supabase.html": "2026-10-12",
-    "https://pings.utwente.io": "2026-10-12"
+    "https://pings.utwente.io": "2026-10-12",
+    "https://blog.cloudflare.com/transformers-on-logpush": "2026-10-13",
+    "https://aws.amazon.com/blogs/architecture/agentic-antimicrobial-resistance-surveillance-with-aws-healthomics-and-amazon-bedrock-agentcore": "2026-10-13"
   }
 }
