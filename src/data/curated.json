@@ -259,9 +259,29 @@
     "https://news.ycombinator.com/item?id=50041573": {
       "why": "Embeds the unmodified upstream Linux amdgpu driver as a PCIDriverKit extension so an iPad can run LLM inference on an AMD GPU in a Thunderbolt enclosure.",
       "pickedOn": "2026-10-13"
+    },
+    "c22dev/muguet": {
+      "why": "Runs the game's existing WebAssembly binary natively via wasmtime and wgpu instead of a browser engine, compiling to arm64 on first launch; you supply the game files.",
+      "pickedOn": "2026-10-14"
+    },
+    "shaongitbd/doory": {
+      "why": "Self-hosts with a single docker compose and offers free exports to SVG, PDF, MP4 and GIF with no account, unlike Canva's paid tiers.",
+      "pickedOn": "2026-10-14"
+    },
+    "onehumanbeing/esp32-iphone-agent": {
+      "why": "Uses AirPlay for vision and USB HID for input, letting any OpenAI-compatible model drive a real iPhone from a $7 ESP32 with no Mac, jailbreak or developer account.",
+      "pickedOn": "2026-10-14"
+    },
+    "https://news.ycombinator.com/item?id=50055593": {
+      "why": "Repurposes consumer WiFi 7 router hardware into a 320Msps software defined radio receiver instead of requiring dedicated SDR hardware.",
+      "pickedOn": "2026-10-14"
+    },
+    "https://news.ycombinator.com/item?id=50063717": {
+      "why": "Streams mixture-of-experts weights from SSD to run models larger than RAM on modest hardware, instead of relying on quantization or memory offload.",
+      "pickedOn": "2026-10-14"
     }
   },
-  "updatedAt": "2026-10-13T06:33:11.577Z",
+  "updatedAt": "2026-10-14T06:34:05.322Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -767,6 +787,44 @@
       "topic": "performance",
       "why": "Shows vectorizing NumPy's binary search with branch elimination and cache-friendly layouts to replace per-key loops, reaching a 25x speedup.",
       "pickedOn": "2026-10-13"
+    },
+    "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest": {
+      "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+      "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+      "source": "Meta",
+      "published": "2026-10-12T16:01:32.000Z",
+      "topic": "infrastructure",
+      "why": "How Meta deployed Media over QUIC for Instagram Live ingest, consolidating separate ingest protocols into one common transport.",
+      "pickedOn": "2026-10-14"
+    },
+    "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations": {
+      "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+      "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+      "source": "Meta",
+      "published": "2026-10-12T16:00:50.000Z",
+      "topic": "architecture",
+      "why": "How Meta safely uses idle inference capacity for ads ranking via two elasticity levers, isolation, and graceful load shedding.",
+      "pickedOn": "2026-10-14"
+    },
+    "https://larstofus.com/2026/10/11/speeding-up-the-unreal-editor-by-not-using-unnecessarily-secure-hash-methods": {
+      "title": "Speeding up the Unreal editor by… not using unnecessarily secure hash methods",
+      "url": "https://larstofus.com/2026/10/11/speeding-up-the-unreal-editor-by-not-using-unnecessarily-secure-hash-methods/",
+      "source": "Lobsters",
+      "published": "2026-10-12T18:37:55.759Z",
+      "discussion": "https://lobste.rs/s/5feguu/speeding_up_unreal_editor_by_not_using",
+      "topic": "performance",
+      "why": "How replacing a cryptographically secure hash with a faster non-crypto hash sped up Unreal editor shader compilation.",
+      "pickedOn": "2026-10-14"
+    },
+    "https://daniel.haxx.se/blog/2026/10/13/a-slightly-faster-slimmer-curl": {
+      "title": "A slightly faster slimmer curl",
+      "url": "https://daniel.haxx.se/blog/2026/10/13/a-slightly-faster-slimmer-curl/",
+      "source": "Lobsters",
+      "published": "2026-10-13T06:26:20.077Z",
+      "discussion": "https://lobste.rs/s/d9rpcl/slightly_faster_slimmer_curl",
+      "topic": "performance",
+      "why": "How curl sped up base64, URL, and date parsing by replacing lookup functions, with measured speedups.",
+      "pickedOn": "2026-10-14"
     }
   },
   "deepdiveSkips": {
@@ -883,6 +941,8 @@
     "https://theconsensus.dev/p/2026/10/08/deepthi-sigireddi-from-supabase.html": "2026-10-12",
     "https://pings.utwente.io": "2026-10-12",
     "https://blog.cloudflare.com/transformers-on-logpush": "2026-10-13",
-    "https://aws.amazon.com/blogs/architecture/agentic-antimicrobial-resistance-surveillance-with-aws-healthomics-and-amazon-bedrock-agentcore": "2026-10-13"
+    "https://aws.amazon.com/blogs/architecture/agentic-antimicrobial-resistance-surveillance-with-aws-healthomics-and-amazon-bedrock-agentcore": "2026-10-13",
+    "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks": "2026-10-14",
+    "https://www.youtube.com/watch?v=vit9xua9blc": "2026-10-14"
   }
 }
