@@ -279,9 +279,29 @@
     "https://news.ycombinator.com/item?id=50063717": {
       "why": "Streams mixture-of-experts weights from SSD to run models larger than RAM on modest hardware, instead of relying on quantization or memory offload.",
       "pickedOn": "2026-10-14"
+    },
+    "wheresryan22/anatomy": {
+      "why": "Rather than diagram the concept it invents a working physical object whose operation is the idea, then zooms in to check its own joints; needs a coding-agent subscription.",
+      "pickedOn": "2026-10-16"
+    },
+    "ahwootech/BRUTAL": {
+      "why": "Already the foundation under Kitten Space Agency and RimWorld's Waylith engine, it gives C# direct native and Vulkan access and makes none of the engine decisions for you.",
+      "pickedOn": "2026-10-16"
+    },
+    "https://news.ycombinator.com/item?id=50077619": {
+      "why": "Counts net syntax units instead of lines and subtracts deletions, so models cannot game it by code-golfing, reusing patches that other benchmarks already publish.",
+      "pickedOn": "2026-10-16"
+    },
+    "https://news.ycombinator.com/item?id=50075809": {
+      "why": "Ships compiled JS so it runs under any oxlint runtime, and its rules target AI-specific patterns like chained type assertions rather than general style.",
+      "pickedOn": "2026-10-16"
+    },
+    "https://news.ycombinator.com/item?id=50092470": {
+      "why": "Built by part of the original CoScreen team after Datadog shut that service down, it revives multi-cursor pair programming as a free, self-hostable tool.",
+      "pickedOn": "2026-10-16"
     }
   },
-  "updatedAt": "2026-10-14T06:34:05.322Z",
+  "updatedAt": "2026-10-16T06:34:58.946Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -825,6 +845,105 @@
       "topic": "performance",
       "why": "How curl sped up base64, URL, and date parsing by replacing lookup functions, with measured speedups.",
       "pickedOn": "2026-10-14"
+    },
+    "https://blog.cloudflare.com/d1-control-plane": {
+      "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
+      "url": "https://blog.cloudflare.com/d1-control-plane/",
+      "source": "Cloudflare",
+      "published": "2026-10-13T16:20:18.000Z",
+      "topic": "databases",
+      "why": "Explains how Cloudflare split D1's control plane from the edge data plane to provision and manage millions of small databases without slowing queries.",
+      "pickedOn": "2026-10-16"
+    },
+    "https://blog.cloudflare.com/rewinding-the-exponential": {
+      "title": "Rewinding the exponential: How we keep hardware usage down",
+      "url": "https://blog.cloudflare.com/rewinding-the-exponential/",
+      "source": "Cloudflare",
+      "published": "2026-10-13T15:51:41.000Z",
+      "topic": "performance",
+      "why": "Describes how Cloudflare cut hardware use in its data pipeline by reworking throughput and processing while preserving data quality.",
+      "pickedOn": "2026-10-16"
+    },
+    "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai": {
+      "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
+      "url": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/",
+      "source": "Meta",
+      "published": "2026-10-13T16:01:00.000Z",
+      "topic": "architecture",
+      "why": "Covers how Meta built and scaled GEM, an LLM-style ads recommendation model, including compute engine choices for training and serving at frontier scale.",
+      "pickedOn": "2026-10-16"
+    },
+    "https://aws.amazon.com/blogs/architecture/bulk-executor-for-amazon-dynamodb-part-2-lessons-we-learned-the-hard-way": {
+      "title": "Bulk Executor for Amazon DynamoDB, Part 2: Lessons we learned the hard way",
+      "url": "https://aws.amazon.com/blogs/architecture/bulk-executor-for-amazon-dynamodb-part-2-lessons-we-learned-the-hard-way/",
+      "source": "AWS Architecture",
+      "published": "2026-10-13T14:23:33.000Z",
+      "topic": "databases",
+      "why": "Second part of a DynamoDB bulk tool: the design tradeoffs, surprises and workarounds the team hit building bulk operations on AWS Glue.",
+      "pickedOn": "2026-10-16"
+    },
+    "https://blog.cloudflare.com/hyperdrive-mysql": {
+      "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
+      "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
+      "source": "Cloudflare",
+      "published": "2026-10-14T13:00:00.000Z",
+      "topic": "reliability",
+      "why": "A hunt for a rare 0.001% query-caching error in a MySQL proxy, showing how wrong protocol assumptions create subtle production bugs.",
+      "pickedOn": "2026-10-16"
+    },
+    "https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60?source=rss----2615bd06b42e---4": {
+      "title": "TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads",
+      "url": "https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60?source=rss----2615bd06b42e---4",
+      "source": "Netflix",
+      "published": "2026-10-14T19:56:08.000Z",
+      "topic": "databases",
+      "why": "How Netflix moved time-series reads from Kafka/Flink streams to Cassandra cold reads with tiered storage, and the trade-offs involved.",
+      "pickedOn": "2026-10-16"
+    },
+    "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb?source=rss----2615bd06b42e---4": {
+      "title": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II",
+      "url": "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb?source=rss----2615bd06b42e---4",
+      "source": "Netflix",
+      "published": "2026-10-14T19:51:35.000Z",
+      "topic": "distributed",
+      "why": "How Netflix re-architected its ads event pipeline to handle live traffic, with concrete engineering decisions for scaling real-time events.",
+      "pickedOn": "2026-10-16"
+    },
+    "https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801?source=rss----2615bd06b42e---4": {
+      "title": "Netflix Stratum Media Processing: Automated Container Right-Sizing",
+      "url": "https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801?source=rss----2615bd06b42e---4",
+      "source": "Netflix",
+      "published": "2026-10-14T19:48:20.000Z",
+      "topic": "infrastructure",
+      "why": "How Netflix automated container right-sizing for media processing to cut compute waste, including the measurements and approach behind it.",
+      "pickedOn": "2026-10-16"
+    },
+    "https://netflixtechblog.com/reliable-gpu-compute-for-large-training-inference-jobs-d62b03a96d7a?source=rss----2615bd06b42e---4": {
+      "title": "Reliable GPU compute for large training & inference jobs",
+      "url": "https://netflixtechblog.com/reliable-gpu-compute-for-large-training-inference-jobs-d62b03a96d7a?source=rss----2615bd06b42e---4",
+      "source": "Netflix",
+      "published": "2026-10-14T19:47:42.000Z",
+      "topic": "reliability",
+      "why": "How Netflix makes GPU compute reliable for large training and inference jobs, covering failure modes and resilience at scale.",
+      "pickedOn": "2026-10-16"
+    },
+    "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers": {
+      "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+      "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
+      "source": "GitHub",
+      "published": "2026-10-14T19:11:33.000Z",
+      "topic": "performance",
+      "why": "How GitHub rebuilt star history to cut 2,500 requests down to 24, showing the API and database trade-offs they chose.",
+      "pickedOn": "2026-10-16"
+    },
+    "https://aws.amazon.com/blogs/architecture/multi-region-disaster-recovery-for-amazon-api-gateway-websocket-apis": {
+      "title": "Multi-region disaster recovery for Amazon API Gateway WebSocket APIs",
+      "url": "https://aws.amazon.com/blogs/architecture/multi-region-disaster-recovery-for-amazon-api-gateway-websocket-apis/",
+      "source": "AWS Architecture",
+      "published": "2026-10-14T14:31:55.000Z",
+      "topic": "architecture",
+      "why": "Shows how to design multi-region failover for WebSocket APIs, combining DNS failover, DynamoDB Global Tables and health probes to restore sessions.",
+      "pickedOn": "2026-10-16"
     }
   },
   "deepdiveSkips": {
@@ -943,6 +1062,26 @@
     "https://blog.cloudflare.com/transformers-on-logpush": "2026-10-13",
     "https://aws.amazon.com/blogs/architecture/agentic-antimicrobial-resistance-surveillance-with-aws-healthomics-and-amazon-bedrock-agentcore": "2026-10-13",
     "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks": "2026-10-14",
-    "https://www.youtube.com/watch?v=vit9xua9blc": "2026-10-14"
+    "https://www.youtube.com/watch?v=vit9xua9blc": "2026-10-14",
+    "https://stripe.com/blog/economics-of-ai-monetization": "2026-10-16",
+    "https://www.figma.com/blog/source-material-manon-macasaet": "2026-10-16",
+    "https://aws.amazon.com/blogs/architecture/scope-workloads-and-share-resilience-policies-with-aws-resilience-hub": "2026-10-16",
+    "https://aws.amazon.com/blogs/architecture/stopping-business-email-compromise-with-ai-driven-email-security-how-vipre-protects-modern-enterprises-on-aws": "2026-10-16",
+    "https://medium.com/airbnb-engineering/castle-training-natural-language-search-before-the-first-real-query-3818ef8b4828?source=rss----53c7c27702d5---4": "2026-10-16",
+    "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves": "2026-10-16",
+    "https://hackaday.com/2026/10/07/esp32-as-your-raspberry-pis-linux-wireless-co-processor": "2026-10-16",
+    "https://blog.cloudflare.com/yandex-outage": "2026-10-16",
+    "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb?source=rss----2615bd06b42e---4": "2026-10-16",
+    "https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5?source=rss----2615bd06b42e---4": "2026-10-16",
+    "https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96?source=rss----2615bd06b42e---4": "2026-10-16",
+    "https://netflixtechblog.com/netflix-conductor-the-next-chapter-41ad21067649?source=rss----2615bd06b42e---4": "2026-10-16",
+    "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8?source=rss----2615bd06b42e---4": "2026-10-16",
+    "https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale-c95bd8283508?source=rss----2615bd06b42e---4": "2026-10-16",
+    "https://aws.amazon.com/blogs/architecture/how-uts-established-a-modern-curriculum-data-services-foundation-on-aws": "2026-10-16",
+    "https://www.figma.com/blog/figma-deepens-investment-in-india": "2026-10-16",
+    "https://www.figma.com/blog/build-by-design": "2026-10-16",
+    "https://www.figma.com/blog/design-together-with-code-layers": "2026-10-16",
+    "https://www.figma.com/blog/introducing-figma-specs": "2026-10-16",
+    "https://www.figma.com/blog/websites-with-payload-in-figma": "2026-10-16"
   }
 }
