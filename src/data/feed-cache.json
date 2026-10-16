@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-10-16T06:35:46.628Z",
+    "fetchedAt": "2026-10-16T11:11:59.447Z",
     "repos": [
       {
         "name": "storytold/photocraft",
         "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 63793,
+        "stars": 64162,
         "url": "https://github.com/storytold/photocraft",
         "created": "2026-09-30T13:37:48Z",
         "topics": [
@@ -25,7 +25,7 @@
         "name": "storytold/pdfcraft",
         "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 14568,
+        "stars": 14690,
         "url": "https://github.com/storytold/pdfcraft",
         "created": "2026-09-30T13:39:37Z",
         "topics": [
@@ -39,7 +39,7 @@
         "name": "storytold/filmcraft",
         "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 13942,
+        "stars": 14018,
         "url": "https://github.com/storytold/filmcraft",
         "created": "2026-09-30T13:41:20Z",
         "topics": [
@@ -50,24 +50,10 @@
         ]
       },
       {
-        "name": "storytold/wordcraft",
-        "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
-        "language": "Rust",
-        "stars": 13324,
-        "url": "https://github.com/storytold/wordcraft",
-        "created": "2026-10-07T08:34:24Z",
-        "topics": [],
-        "hn": {
-          "points": 101,
-          "comments": 117,
-          "url": "https://news.ycombinator.com/item?id=50050370"
-        }
-      },
-      {
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 13174,
+        "stars": 13485,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -78,10 +64,24 @@
         ]
       },
       {
+        "name": "storytold/wordcraft",
+        "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+        "language": "Rust",
+        "stars": 13434,
+        "url": "https://github.com/storytold/wordcraft",
+        "created": "2026-10-07T08:34:24Z",
+        "topics": [],
+        "hn": {
+          "points": 101,
+          "comments": 117,
+          "url": "https://news.ycombinator.com/item?id=50050370"
+        }
+      },
+      {
         "name": "storytold/lightcraft",
         "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 13031,
+        "stars": 13077,
         "url": "https://github.com/storytold/lightcraft",
         "created": "2026-09-30T14:09:27Z",
         "topics": [
@@ -95,7 +95,7 @@
         "name": "storytold/vectorcraft",
         "description": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 9279,
+        "stars": 9322,
         "url": "https://github.com/storytold/vectorcraft",
         "created": "2026-09-30T13:43:03Z",
         "topics": [
@@ -109,7 +109,7 @@
         "name": "rehan-remade/universal-modder",
         "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
         "language": "Python",
-        "stars": 7966,
+        "stars": 7994,
         "url": "https://github.com/rehan-remade/universal-modder",
         "created": "2026-09-30T05:00:35Z",
         "topics": [
@@ -123,7 +123,7 @@
         "name": "ahwootech/BRUTAL",
         "description": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld's Waylith engine.",
         "language": "C#",
-        "stars": 1272,
+        "stars": 1352,
         "url": "https://github.com/ahwootech/BRUTAL",
         "created": "2026-10-14T19:33:56Z",
         "topics": []
@@ -132,7 +132,7 @@
         "name": "chenglou/handwired",
         "description": "Turn your regular JavaScript code into a neural net.",
         "language": "TypeScript",
-        "stars": 1231,
+        "stars": 1330,
         "url": "https://github.com/chenglou/handwired",
         "created": "2026-10-15T02:15:09Z",
         "topics": []
@@ -141,7 +141,7 @@
         "name": "feder-cr/open_scion",
         "description": "Open-source version of Scion: version control built for coding agents.",
         "language": "Go",
-        "stars": 1018,
+        "stars": 1027,
         "url": "https://github.com/feder-cr/open_scion",
         "created": "2026-10-15T13:12:02Z",
         "topics": [
@@ -155,7 +155,7 @@
         "name": "Supermedo/uncharted_pc",
         "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
         "language": "C++",
-        "stars": 768,
+        "stars": 851,
         "url": "https://github.com/Supermedo/uncharted_pc",
         "created": "2026-10-15T00:17:23Z",
         "topics": []
@@ -164,7 +164,7 @@
         "name": "0xProbabillity/house-control",
         "description": "Your home as a live 3D model in the Mac menu bar and on iPhone — lights and ACs via Smart Life, Home Assistant, Philips Hue and Apple Home.",
         "language": "Swift",
-        "stars": 434,
+        "stars": 465,
         "url": "https://github.com/0xProbabillity/house-control",
         "created": "2026-10-14T12:32:21Z",
         "topics": [
@@ -178,7 +178,7 @@
         "name": "MyLuxy/overdrive",
         "description": "Overdrive, a PS5 homebrew game store with 1,800+ games.",
         "language": "C++",
-        "stars": 398,
+        "stars": 418,
         "url": "https://github.com/MyLuxy/overdrive",
         "created": "2026-10-14T00:07:08Z",
         "topics": [
@@ -192,16 +192,25 @@
         "name": "pro-vi/cc-stretch",
         "description": "Stretchtext replies for Claude Code: short by default, each phrase grows in place when you click it",
         "language": "TypeScript",
-        "stars": 311,
+        "stars": 324,
         "url": "https://github.com/pro-vi/cc-stretch",
         "created": "2026-10-14T22:03:26Z",
+        "topics": []
+      },
+      {
+        "name": "VallierDev/uu-remote-linux",
+        "description": "非官方 UU 远程 Linux 被控端 · Unofficial Linux host for NetEase UU Remote",
+        "language": "Rust",
+        "stars": 215,
+        "url": "https://github.com/VallierDev/uu-remote-linux",
+        "created": "2026-10-14T15:53:43Z",
         "topics": []
       },
       {
         "name": "Entelligence-AI/agentplay",
         "description": "Replay your coding agent sessions as a map and a timeline",
         "language": "Python",
-        "stars": 213,
+        "stars": 214,
         "url": "https://github.com/Entelligence-AI/agentplay",
         "created": "2026-10-14T09:06:49Z",
         "topics": [
@@ -212,19 +221,10 @@
         ]
       },
       {
-        "name": "VallierDev/uu-remote-linux",
-        "description": "非官方 UU 远程 Linux 被控端 · Unofficial Linux host for NetEase UU Remote",
-        "language": "Rust",
-        "stars": 210,
-        "url": "https://github.com/VallierDev/uu-remote-linux",
-        "created": "2026-10-14T15:53:43Z",
-        "topics": []
-      },
-      {
         "name": "CarterT27/scion",
         "description": "Implementation of Anthropic's version control system",
         "language": "Rust",
-        "stars": 194,
+        "stars": 199,
         "url": "https://github.com/CarterT27/scion",
         "created": "2026-10-14T18:58:07Z",
         "topics": []
@@ -235,8 +235,8 @@
         "source": "showhn",
         "title": "Sygal – Convert PDFs, scans and web pages to Markdown, locally",
         "url": "https://sygal.app",
-        "points": 39,
-        "comments": 13,
+        "points": 42,
+        "comments": 15,
         "discussion": "https://news.ycombinator.com/item?id=50106054",
         "created": "2026-10-15T16:26:16.000Z"
       },
@@ -244,7 +244,7 @@
         "source": "showhn",
         "title": "Proa – A Rust web framework with fast SSR and multi-target rendering",
         "url": "https://proa.so/",
-        "points": 98,
+        "points": 102,
         "comments": 28,
         "discussion": "https://news.ycombinator.com/item?id=50105467",
         "created": "2026-10-15T15:52:08.000Z"
@@ -253,7 +253,7 @@
         "source": "showhn",
         "title": "Unfenced – Land for sale that borders public land",
         "url": "https://unfenced.land/",
-        "points": 291,
+        "points": 296,
         "comments": 191,
         "discussion": "https://news.ycombinator.com/item?id=50102247",
         "created": "2026-10-15T11:38:57.000Z"
@@ -262,8 +262,8 @@
         "source": "showhn",
         "title": "Flipflop – Iroh-powered persistent tunnels for filesharing",
         "url": "https://github.com/andunieee/flipflop",
-        "points": 120,
-        "comments": 62,
+        "points": 129,
+        "comments": 63,
         "discussion": "https://news.ycombinator.com/item?id=50099136",
         "created": "2026-10-15T04:25:28.000Z"
       },
@@ -280,7 +280,7 @@
         "source": "showhn",
         "title": "Petal, open-source CoScreen/ScreenHero finally free",
         "url": "https://petal.live/",
-        "points": 215,
+        "points": 217,
         "comments": 41,
         "discussion": "https://news.ycombinator.com/item?id=50092470",
         "created": "2026-10-14T18:23:14.000Z"
@@ -299,7 +299,7 @@
         "title": "Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
         "url": "https://news.ycombinator.com/item?id=50059096",
         "points": 160,
-        "comments": 124,
+        "comments": 125,
         "discussion": "https://news.ycombinator.com/item?id=50059096",
         "created": "2026-10-12T16:46:34.000Z"
       },
@@ -325,8 +325,8 @@
         "source": "hn",
         "title": "Wayland desktop for Linux with skeuomorphic design",
         "url": "https://github.com/fyzugx/DEsk",
-        "points": 571,
-        "comments": 227,
+        "points": 622,
+        "comments": 250,
         "discussion": "https://news.ycombinator.com/item?id=50103338",
         "created": "2026-10-15T13:23:44.000Z"
       },
@@ -334,8 +334,8 @@
         "source": "hn",
         "title": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
         "url": "https://libreboot.org/news/libreboot2610.html",
-        "points": 275,
-        "comments": 165,
+        "points": 290,
+        "comments": 181,
         "discussion": "https://news.ycombinator.com/item?id=50102923",
         "created": "2026-10-15T12:52:16.000Z"
       },
@@ -343,8 +343,8 @@
         "source": "hn",
         "title": "Any window from your Mac, on your iPhone and iPad",
         "url": "https://github.com/Saffsanity/sill",
-        "points": 120,
-        "comments": 23,
+        "points": 165,
+        "comments": 37,
         "discussion": "https://news.ycombinator.com/item?id=50112739",
         "created": "2026-10-16T01:43:17.000Z"
       },
@@ -1036,7 +1036,7 @@
         "name": "rehan-remade/universal-modder",
         "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
         "language": "Python",
-        "stars": 7966,
+        "stars": 7994,
         "url": "https://github.com/rehan-remade/universal-modder",
         "created": "2026-09-30T05:00:35Z",
         "topics": [
@@ -1879,7 +1879,7 @@
         "name": "storytold/photocraft",
         "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 63793,
+        "stars": 64162,
         "url": "https://github.com/storytold/photocraft",
         "created": "2026-09-30T13:37:48Z",
         "topics": [
@@ -2150,7 +2150,7 @@
         "name": "storytold/wordcraft",
         "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
         "language": "Rust",
-        "stars": 13324,
+        "stars": 13434,
         "url": "https://github.com/storytold/wordcraft",
         "created": "2026-10-07T08:34:24Z",
         "topics": [],
@@ -2237,7 +2237,7 @@
         "name": "storytold/lightcraft",
         "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 13031,
+        "stars": 13077,
         "url": "https://github.com/storytold/lightcraft",
         "created": "2026-09-30T14:09:27Z",
         "topics": [
@@ -2278,7 +2278,7 @@
         "name": "storytold/filmcraft",
         "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 13942,
+        "stars": 14018,
         "url": "https://github.com/storytold/filmcraft",
         "created": "2026-09-30T13:41:20Z",
         "topics": [
@@ -2447,7 +2447,7 @@
         "name": "storytold/pdfcraft",
         "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 14568,
+        "stars": 14690,
         "url": "https://github.com/storytold/pdfcraft",
         "created": "2026-09-30T13:39:37Z",
         "topics": [
@@ -2976,7 +2976,7 @@
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 13174,
+        "stars": 13485,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -2993,7 +2993,7 @@
         "name": "storytold/vectorcraft",
         "description": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 9279,
+        "stars": 9322,
         "url": "https://github.com/storytold/vectorcraft",
         "created": "2026-09-30T13:43:03Z",
         "topics": [
@@ -3027,7 +3027,7 @@
         "name": "ahwootech/BRUTAL",
         "description": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld's Waylith engine.",
         "language": "C#",
-        "stars": 1272,
+        "stars": 1352,
         "url": "https://github.com/ahwootech/BRUTAL",
         "created": "2026-10-14T19:33:56Z",
         "topics": [],
@@ -3073,7 +3073,7 @@
         "name": "0xProbabillity/house-control",
         "description": "Your home as a live 3D model in the Mac menu bar and on iPhone — lights and ACs via Smart Life, Home Assistant, Philips Hue and Apple Home.",
         "language": "Swift",
-        "stars": 434,
+        "stars": 465,
         "url": "https://github.com/0xProbabillity/house-control",
         "created": "2026-10-14T12:32:21Z",
         "topics": [
@@ -3090,7 +3090,7 @@
         "name": "MyLuxy/overdrive",
         "description": "Overdrive, a PS5 homebrew game store with 1,800+ games.",
         "language": "C++",
-        "stars": 398,
+        "stars": 418,
         "url": "https://github.com/MyLuxy/overdrive",
         "created": "2026-10-14T00:07:08Z",
         "topics": [
@@ -3107,7 +3107,7 @@
         "name": "chenglou/handwired",
         "description": "Turn your regular JavaScript code into a neural net.",
         "language": "TypeScript",
-        "stars": 1231,
+        "stars": 1330,
         "url": "https://github.com/chenglou/handwired",
         "created": "2026-10-15T02:15:09Z",
         "topics": [],
@@ -3119,7 +3119,7 @@
         "name": "feder-cr/open_scion",
         "description": "Open-source version of Scion: version control built for coding agents.",
         "language": "Go",
-        "stars": 1018,
+        "stars": 1027,
         "url": "https://github.com/feder-cr/open_scion",
         "created": "2026-10-15T13:12:02Z",
         "topics": [
@@ -3136,7 +3136,7 @@
         "name": "Supermedo/uncharted_pc",
         "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
         "language": "C++",
-        "stars": 768,
+        "stars": 851,
         "url": "https://github.com/Supermedo/uncharted_pc",
         "created": "2026-10-15T00:17:23Z",
         "topics": [],
@@ -3148,7 +3148,7 @@
         "name": "pro-vi/cc-stretch",
         "description": "Stretchtext replies for Claude Code: short by default, each phrase grows in place when you click it",
         "language": "TypeScript",
-        "stars": 311,
+        "stars": 324,
         "url": "https://github.com/pro-vi/cc-stretch",
         "created": "2026-10-14T22:03:26Z",
         "topics": [],
@@ -3160,7 +3160,7 @@
         "name": "Entelligence-AI/agentplay",
         "description": "Replay your coding agent sessions as a map and a timeline",
         "language": "Python",
-        "stars": 213,
+        "stars": 214,
         "url": "https://github.com/Entelligence-AI/agentplay",
         "created": "2026-10-14T09:06:49Z",
         "topics": [
@@ -3177,7 +3177,7 @@
         "name": "VallierDev/uu-remote-linux",
         "description": "非官方 UU 远程 Linux 被控端 · Unofficial Linux host for NetEase UU Remote",
         "language": "Rust",
-        "stars": 210,
+        "stars": 215,
         "url": "https://github.com/VallierDev/uu-remote-linux",
         "created": "2026-10-14T15:53:43Z",
         "topics": [],
@@ -3189,7 +3189,7 @@
         "name": "CarterT27/scion",
         "description": "Implementation of Anthropic's version control system",
         "language": "Rust",
-        "stars": 194,
+        "stars": 199,
         "url": "https://github.com/CarterT27/scion",
         "created": "2026-10-14T18:58:07Z",
         "topics": [],
@@ -4700,7 +4700,7 @@
         "title": "Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
         "url": "https://news.ycombinator.com/item?id=50059096",
         "points": 160,
-        "comments": 124,
+        "comments": 125,
         "discussion": "https://news.ycombinator.com/item?id=50059096",
         "created": "2026-10-12T16:46:34.000Z",
         "firstSeen": "2026-10-13",
@@ -4908,8 +4908,8 @@
         "source": "showhn",
         "title": "Flipflop, Iroh-powered persistent tunnels for filesharing",
         "url": "https://github.com/andunieee/flipflop",
-        "points": 120,
-        "comments": 62,
+        "points": 129,
+        "comments": 63,
         "discussion": "https://news.ycombinator.com/item?id=50099136",
         "created": "2026-10-15T04:25:28.000Z",
         "firstSeen": "2026-10-15",
@@ -4919,7 +4919,7 @@
         "source": "showhn",
         "title": "Petal, open-source CoScreen/ScreenHero finally free",
         "url": "https://petal.live/",
-        "points": 215,
+        "points": 217,
         "comments": 41,
         "discussion": "https://news.ycombinator.com/item?id=50092470",
         "created": "2026-10-14T18:23:14.000Z",
@@ -4974,8 +4974,8 @@
         "source": "showhn",
         "title": "Sygal – Convert PDFs, scans and web pages to Markdown, locally",
         "url": "https://sygal.app",
-        "points": 39,
-        "comments": 13,
+        "points": 42,
+        "comments": 15,
         "discussion": "https://news.ycombinator.com/item?id=50106054",
         "created": "2026-10-15T16:26:16.000Z",
         "firstSeen": "2026-10-16",
@@ -4985,7 +4985,7 @@
         "source": "showhn",
         "title": "Proa – A Rust web framework with fast SSR and multi-target rendering",
         "url": "https://proa.so/",
-        "points": 98,
+        "points": 102,
         "comments": 28,
         "discussion": "https://news.ycombinator.com/item?id=50105467",
         "created": "2026-10-15T15:52:08.000Z",
@@ -4996,7 +4996,7 @@
         "source": "showhn",
         "title": "Unfenced – Land for sale that borders public land",
         "url": "https://unfenced.land/",
-        "points": 291,
+        "points": 296,
         "comments": 191,
         "discussion": "https://news.ycombinator.com/item?id=50102247",
         "created": "2026-10-15T11:38:57.000Z",
@@ -5018,8 +5018,8 @@
         "source": "hn",
         "title": "Wayland desktop for Linux with skeuomorphic design",
         "url": "https://github.com/fyzugx/DEsk",
-        "points": 571,
-        "comments": 227,
+        "points": 622,
+        "comments": 250,
         "discussion": "https://news.ycombinator.com/item?id=50103338",
         "created": "2026-10-15T13:23:44.000Z",
         "firstSeen": "2026-10-16",
@@ -5029,8 +5029,8 @@
         "source": "hn",
         "title": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
         "url": "https://libreboot.org/news/libreboot2610.html",
-        "points": 275,
-        "comments": 165,
+        "points": 290,
+        "comments": 181,
         "discussion": "https://news.ycombinator.com/item?id=50102923",
         "created": "2026-10-15T12:52:16.000Z",
         "firstSeen": "2026-10-16",
@@ -5040,8 +5040,8 @@
         "source": "hn",
         "title": "Any window from your Mac, on your iPhone and iPad",
         "url": "https://github.com/Saffsanity/sill",
-        "points": 120,
-        "comments": 23,
+        "points": 165,
+        "comments": 37,
         "discussion": "https://news.ycombinator.com/item?id=50112739",
         "created": "2026-10-16T01:43:17.000Z",
         "firstSeen": "2026-10-16",
@@ -5050,85 +5050,96 @@
     }
   },
   "reading": {
-    "fetchedAt": "2026-10-16T06:35:46.628Z",
+    "fetchedAt": "2026-10-16T11:11:59.447Z",
     "hn": [
       {
         "title": "Muse Spark Open",
         "url": "https://research.meta.ai/blog/muse-spark-open",
-        "points": 747,
-        "comments": 386,
+        "points": 828,
+        "comments": 415,
         "discussion": "https://news.ycombinator.com/item?id=50107379"
       },
       {
         "title": "Neural networks are clean",
         "url": "https://already-clean.goodfire.com/",
-        "points": 615,
-        "comments": 227,
+        "points": 706,
+        "comments": 266,
         "discussion": "https://news.ycombinator.com/item?id=50105647"
       },
       {
         "title": "Wayland desktop for Linux with skeuomorphic design",
         "url": "https://github.com/fyzugx/DEsk",
-        "points": 571,
-        "comments": 227,
+        "points": 622,
+        "comments": 248,
         "discussion": "https://news.ycombinator.com/item?id=50103338"
-      },
-      {
-        "title": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
-        "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
-        "points": 441,
-        "comments": 591,
-        "discussion": "https://news.ycombinator.com/item?id=50101813"
-      },
-      {
-        "title": "Jev meets the Trolley Problem",
-        "url": "https://zachlandes.com/trolley-problem/",
-        "points": 400,
-        "comments": 173,
-        "discussion": "https://news.ycombinator.com/item?id=50106023"
       },
       {
         "title": "What I self-host",
         "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
-        "points": 396,
-        "comments": 247,
+        "points": 510,
+        "comments": 323,
         "discussion": "https://news.ycombinator.com/item?id=50109715"
+      },
+      {
+        "title": "Jev meets the Trolley Problem",
+        "url": "https://zachlandes.com/trolley-problem/",
+        "points": 479,
+        "comments": 202,
+        "discussion": "https://news.ycombinator.com/item?id=50106023"
+      },
+      {
+        "title": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
+        "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
+        "points": 364,
+        "comments": 122,
+        "discussion": "https://news.ycombinator.com/item?id=50065859"
       },
       {
         "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
         "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
-        "points": 297,
-        "comments": 137,
+        "points": 357,
+        "comments": 163,
         "discussion": "https://news.ycombinator.com/item?id=50108872"
       },
       {
-        "title": "Show HN: Unfenced – Land for sale that borders public land",
-        "url": "https://unfenced.land/",
-        "points": 291,
-        "comments": 191,
-        "discussion": "https://news.ycombinator.com/item?id=50102247"
+        "title": "Meta’s new commercial terms will allow the scraping of news sites: experts",
+        "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+        "points": 320,
+        "comments": 114,
+        "discussion": "https://news.ycombinator.com/item?id=50111852"
       },
       {
         "title": "Krea 3 – An image model built for editing at scale",
         "url": "https://www.krea.ai/krea-3",
-        "points": 289,
-        "comments": 90,
+        "points": 314,
+        "comments": 100,
         "discussion": "https://news.ycombinator.com/item?id=50105648"
       },
       {
-        "title": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
-        "url": "https://libreboot.org/news/libreboot2610.html",
-        "points": 274,
-        "comments": 165,
-        "discussion": "https://news.ycombinator.com/item?id=50102923"
+        "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+        "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+        "points": 308,
+        "comments": 201,
+        "discussion": "https://news.ycombinator.com/item?id=50109375"
       }
     ],
     "lobsters": [
       {
+        "title": "Linus Torvalds on AI-assisted kernel contributions",
+        "url": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/",
+        "points": 40,
+        "comments": 64,
+        "discussion": "https://lobste.rs/s/xiq59t/linus_torvalds_on_ai_assisted_kernel",
+        "tags": [
+          "linux",
+          "vibecoding"
+        ]
+      },
+      {
         "title": "JPEG XL vs AVIF for web use-cases",
         "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
-        "points": 57,
-        "comments": 17,
+        "points": 71,
+        "comments": 25,
         "discussion": "https://lobste.rs/s/uejdwj/jpeg_xl_vs_avif_for_web_use_cases",
         "tags": [
           "compsci",
@@ -5138,8 +5149,8 @@
       {
         "title": "My C23 Conventions",
         "url": "https://abner.page/post/c23-conventions-1/",
-        "points": 41,
-        "comments": 10,
+        "points": 46,
+        "comments": 11,
         "discussion": "https://lobste.rs/s/umdbht/my_c23_conventions",
         "tags": [
           "c"
@@ -5148,8 +5159,8 @@
       {
         "title": "Sunsetting decomp.dev",
         "url": "https://decomp.dev/",
-        "points": 60,
-        "comments": 14,
+        "points": 65,
+        "comments": 15,
         "discussion": "https://lobste.rs/s/kaerns/sunsetting_decomp_dev",
         "tags": [
           "games",
@@ -5158,21 +5169,10 @@
         ]
       },
       {
-        "title": "Linus Torvalds on AI-assisted kernel contributions",
-        "url": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/",
-        "points": 12,
-        "comments": 16,
-        "discussion": "https://lobste.rs/s/xiq59t/linus_torvalds_on_ai_assisted_kernel",
-        "tags": [
-          "linux",
-          "vibecoding"
-        ]
-      },
-      {
         "title": "Announcing Rust 1.99.1",
         "url": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
-        "points": 12,
-        "comments": 5,
+        "points": 19,
+        "comments": 6,
         "discussion": "https://lobste.rs/s/ttcx5k/announcing_rust_1_99_1",
         "tags": [
           "release",
@@ -5182,8 +5182,8 @@
       {
         "title": "Forgejo v17.0 is available",
         "url": "https://forgejo.org/2026-10-release-v17-0/",
-        "points": 29,
-        "comments": 1,
+        "points": 45,
+        "comments": 3,
         "discussion": "https://lobste.rs/s/vemho2/forgejo_v17_0_is_available",
         "tags": [
           "release",
@@ -5191,115 +5191,103 @@
         ]
       },
       {
-        "title": "Haxy on Haxy",
-        "url": "https://try.haxy.net/haxy:haxy",
-        "points": 49,
-        "comments": 22,
-        "discussion": "https://lobste.rs/s/bcaopz/haxy_on_haxy",
+        "title": "Epic's EAC2 v2 seems fairly easily bypassable",
+        "url": "https://codon.org.uk/~mjg59/blog/p/epics-eac2-v2-seems-fairly-easily-bypassable/",
+        "points": 19,
+        "comments": 10,
+        "discussion": "https://lobste.rs/s/1iin5o/epic_s_eac2_v2_seems_fairly_easily",
         "tags": [
-          "practices",
-          "vcs",
-          "zig"
+          "linux",
+          "security"
         ]
       },
       {
         "title": "On the technical actions needed to ensure the continuity of UTC",
         "url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
-        "points": 19,
-        "comments": 4,
+        "points": 26,
+        "comments": 5,
         "discussion": "https://lobste.rs/s/ipyrkv/on_technical_actions_needed_ensure",
         "tags": [
           "science"
         ]
       },
       {
-        "title": "Anthropic's Scion is heavily inspired by Mononoke",
-        "url": "https://sunshowers.io/posts/anthropic-mononoke/",
-        "points": 142,
-        "comments": 48,
-        "discussion": "https://lobste.rs/s/plcgps/anthropic_s_scion_is_heavily_inspired_by",
+        "title": "My self-hosted infrastructure with Incus OS",
+        "url": "https://dataswamp.org/~solene/2026-10-15-selfhosting-infrastructure-incus-os.html",
+        "points": 13,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/q0wobg/my_self_hosted_infrastructure_with_incus",
         "tags": [
-          "vcs",
-          "vibecoding"
+          "devops",
+          "linux"
         ]
       },
       {
-        "title": "Epic's EAC2 v2 seems fairly easily bypassable",
-        "url": "https://codon.org.uk/~mjg59/blog/p/epics-eac2-v2-seems-fairly-easily-bypassable/",
-        "points": 11,
-        "comments": 5,
-        "discussion": "https://lobste.rs/s/1iin5o/epic_s_eac2_v2_seems_fairly_easily",
+        "title": "Haxy on Haxy",
+        "url": "https://try.haxy.net/haxy:haxy",
+        "points": 50,
+        "comments": 26,
+        "discussion": "https://lobste.rs/s/bcaopz/haxy_on_haxy",
         "tags": [
-          "linux",
-          "security"
+          "practices",
+          "vcs",
+          "zig"
         ]
       }
     ],
     "devto": [
       {
-        "title": "I Vibe-Coded My Way Out of Angular Upgrades",
-        "url": "https://dev.to/gramli/i-vibe-coded-my-way-out-of-angular-upgrades-4fkh",
-        "points": 35,
-        "comments": 25,
-        "discussion": "https://dev.to/gramli/i-vibe-coded-my-way-out-of-angular-upgrades-4fkh",
-        "tags": [
-          "ai",
-          "vibecoding",
-          "angular"
-        ]
-      },
-      {
-        "title": "I built a lie detector for AI coding agents. Then I read the rules.",
-        "url": "https://dev.to/dannwaneri/i-built-a-lie-detector-for-ai-coding-agents-then-i-read-the-rules-1hhb",
-        "points": 26,
-        "comments": 16,
-        "discussion": "https://dev.to/dannwaneri/i-built-a-lie-detector-for-ai-coding-agents-then-i-read-the-rules-1hhb",
-        "tags": [
-          "ai",
-          "cloudflare",
-          "git"
-        ]
-      },
-      {
-        "title": "The Better You Get at Coding, the Harder It Gets to Switch Off",
-        "url": "https://dev.to/harsh2644/the-better-you-get-at-coding-the-harder-it-gets-to-switch-off-1eio",
-        "points": 25,
-        "comments": 7,
-        "discussion": "https://dev.to/harsh2644/the-better-you-get-at-coding-the-harder-it-gets-to-switch-off-1eio",
+        "title": "What Are Your Chances of Surviving Resident Evil Based on Your Tech Job?",
+        "url": "https://dev.to/xulingfeng/what-are-your-chances-of-surviving-resident-evil-based-on-your-tech-job-4b9o",
+        "points": 48,
+        "comments": 28,
+        "discussion": "https://dev.to/xulingfeng/what-are-your-chances-of-surviving-resident-evil-based-on-your-tech-job-4b9o",
         "tags": [
           "discuss",
           "career",
+          "jokes"
+        ]
+      },
+      {
+        "title": "What I Look for Before Trusting an AI App Builder With a Real Project",
+        "url": "https://dev.to/thebitforge/what-i-look-for-before-trusting-an-ai-app-builder-with-a-real-project-4h27",
+        "points": 39,
+        "comments": 1,
+        "discussion": "https://dev.to/thebitforge/what-i-look-for-before-trusting-an-ai-app-builder-with-a-real-project-4h27",
+        "tags": [
+          "ai",
+          "webdev",
           "productivity"
         ]
       },
       {
-        "title": "I Built an Open-Weight AI That Prices Etsy Shops, On Your Laptop",
-        "url": "https://dev.to/sarvar_04/i-built-an-open-weight-ai-that-prices-etsy-shops-on-your-laptop-24dk",
-        "points": 19,
-        "comments": 0,
-        "discussion": "https://dev.to/sarvar_04/i-built-an-open-weight-ai-that-prices-etsy-shops-on-your-laptop-24dk",
+        "title": "Natural Languages Have Design Trade-offs Too: Georgian Is Dynamically Typed, English Is Statically Typed",
+        "url": "https://dev.to/georgekobaidze/natural-languages-have-design-trade-offs-too-georgian-is-dynamically-typed-english-is-statically-emi",
+        "points": 32,
+        "comments": 24,
+        "discussion": "https://dev.to/georgekobaidze/natural-languages-have-design-trade-offs-too-georgian-is-dynamically-typed-english-is-statically-emi",
         "tags": [
-          "devchallenge",
-          "hf26challenge",
-          "tabpfn"
+          "programming",
+          "writing",
+          "design"
         ]
       },
       {
-        "title": "How Docker Works Under the Hood: Watch Namespaces Isolate a Container and cgroups Stop a Fork Bomb",
-        "url": "https://dev.to/devopsdaily/how-docker-works-under-the-hood-watch-namespaces-isolate-a-container-and-cgroups-stop-a-fork-bomb-2k22",
-        "points": 15,
-        "comments": 3,
-        "discussion": "https://dev.to/devopsdaily/how-docker-works-under-the-hood-watch-namespaces-isolate-a-container-and-cgroups-stop-a-fork-bomb-2k22",
+        "title": "I'm 12. I'm building a privacy-first Virtual Try-On tool. Would you use it?",
+        "url": "https://dev.to/koda2026/im-12-im-building-a-privacy-first-virtual-try-on-tool-would-you-use-it-lf2",
+        "points": 30,
+        "comments": 11,
+        "discussion": "https://dev.to/koda2026/im-12-im-building-a-privacy-first-virtual-try-on-tool-would-you-use-it-lf2",
         "tags": [
-          "docker",
-          "linux",
-          "containers"
+          "ai",
+          "buildinpublic",
+          "privacy"
         ]
       },
       {
         "title": "Scope-Creep Guard: A Local Gemma AI That Tells Clients \"That's Out of Scope\" (So You Don't Have To) published: true",
         "url": "https://dev.to/vidisha_gupta_/scope-creep-guard-a-local-gemma-ai-that-tells-clients-thats-out-of-scope-so-you-dont-have-18n2",
-        "points": 15,
+        "points": 21,
         "comments": 1,
         "discussion": "https://dev.to/vidisha_gupta_/scope-creep-guard-a-local-gemma-ai-that-tells-clients-thats-out-of-scope-so-you-dont-have-18n2",
         "tags": [
@@ -5309,9 +5297,45 @@
         ]
       },
       {
+        "title": "The Bug Lives at the Seam, Not in the Logic",
+        "url": "https://dev.to/debashish_ghosal/the-bug-lives-at-the-seam-not-in-the-logic-48j4",
+        "points": 21,
+        "comments": 2,
+        "discussion": "https://dev.to/debashish_ghosal/the-bug-lives-at-the-seam-not-in-the-logic-48j4",
+        "tags": [
+          "ai",
+          "testing",
+          "llm"
+        ]
+      },
+      {
+        "title": "I Built an Open-Weight AI That Prices Etsy Shops, On Your Laptop",
+        "url": "https://dev.to/sarvar_04/i-built-an-open-weight-ai-that-prices-etsy-shops-on-your-laptop-24dk",
+        "points": 20,
+        "comments": 0,
+        "discussion": "https://dev.to/sarvar_04/i-built-an-open-weight-ai-that-prices-etsy-shops-on-your-laptop-24dk",
+        "tags": [
+          "devchallenge",
+          "hf26challenge",
+          "tabpfn"
+        ]
+      },
+      {
+        "title": "What I Actually Learn When I Build With AI",
+        "url": "https://dev.to/sizzlebop/what-i-actually-learn-when-i-build-with-ai-1074",
+        "points": 16,
+        "comments": 4,
+        "discussion": "https://dev.to/sizzlebop/what-i-actually-learn-when-i-build-with-ai-1074",
+        "tags": [
+          "ai",
+          "programming",
+          "learning"
+        ]
+      },
+      {
         "title": "AI Models Can Learn from Data. But What Can They Learn from Other Models?",
         "url": "https://dev.to/rijultp/ai-models-can-learn-from-data-but-what-can-they-learn-from-other-models-110e",
-        "points": 15,
+        "points": 16,
         "comments": 0,
         "discussion": "https://dev.to/rijultp/ai-models-can-learn-from-data-but-what-can-they-learn-from-other-models-110e",
         "tags": [
@@ -5323,7 +5347,7 @@
       {
         "title": "RevCheck, compare the cars you want before you buy your next daily driver",
         "url": "https://dev.to/alexgeorgiev17/revcheck-paste-two-used-car-listings-get-a-second-opinion-before-you-drive-across-town-1e7e",
-        "points": 12,
+        "points": 14,
         "comments": 0,
         "discussion": "https://dev.to/alexgeorgiev17/revcheck-paste-two-used-car-listings-get-a-second-opinion-before-you-drive-across-town-1e7e",
         "tags": [
@@ -5331,35 +5355,11 @@
           "hf26challenge",
           "ai"
         ]
-      },
-      {
-        "title": "It caught \"partner\" \"pareja\" in an IRS rule and missed \"return\" \"devolución\": an offline MT checker for translators",
-        "url": "https://dev.to/p0rt/it-caught-partner-pareja-in-an-irs-rule-and-missed-return-devolucion-an-offline-mt-7ge",
-        "points": 12,
-        "comments": 2,
-        "discussion": "https://dev.to/p0rt/it-caught-partner-pareja-in-an-irs-rule-and-missed-return-devolucion-an-offline-mt-7ge",
-        "tags": [
-          "devchallenge",
-          "hf26challenge",
-          "ai"
-        ]
-      },
-      {
-        "title": "Natural Languages Have Design Trade-offs Too: Georgian Is Dynamically Typed, English Is Statically Typed",
-        "url": "https://dev.to/georgekobaidze/natural-languages-have-design-trade-offs-too-georgian-is-dynamically-typed-english-is-statically-emi",
-        "points": 9,
-        "comments": 7,
-        "discussion": "https://dev.to/georgekobaidze/natural-languages-have-design-trade-offs-too-georgian-is-dynamically-typed-english-is-statically-emi",
-        "tags": [
-          "programming",
-          "writing",
-          "design"
-        ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-10-16T06:35:46.628Z",
+    "fetchedAt": "2026-10-16T11:11:59.447Z",
     "candidates": {
       "https://blog.cloudflare.com/streamline": {
         "source": "Cloudflare",
