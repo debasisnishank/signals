@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-10-17T06:32:51.895Z",
+    "fetchedAt": "2026-10-17T10:31:00.088Z",
     "repos": [
       {
         "name": "storytold/photocraft",
         "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 65288,
+        "stars": 65510,
         "url": "https://github.com/storytold/photocraft",
         "created": "2026-09-30T13:37:48Z",
         "topics": [
@@ -25,7 +25,7 @@
         "name": "storytold/pdfcraft",
         "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 15111,
+        "stars": 15199,
         "url": "https://github.com/storytold/pdfcraft",
         "created": "2026-09-30T13:39:37Z",
         "topics": [
@@ -36,24 +36,10 @@
         ]
       },
       {
-        "name": "storytold/filmcraft",
-        "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
-        "language": "Rust",
-        "stars": 14287,
-        "url": "https://github.com/storytold/filmcraft",
-        "created": "2026-09-30T13:41:20Z",
-        "topics": [
-          "art",
-          "rust",
-          "video",
-          "video-editing"
-        ]
-      },
-      {
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 14194,
+        "stars": 14421,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -64,10 +50,24 @@
         ]
       },
       {
+        "name": "storytold/filmcraft",
+        "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
+        "language": "Rust",
+        "stars": 14354,
+        "url": "https://github.com/storytold/filmcraft",
+        "created": "2026-09-30T13:41:20Z",
+        "topics": [
+          "art",
+          "rust",
+          "video",
+          "video-editing"
+        ]
+      },
+      {
         "name": "storytold/wordcraft",
         "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
         "language": "Rust",
-        "stars": 13742,
+        "stars": 13810,
         "url": "https://github.com/storytold/wordcraft",
         "created": "2026-10-07T08:34:24Z",
         "topics": [],
@@ -81,7 +81,7 @@
         "name": "storytold/lightcraft",
         "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 13273,
+        "stars": 13307,
         "url": "https://github.com/storytold/lightcraft",
         "created": "2026-09-30T14:09:27Z",
         "topics": [
@@ -95,7 +95,7 @@
         "name": "storytold/vectorcraft",
         "description": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 9512,
+        "stars": 9545,
         "url": "https://github.com/storytold/vectorcraft",
         "created": "2026-09-30T13:43:03Z",
         "topics": [
@@ -109,7 +109,7 @@
         "name": "rehan-remade/universal-modder",
         "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
         "language": "Python",
-        "stars": 8110,
+        "stars": 8134,
         "url": "https://github.com/rehan-remade/universal-modder",
         "created": "2026-09-30T05:00:35Z",
         "topics": [
@@ -123,16 +123,25 @@
         "name": "chenglou/handwired",
         "description": "Turn your regular JavaScript code into a neural net.",
         "language": "TypeScript",
-        "stars": 1601,
+        "stars": 1633,
         "url": "https://github.com/chenglou/handwired",
         "created": "2026-10-15T02:15:09Z",
+        "topics": []
+      },
+      {
+        "name": "Supermedo/uncharted_pc",
+        "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
+        "language": "C++",
+        "stars": 1118,
+        "url": "https://github.com/Supermedo/uncharted_pc",
+        "created": "2026-10-15T00:17:23Z",
         "topics": []
       },
       {
         "name": "feder-cr/git-ai",
         "description": "Git designed for AI agents.",
         "language": "Go",
-        "stars": 1076,
+        "stars": 1096,
         "url": "https://github.com/feder-cr/git-ai",
         "created": "2026-10-15T13:12:02Z",
         "topics": [
@@ -143,19 +152,10 @@
         ]
       },
       {
-        "name": "Supermedo/uncharted_pc",
-        "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
-        "language": "C++",
-        "stars": 1067,
-        "url": "https://github.com/Supermedo/uncharted_pc",
-        "created": "2026-10-15T00:17:23Z",
-        "topics": []
-      },
-      {
         "name": "Leonxlnx/earshot",
         "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
         "language": "Python",
-        "stars": 410,
+        "stars": 466,
         "url": "https://github.com/Leonxlnx/earshot",
         "created": "2026-10-15T06:52:46Z",
         "topics": [
@@ -169,30 +169,30 @@
         "name": "xscreensaver-official/xscreensaver",
         "description": "There is no official XScreenSaver GitHub repository.",
         "language": null,
-        "stars": 358,
+        "stars": 436,
         "url": "https://github.com/xscreensaver-official/xscreensaver",
         "created": "2026-10-16T16:24:44Z",
         "topics": []
       },
       {
-        "name": "anujasid/mcp-for-blender-pro",
-        "description": "AI assistant and MCP server for Blender: visual chat, scene tools, model selection, multi-agent workflows. Works with OpenAI, Claude, Gemini, Ollama and OpenCode. Blender AI automation, bpy scripting, 3D modeling, geometry nodes and MCP integration.",
+        "name": "anujasid/blender-ai-mcp-addon",
+        "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
         "language": "Python",
-        "stars": 329,
-        "url": "https://github.com/anujasid/mcp-for-blender-pro",
+        "stars": 367,
+        "url": "https://github.com/anujasid/blender-ai-mcp-addon",
         "created": "2026-10-15T22:30:47Z",
         "topics": [
-          "3d",
-          "3d-automation",
           "3d-modeling",
-          "ai-agents"
+          "ai-assistant",
+          "blender",
+          "blender-addon"
         ]
       },
       {
         "name": "OpenMOSS/MOSS-Image",
         "description": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.",
         "language": "Python",
-        "stars": 284,
+        "stars": 342,
         "url": "https://github.com/OpenMOSS/MOSS-Image",
         "created": "2026-10-16T01:18:13Z",
         "topics": [
@@ -206,7 +206,7 @@
         "name": "shishir0x/GoogleUnlimited",
         "description": "Unlimited Google Photos auto-sync on Windows with Pixel original quality spoofing — native, portable, and zero-quota.",
         "language": "PowerShell",
-        "stars": 240,
+        "stars": 254,
         "url": "https://github.com/shishir0x/GoogleUnlimited",
         "created": "2026-10-15T14:30:13Z",
         "topics": [
@@ -218,27 +218,36 @@
         "name": "antirez/c64-hw-simulator",
         "description": "Commodore 64 hardware simulator",
         "language": "C",
-        "stars": 198,
+        "stars": 207,
         "url": "https://github.com/antirez/c64-hw-simulator",
         "created": "2026-10-15T07:14:32Z",
         "topics": []
       },
       {
-        "name": "alexander-stack1/ciencia-de-dados-cibele-russo",
-        "description": "Trilhas de estudo de Ciência de Dados derivadas das aulas da Profa. Cibele Russo (ICMC/USP)",
-        "language": null,
-        "stars": 160,
-        "url": "https://github.com/alexander-stack1/ciencia-de-dados-cibele-russo",
-        "created": "2026-10-15T13:49:27Z",
+        "name": "Noniv/web-ocean",
+        "description": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.",
+        "language": "HTML",
+        "stars": 166,
+        "url": "https://github.com/Noniv/web-ocean",
+        "created": "2026-10-16T23:49:53Z",
         "topics": []
       }
     ],
     "posts": [
       {
         "source": "showhn",
+        "title": "Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+        "url": "https://llmspeed.dev/",
+        "points": 79,
+        "comments": 28,
+        "discussion": "https://news.ycombinator.com/item?id=50127979",
+        "created": "2026-10-17T04:36:53.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "rStation – A shared research lab for your AI agents",
         "url": "https://rstation.ai/",
-        "points": 52,
+        "points": 53,
         "comments": 19,
         "discussion": "https://news.ycombinator.com/item?id=50118876",
         "created": "2026-10-16T14:35:43.000Z"
@@ -247,8 +256,8 @@
         "source": "showhn",
         "title": "Gemini 4 Argon plays StarCraft",
         "url": "https://starskirmish.com/bench/v0-2/",
-        "points": 209,
-        "comments": 92,
+        "points": 224,
+        "comments": 101,
         "discussion": "https://news.ycombinator.com/item?id=50118688",
         "created": "2026-10-16T14:18:44.000Z"
       },
@@ -275,18 +284,9 @@
         "title": "Unfenced – Land for sale that borders public land",
         "url": "https://unfenced.land/",
         "points": 311,
-        "comments": 197,
+        "comments": 200,
         "discussion": "https://news.ycombinator.com/item?id=50102247",
         "created": "2026-10-15T11:38:57.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Flipflop – Iroh-powered persistent tunnels for filesharing",
-        "url": "https://github.com/andunieee/flipflop",
-        "points": 137,
-        "comments": 66,
-        "discussion": "https://news.ycombinator.com/item?id=50099136",
-        "created": "2026-10-15T04:25:28.000Z"
       },
       {
         "source": "launchhn",
@@ -328,10 +328,28 @@
         "source": "hn",
         "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
         "url": "https://github.com/cobanov/PS5LM",
-        "points": 259,
-        "comments": 64,
+        "points": 293,
+        "comments": 73,
         "discussion": "https://news.ycombinator.com/item?id=50122431",
         "created": "2026-10-16T18:32:35.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "DeepSeek-v4.1-Flash-1017",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "points": 159,
+        "comments": 64,
+        "discussion": "https://news.ycombinator.com/item?id=50129045",
+        "created": "2026-10-17T08:21:25.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+        "points": 138,
+        "comments": 15,
+        "discussion": "https://news.ycombinator.com/item?id=50129121",
+        "created": "2026-10-17T08:37:46.000Z"
       },
       {
         "source": "lobsters",
@@ -1021,7 +1039,7 @@
         "name": "rehan-remade/universal-modder",
         "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
         "language": "Python",
-        "stars": 8110,
+        "stars": 8134,
         "url": "https://github.com/rehan-remade/universal-modder",
         "created": "2026-09-30T05:00:35Z",
         "topics": [
@@ -1864,7 +1882,7 @@
         "name": "storytold/photocraft",
         "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 65288,
+        "stars": 65510,
         "url": "https://github.com/storytold/photocraft",
         "created": "2026-09-30T13:37:48Z",
         "topics": [
@@ -2135,7 +2153,7 @@
         "name": "storytold/wordcraft",
         "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
         "language": "Rust",
-        "stars": 13742,
+        "stars": 13810,
         "url": "https://github.com/storytold/wordcraft",
         "created": "2026-10-07T08:34:24Z",
         "topics": [],
@@ -2222,7 +2240,7 @@
         "name": "storytold/lightcraft",
         "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 13273,
+        "stars": 13307,
         "url": "https://github.com/storytold/lightcraft",
         "created": "2026-09-30T14:09:27Z",
         "topics": [
@@ -2263,7 +2281,7 @@
         "name": "storytold/filmcraft",
         "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 14287,
+        "stars": 14354,
         "url": "https://github.com/storytold/filmcraft",
         "created": "2026-09-30T13:41:20Z",
         "topics": [
@@ -2432,7 +2450,7 @@
         "name": "storytold/pdfcraft",
         "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 15111,
+        "stars": 15199,
         "url": "https://github.com/storytold/pdfcraft",
         "created": "2026-09-30T13:39:37Z",
         "topics": [
@@ -2961,7 +2979,7 @@
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 14194,
+        "stars": 14421,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -2978,7 +2996,7 @@
         "name": "storytold/vectorcraft",
         "description": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 9512,
+        "stars": 9545,
         "url": "https://github.com/storytold/vectorcraft",
         "created": "2026-09-30T13:43:03Z",
         "topics": [
@@ -3092,7 +3110,7 @@
         "name": "chenglou/handwired",
         "description": "Turn your regular JavaScript code into a neural net.",
         "language": "TypeScript",
-        "stars": 1601,
+        "stars": 1633,
         "url": "https://github.com/chenglou/handwired",
         "created": "2026-10-15T02:15:09Z",
         "topics": [],
@@ -3121,7 +3139,7 @@
         "name": "Supermedo/uncharted_pc",
         "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
         "language": "C++",
-        "stars": 1067,
+        "stars": 1118,
         "url": "https://github.com/Supermedo/uncharted_pc",
         "created": "2026-10-15T00:17:23Z",
         "topics": [],
@@ -3186,7 +3204,7 @@
         "name": "feder-cr/git-ai",
         "description": "Git designed for AI agents.",
         "language": "Go",
-        "stars": 1076,
+        "stars": 1096,
         "url": "https://github.com/feder-cr/git-ai",
         "created": "2026-10-15T13:12:02Z",
         "topics": [
@@ -3203,7 +3221,7 @@
         "name": "Leonxlnx/earshot",
         "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
         "language": "Python",
-        "stars": 410,
+        "stars": 466,
         "url": "https://github.com/Leonxlnx/earshot",
         "created": "2026-10-15T06:52:46Z",
         "topics": [
@@ -3220,7 +3238,7 @@
         "name": "xscreensaver-official/xscreensaver",
         "description": "There is no official XScreenSaver GitHub repository.",
         "language": null,
-        "stars": 358,
+        "stars": 436,
         "url": "https://github.com/xscreensaver-official/xscreensaver",
         "created": "2026-10-16T16:24:44Z",
         "topics": [],
@@ -3249,7 +3267,7 @@
         "name": "OpenMOSS/MOSS-Image",
         "description": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.",
         "language": "Python",
-        "stars": 284,
+        "stars": 342,
         "url": "https://github.com/OpenMOSS/MOSS-Image",
         "created": "2026-10-16T01:18:13Z",
         "topics": [
@@ -3266,7 +3284,7 @@
         "name": "shishir0x/GoogleUnlimited",
         "description": "Unlimited Google Photos auto-sync on Windows with Pixel original quality spoofing — native, portable, and zero-quota.",
         "language": "PowerShell",
-        "stars": 240,
+        "stars": 254,
         "url": "https://github.com/shishir0x/GoogleUnlimited",
         "created": "2026-10-15T14:30:13Z",
         "topics": [
@@ -3281,7 +3299,7 @@
         "name": "antirez/c64-hw-simulator",
         "description": "Commodore 64 hardware simulator",
         "language": "C",
-        "stars": 198,
+        "stars": 207,
         "url": "https://github.com/antirez/c64-hw-simulator",
         "created": "2026-10-15T07:14:32Z",
         "topics": [],
@@ -3300,6 +3318,35 @@
         "firstSeen": "2026-10-17",
         "lastSeen": "2026-10-17",
         "starsAtFirstSeen": 160
+      },
+      "anujasid/blender-ai-mcp-addon": {
+        "name": "anujasid/blender-ai-mcp-addon",
+        "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+        "language": "Python",
+        "stars": 367,
+        "url": "https://github.com/anujasid/blender-ai-mcp-addon",
+        "created": "2026-10-15T22:30:47Z",
+        "topics": [
+          "3d-modeling",
+          "ai-assistant",
+          "blender",
+          "blender-addon"
+        ],
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17",
+        "starsAtFirstSeen": 367
+      },
+      "Noniv/web-ocean": {
+        "name": "Noniv/web-ocean",
+        "description": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.",
+        "language": "HTML",
+        "stars": 166,
+        "url": "https://github.com/Noniv/web-ocean",
+        "created": "2026-10-16T23:49:53Z",
+        "topics": [],
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17",
+        "starsAtFirstSeen": 166
       }
     },
     "posts": {
@@ -5101,7 +5148,7 @@
         "title": "Unfenced – Land for sale that borders public land",
         "url": "https://unfenced.land/",
         "points": 311,
-        "comments": 197,
+        "comments": 200,
         "discussion": "https://news.ycombinator.com/item?id=50102247",
         "created": "2026-10-15T11:38:57.000Z",
         "firstSeen": "2026-10-16",
@@ -5155,7 +5202,7 @@
         "source": "showhn",
         "title": "rStation – A shared research lab for your AI agents",
         "url": "https://rstation.ai/",
-        "points": 52,
+        "points": 53,
         "comments": 19,
         "discussion": "https://news.ycombinator.com/item?id=50118876",
         "created": "2026-10-16T14:35:43.000Z",
@@ -5166,8 +5213,8 @@
         "source": "showhn",
         "title": "Gemini 4 Argon plays StarCraft",
         "url": "https://starskirmish.com/bench/v0-2/",
-        "points": 209,
-        "comments": 92,
+        "points": 224,
+        "comments": 101,
         "discussion": "https://news.ycombinator.com/item?id=50118688",
         "created": "2026-10-16T14:18:44.000Z",
         "firstSeen": "2026-10-17",
@@ -5177,105 +5224,139 @@
         "source": "hn",
         "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
         "url": "https://github.com/cobanov/PS5LM",
-        "points": 259,
-        "comments": 64,
+        "points": 293,
+        "comments": 73,
         "discussion": "https://news.ycombinator.com/item?id=50122431",
         "created": "2026-10-16T18:32:35.000Z",
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17"
+      },
+      "https://news.ycombinator.com/item?id=50127979": {
+        "source": "showhn",
+        "title": "Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+        "url": "https://llmspeed.dev/",
+        "points": 79,
+        "comments": 28,
+        "discussion": "https://news.ycombinator.com/item?id=50127979",
+        "created": "2026-10-17T04:36:53.000Z",
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17"
+      },
+      "https://news.ycombinator.com/item?id=50129045": {
+        "source": "hn",
+        "title": "DeepSeek-v4.1-Flash-1017",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "points": 159,
+        "comments": 64,
+        "discussion": "https://news.ycombinator.com/item?id=50129045",
+        "created": "2026-10-17T08:21:25.000Z",
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17"
+      },
+      "https://news.ycombinator.com/item?id=50129121": {
+        "source": "hn",
+        "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+        "points": 138,
+        "comments": 15,
+        "discussion": "https://news.ycombinator.com/item?id=50129121",
+        "created": "2026-10-17T08:37:46.000Z",
         "firstSeen": "2026-10-17",
         "lastSeen": "2026-10-17"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-10-17T06:32:51.895Z",
+    "fetchedAt": "2026-10-17T10:31:00.088Z",
     "hn": [
       {
         "title": "Tesla Roadster",
         "url": "https://www.tesla.com/roadster",
-        "points": 1339,
-        "comments": 2378,
+        "points": 1441,
+        "comments": 2523,
         "discussion": "https://news.ycombinator.com/item?id=50112657"
       },
       {
         "title": "Claude reveals ECDSA curve origins",
         "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-        "points": 806,
-        "comments": 306,
+        "points": 876,
+        "comments": 326,
         "discussion": "https://news.ycombinator.com/item?id=50122800"
       },
       {
         "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
         "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
-        "points": 461,
-        "comments": 400,
+        "points": 508,
+        "comments": 430,
         "discussion": "https://news.ycombinator.com/item?id=50121179"
-      },
-      {
-        "title": "I love software rendering",
-        "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
-        "points": 313,
-        "comments": 198,
-        "discussion": "https://news.ycombinator.com/item?id=50117746"
       },
       {
         "title": "How the Claude Code team does code review",
         "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-        "points": 307,
-        "comments": 280,
+        "points": 351,
+        "comments": 330,
         "discussion": "https://news.ycombinator.com/item?id=50122951"
       },
       {
         "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
         "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
-        "points": 298,
-        "comments": 147,
+        "points": 321,
+        "comments": 161,
         "discussion": "https://news.ycombinator.com/item?id=50118320"
+      },
+      {
+        "title": "You could have invented transformers from memory",
+        "url": "https://alexwang.ai/posts/associative-memory/",
+        "points": 312,
+        "comments": 72,
+        "discussion": "https://news.ycombinator.com/item?id=50122878"
       },
       {
         "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
         "url": "https://github.com/cobanov/PS5LM",
-        "points": 257,
-        "comments": 64,
+        "points": 293,
+        "comments": 73,
         "discussion": "https://news.ycombinator.com/item?id=50122431"
       },
       {
         "title": "JPEG XL vs. AVIF for web use-cases",
         "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
-        "points": 234,
-        "comments": 163,
+        "points": 263,
+        "comments": 183,
         "discussion": "https://news.ycombinator.com/item?id=50120224"
       },
       {
-        "title": "You could have invented transformers from memory",
-        "url": "https://alexwang.ai/posts/associative-memory/",
-        "points": 234,
-        "comments": 61,
-        "discussion": "https://news.ycombinator.com/item?id=50122878"
+        "title": "Ultramarine 1 Flash",
+        "url": "https://www.paperinstruments.com/ultramarine",
+        "points": 252,
+        "comments": 71,
+        "discussion": "https://news.ycombinator.com/item?id=50106747"
       },
       {
-        "title": "Show HN: Gemini 4 Argon plays StarCraft",
-        "url": "https://starskirmish.com/bench/v0-2/",
-        "points": 209,
-        "comments": 92,
-        "discussion": "https://news.ycombinator.com/item?id=50118688"
+        "title": "Butlerian Jihad",
+        "url": "https://dune.fandom.com/wiki/Butlerian_Jihad",
+        "points": 234,
+        "comments": 126,
+        "discussion": "https://news.ycombinator.com/item?id=50127274"
       }
     ],
     "lobsters": [
       {
         "title": "The NIST Elliptic Curves Seeds Bounty Has Been Claimed",
         "url": "https://words.filippo.io/seeds-solved/",
-        "points": 68,
-        "comments": 10,
+        "points": 79,
+        "comments": 12,
         "discussion": "https://lobste.rs/s/ddtqtn/nist_elliptic_curves_seeds_bounty_has",
         "tags": [
-          "cryptography"
+          "cryptography",
+          "vibecoding"
         ]
       },
       {
         "title": "The Decoherence Trap: When AI slop drowns out the signal in an endless sea of noise",
         "url": "https://maevyn.codes/decoherence",
-        "points": 23,
-        "comments": 9,
+        "points": 28,
+        "comments": 11,
         "discussion": "https://lobste.rs/s/vjmn84/decoherence_trap_when_ai_slop_drowns_out",
         "tags": [
           "vibecoding"
@@ -5284,8 +5365,8 @@
       {
         "title": "The road to iroh 1.0",
         "url": "https://www.iroh.computer/blog/the-road-to-iroh-1-0",
-        "points": 51,
-        "comments": 12,
+        "points": 53,
+        "comments": 13,
         "discussion": "https://lobste.rs/s/6laoto/road_iroh_1_0",
         "tags": [
           "networking"
@@ -5294,8 +5375,8 @@
       {
         "title": "Why are we even doing all this?",
         "url": "https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/",
-        "points": 97,
-        "comments": 13,
+        "points": 104,
+        "comments": 16,
         "discussion": "https://lobste.rs/s/qvomvk/why_are_we_even_doing_all_this",
         "tags": [
           "math",
@@ -5303,10 +5384,21 @@
         ]
       },
       {
+        "title": "Introducing GNOME OS Preview",
+        "url": "https://blogs.gnome.org/adrianvovk/2026/10/16/gnome-os-preview/",
+        "points": 20,
+        "comments": 8,
+        "discussion": "https://lobste.rs/s/xwng6u/introducing_gnome_os_preview",
+        "tags": [
+          "linux",
+          "release"
+        ]
+      },
+      {
         "title": "Linus Torvalds on AI-assisted kernel contributions",
         "url": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/",
         "points": 85,
-        "comments": 151,
+        "comments": 153,
         "discussion": "https://lobste.rs/s/xiq59t/linus_torvalds_on_ai_assisted_kernel",
         "tags": [
           "linux",
@@ -5316,39 +5408,17 @@
       {
         "title": "Making a 88x31 button book using ImageMagick",
         "url": "https://k.sosnierz.me/08-11-24/",
-        "points": 38,
-        "comments": 9,
+        "points": 40,
+        "comments": 10,
         "discussion": "https://lobste.rs/s/v6hhdr/making_88x31_button_book_using",
         "tags": [
           "art"
         ]
       },
       {
-        "title": "Introducing GNOME OS Preview",
-        "url": "https://blogs.gnome.org/adrianvovk/2026/10/16/gnome-os-preview/",
-        "points": 18,
-        "comments": 4,
-        "discussion": "https://lobste.rs/s/xwng6u/introducing_gnome_os_preview",
-        "tags": [
-          "linux",
-          "release"
-        ]
-      },
-      {
-        "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
-        "url": "https://calif.io/research/big-fish",
-        "points": 31,
-        "comments": 0,
-        "discussion": "https://lobste.rs/s/cxlrc5/big_fish_exploiting_37_year_old_kernel_bug",
-        "tags": [
-          "openbsd",
-          "security"
-        ]
-      },
-      {
         "title": "Getting Canceled",
         "url": "https://www.youtube.com/watch?v=5zIOfBLQ3U4",
-        "points": 17,
+        "points": 22,
         "comments": 1,
         "discussion": "https://lobste.rs/s/tty7hm/getting_canceled",
         "tags": [
@@ -5357,33 +5427,32 @@
         ]
       },
       {
-        "title": "Mull: note-taking with a language server / vscode extension",
-        "url": "https://github.com/stepchowfun/mull",
-        "points": 12,
-        "comments": 8,
-        "discussion": "https://lobste.rs/s/xcacrh/mull_note_taking_with_language_server",
+        "title": "We're sunsetting Codeberg Pages v2",
+        "url": "https://blog.codeberg.org/migrate-your-site-to-the-new-git-pages-backed-codeberg-pages-now-were-sunsetting-codeberg-pages-v2.html",
+        "points": 25,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/e7rvsp/we_re_sunsetting_codeberg_pages_v2",
         "tags": [
-          "editors"
+          "web"
+        ]
+      },
+      {
+        "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+        "url": "https://calif.io/research/big-fish",
+        "points": 32,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/cxlrc5/big_fish_exploiting_37_year_old_kernel_bug",
+        "tags": [
+          "openbsd",
+          "security"
         ]
       }
     ],
     "devto": [
       {
-        "title": "What Are Your Chances of Surviving Resident Evil Based on Your Tech Job?",
-        "url": "https://dev.to/xulingfeng/what-are-your-chances-of-surviving-resident-evil-based-on-your-tech-job-4b9o",
-        "points": 88,
-        "comments": 55,
-        "discussion": "https://dev.to/xulingfeng/what-are-your-chances-of-surviving-resident-evil-based-on-your-tech-job-4b9o",
-        "tags": [
-          "discuss",
-          "career",
-          "jokes"
-        ]
-      },
-      {
         "title": "Dev Opportunity Radar #21: $500K Y Combinator Funding, Bolt Builders Week, and AI Safety Research Residency",
         "url": "https://dev.to/devengers/dev-opportunity-radar-21-500k-y-combinator-funding-bolt-builders-week-and-ai-safety-research-12b8",
-        "points": 58,
+        "points": 67,
         "comments": 6,
         "discussion": "https://dev.to/devengers/dev-opportunity-radar-21-500k-y-combinator-funding-bolt-builders-week-and-ai-safety-research-12b8",
         "tags": [
@@ -5393,27 +5462,27 @@
         ]
       },
       {
-        "title": "What I Look for Before Trusting an AI App Builder With a Real Project",
-        "url": "https://dev.to/thebitforge/what-i-look-for-before-trusting-an-ai-app-builder-with-a-real-project-4h27",
-        "points": 39,
-        "comments": 1,
-        "discussion": "https://dev.to/thebitforge/what-i-look-for-before-trusting-an-ai-app-builder-with-a-real-project-4h27",
-        "tags": [
-          "ai",
-          "webdev",
-          "productivity"
-        ]
-      },
-      {
         "title": "What if the scoreboard had no delay?",
         "url": "https://dev.to/satviksingh192/what-if-the-scoreboard-had-no-delay-3gi2",
-        "points": 35,
+        "points": 40,
         "comments": 0,
         "discussion": "https://dev.to/satviksingh192/what-if-the-scoreboard-had-no-delay-3gi2",
         "tags": [
           "devchallenge",
           "hf26challenge",
           "ai"
+        ]
+      },
+      {
+        "title": "10 Prompting Techniques My Deep Learning Exam Taught Me (That I Actually Use Now)",
+        "url": "https://dev.to/dj29/10-prompting-techniques-my-deep-learning-exam-taught-me-that-i-actually-use-now-43h0",
+        "points": 25,
+        "comments": 6,
+        "discussion": "https://dev.to/dj29/10-prompting-techniques-my-deep-learning-exam-taught-me-that-i-actually-use-now-43h0",
+        "tags": [
+          "promptengineering",
+          "ai",
+          "discuss"
         ]
       },
       {
@@ -5430,7 +5499,7 @@
       {
         "title": "From $0 to My First $10: How I Built AudioBite.tech to End the Voice-Note Chaos Tax",
         "url": "https://dev.to/kakeroth/from-0-to-my-first-10-how-i-built-audiobite-with-tabpfn-and-gemma-4-to-end-the-voice-note-chaos-27f7",
-        "points": 20,
+        "points": 21,
         "comments": 0,
         "discussion": "https://dev.to/kakeroth/from-0-to-my-first-10-how-i-built-audiobite-with-tabpfn-and-gemma-4-to-end-the-voice-note-chaos-27f7",
         "tags": [
@@ -5440,55 +5509,66 @@
         ]
       },
       {
-        "title": "10 Prompting Techniques My Deep Learning Exam Taught Me (That I Actually Use Now)",
-        "url": "https://dev.to/dj29/10-prompting-techniques-my-deep-learning-exam-taught-me-that-i-actually-use-now-43h0",
+        "title": "Singularity News :: 0010",
+        "url": "https://dev.to/pengeszikra/singularity-news-0010-nhn",
         "points": 19,
-        "comments": 2,
-        "discussion": "https://dev.to/dj29/10-prompting-techniques-my-deep-learning-exam-taught-me-that-i-actually-use-now-43h0",
+        "comments": 6,
+        "discussion": "https://dev.to/pengeszikra/singularity-news-0010-nhn",
         "tags": [
-          "promptengineering",
+          "discuss",
           "ai",
-          "discuss"
+          "news"
+        ]
+      },
+      {
+        "title": "🌑 Blue October",
+        "url": "https://dev.to/annavi11arrea1/blue-october-1jia",
+        "points": 18,
+        "comments": 5,
+        "discussion": "https://dev.to/annavi11arrea1/blue-october-1jia",
+        "tags": [
+          "webdev",
+          "programming",
+          "mentalhealth"
         ]
       },
       {
         "title": "What was your win this week?!",
         "url": "https://dev.to/devteam/what-was-your-win-this-week-36am",
-        "points": 14,
-        "comments": 13,
+        "points": 16,
+        "comments": 16,
         "discussion": "https://dev.to/devteam/what-was-your-win-this-week-36am",
         "tags": [
           "weeklyretro"
         ]
       },
       {
-        "title": "PostgreSQL 19 beta's parallel autovacuum launches workers but leaves vacuum time unchanged",
-        "url": "https://dev.to/alexgeorgiev17/postgresql-19-betas-parallel-autovacuum-launches-workers-but-leaves-vacuum-time-unchanged-3g4j",
-        "points": 13,
-        "comments": 1,
-        "discussion": "https://dev.to/alexgeorgiev17/postgresql-19-betas-parallel-autovacuum-launches-workers-but-leaves-vacuum-time-unchanged-3g4j",
+        "title": "How I built a SaaS in a weekend with Claude + Next.js — the honest breakdown",
+        "url": "https://dev.to/infoinlet1/how-i-built-a-saas-in-a-weekend-with-claude-nextjs-the-honest-breakdown-2le6",
+        "points": 14,
+        "comments": 2,
+        "discussion": "https://dev.to/infoinlet1/how-i-built-a-saas-in-a-weekend-with-claude-nextjs-the-honest-breakdown-2le6",
         "tags": [
-          "postgres",
-          "database",
-          "performance"
+          "ai",
+          "webdev",
+          "startup"
         ]
       },
       {
-        "title": "Help Your Coding Assistant Find the Right Code in Large Repos",
-        "url": "https://dev.to/raabdahl/help-your-coding-assistant-find-the-right-code-in-large-repos-20e3",
-        "points": 13,
-        "comments": 2,
-        "discussion": "https://dev.to/raabdahl/help-your-coding-assistant-find-the-right-code-in-large-repos-20e3",
+        "title": "Aegis-Agentic Commerce Infrastructure",
+        "url": "https://dev.to/vivek_rakeshtiwary_f2984/aegis-agentic-commerce-infrastructure-2p91",
+        "points": 14,
+        "comments": 0,
+        "discussion": "https://dev.to/vivek_rakeshtiwary_f2984/aegis-agentic-commerce-infrastructure-2p91",
         "tags": [
-          "ai",
-          "coding",
-          "lsp"
+          "devchallenge",
+          "hf26challenge"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-10-17T06:32:51.895Z",
+    "fetchedAt": "2026-10-17T10:31:00.088Z",
     "candidates": {
       "https://blog.cloudflare.com/birthday-week-2026-wrap-up": {
         "source": "Cloudflare",
