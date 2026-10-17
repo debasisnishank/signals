@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-10-16T11:11:59.447Z",
+    "fetchedAt": "2026-10-17T06:32:51.895Z",
     "repos": [
       {
         "name": "storytold/photocraft",
         "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 64162,
+        "stars": 65288,
         "url": "https://github.com/storytold/photocraft",
         "created": "2026-09-30T13:37:48Z",
         "topics": [
@@ -25,7 +25,7 @@
         "name": "storytold/pdfcraft",
         "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 14690,
+        "stars": 15111,
         "url": "https://github.com/storytold/pdfcraft",
         "created": "2026-09-30T13:39:37Z",
         "topics": [
@@ -39,7 +39,7 @@
         "name": "storytold/filmcraft",
         "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 14018,
+        "stars": 14287,
         "url": "https://github.com/storytold/filmcraft",
         "created": "2026-09-30T13:41:20Z",
         "topics": [
@@ -53,7 +53,7 @@
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 13485,
+        "stars": 14194,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -67,7 +67,7 @@
         "name": "storytold/wordcraft",
         "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
         "language": "Rust",
-        "stars": 13434,
+        "stars": 13742,
         "url": "https://github.com/storytold/wordcraft",
         "created": "2026-10-07T08:34:24Z",
         "topics": [],
@@ -81,7 +81,7 @@
         "name": "storytold/lightcraft",
         "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 13077,
+        "stars": 13273,
         "url": "https://github.com/storytold/lightcraft",
         "created": "2026-09-30T14:09:27Z",
         "topics": [
@@ -95,7 +95,7 @@
         "name": "storytold/vectorcraft",
         "description": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 9322,
+        "stars": 9512,
         "url": "https://github.com/storytold/vectorcraft",
         "created": "2026-09-30T13:43:03Z",
         "topics": [
@@ -109,7 +109,7 @@
         "name": "rehan-remade/universal-modder",
         "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
         "language": "Python",
-        "stars": 7994,
+        "stars": 8110,
         "url": "https://github.com/rehan-remade/universal-modder",
         "created": "2026-09-30T05:00:35Z",
         "topics": [
@@ -120,29 +120,20 @@
         ]
       },
       {
-        "name": "ahwootech/BRUTAL",
-        "description": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld's Waylith engine.",
-        "language": "C#",
-        "stars": 1352,
-        "url": "https://github.com/ahwootech/BRUTAL",
-        "created": "2026-10-14T19:33:56Z",
-        "topics": []
-      },
-      {
         "name": "chenglou/handwired",
         "description": "Turn your regular JavaScript code into a neural net.",
         "language": "TypeScript",
-        "stars": 1330,
+        "stars": 1601,
         "url": "https://github.com/chenglou/handwired",
         "created": "2026-10-15T02:15:09Z",
         "topics": []
       },
       {
-        "name": "feder-cr/open_scion",
-        "description": "Open-source version of Scion: version control built for coding agents.",
+        "name": "feder-cr/git-ai",
+        "description": "Git designed for AI agents.",
         "language": "Go",
-        "stars": 1027,
-        "url": "https://github.com/feder-cr/open_scion",
+        "stars": 1076,
+        "url": "https://github.com/feder-cr/git-ai",
         "created": "2026-10-15T13:12:02Z",
         "topics": [
           "ai-agents",
@@ -155,87 +146,117 @@
         "name": "Supermedo/uncharted_pc",
         "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
         "language": "C++",
-        "stars": 851,
+        "stars": 1067,
         "url": "https://github.com/Supermedo/uncharted_pc",
         "created": "2026-10-15T00:17:23Z",
         "topics": []
       },
       {
-        "name": "0xProbabillity/house-control",
-        "description": "Your home as a live 3D model in the Mac menu bar and on iPhone — lights and ACs via Smart Life, Home Assistant, Philips Hue and Apple Home.",
-        "language": "Swift",
-        "stars": 465,
-        "url": "https://github.com/0xProbabillity/house-control",
-        "created": "2026-10-14T12:32:21Z",
-        "topics": [
-          "home-assistant",
-          "home-automation",
-          "homekit",
-          "ios"
-        ]
-      },
-      {
-        "name": "MyLuxy/overdrive",
-        "description": "Overdrive, a PS5 homebrew game store with 1,800+ games.",
-        "language": "C++",
-        "stars": 418,
-        "url": "https://github.com/MyLuxy/overdrive",
-        "created": "2026-10-14T00:07:08Z",
-        "topics": [
-          "exfat",
-          "game-store",
-          "homebrew",
-          "jailbreak"
-        ]
-      },
-      {
-        "name": "pro-vi/cc-stretch",
-        "description": "Stretchtext replies for Claude Code: short by default, each phrase grows in place when you click it",
-        "language": "TypeScript",
-        "stars": 324,
-        "url": "https://github.com/pro-vi/cc-stretch",
-        "created": "2026-10-14T22:03:26Z",
-        "topics": []
-      },
-      {
-        "name": "VallierDev/uu-remote-linux",
-        "description": "非官方 UU 远程 Linux 被控端 · Unofficial Linux host for NetEase UU Remote",
-        "language": "Rust",
-        "stars": 215,
-        "url": "https://github.com/VallierDev/uu-remote-linux",
-        "created": "2026-10-14T15:53:43Z",
-        "topics": []
-      },
-      {
-        "name": "Entelligence-AI/agentplay",
-        "description": "Replay your coding agent sessions as a map and a timeline",
+        "name": "Leonxlnx/earshot",
+        "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
         "language": "Python",
-        "stars": 214,
-        "url": "https://github.com/Entelligence-AI/agentplay",
-        "created": "2026-10-14T09:06:49Z",
+        "stars": 410,
+        "url": "https://github.com/Leonxlnx/earshot",
+        "created": "2026-10-15T06:52:46Z",
         "topics": [
+          "ai-agents",
+          "audio",
           "claude-code",
-          "codex",
-          "coding-agents",
-          "cursor"
+          "mcp"
         ]
       },
       {
-        "name": "CarterT27/scion",
-        "description": "Implementation of Anthropic's version control system",
-        "language": "Rust",
-        "stars": 199,
-        "url": "https://github.com/CarterT27/scion",
-        "created": "2026-10-14T18:58:07Z",
+        "name": "xscreensaver-official/xscreensaver",
+        "description": "There is no official XScreenSaver GitHub repository.",
+        "language": null,
+        "stars": 358,
+        "url": "https://github.com/xscreensaver-official/xscreensaver",
+        "created": "2026-10-16T16:24:44Z",
+        "topics": []
+      },
+      {
+        "name": "anujasid/mcp-for-blender-pro",
+        "description": "AI assistant and MCP server for Blender: visual chat, scene tools, model selection, multi-agent workflows. Works with OpenAI, Claude, Gemini, Ollama and OpenCode. Blender AI automation, bpy scripting, 3D modeling, geometry nodes and MCP integration.",
+        "language": "Python",
+        "stars": 329,
+        "url": "https://github.com/anujasid/mcp-for-blender-pro",
+        "created": "2026-10-15T22:30:47Z",
+        "topics": [
+          "3d",
+          "3d-automation",
+          "3d-modeling",
+          "ai-agents"
+        ]
+      },
+      {
+        "name": "OpenMOSS/MOSS-Image",
+        "description": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.",
+        "language": "Python",
+        "stars": 284,
+        "url": "https://github.com/OpenMOSS/MOSS-Image",
+        "created": "2026-10-16T01:18:13Z",
+        "topics": [
+          "controllable-generation",
+          "foundation-models",
+          "image-generation",
+          "text-rendering"
+        ]
+      },
+      {
+        "name": "shishir0x/GoogleUnlimited",
+        "description": "Unlimited Google Photos auto-sync on Windows with Pixel original quality spoofing — native, portable, and zero-quota.",
+        "language": "PowerShell",
+        "stars": 240,
+        "url": "https://github.com/shishir0x/GoogleUnlimited",
+        "created": "2026-10-15T14:30:13Z",
+        "topics": [
+          "google-photos",
+          "unlimited-storage"
+        ]
+      },
+      {
+        "name": "antirez/c64-hw-simulator",
+        "description": "Commodore 64 hardware simulator",
+        "language": "C",
+        "stars": 198,
+        "url": "https://github.com/antirez/c64-hw-simulator",
+        "created": "2026-10-15T07:14:32Z",
+        "topics": []
+      },
+      {
+        "name": "alexander-stack1/ciencia-de-dados-cibele-russo",
+        "description": "Trilhas de estudo de Ciência de Dados derivadas das aulas da Profa. Cibele Russo (ICMC/USP)",
+        "language": null,
+        "stars": 160,
+        "url": "https://github.com/alexander-stack1/ciencia-de-dados-cibele-russo",
+        "created": "2026-10-15T13:49:27Z",
         "topics": []
       }
     ],
     "posts": [
       {
         "source": "showhn",
+        "title": "rStation – A shared research lab for your AI agents",
+        "url": "https://rstation.ai/",
+        "points": 52,
+        "comments": 19,
+        "discussion": "https://news.ycombinator.com/item?id=50118876",
+        "created": "2026-10-16T14:35:43.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "Gemini 4 Argon plays StarCraft",
+        "url": "https://starskirmish.com/bench/v0-2/",
+        "points": 209,
+        "comments": 92,
+        "discussion": "https://news.ycombinator.com/item?id=50118688",
+        "created": "2026-10-16T14:18:44.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "Sygal – Convert PDFs, scans and web pages to Markdown, locally",
         "url": "https://sygal.app",
-        "points": 42,
+        "points": 45,
         "comments": 15,
         "discussion": "https://news.ycombinator.com/item?id=50106054",
         "created": "2026-10-15T16:26:16.000Z"
@@ -244,8 +265,8 @@
         "source": "showhn",
         "title": "Proa – A Rust web framework with fast SSR and multi-target rendering",
         "url": "https://proa.so/",
-        "points": 102,
-        "comments": 28,
+        "points": 105,
+        "comments": 34,
         "discussion": "https://news.ycombinator.com/item?id=50105467",
         "created": "2026-10-15T15:52:08.000Z"
       },
@@ -253,8 +274,8 @@
         "source": "showhn",
         "title": "Unfenced – Land for sale that borders public land",
         "url": "https://unfenced.land/",
-        "points": 296,
-        "comments": 191,
+        "points": 311,
+        "comments": 197,
         "discussion": "https://news.ycombinator.com/item?id=50102247",
         "created": "2026-10-15T11:38:57.000Z"
       },
@@ -262,28 +283,10 @@
         "source": "showhn",
         "title": "Flipflop – Iroh-powered persistent tunnels for filesharing",
         "url": "https://github.com/andunieee/flipflop",
-        "points": 129,
-        "comments": 63,
+        "points": 137,
+        "comments": 66,
         "discussion": "https://news.ycombinator.com/item?id=50099136",
         "created": "2026-10-15T04:25:28.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Ito – Build Terminal UIs in Lua",
-        "url": "https://uji.sh/ito/",
-        "points": 72,
-        "comments": 13,
-        "discussion": "https://news.ycombinator.com/item?id=50096300",
-        "created": "2026-10-14T22:23:53.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Petal, open-source CoScreen/ScreenHero finally free",
-        "url": "https://petal.live/",
-        "points": 217,
-        "comments": 41,
-        "discussion": "https://news.ycombinator.com/item?id=50092470",
-        "created": "2026-10-14T18:23:14.000Z"
       },
       {
         "source": "launchhn",
@@ -298,8 +301,8 @@
         "source": "launchhn",
         "title": "Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
         "url": "https://news.ycombinator.com/item?id=50059096",
-        "points": 160,
-        "comments": 125,
+        "points": 162,
+        "comments": 127,
         "discussion": "https://news.ycombinator.com/item?id=50059096",
         "created": "2026-10-12T16:46:34.000Z"
       },
@@ -323,30 +326,12 @@
       },
       {
         "source": "hn",
-        "title": "Wayland desktop for Linux with skeuomorphic design",
-        "url": "https://github.com/fyzugx/DEsk",
-        "points": 622,
-        "comments": 250,
-        "discussion": "https://news.ycombinator.com/item?id=50103338",
-        "created": "2026-10-15T13:23:44.000Z"
-      },
-      {
-        "source": "hn",
-        "title": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
-        "url": "https://libreboot.org/news/libreboot2610.html",
-        "points": 290,
-        "comments": 181,
-        "discussion": "https://news.ycombinator.com/item?id=50102923",
-        "created": "2026-10-15T12:52:16.000Z"
-      },
-      {
-        "source": "hn",
-        "title": "Any window from your Mac, on your iPhone and iPad",
-        "url": "https://github.com/Saffsanity/sill",
-        "points": 165,
-        "comments": 37,
-        "discussion": "https://news.ycombinator.com/item?id=50112739",
-        "created": "2026-10-16T01:43:17.000Z"
+        "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+        "url": "https://github.com/cobanov/PS5LM",
+        "points": 259,
+        "comments": 64,
+        "discussion": "https://news.ycombinator.com/item?id=50122431",
+        "created": "2026-10-16T18:32:35.000Z"
       },
       {
         "source": "lobsters",
@@ -1036,7 +1021,7 @@
         "name": "rehan-remade/universal-modder",
         "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
         "language": "Python",
-        "stars": 7994,
+        "stars": 8110,
         "url": "https://github.com/rehan-remade/universal-modder",
         "created": "2026-09-30T05:00:35Z",
         "topics": [
@@ -1046,7 +1031,7 @@
           "fal"
         ],
         "firstSeen": "2026-09-30",
-        "lastSeen": "2026-10-16",
+        "lastSeen": "2026-10-17",
         "starsAtFirstSeen": 224
       },
       "ZacharyZhang-NY/Ely-GPUI-Components": {
@@ -1879,7 +1864,7 @@
         "name": "storytold/photocraft",
         "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 64162,
+        "stars": 65288,
         "url": "https://github.com/storytold/photocraft",
         "created": "2026-09-30T13:37:48Z",
         "topics": [
@@ -1894,7 +1879,7 @@
           "url": "https://news.ycombinator.com/item?id=49981449"
         },
         "firstSeen": "2026-10-07",
-        "lastSeen": "2026-10-16",
+        "lastSeen": "2026-10-17",
         "starsAtFirstSeen": 9679
       },
       "jev-chat/jev-chat-jarvis": {
@@ -2150,12 +2135,12 @@
         "name": "storytold/wordcraft",
         "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
         "language": "Rust",
-        "stars": 13434,
+        "stars": 13742,
         "url": "https://github.com/storytold/wordcraft",
         "created": "2026-10-07T08:34:24Z",
         "topics": [],
         "firstSeen": "2026-10-08",
-        "lastSeen": "2026-10-16",
+        "lastSeen": "2026-10-17",
         "starsAtFirstSeen": 522,
         "hn": {
           "points": 101,
@@ -2237,7 +2222,7 @@
         "name": "storytold/lightcraft",
         "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 13077,
+        "stars": 13273,
         "url": "https://github.com/storytold/lightcraft",
         "created": "2026-09-30T14:09:27Z",
         "topics": [
@@ -2247,7 +2232,7 @@
           "raw"
         ],
         "firstSeen": "2026-10-09",
-        "lastSeen": "2026-10-16",
+        "lastSeen": "2026-10-17",
         "starsAtFirstSeen": 6204
       },
       "shadany7824/playgta5": {
@@ -2278,7 +2263,7 @@
         "name": "storytold/filmcraft",
         "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 14018,
+        "stars": 14287,
         "url": "https://github.com/storytold/filmcraft",
         "created": "2026-09-30T13:41:20Z",
         "topics": [
@@ -2288,7 +2273,7 @@
           "video"
         ],
         "firstSeen": "2026-10-10",
-        "lastSeen": "2026-10-16",
+        "lastSeen": "2026-10-17",
         "starsAtFirstSeen": 7455
       },
       "t4t5/omdrop-owl": {
@@ -2447,7 +2432,7 @@
         "name": "storytold/pdfcraft",
         "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 14690,
+        "stars": 15111,
         "url": "https://github.com/storytold/pdfcraft",
         "created": "2026-09-30T13:39:37Z",
         "topics": [
@@ -2457,7 +2442,7 @@
           "adobe"
         ],
         "firstSeen": "2026-10-11",
-        "lastSeen": "2026-10-16",
+        "lastSeen": "2026-10-17",
         "starsAtFirstSeen": 8688
       },
       "Ebony-Vinyl/dsh-our-free-model": {
@@ -2976,7 +2961,7 @@
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 13485,
+        "stars": 14194,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -2986,14 +2971,14 @@
           "vizualization"
         ],
         "firstSeen": "2026-10-15",
-        "lastSeen": "2026-10-16",
+        "lastSeen": "2026-10-17",
         "starsAtFirstSeen": 11916
       },
       "storytold/vectorcraft": {
         "name": "storytold/vectorcraft",
         "description": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 9322,
+        "stars": 9512,
         "url": "https://github.com/storytold/vectorcraft",
         "created": "2026-09-30T13:43:03Z",
         "topics": [
@@ -3003,7 +2988,7 @@
           "svg"
         ],
         "firstSeen": "2026-10-15",
-        "lastSeen": "2026-10-16",
+        "lastSeen": "2026-10-17",
         "starsAtFirstSeen": 9030
       },
       "outcrawlai/scout": {
@@ -3107,12 +3092,12 @@
         "name": "chenglou/handwired",
         "description": "Turn your regular JavaScript code into a neural net.",
         "language": "TypeScript",
-        "stars": 1330,
+        "stars": 1601,
         "url": "https://github.com/chenglou/handwired",
         "created": "2026-10-15T02:15:09Z",
         "topics": [],
         "firstSeen": "2026-10-16",
-        "lastSeen": "2026-10-16",
+        "lastSeen": "2026-10-17",
         "starsAtFirstSeen": 1231
       },
       "feder-cr/open_scion": {
@@ -3136,12 +3121,12 @@
         "name": "Supermedo/uncharted_pc",
         "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
         "language": "C++",
-        "stars": 851,
+        "stars": 1067,
         "url": "https://github.com/Supermedo/uncharted_pc",
         "created": "2026-10-15T00:17:23Z",
         "topics": [],
         "firstSeen": "2026-10-16",
-        "lastSeen": "2026-10-16",
+        "lastSeen": "2026-10-17",
         "starsAtFirstSeen": 768
       },
       "pro-vi/cc-stretch": {
@@ -3196,6 +3181,125 @@
         "firstSeen": "2026-10-16",
         "lastSeen": "2026-10-16",
         "starsAtFirstSeen": 194
+      },
+      "feder-cr/git-ai": {
+        "name": "feder-cr/git-ai",
+        "description": "Git designed for AI agents.",
+        "language": "Go",
+        "stars": 1076,
+        "url": "https://github.com/feder-cr/git-ai",
+        "created": "2026-10-15T13:12:02Z",
+        "topics": [
+          "ai-agents",
+          "coding-agents",
+          "git",
+          "golang"
+        ],
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17",
+        "starsAtFirstSeen": 1076
+      },
+      "Leonxlnx/earshot": {
+        "name": "Leonxlnx/earshot",
+        "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+        "language": "Python",
+        "stars": 410,
+        "url": "https://github.com/Leonxlnx/earshot",
+        "created": "2026-10-15T06:52:46Z",
+        "topics": [
+          "ai-agents",
+          "audio",
+          "claude-code",
+          "mcp"
+        ],
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17",
+        "starsAtFirstSeen": 410
+      },
+      "xscreensaver-official/xscreensaver": {
+        "name": "xscreensaver-official/xscreensaver",
+        "description": "There is no official XScreenSaver GitHub repository.",
+        "language": null,
+        "stars": 358,
+        "url": "https://github.com/xscreensaver-official/xscreensaver",
+        "created": "2026-10-16T16:24:44Z",
+        "topics": [],
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17",
+        "starsAtFirstSeen": 358
+      },
+      "anujasid/mcp-for-blender-pro": {
+        "name": "anujasid/mcp-for-blender-pro",
+        "description": "AI assistant and MCP server for Blender: visual chat, scene tools, model selection, multi-agent workflows. Works with OpenAI, Claude, Gemini, Ollama and OpenCode. Blender AI automation, bpy scripting, 3D modeling, geometry nodes and MCP integration.",
+        "language": "Python",
+        "stars": 329,
+        "url": "https://github.com/anujasid/mcp-for-blender-pro",
+        "created": "2026-10-15T22:30:47Z",
+        "topics": [
+          "3d",
+          "3d-automation",
+          "3d-modeling",
+          "ai-agents"
+        ],
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17",
+        "starsAtFirstSeen": 329
+      },
+      "OpenMOSS/MOSS-Image": {
+        "name": "OpenMOSS/MOSS-Image",
+        "description": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.",
+        "language": "Python",
+        "stars": 284,
+        "url": "https://github.com/OpenMOSS/MOSS-Image",
+        "created": "2026-10-16T01:18:13Z",
+        "topics": [
+          "controllable-generation",
+          "foundation-models",
+          "image-generation",
+          "text-rendering"
+        ],
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17",
+        "starsAtFirstSeen": 284
+      },
+      "shishir0x/GoogleUnlimited": {
+        "name": "shishir0x/GoogleUnlimited",
+        "description": "Unlimited Google Photos auto-sync on Windows with Pixel original quality spoofing — native, portable, and zero-quota.",
+        "language": "PowerShell",
+        "stars": 240,
+        "url": "https://github.com/shishir0x/GoogleUnlimited",
+        "created": "2026-10-15T14:30:13Z",
+        "topics": [
+          "google-photos",
+          "unlimited-storage"
+        ],
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17",
+        "starsAtFirstSeen": 240
+      },
+      "antirez/c64-hw-simulator": {
+        "name": "antirez/c64-hw-simulator",
+        "description": "Commodore 64 hardware simulator",
+        "language": "C",
+        "stars": 198,
+        "url": "https://github.com/antirez/c64-hw-simulator",
+        "created": "2026-10-15T07:14:32Z",
+        "topics": [],
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17",
+        "starsAtFirstSeen": 198
+      },
+      "alexander-stack1/ciencia-de-dados-cibele-russo": {
+        "name": "alexander-stack1/ciencia-de-dados-cibele-russo",
+        "description": "Trilhas de estudo de Ciência de Dados derivadas das aulas da Profa. Cibele Russo (ICMC/USP)",
+        "language": null,
+        "stars": 160,
+        "url": "https://github.com/alexander-stack1/ciencia-de-dados-cibele-russo",
+        "created": "2026-10-15T13:49:27Z",
+        "topics": [],
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17",
+        "starsAtFirstSeen": 160
       }
     },
     "posts": {
@@ -3725,7 +3829,7 @@
         "discussion": "https://news.ycombinator.com/item?id=49881505",
         "created": "2026-09-28T17:34:36.000Z",
         "firstSeen": "2026-09-29",
-        "lastSeen": "2026-10-16"
+        "lastSeen": "2026-10-17"
       },
       "https://news.ycombinator.com/item?id=49884625": {
         "source": "hn",
@@ -3901,7 +4005,7 @@
         "discussion": "https://news.ycombinator.com/item?id=49911995",
         "created": "2026-09-30T17:37:40.000Z",
         "firstSeen": "2026-10-01",
-        "lastSeen": "2026-10-16"
+        "lastSeen": "2026-10-17"
       },
       "https://news.ycombinator.com/item?id=49903713": {
         "source": "hn",
@@ -4033,7 +4137,7 @@
         "discussion": "https://lobste.rs/s/1h7qzj/outis_fight_ai_spam_by_generating_sending",
         "created": "2026-10-01T15:54:02.796Z",
         "firstSeen": "2026-10-02",
-        "lastSeen": "2026-10-16"
+        "lastSeen": "2026-10-17"
       },
       "https://news.ycombinator.com/item?id=49937916": {
         "source": "showhn",
@@ -4308,7 +4412,7 @@
         "discussion": "https://lobste.rs/s/dwbksa/brut_brutal_router_for_unix_tools",
         "created": "2026-10-06T17:17:23.875Z",
         "firstSeen": "2026-10-07",
-        "lastSeen": "2026-10-16"
+        "lastSeen": "2026-10-17"
       },
       "https://lobste.rs/s/tcmpcw/pared_remove_unwanted_apple": {
         "source": "lobsters",
@@ -4319,7 +4423,7 @@
         "discussion": "https://lobste.rs/s/tcmpcw/pared_remove_unwanted_apple",
         "created": "2026-10-06T18:27:16.404Z",
         "firstSeen": "2026-10-07",
-        "lastSeen": "2026-10-16"
+        "lastSeen": "2026-10-17"
       },
       "https://news.ycombinator.com/item?id=49987765": {
         "source": "showhn",
@@ -4699,12 +4803,12 @@
         "source": "launchhn",
         "title": "Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
         "url": "https://news.ycombinator.com/item?id=50059096",
-        "points": 160,
-        "comments": 125,
+        "points": 162,
+        "comments": 127,
         "discussion": "https://news.ycombinator.com/item?id=50059096",
         "created": "2026-10-12T16:46:34.000Z",
         "firstSeen": "2026-10-13",
-        "lastSeen": "2026-10-16"
+        "lastSeen": "2026-10-17"
       },
       "https://news.ycombinator.com/item?id=50060694": {
         "source": "hn",
@@ -4847,7 +4951,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50073471",
         "created": "2026-10-13T15:41:00.000Z",
         "firstSeen": "2026-10-14",
-        "lastSeen": "2026-10-16"
+        "lastSeen": "2026-10-17"
       },
       "https://lobste.rs/s/oq6nhr/easylang_simple_browser_based": {
         "source": "lobsters",
@@ -4858,7 +4962,7 @@
         "discussion": "https://lobste.rs/s/oq6nhr/easylang_simple_browser_based",
         "created": "2026-10-13T13:37:44.114Z",
         "firstSeen": "2026-10-14",
-        "lastSeen": "2026-10-16"
+        "lastSeen": "2026-10-17"
       },
       "https://news.ycombinator.com/item?id=50081151": {
         "source": "showhn",
@@ -4908,12 +5012,12 @@
         "source": "showhn",
         "title": "Flipflop, Iroh-powered persistent tunnels for filesharing",
         "url": "https://github.com/andunieee/flipflop",
-        "points": 129,
-        "comments": 63,
+        "points": 137,
+        "comments": 66,
         "discussion": "https://news.ycombinator.com/item?id=50099136",
         "created": "2026-10-15T04:25:28.000Z",
         "firstSeen": "2026-10-15",
-        "lastSeen": "2026-10-16"
+        "lastSeen": "2026-10-17"
       },
       "https://news.ycombinator.com/item?id=50092470": {
         "source": "showhn",
@@ -4974,34 +5078,34 @@
         "source": "showhn",
         "title": "Sygal – Convert PDFs, scans and web pages to Markdown, locally",
         "url": "https://sygal.app",
-        "points": 42,
+        "points": 45,
         "comments": 15,
         "discussion": "https://news.ycombinator.com/item?id=50106054",
         "created": "2026-10-15T16:26:16.000Z",
         "firstSeen": "2026-10-16",
-        "lastSeen": "2026-10-16"
+        "lastSeen": "2026-10-17"
       },
       "https://news.ycombinator.com/item?id=50105467": {
         "source": "showhn",
         "title": "Proa – A Rust web framework with fast SSR and multi-target rendering",
         "url": "https://proa.so/",
-        "points": 102,
-        "comments": 28,
+        "points": 105,
+        "comments": 34,
         "discussion": "https://news.ycombinator.com/item?id=50105467",
         "created": "2026-10-15T15:52:08.000Z",
         "firstSeen": "2026-10-16",
-        "lastSeen": "2026-10-16"
+        "lastSeen": "2026-10-17"
       },
       "https://news.ycombinator.com/item?id=50102247": {
         "source": "showhn",
         "title": "Unfenced – Land for sale that borders public land",
         "url": "https://unfenced.land/",
-        "points": 296,
-        "comments": 191,
+        "points": 311,
+        "comments": 197,
         "discussion": "https://news.ycombinator.com/item?id=50102247",
         "created": "2026-10-15T11:38:57.000Z",
         "firstSeen": "2026-10-16",
-        "lastSeen": "2026-10-16"
+        "lastSeen": "2026-10-17"
       },
       "https://news.ycombinator.com/item?id=50096300": {
         "source": "showhn",
@@ -5046,89 +5150,163 @@
         "created": "2026-10-16T01:43:17.000Z",
         "firstSeen": "2026-10-16",
         "lastSeen": "2026-10-16"
+      },
+      "https://news.ycombinator.com/item?id=50118876": {
+        "source": "showhn",
+        "title": "rStation – A shared research lab for your AI agents",
+        "url": "https://rstation.ai/",
+        "points": 52,
+        "comments": 19,
+        "discussion": "https://news.ycombinator.com/item?id=50118876",
+        "created": "2026-10-16T14:35:43.000Z",
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17"
+      },
+      "https://news.ycombinator.com/item?id=50118688": {
+        "source": "showhn",
+        "title": "Gemini 4 Argon plays StarCraft",
+        "url": "https://starskirmish.com/bench/v0-2/",
+        "points": 209,
+        "comments": 92,
+        "discussion": "https://news.ycombinator.com/item?id=50118688",
+        "created": "2026-10-16T14:18:44.000Z",
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17"
+      },
+      "https://news.ycombinator.com/item?id=50122431": {
+        "source": "hn",
+        "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+        "url": "https://github.com/cobanov/PS5LM",
+        "points": 259,
+        "comments": 64,
+        "discussion": "https://news.ycombinator.com/item?id=50122431",
+        "created": "2026-10-16T18:32:35.000Z",
+        "firstSeen": "2026-10-17",
+        "lastSeen": "2026-10-17"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-10-16T11:11:59.447Z",
+    "fetchedAt": "2026-10-17T06:32:51.895Z",
     "hn": [
       {
-        "title": "Muse Spark Open",
-        "url": "https://research.meta.ai/blog/muse-spark-open",
-        "points": 828,
-        "comments": 415,
-        "discussion": "https://news.ycombinator.com/item?id=50107379"
+        "title": "Tesla Roadster",
+        "url": "https://www.tesla.com/roadster",
+        "points": 1339,
+        "comments": 2378,
+        "discussion": "https://news.ycombinator.com/item?id=50112657"
       },
       {
-        "title": "Neural networks are clean",
-        "url": "https://already-clean.goodfire.com/",
-        "points": 706,
-        "comments": 266,
-        "discussion": "https://news.ycombinator.com/item?id=50105647"
+        "title": "Claude reveals ECDSA curve origins",
+        "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+        "points": 806,
+        "comments": 306,
+        "discussion": "https://news.ycombinator.com/item?id=50122800"
       },
       {
-        "title": "Wayland desktop for Linux with skeuomorphic design",
-        "url": "https://github.com/fyzugx/DEsk",
-        "points": 622,
-        "comments": 248,
-        "discussion": "https://news.ycombinator.com/item?id=50103338"
+        "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+        "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+        "points": 461,
+        "comments": 400,
+        "discussion": "https://news.ycombinator.com/item?id=50121179"
       },
       {
-        "title": "What I self-host",
-        "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
-        "points": 510,
-        "comments": 323,
-        "discussion": "https://news.ycombinator.com/item?id=50109715"
+        "title": "I love software rendering",
+        "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+        "points": 313,
+        "comments": 198,
+        "discussion": "https://news.ycombinator.com/item?id=50117746"
       },
       {
-        "title": "Jev meets the Trolley Problem",
-        "url": "https://zachlandes.com/trolley-problem/",
-        "points": 479,
-        "comments": 202,
-        "discussion": "https://news.ycombinator.com/item?id=50106023"
+        "title": "How the Claude Code team does code review",
+        "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+        "points": 307,
+        "comments": 280,
+        "discussion": "https://news.ycombinator.com/item?id=50122951"
       },
       {
-        "title": "Woman who rescued injured crow keeps getting 'thank-you gifts' from birds [video]",
-        "url": "https://www.youtube.com/watch?v=sjNpfz4UzqU",
-        "points": 364,
-        "comments": 122,
-        "discussion": "https://news.ycombinator.com/item?id=50065859"
+        "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+        "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+        "points": 298,
+        "comments": 147,
+        "discussion": "https://news.ycombinator.com/item?id=50118320"
       },
       {
-        "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
-        "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
-        "points": 357,
+        "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+        "url": "https://github.com/cobanov/PS5LM",
+        "points": 257,
+        "comments": 64,
+        "discussion": "https://news.ycombinator.com/item?id=50122431"
+      },
+      {
+        "title": "JPEG XL vs. AVIF for web use-cases",
+        "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+        "points": 234,
         "comments": 163,
-        "discussion": "https://news.ycombinator.com/item?id=50108872"
+        "discussion": "https://news.ycombinator.com/item?id=50120224"
       },
       {
-        "title": "Meta’s new commercial terms will allow the scraping of news sites: experts",
-        "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
-        "points": 320,
-        "comments": 114,
-        "discussion": "https://news.ycombinator.com/item?id=50111852"
+        "title": "You could have invented transformers from memory",
+        "url": "https://alexwang.ai/posts/associative-memory/",
+        "points": 234,
+        "comments": 61,
+        "discussion": "https://news.ycombinator.com/item?id=50122878"
       },
       {
-        "title": "Krea 3 – An image model built for editing at scale",
-        "url": "https://www.krea.ai/krea-3",
-        "points": 314,
-        "comments": 100,
-        "discussion": "https://news.ycombinator.com/item?id=50105648"
-      },
-      {
-        "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
-        "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
-        "points": 308,
-        "comments": 201,
-        "discussion": "https://news.ycombinator.com/item?id=50109375"
+        "title": "Show HN: Gemini 4 Argon plays StarCraft",
+        "url": "https://starskirmish.com/bench/v0-2/",
+        "points": 209,
+        "comments": 92,
+        "discussion": "https://news.ycombinator.com/item?id=50118688"
       }
     ],
     "lobsters": [
       {
+        "title": "The NIST Elliptic Curves Seeds Bounty Has Been Claimed",
+        "url": "https://words.filippo.io/seeds-solved/",
+        "points": 68,
+        "comments": 10,
+        "discussion": "https://lobste.rs/s/ddtqtn/nist_elliptic_curves_seeds_bounty_has",
+        "tags": [
+          "cryptography"
+        ]
+      },
+      {
+        "title": "The Decoherence Trap: When AI slop drowns out the signal in an endless sea of noise",
+        "url": "https://maevyn.codes/decoherence",
+        "points": 23,
+        "comments": 9,
+        "discussion": "https://lobste.rs/s/vjmn84/decoherence_trap_when_ai_slop_drowns_out",
+        "tags": [
+          "vibecoding"
+        ]
+      },
+      {
+        "title": "The road to iroh 1.0",
+        "url": "https://www.iroh.computer/blog/the-road-to-iroh-1-0",
+        "points": 51,
+        "comments": 12,
+        "discussion": "https://lobste.rs/s/6laoto/road_iroh_1_0",
+        "tags": [
+          "networking"
+        ]
+      },
+      {
+        "title": "Why are we even doing all this?",
+        "url": "https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/",
+        "points": 97,
+        "comments": 13,
+        "discussion": "https://lobste.rs/s/qvomvk/why_are_we_even_doing_all_this",
+        "tags": [
+          "math",
+          "vibecoding"
+        ]
+      },
+      {
         "title": "Linus Torvalds on AI-assisted kernel contributions",
         "url": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/",
-        "points": 40,
-        "comments": 64,
+        "points": 85,
+        "comments": 151,
         "discussion": "https://lobste.rs/s/xiq59t/linus_torvalds_on_ai_assisted_kernel",
         "tags": [
           "linux",
@@ -5136,102 +5314,56 @@
         ]
       },
       {
-        "title": "JPEG XL vs AVIF for web use-cases",
-        "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
-        "points": 71,
-        "comments": 25,
-        "discussion": "https://lobste.rs/s/uejdwj/jpeg_xl_vs_avif_for_web_use_cases",
+        "title": "Making a 88x31 button book using ImageMagick",
+        "url": "https://k.sosnierz.me/08-11-24/",
+        "points": 38,
+        "comments": 9,
+        "discussion": "https://lobste.rs/s/v6hhdr/making_88x31_button_book_using",
         "tags": [
-          "compsci",
-          "web"
+          "art"
         ]
       },
       {
-        "title": "My C23 Conventions",
-        "url": "https://abner.page/post/c23-conventions-1/",
-        "points": 46,
-        "comments": 11,
-        "discussion": "https://lobste.rs/s/umdbht/my_c23_conventions",
-        "tags": [
-          "c"
-        ]
-      },
-      {
-        "title": "Sunsetting decomp.dev",
-        "url": "https://decomp.dev/",
-        "points": 65,
-        "comments": 15,
-        "discussion": "https://lobste.rs/s/kaerns/sunsetting_decomp_dev",
-        "tags": [
-          "games",
-          "reversing",
-          "vibecoding"
-        ]
-      },
-      {
-        "title": "Announcing Rust 1.99.1",
-        "url": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
-        "points": 19,
-        "comments": 6,
-        "discussion": "https://lobste.rs/s/ttcx5k/announcing_rust_1_99_1",
-        "tags": [
-          "release",
-          "rust"
-        ]
-      },
-      {
-        "title": "Forgejo v17.0 is available",
-        "url": "https://forgejo.org/2026-10-release-v17-0/",
-        "points": 45,
-        "comments": 3,
-        "discussion": "https://lobste.rs/s/vemho2/forgejo_v17_0_is_available",
-        "tags": [
-          "release",
-          "vcs"
-        ]
-      },
-      {
-        "title": "Epic's EAC2 v2 seems fairly easily bypassable",
-        "url": "https://codon.org.uk/~mjg59/blog/p/epics-eac2-v2-seems-fairly-easily-bypassable/",
-        "points": 19,
-        "comments": 10,
-        "discussion": "https://lobste.rs/s/1iin5o/epic_s_eac2_v2_seems_fairly_easily",
+        "title": "Introducing GNOME OS Preview",
+        "url": "https://blogs.gnome.org/adrianvovk/2026/10/16/gnome-os-preview/",
+        "points": 18,
+        "comments": 4,
+        "discussion": "https://lobste.rs/s/xwng6u/introducing_gnome_os_preview",
         "tags": [
           "linux",
+          "release"
+        ]
+      },
+      {
+        "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+        "url": "https://calif.io/research/big-fish",
+        "points": 31,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/cxlrc5/big_fish_exploiting_37_year_old_kernel_bug",
+        "tags": [
+          "openbsd",
           "security"
         ]
       },
       {
-        "title": "On the technical actions needed to ensure the continuity of UTC",
-        "url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
-        "points": 26,
-        "comments": 5,
-        "discussion": "https://lobste.rs/s/ipyrkv/on_technical_actions_needed_ensure",
-        "tags": [
-          "science"
-        ]
-      },
-      {
-        "title": "My self-hosted infrastructure with Incus OS",
-        "url": "https://dataswamp.org/~solene/2026-10-15-selfhosting-infrastructure-incus-os.html",
-        "points": 13,
+        "title": "Getting Canceled",
+        "url": "https://www.youtube.com/watch?v=5zIOfBLQ3U4",
+        "points": 17,
         "comments": 1,
-        "discussion": "https://lobste.rs/s/q0wobg/my_self_hosted_infrastructure_with_incus",
+        "discussion": "https://lobste.rs/s/tty7hm/getting_canceled",
         "tags": [
-          "devops",
-          "linux"
+          "video",
+          "zig"
         ]
       },
       {
-        "title": "Haxy on Haxy",
-        "url": "https://try.haxy.net/haxy:haxy",
-        "points": 50,
-        "comments": 26,
-        "discussion": "https://lobste.rs/s/bcaopz/haxy_on_haxy",
+        "title": "Mull: note-taking with a language server / vscode extension",
+        "url": "https://github.com/stepchowfun/mull",
+        "points": 12,
+        "comments": 8,
+        "discussion": "https://lobste.rs/s/xcacrh/mull_note_taking_with_language_server",
         "tags": [
-          "practices",
-          "vcs",
-          "zig"
+          "editors"
         ]
       }
     ],
@@ -5239,13 +5371,25 @@
       {
         "title": "What Are Your Chances of Surviving Resident Evil Based on Your Tech Job?",
         "url": "https://dev.to/xulingfeng/what-are-your-chances-of-surviving-resident-evil-based-on-your-tech-job-4b9o",
-        "points": 48,
-        "comments": 28,
+        "points": 88,
+        "comments": 55,
         "discussion": "https://dev.to/xulingfeng/what-are-your-chances-of-surviving-resident-evil-based-on-your-tech-job-4b9o",
         "tags": [
           "discuss",
           "career",
           "jokes"
+        ]
+      },
+      {
+        "title": "Dev Opportunity Radar #21: $500K Y Combinator Funding, Bolt Builders Week, and AI Safety Research Residency",
+        "url": "https://dev.to/devengers/dev-opportunity-radar-21-500k-y-combinator-funding-bolt-builders-week-and-ai-safety-research-12b8",
+        "points": 58,
+        "comments": 6,
+        "discussion": "https://dev.to/devengers/dev-opportunity-radar-21-500k-y-combinator-funding-bolt-builders-week-and-ai-safety-research-12b8",
+        "tags": [
+          "discuss",
+          "community",
+          "opportunities"
         ]
       },
       {
@@ -5261,35 +5405,11 @@
         ]
       },
       {
-        "title": "Natural Languages Have Design Trade-offs Too: Georgian Is Dynamically Typed, English Is Statically Typed",
-        "url": "https://dev.to/georgekobaidze/natural-languages-have-design-trade-offs-too-georgian-is-dynamically-typed-english-is-statically-emi",
-        "points": 32,
-        "comments": 24,
-        "discussion": "https://dev.to/georgekobaidze/natural-languages-have-design-trade-offs-too-georgian-is-dynamically-typed-english-is-statically-emi",
-        "tags": [
-          "programming",
-          "writing",
-          "design"
-        ]
-      },
-      {
-        "title": "I'm 12. I'm building a privacy-first Virtual Try-On tool. Would you use it?",
-        "url": "https://dev.to/koda2026/im-12-im-building-a-privacy-first-virtual-try-on-tool-would-you-use-it-lf2",
-        "points": 30,
-        "comments": 11,
-        "discussion": "https://dev.to/koda2026/im-12-im-building-a-privacy-first-virtual-try-on-tool-would-you-use-it-lf2",
-        "tags": [
-          "ai",
-          "buildinpublic",
-          "privacy"
-        ]
-      },
-      {
-        "title": "Scope-Creep Guard: A Local Gemma AI That Tells Clients \"That's Out of Scope\" (So You Don't Have To) published: true",
-        "url": "https://dev.to/vidisha_gupta_/scope-creep-guard-a-local-gemma-ai-that-tells-clients-thats-out-of-scope-so-you-dont-have-18n2",
-        "points": 21,
-        "comments": 1,
-        "discussion": "https://dev.to/vidisha_gupta_/scope-creep-guard-a-local-gemma-ai-that-tells-clients-thats-out-of-scope-so-you-dont-have-18n2",
+        "title": "What if the scoreboard had no delay?",
+        "url": "https://dev.to/satviksingh192/what-if-the-scoreboard-had-no-delay-3gi2",
+        "points": 35,
+        "comments": 0,
+        "discussion": "https://dev.to/satviksingh192/what-if-the-scoreboard-had-no-delay-3gi2",
         "tags": [
           "devchallenge",
           "hf26challenge",
@@ -5297,177 +5417,79 @@
         ]
       },
       {
-        "title": "The Bug Lives at the Seam, Not in the Logic",
-        "url": "https://dev.to/debashish_ghosal/the-bug-lives-at-the-seam-not-in-the-logic-48j4",
-        "points": 21,
-        "comments": 2,
-        "discussion": "https://dev.to/debashish_ghosal/the-bug-lives-at-the-seam-not-in-the-logic-48j4",
+        "title": "The 90-day window every medical shop misses: I built ShelfMitra to catch it, in Tamil, Hindi and English",
+        "url": "https://dev.to/apples_one_cd174284bffb/the-90-day-window-every-medical-shop-misses-i-built-shelfmitra-to-catch-it-in-tamil-hindi-and-26dd",
+        "points": 25,
+        "comments": 1,
+        "discussion": "https://dev.to/apples_one_cd174284bffb/the-90-day-window-every-medical-shop-misses-i-built-shelfmitra-to-catch-it-in-tamil-hindi-and-26dd",
         "tags": [
-          "ai",
-          "testing",
-          "llm"
+          "devchallenge",
+          "hf26challenge"
         ]
       },
       {
-        "title": "I Built an Open-Weight AI That Prices Etsy Shops, On Your Laptop",
-        "url": "https://dev.to/sarvar_04/i-built-an-open-weight-ai-that-prices-etsy-shops-on-your-laptop-24dk",
+        "title": "From $0 to My First $10: How I Built AudioBite.tech to End the Voice-Note Chaos Tax",
+        "url": "https://dev.to/kakeroth/from-0-to-my-first-10-how-i-built-audiobite-with-tabpfn-and-gemma-4-to-end-the-voice-note-chaos-27f7",
         "points": 20,
         "comments": 0,
-        "discussion": "https://dev.to/sarvar_04/i-built-an-open-weight-ai-that-prices-etsy-shops-on-your-laptop-24dk",
+        "discussion": "https://dev.to/kakeroth/from-0-to-my-first-10-how-i-built-audiobite-with-tabpfn-and-gemma-4-to-end-the-voice-note-chaos-27f7",
         "tags": [
-          "devchallenge",
           "hf26challenge",
+          "devchallenge",
           "tabpfn"
         ]
       },
       {
-        "title": "What I Actually Learn When I Build With AI",
-        "url": "https://dev.to/sizzlebop/what-i-actually-learn-when-i-build-with-ai-1074",
-        "points": 16,
-        "comments": 4,
-        "discussion": "https://dev.to/sizzlebop/what-i-actually-learn-when-i-build-with-ai-1074",
+        "title": "10 Prompting Techniques My Deep Learning Exam Taught Me (That I Actually Use Now)",
+        "url": "https://dev.to/dj29/10-prompting-techniques-my-deep-learning-exam-taught-me-that-i-actually-use-now-43h0",
+        "points": 19,
+        "comments": 2,
+        "discussion": "https://dev.to/dj29/10-prompting-techniques-my-deep-learning-exam-taught-me-that-i-actually-use-now-43h0",
         "tags": [
+          "promptengineering",
           "ai",
-          "programming",
-          "learning"
+          "discuss"
         ]
       },
       {
-        "title": "AI Models Can Learn from Data. But What Can They Learn from Other Models?",
-        "url": "https://dev.to/rijultp/ai-models-can-learn-from-data-but-what-can-they-learn-from-other-models-110e",
-        "points": 16,
-        "comments": 0,
-        "discussion": "https://dev.to/rijultp/ai-models-can-learn-from-data-but-what-can-they-learn-from-other-models-110e",
-        "tags": [
-          "ai",
-          "learning",
-          "beginners"
-        ]
-      },
-      {
-        "title": "RevCheck, compare the cars you want before you buy your next daily driver",
-        "url": "https://dev.to/alexgeorgiev17/revcheck-paste-two-used-car-listings-get-a-second-opinion-before-you-drive-across-town-1e7e",
+        "title": "What was your win this week?!",
+        "url": "https://dev.to/devteam/what-was-your-win-this-week-36am",
         "points": 14,
-        "comments": 0,
-        "discussion": "https://dev.to/alexgeorgiev17/revcheck-paste-two-used-car-listings-get-a-second-opinion-before-you-drive-across-town-1e7e",
+        "comments": 13,
+        "discussion": "https://dev.to/devteam/what-was-your-win-this-week-36am",
         "tags": [
-          "devchallenge",
-          "hf26challenge",
-          "ai"
+          "weeklyretro"
+        ]
+      },
+      {
+        "title": "PostgreSQL 19 beta's parallel autovacuum launches workers but leaves vacuum time unchanged",
+        "url": "https://dev.to/alexgeorgiev17/postgresql-19-betas-parallel-autovacuum-launches-workers-but-leaves-vacuum-time-unchanged-3g4j",
+        "points": 13,
+        "comments": 1,
+        "discussion": "https://dev.to/alexgeorgiev17/postgresql-19-betas-parallel-autovacuum-launches-workers-but-leaves-vacuum-time-unchanged-3g4j",
+        "tags": [
+          "postgres",
+          "database",
+          "performance"
+        ]
+      },
+      {
+        "title": "Help Your Coding Assistant Find the Right Code in Large Repos",
+        "url": "https://dev.to/raabdahl/help-your-coding-assistant-find-the-right-code-in-large-repos-20e3",
+        "points": 13,
+        "comments": 2,
+        "discussion": "https://dev.to/raabdahl/help-your-coding-assistant-find-the-right-code-in-large-repos-20e3",
+        "tags": [
+          "ai",
+          "coding",
+          "lsp"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-10-16T11:11:59.447Z",
+    "fetchedAt": "2026-10-17T06:32:51.895Z",
     "candidates": {
-      "https://blog.cloudflare.com/streamline": {
-        "source": "Cloudflare",
-        "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
-        "url": "https://blog.cloudflare.com/streamline/",
-        "published": "2026-10-02T16:13:45.000Z",
-        "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine."
-      },
-      "https://blog.cloudflare.com/introducing-web-search-api": {
-        "source": "Cloudflare",
-        "title": "Introducing Web Search API via AI Gateway",
-        "url": "https://blog.cloudflare.com/introducing-web-search-api/",
-        "published": "2026-10-02T13:28:10.000Z",
-        "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings."
-      },
-      "https://blog.cloudflare.com/one-observability-platform": {
-        "source": "Cloudflare",
-        "title": "8 major updates to Cloudflare Observability",
-        "url": "https://blog.cloudflare.com/one-observability-platform/",
-        "published": "2026-10-02T13:00:00.000Z",
-        "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing."
-      },
-      "https://blog.cloudflare.com/cloudflare-tracing": {
-        "source": "Cloudflare",
-        "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
-        "url": "https://blog.cloudflare.com/cloudflare-tracing/",
-        "published": "2026-10-02T13:00:00.000Z",
-        "summary": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack."
-      },
-      "https://blog.cloudflare.com/enterprise-for-all-update": {
-        "source": "Cloudflare",
-        "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-        "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
-        "published": "2026-10-02T13:00:00.000Z",
-        "summary": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next."
-      },
-      "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway": {
-        "source": "Cloudflare",
-        "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
-        "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-        "published": "2026-10-02T13:00:00.000Z",
-        "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products."
-      },
-      "https://blog.cloudflare.com/account-abuse-protection-dashboard": {
-        "source": "Cloudflare",
-        "title": "Follow the thread: a new dashboard to investigate account abuse",
-        "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
-        "published": "2026-10-02T13:00:00.000Z",
-        "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse."
-      },
-      "https://blog.cloudflare.com/protected-quick-tunnels": {
-        "source": "Cloudflare",
-        "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
-        "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
-        "published": "2026-10-02T13:00:00.000Z",
-        "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side."
-      },
-      "https://blog.cloudflare.com/civil-society-automation": {
-        "source": "Cloudflare",
-        "title": "Building for good: How civil society organizations are automating on Cloudflare",
-        "url": "https://blog.cloudflare.com/civil-society-automation/",
-        "published": "2026-10-02T13:00:00.000Z",
-        "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare."
-      },
-      "https://blog.cloudflare.com/network-performance-birthday-week-2026": {
-        "source": "Cloudflare",
-        "title": "2026 Birthday week: network performance update",
-        "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
-        "published": "2026-10-02T13:00:00.000Z",
-        "summary": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy."
-      },
-      "https://aws.amazon.com/blogs/architecture/deploy-oracle-database-step-by-step-on-amazon-evs-with-fsx-for-ontap": {
-        "source": "AWS Architecture",
-        "title": "Deploy Oracle Database step by step on Amazon EVS with FSx for ONTAP",
-        "url": "https://aws.amazon.com/blogs/architecture/deploy-oracle-database-step-by-step-on-amazon-evs-with-fsx-for-ontap/",
-        "published": "2026-10-02T17:57:15.000Z",
-        "summary": "This post provides step-by-step procedures to deploy Oracle Database on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP as NFS datastore storage. You provision storage volumes, mount NFS datastores, install Oracle, and configure SnapMirror replication for cross-region disaster recovery."
-      },
-      "https://aws.amazon.com/blogs/architecture/architect-highly-available-oracle-database-on-amazon-evs-and-fsx-for-ontap": {
-        "source": "AWS Architecture",
-        "title": "Architect highly available Oracle Database on Amazon EVS and FSx for ONTAP",
-        "url": "https://aws.amazon.com/blogs/architecture/architect-highly-available-oracle-database-on-amazon-evs-and-fsx-for-ontap/",
-        "published": "2026-10-02T17:57:01.000Z",
-        "summary": "Learn how to architect a highly available Oracle Database environment on Amazon Elastic VMware Service (Amazon EVS) with Amazon FSx for NetApp ONTAP. This post covers EC2 bare metal instance selection, vSAN and FSx storage tiering, NSX networking, and SnapMirror cross-region disaster recovery for enterprises preserving their VMware operational tooling."
-      },
-      "https://aws.amazon.com/blogs/architecture/deploy-open-source-regional-availability-tools-in-your-vpc": {
-        "source": "AWS Architecture",
-        "title": "Deploy open source Regional availability tools in your VPC",
-        "url": "https://aws.amazon.com/blogs/architecture/deploy-open-source-regional-availability-tools-in-your-vpc/",
-        "published": "2026-10-02T17:50:56.000Z",
-        "summary": "Deploy AWS Regional availability data as infrastructure you own. Capability Insights for AWS runs a self-hosted dashboard in your VPC that auto-refreshes daily, and Workload Analysis narrows the catalog to the services your account actually runs, so your Regional expansion gap analysis focuses only on what you deploy."
-      },
-      "https://onlineonly.christies.com/s/fine-printed-books-manuscripts-science/carrier-pigeon-internet-protocol-150/325216": {
-        "source": "Lobsters",
-        "title": "Actual RFC1149 packet being auctioned",
-        "url": "https://onlineonly.christies.com/s/fine-printed-books-manuscripts-science/carrier-pigeon-internet-protocol-150/325216",
-        "discussion": "https://lobste.rs/s/wqqkws/actual_rfc1149_packet_being_auctioned",
-        "published": "2026-10-02T14:17:00.980Z",
-        "summary": ""
-      },
-      "https://kobzol.github.io/rust/2026/09/30/stf-august-september-2026.html": {
-        "source": "Lobsters",
-        "title": "Upstream Rust maintenance report",
-        "url": "https://kobzol.github.io/rust/2026/09/30/stf-august-september-2026.html",
-        "discussion": "https://lobste.rs/s/cdkmaf/upstream_rust_maintenance_report",
-        "published": "2026-10-03T01:27:47.619Z",
-        "summary": ""
-      },
       "https://blog.cloudflare.com/birthday-week-2026-wrap-up": {
         "source": "Cloudflare",
         "title": "Everything we launched during Birthday Week 2026",
@@ -6112,6 +6134,35 @@
         "url": "https://spritely.institute/news/end-to-end-encrypted-relays-for-ocapn.html",
         "discussion": "https://lobste.rs/s/yxnovw/end_end_encrypted_relays_for_ocapn",
         "published": "2026-10-15T14:42:12.236Z",
+        "summary": ""
+      },
+      "https://blog.cloudflare.com/verified-bots-accountability": {
+        "source": "Cloudflare",
+        "title": "Continuous accountability for Verified bots",
+        "url": "https://blog.cloudflare.com/verified-bots-accountability/",
+        "published": "2026-10-16T13:00:00.000Z",
+        "summary": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuring they remain accountable over time."
+      },
+      "https://stripe.com/blog/new-ways-for-fintechs-to-move-money-and-expand-globally": {
+        "source": "Stripe",
+        "title": "New ways for fintechs to move money and expand globally",
+        "url": "https://stripe.com/blog/new-ways-for-fintechs-to-move-money-and-expand-globally",
+        "published": "2026-10-16T00:00:00.000Z",
+        "summary": "We’re introducing three updates to help fintechs launch products and grow internationally more easily: simpler payout management with Stripe Global Payouts, support for stablecoin cards in more countries, and unified APIs for building global financial products."
+      },
+      "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4": {
+        "source": "Netflix",
+        "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
+        "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4",
+        "published": "2026-10-16T16:01:02.000Z",
+        "summary": ""
+      },
+      "https://www.iroh.computer/blog/the-road-to-iroh-1-0": {
+        "source": "Lobsters",
+        "title": "The road to iroh 1.0",
+        "url": "https://www.iroh.computer/blog/the-road-to-iroh-1-0",
+        "discussion": "https://lobste.rs/s/6laoto/road_iroh_1_0",
+        "published": "2026-10-16T12:02:05.882Z",
         "summary": ""
       }
     }
