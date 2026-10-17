@@ -299,9 +299,29 @@
     "https://news.ycombinator.com/item?id=50092470": {
       "why": "Built by part of the original CoScreen team after Datadog shut that service down, it revives multi-cursor pair programming as a free, self-hostable tool.",
       "pickedOn": "2026-10-16"
+    },
+    "datalab-to/indra": {
+      "why": "README gives measured throughput (49 pages/s, ~230 ms/page) and accuracy versus Tesseract and PaddleOCR, shipping as an 18 MB ONNX model that runs on CPU without PyTorch.",
+      "pickedOn": "2026-10-17"
+    },
+    "chenglou/handwired": {
+      "why": "Compiles plain if/else, loops and state into matmul plus relu, so programs stay exact yet differentiable with no training; demos run on JS and WebGPU.",
+      "pickedOn": "2026-10-17"
+    },
+    "Entelligence-AI/agentplay": {
+      "why": "One command finds sessions already on your machine across Claude Code, Codex, Cursor and more, building a redacted local replay with no account or API key required.",
+      "pickedOn": "2026-10-17"
+    },
+    "CarterT27/scion": {
+      "why": "Clean-room Rust take on Anthropic's server-centric VCS with published head-to-head Git benchmarks on 1k and 10k-file workloads; an experiment, not Anthropic's code.",
+      "pickedOn": "2026-10-17"
+    },
+    "https://news.ycombinator.com/item?id=50096300": {
+      "why": "A Rust binary hosting a declarative Lua API for building terminal UIs, built by Neovim users who wanted a lighter Lua alternative to Pi's JavaScript harness.",
+      "pickedOn": "2026-10-17"
     }
   },
-  "updatedAt": "2026-10-16T06:34:58.946Z",
+  "updatedAt": "2026-10-17T06:32:11.174Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -944,6 +964,25 @@
       "topic": "architecture",
       "why": "Shows how to design multi-region failover for WebSocket APIs, combining DNS failover, DynamoDB Global Tables and health probes to restore sessions.",
       "pickedOn": "2026-10-16"
+    },
+    "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale": {
+      "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
+      "url": "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale/",
+      "source": "Meta",
+      "published": "2026-10-15T18:30:29.000Z",
+      "topic": "reliability",
+      "why": "How Meta's infrastructure absorbed record World Cup traffic spikes, and how pairing game events to egress surges revealed when load actually arrives.",
+      "pickedOn": "2026-10-17"
+    },
+    "https://spritely.institute/news/end-to-end-encrypted-relays-for-ocapn.html": {
+      "title": "End-to-end encrypted relays for OCapN",
+      "url": "https://spritely.institute/news/end-to-end-encrypted-relays-for-ocapn.html",
+      "source": "Lobsters",
+      "published": "2026-10-15T14:42:12.236Z",
+      "discussion": "https://lobste.rs/s/yxnovw/end_end_encrypted_relays_for_ocapn",
+      "topic": "distributed",
+      "why": "How to build end-to-end encrypted relays for a capability-based network, covering relay design and the trade-offs of routing encrypted peer traffic.",
+      "pickedOn": "2026-10-17"
     }
   },
   "deepdiveSkips": {
@@ -1082,6 +1121,14 @@
     "https://www.figma.com/blog/build-by-design": "2026-10-16",
     "https://www.figma.com/blog/design-together-with-code-layers": "2026-10-16",
     "https://www.figma.com/blog/introducing-figma-specs": "2026-10-16",
-    "https://www.figma.com/blog/websites-with-payload-in-figma": "2026-10-16"
+    "https://www.figma.com/blog/websites-with-payload-in-figma": "2026-10-16",
+    "https://blog.cloudflare.com/programmable-gateway-dlp": "2026-10-17",
+    "https://blog.cloudflare.com/deploy-with-void": "2026-10-17",
+    "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web": "2026-10-17",
+    "https://stripe.com/blog/real-time-stripe-data-postgres": "2026-10-17",
+    "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org": "2026-10-17",
+    "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering": "2026-10-17",
+    "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta": "2026-10-17",
+    "https://aws.amazon.com/blogs/architecture/how-dynata-scaled-ai-across-the-development-lifecycle-with-ai-dlc-and-kiro-ide": "2026-10-17"
   }
 }
