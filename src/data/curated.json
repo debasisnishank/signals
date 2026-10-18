@@ -319,9 +319,29 @@
     "https://news.ycombinator.com/item?id=50096300": {
       "why": "A Rust binary hosting a declarative Lua API for building terminal UIs, built by Neovim users who wanted a lighter Lua alternative to Pi's JavaScript harness.",
       "pickedOn": "2026-10-17"
+    },
+    "pro-vi/cc-stretch": {
+      "why": "Reports measured results: the collapsed view carried 17% of Claude's words across 69 real replies, and it tells Claude which parts you expanded.",
+      "pickedOn": "2026-10-18"
+    },
+    "Leonxlnx/earshot": {
+      "why": "Runs locally on CPU as CLI, Python API and MCP server, turning audio into tags, fit scores and transcripts an agent can reason about rather than just generating sound.",
+      "pickedOn": "2026-10-18"
+    },
+    "antirez/c64-hw-simulator": {
+      "why": "By antirez: simulates the C64 motherboard from its netlist and per-chip pin behaviour, so faults yield computed garbage instead of scripted symptoms.",
+      "pickedOn": "2026-10-18"
+    },
+    "https://news.ycombinator.com/item?id=50112739": {
+      "why": "Free notarized Mac app plus iOS client over LAN, USB or Tailscale with no server or account; commenters report it feels faster than VNC.",
+      "pickedOn": "2026-10-18"
+    },
+    "https://news.ycombinator.com/item?id=50122431": {
+      "why": "Serves GGUF models over OpenAI and Anthropic APIs from the console's RDNA 2 GPU with 11.4 GB shared memory, needing no PC or account while running.",
+      "pickedOn": "2026-10-18"
     }
   },
-  "updatedAt": "2026-10-17T06:32:11.174Z",
+  "updatedAt": "2026-10-18T06:32:07.475Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -983,6 +1003,25 @@
       "topic": "distributed",
       "why": "How to build end-to-end encrypted relays for a capability-based network, covering relay design and the trade-offs of routing encrypted peer traffic.",
       "pickedOn": "2026-10-17"
+    },
+    "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4": {
+      "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
+      "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4",
+      "source": "Netflix",
+      "published": "2026-10-16T16:01:02.000Z",
+      "topic": "infrastructure",
+      "why": "Describes how Netflix built an end-to-end knowledge graph to unify observability metadata and query it across systems at scale.",
+      "pickedOn": "2026-10-18"
+    },
+    "https://www.iroh.computer/blog/the-road-to-iroh-1-0": {
+      "title": "The road to iroh 1.0",
+      "url": "https://www.iroh.computer/blog/the-road-to-iroh-1-0",
+      "source": "Lobsters",
+      "published": "2026-10-16T12:02:05.882Z",
+      "discussion": "https://lobste.rs/s/6laoto/road_iroh_1_0",
+      "topic": "infrastructure",
+      "why": "Traces four years of design decisions behind iroh, moving from IPFS to a QUIC-based peer-to-peer blob transfer protocol, including rejected approaches.",
+      "pickedOn": "2026-10-18"
     }
   },
   "deepdiveSkips": {
@@ -1129,6 +1168,8 @@
     "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org": "2026-10-17",
     "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering": "2026-10-17",
     "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta": "2026-10-17",
-    "https://aws.amazon.com/blogs/architecture/how-dynata-scaled-ai-across-the-development-lifecycle-with-ai-dlc-and-kiro-ide": "2026-10-17"
+    "https://aws.amazon.com/blogs/architecture/how-dynata-scaled-ai-across-the-development-lifecycle-with-ai-dlc-and-kiro-ide": "2026-10-17",
+    "https://blog.cloudflare.com/verified-bots-accountability": "2026-10-18",
+    "https://stripe.com/blog/new-ways-for-fintechs-to-move-money-and-expand-globally": "2026-10-18"
   }
 }
