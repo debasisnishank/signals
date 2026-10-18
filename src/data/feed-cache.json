@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-10-18T06:33:06.297Z",
+    "fetchedAt": "2026-10-18T10:51:25.010Z",
     "repos": [
       {
         "name": "storytold/photocraft",
         "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 66647,
+        "stars": 66850,
         "url": "https://github.com/storytold/photocraft",
         "created": "2026-09-30T13:37:48Z",
         "topics": [
@@ -25,7 +25,7 @@
         "name": "storytold/pdfcraft",
         "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 15582,
+        "stars": 15664,
         "url": "https://github.com/storytold/pdfcraft",
         "created": "2026-09-30T13:39:37Z",
         "topics": [
@@ -39,7 +39,7 @@
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 15360,
+        "stars": 15540,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -53,7 +53,7 @@
         "name": "storytold/filmcraft",
         "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 14631,
+        "stars": 14683,
         "url": "https://github.com/storytold/filmcraft",
         "created": "2026-09-30T13:41:20Z",
         "topics": [
@@ -67,7 +67,7 @@
         "name": "storytold/wordcraft",
         "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
         "language": "Rust",
-        "stars": 14122,
+        "stars": 14188,
         "url": "https://github.com/storytold/wordcraft",
         "created": "2026-10-07T08:34:24Z",
         "topics": [],
@@ -81,7 +81,7 @@
         "name": "storytold/lightcraft",
         "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 13524,
+        "stars": 13559,
         "url": "https://github.com/storytold/lightcraft",
         "created": "2026-09-30T14:09:27Z",
         "topics": [
@@ -95,7 +95,7 @@
         "name": "storytold/vectorcraft",
         "description": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 9718,
+        "stars": 9752,
         "url": "https://github.com/storytold/vectorcraft",
         "created": "2026-09-30T13:43:03Z",
         "topics": [
@@ -109,7 +109,7 @@
         "name": "rehan-remade/universal-modder",
         "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
         "language": "Python",
-        "stars": 8267,
+        "stars": 8286,
         "url": "https://github.com/rehan-remade/universal-modder",
         "created": "2026-09-30T05:00:35Z",
         "topics": [
@@ -123,25 +123,16 @@
         "name": "xscreensaver-official/xscreensaver",
         "description": "There is no official XScreenSaver GitHub repository.",
         "language": null,
-        "stars": 760,
+        "stars": 788,
         "url": "https://github.com/xscreensaver-official/xscreensaver",
         "created": "2026-10-16T16:24:44Z",
-        "topics": []
-      },
-      {
-        "name": "Noniv/web-ocean",
-        "description": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.",
-        "language": "HTML",
-        "stars": 545,
-        "url": "https://github.com/Noniv/web-ocean",
-        "created": "2026-10-16T23:49:53Z",
         "topics": []
       },
       {
         "name": "Gathin23/tv-vibehack",
         "description": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
         "language": "Java",
-        "stars": 493,
+        "stars": 700,
         "url": "https://github.com/Gathin23/tv-vibehack",
         "created": "2026-10-17T08:12:35Z",
         "topics": [
@@ -152,10 +143,19 @@
         ]
       },
       {
+        "name": "Noniv/web-ocean",
+        "description": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.",
+        "language": "HTML",
+        "stars": 588,
+        "url": "https://github.com/Noniv/web-ocean",
+        "created": "2026-10-16T23:49:53Z",
+        "topics": []
+      },
+      {
         "name": "OpenMOSS/MOSS-Image",
         "description": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.",
         "language": "Python",
-        "stars": 492,
+        "stars": 533,
         "url": "https://github.com/OpenMOSS/MOSS-Image",
         "created": "2026-10-16T01:18:13Z",
         "topics": [
@@ -169,7 +169,7 @@
         "name": "aicodeking/leanrea",
         "description": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
         "language": "Python",
-        "stars": 487,
+        "stars": 520,
         "url": "https://github.com/aicodeking/leanrea",
         "created": "2026-10-17T02:53:24Z",
         "topics": []
@@ -178,7 +178,7 @@
         "name": "BreezeSolicitorMap/undress.ai",
         "description": "Virtual clothing try-on from a single photo — mobile web app. Upload a person and a garment, get a photorealistic result.",
         "language": null,
-        "stars": 299,
+        "stars": 350,
         "url": "https://github.com/BreezeSolicitorMap/undress.ai",
         "created": "2026-10-17T13:39:11Z",
         "topics": [
@@ -192,7 +192,7 @@
         "name": "reason-machines/reason-network",
         "description": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
         "language": "Rust",
-        "stars": 285,
+        "stars": 314,
         "url": "https://github.com/reason-machines/reason-network",
         "created": "2026-10-16T15:34:34Z",
         "topics": [
@@ -201,6 +201,15 @@
           "mcp",
           "peer-to-peer"
         ]
+      },
+      {
+        "name": "cranebeaker/coop-anything",
+        "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
+        "language": "Python",
+        "stars": 280,
+        "url": "https://github.com/cranebeaker/coop-anything",
+        "created": "2026-10-16T11:12:03Z",
+        "topics": []
       },
       {
         "name": "Maroonplocord/Movavi-Converter",
@@ -229,38 +238,33 @@
           "movavi-suite-audio-editing",
           "movavi-suite-screen-recording"
         ]
-      },
-      {
-        "name": "NoviceAdjust19/PH-Downloader",
-        "description": "Ph Down 1.3 - Pre-activated desktop edition for Windows, featuring enhanced performance and improved compatibility with modern systems.",
-        "language": null,
-        "stars": 255,
-        "url": "https://github.com/NoviceAdjust19/PH-Downloader",
-        "created": "2026-10-17T19:13:27Z",
-        "topics": [
-          "adult-videos",
-          "content-downloader",
-          "erome-download",
-          "erome-downloader"
-        ]
       }
     ],
     "posts": [
       {
         "source": "showhn",
-        "title": "Sphinx – a hook that quizzes you on your AI's code before shipping",
+        "title": "Sphinx – A hook that quizzes you on your AI's code before shipping",
         "url": "https://sphinx-six-theta.vercel.app/",
-        "points": 59,
-        "comments": 14,
+        "points": 139,
+        "comments": 42,
         "discussion": "https://news.ycombinator.com/item?id=50137950",
         "created": "2026-10-18T04:33:49.000Z"
       },
       {
         "source": "showhn",
+        "title": "500 clocks in one 6.3 MB HTML file by Opus 5.5",
+        "url": "https://tkgally.github.io/500-clocks/",
+        "points": 53,
+        "comments": 19,
+        "discussion": "https://news.ycombinator.com/item?id=50137820",
+        "created": "2026-10-18T04:04:58.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "Esp32sim – Run ESP32 firmware in the browser",
         "url": "https://github.com/mikroverk/esp32sim",
-        "points": 150,
-        "comments": 15,
+        "points": 169,
+        "comments": 32,
         "discussion": "https://news.ycombinator.com/item?id=50131189",
         "created": "2026-10-17T13:51:08.000Z"
       },
@@ -268,8 +272,8 @@
         "source": "showhn",
         "title": "High-quality duck audio synthesizer",
         "url": "https://celphase.github.io/duck-pond/",
-        "points": 112,
-        "comments": 28,
+        "points": 141,
+        "comments": 30,
         "discussion": "https://news.ycombinator.com/item?id=50131006",
         "created": "2026-10-17T13:28:46.000Z"
       },
@@ -277,8 +281,8 @@
         "source": "showhn",
         "title": "Llmspeed – feel how fast a local LLM runs before you buy the hardware",
         "url": "https://llmspeed.dev/",
-        "points": 273,
-        "comments": 80,
+        "points": 297,
+        "comments": 82,
         "discussion": "https://news.ycombinator.com/item?id=50127979",
         "created": "2026-10-17T04:36:53.000Z"
       },
@@ -286,26 +290,17 @@
         "source": "showhn",
         "title": "Things to Do API",
         "url": "https://thingstodoapi.com/",
-        "points": 42,
+        "points": 48,
         "comments": 24,
         "discussion": "https://news.ycombinator.com/item?id=50126384",
         "created": "2026-10-16T23:58:34.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Fakeipedia – Wikipedia for worlds that don't exist",
-        "url": "https://fakeipedia.org",
-        "points": 41,
-        "comments": 23,
-        "discussion": "https://news.ycombinator.com/item?id=50126334",
-        "created": "2026-10-16T23:52:04.000Z"
       },
       {
         "source": "launchhn",
         "title": "Consus (YC F24) – LLM gateway for companies handling sensitive data",
         "url": "https://news.ycombinator.com/item?id=50073471",
         "points": 36,
-        "comments": 20,
+        "comments": 21,
         "discussion": "https://news.ycombinator.com/item?id=50073471",
         "created": "2026-10-13T15:41:00.000Z"
       },
@@ -340,8 +335,8 @@
         "source": "hn",
         "title": "DeepSeek-v4.1-Flash-1017",
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-        "points": 798,
-        "comments": 626,
+        "points": 867,
+        "comments": 657,
         "discussion": "https://news.ycombinator.com/item?id=50129045",
         "created": "2026-10-17T08:21:25.000Z"
       },
@@ -349,8 +344,8 @@
         "source": "hn",
         "title": "Codex Desktop continuously generates Crashpad pending dumps",
         "url": "https://github.com/openai/codex/issues/25921",
-        "points": 118,
-        "comments": 42,
+        "points": 134,
+        "comments": 55,
         "discussion": "https://news.ycombinator.com/item?id=50133231",
         "created": "2026-10-17T17:45:08.000Z"
       },
@@ -1042,7 +1037,7 @@
         "name": "rehan-remade/universal-modder",
         "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
         "language": "Python",
-        "stars": 8267,
+        "stars": 8286,
         "url": "https://github.com/rehan-remade/universal-modder",
         "created": "2026-09-30T05:00:35Z",
         "topics": [
@@ -1885,7 +1880,7 @@
         "name": "storytold/photocraft",
         "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 66647,
+        "stars": 66850,
         "url": "https://github.com/storytold/photocraft",
         "created": "2026-09-30T13:37:48Z",
         "topics": [
@@ -2156,7 +2151,7 @@
         "name": "storytold/wordcraft",
         "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
         "language": "Rust",
-        "stars": 14122,
+        "stars": 14188,
         "url": "https://github.com/storytold/wordcraft",
         "created": "2026-10-07T08:34:24Z",
         "topics": [],
@@ -2243,7 +2238,7 @@
         "name": "storytold/lightcraft",
         "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 13524,
+        "stars": 13559,
         "url": "https://github.com/storytold/lightcraft",
         "created": "2026-09-30T14:09:27Z",
         "topics": [
@@ -2284,7 +2279,7 @@
         "name": "storytold/filmcraft",
         "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 14631,
+        "stars": 14683,
         "url": "https://github.com/storytold/filmcraft",
         "created": "2026-09-30T13:41:20Z",
         "topics": [
@@ -2453,7 +2448,7 @@
         "name": "storytold/pdfcraft",
         "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 15582,
+        "stars": 15664,
         "url": "https://github.com/storytold/pdfcraft",
         "created": "2026-09-30T13:39:37Z",
         "topics": [
@@ -2982,7 +2977,7 @@
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 15360,
+        "stars": 15540,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -2999,7 +2994,7 @@
         "name": "storytold/vectorcraft",
         "description": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 9718,
+        "stars": 9752,
         "url": "https://github.com/storytold/vectorcraft",
         "created": "2026-09-30T13:43:03Z",
         "topics": [
@@ -3241,7 +3236,7 @@
         "name": "xscreensaver-official/xscreensaver",
         "description": "There is no official XScreenSaver GitHub repository.",
         "language": null,
-        "stars": 760,
+        "stars": 788,
         "url": "https://github.com/xscreensaver-official/xscreensaver",
         "created": "2026-10-16T16:24:44Z",
         "topics": [],
@@ -3270,7 +3265,7 @@
         "name": "OpenMOSS/MOSS-Image",
         "description": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.",
         "language": "Python",
-        "stars": 492,
+        "stars": 533,
         "url": "https://github.com/OpenMOSS/MOSS-Image",
         "created": "2026-10-16T01:18:13Z",
         "topics": [
@@ -3343,7 +3338,7 @@
         "name": "Noniv/web-ocean",
         "description": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.",
         "language": "HTML",
-        "stars": 545,
+        "stars": 588,
         "url": "https://github.com/Noniv/web-ocean",
         "created": "2026-10-16T23:49:53Z",
         "topics": [],
@@ -3355,7 +3350,7 @@
         "name": "Gathin23/tv-vibehack",
         "description": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
         "language": "Java",
-        "stars": 493,
+        "stars": 700,
         "url": "https://github.com/Gathin23/tv-vibehack",
         "created": "2026-10-17T08:12:35Z",
         "topics": [
@@ -3372,7 +3367,7 @@
         "name": "aicodeking/leanrea",
         "description": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
         "language": "Python",
-        "stars": 487,
+        "stars": 520,
         "url": "https://github.com/aicodeking/leanrea",
         "created": "2026-10-17T02:53:24Z",
         "topics": [],
@@ -3384,7 +3379,7 @@
         "name": "BreezeSolicitorMap/undress.ai",
         "description": "Virtual clothing try-on from a single photo — mobile web app. Upload a person and a garment, get a photorealistic result.",
         "language": null,
-        "stars": 299,
+        "stars": 350,
         "url": "https://github.com/BreezeSolicitorMap/undress.ai",
         "created": "2026-10-17T13:39:11Z",
         "topics": [
@@ -3401,7 +3396,7 @@
         "name": "reason-machines/reason-network",
         "description": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
         "language": "Rust",
-        "stars": 285,
+        "stars": 314,
         "url": "https://github.com/reason-machines/reason-network",
         "created": "2026-10-16T15:34:34Z",
         "topics": [
@@ -3464,6 +3459,18 @@
         "firstSeen": "2026-10-18",
         "lastSeen": "2026-10-18",
         "starsAtFirstSeen": 255
+      },
+      "cranebeaker/coop-anything": {
+        "name": "cranebeaker/coop-anything",
+        "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
+        "language": "Python",
+        "stars": 280,
+        "url": "https://github.com/cranebeaker/coop-anything",
+        "created": "2026-10-16T11:12:03Z",
+        "topics": [],
+        "firstSeen": "2026-10-18",
+        "lastSeen": "2026-10-18",
+        "starsAtFirstSeen": 280
       }
     },
     "posts": {
@@ -5111,7 +5118,7 @@
         "title": "Consus (YC F24) – LLM gateway for companies handling sensitive data",
         "url": "https://news.ycombinator.com/item?id=50073471",
         "points": 36,
-        "comments": 20,
+        "comments": 21,
         "discussion": "https://news.ycombinator.com/item?id=50073471",
         "created": "2026-10-13T15:41:00.000Z",
         "firstSeen": "2026-10-14",
@@ -5352,8 +5359,8 @@
         "source": "showhn",
         "title": "Llmspeed – feel how fast a local LLM runs before you buy the hardware",
         "url": "https://llmspeed.dev/",
-        "points": 273,
-        "comments": 80,
+        "points": 297,
+        "comments": 82,
         "discussion": "https://news.ycombinator.com/item?id=50127979",
         "created": "2026-10-17T04:36:53.000Z",
         "firstSeen": "2026-10-17",
@@ -5363,8 +5370,8 @@
         "source": "hn",
         "title": "DeepSeek-v4.1-Flash-1017",
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-        "points": 798,
-        "comments": 626,
+        "points": 867,
+        "comments": 657,
         "discussion": "https://news.ycombinator.com/item?id=50129045",
         "created": "2026-10-17T08:21:25.000Z",
         "firstSeen": "2026-10-17",
@@ -5385,8 +5392,8 @@
         "source": "showhn",
         "title": "Sphinx – a hook that quizzes you on your AI's code before shipping",
         "url": "https://sphinx-six-theta.vercel.app/",
-        "points": 59,
-        "comments": 14,
+        "points": 139,
+        "comments": 42,
         "discussion": "https://news.ycombinator.com/item?id=50137950",
         "created": "2026-10-18T04:33:49.000Z",
         "firstSeen": "2026-10-18",
@@ -5396,8 +5403,8 @@
         "source": "showhn",
         "title": "Esp32sim – Run ESP32 firmware in the browser",
         "url": "https://github.com/mikroverk/esp32sim",
-        "points": 150,
-        "comments": 15,
+        "points": 169,
+        "comments": 32,
         "discussion": "https://news.ycombinator.com/item?id=50131189",
         "created": "2026-10-17T13:51:08.000Z",
         "firstSeen": "2026-10-18",
@@ -5407,8 +5414,8 @@
         "source": "showhn",
         "title": "High-quality duck audio synthesizer",
         "url": "https://celphase.github.io/duck-pond/",
-        "points": 112,
-        "comments": 28,
+        "points": 141,
+        "comments": 30,
         "discussion": "https://news.ycombinator.com/item?id=50131006",
         "created": "2026-10-17T13:28:46.000Z",
         "firstSeen": "2026-10-18",
@@ -5418,7 +5425,7 @@
         "source": "showhn",
         "title": "Things to Do API",
         "url": "https://thingstodoapi.com/",
-        "points": 42,
+        "points": 48,
         "comments": 24,
         "discussion": "https://news.ycombinator.com/item?id=50126384",
         "created": "2026-10-16T23:58:34.000Z",
@@ -5440,95 +5447,106 @@
         "source": "hn",
         "title": "Codex Desktop continuously generates Crashpad pending dumps",
         "url": "https://github.com/openai/codex/issues/25921",
-        "points": 118,
-        "comments": 42,
+        "points": 134,
+        "comments": 55,
         "discussion": "https://news.ycombinator.com/item?id=50133231",
         "created": "2026-10-17T17:45:08.000Z",
+        "firstSeen": "2026-10-18",
+        "lastSeen": "2026-10-18"
+      },
+      "https://news.ycombinator.com/item?id=50137820": {
+        "source": "showhn",
+        "title": "500 clocks in one 6.3 MB HTML file by Opus 5.5",
+        "url": "https://tkgally.github.io/500-clocks/",
+        "points": 53,
+        "comments": 19,
+        "discussion": "https://news.ycombinator.com/item?id=50137820",
+        "created": "2026-10-18T04:04:58.000Z",
         "firstSeen": "2026-10-18",
         "lastSeen": "2026-10-18"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-10-18T06:33:06.297Z",
+    "fetchedAt": "2026-10-18T10:51:25.010Z",
     "hn": [
       {
         "title": "DeepSeek-v4.1-Flash-1017",
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-        "points": 798,
-        "comments": 626,
+        "points": 867,
+        "comments": 657,
         "discussion": "https://news.ycombinator.com/item?id=50129045"
       },
       {
         "title": "Solar surpasses nuclear power globally for first time",
         "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
-        "points": 553,
-        "comments": 340,
+        "points": 620,
+        "comments": 386,
         "discussion": "https://news.ycombinator.com/item?id=50131256"
       },
       {
         "title": "You could have invented transformers from memory",
         "url": "https://alexwang.ai/posts/associative-memory/",
-        "points": 537,
-        "comments": 126,
+        "points": 568,
+        "comments": 127,
         "discussion": "https://news.ycombinator.com/item?id=50122878"
       },
       {
         "title": "Bleached corals thrive within days when touching healthy neighbour",
         "url": "https://www.nature.com/articles/d41586-026-03266-x",
-        "points": 410,
-        "comments": 89,
+        "points": 466,
+        "comments": 100,
         "discussion": "https://news.ycombinator.com/item?id=50126253"
       },
       {
         "title": "Pele – Mermaid diagrams as themeable SVG",
         "url": "https://pele.run/",
-        "points": 369,
-        "comments": 31,
+        "points": 446,
+        "comments": 39,
         "discussion": "https://news.ycombinator.com/item?id=50132193"
       },
       {
         "title": "Furifont, a Japanese font that shows furigana",
         "url": "https://furifont.antfu.me/",
-        "points": 324,
-        "comments": 67,
+        "points": 351,
+        "comments": 71,
         "discussion": "https://news.ycombinator.com/item?id=50100994"
       },
       {
         "title": "Gold is now the top U.S. export",
         "url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
-        "points": 303,
-        "comments": 155,
+        "points": 338,
+        "comments": 188,
         "discussion": "https://news.ycombinator.com/item?id=50132870"
       },
       {
         "title": "Making chicken transparent using Dorito dust",
         "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
-        "points": 289,
-        "comments": 77,
+        "points": 307,
+        "comments": 82,
         "discussion": "https://news.ycombinator.com/item?id=50131213"
+      },
+      {
+        "title": "NY announces game ownership bill requiring ownership rather than licensing",
+        "url": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+        "points": 306,
+        "comments": 109,
+        "discussion": "https://news.ycombinator.com/item?id=50136536"
       },
       {
         "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
         "url": "https://llmspeed.dev/",
-        "points": 273,
-        "comments": 80,
+        "points": 297,
+        "comments": 82,
         "discussion": "https://news.ycombinator.com/item?id=50127979"
-      },
-      {
-        "title": "Dam removals are bringing fish back across the northeastern United States",
-        "url": "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/",
-        "points": 253,
-        "comments": 61,
-        "discussion": "https://news.ycombinator.com/item?id=50126312"
       }
     ],
     "lobsters": [
       {
         "title": "The Brain Sandwich",
         "url": "https://terriblesoftware.org/2026/10/02/the-brain-sandwich/",
-        "points": 13,
-        "comments": 1,
+        "points": 21,
+        "comments": 8,
         "discussion": "https://lobste.rs/s/k5omum/brain_sandwich",
         "tags": [
           "vibecoding"
@@ -5537,8 +5555,8 @@
       {
         "title": "The NIST Elliptic Curves Seeds Bounty Has Been Claimed",
         "url": "https://words.filippo.io/seeds-solved/",
-        "points": 110,
-        "comments": 22,
+        "points": 116,
+        "comments": 26,
         "discussion": "https://lobste.rs/s/ddtqtn/nist_elliptic_curves_seeds_bounty_has",
         "tags": [
           "cryptography",
@@ -5546,9 +5564,19 @@
         ]
       },
       {
+        "title": "It's enough - vibecoding tag crossed from useless to harmful",
+        "url": "https://lobste.rs/s/ggpwfi/it_s_enough_vibecoding_tag_crossed_from",
+        "points": 8,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/ggpwfi/it_s_enough_vibecoding_tag_crossed_from",
+        "tags": [
+          "meta"
+        ]
+      },
+      {
         "title": "Intuitive concurrent programming in any language",
         "url": "https://www.lf-lang.org/",
-        "points": 20,
+        "points": 21,
         "comments": 8,
         "discussion": "https://lobste.rs/s/srao9u/intuitive_concurrent_programming_any",
         "tags": [
@@ -5556,9 +5584,20 @@
         ]
       },
       {
+        "title": "It's time to talk about TEEs",
+        "url": "https://alinush.github.io//tee",
+        "points": 6,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/edli0x/it_s_time_talk_about_tees",
+        "tags": [
+          "hardware",
+          "security"
+        ]
+      },
+      {
         "title": "It took me nine years to hack my Xbox 360",
         "url": "https://kennedn.com/blog/posts/glitching/",
-        "points": 17,
+        "points": 23,
         "comments": 1,
         "discussion": "https://lobste.rs/s/wceg2u/it_took_me_nine_years_hack_my_xbox_360",
         "tags": [
@@ -5569,7 +5608,7 @@
       {
         "title": "Making Hybrid Images (2014)",
         "url": "https://www.jeremykun.com/2014/09/29/hybrid-images/",
-        "points": 4,
+        "points": 7,
         "comments": 0,
         "discussion": "https://lobste.rs/s/16tsvr/making_hybrid_images_2014",
         "tags": [
@@ -5578,21 +5617,20 @@
         ]
       },
       {
-        "title": "It's time to talk about TEEs",
-        "url": "https://alinush.github.io//tee",
-        "points": 4,
-        "comments": 0,
-        "discussion": "https://lobste.rs/s/edli0x/it_s_time_talk_about_tees",
+        "title": "Abolish AI! Manifesto",
+        "url": "https://abolish-ai.net/abolish-ai-a-manifesto/",
+        "points": 8,
+        "comments": 6,
+        "discussion": "https://lobste.rs/s/1kesjm/abolish_ai_manifesto",
         "tags": [
-          "hardware",
-          "security"
+          "vibecoding"
         ]
       },
       {
         "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
         "url": "https://pwn.ai/blog/pwnescape",
-        "points": 7,
-        "comments": 3,
+        "points": 8,
+        "comments": 5,
         "discussion": "https://lobste.rs/s/np84oh/pwnescape_guest_host_kvm_escape_cve_2026",
         "tags": [
           "linux",
@@ -5602,85 +5640,28 @@
         ]
       },
       {
-        "title": "The Decoherence Trap: When AI slop drowns out the signal in an endless sea of noise",
-        "url": "https://maevyn.codes/decoherence",
-        "points": 48,
-        "comments": 18,
-        "discussion": "https://lobste.rs/s/vjmn84/decoherence_trap_when_ai_slop_drowns_out",
-        "tags": [
-          "vibecoding"
-        ]
-      },
-      {
-        "title": "Does moving a GPU server's request loop into the kernel save CPU?",
-        "url": "https://eunomia.dev/blog/2026/10/17/bpf-gpu-server/",
-        "points": 2,
+        "title": "Un-hanging the HP Envy 17-DA0013dx for OpenBSD",
+        "url": "https://darwinsys.com/blog/20260925-hp-envy-17/",
+        "points": 3,
         "comments": 0,
-        "discussion": "https://lobste.rs/s/6himy4/does_moving_gpu_server_s_request_loop_into",
+        "discussion": "https://lobste.rs/s/gl8yly/un_hanging_hp_envy_17_da0013dx_for_openbsd",
         "tags": [
           "hardware",
-          "linux"
-        ]
-      },
-      {
-        "title": "Interactive refactoring in gopls",
-        "url": "https://go.dev/blog/interactive-refactoring",
-        "points": 25,
-        "comments": 7,
-        "discussion": "https://lobste.rs/s/wn293o/interactive_refactoring_gopls",
-        "tags": [
-          "editors",
-          "go"
+          "openbsd"
         ]
       }
     ],
     "devto": [
       {
-        "title": "We Searched eBay for 237 Recalled Products. Only 45 of 12,562 Listings Named the Model.",
-        "url": "https://dev.to/dronzer2code/we-searched-ebay-for-237-recalled-products-only-45-of-12562-listings-named-the-model-2efi",
-        "points": 23,
-        "comments": 0,
-        "discussion": "https://dev.to/dronzer2code/we-searched-ebay-for-237-recalled-products-only-45-of-12562-listings-named-the-model-2efi",
-        "tags": [
-          "devchallenge",
-          "hf26challenge",
-          "ai"
-        ]
-      },
-      {
         "title": "One Rust Unicode Bug, Three Coding Models: A Reproducible Comparison",
         "url": "https://dev.to/lovestaco/one-rust-unicode-bug-three-coding-models-a-reproducible-comparison-48ae",
-        "points": 20,
-        "comments": 0,
+        "points": 21,
+        "comments": 1,
         "discussion": "https://dev.to/lovestaco/one-rust-unicode-bug-three-coding-models-a-reproducible-comparison-48ae",
         "tags": [
           "rust",
           "ai",
           "llm"
-        ]
-      },
-      {
-        "title": "How I built a SaaS in a weekend with Claude + Next.js — the honest breakdown",
-        "url": "https://dev.to/infoinlet1/how-i-built-a-saas-in-a-weekend-with-claude-nextjs-the-honest-breakdown-2le6",
-        "points": 17,
-        "comments": 3,
-        "discussion": "https://dev.to/infoinlet1/how-i-built-a-saas-in-a-weekend-with-claude-nextjs-the-honest-breakdown-2le6",
-        "tags": [
-          "ai",
-          "webdev",
-          "startup"
-        ]
-      },
-      {
-        "title": "Temperature Controls Randomness. But Why Does That Matter More for Agents?",
-        "url": "https://dev.to/rijultp/temperature-controls-randomness-but-why-does-that-matter-more-for-agents-457j",
-        "points": 15,
-        "comments": 0,
-        "discussion": "https://dev.to/rijultp/temperature-controls-randomness-but-why-does-that-matter-more-for-agents-457j",
-        "tags": [
-          "ai",
-          "agents",
-          "learning"
         ]
       },
       {
@@ -5696,21 +5677,9 @@
         ]
       },
       {
-        "title": "Docker Compose 5.6's jobs type only starts through docker compose run",
-        "url": "https://dev.to/alexgeorgiev17/docker-compose-56s-jobs-type-only-starts-through-docker-compose-run-4c1a",
-        "points": 11,
-        "comments": 1,
-        "discussion": "https://dev.to/alexgeorgiev17/docker-compose-56s-jobs-type-only-starts-through-docker-compose-run-4c1a",
-        "tags": [
-          "docker",
-          "devops",
-          "containers"
-        ]
-      },
-      {
         "title": "EmbodiWeave: my agent read its own failure and repeated it, so I made the graph enforce it (FalkorDB + MCP)",
         "url": "https://dev.to/himanshu_748/embodiweave-my-agent-read-its-own-failure-and-repeated-it-so-i-made-the-graph-enforce-it-4cd9",
-        "points": 10,
+        "points": 12,
         "comments": 1,
         "discussion": "https://dev.to/himanshu_748/embodiweave-my-agent-read-its-own-failure-and-repeated-it-so-i-made-the-graph-enforce-it-4cd9",
         "tags": [
@@ -5720,10 +5689,22 @@
         ]
       },
       {
+        "title": "Fine-Tuning Qwen3-8B with Tinker: From 50% to 76% Accuracy, and Burning Through My Budget",
+        "url": "https://dev.to/gramli/fine-tuning-qwen3-8b-with-tinker-from-50-to-76-accuracy-and-burning-through-my-budget-48mh",
+        "points": 12,
+        "comments": 1,
+        "discussion": "https://dev.to/gramli/fine-tuning-qwen3-8b-with-tinker-from-50-to-76-accuracy-and-burning-through-my-budget-48mh",
+        "tags": [
+          "devchallenge",
+          "hf26challenge",
+          "ai"
+        ]
+      },
+      {
         "title": "If you are a human, what are you looking for here?",
         "url": "https://dev.to/micaavigliano/if-you-are-a-human-what-are-you-looking-here-4aid",
-        "points": 9,
-        "comments": 12,
+        "points": 10,
+        "comments": 13,
         "discussion": "https://dev.to/micaavigliano/if-you-are-a-human-what-are-you-looking-here-4aid",
         "tags": [
           "webdev",
@@ -5734,7 +5715,7 @@
       {
         "title": "My Agent Turned \"I Haven't Decided\" Into \"Not Yet.\" Now the Model Isn't Allowed to Write Its Own Memory.",
         "url": "https://dev.to/kenielzep97/my-agent-turned-i-havent-decided-into-not-yet-now-the-model-isnt-allowed-to-write-its-own-23ma",
-        "points": 9,
+        "points": 10,
         "comments": 2,
         "discussion": "https://dev.to/kenielzep97/my-agent-turned-i-havent-decided-into-not-yet-now-the-model-isnt-allowed-to-write-its-own-23ma",
         "tags": [
@@ -5744,21 +5725,57 @@
         ]
       },
       {
-        "title": "DecisionDebt: a company brain where every edge has a receipt (built on FalkorDB)",
-        "url": "https://dev.to/himanshu_748/decisiondebt-know-what-a-decision-breaks-before-you-make-it-built-on-falkordb-dcj",
+        "title": "Fast account switching in Flutter without a sign-in round trip",
+        "url": "https://dev.to/frankmilvus/fast-account-switching-in-flutter-without-a-sign-in-round-trip-2com",
         "points": 8,
-        "comments": 0,
-        "discussion": "https://dev.to/himanshu_748/decisiondebt-know-what-a-decision-breaks-before-you-make-it-built-on-falkordb-dcj",
+        "comments": 3,
+        "discussion": "https://dev.to/frankmilvus/fast-account-switching-in-flutter-without-a-sign-in-round-trip-2com",
         "tags": [
-          "graphhacks",
-          "falkordb",
-          "ai"
+          "flutter",
+          "dart",
+          "showdev"
+        ]
+      },
+      {
+        "title": "The Cold and Hard Log",
+        "url": "https://dev.to/pentine_pejay/the-cold-and-hard-log-5dd4",
+        "points": 7,
+        "comments": 0,
+        "discussion": "https://dev.to/pentine_pejay/the-cold-and-hard-log-5dd4",
+        "tags": [
+          "devchallenge",
+          "hf26challenge",
+          "temporal"
+        ]
+      },
+      {
+        "title": "The Discerning Mind: What AI May Never Reach",
+        "url": "https://dev.to/james_anderson_h/the-discerning-mind-what-ai-may-never-reach-5hkk",
+        "points": 7,
+        "comments": 0,
+        "discussion": "https://dev.to/james_anderson_h/the-discerning-mind-what-ai-may-never-reach-5hkk",
+        "tags": [
+          "ai",
+          "discuss",
+          "llm"
+        ]
+      },
+      {
+        "title": "A Management Interface Vulnerability in PAN-OS Needed Credentials. Attackers Used It Anyway",
+        "url": "https://dev.to/rbonweb/a-management-interface-vulnerability-in-pan-os-needed-credentials-attackers-used-it-anyway-nb1",
+        "points": 7,
+        "comments": 1,
+        "discussion": "https://dev.to/rbonweb/a-management-interface-vulnerability-in-pan-os-needed-credentials-attackers-used-it-anyway-nb1",
+        "tags": [
+          "security",
+          "networking",
+          "devops"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-10-18T06:33:06.297Z",
+    "fetchedAt": "2026-10-18T10:51:25.010Z",
     "candidates": {
       "https://blog.cloudflare.com/birthday-week-2026-wrap-up": {
         "source": "Cloudflare",
