@@ -339,9 +339,29 @@
     "https://news.ycombinator.com/item?id=50122431": {
       "why": "Serves GGUF models over OpenAI and Anthropic APIs from the console's RDNA 2 GPU with 11.4 GB shared memory, needing no PC or account while running.",
       "pickedOn": "2026-10-18"
+    },
+    "Noniv/web-ocean": {
+      "why": "Ships as one self-contained 61 KB HTML file that opens from file://, with hand-written WGSL FFT waves instead of an engine, so the whole renderer is readable source.",
+      "pickedOn": "2026-10-19"
+    },
+    "Gathin23/tv-vibehack": {
+      "why": "Works over ADB by disabling packages and swapping the launcher; nothing is uninstalled and a one-line restore reverts it, per the README.",
+      "pickedOn": "2026-10-19"
+    },
+    "cranebeaker/coop-anything": {
+      "why": "The agent reverse-engineers game engines and tests co-op with in-game bots; Deus Ex ships while others like Fallout New Vegas are still in progress.",
+      "pickedOn": "2026-10-19"
+    },
+    "https://news.ycombinator.com/item?id=50137950": {
+      "why": "FOSS hook that gates a production push behind a quiz on the code you are shipping; novel workflow, though early and narrow.",
+      "pickedOn": "2026-10-19"
+    },
+    "https://news.ycombinator.com/item?id=50131189": {
+      "why": "Emulates the real mask ROM and boot chain rather than patched firmware; ESP32-S3 is mature with display, touch and WiFi modeled, while C3/C6 stay drafts.",
+      "pickedOn": "2026-10-19"
     }
   },
-  "updatedAt": "2026-10-18T06:32:07.475Z",
+  "updatedAt": "2026-10-19T06:31:23.846Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
