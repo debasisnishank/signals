@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-10-20T06:32:54.054Z",
+    "fetchedAt": "2026-10-20T11:22:08.655Z",
     "repos": [
       {
         "name": "storytold/photocraft",
         "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 68818,
+        "stars": 69052,
         "url": "https://github.com/storytold/photocraft",
         "created": "2026-09-30T13:37:48Z",
         "topics": [
@@ -25,7 +25,7 @@
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 17097,
+        "stars": 17251,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -39,7 +39,7 @@
         "name": "storytold/pdfcraft",
         "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 16371,
+        "stars": 16451,
         "url": "https://github.com/storytold/pdfcraft",
         "created": "2026-09-30T13:39:37Z",
         "topics": [
@@ -53,7 +53,7 @@
         "name": "storytold/filmcraft",
         "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 15150,
+        "stars": 15198,
         "url": "https://github.com/storytold/filmcraft",
         "created": "2026-09-30T13:41:20Z",
         "topics": [
@@ -67,7 +67,7 @@
         "name": "storytold/wordcraft",
         "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
         "language": "Rust",
-        "stars": 14838,
+        "stars": 14907,
         "url": "https://github.com/storytold/wordcraft",
         "created": "2026-10-07T08:34:24Z",
         "topics": [],
@@ -81,7 +81,7 @@
         "name": "storytold/lightcraft",
         "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 13938,
+        "stars": 13966,
         "url": "https://github.com/storytold/lightcraft",
         "created": "2026-09-30T14:09:27Z",
         "topics": [
@@ -95,7 +95,7 @@
         "name": "storytold/vectorcraft",
         "description": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 10072,
+        "stars": 10111,
         "url": "https://github.com/storytold/vectorcraft",
         "created": "2026-09-30T13:43:03Z",
         "topics": [
@@ -106,24 +106,24 @@
         ]
       },
       {
-        "name": "rehan-remade/universal-modder",
-        "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
-        "language": "Python",
-        "stars": 8474,
-        "url": "https://github.com/rehan-remade/universal-modder",
-        "created": "2026-09-30T05:00:35Z",
+        "name": "Gathin23/cleanyourtv",
+        "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+        "language": "Java",
+        "stars": 8644,
+        "url": "https://github.com/Gathin23/cleanyourtv",
+        "created": "2026-10-17T08:12:35Z",
         "topics": [
-          "age-of-empires",
-          "claude-code",
-          "claude-code-plugin",
-          "fal"
+          "adb",
+          "adblock",
+          "android-tv",
+          "android-tv-launcher"
         ]
       },
       {
         "name": "alchaincyf/huashu-motion",
         "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
         "language": "JavaScript",
-        "stars": 1012,
+        "stars": 1078,
         "url": "https://github.com/alchaincyf/huashu-motion",
         "created": "2026-10-18T12:19:27Z",
         "topics": [
@@ -134,19 +134,10 @@
         ]
       },
       {
-        "name": "Ansub/tv-detox",
-        "description": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
-        "language": "Java",
-        "stars": 613,
-        "url": "https://github.com/Ansub/tv-detox",
-        "created": "2026-10-18T06:42:29Z",
-        "topics": []
-      },
-      {
         "name": "simbasjungles/free-my-tv",
         "description": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
         "language": "Java",
-        "stars": 554,
+        "stars": 863,
         "url": "https://github.com/simbasjungles/free-my-tv",
         "created": "2026-10-19T19:29:01Z",
         "topics": [
@@ -157,10 +148,19 @@
         ]
       },
       {
+        "name": "Ansub/tv-detox",
+        "description": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
+        "language": "Java",
+        "stars": 725,
+        "url": "https://github.com/Ansub/tv-detox",
+        "created": "2026-10-18T06:42:29Z",
+        "topics": []
+      },
+      {
         "name": "interplains/zero-breach",
         "description": "Zero Breach — local, read-only scanner that checks a computer for indicators of the AdFection / Candiru ad-delivered spyware campaign. No network, no admin, no dependencies.",
         "language": "Python",
-        "stars": 435,
+        "stars": 464,
         "url": "https://github.com/interplains/zero-breach",
         "created": "2026-10-18T13:22:34Z",
         "topics": [
@@ -174,7 +174,7 @@
         "name": "AndreSzymanski15/ai-jailbreaks",
         "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight LLMs - system prompts, persona locks, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
         "language": null,
-        "stars": 424,
+        "stars": 441,
         "url": "https://github.com/AndreSzymanski15/ai-jailbreaks",
         "created": "2026-10-19T17:14:07Z",
         "topics": [
@@ -185,72 +185,75 @@
         ]
       },
       {
-        "name": "justrach/nanoui",
-        "description": "Desktop apps in Zig, with native UI drawn on the GPU or a web frontend",
-        "language": "Zig",
-        "stars": 338,
-        "url": "https://github.com/justrach/nanoui",
-        "created": "2026-10-18T09:27:46Z",
-        "topics": []
-      },
-      {
-        "name": "finereli/whatsapp-mcp",
-        "description": "A read-only MCP server that lets your AI agent search and read your own WhatsApp messages. Runs on Cloudflare Workers.",
-        "language": "TypeScript",
-        "stars": 289,
-        "url": "https://github.com/finereli/whatsapp-mcp",
-        "created": "2026-10-18T21:01:54Z",
-        "topics": [],
-        "hn": {
-          "points": 148,
-          "comments": 80,
-          "url": "https://news.ycombinator.com/item?id=50145715"
-        }
-      },
-      {
-        "name": "kanaworksai-hue/audio-studio-mcp",
-        "description": "Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.",
-        "language": "Python",
-        "stars": 281,
-        "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
-        "created": "2026-10-18T11:13:56Z",
+        "name": "JoasASantos/REA-Prompts",
+        "description": "Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
+        "language": null,
+        "stars": 437,
+        "url": "https://github.com/JoasASantos/REA-Prompts",
+        "created": "2026-10-19T22:20:47Z",
         "topics": [
-          "apple-silicon",
-          "audio-generation",
-          "claude-code",
-          "cuda"
+          "prompt-engineering",
+          "rea",
+          "reverse-enginnering"
         ]
       },
       {
         "name": "ELY-Open-Source/ElyOffice",
         "description": "Ely Office: offline-first desktop apps in Rust and GPUI",
         "language": "Rust",
-        "stars": 275,
+        "stars": 427,
         "url": "https://github.com/ELY-Open-Source/ElyOffice",
         "created": "2026-10-19T23:04:42Z",
         "topics": []
       },
       {
-        "name": "SNO2207/WindowSmash",
-        "description": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
-        "language": "C",
-        "stars": 273,
-        "url": "https://github.com/SNO2207/WindowSmash",
-        "created": "2026-10-18T00:50:53Z",
-        "topics": [
-          "aarch64",
-          "direct3d11",
-          "native-port",
-          "static-recompilation"
-        ]
+        "name": "justrach/nanoui",
+        "description": "Desktop apps in Zig, with native UI drawn on the GPU or a web frontend",
+        "language": "Zig",
+        "stars": 347,
+        "url": "https://github.com/justrach/nanoui",
+        "created": "2026-10-18T09:27:46Z",
+        "topics": []
+      },
+      {
+        "name": "stackedlol/ascii-sharks",
+        "description": "ascii shark components in typescript",
+        "language": "TypeScript",
+        "stars": 309,
+        "url": "https://github.com/stackedlol/ascii-sharks",
+        "created": "2026-10-19T21:54:19Z",
+        "topics": []
+      },
+      {
+        "name": "finereli/whatsapp-mcp",
+        "description": "A read-only MCP server that lets your AI agent search and read your own WhatsApp messages. Runs on Cloudflare Workers.",
+        "language": "TypeScript",
+        "stars": 302,
+        "url": "https://github.com/finereli/whatsapp-mcp",
+        "created": "2026-10-18T21:01:54Z",
+        "topics": [],
+        "hn": {
+          "points": 150,
+          "comments": 80,
+          "url": "https://news.ycombinator.com/item?id=50145715"
+        }
       }
     ],
     "posts": [
       {
         "source": "showhn",
+        "title": "Death Plan Switch, a self-hosted dead man's switch for solo devs",
+        "url": "https://deathplanswitch.com/",
+        "points": 72,
+        "comments": 50,
+        "discussion": "https://news.ycombinator.com/item?id=50161408",
+        "created": "2026-10-20T04:37:43.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "KiviDB, a faster Redis-compatible memory database and vector cache",
         "url": "https://github.com/kividbio/kividb",
-        "points": 66,
+        "points": 68,
         "comments": 40,
         "discussion": "https://news.ycombinator.com/item?id=50152541",
         "created": "2026-10-19T13:53:52.000Z"
@@ -259,8 +262,8 @@
         "source": "showhn",
         "title": "I built a task system to handle the drudgery so I could focus on tasks",
         "url": "https://3anddoneapp.com/try",
-        "points": 53,
-        "comments": 50,
+        "points": 56,
+        "comments": 49,
         "discussion": "https://news.ycombinator.com/item?id=50151980",
         "created": "2026-10-19T13:07:07.000Z"
       },
@@ -268,8 +271,8 @@
         "source": "showhn",
         "title": "Qwen3-4B with the AI writing tics trained out",
         "url": "https://100toolkit.com/blog/deslop-model/",
-        "points": 146,
-        "comments": 108,
+        "points": 149,
+        "comments": 109,
         "discussion": "https://news.ycombinator.com/item?id=50151928",
         "created": "2026-10-19T13:00:47.000Z"
       },
@@ -277,7 +280,7 @@
         "source": "showhn",
         "title": "WhatsApp MCP running free on Cloudflare",
         "url": "https://github.com/finereli/whatsapp-mcp",
-        "points": 148,
+        "points": 150,
         "comments": 80,
         "discussion": "https://news.ycombinator.com/item?id=50145715",
         "created": "2026-10-18T21:36:10.000Z"
@@ -292,20 +295,11 @@
         "created": "2026-10-18T14:31:52.000Z"
       },
       {
-        "source": "showhn",
-        "title": "The Zelda timeline to catch up before the Ocarina of Time remake",
-        "url": "https://legendofhyrule.com/",
-        "points": 215,
-        "comments": 126,
-        "discussion": "https://news.ycombinator.com/item?id=50140769",
-        "created": "2026-10-18T13:06:54.000Z"
-      },
-      {
         "source": "launchhn",
         "title": "Laminar (YC S24) – RL-trained model that finds errors in agent traces",
         "url": "https://news.ycombinator.com/item?id=50154029",
-        "points": 51,
-        "comments": 23,
+        "points": 58,
+        "comments": 24,
         "discussion": "https://news.ycombinator.com/item?id=50154029",
         "created": "2026-10-19T16:00:18.000Z"
       },
@@ -338,19 +332,28 @@
       },
       {
         "source": "hn",
-        "title": "Android apps running native on macOS",
-        "url": "https://github.com/kksimp/Mac.apk",
-        "points": 302,
-        "comments": 160,
-        "discussion": "https://news.ycombinator.com/item?id=50154624",
-        "created": "2026-10-19T16:45:30.000Z"
+        "title": "DeepSeek just open-sourced its inference engine",
+        "url": "https://github.com/deepseek-ai/DeepInfer",
+        "points": 411,
+        "comments": 137,
+        "discussion": "https://news.ycombinator.com/item?id=50163277",
+        "created": "2026-10-20T09:08:54.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "Nordwand Mono – A monospace font for coders and adventurers",
+        "url": "https://github.com/tywr/Nordwand-Mono",
+        "points": 301,
+        "comments": 95,
+        "discussion": "https://news.ycombinator.com/item?id=50141581",
+        "created": "2026-10-18T14:48:01.000Z"
       },
       {
         "source": "hn",
         "title": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
         "url": "https://bsd.network/@brynet/117407035545900963",
-        "points": 141,
-        "comments": 28,
+        "points": 158,
+        "comments": 38,
         "discussion": "https://news.ycombinator.com/item?id=50158138",
         "created": "2026-10-19T21:11:45.000Z"
       },
@@ -358,19 +361,10 @@
         "source": "hn",
         "title": "Go will reject certificate chains containing eight distrusted SPKIs",
         "url": "https://github.com/golang/go/issues/82345",
-        "points": 51,
-        "comments": 18,
+        "points": 105,
+        "comments": 41,
         "discussion": "https://news.ycombinator.com/item?id=50160877",
         "created": "2026-10-20T03:05:07.000Z"
-      },
-      {
-        "source": "hn",
-        "title": "Nordwand Mono – A monospace font for coders and adventurers",
-        "url": "https://github.com/tywr/Nordwand-Mono",
-        "points": 51,
-        "comments": 4,
-        "discussion": "https://news.ycombinator.com/item?id=50141581",
-        "created": "2026-10-18T14:48:01.000Z"
       },
       {
         "source": "lobsters",
@@ -1903,7 +1897,7 @@
         "name": "storytold/photocraft",
         "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 68818,
+        "stars": 69052,
         "url": "https://github.com/storytold/photocraft",
         "created": "2026-09-30T13:37:48Z",
         "topics": [
@@ -2174,7 +2168,7 @@
         "name": "storytold/wordcraft",
         "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
         "language": "Rust",
-        "stars": 14838,
+        "stars": 14907,
         "url": "https://github.com/storytold/wordcraft",
         "created": "2026-10-07T08:34:24Z",
         "topics": [],
@@ -2261,7 +2255,7 @@
         "name": "storytold/lightcraft",
         "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 13938,
+        "stars": 13966,
         "url": "https://github.com/storytold/lightcraft",
         "created": "2026-09-30T14:09:27Z",
         "topics": [
@@ -2302,7 +2296,7 @@
         "name": "storytold/filmcraft",
         "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 15150,
+        "stars": 15198,
         "url": "https://github.com/storytold/filmcraft",
         "created": "2026-09-30T13:41:20Z",
         "topics": [
@@ -2471,7 +2465,7 @@
         "name": "storytold/pdfcraft",
         "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 16371,
+        "stars": 16451,
         "url": "https://github.com/storytold/pdfcraft",
         "created": "2026-09-30T13:39:37Z",
         "topics": [
@@ -3000,7 +2994,7 @@
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 17097,
+        "stars": 17251,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -3017,7 +3011,7 @@
         "name": "storytold/vectorcraft",
         "description": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
         "language": "Rust",
-        "stars": 10072,
+        "stars": 10111,
         "url": "https://github.com/storytold/vectorcraft",
         "created": "2026-09-30T13:43:03Z",
         "topics": [
@@ -3499,7 +3493,7 @@
         "name": "alchaincyf/huashu-motion",
         "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
         "language": "JavaScript",
-        "stars": 1012,
+        "stars": 1078,
         "url": "https://github.com/alchaincyf/huashu-motion",
         "created": "2026-10-18T12:19:27Z",
         "topics": [
@@ -3567,7 +3561,7 @@
         "name": "Gathin23/cleanyourtv",
         "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
         "language": "Java",
-        "stars": 3496,
+        "stars": 8644,
         "url": "https://github.com/Gathin23/cleanyourtv",
         "created": "2026-10-17T08:12:35Z",
         "topics": [
@@ -3577,14 +3571,14 @@
           "android-tv-launcher"
         ],
         "firstSeen": "2026-10-19",
-        "lastSeen": "2026-10-19",
+        "lastSeen": "2026-10-20",
         "starsAtFirstSeen": 3496
       },
       "interplains/zero-breach": {
         "name": "interplains/zero-breach",
         "description": "Zero Breach — local, read-only scanner that checks a computer for indicators of the AdFection / Candiru ad-delivered spyware campaign. No network, no admin, no dependencies.",
         "language": "Python",
-        "stars": 435,
+        "stars": 464,
         "url": "https://github.com/interplains/zero-breach",
         "created": "2026-10-18T13:22:34Z",
         "topics": [
@@ -3601,7 +3595,7 @@
         "name": "Ansub/tv-detox",
         "description": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
         "language": "Java",
-        "stars": 613,
+        "stars": 725,
         "url": "https://github.com/Ansub/tv-detox",
         "created": "2026-10-18T06:42:29Z",
         "topics": [],
@@ -3613,7 +3607,7 @@
         "name": "simbasjungles/free-my-tv",
         "description": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
         "language": "Java",
-        "stars": 554,
+        "stars": 863,
         "url": "https://github.com/simbasjungles/free-my-tv",
         "created": "2026-10-19T19:29:01Z",
         "topics": [
@@ -3630,7 +3624,7 @@
         "name": "AndreSzymanski15/ai-jailbreaks",
         "description": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight LLMs - system prompts, persona locks, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
         "language": null,
-        "stars": 424,
+        "stars": 441,
         "url": "https://github.com/AndreSzymanski15/ai-jailbreaks",
         "created": "2026-10-19T17:14:07Z",
         "topics": [
@@ -3647,7 +3641,7 @@
         "name": "justrach/nanoui",
         "description": "Desktop apps in Zig, with native UI drawn on the GPU or a web frontend",
         "language": "Zig",
-        "stars": 338,
+        "stars": 347,
         "url": "https://github.com/justrach/nanoui",
         "created": "2026-10-18T09:27:46Z",
         "topics": [],
@@ -3659,12 +3653,12 @@
         "name": "finereli/whatsapp-mcp",
         "description": "A read-only MCP server that lets your AI agent search and read your own WhatsApp messages. Runs on Cloudflare Workers.",
         "language": "TypeScript",
-        "stars": 289,
+        "stars": 302,
         "url": "https://github.com/finereli/whatsapp-mcp",
         "created": "2026-10-18T21:01:54Z",
         "topics": [],
         "hn": {
-          "points": 148,
+          "points": 150,
           "comments": 80,
           "url": "https://news.ycombinator.com/item?id=50145715"
         },
@@ -3693,7 +3687,7 @@
         "name": "ELY-Open-Source/ElyOffice",
         "description": "Ely Office: offline-first desktop apps in Rust and GPUI",
         "language": "Rust",
-        "stars": 275,
+        "stars": 427,
         "url": "https://github.com/ELY-Open-Source/ElyOffice",
         "created": "2026-10-19T23:04:42Z",
         "topics": [],
@@ -3717,6 +3711,34 @@
         "firstSeen": "2026-10-20",
         "lastSeen": "2026-10-20",
         "starsAtFirstSeen": 273
+      },
+      "JoasASantos/REA-Prompts": {
+        "name": "JoasASantos/REA-Prompts",
+        "description": "Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
+        "language": null,
+        "stars": 437,
+        "url": "https://github.com/JoasASantos/REA-Prompts",
+        "created": "2026-10-19T22:20:47Z",
+        "topics": [
+          "prompt-engineering",
+          "rea",
+          "reverse-enginnering"
+        ],
+        "firstSeen": "2026-10-20",
+        "lastSeen": "2026-10-20",
+        "starsAtFirstSeen": 437
+      },
+      "stackedlol/ascii-sharks": {
+        "name": "stackedlol/ascii-sharks",
+        "description": "ascii shark components in typescript",
+        "language": "TypeScript",
+        "stars": 309,
+        "url": "https://github.com/stackedlol/ascii-sharks",
+        "created": "2026-10-19T21:54:19Z",
+        "topics": [],
+        "firstSeen": "2026-10-20",
+        "lastSeen": "2026-10-20",
+        "starsAtFirstSeen": 309
       }
     },
     "posts": {
@@ -5715,7 +5737,7 @@
         "source": "showhn",
         "title": "WhatsApp MCP running free on Cloudflare",
         "url": "https://github.com/finereli/whatsapp-mcp",
-        "points": 148,
+        "points": 150,
         "comments": 80,
         "discussion": "https://news.ycombinator.com/item?id=50145715",
         "created": "2026-10-18T21:36:10.000Z",
@@ -5814,7 +5836,7 @@
         "source": "showhn",
         "title": "KiviDB, a faster Redis-compatible memory database and vector cache",
         "url": "https://github.com/kividbio/kividb",
-        "points": 66,
+        "points": 68,
         "comments": 40,
         "discussion": "https://news.ycombinator.com/item?id=50152541",
         "created": "2026-10-19T13:53:52.000Z",
@@ -5825,8 +5847,8 @@
         "source": "showhn",
         "title": "I built a task system to handle the drudgery so I could focus on tasks",
         "url": "https://3anddoneapp.com/try",
-        "points": 53,
-        "comments": 50,
+        "points": 56,
+        "comments": 49,
         "discussion": "https://news.ycombinator.com/item?id=50151980",
         "created": "2026-10-19T13:07:07.000Z",
         "firstSeen": "2026-10-20",
@@ -5836,8 +5858,8 @@
         "source": "showhn",
         "title": "Qwen3-4B with the AI writing tics trained out",
         "url": "https://100toolkit.com/blog/deslop-model/",
-        "points": 146,
-        "comments": 108,
+        "points": 149,
+        "comments": 109,
         "discussion": "https://news.ycombinator.com/item?id=50151928",
         "created": "2026-10-19T13:00:47.000Z",
         "firstSeen": "2026-10-20",
@@ -5847,8 +5869,8 @@
         "source": "launchhn",
         "title": "Laminar (YC S24) – RL-trained model that finds errors in agent traces",
         "url": "https://news.ycombinator.com/item?id=50154029",
-        "points": 51,
-        "comments": 23,
+        "points": 58,
+        "comments": 24,
         "discussion": "https://news.ycombinator.com/item?id=50154029",
         "created": "2026-10-19T16:00:18.000Z",
         "firstSeen": "2026-10-20",
@@ -5869,8 +5891,8 @@
         "source": "hn",
         "title": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
         "url": "https://bsd.network/@brynet/117407035545900963",
-        "points": 141,
-        "comments": 28,
+        "points": 158,
+        "comments": 38,
         "discussion": "https://news.ycombinator.com/item?id=50158138",
         "created": "2026-10-19T21:11:45.000Z",
         "firstSeen": "2026-10-20",
@@ -5880,8 +5902,8 @@
         "source": "hn",
         "title": "Go will reject certificate chains containing eight distrusted SPKIs",
         "url": "https://github.com/golang/go/issues/82345",
-        "points": 51,
-        "comments": 18,
+        "points": 105,
+        "comments": 41,
         "discussion": "https://news.ycombinator.com/item?id=50160877",
         "created": "2026-10-20T03:05:07.000Z",
         "firstSeen": "2026-10-20",
@@ -5891,95 +5913,117 @@
         "source": "hn",
         "title": "Nordwand Mono – A monospace font for coders and adventurers",
         "url": "https://github.com/tywr/Nordwand-Mono",
-        "points": 51,
-        "comments": 4,
+        "points": 301,
+        "comments": 95,
         "discussion": "https://news.ycombinator.com/item?id=50141581",
         "created": "2026-10-18T14:48:01.000Z",
+        "firstSeen": "2026-10-20",
+        "lastSeen": "2026-10-20"
+      },
+      "https://news.ycombinator.com/item?id=50161408": {
+        "source": "showhn",
+        "title": "Death Plan Switch, a self-hosted dead man's switch for solo devs",
+        "url": "https://deathplanswitch.com/",
+        "points": 72,
+        "comments": 50,
+        "discussion": "https://news.ycombinator.com/item?id=50161408",
+        "created": "2026-10-20T04:37:43.000Z",
+        "firstSeen": "2026-10-20",
+        "lastSeen": "2026-10-20"
+      },
+      "https://news.ycombinator.com/item?id=50163277": {
+        "source": "hn",
+        "title": "DeepSeek just open-sourced its inference engine",
+        "url": "https://github.com/deepseek-ai/DeepInfer",
+        "points": 411,
+        "comments": 137,
+        "discussion": "https://news.ycombinator.com/item?id=50163277",
+        "created": "2026-10-20T09:08:54.000Z",
         "firstSeen": "2026-10-20",
         "lastSeen": "2026-10-20"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-10-20T06:32:54.054Z",
+    "fetchedAt": "2026-10-20T11:22:08.655Z",
     "hn": [
-      {
-        "title": "Wine ported to OpenBSD",
-        "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
-        "points": 544,
-        "comments": 179,
-        "discussion": "https://news.ycombinator.com/item?id=50152307"
-      },
       {
         "title": "It's still ok to enjoy programming",
         "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
-        "points": 537,
-        "comments": 483,
+        "points": 617,
+        "comments": 533,
         "discussion": "https://news.ycombinator.com/item?id=50134472"
+      },
+      {
+        "title": "Wine ported to OpenBSD",
+        "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+        "points": 573,
+        "comments": 195,
+        "discussion": "https://news.ycombinator.com/item?id=50152307"
       },
       {
         "title": "I built a drone with only one motor [video]",
         "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
-        "points": 490,
-        "comments": 106,
+        "points": 561,
+        "comments": 129,
         "discussion": "https://news.ycombinator.com/item?id=50150089"
       },
       {
         "title": "MiniMax M3.1 Flash",
         "url": "https://www.minimax.io/blog/minimax-m31f",
-        "points": 434,
-        "comments": 188,
+        "points": 478,
+        "comments": 203,
         "discussion": "https://news.ycombinator.com/item?id=50154540"
-      },
-      {
-        "title": "Starcraft: Ashfall",
-        "url": "https://starcraft-shooter-2026.pages.dev/",
-        "points": 403,
-        "comments": 121,
-        "discussion": "https://news.ycombinator.com/item?id=50147233"
       },
       {
         "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
         "url": "https://news.ycombinator.com/item?id=50151036",
-        "points": 370,
-        "comments": 516,
+        "points": 477,
+        "comments": 611,
         "discussion": "https://news.ycombinator.com/item?id=50151036"
-      },
-      {
-        "title": "Android apps running native on macOS",
-        "url": "https://github.com/kksimp/Mac.apk",
-        "points": 301,
-        "comments": 160,
-        "discussion": "https://news.ycombinator.com/item?id=50154624"
       },
       {
         "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
         "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-        "points": 247,
-        "comments": 47,
+        "points": 476,
+        "comments": 143,
         "discussion": "https://news.ycombinator.com/item?id=50159341"
+      },
+      {
+        "title": "Starcraft: Ashfall",
+        "url": "https://starcraft-shooter-2026.pages.dev/",
+        "points": 472,
+        "comments": 148,
+        "discussion": "https://news.ycombinator.com/item?id=50147233"
+      },
+      {
+        "title": "DeepSeek just open-sourced its inference engine",
+        "url": "https://github.com/deepseek-ai/DeepInfer",
+        "points": 400,
+        "comments": 133,
+        "discussion": "https://news.ycombinator.com/item?id=50163277"
+      },
+      {
+        "title": "OpenBSD 8.0",
+        "url": "https://www.openbsd.org/80.html",
+        "points": 323,
+        "comments": 103,
+        "discussion": "https://news.ycombinator.com/item?id=50160494"
       },
       {
         "title": "Ukraine claims first drone evacuation of wounded soldier",
         "url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
-        "points": 215,
-        "comments": 155,
+        "points": 305,
+        "comments": 236,
         "discussion": "https://news.ycombinator.com/item?id=50153664"
-      },
-      {
-        "title": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
-        "url": "https://josie.lol/blog/linux-rtx-spark",
-        "points": 215,
-        "comments": 107,
-        "discussion": "https://news.ycombinator.com/item?id=50158100"
       }
     ],
     "lobsters": [
       {
         "title": "Updates to site guidelines and AI/LLM tags",
         "url": "https://lobste.rs/s/h0eate/updates_site_guidelines_ai_llm_tags",
-        "points": 326,
-        "comments": 284,
+        "points": 331,
+        "comments": 310,
         "discussion": "https://lobste.rs/s/h0eate/updates_site_guidelines_ai_llm_tags",
         "tags": [
           "announce",
@@ -5987,20 +6031,10 @@
         ]
       },
       {
-        "title": "Wine ported to OpenBSD",
-        "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
-        "points": 92,
-        "comments": 15,
-        "discussion": "https://lobste.rs/s/gqepzd/wine_ported_openbsd",
-        "tags": [
-          "openbsd"
-        ]
-      },
-      {
         "title": "OpenBSD 8.0",
         "url": "https://www.openbsd.org/80.html",
-        "points": 23,
-        "comments": 4,
+        "points": 61,
+        "comments": 11,
         "discussion": "https://lobste.rs/s/sqdhu7/openbsd_8_0",
         "tags": [
           "openbsd",
@@ -6008,9 +6042,64 @@
         ]
       },
       {
+        "title": "Wine ported to OpenBSD",
+        "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+        "points": 101,
+        "comments": 20,
+        "discussion": "https://lobste.rs/s/gqepzd/wine_ported_openbsd",
+        "tags": [
+          "openbsd"
+        ]
+      },
+      {
+        "title": "Do web components have a future if nobody is writing them?",
+        "url": "https://nolanlawson.com/2026/10/19/do-web-components-have-a-future-if-nobody-is-writing-them/",
+        "points": 11,
+        "comments": 8,
+        "discussion": "https://lobste.rs/s/dpjkzz/do_web_components_have_future_if_nobody_is",
+        "tags": [
+          "ai-tooling",
+          "web"
+        ]
+      },
+      {
+        "title": "Setting up SSH keys on macOS with Touch ID",
+        "url": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/",
+        "points": 6,
+        "comments": 3,
+        "discussion": "https://lobste.rs/s/d7m5j1/setting_up_ssh_keys_on_macos_with_touch_id",
+        "tags": [
+          "cryptography",
+          "mac",
+          "security"
+        ]
+      },
+      {
+        "title": "Making all divisions slower to fix a bug in 0.000000000000000000542% of cases",
+        "url": "https://futhark-lang.org/blog/2026-10-14-defining-division.html",
+        "points": 60,
+        "comments": 7,
+        "discussion": "https://lobste.rs/s/a9f6z1/making_all_divisions_slower_fix_bug_0",
+        "tags": [
+          "c",
+          "compilers"
+        ]
+      },
+      {
+        "title": "Go will reject certificate chains containing eight distrusted SPKIs",
+        "url": "https://github.com/golang/go/commit/90617fb7ceb59cf08bee7826bb51b8c8fb8c11de",
+        "points": 14,
+        "comments": 6,
+        "discussion": "https://lobste.rs/s/vze0kx/go_will_reject_certificate_chains",
+        "tags": [
+          "go",
+          "security"
+        ]
+      },
+      {
         "title": "One Hash Bloom Filters",
         "url": "https://www.calabro.io/ohbf",
-        "points": 48,
+        "points": 55,
         "comments": 8,
         "discussion": "https://lobste.rs/s/mpytbn/one_hash_bloom_filters",
         "tags": [
@@ -6019,21 +6108,10 @@
         ]
       },
       {
-        "title": "Making all divisions slower to fix a bug in 0.000000000000000000542% of cases",
-        "url": "https://futhark-lang.org/blog/2026-10-14-defining-division.html",
-        "points": 44,
-        "comments": 2,
-        "discussion": "https://lobste.rs/s/a9f6z1/making_all_divisions_slower_fix_bug_0",
-        "tags": [
-          "c",
-          "compilers"
-        ]
-      },
-      {
         "title": "A5 v1.0",
         "url": "https://a5geo.org/blog/2026/10/14/a5-v1",
-        "points": 19,
-        "comments": 11,
+        "points": 23,
+        "comments": 13,
         "discussion": "https://lobste.rs/s/wtthju/a5_v1_0",
         "tags": [
           "compsci",
@@ -6043,47 +6121,14 @@
         ]
       },
       {
-        "title": "Do web components have a future if nobody is writing them?",
-        "url": "https://nolanlawson.com/2026/10/19/do-web-components-have-a-future-if-nobody-is-writing-them/",
-        "points": 5,
-        "comments": 1,
-        "discussion": "https://lobste.rs/s/dpjkzz/do_web_components_have_future_if_nobody_is",
-        "tags": [
-          "ai-tooling",
-          "web"
-        ]
-      },
-      {
-        "title": "In Context",
-        "url": "https://www.youtube.com/watch?v=P5eO7BNyJao",
-        "points": 21,
-        "comments": 7,
-        "discussion": "https://lobste.rs/s/b36ixw/context",
-        "tags": [
-          "programming",
-          "video"
-        ]
-      },
-      {
         "title": "2026 is an exciting year for the Rust compiler (and me)",
         "url": "https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/",
-        "points": 21,
-        "comments": 4,
+        "points": 36,
+        "comments": 5,
         "discussion": "https://lobste.rs/s/c2ouz0/2026_is_exciting_year_for_rust_compiler_me",
         "tags": [
           "compilers",
           "rust"
-        ]
-      },
-      {
-        "title": "What are you doing this week?",
-        "url": "https://lobste.rs/s/vyfegx/what_are_you_doing_this_week",
-        "points": 23,
-        "comments": 39,
-        "discussion": "https://lobste.rs/s/vyfegx/what_are_you_doing_this_week",
-        "tags": [
-          "ask",
-          "programming"
         ]
       }
     ],
@@ -6091,8 +6136,8 @@
       {
         "title": "I Fixed The Bug. Then My Pipeline Refused to Run.",
         "url": "https://dev.to/maame-codes/i-fixed-the-bug-then-my-pipeline-refused-to-run-4c7i",
-        "points": 56,
-        "comments": 1,
+        "points": 69,
+        "comments": 4,
         "discussion": "https://dev.to/maame-codes/i-fixed-the-bug-then-my-pipeline-refused-to-run-4c7i",
         "tags": [
           "devops",
@@ -6101,21 +6146,21 @@
         ]
       },
       {
-        "title": "Your agent's retry bug isn't an AI problem. It's a distributed-systems problem with an LLM on top.",
-        "url": "https://dev.to/cyclopt_dimitrisk/your-agents-retry-bug-isnt-an-ai-problem-its-a-distributed-systems-problem-with-an-llm-on-top-1i6k",
-        "points": 23,
-        "comments": 35,
-        "discussion": "https://dev.to/cyclopt_dimitrisk/your-agents-retry-bug-isnt-an-ai-problem-its-a-distributed-systems-problem-with-an-llm-on-top-1i6k",
+        "title": "Somewhere, Coding Stopped Being Allowed to Be Fun",
+        "url": "https://dev.to/james_anderson_h/somewhere-coding-stopped-being-allowed-to-be-fun-14pe",
+        "points": 21,
+        "comments": 18,
+        "discussion": "https://dev.to/james_anderson_h/somewhere-coding-stopped-being-allowed-to-be-fun-14pe",
         "tags": [
-          "ai",
-          "architecture",
-          "programming"
+          "career",
+          "discuss",
+          "ai"
         ]
       },
       {
         "title": "I built an AWS agent that scores any GitHub repo before you clone it",
         "url": "https://dev.to/aws-builders/i-built-an-aws-agent-that-scores-any-github-repo-before-you-clone-it-4omp",
-        "points": 19,
+        "points": 20,
         "comments": 2,
         "discussion": "https://dev.to/aws-builders/i-built-an-aws-agent-that-scores-any-github-repo-before-you-clone-it-4omp",
         "tags": [
@@ -6125,33 +6170,22 @@
         ]
       },
       {
-        "title": "AI-Assisted Photo Culling with an Open Model, Fully Offline? Not a Myth Anymore.",
-        "url": "https://dev.to/rudas/ai-assisted-photo-culling-with-an-open-model-fully-offline-not-a-myth-anymore-n3g",
-        "points": 17,
-        "comments": 0,
-        "discussion": "https://dev.to/rudas/ai-assisted-photo-culling-with-an-open-model-fully-offline-not-a-myth-anymore-n3g",
+        "title": "Hello world!!",
+        "url": "https://dev.to/star123/hello-world-5425",
+        "points": 18,
+        "comments": 18,
+        "discussion": "https://dev.to/star123/hello-world-5425",
         "tags": [
-          "devchallenge",
-          "hf26challenge",
-          "gemma"
-        ]
-      },
-      {
-        "title": "How I Built Parchi: Turning Messy WhatsApp Orders into a Clean Order Sheet with Gemma",
-        "url": "https://dev.to/sagarmaurya/how-i-built-parchi-turning-messy-whatsapp-orders-into-a-clean-order-sheet-with-gemma-2h1p",
-        "points": 16,
-        "comments": 2,
-        "discussion": "https://dev.to/sagarmaurya/how-i-built-parchi-turning-messy-whatsapp-orders-into-a-clean-order-sheet-with-gemma-2h1p",
-        "tags": [
-          "devchallenge",
-          "hf26challenge"
+          "python",
+          "discuss",
+          "beginners"
         ]
       },
       {
         "title": "Stress-Testing Gemini 4 Argon: Building a 3D Flutter Kart Game in 15 Prompts with Zero Assets",
         "url": "https://dev.to/gde/stress-testing-gemini-4-argon-building-a-3d-flutter-kart-game-in-15-prompts-with-zero-assets-55ha",
-        "points": 14,
-        "comments": 1,
+        "points": 15,
+        "comments": 2,
         "discussion": "https://dev.to/gde/stress-testing-gemini-4-argon-building-a-3d-flutter-kart-game-in-15-prompts-with-zero-assets-55ha",
         "tags": [
           "flutter",
@@ -6162,13 +6196,37 @@
       {
         "title": "\"Rails Magic\" Isn't Magic. How a Request Actually Travels Through Rails.",
         "url": "https://dev.to/smtahosin/rails-magic-isnt-magic-how-a-request-actually-travels-through-rails-5gc5",
-        "points": 13,
-        "comments": 1,
+        "points": 14,
+        "comments": 2,
         "discussion": "https://dev.to/smtahosin/rails-magic-isnt-magic-how-a-request-actually-travels-through-rails-5gc5",
         "tags": [
           "rails",
           "ruby",
           "webdev"
+        ]
+      },
+      {
+        "title": "An App Built for One: Why a Devpost Skill Pack Made Me Spec It Anyway",
+        "url": "https://dev.to/earlgreyhot1701d/an-app-built-for-one-why-a-devpost-skill-pack-made-me-spec-it-anyway-knh",
+        "points": 13,
+        "comments": 3,
+        "discussion": "https://dev.to/earlgreyhot1701d/an-app-built-for-one-why-a-devpost-skill-pack-made-me-spec-it-anyway-knh",
+        "tags": [
+          "ai",
+          "webdev",
+          "hackathon"
+        ]
+      },
+      {
+        "title": "Stop Shipping Marketing Pages Like Product Features",
+        "url": "https://dev.to/yassersoliman/stop-shipping-marketing-pages-like-product-features-374d",
+        "points": 13,
+        "comments": 2,
+        "discussion": "https://dev.to/yassersoliman/stop-shipping-marketing-pages-like-product-features-374d",
+        "tags": [
+          "webdev",
+          "programming",
+          "marketing"
         ]
       },
       {
@@ -6184,33 +6242,21 @@
         ]
       },
       {
-        "title": "#HackAVP Adopte un Job : swipe les postes de l'OPT-NC, vois pourquoi ils te correspondent",
-        "url": "https://dev.to/c2b/adopte-un-job-on-swipe-les-vrais-postes-de-lopt-nc-et-on-voit-pourquoi-ils-nous-correspondent-48pc",
+        "title": "Dev log #26 Deep in the libp2p weeds: Fixing DHT prefixes and Yamux resets",
+        "url": "https://dev.to/yashksaini/dev-log-26-deep-in-the-libp2p-weeds-fixing-dht-prefixes-and-yamux-resets-315n",
         "points": 12,
         "comments": 0,
-        "discussion": "https://dev.to/c2b/adopte-un-job-on-swipe-les-vrais-postes-de-lopt-nc-et-on-voit-pourquoi-ils-nous-correspondent-48pc",
+        "discussion": "https://dev.to/yashksaini/dev-log-26-deep-in-the-libp2p-weeds-fixing-dht-prefixes-and-yamux-resets-315n",
         "tags": [
-          "hackavp",
-          "hackathon",
-          "career"
-        ]
-      },
-      {
-        "title": "Dev log #25 Hardening p2p networking and shipping interactive CLI features in Rust",
-        "url": "https://dev.to/yashksaini/dev-log-25-hardening-p2p-networking-and-shipping-interactive-cli-features-in-rust-n36",
-        "points": 10,
-        "comments": 0,
-        "discussion": "https://dev.to/yashksaini/dev-log-25-hardening-p2p-networking-and-shipping-interactive-cli-features-in-rust-n36",
-        "tags": [
-          "rust",
-          "cli",
-          "networking"
+          "networking",
+          "python",
+          "opensource"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-10-20T06:32:54.054Z",
+    "fetchedAt": "2026-10-20T11:22:08.655Z",
     "candidates": {
       "https://blog.cloudflare.com/root-ksk-2024-rollover": {
         "source": "Cloudflare",
