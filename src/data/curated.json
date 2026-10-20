@@ -359,9 +359,29 @@
     "https://news.ycombinator.com/item?id=50131189": {
       "why": "Emulates the real mask ROM and boot chain rather than patched firmware; ESP32-S3 is mature with display, touch and WiFi modeled, while C3/C6 stay drafts.",
       "pickedOn": "2026-10-19"
+    },
+    "aicodeking/leanrea": {
+      "why": "A single 8 KB SKILL.md that points the agent at existing CLI tools instead of an MCP server, with a side-by-side benchmark of cost and context versus REA.",
+      "pickedOn": "2026-10-20"
+    },
+    "reason-machines/reason-network": {
+      "why": "Rust daemon, one per machine, letting agents on teammates' computers discover and message each other peer-to-peer with no central server; works across many existing agent CLIs.",
+      "pickedOn": "2026-10-20"
+    },
+    "Gathin23/cleanyourtv": {
+      "why": "Debloats Android and Google TV over the existing debug bridge with no root and nothing uninstalled, and ships a one-line restore so the changes stay reversible.",
+      "pickedOn": "2026-10-20"
+    },
+    "interplains/zero-breach": {
+      "why": "Standard-library-only, read-only scanner that reports evidence strength and explicitly lists what it could not check, rather than implying a clean result is proof.",
+      "pickedOn": "2026-10-20"
+    },
+    "https://news.ycombinator.com/item?id=50145715": {
+      "why": "Runs inside your own Cloudflare account as a linked device that syncs on demand into a Durable Object SQLite; read-only, but needs the Workers Paid plan.",
+      "pickedOn": "2026-10-20"
     }
   },
-  "updatedAt": "2026-10-19T06:31:23.846Z",
+  "updatedAt": "2026-10-20T06:32:24.230Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1042,6 +1062,16 @@
       "topic": "infrastructure",
       "why": "Traces four years of design decisions behind iroh, moving from IPFS to a QUIC-based peer-to-peer blob transfer protocol, including rejected approaches.",
       "pickedOn": "2026-10-18"
+    },
+    "https://purplesyringa.moe/blog/superoptimizing-an-fpu-emulator": {
+      "title": "Superoptimizing an FPU emulator",
+      "url": "https://purplesyringa.moe/blog/superoptimizing-an-fpu-emulator/",
+      "source": "Lobsters",
+      "published": "2026-10-18T23:51:14.119Z",
+      "discussion": "https://lobste.rs/s/1s3dve/superoptimizing_fpu_emulator",
+      "topic": "performance",
+      "why": "Shows how to brute-force search instruction sequences for a branchless formula replacing a branchy float bit-twiddling routine, and how to validate candidates with test cases.",
+      "pickedOn": "2026-10-20"
     }
   },
   "deepdiveSkips": {
@@ -1190,6 +1220,8 @@
     "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta": "2026-10-17",
     "https://aws.amazon.com/blogs/architecture/how-dynata-scaled-ai-across-the-development-lifecycle-with-ai-dlc-and-kiro-ide": "2026-10-17",
     "https://blog.cloudflare.com/verified-bots-accountability": "2026-10-18",
-    "https://stripe.com/blog/new-ways-for-fintechs-to-move-money-and-expand-globally": "2026-10-18"
+    "https://stripe.com/blog/new-ways-for-fintechs-to-move-money-and-expand-globally": "2026-10-18",
+    "https://ranet3.com": "2026-10-20",
+    "https://benjcal.space/blog/arp-tell-your-network-to-explain-itself": "2026-10-20"
   }
 }
