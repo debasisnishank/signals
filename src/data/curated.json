@@ -379,9 +379,29 @@
     "https://news.ycombinator.com/item?id=50145715": {
       "why": "Runs inside your own Cloudflare account as a linked device that syncs on demand into a Durable Object SQLite; read-only, but needs the Workers Paid plan.",
       "pickedOn": "2026-10-20"
+    },
+    "https://news.ycombinator.com/item?id=50152541": {
+      "why": "Speaks RESP2/RESP3 on port 6380 so existing Redis clients work unchanged, but shards across every core and ships Redis-Stack-style FT.* vector and full-text search.",
+      "pickedOn": "2026-10-21"
+    },
+    "https://news.ycombinator.com/item?id=50163277": {
+      "why": "The stack behind DeepSeek's own serving, released as offline inference with FlashMLA/DeepGEMM kernels, MoE expert parallelism with EPLB, and deterministic sampling.",
+      "pickedOn": "2026-10-21"
+    },
+    "kanaworksai-hue/audio-studio-mcp": {
+      "why": "Runs Stable Audio 3 locally via MLX or CUDA instead of a cloud API, and gives every clip a JSON sidecar with prompt and seed, plus loops and LUFS-normalized exports.",
+      "pickedOn": "2026-10-21"
+    },
+    "finereli/whatsapp-mcp": {
+      "why": "Links as a device and only connects on demand to pull queued messages into SQLite inside your own Cloudflare Worker, so it stays read-only and self-hosted.",
+      "pickedOn": "2026-10-21"
+    },
+    "justrach/nanoui": {
+      "why": "Drawn by Zig alone in one instanced Metal draw call per frame, no webview, with views testable without opening a window; two working example apps ship with it.",
+      "pickedOn": "2026-10-21"
     }
   },
-  "updatedAt": "2026-10-20T06:32:24.230Z",
+  "updatedAt": "2026-10-21T06:32:06.861Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1072,6 +1092,52 @@
       "topic": "performance",
       "why": "Shows how to brute-force search instruction sequences for a branchless formula replacing a branchy float bit-twiddling routine, and how to validate candidates with test cases.",
       "pickedOn": "2026-10-20"
+    },
+    "https://blog.cloudflare.com/obsessive-inference-optimization": {
+      "title": "Cutting our inference bill by 68% by being obsessive about optimization",
+      "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
+      "source": "Cloudflare",
+      "published": "2026-10-19T19:12:53.000Z",
+      "topic": "performance",
+      "why": "Cloudflare cut its AI code reviewer's inference bill 68% via token usage profiling, prompt caching, and model routing, with real numbers and trade-offs.",
+      "pickedOn": "2026-10-21"
+    },
+    "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture": {
+      "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+      "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
+      "source": "Meta",
+      "published": "2026-10-19T15:30:37.000Z",
+      "topic": "reliability",
+      "why": "Meta keeps agent orchestration thin, routing work and enforcing reliability checks while specialized agents reason, improving accuracy and efficiency.",
+      "pickedOn": "2026-10-21"
+    },
+    "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster": {
+      "title": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+      "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+      "source": "Meta",
+      "published": "2026-10-19T13:00:10.000Z",
+      "topic": "infrastructure",
+      "why": "Meta details Prometheus, its gigawatt-scale supercluster: liquid cooling, networking, and the engineering behind scaling toward a million GPUs.",
+      "pickedOn": "2026-10-21"
+    },
+    "https://shopify.engineering/overexposed": {
+      "title": "Building Overexposed: understanding application exposure",
+      "url": "https://shopify.engineering/overexposed",
+      "source": "Shopify",
+      "published": "2026-10-19T21:54:14.000Z",
+      "topic": "infrastructure",
+      "why": "Shopify rebuilt its exposure scanner around cloud inventory and live probing with policy-mapped verdicts, after config-file scanning missed running services.",
+      "pickedOn": "2026-10-21"
+    },
+    "https://blog.torproject.org/tor-vpn-beta": {
+      "title": "Tor VPN Beta: What we've learned building our own VPN for Android from scratch",
+      "url": "https://blog.torproject.org/tor-vpn-beta/",
+      "source": "Lobsters",
+      "published": "2026-10-19T08:27:55.648Z",
+      "discussion": "https://lobste.rs/s/s3w7hd/tor_vpn_beta_what_we_ve_learned_building",
+      "topic": "infrastructure",
+      "why": "Tor explains lessons from building an Android VPN client from scratch, covering networking internals, protocol choices, and platform constraints.",
+      "pickedOn": "2026-10-21"
     }
   },
   "deepdiveSkips": {
@@ -1222,6 +1288,12 @@
     "https://blog.cloudflare.com/verified-bots-accountability": "2026-10-18",
     "https://stripe.com/blog/new-ways-for-fintechs-to-move-money-and-expand-globally": "2026-10-18",
     "https://ranet3.com": "2026-10-20",
-    "https://benjcal.space/blog/arp-tell-your-network-to-explain-itself": "2026-10-20"
+    "https://benjcal.space/blog/arp-tell-your-network-to-explain-itself": "2026-10-20",
+    "https://stripe.com/blog/saas-platform-trends-in-ai-era": "2026-10-21",
+    "https://blog.cloudflare.com/clairic-extraction-model": "2026-10-21",
+    "https://blog.cloudflare.com/protect-your-netscaler-gateway": "2026-10-21",
+    "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary": "2026-10-21",
+    "https://medium.com/pinterest-engineering/introducing-modulelens-zooming-into-pytorch-modules-for-human-and-agentic-engineering-b7e9be9d29f8?source=rss----4c5a5f6279b6---4": "2026-10-21",
+    "https://www.calabro.io/ohbf": "2026-10-21"
   }
 }
