@@ -399,9 +399,29 @@
     "justrach/nanoui": {
       "why": "Drawn by Zig alone in one instanced Metal draw call per frame, no webview, with views testable without opening a window; two working example apps ship with it.",
       "pickedOn": "2026-10-21"
+    },
+    "https://news.ycombinator.com/item?id=50169053": {
+      "why": "Runs real PyTorch models on TPU via custom ATen kernels, an XLA compilation cache and distributed training, not just graph export.",
+      "pickedOn": "2026-10-22"
+    },
+    "dominikmartn/harp": {
+      "why": "Warp fork that swaps the tab bar for a sidebar tracking each Claude Code and Codex session's state, with tmux-backed groups that persist.",
+      "pickedOn": "2026-10-22"
+    },
+    "tangency-labs/solidcraft": {
+      "why": "Open-source parametric CAD is rare; this ships desktop, a web build and MCP-driven scripting from one pure-Rust core.",
+      "pickedOn": "2026-10-22"
+    },
+    "https://news.ycombinator.com/item?id=50154624": {
+      "why": "Runs Android apps as ordinary macOS processes on Apple Silicon with no emulator or VM, though it is still alpha and only some apps work.",
+      "pickedOn": "2026-10-22"
+    },
+    "Hugo-Dz/spritefusion-sprite-normals": {
+      "why": "Generates normal maps from sprites and sheets locally via a Rust CLI or WASM library, keeping pixel resolution and alpha for 2.5D lighting.",
+      "pickedOn": "2026-10-22"
     }
   },
-  "updatedAt": "2026-10-21T06:32:06.861Z",
+  "updatedAt": "2026-10-22T06:33:28.611Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1138,6 +1158,53 @@
       "topic": "infrastructure",
       "why": "Tor explains lessons from building an Android VPN client from scratch, covering networking internals, protocol choices, and platform constraints.",
       "pickedOn": "2026-10-21"
+    },
+    "https://blog.cloudflare.com/emudhra-certificate-compromise": {
+      "title": "8 eMudhra certificates are compromised. Here's what you need to know",
+      "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
+      "source": "Cloudflare",
+      "published": "2026-10-20T22:20:16.000Z",
+      "topic": "infrastructure",
+      "why": "How Cloudflare responded to compromised intermediate certificates: prioritising affected services, refreshing shared trust stores, and rolling out patched clients and tunnels at scale.",
+      "pickedOn": "2026-10-22"
+    },
+    "https://blog.cloudflare.com/typescript-rust-port": {
+      "title": "Introducing tsrs: A port of TypeScript to Rust",
+      "url": "https://blog.cloudflare.com/typescript-rust-port/",
+      "source": "Cloudflare",
+      "published": "2026-10-20T13:00:00.000Z",
+      "topic": "performance",
+      "why": "Benchmarks and trade-offs behind porting the TypeScript compiler to Rust, showing how they got large speed and memory wins without forking the language.",
+      "pickedOn": "2026-10-22"
+    },
+    "https://shopify.engineering/catalog-clustering-part-ii": {
+      "title": "Cross-store product clustering across millions of stores",
+      "url": "https://shopify.engineering/catalog-clustering-part-ii",
+      "source": "Shopify",
+      "published": "2026-10-20T13:48:59.000Z",
+      "topic": "architecture",
+      "why": "How Shopify groups product listings across millions of stores using tiered matching models, graph partitioning, and learned cluster-merge decisions at scale.",
+      "pickedOn": "2026-10-22"
+    },
+    "https://jepsen.io/analyses/orkes-conductor-5.3.2": {
+      "title": "Jepsen: Orkes Conductor 5.3.2",
+      "url": "https://jepsen.io/analyses/orkes-conductor-5.3.2",
+      "source": "Lobsters",
+      "published": "2026-10-20T13:14:54.849Z",
+      "discussion": "https://lobste.rs/s/42zgmq/jepsen_orkes_conductor_5_3_2",
+      "topic": "distributed",
+      "why": "Jepsen's consistency analysis of Orkes Conductor, fault-injecting a distributed workflow engine to find correctness bugs in its coordination.",
+      "pickedOn": "2026-10-22"
+    },
+    "https://blog.mahdibm.com/posts/a-very-fast-ipv4-parser-in-swift": {
+      "title": "A Very Fast IPv4 Parser, in Swift",
+      "url": "https://blog.mahdibm.com/posts/a-very-fast-ipv4-parser-in-swift/",
+      "source": "Lobsters",
+      "published": "2026-10-20T04:04:43.855Z",
+      "discussion": "https://lobste.rs/s/dl4h2a/very_fast_ipv4_parser_swift",
+      "topic": "performance",
+      "why": "A from-scratch IPv4 parser in Swift reaching ~3ns per address, covering the bit tricks, vectorisation, and benchmark methodology behind the result.",
+      "pickedOn": "2026-10-22"
     }
   },
   "deepdiveSkips": {
@@ -1294,6 +1361,9 @@
     "https://blog.cloudflare.com/protect-your-netscaler-gateway": "2026-10-21",
     "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary": "2026-10-21",
     "https://medium.com/pinterest-engineering/introducing-modulelens-zooming-into-pytorch-modules-for-human-and-agentic-engineering-b7e9be9d29f8?source=rss----4c5a5f6279b6---4": "2026-10-21",
-    "https://www.calabro.io/ohbf": "2026-10-21"
+    "https://www.calabro.io/ohbf": "2026-10-21",
+    "https://shopify.engineering/open-model-task-experts": "2026-10-22",
+    "https://www.figma.com/blog/source-material-ben-ganz": "2026-10-22",
+    "https://enroute.sh/blog/everyone-is-doing-git-on-s3-wrong": "2026-10-22"
   }
 }
