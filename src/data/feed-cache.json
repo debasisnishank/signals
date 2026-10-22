@@ -1,12 +1,26 @@
 {
   "tech": {
-    "fetchedAt": "2026-10-21T11:37:22.364Z",
+    "fetchedAt": "2026-10-22T06:34:03.817Z",
     "repos": [
+      {
+        "name": "Gathin23/cleanyourtv",
+        "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+        "language": "Java",
+        "stars": 20617,
+        "url": "https://github.com/Gathin23/cleanyourtv",
+        "created": "2026-10-17T08:12:35Z",
+        "topics": [
+          "adb",
+          "adblock",
+          "android-tv",
+          "android-tv-launcher"
+        ]
+      },
       {
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 18028,
+        "stars": 18703,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -20,35 +34,21 @@
         "name": "deepseek-ai/DeepInfer",
         "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
         "language": "Python",
-        "stars": 16594,
+        "stars": 18649,
         "url": "https://github.com/deepseek-ai/DeepInfer",
         "created": "2026-10-16T07:47:23Z",
         "topics": [],
         "hn": {
-          "points": 2262,
-          "comments": 862,
+          "points": 2311,
+          "comments": 885,
           "url": "https://news.ycombinator.com/item?id=50163277"
         }
-      },
-      {
-        "name": "Gathin23/cleanyourtv",
-        "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-        "language": "Java",
-        "stars": 15487,
-        "url": "https://github.com/Gathin23/cleanyourtv",
-        "created": "2026-10-17T08:12:35Z",
-        "topics": [
-          "adb",
-          "adblock",
-          "android-tv",
-          "android-tv-launcher"
-        ]
       },
       {
         "name": "storytold/wordcraft",
         "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
         "language": "Rust",
-        "stars": 15214,
+        "stars": 15390,
         "url": "https://github.com/storytold/wordcraft",
         "created": "2026-10-07T08:34:24Z",
         "topics": [],
@@ -62,7 +62,7 @@
         "name": "tangency-labs/solidcraft",
         "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
         "language": "Rust",
-        "stars": 8581,
+        "stars": 8987,
         "url": "https://github.com/tangency-labs/solidcraft",
         "created": "2026-10-07T18:57:48Z",
         "topics": [
@@ -73,24 +73,10 @@
         ]
       },
       {
-        "name": "storytold/effectcraft",
-        "description": "EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust",
-        "language": "Rust",
-        "stars": 7571,
-        "url": "https://github.com/storytold/effectcraft",
-        "created": "2026-10-01T14:24:46Z",
-        "topics": [
-          "art",
-          "compositing",
-          "compositing-software",
-          "motion-graphics"
-        ]
-      },
-      {
         "name": "storytold/cadcraft",
         "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
         "language": "Rust",
-        "stars": 6248,
+        "stars": 6351,
         "url": "https://github.com/storytold/cadcraft",
         "created": "2026-10-07T05:22:31Z",
         "topics": []
@@ -99,61 +85,44 @@
         "name": "storytold/gridcraft",
         "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
         "language": "Rust",
-        "stars": 6097,
+        "stars": 6176,
         "url": "https://github.com/storytold/gridcraft",
         "created": "2026-10-07T05:18:16Z",
         "topics": []
       },
       {
-        "name": "simbasjungles/free-my-tv",
-        "description": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
-        "language": "Java",
-        "stars": 2248,
-        "url": "https://github.com/simbasjungles/free-my-tv",
-        "created": "2026-10-19T19:29:01Z",
+        "name": "ARahim3/DigUp",
+        "description": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
+        "language": "Swift",
+        "stars": 5401,
+        "url": "https://github.com/ARahim3/DigUp",
+        "created": "2026-10-08T20:37:51Z",
         "topics": [
-          "android-tv",
-          "claude-code",
-          "google-tv",
-          "home-screen"
+          "embeddinggemma",
+          "embeddings",
+          "file-search",
+          "linux"
         ]
       },
       {
-        "name": "JoasASantos/REA-Prompts",
-        "description": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
-        "language": null,
-        "stars": 1208,
-        "url": "https://github.com/JoasASantos/REA-Prompts",
-        "created": "2026-10-19T22:20:47Z",
+        "name": "ikow/php2shell-poc",
+        "description": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research.",
+        "language": "Python",
+        "stars": 1187,
+        "url": "https://github.com/ikow/php2shell-poc",
+        "created": "2026-10-21T07:55:16Z",
         "topics": [
-          "prompt-engineering",
-          "rea",
-          "reverse-enginnering"
+          "cve-2026-109618",
+          "cve-2026-109619",
+          "detection-rules",
+          "exploit"
         ]
-      },
-      {
-        "name": "ELY-Open-Source/ElyOffice",
-        "description": "Ely Office: offline-first desktop apps in Rust and GPUI",
-        "language": "Rust",
-        "stars": 678,
-        "url": "https://github.com/ELY-Open-Source/ElyOffice",
-        "created": "2026-10-19T23:04:42Z",
-        "topics": []
-      },
-      {
-        "name": "stackedlol/ascii-sharks",
-        "description": "ascii shark components in typescript",
-        "language": "TypeScript",
-        "stars": 651,
-        "url": "https://github.com/stackedlol/ascii-sharks",
-        "created": "2026-10-19T21:54:19Z",
-        "topics": []
       },
       {
         "name": "eagle-hq/EAGLE-4",
         "description": "Official Inference Code of EAGLE-4",
         "language": "Python",
-        "stars": 573,
+        "stars": 764,
         "url": "https://github.com/eagle-hq/EAGLE-4",
         "created": "2026-10-20T14:03:04Z",
         "topics": [
@@ -164,63 +133,123 @@
         ]
       },
       {
-        "name": "UniXNU/UniXNU",
-        "description": "Run iOS and macOS on non-Apple ARM64 hardware through UEFI.",
-        "language": "Python",
-        "stars": 490,
-        "url": "https://github.com/UniXNU/UniXNU",
-        "created": "2026-10-19T10:46:55Z",
+        "name": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
+        "description": "Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only.",
+        "language": "Shell",
+        "stars": 694,
+        "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
+        "created": "2026-10-21T08:31:43Z",
         "topics": []
-      },
-      {
-        "name": "Hugo-Dz/spritefusion-sprite-normals",
-        "description": "A tool to generate normal maps from any sprite and animated sprite sheet.",
-        "language": "Rust",
-        "stars": 472,
-        "url": "https://github.com/Hugo-Dz/spritefusion-sprite-normals",
-        "created": "2026-10-19T13:26:45Z",
-        "topics": [
-          "gamedev",
-          "normal-map",
-          "normal-mapping",
-          "pixel-art"
-        ]
       },
       {
         "name": "dominikmartn/harp",
         "description": "Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.",
         "language": "Rust",
-        "stars": 453,
+        "stars": 556,
         "url": "https://github.com/dominikmartn/harp",
         "created": "2026-10-20T10:39:43Z",
         "topics": []
       },
       {
-        "name": "vercel-labs/fx0",
-        "description": "A lightweight design agent built with libfx. Describe a page and an agent writes it as one HTML file.",
-        "language": "TypeScript",
-        "stars": 338,
-        "url": "https://github.com/vercel-labs/fx0",
-        "created": "2026-10-19T17:27:02Z",
+        "name": "renjiegod/dyt-ashare-cli",
+        "description": "DYT CN: reproducible China-market research CLI and agent skills",
+        "language": "Rust",
+        "stars": 301,
+        "url": "https://github.com/renjiegod/dyt-ashare-cli",
+        "created": "2026-10-20T10:00:24Z",
         "topics": []
       },
       {
-        "name": "typecraft-dev/oma-cast",
-        "description": "omarchy rebuild of raycast",
+        "name": "nthnclrk/CleanFrame",
+        "description": "A personal home screen for Samsung The Frame. A starting point to fork and adapt.",
         "language": "JavaScript",
-        "stars": 324,
-        "url": "https://github.com/typecraft-dev/oma-cast",
-        "created": "2026-10-19T17:48:58Z",
+        "stars": 284,
+        "url": "https://github.com/nthnclrk/CleanFrame",
+        "created": "2026-10-20T04:40:07Z",
+        "topics": [],
+        "hn": {
+          "points": 23,
+          "comments": 4,
+          "url": "https://news.ycombinator.com/item?id=50187659"
+        }
+      },
+      {
+        "name": "Jakeschincariol/day-trader-skill",
+        "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+        "language": "Python",
+        "stars": 271,
+        "url": "https://github.com/Jakeschincariol/day-trader-skill",
+        "created": "2026-10-20T14:17:54Z",
+        "topics": [
+          "backtesting",
+          "claude",
+          "claude-skills",
+          "day-trading"
+        ]
+      },
+      {
+        "name": "lesnolie/Tigris",
+        "description": "Tigris — tvOS 26 style launcher for Android TV: Liquid Glass dock, Top Shelf, glass Control Center, photo screensaver. Agent-installable.",
+        "language": "Kotlin",
+        "stars": 255,
+        "url": "https://github.com/lesnolie/Tigris",
+        "created": "2026-10-20T10:12:05Z",
         "topics": []
+      },
+      {
+        "name": "cs-tool-s/.github",
+        "description": "🔥 cs-2-cs2-skin-changer-skin-swapper-skinchanger-skinswapper-all-skins",
+        "language": "HTML",
+        "stars": 244,
+        "url": "https://github.com/cs-tool-s/.github",
+        "created": "2026-10-20T13:20:24Z",
+        "topics": [
+          "cs2-ak-47-skin-changer",
+          "cs2-all-skins",
+          "cs2-awp-dragon-lore-changer",
+          "cs2-glove-changer"
+        ]
+      },
+      {
+        "name": "val-tools/.github",
+        "description": "🔥 valorant-weapon-skin-changer-swapper-all-skins",
+        "language": "HTML",
+        "stars": 243,
+        "url": "https://github.com/val-tools/.github",
+        "created": "2026-10-20T03:35:52Z",
+        "topics": [
+          "valorant-gun-changer",
+          "valorant-knife-changer",
+          "valorant-no-key",
+          "valorant-phantom-skins"
+        ]
       }
     ],
     "posts": [
       {
         "source": "showhn",
+        "title": "Omnara – Open-source alternative to Claude Managed Agents",
+        "url": "https://github.com/omnara-ai/omnara",
+        "points": 60,
+        "comments": 18,
+        "discussion": "https://news.ycombinator.com/item?id=50183892",
+        "created": "2026-10-21T16:44:53.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "Sumi.css – CSS Framework",
+        "url": "https://github.com/vladocar/Sumi.css",
+        "points": 85,
+        "comments": 20,
+        "discussion": "https://news.ycombinator.com/item?id=50180039",
+        "created": "2026-10-21T12:50:33.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "SimCity, but with Permits",
         "url": "https://permit.petercai.com/",
-        "points": 822,
-        "comments": 383,
+        "points": 911,
+        "comments": 411,
         "discussion": "https://news.ycombinator.com/item?id=50170593",
         "created": "2026-10-20T18:29:09.000Z"
       },
@@ -228,8 +257,8 @@
         "source": "showhn",
         "title": "Jev Cards, Can you beat a vision model at a picture quiz?",
         "url": "https://jevcards.com",
-        "points": 62,
-        "comments": 50,
+        "points": 71,
+        "comments": 51,
         "discussion": "https://news.ycombinator.com/item?id=50167617",
         "created": "2026-10-20T15:11:56.000Z"
       },
@@ -237,7 +266,7 @@
         "source": "showhn",
         "title": "Penmentor – Claude marks up your handwritten math like a teacher",
         "url": "https://github.com/AbdullahAlhariri/penmentor",
-        "points": 62,
+        "points": 64,
         "comments": 7,
         "discussion": "https://news.ycombinator.com/item?id=50167604",
         "created": "2026-10-20T15:10:54.000Z"
@@ -246,35 +275,26 @@
         "source": "showhn",
         "title": "VoidAccess – open-source dark web OSINT, from query to a graph",
         "url": "https://github.com/KatrielMoses/voidaccess",
-        "points": 185,
+        "points": 188,
         "comments": 13,
         "discussion": "https://news.ycombinator.com/item?id=50167286",
         "created": "2026-10-20T14:49:33.000Z"
       },
       {
-        "source": "showhn",
-        "title": "Death Plan Switch, a self-hosted dead man's switch for solo devs",
-        "url": "https://deathplanswitch.com/",
-        "points": 99,
-        "comments": 64,
-        "discussion": "https://news.ycombinator.com/item?id=50161408",
-        "created": "2026-10-20T04:37:43.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "RoadRash ported to Three.js to run in the browser",
-        "url": "https://roadrash.pages.dev",
-        "points": 34,
-        "comments": 8,
-        "discussion": "https://news.ycombinator.com/item?id=50158684",
-        "created": "2026-10-19T22:01:54.000Z"
+        "source": "launchhn",
+        "title": "Alter (YC S25) – Access control for multi-user agents",
+        "url": "https://alterauth.com/",
+        "points": 59,
+        "comments": 25,
+        "discussion": "https://news.ycombinator.com/item?id=50176908",
+        "created": "2026-10-21T06:42:12.000Z"
       },
       {
         "source": "launchhn",
         "title": "Respan (YC W24) – Open-source Rust AI gateway built around plugins",
         "url": "https://news.ycombinator.com/item?id=50167583",
-        "points": 49,
-        "comments": 20,
+        "points": 52,
+        "comments": 21,
         "discussion": "https://news.ycombinator.com/item?id=50167583",
         "created": "2026-10-20T15:09:29.000Z"
       },
@@ -282,7 +302,7 @@
         "source": "launchhn",
         "title": "Laminar (YC S24) – RL-trained model that finds errors in agent traces",
         "url": "https://news.ycombinator.com/item?id=50154029",
-        "points": 58,
+        "points": 59,
         "comments": 28,
         "discussion": "https://news.ycombinator.com/item?id=50154029",
         "created": "2026-10-19T16:00:18.000Z"
@@ -297,40 +317,40 @@
         "created": "2026-10-13T15:41:00.000Z"
       },
       {
-        "source": "launchhn",
-        "title": "Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
-        "url": "https://news.ycombinator.com/item?id=50059096",
-        "points": 163,
-        "comments": 134,
-        "discussion": "https://news.ycombinator.com/item?id=50059096",
-        "created": "2026-10-12T16:46:34.000Z"
+        "source": "hn",
+        "title": "PHP 8.2.35",
+        "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+        "points": 999,
+        "comments": 537,
+        "discussion": "https://news.ycombinator.com/item?id=50180873",
+        "created": "2026-10-21T13:45:33.000Z"
       },
       {
         "source": "hn",
-        "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
-        "url": "https://news-web.php.net/php.announce/509",
-        "points": 1028,
-        "comments": 416,
-        "discussion": "https://news.ycombinator.com/item?id=50172041",
-        "created": "2026-10-20T20:15:50.000Z"
+        "title": "Today's PHP security release, and how we're strengthening security",
+        "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+        "points": 712,
+        "comments": 348,
+        "discussion": "https://news.ycombinator.com/item?id=50182987",
+        "created": "2026-10-21T15:48:56.000Z"
       },
       {
         "source": "hn",
-        "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-        "url": "https://github.com/google-pytorch/torch_tpu",
-        "points": 351,
+        "title": "mitmproxy adds --emudhra option",
+        "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+        "points": 387,
+        "comments": 100,
+        "discussion": "https://news.ycombinator.com/item?id=50189232",
+        "created": "2026-10-21T23:51:37.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "GitLab critical patch release",
+        "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+        "points": 305,
         "comments": 73,
-        "discussion": "https://news.ycombinator.com/item?id=50169053",
-        "created": "2026-10-20T16:40:24.000Z"
-      },
-      {
-        "source": "hn",
-        "title": "C# now beats Rust on WASM size",
-        "url": "https://github.com/zion-sati/NetWasm",
-        "points": 89,
-        "comments": 32,
-        "discussion": "https://news.ycombinator.com/item?id=50175510",
-        "created": "2026-10-21T02:53:47.000Z"
+        "discussion": "https://news.ycombinator.com/item?id=50185869",
+        "created": "2026-10-21T19:01:12.000Z"
       },
       {
         "source": "lobsters",
@@ -2134,12 +2154,12 @@
         "name": "storytold/wordcraft",
         "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
         "language": "Rust",
-        "stars": 15214,
+        "stars": 15390,
         "url": "https://github.com/storytold/wordcraft",
         "created": "2026-10-07T08:34:24Z",
         "topics": [],
         "firstSeen": "2026-10-08",
-        "lastSeen": "2026-10-21",
+        "lastSeen": "2026-10-22",
         "starsAtFirstSeen": 522,
         "hn": {
           "points": 101,
@@ -2168,12 +2188,12 @@
         "name": "storytold/cadcraft",
         "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
         "language": "Rust",
-        "stars": 6248,
+        "stars": 6351,
         "url": "https://github.com/storytold/cadcraft",
         "created": "2026-10-07T05:22:31Z",
         "topics": [],
         "firstSeen": "2026-10-08",
-        "lastSeen": "2026-10-21",
+        "lastSeen": "2026-10-22",
         "starsAtFirstSeen": 462
       },
       "LosaLosSantos/aurelio-finance": {
@@ -2209,12 +2229,12 @@
         "name": "storytold/gridcraft",
         "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
         "language": "Rust",
-        "stars": 6097,
+        "stars": 6176,
         "url": "https://github.com/storytold/gridcraft",
         "created": "2026-10-07T05:18:16Z",
         "topics": [],
         "firstSeen": "2026-10-08",
-        "lastSeen": "2026-10-21",
+        "lastSeen": "2026-10-22",
         "starsAtFirstSeen": 323
       },
       "storytold/lightcraft": {
@@ -2960,7 +2980,7 @@
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 18028,
+        "stars": 18703,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -2970,7 +2990,7 @@
           "vizualization"
         ],
         "firstSeen": "2026-10-15",
-        "lastSeen": "2026-10-21",
+        "lastSeen": "2026-10-22",
         "starsAtFirstSeen": 11916
       },
       "storytold/vectorcraft": {
@@ -3527,7 +3547,7 @@
         "name": "Gathin23/cleanyourtv",
         "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
         "language": "Java",
-        "stars": 15487,
+        "stars": 20617,
         "url": "https://github.com/Gathin23/cleanyourtv",
         "created": "2026-10-17T08:12:35Z",
         "topics": [
@@ -3537,7 +3557,7 @@
           "android-tv-launcher"
         ],
         "firstSeen": "2026-10-19",
-        "lastSeen": "2026-10-21",
+        "lastSeen": "2026-10-22",
         "starsAtFirstSeen": 3496
       },
       "interplains/zero-breach": {
@@ -3710,24 +3730,24 @@
         "name": "deepseek-ai/DeepInfer",
         "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
         "language": "Python",
-        "stars": 16594,
+        "stars": 18649,
         "url": "https://github.com/deepseek-ai/DeepInfer",
         "created": "2026-10-16T07:47:23Z",
         "topics": [],
         "hn": {
-          "points": 2262,
-          "comments": 862,
+          "points": 2311,
+          "comments": 885,
           "url": "https://news.ycombinator.com/item?id=50163277"
         },
         "firstSeen": "2026-10-21",
-        "lastSeen": "2026-10-21",
+        "lastSeen": "2026-10-22",
         "starsAtFirstSeen": 15095
       },
       "tangency-labs/solidcraft": {
         "name": "tangency-labs/solidcraft",
         "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
         "language": "Rust",
-        "stars": 8581,
+        "stars": 8987,
         "url": "https://github.com/tangency-labs/solidcraft",
         "created": "2026-10-07T18:57:48Z",
         "topics": [
@@ -3737,7 +3757,7 @@
           "egui"
         ],
         "firstSeen": "2026-10-21",
-        "lastSeen": "2026-10-21",
+        "lastSeen": "2026-10-22",
         "starsAtFirstSeen": 8437
       },
       "storytold/effectcraft": {
@@ -3773,7 +3793,7 @@
         "name": "eagle-hq/EAGLE-4",
         "description": "Official Inference Code of EAGLE-4",
         "language": "Python",
-        "stars": 573,
+        "stars": 764,
         "url": "https://github.com/eagle-hq/EAGLE-4",
         "created": "2026-10-20T14:03:04Z",
         "topics": [
@@ -3783,7 +3803,7 @@
           "sglang"
         ],
         "firstSeen": "2026-10-21",
-        "lastSeen": "2026-10-21",
+        "lastSeen": "2026-10-22",
         "starsAtFirstSeen": 431
       },
       "Hugo-Dz/spritefusion-sprite-normals": {
@@ -3807,12 +3827,12 @@
         "name": "dominikmartn/harp",
         "description": "Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.",
         "language": "Rust",
-        "stars": 453,
+        "stars": 556,
         "url": "https://github.com/dominikmartn/harp",
         "created": "2026-10-20T10:39:43Z",
         "topics": [],
         "firstSeen": "2026-10-21",
-        "lastSeen": "2026-10-21",
+        "lastSeen": "2026-10-22",
         "starsAtFirstSeen": 377
       },
       "vercel-labs/fx0": {
@@ -3838,6 +3858,144 @@
         "firstSeen": "2026-10-21",
         "lastSeen": "2026-10-21",
         "starsAtFirstSeen": 301
+      },
+      "ARahim3/DigUp": {
+        "name": "ARahim3/DigUp",
+        "description": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
+        "language": "Swift",
+        "stars": 5401,
+        "url": "https://github.com/ARahim3/DigUp",
+        "created": "2026-10-08T20:37:51Z",
+        "topics": [
+          "embeddinggemma",
+          "embeddings",
+          "file-search",
+          "linux"
+        ],
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22",
+        "starsAtFirstSeen": 5401
+      },
+      "ikow/php2shell-poc": {
+        "name": "ikow/php2shell-poc",
+        "description": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research.",
+        "language": "Python",
+        "stars": 1187,
+        "url": "https://github.com/ikow/php2shell-poc",
+        "created": "2026-10-21T07:55:16Z",
+        "topics": [
+          "cve-2026-109618",
+          "cve-2026-109619",
+          "detection-rules",
+          "exploit"
+        ],
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22",
+        "starsAtFirstSeen": 1187
+      },
+      "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC": {
+        "name": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
+        "description": "Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only.",
+        "language": "Shell",
+        "stars": 694,
+        "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
+        "created": "2026-10-21T08:31:43Z",
+        "topics": [],
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22",
+        "starsAtFirstSeen": 694
+      },
+      "renjiegod/dyt-ashare-cli": {
+        "name": "renjiegod/dyt-ashare-cli",
+        "description": "DYT CN: reproducible China-market research CLI and agent skills",
+        "language": "Rust",
+        "stars": 301,
+        "url": "https://github.com/renjiegod/dyt-ashare-cli",
+        "created": "2026-10-20T10:00:24Z",
+        "topics": [],
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22",
+        "starsAtFirstSeen": 301
+      },
+      "nthnclrk/CleanFrame": {
+        "name": "nthnclrk/CleanFrame",
+        "description": "A personal home screen for Samsung The Frame. A starting point to fork and adapt.",
+        "language": "JavaScript",
+        "stars": 284,
+        "url": "https://github.com/nthnclrk/CleanFrame",
+        "created": "2026-10-20T04:40:07Z",
+        "topics": [],
+        "hn": {
+          "points": 23,
+          "comments": 4,
+          "url": "https://news.ycombinator.com/item?id=50187659"
+        },
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22",
+        "starsAtFirstSeen": 284
+      },
+      "Jakeschincariol/day-trader-skill": {
+        "name": "Jakeschincariol/day-trader-skill",
+        "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+        "language": "Python",
+        "stars": 271,
+        "url": "https://github.com/Jakeschincariol/day-trader-skill",
+        "created": "2026-10-20T14:17:54Z",
+        "topics": [
+          "backtesting",
+          "claude",
+          "claude-skills",
+          "day-trading"
+        ],
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22",
+        "starsAtFirstSeen": 271
+      },
+      "lesnolie/Tigris": {
+        "name": "lesnolie/Tigris",
+        "description": "Tigris — tvOS 26 style launcher for Android TV: Liquid Glass dock, Top Shelf, glass Control Center, photo screensaver. Agent-installable.",
+        "language": "Kotlin",
+        "stars": 255,
+        "url": "https://github.com/lesnolie/Tigris",
+        "created": "2026-10-20T10:12:05Z",
+        "topics": [],
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22",
+        "starsAtFirstSeen": 255
+      },
+      "cs-tool-s/.github": {
+        "name": "cs-tool-s/.github",
+        "description": "🔥 cs-2-cs2-skin-changer-skin-swapper-skinchanger-skinswapper-all-skins",
+        "language": "HTML",
+        "stars": 244,
+        "url": "https://github.com/cs-tool-s/.github",
+        "created": "2026-10-20T13:20:24Z",
+        "topics": [
+          "cs2-ak-47-skin-changer",
+          "cs2-all-skins",
+          "cs2-awp-dragon-lore-changer",
+          "cs2-glove-changer"
+        ],
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22",
+        "starsAtFirstSeen": 244
+      },
+      "val-tools/.github": {
+        "name": "val-tools/.github",
+        "description": "🔥 valorant-weapon-skin-changer-swapper-all-skins",
+        "language": "HTML",
+        "stars": 243,
+        "url": "https://github.com/val-tools/.github",
+        "created": "2026-10-20T03:35:52Z",
+        "topics": [
+          "valorant-gun-changer",
+          "valorant-knife-changer",
+          "valorant-no-key",
+          "valorant-phantom-skins"
+        ],
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22",
+        "starsAtFirstSeen": 243
       }
     },
     "posts": {
@@ -4675,7 +4833,7 @@
         "discussion": "https://lobste.rs/s/1h7qzj/outis_fight_ai_spam_by_generating_sending",
         "created": "2026-10-01T15:54:02.796Z",
         "firstSeen": "2026-10-02",
-        "lastSeen": "2026-10-21"
+        "lastSeen": "2026-10-22"
       },
       "https://news.ycombinator.com/item?id=49937916": {
         "source": "showhn",
@@ -4950,7 +5108,7 @@
         "discussion": "https://lobste.rs/s/dwbksa/brut_brutal_router_for_unix_tools",
         "created": "2026-10-06T17:17:23.875Z",
         "firstSeen": "2026-10-07",
-        "lastSeen": "2026-10-21"
+        "lastSeen": "2026-10-22"
       },
       "https://lobste.rs/s/tcmpcw/pared_remove_unwanted_apple": {
         "source": "lobsters",
@@ -4961,7 +5119,7 @@
         "discussion": "https://lobste.rs/s/tcmpcw/pared_remove_unwanted_apple",
         "created": "2026-10-06T18:27:16.404Z",
         "firstSeen": "2026-10-07",
-        "lastSeen": "2026-10-21"
+        "lastSeen": "2026-10-22"
       },
       "https://news.ycombinator.com/item?id=49987765": {
         "source": "showhn",
@@ -5489,7 +5647,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50073471",
         "created": "2026-10-13T15:41:00.000Z",
         "firstSeen": "2026-10-14",
-        "lastSeen": "2026-10-21"
+        "lastSeen": "2026-10-22"
       },
       "https://lobste.rs/s/oq6nhr/easylang_simple_browser_based": {
         "source": "lobsters",
@@ -5500,7 +5658,7 @@
         "discussion": "https://lobste.rs/s/oq6nhr/easylang_simple_browser_based",
         "created": "2026-10-13T13:37:44.114Z",
         "firstSeen": "2026-10-14",
-        "lastSeen": "2026-10-21"
+        "lastSeen": "2026-10-22"
       },
       "https://news.ycombinator.com/item?id=50081151": {
         "source": "showhn",
@@ -5968,12 +6126,12 @@
         "source": "launchhn",
         "title": "Laminar (YC S24) – RL-trained model that finds errors in agent traces",
         "url": "https://news.ycombinator.com/item?id=50154029",
-        "points": 58,
+        "points": 59,
         "comments": 28,
         "discussion": "https://news.ycombinator.com/item?id=50154029",
         "created": "2026-10-19T16:00:18.000Z",
         "firstSeen": "2026-10-20",
-        "lastSeen": "2026-10-21"
+        "lastSeen": "2026-10-22"
       },
       "https://news.ycombinator.com/item?id=50154624": {
         "source": "hn",
@@ -6045,45 +6203,45 @@
         "source": "showhn",
         "title": "SimCity, but with Permits",
         "url": "https://permit.petercai.com/",
-        "points": 822,
-        "comments": 383,
+        "points": 911,
+        "comments": 411,
         "discussion": "https://news.ycombinator.com/item?id=50170593",
         "created": "2026-10-20T18:29:09.000Z",
         "firstSeen": "2026-10-21",
-        "lastSeen": "2026-10-21"
+        "lastSeen": "2026-10-22"
       },
       "https://news.ycombinator.com/item?id=50167617": {
         "source": "showhn",
         "title": "Jev Cards, Can you beat a vision model at a picture quiz?",
         "url": "https://jevcards.com",
-        "points": 62,
-        "comments": 50,
+        "points": 71,
+        "comments": 51,
         "discussion": "https://news.ycombinator.com/item?id=50167617",
         "created": "2026-10-20T15:11:56.000Z",
         "firstSeen": "2026-10-21",
-        "lastSeen": "2026-10-21"
+        "lastSeen": "2026-10-22"
       },
       "https://news.ycombinator.com/item?id=50167604": {
         "source": "showhn",
         "title": "Penmentor – Claude marks up your handwritten math like a teacher",
         "url": "https://github.com/AbdullahAlhariri/penmentor",
-        "points": 62,
+        "points": 64,
         "comments": 7,
         "discussion": "https://news.ycombinator.com/item?id=50167604",
         "created": "2026-10-20T15:10:54.000Z",
         "firstSeen": "2026-10-21",
-        "lastSeen": "2026-10-21"
+        "lastSeen": "2026-10-22"
       },
       "https://news.ycombinator.com/item?id=50167286": {
         "source": "showhn",
         "title": "VoidAccess – open-source dark web OSINT, from query to a graph",
         "url": "https://github.com/KatrielMoses/voidaccess",
-        "points": 185,
+        "points": 188,
         "comments": 13,
         "discussion": "https://news.ycombinator.com/item?id=50167286",
         "created": "2026-10-20T14:49:33.000Z",
         "firstSeen": "2026-10-21",
-        "lastSeen": "2026-10-21"
+        "lastSeen": "2026-10-22"
       },
       "https://news.ycombinator.com/item?id=50158684": {
         "source": "showhn",
@@ -6100,12 +6258,12 @@
         "source": "launchhn",
         "title": "Respan (YC W24) – Open-source Rust AI gateway built around plugins",
         "url": "https://news.ycombinator.com/item?id=50167583",
-        "points": 49,
-        "comments": 20,
+        "points": 52,
+        "comments": 21,
         "discussion": "https://news.ycombinator.com/item?id=50167583",
         "created": "2026-10-20T15:09:29.000Z",
         "firstSeen": "2026-10-21",
-        "lastSeen": "2026-10-21"
+        "lastSeen": "2026-10-22"
       },
       "https://news.ycombinator.com/item?id=50172041": {
         "source": "hn",
@@ -6139,89 +6297,197 @@
         "created": "2026-10-21T02:53:47.000Z",
         "firstSeen": "2026-10-21",
         "lastSeen": "2026-10-21"
+      },
+      "https://news.ycombinator.com/item?id=50183892": {
+        "source": "showhn",
+        "title": "Omnara – Open-source alternative to Claude Managed Agents",
+        "url": "https://github.com/omnara-ai/omnara",
+        "points": 60,
+        "comments": 18,
+        "discussion": "https://news.ycombinator.com/item?id=50183892",
+        "created": "2026-10-21T16:44:53.000Z",
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22"
+      },
+      "https://news.ycombinator.com/item?id=50180039": {
+        "source": "showhn",
+        "title": "Sumi.css – CSS Framework",
+        "url": "https://github.com/vladocar/Sumi.css",
+        "points": 85,
+        "comments": 20,
+        "discussion": "https://news.ycombinator.com/item?id=50180039",
+        "created": "2026-10-21T12:50:33.000Z",
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22"
+      },
+      "https://news.ycombinator.com/item?id=50176908": {
+        "source": "launchhn",
+        "title": "Alter (YC S25) – Access control for multi-user agents",
+        "url": "https://alterauth.com/",
+        "points": 59,
+        "comments": 25,
+        "discussion": "https://news.ycombinator.com/item?id=50176908",
+        "created": "2026-10-21T06:42:12.000Z",
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22"
+      },
+      "https://news.ycombinator.com/item?id=50180873": {
+        "source": "hn",
+        "title": "PHP 8.2.35",
+        "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+        "points": 999,
+        "comments": 537,
+        "discussion": "https://news.ycombinator.com/item?id=50180873",
+        "created": "2026-10-21T13:45:33.000Z",
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22"
+      },
+      "https://news.ycombinator.com/item?id=50182987": {
+        "source": "hn",
+        "title": "Today's PHP security release, and how we're strengthening security",
+        "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+        "points": 712,
+        "comments": 348,
+        "discussion": "https://news.ycombinator.com/item?id=50182987",
+        "created": "2026-10-21T15:48:56.000Z",
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22"
+      },
+      "https://news.ycombinator.com/item?id=50189232": {
+        "source": "hn",
+        "title": "mitmproxy adds --emudhra option",
+        "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+        "points": 387,
+        "comments": 100,
+        "discussion": "https://news.ycombinator.com/item?id=50189232",
+        "created": "2026-10-21T23:51:37.000Z",
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22"
+      },
+      "https://news.ycombinator.com/item?id=50185869": {
+        "source": "hn",
+        "title": "GitLab critical patch release",
+        "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+        "points": 305,
+        "comments": 73,
+        "discussion": "https://news.ycombinator.com/item?id=50185869",
+        "created": "2026-10-21T19:01:12.000Z",
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-10-21T11:37:22.364Z",
+    "fetchedAt": "2026-10-22T06:34:03.817Z",
     "hn": [
       {
-        "title": "DeepInfer: High-performance inference framework for DeepSeek models",
-        "url": "https://github.com/deepseek-ai/DeepInfer",
-        "points": 2262,
-        "comments": 862,
-        "discussion": "https://news.ycombinator.com/item?id=50163277"
+        "title": "PHP 8.2.35",
+        "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+        "points": 999,
+        "comments": 537,
+        "discussion": "https://news.ycombinator.com/item?id=50180873"
       },
       {
-        "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
-        "url": "https://news-web.php.net/php.announce/509",
-        "points": 1028,
-        "comments": 416,
-        "discussion": "https://news.ycombinator.com/item?id=50172041"
+        "title": "Today's PHP security release, and how we're strengthening security",
+        "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+        "points": 712,
+        "comments": 348,
+        "discussion": "https://news.ycombinator.com/item?id=50182987"
       },
       {
-        "title": "eMudhra intermediate CA compromise",
-        "url": "https://emudhra.we-have-a-problem.com/",
-        "points": 1006,
-        "comments": 415,
-        "discussion": "https://news.ycombinator.com/item?id=50166579"
+        "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
+        "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+        "points": 489,
+        "comments": 301,
+        "discussion": "https://news.ycombinator.com/item?id=50184820"
       },
       {
-        "title": "Show HN: SimCity, but with Permits",
-        "url": "https://permit.petercai.com/",
-        "points": 822,
-        "comments": 383,
-        "discussion": "https://news.ycombinator.com/item?id=50170593"
+        "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+        "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+        "points": 477,
+        "comments": 162,
+        "discussion": "https://news.ycombinator.com/item?id=50181114"
       },
       {
-        "title": "Voxtral 3",
-        "url": "https://mistral.ai/news/voxtral-3/",
-        "points": 698,
-        "comments": 172,
-        "discussion": "https://news.ycombinator.com/item?id=50168396"
+        "title": "There isn't an easy exploit for this PHP vulnerability",
+        "url": "https://eliastaylor.com/noexploit/",
+        "points": 409,
+        "comments": 193,
+        "discussion": "https://news.ycombinator.com/item?id=50188948"
       },
       {
-        "title": "Apple broke an essential presentation feature of iPads",
-        "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
-        "points": 565,
-        "comments": 275,
-        "discussion": "https://news.ycombinator.com/item?id=50165208"
+        "title": "Security Disclosure",
+        "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+        "points": 407,
+        "comments": 233,
+        "discussion": "https://news.ycombinator.com/item?id=50188228"
       },
       {
-        "title": "What shall I teach my son?",
-        "url": "https://stevekrouse.com/ends",
-        "points": 414,
-        "comments": 486,
-        "discussion": "https://news.ycombinator.com/item?id=50169707"
+        "title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+        "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+        "points": 395,
+        "comments": 51,
+        "discussion": "https://news.ycombinator.com/item?id=50181136"
       },
       {
-        "title": "The Future of CSS",
-        "url": "https://www.joshwcomeau.com/css/interop-2027/",
-        "points": 408,
-        "comments": 166,
-        "discussion": "https://news.ycombinator.com/item?id=50175070"
+        "title": "mitmproxy adds --emudhra option",
+        "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+        "points": 387,
+        "comments": 100,
+        "discussion": "https://news.ycombinator.com/item?id=50189232"
       },
       {
-        "title": "Ofcom concedes defeat in 4chan case",
-        "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/",
-        "points": 404,
-        "comments": 314,
-        "discussion": "https://news.ycombinator.com/item?id=50167028"
-      },
-      {
-        "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-        "url": "https://github.com/google-pytorch/torch_tpu",
-        "points": 351,
+        "title": "GitLab critical patch release",
+        "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+        "points": 305,
         "comments": 73,
-        "discussion": "https://news.ycombinator.com/item?id=50169053"
+        "discussion": "https://news.ycombinator.com/item?id=50185869"
+      },
+      {
+        "title": "PingCap TiDB Leaks",
+        "url": "https://fulcrumsec.vg/pingcap/",
+        "points": 294,
+        "comments": 43,
+        "discussion": "https://news.ycombinator.com/item?id=50173716"
       }
     ],
     "lobsters": [
       {
+        "title": "Firefox Local Mode",
+        "url": "https://firefox-source-docs.mozilla.org/devtools-user/local_mode/index.html",
+        "points": 89,
+        "comments": 17,
+        "discussion": "https://lobste.rs/s/w9sxxq/firefox_local_mode",
+        "tags": [
+          "browsers"
+        ]
+      },
+      {
+        "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+        "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+        "points": 51,
+        "comments": 11,
+        "discussion": "https://lobste.rs/s/ebsqsp/eight_bits_trust_emudhra_s_ca_keys_cracked",
+        "tags": [
+          "cryptography",
+          "security"
+        ]
+      },
+      {
+        "title": "Google's Rust Style Guide",
+        "url": "https://google.github.io/styleguide/rustguide.html",
+        "points": 26,
+        "comments": 10,
+        "discussion": "https://lobste.rs/s/9jgl3x/google_s_rust_style_guide",
+        "tags": [
+          "rust"
+        ]
+      },
+      {
         "title": "Upcoming Critical PHP Security Release",
         "url": "https://www.php.net/archive/2026.php#2026-10-20-1",
-        "points": 92,
-        "comments": 37,
+        "points": 186,
+        "comments": 125,
         "discussion": "https://lobste.rs/s/ekxoyt/upcoming_critical_php_security_release",
         "tags": [
           "php",
@@ -6229,120 +6495,77 @@
         ]
       },
       {
-        "title": "Protecting Firefox users following the compromise of eMudhra intermediate certificates",
-        "url": "https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/",
-        "points": 152,
-        "comments": 56,
-        "discussion": "https://lobste.rs/s/gqyvn5/protecting_firefox_users_following",
+        "title": "zls 0.17.0",
+        "url": "https://zigtools.org/zls/releases/0.17.0/",
+        "points": 57,
+        "comments": 2,
+        "discussion": "https://lobste.rs/s/hty1qk/zls_0_17_0",
         "tags": [
+          "release",
+          "zig"
+        ]
+      },
+      {
+        "title": "CVE-2026-107891: musl libc: multiple integer overflow in regcomp, possibly leading to incorrect allocation sizes and out-of-bounds heap writes",
+        "url": "https://www.openwall.com/lists/oss-security/2026/10/21/18",
+        "points": 29,
+        "comments": 5,
+        "discussion": "https://lobste.rs/s/dldfel/cve_2026_107891_musl_libc_multiple",
+        "tags": [
+          "c",
           "security"
         ]
       },
       {
-        "title": "Setting up SSH keys on macOS with Touch ID",
-        "url": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/",
-        "points": 59,
-        "comments": 24,
-        "discussion": "https://lobste.rs/s/d7m5j1/setting_up_ssh_keys_on_macos_with_touch_id",
+        "title": "Passkeys Attestation Trap",
+        "url": "https://mjtsai.com/blog/2026/10/15/passkeys-attestation-trap/",
+        "points": 17,
+        "comments": 41,
+        "discussion": "https://lobste.rs/s/cdnepk/passkeys_attestation_trap",
         "tags": [
-          "cryptography",
-          "mac",
+          "security",
+          "web"
+        ]
+      },
+      {
+        "title": "Railway Security Disclosure: Wednesday October 21st",
+        "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+        "points": 12,
+        "comments": 4,
+        "discussion": "https://lobste.rs/s/wi4nnl/railway_security_disclosure_wednesday",
+        "tags": [
+          "devops",
           "security"
+        ]
+      },
+      {
+        "title": "Unikernels in OCaml",
+        "url": "https://uniker.nl/",
+        "points": 58,
+        "comments": 7,
+        "discussion": "https://lobste.rs/s/mfserj/unikernels_ocaml",
+        "tags": [
+          "ml",
+          "osdev"
         ]
       },
       {
         "title": "The Future of CSS",
         "url": "https://www.joshwcomeau.com/css/interop-2027/",
-        "points": 18,
-        "comments": 1,
+        "points": 58,
+        "comments": 6,
         "discussion": "https://lobste.rs/s/vidyh0/future_css",
         "tags": [
           "css"
-        ]
-      },
-      {
-        "title": "NixOS is making me less afraid",
-        "url": "https://entropicthoughts.com/nixos-is-making-me-less-afraid",
-        "points": 51,
-        "comments": 34,
-        "discussion": "https://lobste.rs/s/7d1swo/nixos_is_making_me_less_afraid",
-        "tags": [
-          "nix"
-        ]
-      },
-      {
-        "title": "Mastodon 5.0: A closer look",
-        "url": "https://blog.joinmastodon.org/2026/10/5.0-a-closer-look/",
-        "points": 34,
-        "comments": 11,
-        "discussion": "https://lobste.rs/s/dlbufy/mastodon_5_0_closer_look",
-        "tags": [
-          "design",
-          "release"
-        ]
-      },
-      {
-        "title": "Updates to site guidelines and AI/LLM tags",
-        "url": "https://lobste.rs/s/h0eate/updates_site_guidelines_ai_llm_tags",
-        "points": 366,
-        "comments": 397,
-        "discussion": "https://lobste.rs/s/h0eate/updates_site_guidelines_ai_llm_tags",
-        "tags": [
-          "announce",
-          "meta"
-        ]
-      },
-      {
-        "title": "How I got over 300 Tor exit nodes removed",
-        "url": "https://kaba.cx/posts/20261020_Tor/",
-        "points": 44,
-        "comments": 1,
-        "discussion": "https://lobste.rs/s/9h14un/how_i_got_over_300_tor_exit_nodes_removed",
-        "tags": [
-          "privacy",
-          "security"
-        ]
-      },
-      {
-        "title": "Lobsters NYC Meetup on the 28th of October",
-        "url": "https://lobste.rs/s/73ozwc/lobsters_nyc_meetup_on_28th_october",
-        "points": 17,
-        "comments": 3,
-        "discussion": "https://lobste.rs/s/73ozwc/lobsters_nyc_meetup_on_28th_october",
-        "tags": [
-          "event"
-        ]
-      },
-      {
-        "title": "Making a VGA Driver in SystemVerilog",
-        "url": "https://lukaswerner.com/post/2026-10-20@bottom-up-vga",
-        "points": 19,
-        "comments": 12,
-        "discussion": "https://lobste.rs/s/mngelc/making_vga_driver_systemverilog",
-        "tags": [
-          "graphics",
-          "hardware"
         ]
       }
     ],
     "devto": [
       {
-        "title": "Building an Open-Source Support Tool That Turns Your Docs into Reusable Knowledge",
-        "url": "https://dev.to/nathan_tarbert/your-team-has-answered-this-before-im-building-a-tool-that-remembers-5604",
-        "points": 79,
-        "comments": 21,
-        "discussion": "https://dev.to/nathan_tarbert/your-team-has-answered-this-before-im-building-a-tool-that-remembers-5604",
-        "tags": [
-          "ai",
-          "webdev",
-          "programming"
-        ]
-      },
-      {
         "title": "How to Become a Tech Conference Speaker (And Why You Might Regret It)",
         "url": "https://dev.to/sylwia-lask/how-to-become-a-tech-conference-speaker-and-why-you-might-regret-it-2ink",
-        "points": 42,
-        "comments": 12,
+        "points": 108,
+        "comments": 53,
         "discussion": "https://dev.to/sylwia-lask/how-to-become-a-tech-conference-speaker-and-why-you-might-regret-it-2ink",
         "tags": [
           "career",
@@ -6351,105 +6574,117 @@
         ]
       },
       {
-        "title": "Processes vs Threads, as the Linux Kernel Sees Them",
-        "url": "https://dev.to/lovestaco/processes-vs-threads-as-the-linux-kernel-sees-them-55pk",
-        "points": 25,
-        "comments": 1,
-        "discussion": "https://dev.to/lovestaco/processes-vs-threads-as-the-linux-kernel-sees-them-55pk",
+        "title": "is-kit Reached 100 Stars ⭐🎉 Here’s What Changed Since 50",
+        "url": "https://dev.to/nyaomaru/is-kit-reached-100-stars-heres-what-changed-since-50-49pf",
+        "points": 69,
+        "comments": 19,
+        "discussion": "https://dev.to/nyaomaru/is-kit-reached-100-stars-heres-what-changed-since-50-49pf",
+        "tags": [
+          "typescript",
+          "opensource",
+          "webdev"
+        ]
+      },
+      {
+        "title": "I Got Tired of Coming into my Lab to Check the Pressure of my Cryocooler so I Built a Tool to do it for Me",
+        "url": "https://dev.to/pahorton/i-got-tired-of-coming-into-my-lab-to-check-the-pressure-of-my-cryocooler-so-i-built-a-tool-to-do-it-4ob7",
+        "points": 42,
+        "comments": 6,
+        "discussion": "https://dev.to/pahorton/i-got-tired-of-coming-into-my-lab-to-check-the-pressure-of-my-cryocooler-so-i-built-a-tool-to-do-it-4ob7",
+        "tags": [
+          "devchallenge",
+          "hf26challenge",
+          "tigerdata"
+        ]
+      },
+      {
+        "title": "I'm a First-Year ECE Student Trying to Figure Out \"The Prestige Path\" vs. Just Building Stuff",
+        "url": "https://dev.to/effessdev/im-a-first-year-ece-student-trying-to-figure-out-the-prestige-path-vs-just-building-stuff-26f5",
+        "points": 33,
+        "comments": 38,
+        "discussion": "https://dev.to/effessdev/im-a-first-year-ece-student-trying-to-figure-out-the-prestige-path-vs-just-building-stuff-26f5",
+        "tags": [
+          "discuss",
+          "career",
+          "beginners"
+        ]
+      },
+      {
+        "title": "Idempotency keys for AI agents: why hashing the arguments doesn't work",
+        "url": "https://dev.to/anis_meziani_52aab42304a8/idempotency-keys-for-ai-agents-why-hashing-the-arguments-doesnt-work-cap",
+        "points": 24,
+        "comments": 18,
+        "discussion": "https://dev.to/anis_meziani_52aab42304a8/idempotency-keys-for-ai-agents-why-hashing-the-arguments-doesnt-work-cap",
+        "tags": [
+          "ai",
+          "agents",
+          "python"
+        ]
+      },
+      {
+        "title": "How to publish posts via the dev.to API",
+        "url": "https://dev.to/julies1/how-to-publish-posts-via-the-devto-api-2fkd",
+        "points": 20,
+        "comments": 5,
+        "discussion": "https://dev.to/julies1/how-to-publish-posts-via-the-devto-api-2fkd",
+        "tags": [
+          "python",
+          "automation",
+          "beginners"
+        ]
+      },
+      {
+        "title": "I Built slothd: A Local-First, Offline-Capable AI Daemon That Patiently Organizes Your Messy Workspace",
+        "url": "https://dev.to/dj29/i-built-slothd-a-local-first-offline-capable-ai-daemon-that-patiently-organizes-your-messy-53e7",
+        "points": 20,
+        "comments": 6,
+        "discussion": "https://dev.to/dj29/i-built-slothd-a-local-first-offline-capable-ai-daemon-that-patiently-organizes-your-messy-53e7",
+        "tags": [
+          "devchallenge",
+          "hf26challenge",
+          "opensource"
+        ]
+      },
+      {
+        "title": "Where Do Your Users' Passwords Actually Live? Self-Hosted vs Managed Keycloak",
+        "url": "https://dev.to/hadil/where-do-your-users-passwords-actually-live-self-hosted-vs-managed-keycloak-97e",
+        "points": 20,
+        "comments": 4,
+        "discussion": "https://dev.to/hadil/where-do-your-users-passwords-actually-live-self-hosted-vs-managed-keycloak-97e",
+        "tags": [
+          "programming",
+          "development",
+          "authentication"
+        ]
+      },
+      {
+        "title": "In Ruby, Objects Don't Have Methods. How Method Lookup Actually Works.",
+        "url": "https://dev.to/smtahosin/in-ruby-objects-dont-have-methods-how-method-lookup-actually-works-31g9",
+        "points": 18,
+        "comments": 0,
+        "discussion": "https://dev.to/smtahosin/in-ruby-objects-dont-have-methods-how-method-lookup-actually-works-31g9",
+        "tags": [
+          "ruby",
+          "programming",
+          "webdev"
+        ]
+      },
+      {
+        "title": "I Fixed WebGPU on Linux. Then Forgot How I Did It.",
+        "url": "https://dev.to/sizzlebop/i-fixed-webgpu-on-linux-then-forgot-how-i-did-it-5hjd",
+        "points": 18,
+        "comments": 2,
+        "discussion": "https://dev.to/sizzlebop/i-fixed-webgpu-on-linux-then-forgot-how-i-did-it-5hjd",
         "tags": [
           "linux",
-          "operatingsystems",
-          "concurrency"
-        ]
-      },
-      {
-        "title": "2 Agent Skills Every Frontend Developer Should Try",
-        "url": "https://dev.to/erikch/2-agent-skills-every-frontend-developer-should-try-16pl",
-        "points": 19,
-        "comments": 3,
-        "discussion": "https://dev.to/erikch/2-agent-skills-every-frontend-developer-should-try-16pl",
-        "tags": [
-          "ai",
           "webdev",
-          "frontend"
-        ]
-      },
-      {
-        "title": "SlothFinance: The Autonomous Open-Source AI Financial Tamer That Rewards Your Laziness 🦥",
-        "url": "https://dev.to/vidisha_gupta_/slothfinance-the-autonomous-open-source-ai-financial-tamer-that-rewards-your-laziness-5bp5",
-        "points": 19,
-        "comments": 1,
-        "discussion": "https://dev.to/vidisha_gupta_/slothfinance-the-autonomous-open-source-ai-financial-tamer-that-rewards-your-laziness-5bp5",
-        "tags": [
-          "hacktoberfest",
-          "tabpfn",
-          "gemma"
-        ]
-      },
-      {
-        "title": "The Hidden Cost of AI-Generated PRs: Why Most Teams Are Missing Silent Breakages",
-        "url": "https://dev.to/johnnylemonny/the-hidden-cost-of-ai-generated-prs-why-most-teams-are-missing-silent-breakages-3g46",
-        "points": 15,
-        "comments": 12,
-        "discussion": "https://dev.to/johnnylemonny/the-hidden-cost-of-ai-generated-prs-why-most-teams-are-missing-silent-breakages-3g46",
-        "tags": [
-          "devdiscuss",
-          "productivity",
-          "programming"
-        ]
-      },
-      {
-        "title": "What Do You Make When You Can Make Anything?",
-        "url": "https://dev.to/sizzlebop/what-do-you-make-when-you-can-make-anything-596b",
-        "points": 13,
-        "comments": 6,
-        "discussion": "https://dev.to/sizzlebop/what-do-you-make-when-you-can-make-anything-596b",
-        "tags": [
-          "creativity",
-          "productivity",
-          "devjournal"
-        ]
-      },
-      {
-        "title": "What happens to your Redis data in Docker",
-        "url": "https://dev.to/remdore/what-happens-to-your-redis-data-in-docker-5079",
-        "points": 12,
-        "comments": 3,
-        "discussion": "https://dev.to/remdore/what-happens-to-your-redis-data-in-docker-5079",
-        "tags": [
-          "redis",
-          "docker",
-          "devops"
-        ]
-      },
-      {
-        "title": "I Miss Writing Code",
-        "url": "https://dev.to/luminousmen/i-miss-writing-code-5hla",
-        "points": 11,
-        "comments": 0,
-        "discussion": "https://dev.to/luminousmen/i-miss-writing-code-5hla",
-        "tags": [
-          "career",
-          "ai",
-          "programming"
-        ]
-      },
-      {
-        "title": "My CI Was Red for 255 Commits and Nobody Looked",
-        "url": "https://dev.to/debashish_ghosal/my-ci-was-red-for-255-commits-and-nobody-looked-518p",
-        "points": 11,
-        "comments": 2,
-        "discussion": "https://dev.to/debashish_ghosal/my-ci-was-red-for-255-commits-and-nobody-looked-518p",
-        "tags": [
-          "ai",
-          "failingci",
-          "testing"
+          "ai"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-10-21T11:37:22.364Z",
+    "fetchedAt": "2026-10-22T06:34:03.817Z",
     "candidates": {
       "https://blog.cloudflare.com/radar-redesign": {
         "source": "Cloudflare",
@@ -6457,29 +6692,6 @@
         "url": "https://blog.cloudflare.com/radar-redesign/",
         "published": "2026-10-08T13:00:00.000Z",
         "summary": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map and standardized components, we simplified navigation while preserving technical depth."
-      },
-      "https://blog.cloudflare.com/agentic-security-operations": {
-        "source": "Cloudflare",
-        "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
-        "url": "https://blog.cloudflare.com/agentic-security-operations/",
-        "published": "2026-10-07T16:30:36.000Z",
-        "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts."
-      },
-      "https://resilience.ocf.tw/web/report/en.html": {
-        "source": "Lobsters",
-        "title": "When Submarine Cables Go Dark: Understanding and Preparing for the Risks of Taiwan's International Internet Disconnection",
-        "url": "https://resilience.ocf.tw/web/report/en.html",
-        "discussion": "https://lobste.rs/s/hhga98/when_submarine_cables_go_dark",
-        "published": "2026-10-07T19:44:06.009Z",
-        "summary": ""
-      },
-      "https://hexrat.cc/pages/blog/2026_10_07": {
-        "source": "Lobsters",
-        "title": "rat's minimal register allocator",
-        "url": "https://hexrat.cc/pages/blog/2026_10_07",
-        "discussion": "https://lobste.rs/s/frav12/rat_s_minimal_register_allocator",
-        "published": "2026-10-07T18:01:25.709Z",
-        "summary": ""
       },
       "https://www.hetzner.com/blog/the-hetzner-cloud-network-stack-history-and-technical-overview": {
         "source": "Lobsters",
@@ -7148,6 +7360,56 @@
         "url": "https://enroute.sh/blog/everyone-is-doing-git-on-s3-wrong",
         "discussion": "https://lobste.rs/s/ydo1wi/everyone_is_doing_git_on_s3_wrong",
         "published": "2026-10-15T09:07:04.765Z",
+        "summary": ""
+      },
+      "https://blog.cloudflare.com/full-transaction-waf": {
+        "source": "Cloudflare",
+        "title": "Introducing full transaction detection for Cloudflare WAF",
+        "url": "https://blog.cloudflare.com/full-transaction-waf/",
+        "published": "2026-10-21T14:10:42.000Z",
+        "summary": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can miss."
+      },
+      "https://blog.cloudflare.com/php-vulnerabilities-waf-protection": {
+        "source": "Cloudflare",
+        "title": "Cloudflare deploys protections against php2shell vulnerability",
+        "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+        "published": "2026-10-21T13:56:45.000Z",
+        "summary": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers."
+      },
+      "https://blog.cloudflare.com/webmcp-commerce": {
+        "source": "Cloudflare",
+        "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+        "url": "https://blog.cloudflare.com/webmcp-commerce/",
+        "published": "2026-10-21T13:00:00.000Z",
+        "summary": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control."
+      },
+      "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure": {
+        "source": "GitHub",
+        "title": "The bridge to agent-scale Git infrastructure",
+        "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+        "published": "2026-10-21T16:00:00.000Z",
+        "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog ."
+      },
+      "https://aws.amazon.com/blogs/architecture/automate-medical-coding-with-step-functions-and-amazon-bedrock-agentcore": {
+        "source": "AWS Architecture",
+        "title": "Automate medical coding with Step Functions and Amazon Bedrock AgentCore",
+        "url": "https://aws.amazon.com/blogs/architecture/automate-medical-coding-with-step-functions-and-amazon-bedrock-agentcore/",
+        "published": "2026-10-21T21:26:23.000Z",
+        "summary": "Learn how to combine deterministic orchestration with bounded agentic reasoning using AWS Step Functions and the Amazon Bedrock AgentCore harness. This medical coding workflow escalates cheapest-first: a safety block-list, then exact matching, then an AI agent only for terms that need judgment, keeping every routing decision auditable."
+      },
+      "https://muratbuffalo.blogspot.com/2026/10/hpts-2026-day-1.html": {
+        "source": "Murat Demirbas",
+        "title": "HPTS 2026 (Day 1)",
+        "url": "https://muratbuffalo.blogspot.com/2026/10/hpts-2026-day-1.html",
+        "published": "2026-10-21T19:58:55.002Z",
+        "summary": "Jim Gray started HPTS 42 years ago, and it still runs the same way at Asilomar with 0 proceedings, 1 track, 100 invited people, and ample discussion breaks. It's one of my favorite events, and I look forward to attending it every two years. This is my...umm...fifth HPTS. I have been attending all of them since 2015 , but I seem to have missed it in 2019 . Yep, my life is a blur, even for me. Here "
+      },
+      "https://blickeditor.com/blog/caching-an-immediate-mode-ui": {
+        "source": "Lobsters",
+        "title": "Don't throw it all away: Caching an immediate-mode UI",
+        "url": "https://blickeditor.com/blog/caching-an-immediate-mode-ui",
+        "discussion": "https://lobste.rs/s/cq7wn7/don_t_throw_it_all_away_caching_immediate",
+        "published": "2026-10-21T17:16:47.888Z",
         "summary": ""
       }
     }
