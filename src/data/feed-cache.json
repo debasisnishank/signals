@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-10-22T06:34:03.817Z",
+    "fetchedAt": "2026-10-22T11:37:15.062Z",
     "repos": [
       {
         "name": "Gathin23/cleanyourtv",
         "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
         "language": "Java",
-        "stars": 20617,
+        "stars": 21871,
         "url": "https://github.com/Gathin23/cleanyourtv",
         "created": "2026-10-17T08:12:35Z",
         "topics": [
@@ -17,10 +17,24 @@
         ]
       },
       {
+        "name": "deepseek-ai/DeepInfer",
+        "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+        "language": "Python",
+        "stars": 19187,
+        "url": "https://github.com/deepseek-ai/DeepInfer",
+        "created": "2026-10-16T07:47:23Z",
+        "topics": [],
+        "hn": {
+          "points": 2322,
+          "comments": 885,
+          "url": "https://news.ycombinator.com/item?id=50163277"
+        }
+      },
+      {
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 18703,
+        "stars": 18851,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -31,24 +45,10 @@
         ]
       },
       {
-        "name": "deepseek-ai/DeepInfer",
-        "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-        "language": "Python",
-        "stars": 18649,
-        "url": "https://github.com/deepseek-ai/DeepInfer",
-        "created": "2026-10-16T07:47:23Z",
-        "topics": [],
-        "hn": {
-          "points": 2311,
-          "comments": 885,
-          "url": "https://news.ycombinator.com/item?id=50163277"
-        }
-      },
-      {
         "name": "storytold/wordcraft",
         "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
         "language": "Rust",
-        "stars": 15390,
+        "stars": 15443,
         "url": "https://github.com/storytold/wordcraft",
         "created": "2026-10-07T08:34:24Z",
         "topics": [],
@@ -62,7 +62,7 @@
         "name": "tangency-labs/solidcraft",
         "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
         "language": "Rust",
-        "stars": 8987,
+        "stars": 9075,
         "url": "https://github.com/tangency-labs/solidcraft",
         "created": "2026-10-07T18:57:48Z",
         "topics": [
@@ -76,7 +76,7 @@
         "name": "storytold/cadcraft",
         "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
         "language": "Rust",
-        "stars": 6351,
+        "stars": 6385,
         "url": "https://github.com/storytold/cadcraft",
         "created": "2026-10-07T05:22:31Z",
         "topics": []
@@ -85,7 +85,7 @@
         "name": "storytold/gridcraft",
         "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
         "language": "Rust",
-        "stars": 6176,
+        "stars": 6206,
         "url": "https://github.com/storytold/gridcraft",
         "created": "2026-10-07T05:18:16Z",
         "topics": []
@@ -94,7 +94,7 @@
         "name": "ARahim3/DigUp",
         "description": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
         "language": "Swift",
-        "stars": 5401,
+        "stars": 5450,
         "url": "https://github.com/ARahim3/DigUp",
         "created": "2026-10-08T20:37:51Z",
         "topics": [
@@ -108,7 +108,7 @@
         "name": "ikow/php2shell-poc",
         "description": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research.",
         "language": "Python",
-        "stars": 1187,
+        "stars": 1341,
         "url": "https://github.com/ikow/php2shell-poc",
         "created": "2026-10-21T07:55:16Z",
         "topics": [
@@ -119,10 +119,19 @@
         ]
       },
       {
+        "name": "9bie/php2shell-bypass-aslr-exp",
+        "description": "A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory.",
+        "language": "Python",
+        "stars": 812,
+        "url": "https://github.com/9bie/php2shell-bypass-aslr-exp",
+        "created": "2026-10-21T11:11:57Z",
+        "topics": []
+      },
+      {
         "name": "eagle-hq/EAGLE-4",
         "description": "Official Inference Code of EAGLE-4",
         "language": "Python",
-        "stars": 764,
+        "stars": 802,
         "url": "https://github.com/eagle-hq/EAGLE-4",
         "created": "2026-10-20T14:03:04Z",
         "topics": [
@@ -136,7 +145,7 @@
         "name": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
         "description": "Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only.",
         "language": "Shell",
-        "stars": 694,
+        "stars": 781,
         "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
         "created": "2026-10-21T08:31:43Z",
         "topics": []
@@ -145,31 +154,22 @@
         "name": "dominikmartn/harp",
         "description": "Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.",
         "language": "Rust",
-        "stars": 556,
+        "stars": 571,
         "url": "https://github.com/dominikmartn/harp",
         "created": "2026-10-20T10:39:43Z",
-        "topics": []
-      },
-      {
-        "name": "renjiegod/dyt-ashare-cli",
-        "description": "DYT CN: reproducible China-market research CLI and agent skills",
-        "language": "Rust",
-        "stars": 301,
-        "url": "https://github.com/renjiegod/dyt-ashare-cli",
-        "created": "2026-10-20T10:00:24Z",
         "topics": []
       },
       {
         "name": "nthnclrk/CleanFrame",
         "description": "A personal home screen for Samsung The Frame. A starting point to fork and adapt.",
         "language": "JavaScript",
-        "stars": 284,
+        "stars": 344,
         "url": "https://github.com/nthnclrk/CleanFrame",
         "created": "2026-10-20T04:40:07Z",
         "topics": [],
         "hn": {
-          "points": 23,
-          "comments": 4,
+          "points": 25,
+          "comments": 7,
           "url": "https://news.ycombinator.com/item?id=50187659"
         }
       },
@@ -177,7 +177,7 @@
         "name": "Jakeschincariol/day-trader-skill",
         "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
         "language": "Python",
-        "stars": 271,
+        "stars": 337,
         "url": "https://github.com/Jakeschincariol/day-trader-skill",
         "created": "2026-10-20T14:17:54Z",
         "topics": [
@@ -188,41 +188,31 @@
         ]
       },
       {
-        "name": "lesnolie/Tigris",
-        "description": "Tigris — tvOS 26 style launcher for Android TV: Liquid Glass dock, Top Shelf, glass Control Center, photo screensaver. Agent-installable.",
-        "language": "Kotlin",
-        "stars": 255,
-        "url": "https://github.com/lesnolie/Tigris",
-        "created": "2026-10-20T10:12:05Z",
+        "name": "colinhacks/reylo",
+        "description": "Import .sql files into TypeScript with full type inference and zero codegen.",
+        "language": "Rust",
+        "stars": 307,
+        "url": "https://github.com/colinhacks/reylo",
+        "created": "2026-10-21T00:16:54Z",
         "topics": []
       },
       {
-        "name": "cs-tool-s/.github",
-        "description": "🔥 cs-2-cs2-skin-changer-skin-swapper-skinchanger-skinswapper-all-skins",
-        "language": "HTML",
-        "stars": 244,
-        "url": "https://github.com/cs-tool-s/.github",
-        "created": "2026-10-20T13:20:24Z",
-        "topics": [
-          "cs2-ak-47-skin-changer",
-          "cs2-all-skins",
-          "cs2-awp-dragon-lore-changer",
-          "cs2-glove-changer"
-        ]
+        "name": "Acelogic/Snapintosh",
+        "description": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack",
+        "language": "Python",
+        "stars": 306,
+        "url": "https://github.com/Acelogic/Snapintosh",
+        "created": "2026-10-22T01:40:05Z",
+        "topics": []
       },
       {
-        "name": "val-tools/.github",
-        "description": "🔥 valorant-weapon-skin-changer-swapper-all-skins",
-        "language": "HTML",
-        "stars": 243,
-        "url": "https://github.com/val-tools/.github",
-        "created": "2026-10-20T03:35:52Z",
-        "topics": [
-          "valorant-gun-changer",
-          "valorant-knife-changer",
-          "valorant-no-key",
-          "valorant-phantom-skins"
-        ]
+        "name": "lesnolie/Tigris",
+        "description": "Tigris — tvOS 26 style launcher for Android TV: Liquid Glass dock, Top Shelf, glass Control Center, photo screensaver. Agent-installable.",
+        "language": "Kotlin",
+        "stars": 269,
+        "url": "https://github.com/lesnolie/Tigris",
+        "created": "2026-10-20T10:12:05Z",
+        "topics": []
       }
     ],
     "posts": [
@@ -230,8 +220,8 @@
         "source": "showhn",
         "title": "Omnara – Open-source alternative to Claude Managed Agents",
         "url": "https://github.com/omnara-ai/omnara",
-        "points": 60,
-        "comments": 18,
+        "points": 86,
+        "comments": 25,
         "discussion": "https://news.ycombinator.com/item?id=50183892",
         "created": "2026-10-21T16:44:53.000Z"
       },
@@ -239,8 +229,8 @@
         "source": "showhn",
         "title": "Sumi.css – CSS Framework",
         "url": "https://github.com/vladocar/Sumi.css",
-        "points": 85,
-        "comments": 20,
+        "points": 88,
+        "comments": 27,
         "discussion": "https://news.ycombinator.com/item?id=50180039",
         "created": "2026-10-21T12:50:33.000Z"
       },
@@ -248,8 +238,8 @@
         "source": "showhn",
         "title": "SimCity, but with Permits",
         "url": "https://permit.petercai.com/",
-        "points": 911,
-        "comments": 411,
+        "points": 914,
+        "comments": 413,
         "discussion": "https://news.ycombinator.com/item?id=50170593",
         "created": "2026-10-20T18:29:09.000Z"
       },
@@ -258,7 +248,7 @@
         "title": "Jev Cards, Can you beat a vision model at a picture quiz?",
         "url": "https://jevcards.com",
         "points": 71,
-        "comments": 51,
+        "comments": 52,
         "discussion": "https://news.ycombinator.com/item?id=50167617",
         "created": "2026-10-20T15:11:56.000Z"
       },
@@ -266,7 +256,7 @@
         "source": "showhn",
         "title": "Penmentor – Claude marks up your handwritten math like a teacher",
         "url": "https://github.com/AbdullahAlhariri/penmentor",
-        "points": 64,
+        "points": 65,
         "comments": 7,
         "discussion": "https://news.ycombinator.com/item?id=50167604",
         "created": "2026-10-20T15:10:54.000Z"
@@ -284,8 +274,8 @@
         "source": "launchhn",
         "title": "Alter (YC S25) – Access control for multi-user agents",
         "url": "https://alterauth.com/",
-        "points": 59,
-        "comments": 25,
+        "points": 63,
+        "comments": 28,
         "discussion": "https://news.ycombinator.com/item?id=50176908",
         "created": "2026-10-21T06:42:12.000Z"
       },
@@ -303,7 +293,7 @@
         "title": "Laminar (YC S24) – RL-trained model that finds errors in agent traces",
         "url": "https://news.ycombinator.com/item?id=50154029",
         "points": 59,
-        "comments": 28,
+        "comments": 30,
         "discussion": "https://news.ycombinator.com/item?id=50154029",
         "created": "2026-10-19T16:00:18.000Z"
       },
@@ -318,19 +308,10 @@
       },
       {
         "source": "hn",
-        "title": "PHP 8.2.35",
-        "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-        "points": 999,
-        "comments": 537,
-        "discussion": "https://news.ycombinator.com/item?id=50180873",
-        "created": "2026-10-21T13:45:33.000Z"
-      },
-      {
-        "source": "hn",
         "title": "Today's PHP security release, and how we're strengthening security",
         "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-        "points": 712,
-        "comments": 348,
+        "points": 751,
+        "comments": 374,
         "discussion": "https://news.ycombinator.com/item?id=50182987",
         "created": "2026-10-21T15:48:56.000Z"
       },
@@ -338,8 +319,8 @@
         "source": "hn",
         "title": "mitmproxy adds --emudhra option",
         "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
-        "points": 387,
-        "comments": 100,
+        "points": 512,
+        "comments": 122,
         "discussion": "https://news.ycombinator.com/item?id=50189232",
         "created": "2026-10-21T23:51:37.000Z"
       },
@@ -347,10 +328,19 @@
         "source": "hn",
         "title": "GitLab critical patch release",
         "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
-        "points": 305,
-        "comments": 73,
+        "points": 363,
+        "comments": 85,
         "discussion": "https://news.ycombinator.com/item?id=50185869",
         "created": "2026-10-21T19:01:12.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "OpenAI CLI",
+        "url": "https://github.com/openai/openai-cli",
+        "points": 143,
+        "comments": 79,
+        "discussion": "https://news.ycombinator.com/item?id=50191507",
+        "created": "2026-10-22T05:23:11.000Z"
       },
       {
         "source": "lobsters",
@@ -2154,7 +2144,7 @@
         "name": "storytold/wordcraft",
         "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
         "language": "Rust",
-        "stars": 15390,
+        "stars": 15443,
         "url": "https://github.com/storytold/wordcraft",
         "created": "2026-10-07T08:34:24Z",
         "topics": [],
@@ -2188,7 +2178,7 @@
         "name": "storytold/cadcraft",
         "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
         "language": "Rust",
-        "stars": 6351,
+        "stars": 6385,
         "url": "https://github.com/storytold/cadcraft",
         "created": "2026-10-07T05:22:31Z",
         "topics": [],
@@ -2229,7 +2219,7 @@
         "name": "storytold/gridcraft",
         "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
         "language": "Rust",
-        "stars": 6176,
+        "stars": 6206,
         "url": "https://github.com/storytold/gridcraft",
         "created": "2026-10-07T05:18:16Z",
         "topics": [],
@@ -2980,7 +2970,7 @@
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 18703,
+        "stars": 18851,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -3547,7 +3537,7 @@
         "name": "Gathin23/cleanyourtv",
         "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
         "language": "Java",
-        "stars": 20617,
+        "stars": 21871,
         "url": "https://github.com/Gathin23/cleanyourtv",
         "created": "2026-10-17T08:12:35Z",
         "topics": [
@@ -3730,12 +3720,12 @@
         "name": "deepseek-ai/DeepInfer",
         "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
         "language": "Python",
-        "stars": 18649,
+        "stars": 19187,
         "url": "https://github.com/deepseek-ai/DeepInfer",
         "created": "2026-10-16T07:47:23Z",
         "topics": [],
         "hn": {
-          "points": 2311,
+          "points": 2322,
           "comments": 885,
           "url": "https://news.ycombinator.com/item?id=50163277"
         },
@@ -3747,7 +3737,7 @@
         "name": "tangency-labs/solidcraft",
         "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
         "language": "Rust",
-        "stars": 8987,
+        "stars": 9075,
         "url": "https://github.com/tangency-labs/solidcraft",
         "created": "2026-10-07T18:57:48Z",
         "topics": [
@@ -3793,7 +3783,7 @@
         "name": "eagle-hq/EAGLE-4",
         "description": "Official Inference Code of EAGLE-4",
         "language": "Python",
-        "stars": 764,
+        "stars": 802,
         "url": "https://github.com/eagle-hq/EAGLE-4",
         "created": "2026-10-20T14:03:04Z",
         "topics": [
@@ -3827,7 +3817,7 @@
         "name": "dominikmartn/harp",
         "description": "Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.",
         "language": "Rust",
-        "stars": 556,
+        "stars": 571,
         "url": "https://github.com/dominikmartn/harp",
         "created": "2026-10-20T10:39:43Z",
         "topics": [],
@@ -3863,7 +3853,7 @@
         "name": "ARahim3/DigUp",
         "description": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
         "language": "Swift",
-        "stars": 5401,
+        "stars": 5450,
         "url": "https://github.com/ARahim3/DigUp",
         "created": "2026-10-08T20:37:51Z",
         "topics": [
@@ -3880,7 +3870,7 @@
         "name": "ikow/php2shell-poc",
         "description": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research.",
         "language": "Python",
-        "stars": 1187,
+        "stars": 1341,
         "url": "https://github.com/ikow/php2shell-poc",
         "created": "2026-10-21T07:55:16Z",
         "topics": [
@@ -3897,7 +3887,7 @@
         "name": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
         "description": "Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only.",
         "language": "Shell",
-        "stars": 694,
+        "stars": 781,
         "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
         "created": "2026-10-21T08:31:43Z",
         "topics": [],
@@ -3921,13 +3911,13 @@
         "name": "nthnclrk/CleanFrame",
         "description": "A personal home screen for Samsung The Frame. A starting point to fork and adapt.",
         "language": "JavaScript",
-        "stars": 284,
+        "stars": 344,
         "url": "https://github.com/nthnclrk/CleanFrame",
         "created": "2026-10-20T04:40:07Z",
         "topics": [],
         "hn": {
-          "points": 23,
-          "comments": 4,
+          "points": 25,
+          "comments": 7,
           "url": "https://news.ycombinator.com/item?id=50187659"
         },
         "firstSeen": "2026-10-22",
@@ -3938,7 +3928,7 @@
         "name": "Jakeschincariol/day-trader-skill",
         "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
         "language": "Python",
-        "stars": 271,
+        "stars": 337,
         "url": "https://github.com/Jakeschincariol/day-trader-skill",
         "created": "2026-10-20T14:17:54Z",
         "topics": [
@@ -3955,7 +3945,7 @@
         "name": "lesnolie/Tigris",
         "description": "Tigris — tvOS 26 style launcher for Android TV: Liquid Glass dock, Top Shelf, glass Control Center, photo screensaver. Agent-installable.",
         "language": "Kotlin",
-        "stars": 255,
+        "stars": 269,
         "url": "https://github.com/lesnolie/Tigris",
         "created": "2026-10-20T10:12:05Z",
         "topics": [],
@@ -3996,6 +3986,42 @@
         "firstSeen": "2026-10-22",
         "lastSeen": "2026-10-22",
         "starsAtFirstSeen": 243
+      },
+      "9bie/php2shell-bypass-aslr-exp": {
+        "name": "9bie/php2shell-bypass-aslr-exp",
+        "description": "A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory.",
+        "language": "Python",
+        "stars": 812,
+        "url": "https://github.com/9bie/php2shell-bypass-aslr-exp",
+        "created": "2026-10-21T11:11:57Z",
+        "topics": [],
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22",
+        "starsAtFirstSeen": 812
+      },
+      "colinhacks/reylo": {
+        "name": "colinhacks/reylo",
+        "description": "Import .sql files into TypeScript with full type inference and zero codegen.",
+        "language": "Rust",
+        "stars": 307,
+        "url": "https://github.com/colinhacks/reylo",
+        "created": "2026-10-21T00:16:54Z",
+        "topics": [],
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22",
+        "starsAtFirstSeen": 307
+      },
+      "Acelogic/Snapintosh": {
+        "name": "Acelogic/Snapintosh",
+        "description": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack",
+        "language": "Python",
+        "stars": 306,
+        "url": "https://github.com/Acelogic/Snapintosh",
+        "created": "2026-10-22T01:40:05Z",
+        "topics": [],
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22",
+        "starsAtFirstSeen": 306
       }
     },
     "posts": {
@@ -6127,7 +6153,7 @@
         "title": "Laminar (YC S24) – RL-trained model that finds errors in agent traces",
         "url": "https://news.ycombinator.com/item?id=50154029",
         "points": 59,
-        "comments": 28,
+        "comments": 30,
         "discussion": "https://news.ycombinator.com/item?id=50154029",
         "created": "2026-10-19T16:00:18.000Z",
         "firstSeen": "2026-10-20",
@@ -6203,8 +6229,8 @@
         "source": "showhn",
         "title": "SimCity, but with Permits",
         "url": "https://permit.petercai.com/",
-        "points": 911,
-        "comments": 411,
+        "points": 914,
+        "comments": 413,
         "discussion": "https://news.ycombinator.com/item?id=50170593",
         "created": "2026-10-20T18:29:09.000Z",
         "firstSeen": "2026-10-21",
@@ -6215,7 +6241,7 @@
         "title": "Jev Cards, Can you beat a vision model at a picture quiz?",
         "url": "https://jevcards.com",
         "points": 71,
-        "comments": 51,
+        "comments": 52,
         "discussion": "https://news.ycombinator.com/item?id=50167617",
         "created": "2026-10-20T15:11:56.000Z",
         "firstSeen": "2026-10-21",
@@ -6225,7 +6251,7 @@
         "source": "showhn",
         "title": "Penmentor – Claude marks up your handwritten math like a teacher",
         "url": "https://github.com/AbdullahAlhariri/penmentor",
-        "points": 64,
+        "points": 65,
         "comments": 7,
         "discussion": "https://news.ycombinator.com/item?id=50167604",
         "created": "2026-10-20T15:10:54.000Z",
@@ -6302,8 +6328,8 @@
         "source": "showhn",
         "title": "Omnara – Open-source alternative to Claude Managed Agents",
         "url": "https://github.com/omnara-ai/omnara",
-        "points": 60,
-        "comments": 18,
+        "points": 86,
+        "comments": 25,
         "discussion": "https://news.ycombinator.com/item?id=50183892",
         "created": "2026-10-21T16:44:53.000Z",
         "firstSeen": "2026-10-22",
@@ -6313,8 +6339,8 @@
         "source": "showhn",
         "title": "Sumi.css – CSS Framework",
         "url": "https://github.com/vladocar/Sumi.css",
-        "points": 85,
-        "comments": 20,
+        "points": 88,
+        "comments": 27,
         "discussion": "https://news.ycombinator.com/item?id=50180039",
         "created": "2026-10-21T12:50:33.000Z",
         "firstSeen": "2026-10-22",
@@ -6324,8 +6350,8 @@
         "source": "launchhn",
         "title": "Alter (YC S25) – Access control for multi-user agents",
         "url": "https://alterauth.com/",
-        "points": 59,
-        "comments": 25,
+        "points": 63,
+        "comments": 28,
         "discussion": "https://news.ycombinator.com/item?id=50176908",
         "created": "2026-10-21T06:42:12.000Z",
         "firstSeen": "2026-10-22",
@@ -6346,8 +6372,8 @@
         "source": "hn",
         "title": "Today's PHP security release, and how we're strengthening security",
         "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-        "points": 712,
-        "comments": 348,
+        "points": 751,
+        "comments": 374,
         "discussion": "https://news.ycombinator.com/item?id=50182987",
         "created": "2026-10-21T15:48:56.000Z",
         "firstSeen": "2026-10-22",
@@ -6357,8 +6383,8 @@
         "source": "hn",
         "title": "mitmproxy adds --emudhra option",
         "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
-        "points": 387,
-        "comments": 100,
+        "points": 512,
+        "comments": 122,
         "discussion": "https://news.ycombinator.com/item?id=50189232",
         "created": "2026-10-21T23:51:37.000Z",
         "firstSeen": "2026-10-22",
@@ -6368,105 +6394,137 @@
         "source": "hn",
         "title": "GitLab critical patch release",
         "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
-        "points": 305,
-        "comments": 73,
+        "points": 363,
+        "comments": 85,
         "discussion": "https://news.ycombinator.com/item?id=50185869",
         "created": "2026-10-21T19:01:12.000Z",
+        "firstSeen": "2026-10-22",
+        "lastSeen": "2026-10-22"
+      },
+      "https://news.ycombinator.com/item?id=50191507": {
+        "source": "hn",
+        "title": "OpenAI CLI",
+        "url": "https://github.com/openai/openai-cli",
+        "points": 143,
+        "comments": 79,
+        "discussion": "https://news.ycombinator.com/item?id=50191507",
+        "created": "2026-10-22T05:23:11.000Z",
         "firstSeen": "2026-10-22",
         "lastSeen": "2026-10-22"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-10-22T06:34:03.817Z",
+    "fetchedAt": "2026-10-22T11:37:15.062Z",
     "hn": [
-      {
-        "title": "PHP 8.2.35",
-        "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-        "points": 999,
-        "comments": 537,
-        "discussion": "https://news.ycombinator.com/item?id=50180873"
-      },
       {
         "title": "Today's PHP security release, and how we're strengthening security",
         "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-        "points": 712,
-        "comments": 348,
+        "points": 751,
+        "comments": 374,
         "discussion": "https://news.ycombinator.com/item?id=50182987"
       },
       {
         "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
         "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
-        "points": 489,
-        "comments": 301,
+        "points": 584,
+        "comments": 337,
         "discussion": "https://news.ycombinator.com/item?id=50184820"
       },
       {
         "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
         "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
-        "points": 477,
-        "comments": 162,
+        "points": 534,
+        "comments": 173,
         "discussion": "https://news.ycombinator.com/item?id=50181114"
       },
       {
-        "title": "There isn't an easy exploit for this PHP vulnerability",
-        "url": "https://eliastaylor.com/noexploit/",
-        "points": 409,
-        "comments": 193,
-        "discussion": "https://news.ycombinator.com/item?id=50188948"
+        "title": "mitmproxy adds --emudhra option",
+        "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+        "points": 511,
+        "comments": 122,
+        "discussion": "https://news.ycombinator.com/item?id=50189232"
       },
       {
         "title": "Security Disclosure",
         "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
-        "points": 407,
-        "comments": 233,
+        "points": 489,
+        "comments": 282,
         "discussion": "https://news.ycombinator.com/item?id=50188228"
       },
       {
         "title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
         "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
-        "points": 395,
-        "comments": 51,
+        "points": 427,
+        "comments": 57,
         "discussion": "https://news.ycombinator.com/item?id=50181136"
       },
       {
-        "title": "mitmproxy adds --emudhra option",
-        "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
-        "points": 387,
-        "comments": 100,
-        "discussion": "https://news.ycombinator.com/item?id=50189232"
-      },
-      {
-        "title": "GitLab critical patch release",
-        "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
-        "points": 305,
-        "comments": 73,
-        "discussion": "https://news.ycombinator.com/item?id=50185869"
+        "title": "Claude Duet",
+        "url": "https://claude.com/product/claude-duet",
+        "points": 415,
+        "comments": 376,
+        "discussion": "https://news.ycombinator.com/item?id=50186037"
       },
       {
         "title": "PingCap TiDB Leaks",
         "url": "https://fulcrumsec.vg/pingcap/",
-        "points": 294,
-        "comments": 43,
+        "points": 366,
+        "comments": 59,
         "discussion": "https://news.ycombinator.com/item?id=50173716"
+      },
+      {
+        "title": "GitLab critical patch release",
+        "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+        "points": 362,
+        "comments": 85,
+        "discussion": "https://news.ycombinator.com/item?id=50185869"
+      },
+      {
+        "title": "No more icons in every menu by default",
+        "url": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/",
+        "points": 344,
+        "comments": 209,
+        "discussion": "https://news.ycombinator.com/item?id=50161346"
       }
     ],
     "lobsters": [
       {
+        "title": "examining the macOS gcc binary",
+        "url": "https://zoey-on-github.github.io/blog/macgcc.html",
+        "points": 18,
+        "comments": 2,
+        "discussion": "https://lobste.rs/s/hplfis/examining_macos_gcc_binary",
+        "tags": [
+          "mac",
+          "reversing"
+        ]
+      },
+      {
         "title": "Firefox Local Mode",
         "url": "https://firefox-source-docs.mozilla.org/devtools-user/local_mode/index.html",
-        "points": 89,
-        "comments": 17,
+        "points": 110,
+        "comments": 20,
         "discussion": "https://lobste.rs/s/w9sxxq/firefox_local_mode",
         "tags": [
           "browsers"
         ]
       },
       {
+        "title": "Google's Rust Style Guide",
+        "url": "https://google.github.io/styleguide/rustguide.html",
+        "points": 36,
+        "comments": 13,
+        "discussion": "https://lobste.rs/s/9jgl3x/google_s_rust_style_guide",
+        "tags": [
+          "rust"
+        ]
+      },
+      {
         "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
         "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
-        "points": 51,
-        "comments": 11,
+        "points": 57,
+        "comments": 20,
         "discussion": "https://lobste.rs/s/ebsqsp/eight_bits_trust_emudhra_s_ca_keys_cracked",
         "tags": [
           "cryptography",
@@ -6474,30 +6532,19 @@
         ]
       },
       {
-        "title": "Google's Rust Style Guide",
-        "url": "https://google.github.io/styleguide/rustguide.html",
-        "points": 26,
-        "comments": 10,
-        "discussion": "https://lobste.rs/s/9jgl3x/google_s_rust_style_guide",
+        "title": "Using a lookup-table to correct an approximation",
+        "url": "https://www.corsix.org/content/using-a-lookup-table-to-correct-an-approximation",
+        "points": 15,
+        "comments": 2,
+        "discussion": "https://lobste.rs/s/os7brs/using_lookup_table_correct",
         "tags": [
-          "rust"
-        ]
-      },
-      {
-        "title": "Upcoming Critical PHP Security Release",
-        "url": "https://www.php.net/archive/2026.php#2026-10-20-1",
-        "points": 186,
-        "comments": 125,
-        "discussion": "https://lobste.rs/s/ekxoyt/upcoming_critical_php_security_release",
-        "tags": [
-          "php",
-          "security"
+          "performance"
         ]
       },
       {
         "title": "zls 0.17.0",
         "url": "https://zigtools.org/zls/releases/0.17.0/",
-        "points": 57,
+        "points": 65,
         "comments": 2,
         "discussion": "https://lobste.rs/s/hty1qk/zls_0_17_0",
         "tags": [
@@ -6508,7 +6555,7 @@
       {
         "title": "CVE-2026-107891: musl libc: multiple integer overflow in regcomp, possibly leading to incorrect allocation sizes and out-of-bounds heap writes",
         "url": "https://www.openwall.com/lists/oss-security/2026/10/21/18",
-        "points": 29,
+        "points": 37,
         "comments": 5,
         "discussion": "https://lobste.rs/s/dldfel/cve_2026_107891_musl_libc_multiple",
         "tags": [
@@ -6517,21 +6564,21 @@
         ]
       },
       {
-        "title": "Passkeys Attestation Trap",
-        "url": "https://mjtsai.com/blog/2026/10/15/passkeys-attestation-trap/",
-        "points": 17,
-        "comments": 41,
-        "discussion": "https://lobste.rs/s/cdnepk/passkeys_attestation_trap",
+        "title": "Upcoming Critical PHP Security Release",
+        "url": "https://www.php.net/archive/2026.php#2026-10-20-1",
+        "points": 190,
+        "comments": 132,
+        "discussion": "https://lobste.rs/s/ekxoyt/upcoming_critical_php_security_release",
         "tags": [
-          "security",
-          "web"
+          "php",
+          "security"
         ]
       },
       {
         "title": "Railway Security Disclosure: Wednesday October 21st",
         "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
-        "points": 12,
-        "comments": 4,
+        "points": 15,
+        "comments": 7,
         "discussion": "https://lobste.rs/s/wi4nnl/railway_security_disclosure_wednesday",
         "tags": [
           "devops",
@@ -6539,45 +6586,23 @@
         ]
       },
       {
-        "title": "Unikernels in OCaml",
-        "url": "https://uniker.nl/",
-        "points": 58,
-        "comments": 7,
-        "discussion": "https://lobste.rs/s/mfserj/unikernels_ocaml",
+        "title": "Passkeys Attestation Trap",
+        "url": "https://mjtsai.com/blog/2026/10/15/passkeys-attestation-trap/",
+        "points": 22,
+        "comments": 46,
+        "discussion": "https://lobste.rs/s/cdnepk/passkeys_attestation_trap",
         "tags": [
-          "ml",
-          "osdev"
-        ]
-      },
-      {
-        "title": "The Future of CSS",
-        "url": "https://www.joshwcomeau.com/css/interop-2027/",
-        "points": 58,
-        "comments": 6,
-        "discussion": "https://lobste.rs/s/vidyh0/future_css",
-        "tags": [
-          "css"
+          "security",
+          "web"
         ]
       }
     ],
     "devto": [
       {
-        "title": "How to Become a Tech Conference Speaker (And Why You Might Regret It)",
-        "url": "https://dev.to/sylwia-lask/how-to-become-a-tech-conference-speaker-and-why-you-might-regret-it-2ink",
-        "points": 108,
-        "comments": 53,
-        "discussion": "https://dev.to/sylwia-lask/how-to-become-a-tech-conference-speaker-and-why-you-might-regret-it-2ink",
-        "tags": [
-          "career",
-          "speaking",
-          "techtalks"
-        ]
-      },
-      {
         "title": "is-kit Reached 100 Stars ⭐🎉 Here’s What Changed Since 50",
         "url": "https://dev.to/nyaomaru/is-kit-reached-100-stars-heres-what-changed-since-50-49pf",
-        "points": 69,
-        "comments": 19,
+        "points": 84,
+        "comments": 23,
         "discussion": "https://dev.to/nyaomaru/is-kit-reached-100-stars-heres-what-changed-since-50-49pf",
         "tags": [
           "typescript",
@@ -6588,8 +6613,8 @@
       {
         "title": "I Got Tired of Coming into my Lab to Check the Pressure of my Cryocooler so I Built a Tool to do it for Me",
         "url": "https://dev.to/pahorton/i-got-tired-of-coming-into-my-lab-to-check-the-pressure-of-my-cryocooler-so-i-built-a-tool-to-do-it-4ob7",
-        "points": 42,
-        "comments": 6,
+        "points": 49,
+        "comments": 8,
         "discussion": "https://dev.to/pahorton/i-got-tired-of-coming-into-my-lab-to-check-the-pressure-of-my-cryocooler-so-i-built-a-tool-to-do-it-4ob7",
         "tags": [
           "devchallenge",
@@ -6598,46 +6623,10 @@
         ]
       },
       {
-        "title": "I'm a First-Year ECE Student Trying to Figure Out \"The Prestige Path\" vs. Just Building Stuff",
-        "url": "https://dev.to/effessdev/im-a-first-year-ece-student-trying-to-figure-out-the-prestige-path-vs-just-building-stuff-26f5",
-        "points": 33,
-        "comments": 38,
-        "discussion": "https://dev.to/effessdev/im-a-first-year-ece-student-trying-to-figure-out-the-prestige-path-vs-just-building-stuff-26f5",
-        "tags": [
-          "discuss",
-          "career",
-          "beginners"
-        ]
-      },
-      {
-        "title": "Idempotency keys for AI agents: why hashing the arguments doesn't work",
-        "url": "https://dev.to/anis_meziani_52aab42304a8/idempotency-keys-for-ai-agents-why-hashing-the-arguments-doesnt-work-cap",
-        "points": 24,
-        "comments": 18,
-        "discussion": "https://dev.to/anis_meziani_52aab42304a8/idempotency-keys-for-ai-agents-why-hashing-the-arguments-doesnt-work-cap",
-        "tags": [
-          "ai",
-          "agents",
-          "python"
-        ]
-      },
-      {
-        "title": "How to publish posts via the dev.to API",
-        "url": "https://dev.to/julies1/how-to-publish-posts-via-the-devto-api-2fkd",
-        "points": 20,
-        "comments": 5,
-        "discussion": "https://dev.to/julies1/how-to-publish-posts-via-the-devto-api-2fkd",
-        "tags": [
-          "python",
-          "automation",
-          "beginners"
-        ]
-      },
-      {
         "title": "I Built slothd: A Local-First, Offline-Capable AI Daemon That Patiently Organizes Your Messy Workspace",
         "url": "https://dev.to/dj29/i-built-slothd-a-local-first-offline-capable-ai-daemon-that-patiently-organizes-your-messy-53e7",
-        "points": 20,
-        "comments": 6,
+        "points": 41,
+        "comments": 9,
         "discussion": "https://dev.to/dj29/i-built-slothd-a-local-first-offline-capable-ai-daemon-that-patiently-organizes-your-messy-53e7",
         "tags": [
           "devchallenge",
@@ -6646,45 +6635,93 @@
         ]
       },
       {
-        "title": "Where Do Your Users' Passwords Actually Live? Self-Hosted vs Managed Keycloak",
-        "url": "https://dev.to/hadil/where-do-your-users-passwords-actually-live-self-hosted-vs-managed-keycloak-97e",
-        "points": 20,
-        "comments": 4,
-        "discussion": "https://dev.to/hadil/where-do-your-users-passwords-actually-live-self-hosted-vs-managed-keycloak-97e",
+        "title": "The Hidden Bugs Behind Duplicate API Requests",
+        "url": "https://dev.to/hanzla/the-hidden-bugs-behind-duplicate-api-requests-1npb",
+        "points": 41,
+        "comments": 0,
+        "discussion": "https://dev.to/hanzla/the-hidden-bugs-behind-duplicate-api-requests-1npb",
         "tags": [
-          "programming",
-          "development",
-          "authentication"
+          "debugging",
+          "webdev",
+          "programming"
         ]
       },
       {
-        "title": "In Ruby, Objects Don't Have Methods. How Method Lookup Actually Works.",
-        "url": "https://dev.to/smtahosin/in-ruby-objects-dont-have-methods-how-method-lookup-actually-works-31g9",
-        "points": 18,
-        "comments": 0,
-        "discussion": "https://dev.to/smtahosin/in-ruby-objects-dont-have-methods-how-method-lookup-actually-works-31g9",
+        "title": "Sprint & Stamina | UE5 Devlog",
+        "url": "https://dev.to/startupcafe/sprint-stamina-ue5-devlog-4k7m",
+        "points": 40,
+        "comments": 3,
+        "discussion": "https://dev.to/startupcafe/sprint-stamina-ue5-devlog-4k7m",
         "tags": [
-          "ruby",
-          "programming",
-          "webdev"
+          "testing",
+          "beginners",
+          "productivity"
         ]
       },
       {
         "title": "I Fixed WebGPU on Linux. Then Forgot How I Did It.",
         "url": "https://dev.to/sizzlebop/i-fixed-webgpu-on-linux-then-forgot-how-i-did-it-5hjd",
-        "points": 18,
-        "comments": 2,
+        "points": 29,
+        "comments": 4,
         "discussion": "https://dev.to/sizzlebop/i-fixed-webgpu-on-linux-then-forgot-how-i-did-it-5hjd",
         "tags": [
           "linux",
           "webdev",
           "ai"
         ]
+      },
+      {
+        "title": "Idempotency keys for AI agents: why hashing the arguments doesn't work",
+        "url": "https://dev.to/anis_meziani_52aab42304a8/idempotency-keys-for-ai-agents-why-hashing-the-arguments-doesnt-work-cap",
+        "points": 25,
+        "comments": 23,
+        "discussion": "https://dev.to/anis_meziani_52aab42304a8/idempotency-keys-for-ai-agents-why-hashing-the-arguments-doesnt-work-cap",
+        "tags": [
+          "ai",
+          "agents",
+          "python"
+        ]
+      },
+      {
+        "title": "AI Made Coding Cheaper. So Why Is Building Software Still So Expensive?",
+        "url": "https://dev.to/harsh2644/ai-made-coding-cheaper-so-why-is-building-software-still-so-expensive-59m",
+        "points": 21,
+        "comments": 9,
+        "discussion": "https://dev.to/harsh2644/ai-made-coding-cheaper-so-why-is-building-software-still-so-expensive-59m",
+        "tags": [
+          "ai",
+          "productivity",
+          "career"
+        ]
+      },
+      {
+        "title": "Don't Be a Proxy Between Me and Your AI",
+        "url": "https://dev.to/adamthedeveloper/dont-be-a-proxy-between-me-and-your-ai-mcn",
+        "points": 16,
+        "comments": 6,
+        "discussion": "https://dev.to/adamthedeveloper/dont-be-a-proxy-between-me-and-your-ai-mcn",
+        "tags": [
+          "ai",
+          "discuss",
+          "career"
+        ]
+      },
+      {
+        "title": "Day 19 of Building Crowdwide: Introducing WideWave!!",
+        "url": "https://dev.to/puneetkumar2010/day-19-of-building-crowdwide-introducing-widewave-2ai8",
+        "points": 16,
+        "comments": 0,
+        "discussion": "https://dev.to/puneetkumar2010/day-19-of-building-crowdwide-introducing-widewave-2ai8",
+        "tags": [
+          "opensource",
+          "webdev",
+          "buildinpublic"
+        ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-10-22T06:34:03.817Z",
+    "fetchedAt": "2026-10-22T11:37:15.062Z",
     "candidates": {
       "https://blog.cloudflare.com/radar-redesign": {
         "source": "Cloudflare",
@@ -7410,6 +7447,14 @@
         "url": "https://blickeditor.com/blog/caching-an-immediate-mode-ui",
         "discussion": "https://lobste.rs/s/cq7wn7/don_t_throw_it_all_away_caching_immediate",
         "published": "2026-10-21T17:16:47.888Z",
+        "summary": ""
+      },
+      "https://www.corsix.org/content/using-a-lookup-table-to-correct-an-approximation": {
+        "source": "Lobsters",
+        "title": "Using a lookup-table to correct an approximation",
+        "url": "https://www.corsix.org/content/using-a-lookup-table-to-correct-an-approximation",
+        "discussion": "https://lobste.rs/s/os7brs/using_lookup_table_correct",
+        "published": "2026-10-22T04:18:37.037Z",
         "summary": ""
       }
     }
