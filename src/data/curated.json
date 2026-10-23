@@ -419,9 +419,29 @@
     "Hugo-Dz/spritefusion-sprite-normals": {
       "why": "Generates normal maps from sprites and sheets locally via a Rust CLI or WASM library, keeping pixel resolution and alpha for 2.5D lighting.",
       "pickedOn": "2026-10-22"
+    },
+    "storytold/effectcraft": {
+      "why": "A from-scratch open-source compositor with keyframes, ~306 effects, 3D cameras and a render queue that already runs native and in-browser, unlike the paid incumbents.",
+      "pickedOn": "2026-10-23"
+    },
+    "ARahim3/DigUp": {
+      "why": "Runs a 740M multimodal embedding model locally so photos, PDFs, audio and video share one search space across macOS, Windows and Linux, jumping to the matching moment or page.",
+      "pickedOn": "2026-10-23"
+    },
+    "colinhacks/reylo": {
+      "why": "Built on TypeScript 7.1 content mappers (still beta) to type-check SQL against your real database with no generated files, unlike ORM codegen or hand-written row types.",
+      "pickedOn": "2026-10-23"
+    },
+    "https://news.ycombinator.com/item?id=50175510": {
+      "why": "Independent C#-to-Wasm compiler and runtime that ships no CLR or dotnet.js, though the headline size-versus-Rust number is contested in the thread.",
+      "pickedOn": "2026-10-23"
+    },
+    "https://news.ycombinator.com/item?id=50183892": {
+      "why": "Self-hostable under Apache 2.0 and keeps each agent's state in Postgres so runs survive restarts and idle costs nothing, unlike the managed agent APIs it mirrors.",
+      "pickedOn": "2026-10-23"
     }
   },
-  "updatedAt": "2026-10-22T06:33:28.611Z",
+  "updatedAt": "2026-10-23T06:33:25.826Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1205,6 +1225,24 @@
       "topic": "performance",
       "why": "A from-scratch IPv4 parser in Swift reaching ~3ns per address, covering the bit tricks, vectorisation, and benchmark methodology behind the result.",
       "pickedOn": "2026-10-22"
+    },
+    "https://blog.cloudflare.com/php-vulnerabilities-waf-protection": {
+      "title": "Cloudflare deploys protections against php2shell vulnerability",
+      "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+      "source": "Cloudflare",
+      "published": "2026-10-21T13:56:45.000Z",
+      "topic": "reliability",
+      "why": "Coordinated response to the php2shell PHP flaws: why WAF rules needed request-plus-response evidence, and how attackers mutated payloads to evade protections.",
+      "pickedOn": "2026-10-23"
+    },
+    "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure": {
+      "title": "The bridge to agent-scale Git infrastructure",
+      "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+      "source": "GitHub",
+      "published": "2026-10-21T16:00:00.000Z",
+      "topic": "architecture",
+      "why": "How GitHub replicated nearly all repositories to Azure, why per-reference quorums finish the rest, and how object storage lets read throughput scale independently.",
+      "pickedOn": "2026-10-23"
     }
   },
   "deepdiveSkips": {
@@ -1364,6 +1402,12 @@
     "https://www.calabro.io/ohbf": "2026-10-21",
     "https://shopify.engineering/open-model-task-experts": "2026-10-22",
     "https://www.figma.com/blog/source-material-ben-ganz": "2026-10-22",
-    "https://enroute.sh/blog/everyone-is-doing-git-on-s3-wrong": "2026-10-22"
+    "https://enroute.sh/blog/everyone-is-doing-git-on-s3-wrong": "2026-10-22",
+    "https://blog.cloudflare.com/full-transaction-waf": "2026-10-23",
+    "https://blog.cloudflare.com/webmcp-commerce": "2026-10-23",
+    "https://aws.amazon.com/blogs/architecture/automate-medical-coding-with-step-functions-and-amazon-bedrock-agentcore": "2026-10-23",
+    "https://muratbuffalo.blogspot.com/2026/10/hpts-2026-day-1.html": "2026-10-23",
+    "https://blickeditor.com/blog/caching-an-immediate-mode-ui": "2026-10-23",
+    "https://www.corsix.org/content/using-a-lookup-table-to-correct-an-approximation": "2026-10-23"
   }
 }
