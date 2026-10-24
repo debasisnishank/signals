@@ -439,9 +439,29 @@
     "https://news.ycombinator.com/item?id=50183892": {
       "why": "Self-hostable under Apache 2.0 and keeps each agent's state in Postgres so runs survive restarts and idle costs nothing, unlike the managed agent APIs it mirrors.",
       "pickedOn": "2026-10-23"
+    },
+    "Jakeschincariol/day-trader-skill": {
+      "why": "Plain Python over free Yahoo, Nasdaq and SEC data; its Monte Carlo Time Machine replays a setup 10,000 times from recent bars, and it can only paper trade, never place orders.",
+      "pickedOn": "2026-10-24"
+    },
+    "wesbos/3d-model-anything": {
+      "why": "Not a one-click converter: an iPhone LiDAR app records geometry and photos, then an agent skill iteratively matches cameras to build an editable Three.js room, with a demo office to inspect.",
+      "pickedOn": "2026-10-24"
+    },
+    "ikow/php2shell-poc": {
+      "why": "Bundles a root-cause writeup with drop-in Suricata, Sigma and ModSecurity rules spanning PHP 5.4 through 8.5, so defenders can detect the pre-auth chains before patching.",
+      "pickedOn": "2026-10-24"
+    },
+    "lesnolie/Tigris": {
+      "why": "Kotlin app that replaces the Android TV home screen with a tvOS 26 style dock, shipped as installable APKs, but it needs real hardware and some TV models are still untested.",
+      "pickedOn": "2026-10-24"
+    },
+    "https://news.ycombinator.com/item?id=50180039": {
+      "why": "A dependency-free drop-in stylesheet; the thread notes it fills the gap left by PicoCSS being deprecated, and it works by adding a single stylesheet link.",
+      "pickedOn": "2026-10-24"
     }
   },
-  "updatedAt": "2026-10-23T06:33:25.826Z",
+  "updatedAt": "2026-10-24T06:36:14.796Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1243,6 +1263,34 @@
       "topic": "architecture",
       "why": "How GitHub replicated nearly all repositories to Azure, why per-reference quorums finish the rest, and how object storage lets read throughput scale independently.",
       "pickedOn": "2026-10-23"
+    },
+    "https://shopify.engineering/remote-dev": {
+      "title": "We gave AI agents a mobile dev environment",
+      "url": "https://shopify.engineering/remote-dev",
+      "source": "Shopify",
+      "published": "2026-10-22T12:56:38.000Z",
+      "topic": "infrastructure",
+      "why": "Building a remote service so many parallel AI-agent builds, simulators, and tests can run off-laptop, and the Mac-vs-Linux tooling constraints that shaped it.",
+      "pickedOn": "2026-10-24"
+    },
+    "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4": {
+      "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
+      "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4",
+      "source": "Netflix",
+      "published": "2026-10-22T22:19:12.000Z",
+      "topic": "architecture",
+      "why": "How Netflix gives tenants single-tenant VM-level isolation on a shared multi-tenant container platform, and the design trade-offs that choice forced.",
+      "pickedOn": "2026-10-24"
+    },
+    "https://alexsci.com/blog/uuidv7-is-weird": {
+      "title": "UUIDv7 doesn't have the properties you think it does",
+      "url": "https://alexsci.com/blog/uuidv7-is-weird/",
+      "source": "Lobsters",
+      "published": "2026-10-23T01:22:17.339Z",
+      "discussion": "https://lobste.rs/s/kcyzco/uuidv7_doesn_t_have_properties_you_think",
+      "topic": "databases",
+      "why": "Explains which ordering, uniqueness, and monotonicity properties UUIDv7 actually guarantees, and where the assumptions developers make about them break.",
+      "pickedOn": "2026-10-24"
     }
   },
   "deepdiveSkips": {
@@ -1408,6 +1456,14 @@
     "https://aws.amazon.com/blogs/architecture/automate-medical-coding-with-step-functions-and-amazon-bedrock-agentcore": "2026-10-23",
     "https://muratbuffalo.blogspot.com/2026/10/hpts-2026-day-1.html": "2026-10-23",
     "https://blickeditor.com/blog/caching-an-immediate-mode-ui": "2026-10-23",
-    "https://www.corsix.org/content/using-a-lookup-table-to-correct-an-approximation": "2026-10-23"
+    "https://www.corsix.org/content/using-a-lookup-table-to-correct-an-approximation": "2026-10-23",
+    "https://stripe.com/blog/trends-from-money20-20-2026-the-rise-of-hidden-financial-services": "2026-10-24",
+    "https://discord.com/blog/discord-update-october-22-2026": "2026-10-24",
+    "https://blog.cloudflare.com/k-isms": "2026-10-24",
+    "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent": "2026-10-24",
+    "https://www.figma.com/blog/lufthansa-figma-make": "2026-10-24",
+    "https://quad9.net/news/blog/au-revoir-france": "2026-10-24",
+    "https://unixdigest.com/tutorials/tell-your-network-to-explain-itself-and-then-some.html": "2026-10-24",
+    "https://duckdb.org/2026/10/21/announcing-duckdb-200.html": "2026-10-24"
   }
 }
