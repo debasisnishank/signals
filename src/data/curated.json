@@ -459,9 +459,29 @@
     "https://news.ycombinator.com/item?id=50180039": {
       "why": "A dependency-free drop-in stylesheet; the thread notes it fills the gap left by PicoCSS being deprecated, and it works by adding a single stylesheet link.",
       "pickedOn": "2026-10-24"
+    },
+    "Snapintosh/Snapintosh": {
+      "why": "Boots an unmodified Apple kernel on a Snapdragon laptop via an EL2 hypervisor, including a from-scratch Adreno Metal driver and AIR-to-ir3 shader compiler.",
+      "pickedOn": "2026-10-25"
+    },
+    "assetnote/php2shell-scanner": {
+      "why": "Targets two specific PHP CVEs with nested-array multipart probes up to 20 MiB that separate genuine memory-exhaustion crashes from unrelated 500s, not a version checker.",
+      "pickedOn": "2026-10-25"
+    },
+    "https://news.ycombinator.com/item?id=50180257": {
+      "why": "An animated, interactive walkthrough of copy-on-write, txgs, RAID-Z, the ARC and ZIL that explains ZFS internals visually, better as a learning reference than an ops tool.",
+      "pickedOn": "2026-10-25"
+    },
+    "https://news.ycombinator.com/item?id=50196718": {
+      "why": "Runs unmodified iOS 16.5 user space on a Snapdragon Android phone via a custom UEFI loader and XNU patches, booting from RAM without flashing, or under QEMU.",
+      "pickedOn": "2026-10-25"
+    },
+    "https://news.ycombinator.com/item?id=50198675": {
+      "why": "Enforces per-agent file, syscall and network policy in the kernel and checks policy changes against a formal model before applying, beyond ordinary container sandboxing.",
+      "pickedOn": "2026-10-25"
     }
   },
-  "updatedAt": "2026-10-24T06:36:14.796Z",
+  "updatedAt": "2026-10-25T06:31:54.627Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1291,6 +1311,52 @@
       "topic": "databases",
       "why": "Explains which ordering, uniqueness, and monotonicity properties UUIDv7 actually guarantees, and where the assumptions developers make about them break.",
       "pickedOn": "2026-10-24"
+    },
+    "https://blog.cloudflare.com/origin-range-requests": {
+      "title": "Origin Range Requests: Serving large files without range-request tuning",
+      "url": "https://blog.cloudflare.com/origin-range-requests/",
+      "source": "Cloudflare",
+      "published": "2026-10-23T18:22:59.000Z",
+      "topic": "performance",
+      "why": "Explains why caching HTTP range requests naively wastes CDN bandwidth, and how Cloudflare's rebuilt design halved p99 time-to-first-byte for object storage.",
+      "pickedOn": "2026-10-25"
+    },
+    "https://blog.cloudflare.com/post-quantum-geo-key-manager": {
+      "title": "Bringing post-quantum cryptography to geographically fenced key management",
+      "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+      "source": "Cloudflare",
+      "published": "2026-10-23T18:06:56.000Z",
+      "topic": "architecture",
+      "why": "Describes how Cloudflare wraps decryption keys so only servers in a chosen geography can unwrap them, combining post-quantum crypto with regional data-sovereignty constraints.",
+      "pickedOn": "2026-10-25"
+    },
+    "https://muratbuffalo.blogspot.com/2026/10/hpts-2026-day-2-and-day-3.html": {
+      "title": "HPTS 2026 (Day 2 and Day 3)",
+      "url": "https://muratbuffalo.blogspot.com/2026/10/hpts-2026-day-2-and-day-3.html",
+      "source": "Murat Demirbas",
+      "published": "2026-10-23T16:45:30.951Z",
+      "topic": "distributed",
+      "why": "Conference notes summarizing systems research talks on GPU databases, datacenter power, object storage, failures, and consensus, with the trade-offs each design makes.",
+      "pickedOn": "2026-10-25"
+    },
+    "http://brooker.co.za/blog/2026/10/23/animations.html": {
+      "title": "Animations for System Builders: Metastability and Lost Writes",
+      "url": "http://brooker.co.za/blog/2026/10/23/animations.html",
+      "source": "Marc Brooker",
+      "published": "2026-10-23T00:00:00.000Z",
+      "topic": "reliability",
+      "why": "Shows how animations build intuition for failure modes like metastable overload and how a Raft cluster can lose writes when one node's storage lies about fsync.",
+      "pickedOn": "2026-10-25"
+    },
+    "https://rtfeldman.com/fp-vs-c": {
+      "title": "How close can pure FP get to C?",
+      "url": "https://rtfeldman.com/fp-vs-c",
+      "source": "Lobsters",
+      "published": "2026-10-23T11:37:22.171Z",
+      "discussion": "https://lobste.rs/s/7me8wm/how_close_can_pure_fp_get_c",
+      "topic": "performance",
+      "why": "A hands-on account of tuning a DEFLATE compressor in Roc, showing how close a functional language can get to hand-tuned C, with benchmark numbers.",
+      "pickedOn": "2026-10-25"
     }
   },
   "deepdiveSkips": {
@@ -1464,6 +1530,11 @@
     "https://www.figma.com/blog/lufthansa-figma-make": "2026-10-24",
     "https://quad9.net/news/blog/au-revoir-france": "2026-10-24",
     "https://unixdigest.com/tutorials/tell-your-network-to-explain-itself-and-then-some.html": "2026-10-24",
-    "https://duckdb.org/2026/10/21/announcing-duckdb-200.html": "2026-10-24"
+    "https://duckdb.org/2026/10/21/announcing-duckdb-200.html": "2026-10-24",
+    "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4": "2026-10-25",
+    "https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers": "2026-10-25",
+    "https://www.seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages": "2026-10-25",
+    "https://blog.fyralabs.com/debunking-faster-than-rust-malicious-benchmarks-in-tov": "2026-10-25",
+    "https://fishbowl.pastiche.org/2026/10/23/hibernate-origin-story": "2026-10-25"
   }
 }
