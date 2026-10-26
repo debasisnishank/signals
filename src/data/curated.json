@@ -479,9 +479,29 @@
     "https://news.ycombinator.com/item?id=50198675": {
       "why": "Enforces per-agent file, syscall and network policy in the kernel and checks policy changes against a formal model before applying, beyond ordinary container sandboxing.",
       "pickedOn": "2026-10-25"
+    },
+    "JustAResearcher/gpu-unlock-ada": {
+      "why": "A pre-driver kernel module that writes SM speed selectors before the NVIDIA driver binds, roughly doubling FP16/BF16 tensor throughput on Ada cards without re-patching each driver release.",
+      "pickedOn": "2026-10-26"
+    },
+    "mirkobrombin/raven": {
+      "why": "A from-scratch reimplementation of the Windows kernel and userland services, so Windows apps run natively on Linux without Wine DLL overrides or a VM; source-build only for now.",
+      "pickedOn": "2026-10-26"
+    },
+    "morganlinton/BeautifulRust": {
+      "why": "Three installable agent skills and a drop-in clippy config enforce idiomatic Rust when agents write, review or port code; examples compile on stable and lints were checked against clippy.",
+      "pickedOn": "2026-10-26"
+    },
+    "songjianyang/xss-audit": {
+      "why": "A 14-layer static XSS audit skill distilled from a year of bug-bounty work, covering SVG, mXSS, JSON-in-script and Trusted Types; it flags candidates rather than confirmed bugs.",
+      "pickedOn": "2026-10-26"
+    },
+    "ivarvong/lantern": {
+      "why": "A zero-dependency TypeScript port of manim's model that renders animations to SVG; each step is URL-addressable and has a text form and structured trace for agents.",
+      "pickedOn": "2026-10-26"
     }
   },
-  "updatedAt": "2026-10-25T06:31:54.627Z",
+  "updatedAt": "2026-10-26T06:31:37.469Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1357,6 +1377,26 @@
       "topic": "performance",
       "why": "A hands-on account of tuning a DEFLATE compressor in Roc, showing how close a functional language can get to hand-tuned C, with benchmark numbers.",
       "pickedOn": "2026-10-25"
+    },
+    "https://philipotoole.com/twelve-years-of-distributed-sqlite": {
+      "title": "Twelve years of distributed SQLite",
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "source": "Lobsters",
+      "published": "2026-10-24T06:41:52.308Z",
+      "discussion": "https://lobste.rs/s/rqefcw/twelve_years_distributed_sqlite",
+      "topic": "distributed",
+      "why": "A twelve-year retrospective on building rqlite, showing why putting a Raft log in front of SQLite makes a CP system and what that choice forced on reads and snapshots.",
+      "pickedOn": "2026-10-26"
+    },
+    "https://www.bitflux.ai/blog/memory-is-slow-part3": {
+      "title": "Memory is slow, Disk is fast",
+      "url": "https://www.bitflux.ai/blog/memory-is-slow-part3/",
+      "source": "Lobsters",
+      "published": "2026-10-23T20:44:07.681Z",
+      "discussion": "https://lobste.rs/s/pvfzhq/memory_is_slow_disk_is_fast",
+      "topic": "performance",
+      "why": "Benchmarks show a disk-based structure on NVMe beating an in-RAM AVL tree in both memory and speed, arguing hardware trends make textbook Big O intuitions misleading.",
+      "pickedOn": "2026-10-26"
     }
   },
   "deepdiveSkips": {
@@ -1535,6 +1575,8 @@
     "https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers": "2026-10-25",
     "https://www.seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages": "2026-10-25",
     "https://blog.fyralabs.com/debunking-faster-than-rust-malicious-benchmarks-in-tov": "2026-10-25",
-    "https://fishbowl.pastiche.org/2026/10/23/hibernate-origin-story": "2026-10-25"
+    "https://fishbowl.pastiche.org/2026/10/23/hibernate-origin-story": "2026-10-25",
+    "https://muratbuffalo.blogspot.com/2026/10/what-do-frontier-labs-actually-believe.html": "2026-10-26",
+    "https://danluu.com/ambitious": "2026-10-26"
   }
 }
