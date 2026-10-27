@@ -499,9 +499,29 @@
     "ivarvong/lantern": {
       "why": "A zero-dependency TypeScript port of manim's model that renders animations to SVG; each step is URL-addressable and has a text form and structured trace for agents.",
       "pickedOn": "2026-10-26"
+    },
+    "Charonyuu/whatsmyagentdoing": {
+      "why": "Reads local Claude/Codex/Gemini session files and renders each running agent live in an office view; runs straight from a clone with no npm install.",
+      "pickedOn": "2026-10-27"
+    },
+    "mizorewww/gdirect": {
+      "why": "Goes past a normal Drive client: it scans for reachable Google IPs and retries under a forged TLS SNI when the real one is reset, with resumable multi-connection transfers.",
+      "pickedOn": "2026-10-27"
+    },
+    "xMazaki/unbloat-android-tv": {
+      "why": "Ships ready-made installers for Windows, macOS and Linux that debloat a TV over ADB and swap in a custom launcher, with a documented reversible path rather than raw scripts.",
+      "pickedOn": "2026-10-27"
+    },
+    "Zagitta/gpu-unlock": {
+      "why": "A loadable kernel module, not a patched driver or UEFI app, that writes the speed selectors before nvidia binds, so it survives driver updates; README lists measured TFLOPS.",
+      "pickedOn": "2026-10-27"
+    },
+    "https://news.ycombinator.com/item?id=50231349": {
+      "why": "Runs after your AI reviewer, scoring merge risk per file from compiler-level static analysis so results are deterministic; CLI plus GitHub Action, open source.",
+      "pickedOn": "2026-10-27"
     }
   },
-  "updatedAt": "2026-10-26T06:31:37.469Z",
+  "updatedAt": "2026-10-27T06:31:46.281Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1577,6 +1597,8 @@
     "https://blog.fyralabs.com/debunking-faster-than-rust-malicious-benchmarks-in-tov": "2026-10-25",
     "https://fishbowl.pastiche.org/2026/10/23/hibernate-origin-story": "2026-10-25",
     "https://muratbuffalo.blogspot.com/2026/10/what-do-frontier-labs-actually-believe.html": "2026-10-26",
-    "https://danluu.com/ambitious": "2026-10-26"
+    "https://danluu.com/ambitious": "2026-10-26",
+    "https://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html": "2026-10-27",
+    "https://media.ccc.de/v/matrix-conference-2026-99070-a-vision-for-a-next-generation-timeline": "2026-10-27"
   }
 }
