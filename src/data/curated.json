@@ -519,9 +519,29 @@
     "https://news.ycombinator.com/item?id=50231349": {
       "why": "Runs after your AI reviewer, scoring merge risk per file from compiler-level static analysis so results are deterministic; CLI plus GitHub Action, open source.",
       "pickedOn": "2026-10-27"
+    },
+    "seedds/nxnative": {
+      "why": "Not an emulator: it recompiles the game's own code and maps Switch graphics onto Metal so titles run natively on the Apple chip; still needs a Mac toolchain and your own prod.keys.",
+      "pickedOn": "2026-10-28"
+    },
+    "https://news.ycombinator.com/item?id=50228115": {
+      "why": "Every key is its own 1u PCB with a RISC-V MCU and pogo pins on all sides, so the layout is physically rearrangeable and keys are reflashed from the main board. A DIY hardware build, not a kit.",
+      "pickedOn": "2026-10-28"
+    },
+    "ZiChuanLan/agent-purge": {
+      "why": "Unifies where eight coding agents each read their system prompt behind one persona file, with reversible modes and an off switch; the README reports measured before/after prompt sizes.",
+      "pickedOn": "2026-10-28"
+    },
+    "t3dotgg/tstack": {
+      "why": "A concrete set of named Claude Code/Codex skills (merge a PR unattended, multi-model review, take over someone's branch) that run today and fall back to native tools when T3 features are absent.",
+      "pickedOn": "2026-10-28"
+    },
+    "https://news.ycombinator.com/item?id=50253529": {
+      "why": "Lets Win16 binaries run directly on 64-bit Windows, which dropped the LDT support they need, using a CPU emulator plus wine's 16-to-32-bit relay layer; installs so old apps launch by double-click.",
+      "pickedOn": "2026-10-28"
     }
   },
-  "updatedAt": "2026-10-27T06:31:46.281Z",
+  "updatedAt": "2026-10-28T06:33:26.207Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1417,6 +1437,44 @@
       "topic": "performance",
       "why": "Benchmarks show a disk-based structure on NVMe beating an in-RAM AVL tree in both memory and speed, arguing hardware trends make textbook Big O intuitions misleading.",
       "pickedOn": "2026-10-26"
+    },
+    "https://blog.cloudflare.com/kv-cache-exposure-remediation": {
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "source": "Cloudflare",
+      "published": "2026-10-26T22:01:23.000Z",
+      "topic": "reliability",
+      "why": "A cross-tenant KV cache leak in long-context inference: how 155 responses exposed other customers' data, the containment timeline, and the SGLang fixes made afterward.",
+      "pickedOn": "2026-10-28"
+    },
+    "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4": {
+      "title": "Making Failure Diagnosis Reliable with Pensive AI",
+      "url": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4",
+      "source": "Netflix",
+      "published": "2026-10-26T17:04:57.000Z",
+      "topic": "reliability",
+      "why": "How Netflix made automated failure diagnosis dependable enough to trust during incidents, and the checks that keep its root-cause conclusions reliable.",
+      "pickedOn": "2026-10-28"
+    },
+    "https://www.benjoffe.com/fast-floordiv": {
+      "title": "A faster way to compute signed 64-bit floor division by constants",
+      "url": "https://www.benjoffe.com/fast-floordiv",
+      "source": "Lobsters",
+      "published": "2026-10-26T18:44:53.194Z",
+      "discussion": "https://lobste.rs/s/o5to4p/faster_way_compute_signed_64_bit_floor",
+      "topic": "performance",
+      "why": "A new algorithm for signed 64-bit floor division by compile-time constants, with per-divisor throughput and latency benchmarks across ARM and x86.",
+      "pickedOn": "2026-10-28"
+    },
+    "https://turtleware.eu/posts/heavenly-delights-of-hashing-numbers-under-equalp.html": {
+      "title": "Heavenly delights of hashing numbers under EQUALP",
+      "url": "https://turtleware.eu/posts/Heavenly-delights-of-hashing-numbers-under-EQUALP.html",
+      "source": "Lobsters",
+      "published": "2026-10-26T15:40:59.802Z",
+      "discussion": "https://lobste.rs/s/0ta2mv/heavenly_delights_hashing_numbers_under",
+      "topic": "performance",
+      "why": "How ECL made number hashing consistent under EQUALP so mathematically equal values collide correctly, with benchmarks of the resulting hash-table speedups.",
+      "pickedOn": "2026-10-28"
     }
   },
   "deepdiveSkips": {
@@ -1599,6 +1657,11 @@
     "https://muratbuffalo.blogspot.com/2026/10/what-do-frontier-labs-actually-believe.html": "2026-10-26",
     "https://danluu.com/ambitious": "2026-10-26",
     "https://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html": "2026-10-27",
-    "https://media.ccc.de/v/matrix-conference-2026-99070-a-vision-for-a-next-generation-timeline": "2026-10-27"
+    "https://media.ccc.de/v/matrix-conference-2026-99070-a-vision-for-a-next-generation-timeline": "2026-10-27",
+    "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks": "2026-10-28",
+    "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4": "2026-10-28",
+    "https://aws.amazon.com/blogs/architecture/data-governance-with-annotations-in-amazon-s3": "2026-10-28",
+    "https://aws.amazon.com/blogs/architecture/recommended-resilience-testing-in-the-next-generation-of-aws-resilience-hub": "2026-10-28",
+    "https://bruceediger.com/posts/contabo-crawler": "2026-10-28"
   }
 }
