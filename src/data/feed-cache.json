@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-10-28T06:33:59.848Z",
+    "fetchedAt": "2026-10-28T12:38:04.202Z",
     "repos": [
       {
         "name": "Gathin23/cleanyourtv",
         "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
         "language": "Python",
-        "stars": 42351,
+        "stars": 42971,
         "url": "https://github.com/Gathin23/cleanyourtv",
         "created": "2026-10-17T08:12:35Z",
         "topics": [
@@ -20,7 +20,7 @@
         "name": "deepseek-ai/DeepInfer",
         "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
         "language": "Python",
-        "stars": 23509,
+        "stars": 23664,
         "url": "https://github.com/deepseek-ai/DeepInfer",
         "created": "2026-10-16T07:47:23Z",
         "topics": [],
@@ -34,7 +34,7 @@
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 21575,
+        "stars": 21721,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -48,7 +48,7 @@
         "name": "Zagitta/gpu-unlock",
         "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
         "language": "C",
-        "stars": 11651,
+        "stars": 11947,
         "url": "https://github.com/Zagitta/gpu-unlock",
         "created": "2026-10-18T01:28:31Z",
         "topics": [],
@@ -62,7 +62,7 @@
         "name": "seedds/nxnative",
         "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
         "language": "Objective-C",
-        "stars": 8173,
+        "stars": 8506,
         "url": "https://github.com/seedds/nxnative",
         "created": "2026-10-13T05:20:14Z",
         "topics": []
@@ -71,7 +71,7 @@
         "name": "ly05010419/MacNativeGames",
         "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
         "language": "C",
-        "stars": 6103,
+        "stars": 6168,
         "url": "https://github.com/ly05010419/MacNativeGames",
         "created": "2026-10-17T19:52:00Z",
         "topics": [
@@ -85,7 +85,7 @@
         "name": "ARahim3/DigUp",
         "description": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
         "language": "Swift",
-        "stars": 5937,
+        "stars": 5954,
         "url": "https://github.com/ARahim3/DigUp",
         "created": "2026-10-08T20:37:51Z",
         "topics": [
@@ -99,7 +99,7 @@
         "name": "simbasjungles/free-my-tv",
         "description": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
         "language": "Java",
-        "stars": 5092,
+        "stars": 5139,
         "url": "https://github.com/simbasjungles/free-my-tv",
         "created": "2026-10-19T19:29:01Z",
         "topics": [
@@ -110,33 +110,28 @@
         ]
       },
       {
-        "name": "DLSS-5-Swaper-New/.github",
-        "description": "DLSS 5 Swapper is a specialized Windows utility for PC gaming enthusiasts interested in managing compatible graphics components and exploring rendering configurations.",
-        "language": null,
-        "stars": 1544,
-        "url": "https://github.com/DLSS-5-Swaper-New/.github",
-        "created": "2026-10-27T19:27:47Z",
-        "topics": [
-          "dlss",
-          "dlss-5-download",
-          "dlss-5-games",
-          "dlss-5-nvidia"
-        ]
-      },
-      {
         "name": "andyhuo520/digital-human-koubo",
         "description": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
         "language": "TypeScript",
-        "stars": 1170,
+        "stars": 1241,
         "url": "https://github.com/andyhuo520/digital-human-koubo",
         "created": "2026-10-26T04:34:09Z",
+        "topics": []
+      },
+      {
+        "name": "Motionsites-AI/claude-skill",
+        "description": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
+        "language": "Python",
+        "stars": 738,
+        "url": "https://github.com/Motionsites-AI/claude-skill",
+        "created": "2026-10-26T06:58:45Z",
         "topics": []
       },
       {
         "name": "yaojingang/GEOInflow",
         "description": "Self-hosted web and AI crawler analytics for Generative Engine Optimization (GEO). Track visitors, AI search referrals, crawl logs, content coverage, and conversions. Jointly published by 猎看科技 · 北京日报社智源GEO. MIT licensed.",
         "language": "TypeScript",
-        "stars": 643,
+        "stars": 670,
         "url": "https://github.com/yaojingang/GEOInflow",
         "created": "2026-10-26T03:12:45Z",
         "topics": [
@@ -147,42 +142,19 @@
         ]
       },
       {
-        "name": "Motionsites-AI/claude-skill",
-        "description": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
-        "language": "Python",
-        "stars": 606,
-        "url": "https://github.com/Motionsites-AI/claude-skill",
-        "created": "2026-10-26T06:58:45Z",
-        "topics": []
-      },
-      {
         "name": "blakeandersonw/ai-app-playbook",
         "description": "How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.",
         "language": "TypeScript",
-        "stars": 515,
+        "stars": 548,
         "url": "https://github.com/blakeandersonw/ai-app-playbook",
         "created": "2026-10-26T16:07:05Z",
         "topics": []
       },
       {
-        "name": "martinkeith700/ruyiJS",
-        "description": "Run any site  from Python with the real mini AI headless browser , bypass any security anti-crawler , get the data and token you want",
-        "language": "C++",
-        "stars": 469,
-        "url": "https://github.com/martinkeith700/ruyiJS",
-        "created": "2026-10-26T13:08:12Z",
-        "topics": [
-          "anti-bot",
-          "automation",
-          "browser",
-          "firefox"
-        ]
-      },
-      {
         "name": "deepopen-com/deepopen-3d-webs",
         "description": "Image-driven 3D scene generation system. Users provide a reference image and prompt words, and the system generates previewable, replayable, and traceable scene results according to the camera trajectory; official 3D demonstration assets allow direct viewing of color/depth animations and Gaussian point clouds in the browser 图像驱动的三维场景生成系统",
         "language": "Python",
-        "stars": 412,
+        "stars": 450,
         "url": "https://github.com/deepopen-com/deepopen-3d-webs",
         "created": "2026-10-26T12:13:47Z",
         "topics": [
@@ -203,19 +175,47 @@
         ]
       },
       {
+        "name": "ChannelCooperStart/capri-ai",
+        "description": "🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
+        "language": null,
+        "stars": 309,
+        "url": "https://github.com/ChannelCooperStart/capri-ai",
+        "created": "2026-10-27T22:00:47Z",
+        "topics": [
+          "ai-agent",
+          "ai-agents",
+          "ai-assistants",
+          "antigravity"
+        ]
+      },
+      {
         "name": "piermark/omarchytv",
         "description": "Omarchy-styled tiling launcher ecosystem for Android TV, Google TV, LG webOS, Android Mobile & Linux/macOS/Omarchy PCs",
         "language": "Java",
-        "stars": 290,
+        "stars": 304,
         "url": "https://github.com/piermark/omarchytv",
         "created": "2026-10-26T08:48:20Z",
         "topics": []
       },
       {
+        "name": "vaishantsah/watson-AI-osint-all-in-one",
+        "description": "Watson — free OSINT tool for Windows: people search across 3,100+ public sites by nickname, email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup, social media search. No account, no tracking. Site: watsonfind.icu",
+        "language": "TypeScript",
+        "stars": 288,
+        "url": "https://github.com/vaishantsah/watson-AI-osint-all-in-one",
+        "created": "2026-10-28T00:09:33Z",
+        "topics": [
+          "cybersecurity",
+          "desktop-app",
+          "digital-footprint",
+          "electron"
+        ]
+      },
+      {
         "name": "patch-gg/anymove",
         "description": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
         "language": "Python",
-        "stars": 237,
+        "stars": 280,
         "url": "https://github.com/patch-gg/anymove",
         "created": "2026-10-27T08:00:42Z",
         "topics": [
@@ -229,9 +229,18 @@
     "posts": [
       {
         "source": "showhn",
+        "title": "Specification First Agentic Development Plugin and Prove",
+        "url": "https://spec-first.dev/",
+        "points": 31,
+        "comments": 28,
+        "discussion": "https://news.ycombinator.com/item?id=50260571",
+        "created": "2026-10-27T15:12:20.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
         "url": "https://github.com/FrigadeHQ/hob",
-        "points": 168,
+        "points": 170,
         "comments": 42,
         "discussion": "https://news.ycombinator.com/item?id=50246238",
         "created": "2026-10-26T16:12:29.000Z"
@@ -249,7 +258,7 @@
         "source": "showhn",
         "title": "Freehire, open-source search 3M+ tech jobs from company career boards",
         "url": "https://freehire.me/",
-        "points": 36,
+        "points": 37,
         "comments": 9,
         "discussion": "https://news.ycombinator.com/item?id=50237813",
         "created": "2026-10-26T01:13:43.000Z"
@@ -259,7 +268,7 @@
         "title": "Glider 4.0 Unofficial Web Edition (Mac game port)",
         "url": "https://dbohdan.github.io/glider/",
         "points": 45,
-        "comments": 15,
+        "comments": 16,
         "discussion": "https://news.ycombinator.com/item?id=50237019",
         "created": "2026-10-25T23:18:42.000Z"
       },
@@ -273,20 +282,11 @@
         "created": "2026-10-25T15:05:39.000Z"
       },
       {
-        "source": "showhn",
-        "title": "Farol – A risk map of a pull request for the person who approves it",
-        "url": "https://github.com/winnin/farol",
-        "points": 60,
-        "comments": 43,
-        "discussion": "https://news.ycombinator.com/item?id=50231349",
-        "created": "2026-10-25T13:28:06.000Z"
-      },
-      {
         "source": "launchhn",
         "title": "Alter (YC S25) – Access control for multi-user agents",
         "url": "https://alterauth.com/",
         "points": 69,
-        "comments": 57,
+        "comments": 59,
         "discussion": "https://news.ycombinator.com/item?id=50176908",
         "created": "2026-10-21T06:42:12.000Z"
       },
@@ -316,6 +316,15 @@
         "comments": 22,
         "discussion": "https://news.ycombinator.com/item?id=50073471",
         "created": "2026-10-13T15:41:00.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "Moxnox 1.0: NT-Like, POSIX-Compatible OS Running Atop Btrfs",
+        "url": "https://github.com/maharmstone/moxnox",
+        "points": 82,
+        "comments": 19,
+        "discussion": "https://news.ycombinator.com/item?id=50267569",
+        "created": "2026-10-27T23:53:41.000Z"
       },
       {
         "source": "lobsters",
@@ -2918,7 +2927,7 @@
         "name": "wheresryan22/anatomy",
         "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
         "language": "JavaScript",
-        "stars": 21575,
+        "stars": 21721,
         "url": "https://github.com/wheresryan22/anatomy",
         "created": "2026-10-08T10:12:49Z",
         "topics": [
@@ -3485,7 +3494,7 @@
         "name": "Gathin23/cleanyourtv",
         "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
         "language": "Python",
-        "stars": 42351,
+        "stars": 42971,
         "url": "https://github.com/Gathin23/cleanyourtv",
         "created": "2026-10-17T08:12:35Z",
         "topics": [
@@ -3531,7 +3540,7 @@
         "name": "simbasjungles/free-my-tv",
         "description": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
         "language": "Java",
-        "stars": 5092,
+        "stars": 5139,
         "url": "https://github.com/simbasjungles/free-my-tv",
         "created": "2026-10-19T19:29:01Z",
         "topics": [
@@ -3668,7 +3677,7 @@
         "name": "deepseek-ai/DeepInfer",
         "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
         "language": "Python",
-        "stars": 23509,
+        "stars": 23664,
         "url": "https://github.com/deepseek-ai/DeepInfer",
         "created": "2026-10-16T07:47:23Z",
         "topics": [],
@@ -3801,7 +3810,7 @@
         "name": "ARahim3/DigUp",
         "description": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
         "language": "Swift",
-        "stars": 5937,
+        "stars": 5954,
         "url": "https://github.com/ARahim3/DigUp",
         "created": "2026-10-08T20:37:51Z",
         "topics": [
@@ -4303,7 +4312,7 @@
         "name": "Zagitta/gpu-unlock",
         "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
         "language": "C",
-        "stars": 11651,
+        "stars": 11947,
         "url": "https://github.com/Zagitta/gpu-unlock",
         "created": "2026-10-18T01:28:31Z",
         "topics": [],
@@ -4412,7 +4421,7 @@
         "name": "andyhuo520/digital-human-koubo",
         "description": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
         "language": "TypeScript",
-        "stars": 1170,
+        "stars": 1241,
         "url": "https://github.com/andyhuo520/digital-human-koubo",
         "created": "2026-10-26T04:34:09Z",
         "topics": [],
@@ -4441,7 +4450,7 @@
         "name": "yaojingang/GEOInflow",
         "description": "Self-hosted web and AI crawler analytics for Generative Engine Optimization (GEO). Track visitors, AI search referrals, crawl logs, content coverage, and conversions. Jointly published by 猎看科技 · 北京日报社智源GEO. MIT licensed.",
         "language": "TypeScript",
-        "stars": 643,
+        "stars": 670,
         "url": "https://github.com/yaojingang/GEOInflow",
         "created": "2026-10-26T03:12:45Z",
         "topics": [
@@ -4501,7 +4510,7 @@
         "name": "seedds/nxnative",
         "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
         "language": "Objective-C",
-        "stars": 8173,
+        "stars": 8506,
         "url": "https://github.com/seedds/nxnative",
         "created": "2026-10-13T05:20:14Z",
         "topics": [],
@@ -4513,7 +4522,7 @@
         "name": "ly05010419/MacNativeGames",
         "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
         "language": "C",
-        "stars": 6103,
+        "stars": 6168,
         "url": "https://github.com/ly05010419/MacNativeGames",
         "created": "2026-10-17T19:52:00Z",
         "topics": [
@@ -4547,7 +4556,7 @@
         "name": "Motionsites-AI/claude-skill",
         "description": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
         "language": "Python",
-        "stars": 606,
+        "stars": 738,
         "url": "https://github.com/Motionsites-AI/claude-skill",
         "created": "2026-10-26T06:58:45Z",
         "topics": [],
@@ -4559,7 +4568,7 @@
         "name": "blakeandersonw/ai-app-playbook",
         "description": "How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.",
         "language": "TypeScript",
-        "stars": 515,
+        "stars": 548,
         "url": "https://github.com/blakeandersonw/ai-app-playbook",
         "created": "2026-10-26T16:07:05Z",
         "topics": [],
@@ -4571,7 +4580,7 @@
         "name": "deepopen-com/deepopen-3d-webs",
         "description": "Image-driven 3D scene generation system. Users provide a reference image and prompt words, and the system generates previewable, replayable, and traceable scene results according to the camera trajectory; official 3D demonstration assets allow direct viewing of color/depth animations and Gaussian point clouds in the browser 图像驱动的三维场景生成系统",
         "language": "Python",
-        "stars": 412,
+        "stars": 450,
         "url": "https://github.com/deepopen-com/deepopen-3d-webs",
         "created": "2026-10-26T12:13:47Z",
         "topics": [
@@ -4587,7 +4596,7 @@
         "name": "piermark/omarchytv",
         "description": "Omarchy-styled tiling launcher ecosystem for Android TV, Google TV, LG webOS, Android Mobile & Linux/macOS/Omarchy PCs",
         "language": "Java",
-        "stars": 290,
+        "stars": 304,
         "url": "https://github.com/piermark/omarchytv",
         "created": "2026-10-26T08:48:20Z",
         "topics": [],
@@ -4599,7 +4608,7 @@
         "name": "patch-gg/anymove",
         "description": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
         "language": "Python",
-        "stars": 237,
+        "stars": 280,
         "url": "https://github.com/patch-gg/anymove",
         "created": "2026-10-27T08:00:42Z",
         "topics": [
@@ -4611,6 +4620,40 @@
         "firstSeen": "2026-10-28",
         "lastSeen": "2026-10-28",
         "starsAtFirstSeen": 237
+      },
+      "ChannelCooperStart/capri-ai": {
+        "name": "ChannelCooperStart/capri-ai",
+        "description": "🌃 Capri — Edgerunners-inspired AI agent for your desktop. Works with Claude Code, Codex, Antigravity & more.",
+        "language": null,
+        "stars": 309,
+        "url": "https://github.com/ChannelCooperStart/capri-ai",
+        "created": "2026-10-27T22:00:47Z",
+        "topics": [
+          "ai-agent",
+          "ai-agents",
+          "ai-assistants",
+          "antigravity"
+        ],
+        "firstSeen": "2026-10-28",
+        "lastSeen": "2026-10-28",
+        "starsAtFirstSeen": 309
+      },
+      "vaishantsah/watson-AI-osint-all-in-one": {
+        "name": "vaishantsah/watson-AI-osint-all-in-one",
+        "description": "Watson — free OSINT tool for Windows: people search across 3,100+ public sites by nickname, email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup, social media search. No account, no tracking. Site: watsonfind.icu",
+        "language": "TypeScript",
+        "stars": 288,
+        "url": "https://github.com/vaishantsah/watson-AI-osint-all-in-one",
+        "created": "2026-10-28T00:09:33Z",
+        "topics": [
+          "cybersecurity",
+          "desktop-app",
+          "digital-footprint",
+          "electron"
+        ],
+        "firstSeen": "2026-10-28",
+        "lastSeen": "2026-10-28",
+        "starsAtFirstSeen": 288
       }
     },
     "posts": {
@@ -6940,7 +6983,7 @@
         "title": "Alter (YC S25) – Access control for multi-user agents",
         "url": "https://alterauth.com/",
         "points": 69,
-        "comments": 57,
+        "comments": 59,
         "discussion": "https://news.ycombinator.com/item?id=50176908",
         "created": "2026-10-21T06:42:12.000Z",
         "firstSeen": "2026-10-22",
@@ -7269,7 +7312,7 @@
         "source": "showhn",
         "title": "Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
         "url": "https://github.com/FrigadeHQ/hob",
-        "points": 168,
+        "points": 170,
         "comments": 42,
         "discussion": "https://news.ycombinator.com/item?id=50246238",
         "created": "2026-10-26T16:12:29.000Z",
@@ -7281,7 +7324,7 @@
         "title": "Glider 4.0 Unofficial Web Edition (Mac game port)",
         "url": "https://dbohdan.github.io/glider/",
         "points": 45,
-        "comments": 15,
+        "comments": 16,
         "discussion": "https://news.ycombinator.com/item?id=50237019",
         "created": "2026-10-25T23:18:42.000Z",
         "firstSeen": "2026-10-27",
@@ -7335,94 +7378,137 @@
         "source": "showhn",
         "title": "Freehire, open-source search 3M+ tech jobs from company career boards",
         "url": "https://freehire.me/",
-        "points": 36,
+        "points": 37,
         "comments": 9,
         "discussion": "https://news.ycombinator.com/item?id=50237813",
         "created": "2026-10-26T01:13:43.000Z",
         "firstSeen": "2026-10-27",
         "lastSeen": "2026-10-28"
+      },
+      "https://news.ycombinator.com/item?id=50260571": {
+        "source": "showhn",
+        "title": "Specification First Agentic Development Plugin and Prove",
+        "url": "https://spec-first.dev/",
+        "points": 31,
+        "comments": 28,
+        "discussion": "https://news.ycombinator.com/item?id=50260571",
+        "created": "2026-10-27T15:12:20.000Z",
+        "firstSeen": "2026-10-28",
+        "lastSeen": "2026-10-28"
+      },
+      "https://news.ycombinator.com/item?id=50267569": {
+        "source": "hn",
+        "title": "Moxnox 1.0: NT-Like, POSIX-Compatible OS Running Atop Btrfs",
+        "url": "https://github.com/maharmstone/moxnox",
+        "points": 82,
+        "comments": 19,
+        "discussion": "https://news.ycombinator.com/item?id=50267569",
+        "created": "2026-10-27T23:53:41.000Z",
+        "firstSeen": "2026-10-28",
+        "lastSeen": "2026-10-28"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-10-28T06:33:59.848Z",
+    "fetchedAt": "2026-10-28T12:38:04.202Z",
     "hn": [
       {
         "title": "Ghostty 1.4",
         "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
-        "points": 905,
-        "comments": 281,
+        "points": 1094,
+        "comments": 349,
         "discussion": "https://news.ycombinator.com/item?id=50261998"
       },
       {
         "title": "US Government is hiding a secret court ruling about how it spies on Americans",
         "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
-        "points": 889,
-        "comments": 317,
+        "points": 980,
+        "comments": 377,
         "discussion": "https://news.ycombinator.com/item?id=50259604"
       },
       {
         "title": "Genie 4",
         "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-        "points": 825,
-        "comments": 493,
+        "points": 927,
+        "comments": 536,
         "discussion": "https://news.ycombinator.com/item?id=50261319"
       },
       {
         "title": "Python's experimental JIT to be removed",
         "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
-        "points": 478,
-        "comments": 254,
+        "points": 531,
+        "comments": 289,
         "discussion": "https://news.ycombinator.com/item?id=50257419"
+      },
+      {
+        "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+        "url": "https://www.brangus.io/survival-llm",
+        "points": 393,
+        "comments": 148,
+        "discussion": "https://news.ycombinator.com/item?id=50264853"
       },
       {
         "title": "New 14‑inch MacBook Pro with M6",
         "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-        "points": 330,
-        "comments": 419,
+        "points": 378,
+        "comments": 522,
         "discussion": "https://news.ycombinator.com/item?id=50261352"
       },
       {
         "title": "New iMac with M6",
         "url": "https://www.apple.com/imac/",
-        "points": 323,
-        "comments": 400,
+        "points": 347,
+        "comments": 436,
         "discussion": "https://news.ycombinator.com/item?id=50258538"
       },
       {
-        "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-        "url": "https://www.brangus.io/survival-llm",
-        "points": 284,
-        "comments": 123,
-        "discussion": "https://news.ycombinator.com/item?id=50264853"
+        "title": "Git for the US Code",
+        "url": "https://lexifina.com/blog/git-for-the-us-code",
+        "points": 311,
+        "comments": 161,
+        "discussion": "https://news.ycombinator.com/item?id=50268380"
       },
       {
         "title": "Tailscale SSH: Investigation and remediation update",
         "url": "https://tailscale.com/ssh-investigation-update",
-        "points": 255,
-        "comments": 127,
+        "points": 308,
+        "comments": 168,
         "discussion": "https://news.ycombinator.com/item?id=50264857"
       },
       {
-        "title": "Early progress on accelerating drug development with Claude",
-        "url": "https://www.anthropic.com/research/early-progress-drug-development",
-        "points": 197,
-        "comments": 173,
-        "discussion": "https://news.ycombinator.com/item?id=50265609"
-      },
-      {
-        "title": "Classification of Finite Simple Groups Formalized in Lean",
-        "url": "https://cfsg.axiommath.ai/",
-        "points": 196,
-        "comments": 52,
-        "discussion": "https://news.ycombinator.com/item?id=50261647"
+        "title": "Ink droplets in motion snag top prize in Nikon Small World contest",
+        "url": "https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/",
+        "points": 278,
+        "comments": 44,
+        "discussion": "https://news.ycombinator.com/item?id=50234796"
       }
     ],
     "lobsters": [
       {
+        "title": "This is not sustainable",
+        "url": "https://www.netmeister.org/blog/defense-ddos.html",
+        "points": 59,
+        "comments": 8,
+        "discussion": "https://lobste.rs/s/cpaibp/this_is_not_sustainable",
+        "tags": [
+          "security"
+        ]
+      },
+      {
+        "title": "Apple's git still trusts the compromised eMudhra certificates",
+        "url": "https://emudhra.we-have-a-problem.com/apple.html",
+        "points": 15,
+        "comments": 3,
+        "discussion": "https://lobste.rs/s/xybmsj/apple_s_git_still_trusts_compromised",
+        "tags": [
+          "cryptography",
+          "mac"
+        ]
+      },
+      {
         "title": "A fast and secure tar parser for the Rust ecosystem",
         "url": "https://astral.sh/blog/tar-codec",
-        "points": 53,
+        "points": 70,
         "comments": 10,
         "discussion": "https://lobste.rs/s/q7arzy/fast_secure_tar_parser_for_rust_ecosystem",
         "tags": [
@@ -7433,8 +7519,8 @@
       {
         "title": "Four Months of Zig",
         "url": "https://gracefulliberty.com/articles/four-months-of-zig/",
-        "points": 48,
-        "comments": 10,
+        "points": 59,
+        "comments": 11,
         "discussion": "https://lobste.rs/s/qr59sa/four_months_zig",
         "tags": [
           "zig"
@@ -7443,18 +7529,38 @@
       {
         "title": "Ghostty 1.4.0",
         "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
-        "points": 37,
-        "comments": 1,
+        "points": 60,
+        "comments": 4,
         "discussion": "https://lobste.rs/s/o6vpqb/ghostty_1_4_0",
         "tags": [
           "release"
         ]
       },
       {
+        "title": "AlpineBSD",
+        "url": "https://wiki.alpinebsd.org/",
+        "points": 12,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/yxuvie/alpinebsd",
+        "tags": [
+          "netbsd"
+        ]
+      },
+      {
+        "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+        "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+        "points": 7,
+        "comments": 3,
+        "discussion": "https://lobste.rs/s/0gomue/code_execution_flaw_uefi_firmware",
+        "tags": [
+          "security"
+        ]
+      },
+      {
         "title": "Python's experimental JIT to be removed",
         "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
-        "points": 88,
-        "comments": 20,
+        "points": 94,
+        "comments": 25,
         "discussion": "https://lobste.rs/s/cajuq6/python_s_experimental_jit_be_removed",
         "tags": [
           "python"
@@ -7463,7 +7569,7 @@
       {
         "title": "1,447 emoji? We'll do it live",
         "url": "https://planetpeanut.studio/post/2026/10/27/pidgin-emoji-twitch",
-        "points": 33,
+        "points": 38,
         "comments": 2,
         "discussion": "https://lobste.rs/s/qd0hc9/1_447_emoji_we_ll_do_it_live",
         "tags": [
@@ -7471,57 +7577,15 @@
         ]
       },
       {
-        "title": "Shitty Screenshare",
-        "url": "http://shittyscreenshare.com",
-        "points": 75,
-        "comments": 32,
-        "discussion": "https://lobste.rs/s/cxxcik/shitty_screenshare",
-        "tags": [
-          "browsers",
-          "web"
-        ]
-      },
-      {
-        "title": "This is not sustainable",
-        "url": "https://www.netmeister.org/blog/defense-ddos.html",
-        "points": 8,
+        "title": "The Benchmarking Crisis",
+        "url": "http://databasearchitects.blogspot.com/2026/10/the-benchmarking-crisis.html",
+        "points": 7,
         "comments": 2,
-        "discussion": "https://lobste.rs/s/cpaibp/this_is_not_sustainable",
+        "discussion": "https://lobste.rs/s/smtpje/benchmarking_crisis",
         "tags": [
-          "security"
-        ]
-      },
-      {
-        "title": "Compile-Time Dependent Types",
-        "url": "https://thenumb.at/Syl-Intro/",
-        "points": 24,
-        "comments": 9,
-        "discussion": "https://lobste.rs/s/d09iy3/compile_time_dependent_types",
-        "tags": [
-          "ml",
-          "plt"
-        ]
-      },
-      {
-        "title": "A stackless floodfill automation (2023)",
-        "url": "https://t3x.org/files/floodfill.pdf",
-        "points": 24,
-        "comments": 2,
-        "discussion": "https://lobste.rs/s/tp0zlk/stackless_floodfill_automation_2023",
-        "tags": [
-          "compsci",
-          "pdf"
-        ]
-      },
-      {
-        "title": "Filian, Fil-C binaries on Debian",
-        "url": "https://cr.yp.to/2025/fil-c.html",
-        "points": 19,
-        "comments": 1,
-        "discussion": "https://lobste.rs/s/rs6ce2/filian_fil_c_binaries_on_debian",
-        "tags": [
-          "c",
-          "linux"
+          "ai",
+          "databases",
+          "performance"
         ]
       }
     ],
@@ -7529,8 +7593,8 @@
       {
         "title": "Stratagems #32: The AI Logged a Withdrawal. P Took It as Proof.",
         "url": "https://dev.to/xulingfeng/stratagems-32-the-ai-logged-a-withdrawal-p-took-it-as-proof-2jo2",
-        "points": 78,
-        "comments": 23,
+        "points": 95,
+        "comments": 31,
         "discussion": "https://dev.to/xulingfeng/stratagems-32-the-ai-logged-a-withdrawal-p-took-it-as-proof-2jo2",
         "tags": [
           "ai",
@@ -7541,8 +7605,8 @@
       {
         "title": "Your DEV posts have a beautiful new share card ✨",
         "url": "https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8",
-        "points": 61,
-        "comments": 13,
+        "points": 69,
+        "comments": 16,
         "discussion": "https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8",
         "tags": [
           "devto",
@@ -7551,70 +7615,10 @@
         ]
       },
       {
-        "title": "I deleted the mail server from my VPS and got 1.2 GB of RAM back",
-        "url": "https://dev.to/remdore/i-deleted-the-mail-server-from-my-vps-and-got-12-gb-of-ram-back-cdc",
-        "points": 22,
-        "comments": 1,
-        "discussion": "https://dev.to/remdore/i-deleted-the-mail-server-from-my-vps-and-got-12-gb-of-ram-back-cdc",
-        "tags": [
-          "django",
-          "email",
-          "selfhosted"
-        ]
-      },
-      {
-        "title": "How long it takes to move an IP address between two servers",
-        "url": "https://dev.to/remdore/how-long-it-takes-to-move-an-ip-address-between-two-servers-42g9",
-        "points": 13,
-        "comments": 1,
-        "discussion": "https://dev.to/remdore/how-long-it-takes-to-move-an-ip-address-between-two-servers-42g9",
-        "tags": [
-          "digitalocean",
-          "networking",
-          "devops"
-        ]
-      },
-      {
-        "title": "Your \"use server\" Functions Are Public HTTP Endpoints (And Middleware Won't Save You)",
-        "url": "https://dev.to/johnnylemonny/your-use-server-functions-are-public-http-endpoints-and-middleware-wont-save-you-18ib",
-        "points": 13,
-        "comments": 11,
-        "discussion": "https://dev.to/johnnylemonny/your-use-server-functions-are-public-http-endpoints-and-middleware-wont-save-you-18ib",
-        "tags": [
-          "webdev",
-          "javascript",
-          "react"
-        ]
-      },
-      {
-        "title": "Dev log #27 Deep in the review queue: Hardening libp2p across Python and .NET",
-        "url": "https://dev.to/yashksaini/dev-log-deep-in-the-review-queue-hardening-libp2p-across-python-and-net-357l",
-        "points": 11,
-        "comments": 3,
-        "discussion": "https://dev.to/yashksaini/dev-log-deep-in-the-review-queue-hardening-libp2p-across-python-and-net-357l",
-        "tags": [
-          "networking",
-          "discuss",
-          "dotnet"
-        ]
-      },
-      {
-        "title": "AI wrote the first 90% of my app in an afternoon. The last 10% took three weeks.",
-        "url": "https://dev.to/infoinlet1/ai-wrote-the-first-90-of-my-app-in-an-afternoon-the-last-10-took-three-weeks-33ij",
-        "points": 11,
-        "comments": 3,
-        "discussion": "https://dev.to/infoinlet1/ai-wrote-the-first-90-of-my-app-in-an-afternoon-the-last-10-took-three-weeks-33ij",
-        "tags": [
-          "ai",
-          "webdev",
-          "career"
-        ]
-      },
-      {
         "title": "Not the End, but a Shift: How AI Is Pushing Computer Science Toward Deeper Engineering",
         "url": "https://dev.to/james_anderson_h/not-the-end-but-a-shift-how-ai-is-pushing-computer-science-toward-deeper-engineering-47mk",
-        "points": 11,
-        "comments": 0,
+        "points": 19,
+        "comments": 4,
         "discussion": "https://dev.to/james_anderson_h/not-the-end-but-a-shift-how-ai-is-pushing-computer-science-toward-deeper-engineering-47mk",
         "tags": [
           "career",
@@ -7623,33 +7627,93 @@
         ]
       },
       {
-        "title": "Human-in-the-Loop Agents in Pure Dart: Genkit, MCP and an Approval Gate on Cloud Run",
-        "url": "https://dev.to/gde/human-in-the-loop-agents-in-pure-dart-genkit-mcp-and-an-approval-gate-on-cloud-run-4gmc",
-        "points": 8,
-        "comments": 4,
-        "discussion": "https://dev.to/gde/human-in-the-loop-agents-in-pure-dart-genkit-mcp-and-an-approval-gate-on-cloud-run-4gmc",
+        "title": "Your \"use server\" Functions Are Public HTTP Endpoints (And Middleware Won't Save You)",
+        "url": "https://dev.to/johnnylemonny/your-use-server-functions-are-public-http-endpoints-and-middleware-wont-save-you-18ib",
+        "points": 17,
+        "comments": 12,
+        "discussion": "https://dev.to/johnnylemonny/your-use-server-functions-are-public-http-endpoints-and-middleware-wont-save-you-18ib",
         "tags": [
-          "dart",
-          "flutter",
-          "ai"
+          "webdev",
+          "javascript",
+          "react"
         ]
       },
       {
-        "title": "What are you doing for halloween this year",
-        "url": "https://dev.to/dev2023-op/what-are-you-doing-for-halloween-this-year-3mbe",
-        "points": 8,
+        "title": "Your SaaS Has 10,000 Users. Who Removes Their Access When They Leave?",
+        "url": "https://dev.to/hadil/your-saas-has-10000-users-who-removes-their-access-when-they-leave-2676",
+        "points": 15,
         "comments": 2,
-        "discussion": "https://dev.to/dev2023-op/what-are-you-doing-for-halloween-this-year-3mbe",
+        "discussion": "https://dev.to/hadil/your-saas-has-10000-users-who-removes-their-access-when-they-leave-2676",
         "tags": [
-          "devdiscuss",
-          "devto",
-          "halloween"
+          "authentication",
+          "keycloak",
+          "scim"
+        ]
+      },
+      {
+        "title": "Lessons Learned: Wifi Server Disaster",
+        "url": "https://dev.to/annavi11arrea1/lessons-learned-wifi-server-disaster-16oc",
+        "points": 12,
+        "comments": 6,
+        "discussion": "https://dev.to/annavi11arrea1/lessons-learned-wifi-server-disaster-16oc",
+        "tags": [
+          "beginners",
+          "webdev",
+          "learning"
+        ]
+      },
+      {
+        "title": "Dev log #27 Deep in the review queue: Hardening libp2p across Python and .NET",
+        "url": "https://dev.to/yashksaini/dev-log-deep-in-the-review-queue-hardening-libp2p-across-python-and-net-357l",
+        "points": 11,
+        "comments": 4,
+        "discussion": "https://dev.to/yashksaini/dev-log-deep-in-the-review-queue-hardening-libp2p-across-python-and-net-357l",
+        "tags": [
+          "networking",
+          "discuss",
+          "dotnet"
+        ]
+      },
+      {
+        "title": "What Hermes is fast at, and what it isn't",
+        "url": "https://dev.to/remdore/what-hermes-is-fast-at-and-what-it-isnt-39gn",
+        "points": 10,
+        "comments": 0,
+        "discussion": "https://dev.to/remdore/what-hermes-is-fast-at-and-what-it-isnt-39gn",
+        "tags": [
+          "reactnative",
+          "javascript",
+          "mobile"
+        ]
+      },
+      {
+        "title": "The Rootkit Exorcist: Summoning Local AI to Investigate Suspicious Scripts 👻",
+        "url": "https://dev.to/data_secchronicles/the-rootkit-exorcist-summoning-local-ai-to-investigate-suspicious-scripts-an1",
+        "points": 7,
+        "comments": 0,
+        "discussion": "https://dev.to/data_secchronicles/the-rootkit-exorcist-summoning-local-ai-to-investigate-suspicious-scripts-an1",
+        "tags": [
+          "devchallenge",
+          "hf26challenge",
+          "opensource"
+        ]
+      },
+      {
+        "title": "Give Your Desktop App a Useful Title Bar and Real Tools",
+        "url": "https://dev.to/codenameone/give-your-desktop-app-a-useful-title-bar-and-real-tools-199h",
+        "points": 7,
+        "comments": 0,
+        "discussion": "https://dev.to/codenameone/give-your-desktop-app-a-useful-title-bar-and-real-tools-199h",
+        "tags": [
+          "java",
+          "mobile",
+          "android"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-10-28T06:33:59.848Z",
+    "fetchedAt": "2026-10-28T12:38:04.202Z",
     "candidates": {
       "https://blog.cloudflare.com/yandex-outage": {
         "source": "Cloudflare",
