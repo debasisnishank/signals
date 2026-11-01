@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-10-31T12:08:18.749Z",
+    "fetchedAt": "2026-11-01T13:08:01.224Z",
     "repos": [
       {
         "name": "Gathin23/cleanyourtv",
         "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
         "language": "Python",
-        "stars": 47318,
+        "stars": 48492,
         "url": "https://github.com/Gathin23/cleanyourtv",
         "created": "2026-10-17T08:12:35Z",
         "topics": [
@@ -20,7 +20,7 @@
         "name": "deepseek-ai/DeepInfer",
         "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
         "language": "Python",
-        "stars": 24583,
+        "stars": 24761,
         "url": "https://github.com/deepseek-ai/DeepInfer",
         "created": "2026-10-16T07:47:23Z",
         "topics": [],
@@ -34,7 +34,7 @@
         "name": "Zagitta/gpu-unlock",
         "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
         "language": "C",
-        "stars": 13635,
+        "stars": 13997,
         "url": "https://github.com/Zagitta/gpu-unlock",
         "created": "2026-10-18T01:28:31Z",
         "topics": [],
@@ -48,7 +48,7 @@
         "name": "seedds/nxnative",
         "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
         "language": "Python",
-        "stars": 10432,
+        "stars": 10797,
         "url": "https://github.com/seedds/nxnative",
         "created": "2026-10-13T05:20:14Z",
         "topics": []
@@ -57,7 +57,7 @@
         "name": "ly05010419/MacNativeGames",
         "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
         "language": "C",
-        "stars": 6637,
+        "stars": 6735,
         "url": "https://github.com/ly05010419/MacNativeGames",
         "created": "2026-10-17T19:52:00Z",
         "topics": [
@@ -71,7 +71,7 @@
         "name": "HeyPuter/everything",
         "description": "We're rebuilding and open-sourcing the world’s software from scratch.",
         "language": "JavaScript",
-        "stars": 6039,
+        "stars": 6191,
         "url": "https://github.com/HeyPuter/everything",
         "created": "2026-10-13T16:18:22Z",
         "topics": [
@@ -90,7 +90,7 @@
         "name": "simbasjungles/free-my-tv",
         "description": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
         "language": "Java",
-        "stars": 5523,
+        "stars": 5605,
         "url": "https://github.com/simbasjungles/free-my-tv",
         "created": "2026-10-19T19:29:01Z",
         "topics": [
@@ -101,79 +101,19 @@
         ]
       },
       {
-        "name": "jhaizhou-ops/d2r-mobile",
-        "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
-        "language": "C",
-        "stars": 4918,
-        "url": "https://github.com/jhaizhou-ops/d2r-mobile",
-        "created": "2026-10-12T08:41:19Z",
-        "topics": [
-          "android",
-          "compatibility-layer",
-          "diablo-2-resurrected",
-          "diablo2"
-        ]
-      },
-      {
-        "name": "heydamir/unslop",
-        "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-        "language": "JavaScript",
-        "stars": 2339,
-        "url": "https://github.com/heydamir/unslop",
-        "created": "2026-10-29T15:41:21Z",
-        "topics": []
-      },
-      {
-        "name": "wangzan101/Mika",
-        "description": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
-        "language": "Kotlin",
-        "stars": 2134,
-        "url": "https://github.com/wangzan101/Mika",
-        "created": "2026-10-29T14:34:07Z",
-        "topics": [
-          "accessibility",
-          "ai-agent",
-          "android",
-          "automation"
-        ]
-      },
-      {
-        "name": "valentderah/totk-pc-recomp",
-        "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
-        "language": "C",
-        "stars": 2079,
-        "url": "https://github.com/valentderah/totk-pc-recomp",
-        "created": "2026-10-29T12:32:46Z",
-        "topics": []
-      },
-      {
-        "name": "kevinraymond/florilegium",
-        "description": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua",
-        "language": "Lua",
-        "stars": 941,
-        "url": "https://github.com/kevinraymond/florilegium",
-        "created": "2026-10-30T07:49:05Z",
-        "topics": [],
-        "hn": {
-          "points": 298,
-          "comments": 48,
-          "url": "https://news.ycombinator.com/item?id=50305637"
-        }
-      },
-      {
-        "name": "Djihads80/Eglantine",
-        "description": "VERY experimental Nintendo Switch 2 emulator",
-        "language": "C++",
-        "stars": 761,
-        "url": "https://github.com/Djihads80/Eglantine",
-        "created": "2026-10-29T00:25:18Z",
+        "name": "deepseek-ai/dsh-superagent-prototype",
+        "description": "Towards a More Autonomous Agent System",
+        "language": "TypeScript",
+        "stars": 5473,
+        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+        "created": "2026-10-31T09:32:46Z",
         "topics": []
       },
       {
         "name": "patch-gg/pixelfx",
-        "description": "232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+        "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
         "language": "JavaScript",
-        "stars": 692,
+        "stars": 2070,
         "url": "https://github.com/patch-gg/pixelfx",
         "created": "2026-10-30T06:43:25Z",
         "topics": [
@@ -184,10 +124,61 @@
         ]
       },
       {
+        "name": "kevinraymond/florilegium",
+        "description": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua",
+        "language": "Lua",
+        "stars": 1222,
+        "url": "https://github.com/kevinraymond/florilegium",
+        "created": "2026-10-30T07:49:05Z",
+        "topics": [
+          "generative-art",
+          "latex",
+          "latex-package",
+          "lua"
+        ],
+        "hn": {
+          "points": 377,
+          "comments": 54,
+          "url": "https://news.ycombinator.com/item?id=50305637"
+        }
+      },
+      {
+        "name": "Arjun-Ingole/hop",
+        "description": "Install Linux next to Windows without a USB stick",
+        "language": "PowerShell",
+        "stars": 961,
+        "url": "https://github.com/Arjun-Ingole/hop",
+        "created": "2026-10-30T19:40:45Z",
+        "topics": []
+      },
+      {
+        "name": "elvarofficial/teardown",
+        "description": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
+        "language": "JavaScript",
+        "stars": 728,
+        "url": "https://github.com/elvarofficial/teardown",
+        "created": "2026-10-30T09:29:01Z",
+        "topics": []
+      },
+      {
+        "name": "boardshogunfluctuate/Capri-AI",
+        "description": "⚡ Tell your PC what to do. Capri is a cyberpunk AI agent that works with your files, projects and code through Claude Code, Codex or Antigravity. Windows installer, no terminal. Fan-made, not affiliated with CD PROJEKT RED.",
+        "language": null,
+        "stars": 519,
+        "url": "https://github.com/boardshogunfluctuate/Capri-AI",
+        "created": "2026-10-30T22:03:48Z",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-agents",
+          "ai-assistants"
+        ]
+      },
+      {
         "name": "alchaincyf/huashu-bird-sticker",
         "description": "花叔开源的全球鸟类贴纸库 · Stickers for all 11,064 living bird species, with names in 43 languages and structured data",
         "language": null,
-        "stars": 331,
+        "stars": 453,
         "url": "https://github.com/alchaincyf/huashu-bird-sticker",
         "created": "2026-10-30T05:19:33Z",
         "topics": [
@@ -198,50 +189,86 @@
         ]
       },
       {
-        "name": "QuantumBladesmith/FPS-Optimizer-Universal-Game-Performance-Booster-2026",
-        "description": "Powerful FPS Optimizer for all games. Increase frame rate, reduce lag and stutters with one-click profiles. Clean interface, fully reversible, easy to use.",
-        "language": "Python",
-        "stars": 300,
-        "url": "https://github.com/QuantumBladesmith/FPS-Optimizer-Universal-Game-Performance-Booster-2026",
-        "created": "2026-10-30T18:40:57Z",
+        "name": "storytold/craft-anything",
+        "description": "Craft Anything: understand how any software works, and craft your own.",
+        "language": "Rust",
+        "stars": 432,
+        "url": "https://github.com/storytold/craft-anything",
+        "created": "2026-10-31T14:50:00Z",
         "topics": []
       },
       {
-        "name": "TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026",
-        "description": "Powerful Roblox Account Manager for easy multi-account control. Switch accounts, manage sessions and organize profiles with a clean interface. Simple setup and regularly updated.",
+        "name": "N1nEmAn/sapper-v2",
+        "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
         "language": "Python",
-        "stars": 300,
-        "url": "https://github.com/TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026",
-        "created": "2026-10-31T02:54:13Z",
+        "stars": 406,
+        "url": "https://github.com/N1nEmAn/sapper-v2",
+        "created": "2026-10-30T15:12:35Z",
         "topics": [
-          "2026",
-          "account-manager",
-          "configuration",
-          "multi-account"
+          "ai-agents",
+          "autonomous-agents",
+          "claude-code",
+          "ctf"
         ]
       },
       {
-        "name": "redjellyfishrampart/Bunny-Hop-Script-Auto-Bhop-Movement-Tool-2026",
-        "description": "Advanced Bunny Hop script with smooth auto-bhop and movement assistance. Fully configurable, clean interface, easy setup. Regularly updated.",
-        "language": "Python",
-        "stars": 300,
-        "url": "https://github.com/redjellyfishrampart/Bunny-Hop-Script-Auto-Bhop-Movement-Tool-2026",
-        "created": "2026-10-31T11:19:19Z",
+        "name": "arpanjot-coding/AVault",
+        "description": "AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. Rootless call recording via Shizuku with AES-256-GCM, biometrics & auto-cleanup.",
+        "language": "Kotlin",
+        "stars": 390,
+        "url": "https://github.com/arpanjot-coding/AVault",
+        "created": "2026-10-31T19:21:27Z",
         "topics": [
-          "2026",
-          "bhop",
-          "bunny-hop",
-          "configuration"
+          "aes-256",
+          "android",
+          "android-14",
+          "android-15"
         ]
       }
     ],
     "posts": [
       {
         "source": "showhn",
+        "title": "BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
+        "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+        "points": 38,
+        "comments": 8,
+        "discussion": "https://news.ycombinator.com/item?id=50321522",
+        "created": "2026-11-01T00:10:30.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "NES Contra (1987) port (ASM –> C and then C –> WebAssembly)",
+        "url": "https://epoyraz.github.io/nes-contra-us/",
+        "points": 83,
+        "comments": 69,
+        "discussion": "https://news.ycombinator.com/item?id=50319169",
+        "created": "2026-10-31T19:18:48.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "A USB-C LTE modem that gives my computer a phone line",
+        "url": "https://github.com/Koppar-AI/koppar-lte-modem",
+        "points": 58,
+        "comments": 37,
+        "discussion": "https://news.ycombinator.com/item?id=50317331",
+        "created": "2026-10-31T15:56:41.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "A language model that lives in a boot sector",
+        "url": "https://github.com/kerlenton/bootgpt",
+        "points": 87,
+        "comments": 5,
+        "discussion": "https://news.ycombinator.com/item?id=50315782",
+        "created": "2026-10-31T12:58:29.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
         "url": "https://tng.episodle.com/",
-        "points": 200,
-        "comments": 56,
+        "points": 237,
+        "comments": 74,
         "discussion": "https://news.ycombinator.com/item?id=50311686",
         "created": "2026-10-30T23:51:24.000Z"
       },
@@ -249,53 +276,17 @@
         "source": "showhn",
         "title": "A working Nintendo in ~1GB of Qwen weights",
         "url": "https://github.com/dbreunig/nesformer",
-        "points": 257,
-        "comments": 122,
+        "points": 288,
+        "comments": 148,
         "discussion": "https://news.ycombinator.com/item?id=50306442",
         "created": "2026-10-30T16:40:22.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "I built a multiplayer game where you're an aerial fighter cat",
-        "url": "https://catcopter.com",
-        "points": 80,
-        "comments": 42,
-        "discussion": "https://news.ycombinator.com/item?id=50305320",
-        "created": "2026-10-30T15:29:40.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Sketch Stadium – watch your agent play Pictionary",
-        "url": "https://sketch.wakeshift.ai/games/q5ucru",
-        "points": 34,
-        "comments": 10,
-        "discussion": "https://news.ycombinator.com/item?id=50305218",
-        "created": "2026-10-30T15:23:11.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Arsaze – Cursor for video editing (Tab-complete and agent edits)",
-        "url": "https://www.arsaze.com",
-        "points": 60,
-        "comments": 0,
-        "discussion": "https://news.ycombinator.com/item?id=50300618",
-        "created": "2026-10-30T06:55:33.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Lasm – Write formally verified webapps in Lean for Node/serverless/edge",
-        "url": "https://github.com/Millillion/lasm",
-        "points": 36,
-        "comments": 20,
-        "discussion": "https://news.ycombinator.com/item?id=50299004",
-        "created": "2026-10-30T02:05:41.000Z"
       },
       {
         "source": "launchhn",
         "title": "Simantic (YC F26) – Firmware Simulation for AI Agents",
         "url": "https://news.ycombinator.com/item?id=50291116",
         "points": 77,
-        "comments": 35,
+        "comments": 36,
         "discussion": "https://news.ycombinator.com/item?id=50291116",
         "created": "2026-10-29T15:56:32.000Z"
       },
@@ -325,6 +316,15 @@
         "comments": 35,
         "discussion": "https://news.ycombinator.com/item?id=50154029",
         "created": "2026-10-19T16:00:18.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+        "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+        "points": 289,
+        "comments": 132,
+        "discussion": "https://news.ycombinator.com/item?id=50320995",
+        "created": "2026-10-31T22:46:12.000Z"
       },
       {
         "source": "lobsters",
@@ -2893,7 +2893,7 @@
         "name": "HeyPuter/everything",
         "description": "We're rebuilding and open-sourcing the world’s software from scratch.",
         "language": "JavaScript",
-        "stars": 6039,
+        "stars": 6191,
         "url": "https://github.com/HeyPuter/everything",
         "created": "2026-10-13T16:18:22Z",
         "topics": [
@@ -2903,7 +2903,7 @@
           "photoshop"
         ],
         "firstSeen": "2026-10-14",
-        "lastSeen": "2026-10-31",
+        "lastSeen": "2026-11-01",
         "starsAtFirstSeen": 370,
         "hn": {
           "points": 60,
@@ -3499,7 +3499,7 @@
         "name": "Gathin23/cleanyourtv",
         "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
         "language": "Python",
-        "stars": 47318,
+        "stars": 48492,
         "url": "https://github.com/Gathin23/cleanyourtv",
         "created": "2026-10-17T08:12:35Z",
         "topics": [
@@ -3509,7 +3509,7 @@
           "android-tv-launcher"
         ],
         "firstSeen": "2026-10-19",
-        "lastSeen": "2026-10-31",
+        "lastSeen": "2026-11-01",
         "starsAtFirstSeen": 3496
       },
       "interplains/zero-breach": {
@@ -3545,7 +3545,7 @@
         "name": "simbasjungles/free-my-tv",
         "description": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
         "language": "Java",
-        "stars": 5523,
+        "stars": 5605,
         "url": "https://github.com/simbasjungles/free-my-tv",
         "created": "2026-10-19T19:29:01Z",
         "topics": [
@@ -3555,7 +3555,7 @@
           "home-screen"
         ],
         "firstSeen": "2026-10-20",
-        "lastSeen": "2026-10-31",
+        "lastSeen": "2026-11-01",
         "starsAtFirstSeen": 554
       },
       "AndreSzymanski15/ai-jailbreaks": {
@@ -3682,7 +3682,7 @@
         "name": "deepseek-ai/DeepInfer",
         "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
         "language": "Python",
-        "stars": 24583,
+        "stars": 24761,
         "url": "https://github.com/deepseek-ai/DeepInfer",
         "created": "2026-10-16T07:47:23Z",
         "topics": [],
@@ -3692,7 +3692,7 @@
           "url": "https://news.ycombinator.com/item?id=50163277"
         },
         "firstSeen": "2026-10-21",
-        "lastSeen": "2026-10-31",
+        "lastSeen": "2026-11-01",
         "starsAtFirstSeen": 15095
       },
       "tangency-labs/solidcraft": {
@@ -4317,7 +4317,7 @@
         "name": "Zagitta/gpu-unlock",
         "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
         "language": "C",
-        "stars": 13635,
+        "stars": 13997,
         "url": "https://github.com/Zagitta/gpu-unlock",
         "created": "2026-10-18T01:28:31Z",
         "topics": [],
@@ -4327,7 +4327,7 @@
           "url": "https://news.ycombinator.com/item?id=50219700"
         },
         "firstSeen": "2026-10-26",
-        "lastSeen": "2026-10-31",
+        "lastSeen": "2026-11-01",
         "starsAtFirstSeen": 7592
       },
       "designfuchen/word-atlas": {
@@ -4515,19 +4515,19 @@
         "name": "seedds/nxnative",
         "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
         "language": "Python",
-        "stars": 10432,
+        "stars": 10797,
         "url": "https://github.com/seedds/nxnative",
         "created": "2026-10-13T05:20:14Z",
         "topics": [],
         "firstSeen": "2026-10-27",
-        "lastSeen": "2026-10-31",
+        "lastSeen": "2026-11-01",
         "starsAtFirstSeen": 7054
       },
       "ly05010419/MacNativeGames": {
         "name": "ly05010419/MacNativeGames",
         "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
         "language": "C",
-        "stars": 6637,
+        "stars": 6735,
         "url": "https://github.com/ly05010419/MacNativeGames",
         "created": "2026-10-17T19:52:00Z",
         "topics": [
@@ -4537,7 +4537,7 @@
           "game-port"
         ],
         "firstSeen": "2026-10-28",
-        "lastSeen": "2026-10-31",
+        "lastSeen": "2026-11-01",
         "starsAtFirstSeen": 6103
       },
       "DLSS-5-Swaper-New/.github": {
@@ -4849,17 +4849,17 @@
         "name": "kevinraymond/florilegium",
         "description": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua",
         "language": "Lua",
-        "stars": 941,
+        "stars": 1222,
         "url": "https://github.com/kevinraymond/florilegium",
         "created": "2026-10-30T07:49:05Z",
         "topics": [],
         "hn": {
-          "points": 298,
-          "comments": 48,
+          "points": 377,
+          "comments": 54,
           "url": "https://news.ycombinator.com/item?id=50305637"
         },
         "firstSeen": "2026-10-31",
-        "lastSeen": "2026-10-31",
+        "lastSeen": "2026-11-01",
         "starsAtFirstSeen": 941
       },
       "Djihads80/Eglantine": {
@@ -4876,9 +4876,9 @@
       },
       "patch-gg/pixelfx": {
         "name": "patch-gg/pixelfx",
-        "description": "232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+        "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
         "language": "JavaScript",
-        "stars": 692,
+        "stars": 2070,
         "url": "https://github.com/patch-gg/pixelfx",
         "created": "2026-10-30T06:43:25Z",
         "topics": [
@@ -4888,14 +4888,14 @@
           "claude-code-plugin"
         ],
         "firstSeen": "2026-10-31",
-        "lastSeen": "2026-10-31",
+        "lastSeen": "2026-11-01",
         "starsAtFirstSeen": 692
       },
       "alchaincyf/huashu-bird-sticker": {
         "name": "alchaincyf/huashu-bird-sticker",
         "description": "花叔开源的全球鸟类贴纸库 · Stickers for all 11,064 living bird species, with names in 43 languages and structured data",
         "language": null,
-        "stars": 331,
+        "stars": 453,
         "url": "https://github.com/alchaincyf/huashu-bird-sticker",
         "created": "2026-10-30T05:19:33Z",
         "topics": [
@@ -4905,7 +4905,7 @@
           "birds"
         ],
         "firstSeen": "2026-10-31",
-        "lastSeen": "2026-10-31",
+        "lastSeen": "2026-11-01",
         "starsAtFirstSeen": 331
       },
       "QuantumBladesmith/FPS-Optimizer-Universal-Game-Performance-Booster-2026": {
@@ -4953,6 +4953,105 @@
         "firstSeen": "2026-10-31",
         "lastSeen": "2026-10-31",
         "starsAtFirstSeen": 300
+      },
+      "deepseek-ai/dsh-superagent-prototype": {
+        "name": "deepseek-ai/dsh-superagent-prototype",
+        "description": "Towards a More Autonomous Agent System",
+        "language": "TypeScript",
+        "stars": 5473,
+        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+        "created": "2026-10-31T09:32:46Z",
+        "topics": [],
+        "firstSeen": "2026-11-01",
+        "lastSeen": "2026-11-01",
+        "starsAtFirstSeen": 5473
+      },
+      "Arjun-Ingole/hop": {
+        "name": "Arjun-Ingole/hop",
+        "description": "Install Linux next to Windows without a USB stick",
+        "language": "PowerShell",
+        "stars": 961,
+        "url": "https://github.com/Arjun-Ingole/hop",
+        "created": "2026-10-30T19:40:45Z",
+        "topics": [],
+        "firstSeen": "2026-11-01",
+        "lastSeen": "2026-11-01",
+        "starsAtFirstSeen": 961
+      },
+      "elvarofficial/teardown": {
+        "name": "elvarofficial/teardown",
+        "description": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
+        "language": "JavaScript",
+        "stars": 728,
+        "url": "https://github.com/elvarofficial/teardown",
+        "created": "2026-10-30T09:29:01Z",
+        "topics": [],
+        "firstSeen": "2026-11-01",
+        "lastSeen": "2026-11-01",
+        "starsAtFirstSeen": 728
+      },
+      "boardshogunfluctuate/Capri-AI": {
+        "name": "boardshogunfluctuate/Capri-AI",
+        "description": "⚡ Tell your PC what to do. Capri is a cyberpunk AI agent that works with your files, projects and code through Claude Code, Codex or Antigravity. Windows installer, no terminal. Fan-made, not affiliated with CD PROJEKT RED.",
+        "language": null,
+        "stars": 519,
+        "url": "https://github.com/boardshogunfluctuate/Capri-AI",
+        "created": "2026-10-30T22:03:48Z",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-agents",
+          "ai-assistants"
+        ],
+        "firstSeen": "2026-11-01",
+        "lastSeen": "2026-11-01",
+        "starsAtFirstSeen": 519
+      },
+      "storytold/craft-anything": {
+        "name": "storytold/craft-anything",
+        "description": "Craft Anything: understand how any software works, and craft your own.",
+        "language": "Rust",
+        "stars": 432,
+        "url": "https://github.com/storytold/craft-anything",
+        "created": "2026-10-31T14:50:00Z",
+        "topics": [],
+        "firstSeen": "2026-11-01",
+        "lastSeen": "2026-11-01",
+        "starsAtFirstSeen": 432
+      },
+      "N1nEmAn/sapper-v2": {
+        "name": "N1nEmAn/sapper-v2",
+        "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+        "language": "Python",
+        "stars": 406,
+        "url": "https://github.com/N1nEmAn/sapper-v2",
+        "created": "2026-10-30T15:12:35Z",
+        "topics": [
+          "ai-agents",
+          "autonomous-agents",
+          "claude-code",
+          "ctf"
+        ],
+        "firstSeen": "2026-11-01",
+        "lastSeen": "2026-11-01",
+        "starsAtFirstSeen": 406
+      },
+      "arpanjot-coding/AVault": {
+        "name": "arpanjot-coding/AVault",
+        "description": "AVault - Call Recorder (No Root Required) | Privacy-first, hardware-encrypted audio vault for Android 12-16+. Rootless call recording via Shizuku with AES-256-GCM, biometrics & auto-cleanup.",
+        "language": "Kotlin",
+        "stars": 390,
+        "url": "https://github.com/arpanjot-coding/AVault",
+        "created": "2026-10-31T19:21:27Z",
+        "topics": [
+          "aes-256",
+          "android",
+          "android-14",
+          "android-15"
+        ],
+        "firstSeen": "2026-11-01",
+        "lastSeen": "2026-11-01",
+        "starsAtFirstSeen": 390
       }
     },
     "posts": {
@@ -6615,7 +6714,7 @@
         "discussion": "https://lobste.rs/s/oq6nhr/easylang_simple_browser_based",
         "created": "2026-10-13T13:37:44.114Z",
         "firstSeen": "2026-10-14",
-        "lastSeen": "2026-10-31"
+        "lastSeen": "2026-11-01"
       },
       "https://news.ycombinator.com/item?id=50081151": {
         "source": "showhn",
@@ -7088,7 +7187,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50154029",
         "created": "2026-10-19T16:00:18.000Z",
         "firstSeen": "2026-10-20",
-        "lastSeen": "2026-10-31"
+        "lastSeen": "2026-11-01"
       },
       "https://news.ycombinator.com/item?id=50154624": {
         "source": "hn",
@@ -7220,7 +7319,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50167583",
         "created": "2026-10-20T15:09:29.000Z",
         "firstSeen": "2026-10-21",
-        "lastSeen": "2026-10-31"
+        "lastSeen": "2026-11-01"
       },
       "https://news.ycombinator.com/item?id=50172041": {
         "source": "hn",
@@ -7286,7 +7385,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50176908",
         "created": "2026-10-21T06:42:12.000Z",
         "firstSeen": "2026-10-22",
-        "lastSeen": "2026-10-31"
+        "lastSeen": "2026-11-01"
       },
       "https://news.ycombinator.com/item?id=50180873": {
         "source": "hn",
@@ -7799,11 +7898,11 @@
         "title": "Simantic (YC F26) – Firmware Simulation for AI Agents",
         "url": "https://news.ycombinator.com/item?id=50291116",
         "points": 77,
-        "comments": 35,
+        "comments": 36,
         "discussion": "https://news.ycombinator.com/item?id=50291116",
         "created": "2026-10-29T15:56:32.000Z",
         "firstSeen": "2026-10-30",
-        "lastSeen": "2026-10-31"
+        "lastSeen": "2026-11-01"
       },
       "https://news.ycombinator.com/item?id=50298436": {
         "source": "hn",
@@ -7842,23 +7941,23 @@
         "source": "showhn",
         "title": "To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
         "url": "https://tng.episodle.com/",
-        "points": 200,
-        "comments": 56,
+        "points": 237,
+        "comments": 74,
         "discussion": "https://news.ycombinator.com/item?id=50311686",
         "created": "2026-10-30T23:51:24.000Z",
         "firstSeen": "2026-10-31",
-        "lastSeen": "2026-10-31"
+        "lastSeen": "2026-11-01"
       },
       "https://news.ycombinator.com/item?id=50306442": {
         "source": "showhn",
         "title": "A working Nintendo in ~1GB of Qwen weights",
         "url": "https://github.com/dbreunig/nesformer",
-        "points": 257,
-        "comments": 122,
+        "points": 288,
+        "comments": 148,
         "discussion": "https://news.ycombinator.com/item?id=50306442",
         "created": "2026-10-30T16:40:22.000Z",
         "firstSeen": "2026-10-31",
-        "lastSeen": "2026-10-31"
+        "lastSeen": "2026-11-01"
       },
       "https://news.ycombinator.com/item?id=50305320": {
         "source": "showhn",
@@ -7881,221 +7980,277 @@
         "created": "2026-10-30T15:23:11.000Z",
         "firstSeen": "2026-10-31",
         "lastSeen": "2026-10-31"
+      },
+      "https://news.ycombinator.com/item?id=50321522": {
+        "source": "showhn",
+        "title": "BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
+        "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+        "points": 38,
+        "comments": 8,
+        "discussion": "https://news.ycombinator.com/item?id=50321522",
+        "created": "2026-11-01T00:10:30.000Z",
+        "firstSeen": "2026-11-01",
+        "lastSeen": "2026-11-01"
+      },
+      "https://news.ycombinator.com/item?id=50319169": {
+        "source": "showhn",
+        "title": "NES Contra (1987) port (ASM –> C and then C –> WebAssembly)",
+        "url": "https://epoyraz.github.io/nes-contra-us/",
+        "points": 83,
+        "comments": 69,
+        "discussion": "https://news.ycombinator.com/item?id=50319169",
+        "created": "2026-10-31T19:18:48.000Z",
+        "firstSeen": "2026-11-01",
+        "lastSeen": "2026-11-01"
+      },
+      "https://news.ycombinator.com/item?id=50317331": {
+        "source": "showhn",
+        "title": "A USB-C LTE modem that gives my computer a phone line",
+        "url": "https://github.com/Koppar-AI/koppar-lte-modem",
+        "points": 58,
+        "comments": 37,
+        "discussion": "https://news.ycombinator.com/item?id=50317331",
+        "created": "2026-10-31T15:56:41.000Z",
+        "firstSeen": "2026-11-01",
+        "lastSeen": "2026-11-01"
+      },
+      "https://news.ycombinator.com/item?id=50315782": {
+        "source": "showhn",
+        "title": "A language model that lives in a boot sector",
+        "url": "https://github.com/kerlenton/bootgpt",
+        "points": 87,
+        "comments": 5,
+        "discussion": "https://news.ycombinator.com/item?id=50315782",
+        "created": "2026-10-31T12:58:29.000Z",
+        "firstSeen": "2026-11-01",
+        "lastSeen": "2026-11-01"
+      },
+      "https://news.ycombinator.com/item?id=50320995": {
+        "source": "hn",
+        "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+        "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+        "points": 289,
+        "comments": 132,
+        "discussion": "https://news.ycombinator.com/item?id=50320995",
+        "created": "2026-10-31T22:46:12.000Z",
+        "firstSeen": "2026-11-01",
+        "lastSeen": "2026-11-01"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-10-31T12:08:18.749Z",
+    "fetchedAt": "2026-11-01T13:08:01.224Z",
     "hn": [
       {
-        "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-        "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-        "points": 912,
-        "comments": 534,
-        "discussion": "https://news.ycombinator.com/item?id=50300683"
+        "title": "HackerTube: YouTube built from videos recommended by HN",
+        "url": "https://karpathy.bearblog.dev/hacker-tube/",
+        "points": 1496,
+        "comments": 402,
+        "discussion": "https://news.ycombinator.com/item?id=50319510"
       },
       {
-        "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
-        "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
-        "points": 478,
-        "comments": 328,
-        "discussion": "https://news.ycombinator.com/item?id=50303172"
+        "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+        "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+        "points": 553,
+        "comments": 255,
+        "discussion": "https://news.ycombinator.com/item?id=50319143"
       },
       {
-        "title": "Northflank Breached",
-        "url": "https://status.northflank.com",
-        "points": 446,
-        "comments": 320,
-        "discussion": "https://news.ycombinator.com/item?id=50305025"
+        "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+        "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+        "points": 524,
+        "comments": 161,
+        "discussion": "https://news.ycombinator.com/item?id=50320963"
       },
       {
-        "title": "My favourite PowerMac is a Nintendo Wii",
-        "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
-        "points": 319,
-        "comments": 94,
-        "discussion": "https://news.ycombinator.com/item?id=50307190"
+        "title": "Do the math: How we took over ChatGPT accounts",
+        "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+        "points": 344,
+        "comments": 168,
+        "discussion": "https://news.ycombinator.com/item?id=50314699"
       },
       {
-        "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
-        "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
-        "points": 315,
-        "comments": 58,
-        "discussion": "https://news.ycombinator.com/item?id=50301854"
+        "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+        "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+        "points": 288,
+        "comments": 131,
+        "discussion": "https://news.ycombinator.com/item?id=50320995"
       },
       {
-        "title": "The federated code forge",
-        "url": "https://tangled.org/blog/forge/",
-        "points": 298,
-        "comments": 86,
-        "discussion": "https://news.ycombinator.com/item?id=50305573"
+        "title": "Jepsen: ParticleDB 1.1.4",
+        "url": "https://jepsen.io/analyses/particledb-1.1.4",
+        "points": 286,
+        "comments": 162,
+        "discussion": "https://news.ycombinator.com/item?id=50316100"
       },
       {
-        "title": "Florilegium: Procedural Flowers in LaTeX",
-        "url": "https://github.com/kevinraymond/florilegium",
-        "points": 298,
-        "comments": 48,
-        "discussion": "https://news.ycombinator.com/item?id=50305637"
+        "title": "Norway makes shithouses great again",
+        "url": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/",
+        "points": 282,
+        "comments": 125,
+        "discussion": "https://news.ycombinator.com/item?id=50324388"
       },
       {
-        "title": "Breaking the open web won't stop the bad bots",
-        "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/",
-        "points": 274,
-        "comments": 122,
-        "discussion": "https://news.ycombinator.com/item?id=50263837"
+        "title": "Simple circuits can create complex behaviors",
+        "url": "https://aatishb.com/myriad/lets-build-a-brain/",
+        "points": 272,
+        "comments": 80,
+        "discussion": "https://news.ycombinator.com/item?id=50261253"
       },
       {
-        "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
-        "url": "https://github.com/dbreunig/nesformer",
-        "points": 257,
-        "comments": 122,
-        "discussion": "https://news.ycombinator.com/item?id=50306442"
+        "title": "It's the memory latency, stupid",
+        "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+        "points": 217,
+        "comments": 70,
+        "discussion": "https://news.ycombinator.com/item?id=50318720"
       },
       {
-        "title": "Tell HN: Scribd Breached",
-        "url": "https://news.ycombinator.com/item?id=50312756",
-        "points": 243,
-        "comments": 97,
-        "discussion": "https://news.ycombinator.com/item?id=50312756"
+        "title": "ChatGPT and Codex usage limits merging",
+        "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "points": 180,
+        "comments": 112,
+        "discussion": "https://news.ycombinator.com/item?id=50320588"
       }
     ],
     "lobsters": [
       {
-        "title": "Backdoors in Claude Code for VS, Cursor official extensions",
-        "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
-        "points": 158,
-        "comments": 38,
-        "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-        "tags": [
-          "security"
-        ]
-      },
-      {
-        "title": "Do At-Proto Users Know This Is Public?",
-        "url": "https://melaniekat.com/blog/public-on-pds/",
-        "points": 88,
-        "comments": 29,
-        "discussion": "https://lobste.rs/s/htgcuc/do_at_proto_users_know_this_is_public",
-        "tags": [
-          "privacy"
-        ]
-      },
-      {
-        "title": "No, npm, “estee” is not a typo of “testem”",
-        "url": "https://smoores.dev/post/no_npm_estee_is_not_a_typo/",
-        "points": 31,
+        "title": "Jepsen: ParticleDB 1.1.4",
+        "url": "https://jepsen.io/analyses/particledb-1.1.4",
+        "points": 107,
         "comments": 19,
-        "discussion": "https://lobste.rs/s/xudbqx/no_npm_estee_is_not_typo_testem",
+        "discussion": "https://lobste.rs/s/drwd4j/jepsen_particledb_1_1_4",
         "tags": [
-          "javascript"
+          "databases",
+          "testing"
         ]
       },
       {
-        "title": "How hard is it to check for whitespace?",
-        "url": "https://serce.me/posts/2026-10-30-how-hard-is-it-to-check-for-whitespace",
-        "points": 21,
-        "comments": 5,
-        "discussion": "https://lobste.rs/s/1pmuy7/how_hard_is_it_check_for_whitespace",
+        "title": "Introducing Kwi, a new KDE terminal emulator",
+        "url": "https://blogs.kde.org/2026/11/01/introducing-kwi/",
+        "points": 44,
+        "comments": 9,
+        "discussion": "https://lobste.rs/s/lt44rt/introducing_kwi_new_kde_terminal",
         "tags": [
-          "java",
-          "performance"
+          "linux"
+        ]
+      },
+      {
+        "title": "The Kluever Maneuver",
+        "url": "https://jordi.inversethought.com/blog/the-kluever-maneuver/",
+        "points": 48,
+        "comments": 25,
+        "discussion": "https://lobste.rs/s/rpiu3w/kluever_maneuver",
+        "tags": [
+          "testing"
+        ]
+      },
+      {
+        "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
+        "url": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved",
+        "points": 47,
+        "comments": 15,
+        "discussion": "https://lobste.rs/s/qwou15/mystery_60_second_fluctuations_power",
+        "tags": [
+          "science"
+        ]
+      },
+      {
+        "title": "Avoid Public Functions Calling Other Public Functions",
+        "url": "https://matklad.github.io/2026/10/29/pub-calls-pub.html",
+        "points": 66,
+        "comments": 13,
+        "discussion": "https://lobste.rs/s/k508we/avoid_public_functions_calling_other",
+        "tags": [
+          "api",
+          "programming"
+        ]
+      },
+      {
+        "title": "XKCD and Fourier",
+        "url": "https://leancrew.com/all-this/2026/10/xkcd-and-fourier/",
+        "points": 7,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/mni8ri/xkcd_fourier",
+        "tags": [
+          "math"
+        ]
+      },
+      {
+        "title": "Novellas with groff",
+        "url": "https://movq.de/blog/postings/2026-10-31/0/POSTING-en.html",
+        "points": 22,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/54xwm8/novellas_with_groff",
+        "tags": [
+          "unix"
+        ]
+      },
+      {
+        "title": "An LC-3 Disassembler in Haskell",
+        "url": "https://abhinavsarkar.net/posts/lc3-disassembler/",
+        "points": 12,
+        "comments": 2,
+        "discussion": "https://lobste.rs/s/qoznnh/lc_3_disassembler_haskell",
+        "tags": [
+          "assembly",
+          "haskell",
+          "reversing"
+        ]
+      },
+      {
+        "title": "Release 0.6.0 · buzz-language/buzz",
+        "url": "https://buzz-lang.dev/0.6.0",
+        "points": 1,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/vdiow8/release_0_6_0_buzz_language_buzz",
+        "tags": [
+          "plt",
+          "release"
         ]
       },
       {
         "title": "The support case of a customer who said that all they could see was a black screen",
         "url": "https://devblogs.microsoft.com/oldnewthing/20261029-00/?p=112808/",
-        "points": 25,
-        "comments": 4,
+        "points": 69,
+        "comments": 10,
         "discussion": "https://lobste.rs/s/soosuu/support_case_customer_who_said_all_they",
         "tags": [
           "historical",
           "windows"
         ]
-      },
-      {
-        "title": "The federated code forge",
-        "url": "https://tangled.org/blog/forge/",
-        "points": 35,
-        "comments": 20,
-        "discussion": "https://lobste.rs/s/ukj8mm/federated_code_forge",
-        "tags": [
-          "distributed",
-          "vcs"
-        ]
-      },
-      {
-        "title": "Clojure/Conj 2026",
-        "url": "http://www.youtube.com/playlist?list=PLAkHRk3lgU_Q",
-        "points": 13,
-        "comments": 1,
-        "discussion": "https://lobste.rs/s/wd4ye5/clojure_conj_2026",
-        "tags": [
-          "clojure",
-          "video"
-        ]
-      },
-      {
-        "title": "Infinite Mac: BeOS",
-        "url": "https://blog.persistent.info/2026/10/infinite-mac-beos.html",
-        "points": 36,
-        "comments": 5,
-        "discussion": "https://lobste.rs/s/fskctn/infinite_mac_beos",
-        "tags": [
-          "retrocomputing"
-        ]
-      },
-      {
-        "title": "How curl was accidentally Turing-complete for nine months",
-        "url": "https://seriot.ch/computation/curl.html",
-        "points": 75,
-        "comments": 9,
-        "discussion": "https://lobste.rs/s/f4aqog/how_curl_was_accidentally_turing",
-        "tags": [
-          "compsci"
-        ]
-      },
-      {
-        "title": "Switch lowering in GCC",
-        "url": "https://xoranth.net/gcc-switch/",
-        "points": 19,
-        "comments": 1,
-        "discussion": "https://lobste.rs/s/ncclwy/switch_lowering_gcc",
-        "tags": [
-          "compilers",
-          "performance"
-        ]
       }
     ],
     "devto": [
       {
-        "title": "My open source project is brand new and already has contributors. Here's what I did.",
-        "url": "https://dev.to/nathan_tarbert/my-open-source-project-is-brand-new-and-already-has-contributors-heres-what-i-did-3fb4",
-        "points": 63,
-        "comments": 12,
-        "discussion": "https://dev.to/nathan_tarbert/my-open-source-project-is-brand-new-and-already-has-contributors-heres-what-i-did-3fb4",
+        "title": "Trick or Type Guard? Surviving `unknown` with is-kit 🎃",
+        "url": "https://dev.to/nyaomaru/trick-or-type-guard-surviving-unknown-with-is-kit-4oc2",
+        "points": 52,
+        "comments": 7,
+        "discussion": "https://dev.to/nyaomaru/trick-or-type-guard-surviving-unknown-with-is-kit-4oc2",
         "tags": [
+          "typescript",
           "opensource",
-          "github",
-          "ai"
+          "beginners"
         ]
       },
       {
-        "title": "Marigold /router - A Private Ofrenda for the Memories We Refuse to Lose",
-        "url": "https://dev.to/kumuda/marigold-router-a-private-ofrenda-for-the-memories-we-refuse-to-lose-2e68",
-        "points": 59,
-        "comments": 7,
-        "discussion": "https://dev.to/kumuda/marigold-router-a-private-ofrenda-for-the-memories-we-refuse-to-lose-2e68",
+        "title": "ESA's satellite is dead. Its ghost: 2,123 signals. TabPFN beat the published SOTA; 83¢ of Tinker stopped an LLM speaking for it",
+        "url": "https://dev.to/advikdivekar/esas-satellite-is-dead-its-ghost-2123-signals-tabpfn-beat-the-published-sota-83c-of-tinker-3ke1",
+        "points": 47,
+        "comments": 21,
+        "discussion": "https://dev.to/advikdivekar/esas-satellite-is-dead-its-ghost-2123-signals-tabpfn-beat-the-published-sota-83c-of-tinker-3ke1",
         "tags": [
           "devchallenge",
           "hf26challenge",
-          "ai"
+          "hacktoberfest"
         ]
       },
       {
-        "title": "Ofrenda: Yaadon ka Diya — Virtual Remembrance Altar with Open-Weight AI",
-        "url": "https://dev.to/vidisha_gupta_/ofrenda-yaadon-ka-diya-keeping-memories-alive-with-open-weight-ai-4oc7",
-        "points": 24,
-        "comments": 0,
-        "discussion": "https://dev.to/vidisha_gupta_/ofrenda-yaadon-ka-diya-keeping-memories-alive-with-open-weight-ai-4oc7",
+        "title": "Every Codebase Has a '// DO NOT TOUCH' File. I Built an AI Necromancer to Summon the Ghost of the Developer Who Wrote It 💀🔮",
+        "url": "https://dev.to/dj29/every-codebase-has-a-do-not-touch-file-i-built-an-ai-necromancer-to-summon-the-ghost-of-the-2no5",
+        "points": 43,
+        "comments": 20,
+        "discussion": "https://dev.to/dj29/every-codebase-has-a-do-not-touch-file-i-built-an-ai-necromancer-to-summon-the-ghost-of-the-2no5",
         "tags": [
           "devchallenge",
           "hf26challenge",
@@ -8103,11 +8258,22 @@
         ]
       },
       {
-        "title": "MoE Offloading Isn’t Always Faster: I Tested 5 Models on a 16GB GPU",
-        "url": "https://dev.to/sizzlebop/moe-offloading-isnt-always-faster-i-tested-5-models-on-a-16gb-gpu-498a",
-        "points": 22,
-        "comments": 13,
-        "discussion": "https://dev.to/sizzlebop/moe-offloading-isnt-always-faster-i-tested-5-models-on-a-16gb-gpu-498a",
+        "title": "🕯️ Ofrenda: The Ghost in the Machine — An Offering to Abandoned Software",
+        "url": "https://dev.to/rajan_mishra_a9f78ad216b4/ofrenda-the-ghost-in-the-machine-an-offering-to-abandoned-software-pk2",
+        "points": 28,
+        "comments": 0,
+        "discussion": "https://dev.to/rajan_mishra_a9f78ad216b4/ofrenda-the-ghost-in-the-machine-an-offering-to-abandoned-software-pk2",
+        "tags": [
+          "devchallenge",
+          "hf26challenge"
+        ]
+      },
+      {
+        "title": "I Retested My MoE Offloading Benchmarks. Some of My Conclusions Changed.",
+        "url": "https://dev.to/sizzlebop/i-retested-my-moe-offloading-benchmarks-some-of-my-conclusions-changed-6f4",
+        "points": 21,
+        "comments": 9,
+        "discussion": "https://dev.to/sizzlebop/i-retested-my-moe-offloading-benchmarks-some-of-my-conclusions-changed-6f4",
         "tags": [
           "ai",
           "machinelearning",
@@ -8115,11 +8281,23 @@
         ]
       },
       {
-        "title": "I held a séance for 31 dead websites. The most honest ghost said \"that never made it into my HTML.\"",
-        "url": "https://dev.to/kakeroth/i-held-a-seance-for-31-dead-websites-the-most-honest-ghost-said-that-never-made-it-into-my-html-2fj",
-        "points": 22,
+        "title": "From a Simple \"Mark as Seen\" to Feedgrab & Ghostify: Story of My Life!",
+        "url": "https://dev.to/fm/from-a-simple-mark-as-seen-to-feedgrab-ghostify-story-of-my-life-33dl",
+        "points": 20,
+        "comments": 2,
+        "discussion": "https://dev.to/fm/from-a-simple-mark-as-seen-to-feedgrab-ghostify-story-of-my-life-33dl",
+        "tags": [
+          "devchallenge",
+          "hf26challenge",
+          "ai"
+        ]
+      },
+      {
+        "title": "Not every ghost is here to scare you. Ward is the friendly one in your group chat",
+        "url": "https://dev.to/muhammadmurtuzahussain/not-every-ghost-is-here-to-scare-you-ward-is-the-friendly-one-in-your-group-chat-25g",
+        "points": 18,
         "comments": 0,
-        "discussion": "https://dev.to/kakeroth/i-held-a-seance-for-31-dead-websites-the-most-honest-ghost-said-that-never-made-it-into-my-html-2fj",
+        "discussion": "https://dev.to/muhammadmurtuzahussain/not-every-ghost-is-here-to-scare-you-ward-is-the-friendly-one-in-your-group-chat-25g",
         "tags": [
           "devchallenge",
           "hf26challenge",
@@ -8127,67 +8305,44 @@
         ]
       },
       {
-        "title": "What was your win this week?",
-        "url": "https://dev.to/devteam/what-was-your-win-this-week-47ci",
-        "points": 21,
-        "comments": 19,
-        "discussion": "https://dev.to/devteam/what-was-your-win-this-week-47ci",
-        "tags": [
-          "weeklyretro"
-        ]
-      },
-      {
-        "title": "GhostCache: Deleting the file didn't delete the secret",
-        "url": "https://dev.to/bipul_chamoli_09b5f0cc719/ghostcache-deleting-the-file-didnt-delete-the-secret-3d5d",
-        "points": 21,
-        "comments": 3,
-        "discussion": "https://dev.to/bipul_chamoli_09b5f0cc719/ghostcache-deleting-the-file-didnt-delete-the-secret-3d5d",
-        "tags": [
-          "ai",
-          "rag",
-          "devchallenge"
-        ]
-      },
-      {
-        "title": "👻 Ghostlet: While you’re away, the ghosts will play.",
-        "url": "https://dev.to/ashtonckj/ghostlet-while-youre-away-the-ghosts-will-play-1909",
-        "points": 20,
-        "comments": 2,
-        "discussion": "https://dev.to/ashtonckj/ghostlet-while-youre-away-the-ghosts-will-play-1909",
+        "title": "Here Lies My Toaster",
+        "url": "https://dev.to/nazar-boyko/here-lies-my-toaster-1nmm",
+        "points": 11,
+        "comments": 1,
+        "discussion": "https://dev.to/nazar-boyko/here-lies-my-toaster-1nmm",
         "tags": [
           "devchallenge",
           "hf26challenge",
-          "halloween"
+          "gemma"
         ]
       },
       {
-        "title": "Singularity News :: CCG",
-        "url": "https://dev.to/pengeszikra/singularity-news-ccg-5ejk",
-        "points": 18,
-        "comments": 2,
-        "discussion": "https://dev.to/pengeszikra/singularity-news-ccg-5ejk",
-        "tags": [
-          "devchallenge",
-          "hf26challenge",
-          "gamedev"
-        ]
-      },
-      {
-        "title": "Aoandon: Hearn's ghost stories in Japanese, retold at five JLPT levels",
-        "url": "https://dev.to/adk_bbx/aoandon-hearns-ghost-stories-in-japanese-retold-at-five-jlpt-levels-5017",
-        "points": 15,
+        "title": "Inheritance Engine: resurrecting abandoned code with a local Gemma team, where the original gets a vote",
+        "url": "https://dev.to/shaileshvats2004/inheritance-engine-resurrecting-abandoned-code-with-a-local-gemma-team-where-the-original-gets-a-4i0n",
+        "points": 10,
         "comments": 0,
-        "discussion": "https://dev.to/adk_bbx/aoandon-hearns-ghost-stories-in-japanese-retold-at-five-jlpt-levels-5017",
+        "discussion": "https://dev.to/shaileshvats2004/inheritance-engine-resurrecting-abandoned-code-with-a-local-gemma-team-where-the-original-gets-a-4i0n",
         "tags": [
           "devchallenge",
           "hf26challenge",
-          "opensource"
+          "ai"
+        ]
+      },
+      {
+        "title": "Séance: Summon the Ghost of a Dead GitHub Repo",
+        "url": "https://dev.to/sagarmaurya/seance-summon-the-ghost-of-a-dead-github-repo-5a1e",
+        "points": 10,
+        "comments": 0,
+        "discussion": "https://dev.to/sagarmaurya/seance-summon-the-ghost-of-a-dead-github-repo-5a1e",
+        "tags": [
+          "devchallenge",
+          "hf26challenge"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-10-31T12:08:18.749Z",
+    "fetchedAt": "2026-11-01T13:08:01.224Z",
     "candidates": {
       "https://purplesyringa.moe/blog/superoptimizing-an-fpu-emulator": {
         "source": "Lobsters",
@@ -8203,14 +8358,6 @@
         "url": "https://ranet3.com/",
         "discussion": "https://lobste.rs/s/np6czp/high_performance_policy_routed_ipsec",
         "published": "2026-10-18T14:36:52.682Z",
-        "summary": ""
-      },
-      "https://benjcal.space/blog/arp-tell-your-network-to-explain-itself": {
-        "source": "Lobsters",
-        "title": "ARP! Tell your network to explain itself",
-        "url": "https://benjcal.space/blog/arp-tell-your-network-to-explain-itself/",
-        "discussion": "https://lobste.rs/s/mmvhup/arp_tell_your_network_explain_itself",
-        "published": "2026-10-18T12:48:02.112Z",
         "summary": ""
       },
       "https://stripe.com/blog/saas-platform-trends-in-ai-era": {
@@ -8865,6 +9012,14 @@
         "url": "https://tangled.org/blog/forge/",
         "discussion": "https://lobste.rs/s/ukj8mm/federated_code_forge",
         "published": "2026-10-30T17:57:54.165Z",
+        "summary": ""
+      },
+      "https://jepsen.io/analyses/particledb-1.1.4": {
+        "source": "Lobsters",
+        "title": "Jepsen: ParticleDB 1.1.4",
+        "url": "https://jepsen.io/analyses/particledb-1.1.4",
+        "discussion": "https://lobste.rs/s/drwd4j/jepsen_particledb_1_1_4",
+        "published": "2026-10-31T13:39:52.161Z",
         "summary": ""
       }
     }
