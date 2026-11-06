@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-11-05T14:29:43.877Z",
+    "fetchedAt": "2026-11-06T14:06:32.499Z",
     "repos": [
       {
         "name": "Gathin23/cleanyourtv",
         "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
         "language": "Python",
-        "stars": 52395,
+        "stars": 53052,
         "url": "https://github.com/Gathin23/cleanyourtv",
         "created": "2026-10-17T08:12:35Z",
         "topics": [
@@ -17,24 +17,10 @@
         ]
       },
       {
-        "name": "deepseek-ai/DeepInfer",
-        "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-        "language": "Python",
-        "stars": 25450,
-        "url": "https://github.com/deepseek-ai/DeepInfer",
-        "created": "2026-10-16T07:47:23Z",
-        "topics": [],
-        "hn": {
-          "points": 2355,
-          "comments": 892,
-          "url": "https://news.ycombinator.com/item?id=50163277"
-        }
-      },
-      {
         "name": "deepseek-ai/dsh-superagent-prototype",
         "description": "Towards a More Autonomous Agent System",
         "language": "TypeScript",
-        "stars": 19266,
+        "stars": 20071,
         "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
         "created": "2026-10-31T09:32:46Z",
         "topics": []
@@ -43,7 +29,7 @@
         "name": "Zagitta/gpu-unlock",
         "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
         "language": "C",
-        "stars": 17001,
+        "stars": 17469,
         "url": "https://github.com/Zagitta/gpu-unlock",
         "created": "2026-10-18T01:28:31Z",
         "topics": [],
@@ -57,7 +43,7 @@
         "name": "storytold/craft-anything",
         "description": "Craft Anything: understand how any software works, and craft your own.",
         "language": "Rust",
-        "stars": 14098,
+        "stars": 16888,
         "url": "https://github.com/storytold/craft-anything",
         "created": "2026-10-31T14:50:00Z",
         "topics": []
@@ -66,30 +52,35 @@
         "name": "heydamir/unslop",
         "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
         "language": "JavaScript",
-        "stars": 9300,
+        "stars": 10445,
         "url": "https://github.com/heydamir/unslop",
         "created": "2026-10-29T15:41:21Z",
         "topics": []
       },
       {
-        "name": "ly05010419/MacNativeGames",
-        "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
-        "language": "C",
-        "stars": 7084,
-        "url": "https://github.com/ly05010419/MacNativeGames",
-        "created": "2026-10-17T19:52:00Z",
+        "name": "l0ng-ai/openidea",
+        "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
+        "language": "TypeScript",
+        "stars": 7334,
+        "url": "https://github.com/l0ng-ai/openidea",
+        "created": "2026-10-21T12:23:14Z",
         "topics": [
-          "apple-silicon",
-          "arm64",
-          "breath-of-the-wild",
-          "game-port"
-        ]
+          "code-editor",
+          "cross-platform",
+          "dap",
+          "database-client"
+        ],
+        "hn": {
+          "points": 41,
+          "comments": 58,
+          "url": "https://news.ycombinator.com/item?id=50323848"
+        }
       },
       {
         "name": "wangzan101/Mika",
         "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
         "language": "Kotlin",
-        "stars": 6995,
+        "stars": 7320,
         "url": "https://github.com/wangzan101/Mika",
         "created": "2026-10-29T14:34:07Z",
         "topics": [
@@ -100,70 +91,84 @@
         ]
       },
       {
-        "name": "govijr/terminal-mac",
-        "description": "Entire MacOS running in your terminal.",
-        "language": "Swift",
-        "stars": 1818,
-        "url": "https://github.com/govijr/terminal-mac",
-        "created": "2026-11-03T03:22:56Z",
+        "name": "ly05010419/MacNativeGames",
+        "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
+        "language": "C",
+        "stars": 7158,
+        "url": "https://github.com/ly05010419/MacNativeGames",
+        "created": "2026-10-17T19:52:00Z",
         "topics": [
-          "cli",
-          "gui",
-          "macos",
-          "shell"
+          "apple-silicon",
+          "arm64",
+          "breath-of-the-wild",
+          "game-port"
         ]
       },
       {
         "name": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
         "description": "Google_AI_Pro_2Year_ZeroCost_Auto",
         "language": "Python",
-        "stars": 1780,
+        "stars": 2769,
         "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
         "created": "2026-11-04T14:54:56Z",
         "topics": []
       },
       {
-        "name": "Minireel/HGhub",
-        "description": "YellowFruit third-party client",
+        "name": "livliv-dev/player",
+        "description": "A lightweight 2.5D character player for the web, with lip sync and webcam face tracking.",
         "language": "TypeScript",
-        "stars": 1060,
-        "url": "https://github.com/Minireel/HGhub",
-        "created": "2026-11-03T14:04:27Z",
+        "stars": 842,
+        "url": "https://github.com/livliv-dev/player",
+        "created": "2026-11-04T03:28:33Z",
         "topics": [
-          "android",
-          "drama",
-          "free",
-          "movie-web-app"
+          "avatar",
+          "character",
+          "face-tracking",
+          "lip-sync"
         ]
       },
       {
-        "name": "andrew-babo/muse4ai",
-        "description": "Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth.",
-        "language": "TypeScript",
-        "stars": 734,
-        "url": "https://github.com/andrew-babo/muse4ai",
-        "created": "2026-11-03T17:45:18Z",
+        "name": "WoYun520/pixel-gif-sticker-pack",
+        "description": "A Codex skill for creating and verifying animated GIF sticker packs from character references.",
+        "language": "Python",
+        "stars": 534,
+        "url": "https://github.com/WoYun520/pixel-gif-sticker-pack",
+        "created": "2026-11-05T04:08:24Z",
         "topics": []
       },
       {
-        "name": "brightsongwrath/personal-data-deletor-osint",
-        "description": "Ask 970 data brokers to delete your data. Free, local, no account, no server.",
-        "language": "JavaScript",
-        "stars": 633,
-        "url": "https://github.com/brightsongwrath/personal-data-deletor-osint",
-        "created": "2026-11-03T16:47:18Z",
+        "name": "AtomIllusionistDwell/watson-username-footprint-finder",
+        "description": "Free people-search desktop app: look up a nickname, email, phone or site across 3,100+ public pages and get one readable report.",
+        "language": "TypeScript",
+        "stars": 436,
+        "url": "https://github.com/AtomIllusionistDwell/watson-username-footprint-finder",
+        "created": "2026-11-05T05:20:24Z",
         "topics": [
-          "ccpa",
-          "data-brokers",
-          "delete-me",
-          "opsec"
+          "digital-footprint",
+          "electron",
+          "people-search",
+          "react"
+        ]
+      },
+      {
+        "name": "TagPhaseArcade/tiktok-uploader",
+        "description": "Automated TikTok video uploader with batch processing, scheduling, and hashtag management. Local session-based auth. Open-source and cross-platform",
+        "language": "Python",
+        "stars": 429,
+        "url": "https://github.com/TagPhaseArcade/tiktok-uploader",
+        "created": "2026-11-05T06:48:59Z",
+        "topics": [
+          "automation",
+          "batch-processing",
+          "content-creator",
+          "cross-platform"
         ]
       },
       {
         "name": "dragonwolfshovel/youtube-uploader",
         "description": "Automated YouTube video uploader with batch processing, thumbnail support, and scheduled publishing. Uses official YouTube Data API v3. Open-source and privacy-first",
         "language": "Python",
-        "stars": 426,
+        "stars": 429,
         "url": "https://github.com/dragonwolfshovel/youtube-uploader",
         "created": "2026-11-05T05:16:01Z",
         "topics": [
@@ -171,6 +176,20 @@
           "batch-processing",
           "cli-tool",
           "content-creator"
+        ]
+      },
+      {
+        "name": "HerdBuilderEstimate/roblox-studio-mcp",
+        "description": "Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight",
+        "language": "Python",
+        "stars": 427,
+        "url": "https://github.com/HerdBuilderEstimate/roblox-studio-mcp",
+        "created": "2026-11-06T06:16:35Z",
+        "topics": [
+          "ai-tools",
+          "automation",
+          "claude",
+          "cursor"
         ]
       },
       {
@@ -188,55 +207,59 @@
         ]
       },
       {
-        "name": "TagPhaseArcade/tiktok-uploader",
-        "description": "Automated TikTok video uploader with batch processing, scheduling, and hashtag management. Local session-based auth. Open-source and cross-platform",
+        "name": "PulverizeLink/roblox-performance-tool",
+        "description": "Lightweight performance utility for Roblox on Windows. Boosts FPS, fixes stutter, reduces input lag, and allows custom frame limits. Safe, offline, and open-source",
         "language": "Python",
         "stars": 425,
-        "url": "https://github.com/TagPhaseArcade/tiktok-uploader",
-        "created": "2026-11-05T06:48:59Z",
+        "url": "https://github.com/PulverizeLink/roblox-performance-tool",
+        "created": "2026-11-06T08:03:46Z",
         "topics": [
-          "automation",
-          "batch-processing",
-          "content-creator",
-          "cross-platform"
+          "desktop-app",
+          "fps",
+          "gaming",
+          "lag-fix"
         ]
       },
       {
-        "name": "DeltaProviderGuide/auto-auction-bot-wow-forever",
-        "description": "A free Auction House bot for WoW Forever: buys low, posts high and undercuts for you. Windows app plus in-game panel.",
-        "language": "Rust",
-        "stars": 417,
-        "url": "https://github.com/DeltaProviderGuide/auto-auction-bot-wow-forever",
-        "created": "2026-11-04T05:41:32Z",
+        "name": "Lowbetweentrim/crypto-portfolio-tracker",
+        "description": "Self-hosted, privacy-first crypto portfolio tracker. Import transactions via CSV, track real-time PnL, and manage your assets locally. No cloud, no subscriptions. Open-source",
+        "language": "Python",
+        "stars": 425,
+        "url": "https://github.com/Lowbetweentrim/crypto-portfolio-tracker",
+        "created": "2026-11-06T09:58:59Z",
         "topics": [
-          "auction-house",
-          "fan-project",
-          "gold-making",
-          "rust"
-        ]
-      },
-      {
-        "name": "PatchBuilderAmplify/stolen-crypto-tracer",
-        "description": "Paste a wallet or a transaction hash and follow stolen crypto to the exchange that can freeze it. Works across Bitcoin, Ethereum, TRON, BNB Chain and Solana. One-click report.",
-        "language": "JavaScript",
-        "stars": 402,
-        "url": "https://github.com/PatchBuilderAmplify/stolen-crypto-tracer",
-        "created": "2026-11-03T17:08:02Z",
-        "topics": [
-          "blockchain",
           "crypto",
-          "exchange",
-          "osint"
+          "crypto-taxes",
+          "finance",
+          "local-first"
         ]
       }
     ],
     "posts": [
       {
         "source": "showhn",
+        "title": "Stroq – a local audit of what your coding agent did and why",
+        "url": "https://github.com/AGGIB/Stroq",
+        "points": 88,
+        "comments": 34,
+        "discussion": "https://news.ycombinator.com/item?id=50380704",
+        "created": "2026-11-05T15:54:41.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM",
+        "url": "https://firenook.dev/",
+        "points": 149,
+        "comments": 18,
+        "discussion": "https://news.ycombinator.com/item?id=50378643",
+        "created": "2026-11-05T13:07:29.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "Gauge – Open-Source CLI to recursively improve your docs",
         "url": "https://github.com/gauge-sh/gauge-cli",
-        "points": 35,
-        "comments": 4,
+        "points": 41,
+        "comments": 10,
         "discussion": "https://news.ycombinator.com/item?id=50371090",
         "created": "2026-11-04T20:31:30.000Z"
       },
@@ -244,53 +267,44 @@
         "source": "showhn",
         "title": "After a decade of reversing, I got co-op working in DOS Wing Commander",
         "url": "https://fireflyk64.github.io/wcmulti/",
-        "points": 232,
-        "comments": 32,
+        "points": 250,
+        "comments": 38,
         "discussion": "https://news.ycombinator.com/item?id=50369895",
         "created": "2026-11-04T18:51:27.000Z"
       },
       {
         "source": "showhn",
+        "title": "A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
+        "url": "https://www.linum.ai/field-notes/pjit-21k",
+        "points": 255,
+        "comments": 25,
+        "discussion": "https://news.ycombinator.com/item?id=50368208",
+        "created": "2026-11-04T16:45:11.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "I built a tool that prices a pre-built PC part by part",
         "url": "https://pcdealcheck.com/",
-        "points": 108,
-        "comments": 76,
+        "points": 116,
+        "comments": 82,
         "discussion": "https://news.ycombinator.com/item?id=50366929",
         "created": "2026-11-04T15:25:33.000Z"
       },
       {
-        "source": "showhn",
-        "title": "Codemap – one-page interactive map of any Go repository",
-        "url": "https://github.com/peterretief/codemap",
-        "points": 43,
-        "comments": 21,
-        "discussion": "https://news.ycombinator.com/item?id=50366811",
-        "created": "2026-11-04T15:18:24.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Uncracked City, detective game where you question LLM suspects that lie",
-        "url": "https://uncracked.city",
-        "points": 127,
-        "comments": 69,
-        "discussion": "https://news.ycombinator.com/item?id=50358352",
-        "created": "2026-11-03T21:20:03.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Kairos – Open-source risk and fraud decisioning platform",
-        "url": "https://github.com/finic-ai/kairos",
-        "points": 104,
-        "comments": 34,
-        "discussion": "https://news.ycombinator.com/item?id=50358314",
-        "created": "2026-11-03T21:16:48.000Z"
+        "source": "launchhn",
+        "title": "Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+        "url": "https://github.com/rivet-dev/rivet",
+        "points": 107,
+        "comments": 56,
+        "discussion": "https://news.ycombinator.com/item?id=50381687",
+        "created": "2026-11-05T17:17:42.000Z"
       },
       {
         "source": "launchhn",
         "title": "Kino AI (YC S23) – AI media manager and video editor",
         "url": "https://news.ycombinator.com/item?id=50368804",
-        "points": 93,
-        "comments": 34,
+        "points": 107,
+        "comments": 35,
         "discussion": "https://news.ycombinator.com/item?id=50368804",
         "created": "2026-11-04T17:31:53.000Z"
       },
@@ -299,7 +313,7 @@
         "title": "Momentic (YC W24) – Agents that catch bugs by using your app",
         "url": "https://momentic.ai/",
         "points": 166,
-        "comments": 132,
+        "comments": 133,
         "discussion": "https://news.ycombinator.com/item?id=50339913",
         "created": "2026-11-02T17:05:25.000Z"
       },
@@ -313,31 +327,40 @@
         "created": "2026-10-29T15:56:32.000Z"
       },
       {
-        "source": "launchhn",
-        "title": "Alter (YC S25) – Access control for multi-user agents",
-        "url": "https://alterauth.com/",
-        "points": 69,
-        "comments": 61,
-        "discussion": "https://news.ycombinator.com/item?id=50176908",
-        "created": "2026-10-21T06:42:12.000Z"
+        "source": "hn",
+        "title": "Claude Code sends your email address to websites",
+        "url": "https://github.com/anthropics/claude-code/issues/107757",
+        "points": 1315,
+        "comments": 416,
+        "discussion": "https://news.ycombinator.com/item?id=50385272",
+        "created": "2026-11-05T22:17:15.000Z"
       },
       {
         "source": "hn",
-        "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
-        "url": "https://hachyderm.io/@damienmiller/117563026759098135",
-        "points": 128,
-        "comments": 46,
-        "discussion": "https://news.ycombinator.com/item?id=50377221",
-        "created": "2026-11-05T09:46:17.000Z"
+        "title": "Window Sweaters",
+        "url": "https://github.com/saragordic/window-sweaters",
+        "points": 390,
+        "comments": 115,
+        "discussion": "https://news.ycombinator.com/item?id=50381383",
+        "created": "2026-11-05T16:50:14.000Z"
       },
       {
         "source": "hn",
-        "title": "Baidu released ERNIE 5.5 Flash Base",
-        "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
-        "points": 112,
-        "comments": 63,
-        "discussion": "https://news.ycombinator.com/item?id=50377078",
-        "created": "2026-11-05T09:29:12.000Z"
+        "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+        "url": "https://github.com/ppmpreetham/BUI",
+        "points": 384,
+        "comments": 157,
+        "discussion": "https://news.ycombinator.com/item?id=50389333",
+        "created": "2026-11-06T07:40:35.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+        "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+        "points": 337,
+        "comments": 208,
+        "discussion": "https://news.ycombinator.com/item?id=50390124",
+        "created": "2026-11-06T09:27:12.000Z"
       }
     ]
   },
@@ -3503,7 +3526,7 @@
         "name": "Gathin23/cleanyourtv",
         "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
         "language": "Python",
-        "stars": 52395,
+        "stars": 53052,
         "url": "https://github.com/Gathin23/cleanyourtv",
         "created": "2026-10-17T08:12:35Z",
         "topics": [
@@ -3513,7 +3536,7 @@
           "android-tv-launcher"
         ],
         "firstSeen": "2026-10-19",
-        "lastSeen": "2026-11-05",
+        "lastSeen": "2026-11-06",
         "starsAtFirstSeen": 3496
       },
       "interplains/zero-breach": {
@@ -4321,7 +4344,7 @@
         "name": "Zagitta/gpu-unlock",
         "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
         "language": "C",
-        "stars": 17001,
+        "stars": 17469,
         "url": "https://github.com/Zagitta/gpu-unlock",
         "created": "2026-10-18T01:28:31Z",
         "topics": [],
@@ -4331,7 +4354,7 @@
           "url": "https://news.ycombinator.com/item?id=50219700"
         },
         "firstSeen": "2026-10-26",
-        "lastSeen": "2026-11-05",
+        "lastSeen": "2026-11-06",
         "starsAtFirstSeen": 7592
       },
       "designfuchen/word-atlas": {
@@ -4531,7 +4554,7 @@
         "name": "ly05010419/MacNativeGames",
         "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
         "language": "C",
-        "stars": 7084,
+        "stars": 7158,
         "url": "https://github.com/ly05010419/MacNativeGames",
         "created": "2026-10-17T19:52:00Z",
         "topics": [
@@ -4541,7 +4564,7 @@
           "game-port"
         ],
         "firstSeen": "2026-10-28",
-        "lastSeen": "2026-11-05",
+        "lastSeen": "2026-11-06",
         "starsAtFirstSeen": 6103
       },
       "DLSS-5-Swaper-New/.github": {
@@ -4783,7 +4806,7 @@
         "name": "wangzan101/Mika",
         "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
         "language": "Kotlin",
-        "stars": 6995,
+        "stars": 7320,
         "url": "https://github.com/wangzan101/Mika",
         "created": "2026-10-29T14:34:07Z",
         "topics": [
@@ -4793,7 +4816,7 @@
           "automation"
         ],
         "firstSeen": "2026-10-30",
-        "lastSeen": "2026-11-05",
+        "lastSeen": "2026-11-06",
         "starsAtFirstSeen": 358
       },
       "lexifina/global-law": {
@@ -4841,12 +4864,12 @@
         "name": "heydamir/unslop",
         "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
         "language": "JavaScript",
-        "stars": 9300,
+        "stars": 10445,
         "url": "https://github.com/heydamir/unslop",
         "created": "2026-10-29T15:41:21Z",
         "topics": [],
         "firstSeen": "2026-10-31",
-        "lastSeen": "2026-11-05",
+        "lastSeen": "2026-11-06",
         "starsAtFirstSeen": 2339
       },
       "kevinraymond/florilegium": {
@@ -4962,12 +4985,12 @@
         "name": "deepseek-ai/dsh-superagent-prototype",
         "description": "Towards a More Autonomous Agent System",
         "language": "TypeScript",
-        "stars": 19266,
+        "stars": 20071,
         "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
         "created": "2026-10-31T09:32:46Z",
         "topics": [],
         "firstSeen": "2026-11-01",
-        "lastSeen": "2026-11-05",
+        "lastSeen": "2026-11-06",
         "starsAtFirstSeen": 5473
       },
       "Arjun-Ingole/hop": {
@@ -5015,12 +5038,12 @@
         "name": "storytold/craft-anything",
         "description": "Craft Anything: understand how any software works, and craft your own.",
         "language": "Rust",
-        "stars": 14098,
+        "stars": 16888,
         "url": "https://github.com/storytold/craft-anything",
         "created": "2026-10-31T14:50:00Z",
         "topics": [],
         "firstSeen": "2026-11-01",
-        "lastSeen": "2026-11-05",
+        "lastSeen": "2026-11-06",
         "starsAtFirstSeen": 432
       },
       "N1nEmAn/sapper-v2": {
@@ -5317,19 +5340,19 @@
         "name": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
         "description": "Google_AI_Pro_2Year_ZeroCost_Auto",
         "language": "Python",
-        "stars": 1780,
+        "stars": 2769,
         "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
         "created": "2026-11-04T14:54:56Z",
         "topics": [],
         "firstSeen": "2026-11-05",
-        "lastSeen": "2026-11-05",
+        "lastSeen": "2026-11-06",
         "starsAtFirstSeen": 1780
       },
       "dragonwolfshovel/youtube-uploader": {
         "name": "dragonwolfshovel/youtube-uploader",
         "description": "Automated YouTube video uploader with batch processing, thumbnail support, and scheduled publishing. Uses official YouTube Data API v3. Open-source and privacy-first",
         "language": "Python",
-        "stars": 426,
+        "stars": 429,
         "url": "https://github.com/dragonwolfshovel/youtube-uploader",
         "created": "2026-11-05T05:16:01Z",
         "topics": [
@@ -5339,7 +5362,7 @@
           "content-creator"
         ],
         "firstSeen": "2026-11-05",
-        "lastSeen": "2026-11-05",
+        "lastSeen": "2026-11-06",
         "starsAtFirstSeen": 426
       },
       "Lostuaexpand/windows-animated-wallpapers": {
@@ -5356,14 +5379,14 @@
           "motion-background"
         ],
         "firstSeen": "2026-11-05",
-        "lastSeen": "2026-11-05",
+        "lastSeen": "2026-11-06",
         "starsAtFirstSeen": 426
       },
       "TagPhaseArcade/tiktok-uploader": {
         "name": "TagPhaseArcade/tiktok-uploader",
         "description": "Automated TikTok video uploader with batch processing, scheduling, and hashtag management. Local session-based auth. Open-source and cross-platform",
         "language": "Python",
-        "stars": 425,
+        "stars": 429,
         "url": "https://github.com/TagPhaseArcade/tiktok-uploader",
         "created": "2026-11-05T06:48:59Z",
         "topics": [
@@ -5373,7 +5396,7 @@
           "cross-platform"
         ],
         "firstSeen": "2026-11-05",
-        "lastSeen": "2026-11-05",
+        "lastSeen": "2026-11-06",
         "starsAtFirstSeen": 425
       },
       "DeltaProviderGuide/auto-auction-bot-wow-forever": {
@@ -5409,6 +5432,125 @@
         "firstSeen": "2026-11-05",
         "lastSeen": "2026-11-05",
         "starsAtFirstSeen": 402
+      },
+      "l0ng-ai/openidea": {
+        "name": "l0ng-ai/openidea",
+        "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
+        "language": "TypeScript",
+        "stars": 7334,
+        "url": "https://github.com/l0ng-ai/openidea",
+        "created": "2026-10-21T12:23:14Z",
+        "topics": [
+          "code-editor",
+          "cross-platform",
+          "dap",
+          "database-client"
+        ],
+        "hn": {
+          "points": 41,
+          "comments": 58,
+          "url": "https://news.ycombinator.com/item?id=50323848"
+        },
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06",
+        "starsAtFirstSeen": 7334
+      },
+      "livliv-dev/player": {
+        "name": "livliv-dev/player",
+        "description": "A lightweight 2.5D character player for the web, with lip sync and webcam face tracking.",
+        "language": "TypeScript",
+        "stars": 842,
+        "url": "https://github.com/livliv-dev/player",
+        "created": "2026-11-04T03:28:33Z",
+        "topics": [
+          "avatar",
+          "character",
+          "face-tracking",
+          "lip-sync"
+        ],
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06",
+        "starsAtFirstSeen": 842
+      },
+      "WoYun520/pixel-gif-sticker-pack": {
+        "name": "WoYun520/pixel-gif-sticker-pack",
+        "description": "A Codex skill for creating and verifying animated GIF sticker packs from character references.",
+        "language": "Python",
+        "stars": 534,
+        "url": "https://github.com/WoYun520/pixel-gif-sticker-pack",
+        "created": "2026-11-05T04:08:24Z",
+        "topics": [],
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06",
+        "starsAtFirstSeen": 534
+      },
+      "AtomIllusionistDwell/watson-username-footprint-finder": {
+        "name": "AtomIllusionistDwell/watson-username-footprint-finder",
+        "description": "Free people-search desktop app: look up a nickname, email, phone or site across 3,100+ public pages and get one readable report.",
+        "language": "TypeScript",
+        "stars": 436,
+        "url": "https://github.com/AtomIllusionistDwell/watson-username-footprint-finder",
+        "created": "2026-11-05T05:20:24Z",
+        "topics": [
+          "digital-footprint",
+          "electron",
+          "people-search",
+          "react"
+        ],
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06",
+        "starsAtFirstSeen": 436
+      },
+      "HerdBuilderEstimate/roblox-studio-mcp": {
+        "name": "HerdBuilderEstimate/roblox-studio-mcp",
+        "description": "Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight",
+        "language": "Python",
+        "stars": 427,
+        "url": "https://github.com/HerdBuilderEstimate/roblox-studio-mcp",
+        "created": "2026-11-06T06:16:35Z",
+        "topics": [
+          "ai-tools",
+          "automation",
+          "claude",
+          "cursor"
+        ],
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06",
+        "starsAtFirstSeen": 427
+      },
+      "PulverizeLink/roblox-performance-tool": {
+        "name": "PulverizeLink/roblox-performance-tool",
+        "description": "Lightweight performance utility for Roblox on Windows. Boosts FPS, fixes stutter, reduces input lag, and allows custom frame limits. Safe, offline, and open-source",
+        "language": "Python",
+        "stars": 425,
+        "url": "https://github.com/PulverizeLink/roblox-performance-tool",
+        "created": "2026-11-06T08:03:46Z",
+        "topics": [
+          "desktop-app",
+          "fps",
+          "gaming",
+          "lag-fix"
+        ],
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06",
+        "starsAtFirstSeen": 425
+      },
+      "Lowbetweentrim/crypto-portfolio-tracker": {
+        "name": "Lowbetweentrim/crypto-portfolio-tracker",
+        "description": "Self-hosted, privacy-first crypto portfolio tracker. Import transactions via CSV, track real-time PnL, and manage your assets locally. No cloud, no subscriptions. Open-source",
+        "language": "Python",
+        "stars": 425,
+        "url": "https://github.com/Lowbetweentrim/crypto-portfolio-tracker",
+        "created": "2026-11-06T09:58:59Z",
+        "topics": [
+          "crypto",
+          "crypto-taxes",
+          "finance",
+          "local-first"
+        ],
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06",
+        "starsAtFirstSeen": 425
       }
     },
     "posts": {
@@ -8259,7 +8401,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50291116",
         "created": "2026-10-29T15:56:32.000Z",
         "firstSeen": "2026-10-30",
-        "lastSeen": "2026-11-05"
+        "lastSeen": "2026-11-06"
       },
       "https://news.ycombinator.com/item?id=50298436": {
         "source": "hn",
@@ -8497,11 +8639,11 @@
         "title": "Momentic (YC W24) – Agents that catch bugs by using your app",
         "url": "https://momentic.ai/",
         "points": 166,
-        "comments": 132,
+        "comments": 133,
         "discussion": "https://news.ycombinator.com/item?id=50339913",
         "created": "2026-11-02T17:05:25.000Z",
         "firstSeen": "2026-11-03",
-        "lastSeen": "2026-11-05"
+        "lastSeen": "2026-11-06"
       },
       "https://news.ycombinator.com/item?id=50346849": {
         "source": "hn",
@@ -8606,34 +8748,34 @@
         "source": "showhn",
         "title": "Gauge – Open-Source CLI to recursively improve your docs",
         "url": "https://github.com/gauge-sh/gauge-cli",
-        "points": 35,
-        "comments": 4,
+        "points": 41,
+        "comments": 10,
         "discussion": "https://news.ycombinator.com/item?id=50371090",
         "created": "2026-11-04T20:31:30.000Z",
         "firstSeen": "2026-11-05",
-        "lastSeen": "2026-11-05"
+        "lastSeen": "2026-11-06"
       },
       "https://news.ycombinator.com/item?id=50369895": {
         "source": "showhn",
         "title": "After a decade of reversing, I got co-op working in DOS Wing Commander",
         "url": "https://fireflyk64.github.io/wcmulti/",
-        "points": 232,
-        "comments": 32,
+        "points": 250,
+        "comments": 38,
         "discussion": "https://news.ycombinator.com/item?id=50369895",
         "created": "2026-11-04T18:51:27.000Z",
         "firstSeen": "2026-11-05",
-        "lastSeen": "2026-11-05"
+        "lastSeen": "2026-11-06"
       },
       "https://news.ycombinator.com/item?id=50366929": {
         "source": "showhn",
         "title": "I built a tool that prices a pre-built PC part by part",
         "url": "https://pcdealcheck.com/",
-        "points": 108,
-        "comments": 76,
+        "points": 116,
+        "comments": 82,
         "discussion": "https://news.ycombinator.com/item?id=50366929",
         "created": "2026-11-04T15:25:33.000Z",
         "firstSeen": "2026-11-05",
-        "lastSeen": "2026-11-05"
+        "lastSeen": "2026-11-06"
       },
       "https://news.ycombinator.com/item?id=50366811": {
         "source": "showhn",
@@ -8650,12 +8792,12 @@
         "source": "launchhn",
         "title": "Kino AI (YC S23) – AI media manager and video editor",
         "url": "https://news.ycombinator.com/item?id=50368804",
-        "points": 93,
-        "comments": 34,
+        "points": 107,
+        "comments": 35,
         "discussion": "https://news.ycombinator.com/item?id=50368804",
         "created": "2026-11-04T17:31:53.000Z",
         "firstSeen": "2026-11-05",
-        "lastSeen": "2026-11-05"
+        "lastSeen": "2026-11-06"
       },
       "https://news.ycombinator.com/item?id=50377221": {
         "source": "hn",
@@ -8678,89 +8820,177 @@
         "created": "2026-11-05T09:29:12.000Z",
         "firstSeen": "2026-11-05",
         "lastSeen": "2026-11-05"
+      },
+      "https://news.ycombinator.com/item?id=50380704": {
+        "source": "showhn",
+        "title": "Stroq – a local audit of what your coding agent did and why",
+        "url": "https://github.com/AGGIB/Stroq",
+        "points": 88,
+        "comments": 34,
+        "discussion": "https://news.ycombinator.com/item?id=50380704",
+        "created": "2026-11-05T15:54:41.000Z",
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06"
+      },
+      "https://news.ycombinator.com/item?id=50378643": {
+        "source": "showhn",
+        "title": "Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM",
+        "url": "https://firenook.dev/",
+        "points": 149,
+        "comments": 18,
+        "discussion": "https://news.ycombinator.com/item?id=50378643",
+        "created": "2026-11-05T13:07:29.000Z",
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06"
+      },
+      "https://news.ycombinator.com/item?id=50368208": {
+        "source": "showhn",
+        "title": "A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
+        "url": "https://www.linum.ai/field-notes/pjit-21k",
+        "points": 255,
+        "comments": 25,
+        "discussion": "https://news.ycombinator.com/item?id=50368208",
+        "created": "2026-11-04T16:45:11.000Z",
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06"
+      },
+      "https://news.ycombinator.com/item?id=50381687": {
+        "source": "launchhn",
+        "title": "Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+        "url": "https://github.com/rivet-dev/rivet",
+        "points": 107,
+        "comments": 56,
+        "discussion": "https://news.ycombinator.com/item?id=50381687",
+        "created": "2026-11-05T17:17:42.000Z",
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06"
+      },
+      "https://news.ycombinator.com/item?id=50385272": {
+        "source": "hn",
+        "title": "Claude Code sends your email address to websites",
+        "url": "https://github.com/anthropics/claude-code/issues/107757",
+        "points": 1315,
+        "comments": 416,
+        "discussion": "https://news.ycombinator.com/item?id=50385272",
+        "created": "2026-11-05T22:17:15.000Z",
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06"
+      },
+      "https://news.ycombinator.com/item?id=50381383": {
+        "source": "hn",
+        "title": "Window Sweaters",
+        "url": "https://github.com/saragordic/window-sweaters",
+        "points": 390,
+        "comments": 115,
+        "discussion": "https://news.ycombinator.com/item?id=50381383",
+        "created": "2026-11-05T16:50:14.000Z",
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06"
+      },
+      "https://news.ycombinator.com/item?id=50389333": {
+        "source": "hn",
+        "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+        "url": "https://github.com/ppmpreetham/BUI",
+        "points": 384,
+        "comments": 157,
+        "discussion": "https://news.ycombinator.com/item?id=50389333",
+        "created": "2026-11-06T07:40:35.000Z",
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06"
+      },
+      "https://news.ycombinator.com/item?id=50390124": {
+        "source": "hn",
+        "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+        "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+        "points": 337,
+        "comments": 208,
+        "discussion": "https://news.ycombinator.com/item?id=50390124",
+        "created": "2026-11-06T09:27:12.000Z",
+        "firstSeen": "2026-11-06",
+        "lastSeen": "2026-11-06"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-11-05T14:29:43.877Z",
+    "fetchedAt": "2026-11-06T14:06:32.499Z",
     "hn": [
       {
-        "title": "AI is forcing us to pay off 40 years of technical debt",
-        "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-        "points": 1229,
-        "comments": 714,
-        "discussion": "https://news.ycombinator.com/item?id=50364336"
-      },
-      {
-        "title": "Residential proxies detected on White House network",
-        "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
-        "points": 1181,
-        "comments": 381,
-        "discussion": "https://news.ycombinator.com/item?id=50371246"
-      },
-      {
-        "title": "Sshole",
+        "title": "sshole",
         "url": "https://sshhole.com",
-        "points": 603,
-        "comments": 164,
+        "points": 2797,
+        "comments": 679,
         "discussion": "https://news.ycombinator.com/item?id=50378228"
       },
       {
-        "title": "Kimi K3.1 Pro model weights are out",
-        "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-        "points": 588,
-        "comments": 165,
-        "discussion": "https://news.ycombinator.com/item?id=50366999"
+        "title": "Claude Code sends your email address to websites",
+        "url": "https://github.com/anthropics/claude-code/issues/107757",
+        "points": 1314,
+        "comments": 416,
+        "discussion": "https://news.ycombinator.com/item?id=50385272"
       },
       {
-        "title": "A thousand fewer paths to root",
-        "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-        "points": 429,
-        "comments": 315,
-        "discussion": "https://news.ycombinator.com/item?id=50372929"
+        "title": "MS Paint Remote Code Execution Vulnerability",
+        "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+        "points": 607,
+        "comments": 226,
+        "discussion": "https://news.ycombinator.com/item?id=50384233"
       },
       {
-        "title": "Ask HN: What's your current AI agentic setup?",
-        "url": "https://news.ycombinator.com/item?id=50366117",
-        "points": 426,
-        "comments": 492,
-        "discussion": "https://news.ycombinator.com/item?id=50366117"
+        "title": "Motorola Signature 27 with GrapheneOS support",
+        "url": "https://motorolanews.com/motorola-signature-27-2/",
+        "points": 523,
+        "comments": 377,
+        "discussion": "https://news.ycombinator.com/item?id=50380810"
       },
       {
-        "title": "A new Go API for JSON",
-        "url": "https://go.dev/blog/jsonv2",
-        "points": 359,
+        "title": "I wish tech companies knew more about me",
+        "url": "https://rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me",
+        "points": 483,
+        "comments": 382,
+        "discussion": "https://news.ycombinator.com/item?id=50378942"
+      },
+      {
+        "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+        "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+        "points": 423,
+        "comments": 192,
+        "discussion": "https://news.ycombinator.com/item?id=50385870"
+      },
+      {
+        "title": "Window Sweaters",
+        "url": "https://github.com/saragordic/window-sweaters",
+        "points": 389,
+        "comments": 115,
+        "discussion": "https://news.ycombinator.com/item?id=50381383"
+      },
+      {
+        "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+        "url": "https://github.com/ppmpreetham/BUI",
+        "points": 384,
+        "comments": 157,
+        "discussion": "https://news.ycombinator.com/item?id=50389333"
+      },
+      {
+        "title": "Download your favourite YouTube videos",
+        "url": "https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/",
+        "points": 373,
         "comments": 179,
-        "discussion": "https://news.ycombinator.com/item?id=50369106"
+        "discussion": "https://news.ycombinator.com/item?id=50378571"
       },
       {
-        "title": "Images 2.6",
-        "url": "https://openai.com/index/introducing-images-2-6/",
-        "points": 346,
-        "comments": 207,
-        "discussion": "https://news.ycombinator.com/item?id=50372945"
-      },
-      {
-        "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-        "url": "https://www.ricursive.com/ripple",
-        "points": 315,
-        "comments": 112,
-        "discussion": "https://news.ycombinator.com/item?id=50369925"
-      },
-      {
-        "title": "Insects don't swarm at LED lights",
-        "url": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/",
-        "points": 296,
-        "comments": 150,
-        "discussion": "https://news.ycombinator.com/item?id=50370610"
+        "title": "Britain to make salary disclosure in job ads mandatory",
+        "url": "https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/",
+        "points": 357,
+        "comments": 296,
+        "discussion": "https://news.ycombinator.com/item?id=50389222"
       }
     ],
     "lobsters": [
       {
         "title": "sshhole",
         "url": "https://sshhole.com/",
-        "points": 52,
-        "comments": 16,
+        "points": 155,
+        "comments": 38,
         "discussion": "https://lobste.rs/s/oq5pem/sshhole",
         "tags": [
           "linux",
@@ -8768,267 +8998,228 @@
         ]
       },
       {
-        "title": "Declarative Dragging",
-        "url": "https://declarative-dragging.github.io/",
-        "points": 74,
-        "comments": 2,
-        "discussion": "https://lobste.rs/s/jplxxr/declarative_dragging",
+        "title": "What are you doing this weekend?",
+        "url": "https://lobste.rs/s/jmdchp/what_are_you_doing_this_weekend",
+        "points": 11,
+        "comments": 13,
+        "discussion": "https://lobste.rs/s/jmdchp/what_are_you_doing_this_weekend",
         "tags": [
-          "design",
-          "graphics",
-          "plt"
+          "ask",
+          "programming"
         ]
       },
       {
-        "title": "So my ISP was hijacking my DNS",
-        "url": "https://karthihegde.dev/posts/dns_tampering",
-        "points": 98,
-        "comments": 15,
-        "discussion": "https://lobste.rs/s/cozhtg/so_my_isp_was_hijacking_my_dns",
+        "title": "Software Line Specialist",
+        "url": "https://lovro-bikic.github.io/software-line-specialist/",
+        "points": 83,
+        "comments": 8,
+        "discussion": "https://lobste.rs/s/yoywed/software_line_specialist",
         "tags": [
-          "networking"
+          "satire"
         ]
       },
       {
-        "title": "Shlemiel the Painter Is Back: How Zig’s libc Rewrite Made SQLite Slower",
-        "url": "https://dennisforbes.ca/blog/microblog/2026/10/the_accidental_12000x_sqlite_slowdown/",
-        "points": 87,
-        "comments": 17,
-        "discussion": "https://lobste.rs/s/lh1j0e/shlemiel_painter_is_back_how_zig_s_libc",
-        "tags": [
-          "performance",
-          "rust",
-          "zig"
-        ]
-      },
-      {
-        "title": "Your Cryptography Conspiracy Theory Is Wrong",
-        "url": "https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/",
-        "points": 66,
-        "comments": 17,
-        "discussion": "https://lobste.rs/s/bqllfe/your_cryptography_conspiracy_theory_is",
-        "tags": [
-          "cryptography"
-        ]
-      },
-      {
-        "title": "11 nanoseconds per word: Ridiculously Over-Optimizing Anagrams",
-        "url": "https://wiredream.com/anagram-fun/",
-        "points": 17,
-        "comments": 1,
-        "discussion": "https://lobste.rs/s/hrsyjf/11_nanoseconds_per_word_ridiculously",
-        "tags": [
-          "performance",
-          "rust"
-        ]
-      },
-      {
-        "title": "A new Go API for JSON",
-        "url": "https://go.dev/blog/jsonv2",
-        "points": 33,
-        "comments": 5,
-        "discussion": "https://lobste.rs/s/gfm0xn/new_go_api_for_json",
-        "tags": [
-          "go"
-        ]
-      },
-      {
-        "title": "Full-stack verification is the new trend",
-        "url": "https://wiki.alcidesfonseca.com/blog/full-stack-verification-is-the-new-trend/",
-        "points": 3,
+        "title": "Making musl and proprietary NVIDIA drivers work together",
+        "url": "https://chimera-linux.org/news/2026/11/musl-nvidia.html",
+        "points": 5,
         "comments": 0,
-        "discussion": "https://lobste.rs/s/lerlry/full_stack_verification_is_new_trend",
+        "discussion": "https://lobste.rs/s/hvxjbb/making_musl_proprietary_nvidia_drivers",
         "tags": [
-          "ai",
-          "formalmethods"
+          "linux"
         ]
       },
       {
-        "title": "Man-in-the-middle arbitrary code execution in Debian’s apt",
-        "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
-        "points": 45,
-        "comments": 7,
-        "discussion": "https://lobste.rs/s/h7bvma/man_middle_arbitrary_code_execution",
+        "title": "September in Servo: progress, rounded rectangles, and more",
+        "url": "https://servo.org/blog/2026/11/05/september-in-servo/",
+        "points": 72,
+        "comments": 10,
+        "discussion": "https://lobste.rs/s/u26wki/september_servo_progress_rounded",
         "tags": [
-          "linux",
+          "browsers",
+          "release"
+        ]
+      },
+      {
+        "title": "Clojure Distilled",
+        "url": "https://yogthos.net/ClojureDistilled.html",
+        "points": 20,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/dxno99/clojure_distilled",
+        "tags": [
+          "lisp"
+        ]
+      },
+      {
+        "title": "X-87 - DOS 256 bytes",
+        "url": "https://www.onirom.fr/wiki/codegolf/x-87/",
+        "points": 31,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/q0ld7f/x_87_dos_256_bytes",
+        "tags": [
+          "art",
+          "assembly",
+          "concatenative"
+        ]
+      },
+      {
+        "title": "SourceHut disabled registration bypass | CVE-2026-121728",
+        "url": "https://blog.arusekk.pl/posts/srht-disabled-registration-bypass/",
+        "points": 46,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/x2hcss/sourcehut_disabled_registration_bypass",
+        "tags": [
           "security"
         ]
       },
       {
-        "title": "Why is there an Anubis gate in front of Search for logged-in users?",
-        "url": "https://lobste.rs/s/y4poxs/why_is_there_anubis_gate_front_search_for",
-        "points": 14,
-        "comments": 3,
-        "discussion": "https://lobste.rs/s/y4poxs/why_is_there_anubis_gate_front_search_for",
+        "title": "I Go to Olympics of 4KB Coding",
+        "url": "https://inv.nadeko.net/watch?v=PeZNLvD4mds",
+        "points": 15,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/vwkurz/i_go_olympics_4kb_coding",
         "tags": [
-          "meta",
+          "assembly",
+          "hardware",
+          "practices",
+          "video"
+        ]
+      },
+      {
+        "title": "A Look at Datastar",
+        "url": "https://noteflakes.com/articles/2026-11-04-datastar",
+        "points": 22,
+        "comments": 9,
+        "discussion": "https://lobste.rs/s/vbx0g4/look_at_datastar",
+        "tags": [
+          "ruby",
           "web"
         ]
       }
     ],
     "devto": [
       {
-        "title": "Meet Necoz! 😸 Small. Simple. Useful.",
-        "url": "https://dev.to/nyaomaru/meet-necoz-small-simple-useful-ppo",
-        "points": 79,
-        "comments": 38,
-        "discussion": "https://dev.to/nyaomaru/meet-necoz-small-simple-useful-ppo",
+        "title": "Congrats to the Kaggle Benchmarking Challenge Winners!",
+        "url": "https://dev.to/devteam/congrats-to-the-kaggle-benchmarking-challenge-winners-2moh",
+        "points": 100,
+        "comments": 20,
+        "discussion": "https://dev.to/devteam/congrats-to-the-kaggle-benchmarking-challenge-winners-2moh",
         "tags": [
-          "opensource",
-          "typescript",
-          "software"
-        ]
-      },
-      {
-        "title": "Scared to Publish Your First Technical Article? Don't Be. I'll Be There to Read It",
-        "url": "https://dev.to/georgekobaidze/scared-to-publish-your-first-technical-article-dont-be-ill-be-there-to-read-it-1gg2",
-        "points": 60,
-        "comments": 29,
-        "discussion": "https://dev.to/georgekobaidze/scared-to-publish-your-first-technical-article-dont-be-ill-be-there-to-read-it-1gg2",
-        "tags": [
-          "community",
-          "beginners",
-          "writing"
-        ]
-      },
-      {
-        "title": "How Hackers Weaponized DEV.to's Mention System to Spread a Phishing Scam",
-        "url": "https://dev.to/ggle_in/how-hackers-weaponized-devtos-mention-system-to-spread-a-phishing-scam-1j7c",
-        "points": 36,
-        "comments": 17,
-        "discussion": "https://dev.to/ggle_in/how-hackers-weaponized-devtos-mention-system-to-spread-a-phishing-scam-1j7c",
-        "tags": [
-          "security",
-          "devto",
-          "phising"
-        ]
-      },
-      {
-        "title": "WebMCP Attack Lab: Can an E-Shop Hijack Your AI Agent?",
-        "url": "https://dev.to/gramli/webmcp-attack-lab-can-an-e-shop-hijack-your-ai-agent-4oe5",
-        "points": 31,
-        "comments": 14,
-        "discussion": "https://dev.to/gramli/webmcp-attack-lab-can-an-e-shop-hijack-your-ai-agent-4oe5",
-        "tags": [
-          "ai",
-          "webmcp",
-          "angular"
-        ]
-      },
-      {
-        "title": "Popularity Depends on How You Define It: How 700 RSS Bot Posts Took Over DEV's Community Hub 🤖💥",
-        "url": "https://dev.to/dj29/popularity-depends-on-how-you-define-it-how-700-rss-bot-posts-took-over-devs-community-hub-414p",
-        "points": 28,
-        "comments": 13,
-        "discussion": "https://dev.to/dj29/popularity-depends-on-how-you-define-it-how-700-rss-bot-posts-took-over-devs-community-hub-414p",
-        "tags": [
-          "webdev",
-          "rails",
-          "database"
-        ]
-      },
-      {
-        "title": "A Maintainer's Advice on Contributing to Open Source in 2026",
-        "url": "https://dev.to/wasp/a-maintainers-advice-on-contributing-to-open-source-in-2026-4ea1",
-        "points": 24,
-        "comments": 2,
-        "discussion": "https://dev.to/wasp/a-maintainers-advice-on-contributing-to-open-source-in-2026-4ea1",
-        "tags": [
-          "opensource",
-          "ai",
-          "github"
-        ]
-      },
-      {
-        "title": "How to Build Your Team's First Shared Agent",
-        "url": "https://dev.to/therealmrmumba/how-to-build-your-teams-first-shared-agent-3b4p",
-        "points": 22,
-        "comments": 3,
-        "discussion": "https://dev.to/therealmrmumba/how-to-build-your-teams-first-shared-agent-3b4p",
-        "tags": [
-          "ai",
-          "webdev",
-          "productivity"
-        ]
-      },
-      {
-        "title": "\"Mandatory user verification\" on DEV is a scam. Here's how to spot it in 30 seconds.",
-        "url": "https://dev.to/ayoub_hammoudi/mandatory-user-verification-on-dev-is-a-scam-heres-how-to-spot-it-in-30-seconds-1594",
-        "points": 16,
-        "comments": 12,
-        "discussion": "https://dev.to/ayoub_hammoudi/mandatory-user-verification-on-dev-is-a-scam-heres-how-to-spot-it-in-30-seconds-1594",
-        "tags": [
-          "security",
-          "discuss",
-          "webdev"
-        ]
-      },
-      {
-        "title": "Don't Write Markdown Files for Your Coding Agent. Write Scripts.",
-        "url": "https://dev.to/dannwaneri/dont-write-markdown-files-for-your-coding-agent-write-scripts-j00",
-        "points": 14,
-        "comments": 2,
-        "discussion": "https://dev.to/dannwaneri/dont-write-markdown-files-for-your-coding-agent-write-scripts-j00",
-        "tags": [
-          "ai",
-          "programming",
-          "devops"
-        ]
-      },
-      {
-        "title": "Nuxt CLI v4 Is Great for AI Coding Agents",
-        "url": "https://dev.to/erikch/nuxt-cli-v4-is-great-for-ai-coding-agents-5dhg",
-        "points": 11,
-        "comments": 3,
-        "discussion": "https://dev.to/erikch/nuxt-cli-v4-is-great-for-ai-coding-agents-5dhg",
-        "tags": [
-          "nuxt",
-          "vue",
+          "devchallenge",
+          "kagglechallenge",
           "ai"
+        ]
+      },
+      {
+        "title": "An AI Testing Presentation Became the Final Push for Organizational Change at My Company",
+        "url": "https://dev.to/xulingfeng/an-ai-testing-presentation-became-the-final-push-for-organizational-change-at-my-company-12ag",
+        "points": 100,
+        "comments": 51,
+        "discussion": "https://dev.to/xulingfeng/an-ai-testing-presentation-became-the-final-push-for-organizational-change-at-my-company-12ag",
+        "tags": [
+          "discuss",
+          "ai",
+          "programming"
+        ]
+      },
+      {
+        "title": "Trocar de provedor não deveria ser uma dor de cabeça",
+        "url": "https://dev.to/he4rt/trocar-de-provedor-nao-deveria-ser-uma-dor-de-cabeca-50ee",
+        "points": 70,
+        "comments": 2,
+        "discussion": "https://dev.to/he4rt/trocar-de-provedor-nao-deveria-ser-uma-dor-de-cabeca-50ee",
+        "tags": [
+          "braziliandevs",
+          "database",
+          "programming"
+        ]
+      },
+      {
+        "title": "Every keyboard is a mechanical keyboard with Klicky",
+        "url": "https://dev.to/muneer320/i-wanted-keyboard-sounds-on-linux-then-i-fell-down-the-audio-stack-3b1d",
+        "points": 39,
+        "comments": 1,
+        "discussion": "https://dev.to/muneer320/i-wanted-keyboard-sounds-on-linux-then-i-fell-down-the-audio-stack-3b1d",
+        "tags": [
+          "rust",
+          "opensource",
+          "linux"
+        ]
+      },
+      {
+        "title": "One Markdown File Can Hijack Your AI Coding Agent: The Hidden Cost of Blindly Trusting AGENTS.md",
+        "url": "https://dev.to/johnnylemonny/one-markdown-file-can-hijack-your-ai-coding-agent-the-hidden-cost-of-blindly-trusting-agentsmd-167n",
+        "points": 38,
+        "comments": 23,
+        "discussion": "https://dev.to/johnnylemonny/one-markdown-file-can-hijack-your-ai-coding-agent-the-hidden-cost-of-blindly-trusting-agentsmd-167n",
+        "tags": [
+          "ai",
+          "webdev",
+          "programming"
+        ]
+      },
+      {
+        "title": "Cybersecurity in the AI Era",
+        "url": "https://dev.to/alexr/cybersecurity-in-the-ai-era-51p2",
+        "points": 36,
+        "comments": 4,
+        "discussion": "https://dev.to/alexr/cybersecurity-in-the-ai-era-51p2",
+        "tags": [
+          "cybersecurity",
+          "ai",
+          "leadership"
+        ]
+      },
+      {
+        "title": "If Diwali Had a Git Commit History, Mine Would Be Full of Last-Minute Changes",
+        "url": "https://dev.to/shubhradev/if-diwali-had-a-git-commit-history-mine-would-be-full-of-last-minute-changes-58p8",
+        "points": 29,
+        "comments": 5,
+        "discussion": "https://dev.to/shubhradev/if-diwali-had-a-git-commit-history-mine-would-be-full-of-last-minute-changes-58p8",
+        "tags": [
+          "devjournal",
+          "watercooler",
+          "discuss"
+        ]
+      },
+      {
+        "title": "What was your win this week?",
+        "url": "https://dev.to/devteam/what-was-your-win-this-week-28dh",
+        "points": 22,
+        "comments": 2,
+        "discussion": "https://dev.to/devteam/what-was-your-win-this-week-28dh",
+        "tags": [
+          "weeklyretro"
+        ]
+      },
+      {
+        "title": "Plan Stamping, for Software",
+        "url": "https://dev.to/kenwalger/plan-stamping-for-software-4ein",
+        "points": 20,
+        "comments": 9,
+        "discussion": "https://dev.to/kenwalger/plan-stamping-for-software-4ein",
+        "tags": [
+          "ai",
+          "career",
+          "discuss"
+        ]
+      },
+      {
+        "title": "HTML's Real Ceiling: What's the Most You Can Build With a Single .html File?",
+        "url": "https://dev.to/akhourianmolkumar/htmls-real-ceiling-whats-the-most-you-can-build-with-a-single-html-file-1l0j",
+        "points": 20,
+        "comments": 7,
+        "discussion": "https://dev.to/akhourianmolkumar/htmls-real-ceiling-whats-the-most-you-can-build-with-a-single-html-file-1l0j",
+        "tags": [
+          "webdev",
+          "javascript",
+          "html"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-11-05T14:29:43.877Z",
+    "fetchedAt": "2026-11-06T14:06:32.499Z",
     "candidates": {
-      "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4": {
-        "source": "Netflix",
-        "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
-        "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4",
-        "published": "2026-10-22T22:19:12.000Z",
-        "summary": ""
-      },
-      "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent": {
-        "source": "Figma",
-        "title": "How to put your design system to work with the Figma agent",
-        "url": "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/",
-        "published": "2026-10-23T02:27:00.000Z",
-        "summary": "Your design system can help the Figma agent understand the principles and guidelines that define your product. Here’s how to make that context useful to the agent."
-      },
-      "https://www.figma.com/blog/lufthansa-figma-make": {
-        "source": "Figma",
-        "title": "How Lufthansa Systems prototypes realistic maps for the cockpit with Figma Make",
-        "url": "https://www.figma.com/blog/lufthansa-figma-make/",
-        "published": "2026-10-22T14:50:00.000Z",
-        "summary": "Pilots depend on in-flight software to navigate routes, see air traffic, avoid turbulence, and more. To bring more dynamic prototypes to user testing, Lufthansa Systems turned to Figma Make."
-      },
-      "https://quad9.net/news/blog/au-revoir-france": {
-        "source": "Lobsters",
-        "title": "Quad9 DNS Resolver to exit France",
-        "url": "https://quad9.net/news/blog/au-revoir-france/",
-        "discussion": "https://lobste.rs/s/s0aktw/quad9_dns_resolver_exit_france",
-        "published": "2026-10-22T19:47:39.798Z",
-        "summary": ""
-      },
-      "https://alexsci.com/blog/uuidv7-is-weird": {
-        "source": "Lobsters",
-        "title": "UUIDv7 doesn't have the properties you think it does",
-        "url": "https://alexsci.com/blog/uuidv7-is-weird/",
-        "discussion": "https://lobste.rs/s/kcyzco/uuidv7_doesn_t_have_properties_you_think",
-        "published": "2026-10-23T01:22:17.339Z",
-        "summary": ""
-      },
       "https://blog.cloudflare.com/origin-range-requests": {
         "source": "Cloudflare",
         "title": "Origin Range Requests: Serving large files without range-request tuning",
@@ -9063,45 +9254,6 @@
         "url": "https://muratbuffalo.blogspot.com/2026/10/hpts-2026-day-2-and-day-3.html",
         "published": "2026-10-23T16:45:30.951Z",
         "summary": "This is the second half of my HPTS 2026 notes. Day 1 was mostly about AI and the importance of specifications . Day 2 and day 3 cover hardware, object storage, failures, consensus, and lakehouses. Session 5: Hardware will save us all (chair: Natassa Ailamaki) The Fastest Way to be the Fastest (Bobbi Yogatama, NVIDIA) GPUs and databases have a love-hate relationship, and Bobbi listed the three reas"
-      },
-      "http://brooker.co.za/blog/2026/10/23/animations.html": {
-        "source": "Marc Brooker",
-        "title": "Animations for System Builders: Metastability and Lost Writes",
-        "url": "http://brooker.co.za/blog/2026/10/23/animations.html",
-        "published": "2026-10-23T00:00:00.000Z",
-        "summary": "Animations for System Builders: Metastability and Lost Writes Pretty pictures help us learn, maybe? MathJax = { tex: {inlineMath: [['\\\\(', '\\\\)'], ['$', '$']]} }; One of the things I love using LLMs for is helping me understand systems better. In the Strands Decider post I wrote about how I often ask ask me questions to check I understand this . The other technique I’m enjoying right now, and am d"
-      },
-      "https://www.seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages": {
-        "source": "Lobsters",
-        "title": "Software is slow because of bad design, not slow languages",
-        "url": "https://www.seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages/",
-        "discussion": "https://lobste.rs/s/hd72yt/software_is_slow_because_bad_design_not",
-        "published": "2026-10-23T12:58:10.897Z",
-        "summary": ""
-      },
-      "https://rtfeldman.com/fp-vs-c": {
-        "source": "Lobsters",
-        "title": "How close can pure FP get to C?",
-        "url": "https://rtfeldman.com/fp-vs-c",
-        "discussion": "https://lobste.rs/s/7me8wm/how_close_can_pure_fp_get_c",
-        "published": "2026-10-23T11:37:22.171Z",
-        "summary": ""
-      },
-      "https://blog.fyralabs.com/debunking-faster-than-rust-malicious-benchmarks-in-tov": {
-        "source": "Lobsters",
-        "title": "Debunking \"Faster than Rust\": Malicious Benchmarks in Tov",
-        "url": "https://blog.fyralabs.com/debunking-faster-than-rust-malicious-benchmarks-in-tov/",
-        "discussion": "https://lobste.rs/s/gajtrm/debunking_faster_than_rust_malicious",
-        "published": "2026-10-23T07:44:09.224Z",
-        "summary": ""
-      },
-      "https://fishbowl.pastiche.org/2026/10/23/hibernate-origin-story": {
-        "source": "Lobsters",
-        "title": "The Hibernate Origin Story (Outsider Edition)",
-        "url": "https://fishbowl.pastiche.org/2026/10/23/hibernate-origin-story",
-        "discussion": "https://lobste.rs/s/ydmw6s/hibernate_origin_story_outsider_edition",
-        "published": "2026-10-23T04:21:32.645Z",
-        "summary": ""
       },
       "https://muratbuffalo.blogspot.com/2026/10/what-do-frontier-labs-actually-believe.html": {
         "source": "Murat Demirbas",
@@ -9619,6 +9771,70 @@
         "url": "https://namespace.so/blog/mac-at-any-scale",
         "discussion": "https://lobste.rs/s/j1twhe/mac_at_any_scale",
         "published": "2026-11-04T03:08:11.213Z",
+        "summary": ""
+      },
+      "https://discord.com/blog/nitros-biggest-year-yet-a-look-back-at-2026": {
+        "source": "Discord",
+        "title": "Nitro’s Biggest Year Yet: A Look Back at 2026",
+        "url": "https://discord.com/blog/nitros-biggest-year-yet-a-look-back-at-2026",
+        "published": "2026-11-05T00:00:00.000Z",
+        "summary": "Nitro had a big year. Catch up on everything Nitro added in 2026, from new in-app perks like 1GB file uploads and Display Name Styles, to partner rewards like access to 50 games with XBOX Game Pass."
+      },
+      "https://blog.cloudflare.com/vole-mole": {
+        "source": "Cloudflare",
+        "title": "The post-quantum future of web privacy",
+        "url": "https://blog.cloudflare.com/vole-mole/",
+        "published": "2026-11-06T14:00:00.000Z",
+        "summary": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap."
+      },
+      "https://blog.cloudflare.com/trusted-agent-delegation": {
+        "source": "Cloudflare",
+        "title": "Agents aren’t humans (but they kinda are)",
+        "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+        "published": "2026-11-05T17:03:04.000Z",
+        "summary": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic."
+      },
+      "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture": {
+        "source": "GitHub",
+        "title": "Inside GitHub’s new Git storage architecture",
+        "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+        "published": "2026-11-05T20:23:21.000Z",
+        "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog ."
+      },
+      "https://stripe.com/blog/analyze-your-stripe-data-directly-with-your-agent": {
+        "source": "Stripe",
+        "title": "Analyze your Stripe data directly with your agent",
+        "url": "https://stripe.com/blog/analyze-your-stripe-data-directly-with-your-agent",
+        "published": "2026-11-05T00:00:00.000Z",
+        "summary": "You can now use natural language to create an investor slide deck highlighting where your business outperformed in the previous quarter, or build a custom dashboard to understand why your Stripe revenue changed."
+      },
+      "https://shopify.engineering/reflex": {
+        "source": "Shopify",
+        "title": "Reflex: an architecture for building mobile apps with agents",
+        "url": "https://shopify.engineering/reflex",
+        "published": "2026-11-05T15:41:40.000Z",
+        "summary": "Our architecture lets agents test mobile app behavior without an emulator and use one test suite to keep iOS and Android in sync."
+      },
+      "https://aws.amazon.com/blogs/architecture/how-orderserv-achieved-up-to-64-cost-savings-with-multi-tenant-ecs": {
+        "source": "AWS Architecture",
+        "title": "How OrderServ achieved up to 64% cost savings with multi-tenant ECS",
+        "url": "https://aws.amazon.com/blogs/architecture/how-orderserv-achieved-up-to-64-cost-savings-with-multi-tenant-ecs/",
+        "published": "2026-11-06T00:09:41.000Z",
+        "summary": "See how Cognizant and AWS Professional Services transformed the OrderServ food-ordering platform into a multi-tenant SaaS offering on shared Amazon ECS, cutting compute costs up to 64%, reducing scaling time from minutes to seconds, and lowering authentication costs by 80%."
+      },
+      "https://aws.amazon.com/blogs/architecture/how-tui-scales-threat-modeling-for-100-teams-with-amazon-bedrock": {
+        "source": "AWS Architecture",
+        "title": "How TUI scales threat modeling for 100+ teams with Amazon Bedrock",
+        "url": "https://aws.amazon.com/blogs/architecture/how-tui-scales-threat-modeling-for-100-teams-with-amazon-bedrock/",
+        "published": "2026-11-05T18:45:07.000Z",
+        "summary": "Learn how TUI, the world's leading tourism group, built an AI-powered threat modeling system on Amazon Bedrock and Amazon Bedrock AgentCore to scale security assessments across more than 100 product teams, cutting threat modeling time by up to 70% while applying security standards consistently."
+      },
+      "https://reasonablypolymorphic.com/blog/arrows-to-arrows": {
+        "source": "Lobsters",
+        "title": "Arrows to Arrows, Categories to Queries",
+        "url": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
+        "discussion": "https://lobste.rs/s/gqis6q/arrows_arrows_categories_queries",
+        "published": "2026-11-04T15:49:15.176Z",
         "summary": ""
       }
     }
