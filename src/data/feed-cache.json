@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-11-09T15:57:18.826Z",
+    "fetchedAt": "2026-11-10T14:44:04.940Z",
     "repos": [
       {
         "name": "storytold/craft-anything",
         "description": "Craft Anything: understand how any software works, and craft your own.",
         "language": "Rust",
-        "stars": 24041,
+        "stars": 25643,
         "url": "https://github.com/storytold/craft-anything",
         "created": "2026-10-31T14:50:00Z",
         "topics": []
@@ -15,7 +15,7 @@
         "name": "deepseek-ai/dsh-superagent-prototype",
         "description": "Towards a More Autonomous Agent System",
         "language": "TypeScript",
-        "stars": 21667,
+        "stars": 22090,
         "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
         "created": "2026-10-31T09:32:46Z",
         "topics": []
@@ -24,7 +24,7 @@
         "name": "heydamir/unslop",
         "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
         "language": "JavaScript",
-        "stars": 12543,
+        "stars": 13372,
         "url": "https://github.com/heydamir/unslop",
         "created": "2026-10-29T15:41:21Z",
         "topics": []
@@ -33,7 +33,7 @@
         "name": "l0ng-ai/openidea",
         "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
         "language": "TypeScript",
-        "stars": 8121,
+        "stars": 8362,
         "url": "https://github.com/l0ng-ai/openidea",
         "created": "2026-10-21T12:23:14Z",
         "topics": [
@@ -52,7 +52,7 @@
         "name": "wangzan101/Mika",
         "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
         "language": "Kotlin",
-        "stars": 7882,
+        "stars": 8017,
         "url": "https://github.com/wangzan101/Mika",
         "created": "2026-10-29T14:34:07Z",
         "topics": [
@@ -66,30 +66,30 @@
         "name": "zortos293/Lichii",
         "description": "VERY experimental Nintendo Switch 2 emulator",
         "language": "C++",
-        "stars": 7331,
+        "stars": 7965,
         "url": "https://github.com/zortos293/Lichii",
         "created": "2026-10-31T14:17:26Z",
         "topics": []
       },
       {
-        "name": "Jakeschincariol/day-trader-skill",
-        "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
-        "language": "Python",
-        "stars": 6338,
-        "url": "https://github.com/Jakeschincariol/day-trader-skill",
-        "created": "2026-10-20T14:17:54Z",
+        "name": "Minireel/HGhub",
+        "description": "YellowFruit third-party client",
+        "language": null,
+        "stars": 7900,
+        "url": "https://github.com/Minireel/HGhub",
+        "created": "2026-11-03T14:04:27Z",
         "topics": [
-          "backtesting",
-          "claude",
-          "claude-skills",
-          "day-trading"
+          "android",
+          "drama",
+          "free",
+          "movie-web-app"
         ]
       },
       {
         "name": "patch-gg/pixelfx",
         "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
         "language": "JavaScript",
-        "stars": 6261,
+        "stars": 6585,
         "url": "https://github.com/patch-gg/pixelfx",
         "created": "2026-10-30T06:43:25Z",
         "topics": [
@@ -100,10 +100,19 @@
         ]
       },
       {
+        "name": "huamidev/GestaltX",
+        "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+        "language": "Swift",
+        "stars": 4204,
+        "url": "https://github.com/huamidev/GestaltX",
+        "created": "2026-11-09T05:15:48Z",
+        "topics": []
+      },
+      {
         "name": "jhaizhou-ops/S2Arm",
         "description": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。",
         "language": "C#",
-        "stars": 1569,
+        "stars": 2302,
         "url": "https://github.com/jhaizhou-ops/S2Arm",
         "created": "2026-11-08T05:49:46Z",
         "topics": [
@@ -114,37 +123,10 @@
         ]
       },
       {
-        "name": "Th0rgal/satmux",
-        "description": "Accelerate high-latency GEO inflight Wi-Fi via warm BBR TCP multiplexing + 1-RTT Ground-TLS + zlib (zero dependencies)",
-        "language": "Python",
-        "stars": 990,
-        "url": "https://github.com/Th0rgal/satmux",
-        "created": "2026-11-07T16:09:41Z",
-        "topics": []
-      },
-      {
-        "name": "huamidev/GestaltX",
-        "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
-        "language": "Swift",
-        "stars": 929,
-        "url": "https://github.com/huamidev/GestaltX",
-        "created": "2026-11-09T05:15:48Z",
-        "topics": []
-      },
-      {
-        "name": "lxe/phoneuse",
-        "description": "See and operate an unmodified iPhone from a Linux PC: AirPlay mirror in, Bluetooth HID mouse/keyboard out, plus a CLI and skill for agents.",
-        "language": "Python",
-        "stars": 521,
-        "url": "https://github.com/lxe/phoneuse",
-        "created": "2026-11-07T01:28:30Z",
-        "topics": []
-      },
-      {
         "name": "PlateParrotTerminal/lag-doctor",
         "description": "Game ping, jitter & packet loss monitor: finds who causes your lag",
         "language": "Rust",
-        "stars": 429,
+        "stars": 444,
         "url": "https://github.com/PlateParrotTerminal/lag-doctor",
         "created": "2026-11-08T04:19:51Z",
         "topics": [
@@ -155,130 +137,146 @@
         ]
       },
       {
-        "name": "TooonyChen/finallyshell",
-        "description": "类finalshell的ssh客户端 // An source-available finalshell copy, with go runtime and mygo UI",
+        "name": "kolbicz/WQFiles",
+        "description": "File browser, app data manager and cache cleaner for iOS 27 (worse_query, no jailbreak)",
+        "language": "Objective-C",
+        "stars": 432,
+        "url": "https://github.com/kolbicz/WQFiles",
+        "created": "2026-11-09T13:43:40Z",
+        "topics": []
+      },
+      {
+        "name": "forcequitOS/worse_query",
+        "description": "A sandbox escape for iOS 26 and 27, again",
+        "language": "Objective-C",
+        "stars": 425,
+        "url": "https://github.com/forcequitOS/worse_query",
+        "created": "2026-11-08T17:00:03Z",
+        "topics": []
+      },
+      {
+        "name": "yetone/rewind-for-x",
+        "description": "Chrome extension: look back at posts that scrolled past on your X home timeline",
+        "language": "JavaScript",
+        "stars": 334,
+        "url": "https://github.com/yetone/rewind-for-x",
+        "created": "2026-11-09T09:28:22Z",
+        "topics": []
+      },
+      {
+        "name": "phantomsociallook/auslogics",
+        "description": "Digital Audio Workstation Suite 2026 pre-configured environment, ready for seamless local workstation deployment with optimized audio...",
+        "language": null,
+        "stars": 326,
+        "url": "https://github.com/phantomsociallook/auslogics",
+        "created": "2026-11-08T08:37:21Z",
+        "topics": [
+          "auslogics",
+          "auslogics-2026",
+          "auslogics-boostspeed",
+          "auslogics-boostspeed-2026"
+        ]
+      },
+      {
+        "name": "HolyArrs/HolyArrs",
+        "description": "One self-hosted app for your shows, movies and music.",
         "language": "Go",
-        "stars": 416,
-        "url": "https://github.com/TooonyChen/finallyshell",
-        "created": "2026-11-07T00:34:42Z",
+        "stars": 323,
+        "url": "https://github.com/HolyArrs/HolyArrs",
+        "created": "2026-11-09T23:53:25Z",
         "topics": [
-          "finalshell",
-          "libghostty",
-          "mygo-ui",
-          "ssh"
+          "docker",
+          "homelab",
+          "jellyfin",
+          "media-server"
+        ],
+        "hn": {
+          "points": 78,
+          "comments": 46,
+          "url": "https://news.ycombinator.com/item?id=50439000"
+        }
+      },
+      {
+        "name": "djyde/dalibre",
+        "description": "A lightweight Calibre alternative",
+        "language": "Go",
+        "stars": 302,
+        "url": "https://github.com/djyde/dalibre",
+        "created": "2026-11-08T09:56:44Z",
+        "topics": [
+          "calibre",
+          "ebook"
         ]
       },
       {
-        "name": "PaladinSmash84/aida-64-extreme",
-        "description": "AI Prompt Engineering Toolkit Aida 64 Extreme, pre-configured environment for advanced LLM training and deployment in isolated local...",
-        "language": null,
-        "stars": 403,
-        "url": "https://github.com/PaladinSmash84/aida-64-extreme",
-        "created": "2026-11-08T08:36:56Z",
+        "name": "Nanoutrolley/roblox-studio-mcp",
+        "description": "Model Context Protocol (MCP) server for Roblox Studio. Connect AI assistants (Claude, Cursor, Cline) to read object trees, automate Lua scripting, and run playtests safely. Open-source AI bridge.",
+        "language": "Python",
+        "stars": 283,
+        "url": "https://github.com/Nanoutrolley/roblox-studio-mcp",
+        "created": "2026-11-09T08:58:06Z",
         "topics": [
-          "aida64",
-          "aida64-extreme-compatibility-check",
-          "aida64-extreme-detailed-reporting",
-          "aida64-extreme-hardware-diagnostics"
-        ]
-      },
-      {
-        "name": "PresidentThaw/capcut-for-windows",
-        "description": "Capcut For Windows 2026 pre-configured environment for professional video editing, screen recording, and visual effects (VFX) solution deployment.",
-        "language": null,
-        "stars": 402,
-        "url": "https://github.com/PresidentThaw/capcut-for-windows",
-        "created": "2026-11-08T08:37:28Z",
-        "topics": [
-          "capcut-activated",
-          "capcut-crack-2026",
-          "capcut-cracked-2026",
-          "capcut-exe"
-        ]
-      },
-      {
-        "name": "WayBuilderDeliver/windows-optimizer",
-        "description": "Windows Optimizer 2026 automated deployment pipeline for efficient, pre-configured environment setup on enterprise desktops.",
-        "language": null,
-        "stars": 401,
-        "url": "https://github.com/WayBuilderDeliver/windows-optimizer",
-        "created": "2026-11-08T08:41:33Z",
-        "topics": [
-          "fps-booster-no-lag",
-          "frame-rate-boost",
-          "game-booster-free",
-          "guide-setup-windows-optimizer"
-        ]
-      },
-      {
-        "name": "PurpleChordEvaluate/claude-jailbreak-prompt",
-        "description": "Optimized local environment suite for Claude AI pipeline management and custom automation workflows.",
-        "language": null,
-        "stars": 401,
-        "url": "https://github.com/PurpleChordEvaluate/claude-jailbreak-prompt",
-        "created": "2026-11-08T08:37:50Z",
-        "topics": [
+          "ai-tools",
           "automation",
-          "claude-jailbreak-2026",
-          "claude-jailbreak-3-5-sonnet",
-          "claude-jailbreak-opus"
+          "claude",
+          "cursor"
         ]
       }
     ],
     "posts": [
       {
         "source": "showhn",
+        "title": "A 15 MB self-hosted Netflix and Spotify for your media server",
+        "url": "https://github.com/HolyArrs/HolyArrs",
+        "points": 78,
+        "comments": 46,
+        "discussion": "https://news.ycombinator.com/item?id=50439000",
+        "created": "2026-11-10T11:51:19.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "Someone Was Here – Find out who used your Mac while you were away",
+        "url": "https://someonewashere.app/",
+        "points": 104,
+        "comments": 36,
+        "discussion": "https://news.ycombinator.com/item?id=50429812",
+        "created": "2026-11-09T18:50:56.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "MeowDisplay Is iPhone Mirroring, but in Reverse",
+        "url": "https://meowdisplay.app/",
+        "points": 113,
+        "comments": 42,
+        "discussion": "https://news.ycombinator.com/item?id=50429636",
+        "created": "2026-11-09T18:39:22.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
+        "url": "https://github.com/Dodaios/ste80-humanizer",
+        "points": 99,
+        "comments": 34,
+        "discussion": "https://news.ycombinator.com/item?id=50429144",
+        "created": "2026-11-09T18:05:44.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "Every satellite that passed over any place this week, and its photos",
+        "url": "https://www.watched.earth",
+        "points": 414,
+        "comments": 77,
+        "discussion": "https://news.ycombinator.com/item?id=50428907",
+        "created": "2026-11-09T17:51:31.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "Flide: Make Jev-like decision models up to 9.5x faster",
         "url": "https://github.com/OmniJev/Flide",
-        "points": 86,
-        "comments": 20,
+        "points": 123,
+        "comments": 29,
         "discussion": "https://news.ycombinator.com/item?id=50421155",
         "created": "2026-11-09T04:43:12.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "An offline desktop companion to help maintain a healthy blink rhythm",
-        "url": "https://eyesrhythm.com/",
-        "points": 39,
-        "comments": 23,
-        "discussion": "https://news.ycombinator.com/item?id=50408350",
-        "created": "2026-11-07T21:47:47.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Where Were We",
-        "url": "https://wherewerewe.app/",
-        "points": 55,
-        "comments": 19,
-        "discussion": "https://news.ycombinator.com/item?id=50408082",
-        "created": "2026-11-07T21:08:35.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Coldframe, a honeypot that poses as a supermarket fridge controller",
-        "url": "https://github.com/hedgerow-dev/coldframe",
-        "points": 284,
-        "comments": 68,
-        "discussion": "https://news.ycombinator.com/item?id=50406292",
-        "created": "2026-11-07T17:27:30.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
-        "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
-        "points": 80,
-        "comments": 14,
-        "discussion": "https://news.ycombinator.com/item?id=50405263",
-        "created": "2026-11-07T15:16:01.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "JavaScript web apps with WASM layout and GPU rendering in 280 KB",
-        "url": "https://github.com/rkaehn/uniform",
-        "points": 38,
-        "comments": 21,
-        "discussion": "https://news.ycombinator.com/item?id=50401844",
-        "created": "2026-11-07T05:16:31.000Z"
       },
       {
         "source": "launchhn",
@@ -294,7 +292,7 @@
         "title": "Kino AI (YC S23) – AI media manager and video editor",
         "url": "https://news.ycombinator.com/item?id=50368804",
         "points": 112,
-        "comments": 36,
+        "comments": 37,
         "discussion": "https://news.ycombinator.com/item?id=50368804",
         "created": "2026-11-04T17:31:53.000Z"
       },
@@ -315,42 +313,6 @@
         "comments": 37,
         "discussion": "https://news.ycombinator.com/item?id=50291116",
         "created": "2026-10-29T15:56:32.000Z"
-      },
-      {
-        "source": "hn",
-        "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-        "url": "https://ketchup3d.github.io/app/",
-        "points": 649,
-        "comments": 191,
-        "discussion": "https://news.ycombinator.com/item?id=50418176",
-        "created": "2026-11-08T22:35:35.000Z"
-      },
-      {
-        "source": "hn",
-        "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
-        "url": "https://github.com/synchopate/llama-modchip",
-        "points": 463,
-        "comments": 201,
-        "discussion": "https://news.ycombinator.com/item?id=50411961",
-        "created": "2026-11-08T10:22:04.000Z"
-      },
-      {
-        "source": "hn",
-        "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
-        "url": "https://duxlabs.dev/",
-        "points": 324,
-        "comments": 123,
-        "discussion": "https://news.ycombinator.com/item?id=50416053",
-        "created": "2026-11-08T19:08:51.000Z"
-      },
-      {
-        "source": "hn",
-        "title": "Psalm 7 release: PHP security&static analysis software",
-        "url": "https://psalm.dev/articles/psalm-7",
-        "points": 68,
-        "comments": 35,
-        "discussion": "https://news.ycombinator.com/item?id=50406107",
-        "created": "2026-11-07T17:06:18.000Z"
       }
     ]
   },
@@ -4796,7 +4758,7 @@
         "name": "wangzan101/Mika",
         "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
         "language": "Kotlin",
-        "stars": 7882,
+        "stars": 8017,
         "url": "https://github.com/wangzan101/Mika",
         "created": "2026-10-29T14:34:07Z",
         "topics": [
@@ -4806,7 +4768,7 @@
           "automation"
         ],
         "firstSeen": "2026-10-30",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-10",
         "starsAtFirstSeen": 358
       },
       "lexifina/global-law": {
@@ -4854,12 +4816,12 @@
         "name": "heydamir/unslop",
         "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
         "language": "JavaScript",
-        "stars": 12543,
+        "stars": 13372,
         "url": "https://github.com/heydamir/unslop",
         "created": "2026-10-29T15:41:21Z",
         "topics": [],
         "firstSeen": "2026-10-31",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-10",
         "starsAtFirstSeen": 2339
       },
       "kevinraymond/florilegium": {
@@ -4895,7 +4857,7 @@
         "name": "patch-gg/pixelfx",
         "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
         "language": "JavaScript",
-        "stars": 6261,
+        "stars": 6585,
         "url": "https://github.com/patch-gg/pixelfx",
         "created": "2026-10-30T06:43:25Z",
         "topics": [
@@ -4905,7 +4867,7 @@
           "claude-code-plugin"
         ],
         "firstSeen": "2026-10-31",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-10",
         "starsAtFirstSeen": 692
       },
       "alchaincyf/huashu-bird-sticker": {
@@ -4975,12 +4937,12 @@
         "name": "deepseek-ai/dsh-superagent-prototype",
         "description": "Towards a More Autonomous Agent System",
         "language": "TypeScript",
-        "stars": 21667,
+        "stars": 22090,
         "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
         "created": "2026-10-31T09:32:46Z",
         "topics": [],
         "firstSeen": "2026-11-01",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-10",
         "starsAtFirstSeen": 5473
       },
       "Arjun-Ingole/hop": {
@@ -5028,12 +4990,12 @@
         "name": "storytold/craft-anything",
         "description": "Craft Anything: understand how any software works, and craft your own.",
         "language": "Rust",
-        "stars": 24041,
+        "stars": 25643,
         "url": "https://github.com/storytold/craft-anything",
         "created": "2026-10-31T14:50:00Z",
         "topics": [],
         "firstSeen": "2026-11-01",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-10",
         "starsAtFirstSeen": 432
       },
       "N1nEmAn/sapper-v2": {
@@ -5260,12 +5222,12 @@
         "name": "Minireel/HGhub",
         "description": "YellowFruit third-party client",
         "language": "TypeScript",
-        "stars": 1060,
+        "stars": 7900,
         "url": "https://github.com/Minireel/HGhub",
         "created": "2026-11-03T14:04:27Z",
         "topics": [],
         "firstSeen": "2026-11-04",
-        "lastSeen": "2026-11-05",
+        "lastSeen": "2026-11-10",
         "starsAtFirstSeen": 538
       },
       "Chipwithinflash/watson-AI-osint-all-in-one": {
@@ -5427,7 +5389,7 @@
         "name": "l0ng-ai/openidea",
         "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
         "language": "TypeScript",
-        "stars": 8121,
+        "stars": 8362,
         "url": "https://github.com/l0ng-ai/openidea",
         "created": "2026-10-21T12:23:14Z",
         "topics": [
@@ -5442,7 +5404,7 @@
           "url": "https://news.ycombinator.com/item?id=50323848"
         },
         "firstSeen": "2026-11-06",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-10",
         "starsAtFirstSeen": 7334
       },
       "livliv-dev/player": {
@@ -5616,12 +5578,12 @@
         "name": "zortos293/Lichii",
         "description": "VERY experimental Nintendo Switch 2 emulator",
         "language": "C++",
-        "stars": 7331,
+        "stars": 7965,
         "url": "https://github.com/zortos293/Lichii",
         "created": "2026-10-31T14:17:26Z",
         "topics": [],
         "firstSeen": "2026-11-08",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-10",
         "starsAtFirstSeen": 6338
       },
       "Th0rgal/satmux": {
@@ -5720,7 +5682,7 @@
         "name": "jhaizhou-ops/S2Arm",
         "description": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。",
         "language": "C#",
-        "stars": 1569,
+        "stars": 2302,
         "url": "https://github.com/jhaizhou-ops/S2Arm",
         "created": "2026-11-08T05:49:46Z",
         "topics": [
@@ -5730,19 +5692,19 @@
           "ios"
         ],
         "firstSeen": "2026-11-09",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-10",
         "starsAtFirstSeen": 1569
       },
       "huamidev/GestaltX": {
         "name": "huamidev/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
         "language": "Swift",
-        "stars": 929,
+        "stars": 4204,
         "url": "https://github.com/huamidev/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": [],
         "firstSeen": "2026-11-09",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-10",
         "starsAtFirstSeen": 929
       },
       "lxe/phoneuse": {
@@ -5761,7 +5723,7 @@
         "name": "PlateParrotTerminal/lag-doctor",
         "description": "Game ping, jitter & packet loss monitor: finds who causes your lag",
         "language": "Rust",
-        "stars": 429,
+        "stars": 444,
         "url": "https://github.com/PlateParrotTerminal/lag-doctor",
         "created": "2026-11-08T04:19:51Z",
         "topics": [
@@ -5771,7 +5733,7 @@
           "jitter-test"
         ],
         "firstSeen": "2026-11-09",
-        "lastSeen": "2026-11-09",
+        "lastSeen": "2026-11-10",
         "starsAtFirstSeen": 429
       },
       "TooonyChen/finallyshell": {
@@ -5858,6 +5820,113 @@
         "firstSeen": "2026-11-09",
         "lastSeen": "2026-11-09",
         "starsAtFirstSeen": 401
+      },
+      "kolbicz/WQFiles": {
+        "name": "kolbicz/WQFiles",
+        "description": "File browser, app data manager and cache cleaner for iOS 27 (worse_query, no jailbreak)",
+        "language": "Objective-C",
+        "stars": 432,
+        "url": "https://github.com/kolbicz/WQFiles",
+        "created": "2026-11-09T13:43:40Z",
+        "topics": [],
+        "firstSeen": "2026-11-10",
+        "lastSeen": "2026-11-10",
+        "starsAtFirstSeen": 432
+      },
+      "forcequitOS/worse_query": {
+        "name": "forcequitOS/worse_query",
+        "description": "A sandbox escape for iOS 26 and 27, again",
+        "language": "Objective-C",
+        "stars": 425,
+        "url": "https://github.com/forcequitOS/worse_query",
+        "created": "2026-11-08T17:00:03Z",
+        "topics": [],
+        "firstSeen": "2026-11-10",
+        "lastSeen": "2026-11-10",
+        "starsAtFirstSeen": 425
+      },
+      "yetone/rewind-for-x": {
+        "name": "yetone/rewind-for-x",
+        "description": "Chrome extension: look back at posts that scrolled past on your X home timeline",
+        "language": "JavaScript",
+        "stars": 334,
+        "url": "https://github.com/yetone/rewind-for-x",
+        "created": "2026-11-09T09:28:22Z",
+        "topics": [],
+        "firstSeen": "2026-11-10",
+        "lastSeen": "2026-11-10",
+        "starsAtFirstSeen": 334
+      },
+      "phantomsociallook/auslogics": {
+        "name": "phantomsociallook/auslogics",
+        "description": "Digital Audio Workstation Suite 2026 pre-configured environment, ready for seamless local workstation deployment with optimized audio...",
+        "language": null,
+        "stars": 326,
+        "url": "https://github.com/phantomsociallook/auslogics",
+        "created": "2026-11-08T08:37:21Z",
+        "topics": [
+          "auslogics",
+          "auslogics-2026",
+          "auslogics-boostspeed",
+          "auslogics-boostspeed-2026"
+        ],
+        "firstSeen": "2026-11-10",
+        "lastSeen": "2026-11-10",
+        "starsAtFirstSeen": 326
+      },
+      "HolyArrs/HolyArrs": {
+        "name": "HolyArrs/HolyArrs",
+        "description": "One self-hosted app for your shows, movies and music.",
+        "language": "Go",
+        "stars": 323,
+        "url": "https://github.com/HolyArrs/HolyArrs",
+        "created": "2026-11-09T23:53:25Z",
+        "topics": [
+          "docker",
+          "homelab",
+          "jellyfin",
+          "media-server"
+        ],
+        "hn": {
+          "points": 78,
+          "comments": 46,
+          "url": "https://news.ycombinator.com/item?id=50439000"
+        },
+        "firstSeen": "2026-11-10",
+        "lastSeen": "2026-11-10",
+        "starsAtFirstSeen": 323
+      },
+      "djyde/dalibre": {
+        "name": "djyde/dalibre",
+        "description": "A lightweight Calibre alternative",
+        "language": "Go",
+        "stars": 302,
+        "url": "https://github.com/djyde/dalibre",
+        "created": "2026-11-08T09:56:44Z",
+        "topics": [
+          "calibre",
+          "ebook"
+        ],
+        "firstSeen": "2026-11-10",
+        "lastSeen": "2026-11-10",
+        "starsAtFirstSeen": 302
+      },
+      "Nanoutrolley/roblox-studio-mcp": {
+        "name": "Nanoutrolley/roblox-studio-mcp",
+        "description": "Model Context Protocol (MCP) server for Roblox Studio. Connect AI assistants (Claude, Cursor, Cline) to read object trees, automate Lua scripting, and run playtests safely. Open-source AI bridge.",
+        "language": "Python",
+        "stars": 283,
+        "url": "https://github.com/Nanoutrolley/roblox-studio-mcp",
+        "created": "2026-11-09T08:58:06Z",
+        "topics": [
+          "ai-tools",
+          "automation",
+          "claude",
+          "cursor"
+        ],
+        "firstSeen": "2026-11-10",
+        "lastSeen": "2026-11-10",
+        "starsAtFirstSeen": 283
       }
     },
     "posts": {
@@ -8708,7 +8777,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50291116",
         "created": "2026-10-29T15:56:32.000Z",
         "firstSeen": "2026-10-30",
-        "lastSeen": "2026-11-09"
+        "lastSeen": "2026-11-10"
       },
       "https://news.ycombinator.com/item?id=50298436": {
         "source": "hn",
@@ -8950,7 +9019,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50339913",
         "created": "2026-11-02T17:05:25.000Z",
         "firstSeen": "2026-11-03",
-        "lastSeen": "2026-11-09"
+        "lastSeen": "2026-11-10"
       },
       "https://news.ycombinator.com/item?id=50346849": {
         "source": "hn",
@@ -9100,11 +9169,11 @@
         "title": "Kino AI (YC S23) – AI media manager and video editor",
         "url": "https://news.ycombinator.com/item?id=50368804",
         "points": 112,
-        "comments": 36,
+        "comments": 37,
         "discussion": "https://news.ycombinator.com/item?id=50368804",
         "created": "2026-11-04T17:31:53.000Z",
         "firstSeen": "2026-11-05",
-        "lastSeen": "2026-11-09"
+        "lastSeen": "2026-11-10"
       },
       "https://news.ycombinator.com/item?id=50377221": {
         "source": "hn",
@@ -9170,7 +9239,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50381687",
         "created": "2026-11-05T17:17:42.000Z",
         "firstSeen": "2026-11-06",
-        "lastSeen": "2026-11-09"
+        "lastSeen": "2026-11-10"
       },
       "https://news.ycombinator.com/item?id=50385272": {
         "source": "hn",
@@ -9308,12 +9377,12 @@
         "source": "showhn",
         "title": "Flide: Make Jev-like decision models up to 9.5x faster",
         "url": "https://github.com/OmniJev/Flide",
-        "points": 86,
-        "comments": 20,
+        "points": 123,
+        "comments": 29,
         "discussion": "https://news.ycombinator.com/item?id=50421155",
         "created": "2026-11-09T04:43:12.000Z",
         "firstSeen": "2026-11-09",
-        "lastSeen": "2026-11-09"
+        "lastSeen": "2026-11-10"
       },
       "https://news.ycombinator.com/item?id=50401844": {
         "source": "showhn",
@@ -9369,245 +9438,247 @@
         "created": "2026-11-07T17:06:18.000Z",
         "firstSeen": "2026-11-09",
         "lastSeen": "2026-11-09"
+      },
+      "https://news.ycombinator.com/item?id=50439000": {
+        "source": "showhn",
+        "title": "A 15 MB self-hosted Netflix and Spotify for your media server",
+        "url": "https://github.com/HolyArrs/HolyArrs",
+        "points": 78,
+        "comments": 46,
+        "discussion": "https://news.ycombinator.com/item?id=50439000",
+        "created": "2026-11-10T11:51:19.000Z",
+        "firstSeen": "2026-11-10",
+        "lastSeen": "2026-11-10"
+      },
+      "https://news.ycombinator.com/item?id=50429812": {
+        "source": "showhn",
+        "title": "Someone Was Here – Find out who used your Mac while you were away",
+        "url": "https://someonewashere.app/",
+        "points": 104,
+        "comments": 36,
+        "discussion": "https://news.ycombinator.com/item?id=50429812",
+        "created": "2026-11-09T18:50:56.000Z",
+        "firstSeen": "2026-11-10",
+        "lastSeen": "2026-11-10"
+      },
+      "https://news.ycombinator.com/item?id=50429636": {
+        "source": "showhn",
+        "title": "MeowDisplay Is iPhone Mirroring, but in Reverse",
+        "url": "https://meowdisplay.app/",
+        "points": 113,
+        "comments": 42,
+        "discussion": "https://news.ycombinator.com/item?id=50429636",
+        "created": "2026-11-09T18:39:22.000Z",
+        "firstSeen": "2026-11-10",
+        "lastSeen": "2026-11-10"
+      },
+      "https://news.ycombinator.com/item?id=50429144": {
+        "source": "showhn",
+        "title": "STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
+        "url": "https://github.com/Dodaios/ste80-humanizer",
+        "points": 99,
+        "comments": 34,
+        "discussion": "https://news.ycombinator.com/item?id=50429144",
+        "created": "2026-11-09T18:05:44.000Z",
+        "firstSeen": "2026-11-10",
+        "lastSeen": "2026-11-10"
+      },
+      "https://news.ycombinator.com/item?id=50428907": {
+        "source": "showhn",
+        "title": "Every satellite that passed over any place this week, and its photos",
+        "url": "https://www.watched.earth",
+        "points": 414,
+        "comments": 77,
+        "discussion": "https://news.ycombinator.com/item?id=50428907",
+        "created": "2026-11-09T17:51:31.000Z",
+        "firstSeen": "2026-11-10",
+        "lastSeen": "2026-11-10"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-11-09T15:57:18.826Z",
+    "fetchedAt": "2026-11-10T14:44:04.940Z",
     "hn": [
       {
-        "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
-        "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
-        "points": 857,
-        "comments": 1041,
-        "discussion": "https://news.ycombinator.com/item?id=50418016"
-      },
-      {
-        "title": "Declarative Dragging",
-        "url": "https://declarative-dragging.github.io/",
-        "points": 674,
-        "comments": 84,
-        "discussion": "https://news.ycombinator.com/item?id=50368481"
-      },
-      {
-        "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-        "url": "https://ketchup3d.github.io/app/",
-        "points": 648,
-        "comments": 191,
-        "discussion": "https://news.ycombinator.com/item?id=50418176"
-      },
-      {
-        "title": "Unlocking any car from X brand in most of the world",
-        "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
-        "points": 519,
-        "comments": 275,
-        "discussion": "https://news.ycombinator.com/item?id=50419215"
-      },
-      {
-        "title": "Outlook.com is rejecting email from domains without DMARC",
-        "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
-        "points": 491,
-        "comments": 334,
-        "discussion": "https://news.ycombinator.com/item?id=50416158"
-      },
-      {
-        "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
-        "url": "https://github.com/synchopate/llama-modchip",
-        "points": 462,
-        "comments": 200,
-        "discussion": "https://news.ycombinator.com/item?id=50411961"
-      },
-      {
-        "title": "I'm not convinced the AI bubble exists",
-        "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-        "points": 454,
-        "comments": 779,
-        "discussion": "https://news.ycombinator.com/item?id=50418975"
-      },
-      {
-        "title": "Writing as a thinking tool",
-        "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
-        "points": 438,
-        "comments": 107,
-        "discussion": "https://news.ycombinator.com/item?id=50412067"
-      },
-      {
-        "title": "Fold Epic Paper Airplanes",
+        "title": "Foldable Flight: The Best Paper Airplanes",
         "url": "https://www.foldableflight.com",
-        "points": 352,
-        "comments": 67,
+        "points": 1109,
+        "comments": 156,
         "discussion": "https://news.ycombinator.com/item?id=50424581"
       },
       {
-        "title": "Humans will never again create a project like Wikipedia",
-        "url": "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
-        "points": 331,
-        "comments": 260,
-        "discussion": "https://news.ycombinator.com/item?id=50424704"
+        "title": "Claude Fable 5.2 and Mythos 5.2",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "points": 726,
+        "comments": 889,
+        "discussion": "https://news.ycombinator.com/item?id=50429068"
+      },
+      {
+        "title": "USPS now offers official ZIP Code boundary polygons",
+        "url": "https://postalpro.usps.com/zcb",
+        "points": 676,
+        "comments": 343,
+        "discussion": "https://news.ycombinator.com/item?id=50431058"
+      },
+      {
+        "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+        "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+        "points": 558,
+        "comments": 320,
+        "discussion": "https://news.ycombinator.com/item?id=50427362"
+      },
+      {
+        "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+        "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+        "points": 464,
+        "comments": 170,
+        "discussion": "https://news.ycombinator.com/item?id=50436640"
+      },
+      {
+        "title": "E-means: Outperforming k-means in one-tenth the epochs",
+        "url": "https://e-means.github.io/",
+        "points": 446,
+        "comments": 56,
+        "discussion": "https://news.ycombinator.com/item?id=50429734"
+      },
+      {
+        "title": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
+        "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
+        "points": 335,
+        "comments": 226,
+        "discussion": "https://news.ycombinator.com/item?id=50426175"
+      },
+      {
+        "title": "Locating the source of a mysterious beep",
+        "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+        "points": 254,
+        "comments": 131,
+        "discussion": "https://news.ycombinator.com/item?id=50434310"
+      },
+      {
+        "title": "AlphaProof Code",
+        "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+        "points": 239,
+        "comments": 93,
+        "discussion": "https://news.ycombinator.com/item?id=50439193"
+      },
+      {
+        "title": "Horible public key tricks",
+        "url": "https://maurycyz.com/projects/badcert/",
+        "points": 203,
+        "comments": 69,
+        "discussion": "https://news.ycombinator.com/item?id=50434264"
       }
     ],
     "lobsters": [
       {
-        "title": "How Much Energy Does Building Distro Packages Use",
-        "url": "https://www.wezm.net/v2/posts/2026/distro-energy-use/",
-        "points": 61,
-        "comments": 10,
-        "discussion": "https://lobste.rs/s/ezjewj/how_much_energy_does_building_distro",
+        "title": "Open Graph images with Astro and Typst",
+        "url": "https://eaj.no/posts/open-graph-images-with-typst/",
+        "points": 16,
+        "comments": 4,
+        "discussion": "https://lobste.rs/s/gj5obq/open_graph_images_with_astro_typst",
         "tags": [
-          "linux"
+          "web"
         ]
       },
       {
-        "title": "unlocking any car from X brand in most of the world",
-        "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
-        "points": 59,
-        "comments": 16,
-        "discussion": "https://lobste.rs/s/kbrpx3/unlocking_any_car_from_x_brand_most_world",
+        "title": "Microsoft are rejecting your mail",
+        "url": "https://www.mythic-beasts.com/blog/2026/11/09/microsoft-are-rejecting-your-mail/",
+        "points": 67,
+        "comments": 17,
+        "discussion": "https://lobste.rs/s/ynik5s/microsoft_are_rejecting_your_mail",
         "tags": [
-          "reversing",
-          "security"
+          "email"
+        ]
+      },
+      {
+        "title": "The hardest tarball",
+        "url": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
+        "points": 6,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/t7qkjb/hardest_tarball",
+        "tags": [
+          "unix"
+        ]
+      },
+      {
+        "title": "You should try Gleam",
+        "url": "https://nchagnet.eu/blog/you-should-try-gleam",
+        "points": 25,
+        "comments": 4,
+        "discussion": "https://lobste.rs/s/4yqgpu/you_should_try_gleam",
+        "tags": [
+          "gleam"
         ]
       },
       {
         "title": "Horrible public key tricks",
         "url": "https://maurycyz.com/projects/badcert/",
-        "points": 27,
-        "comments": 3,
+        "points": 105,
+        "comments": 11,
         "discussion": "https://lobste.rs/s/txkq8s/horrible_public_key_tricks",
         "tags": [
           "cryptography"
         ]
       },
       {
-        "title": "What are you doing this week?",
-        "url": "https://lobste.rs/s/tt42jc/what_are_you_doing_this_week",
-        "points": 14,
-        "comments": 18,
-        "discussion": "https://lobste.rs/s/tt42jc/what_are_you_doing_this_week",
+        "title": "How Much Energy Does Building Distro Packages Use",
+        "url": "https://www.wezm.net/v2/posts/2026/distro-energy-use/",
+        "points": 95,
+        "comments": 17,
+        "discussion": "https://lobste.rs/s/ezjewj/how_much_energy_does_building_distro",
         "tags": [
-          "ask",
-          "programming"
+          "linux"
+        ]
+      },
+      {
+        "title": "Blunt Banhammer Blocks Basic Bots Ballistically",
+        "url": "https://shkspr.mobi/blog/2026/11/blunt-banhammer-blocks-basic-bots-ballistically/",
+        "points": 18,
+        "comments": 7,
+        "discussion": "https://lobste.rs/s/bubqox/blunt_banhammer_blocks_basic_bots",
+        "tags": [
+          "web"
+        ]
+      },
+      {
+        "title": "Building a networking switch ASIC chip",
+        "url": "https://essenceia.github.io/projects/expresso/",
+        "points": 12,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/n8reli/building_networking_switch_asic_chip",
+        "tags": [
+          "hardware"
         ]
       },
       {
         "title": "Let’s Talk About Why all This OT Stuff is Connected",
         "url": "https://tisiphone.net/2026/11/08/lets-talk-about-why-all-this-ot-stuff-is-connected/",
-        "points": 12,
-        "comments": 3,
+        "points": 52,
+        "comments": 30,
         "discussion": "https://lobste.rs/s/jxigk6/let_s_talk_about_why_all_this_ot_stuff_is",
         "tags": [
           "security"
         ]
       },
       {
-        "title": "A Critique of GPUI",
-        "url": "https://blog.zortax.de/posts/a-critique-of-gpui",
-        "points": 9,
-        "comments": 10,
-        "discussion": "https://lobste.rs/s/kcyhhj/critique_gpui",
+        "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
+        "url": "https://terminal2shell.com/",
+        "points": 128,
+        "comments": 33,
+        "discussion": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
         "tags": [
-          "rust"
-        ]
-      },
-      {
-        "title": "Herb Sutter: When a language’s creator and its owners strongly disagree: C++26 post-DIS, historical experience, and paths forward",
-        "url": "https://isocpp.org/files/papers/P4454R0.pdf",
-        "points": 41,
-        "comments": 11,
-        "discussion": "https://lobste.rs/s/vlagyq/herb_sutter_when_language_s_creator_its",
-        "tags": [
-          "c++",
-          "pdf"
-        ]
-      },
-      {
-        "title": "Unattended reboots with encrypted disks",
-        "url": "https://jmmv.dev/2026/11/zkeys-intro.html",
-        "points": 28,
-        "comments": 16,
-        "discussion": "https://lobste.rs/s/urg4yu/unattended_reboots_with_encrypted_disks",
-        "tags": [
-          "freebsd",
+          "satire",
           "security"
-        ]
-      },
-      {
-        "title": "What's new in Node.js 27",
-        "url": "https://nodejsdesignpatterns.com/blog/whats-new-in-nodejs-27/",
-        "points": 6,
-        "comments": 0,
-        "discussion": "https://lobste.rs/s/vtjjbc/what_s_new_node_js_27",
-        "tags": [
-          "javascript",
-          "nodejs"
-        ]
-      },
-      {
-        "title": "A C++ Quicksort Faster Than std::sort",
-        "url": "https://tiki.li/blog/about_blqsort",
-        "points": 4,
-        "comments": 0,
-        "discussion": "https://lobste.rs/s/qi2lni/c_quicksort_faster_than_std_sort",
-        "tags": [
-          "c",
-          "c++",
-          "performance"
         ]
       }
     ],
     "devto": [
       {
-        "title": "Small Contributions Matter Too 🐈",
-        "url": "https://dev.to/necoz/small-contributions-matter-too-2j4",
-        "points": 65,
-        "comments": 11,
-        "discussion": "https://dev.to/necoz/small-contributions-matter-too-2j4",
-        "tags": [
-          "discuss",
-          "opensource",
-          "github"
-        ]
-      },
-      {
-        "title": "🐾 DEV Pet Corner #5: Show Us Your Pets!",
-        "url": "https://dev.to/hemapriya_kanagala/dev-pet-corner-5-show-us-your-pets-dao",
-        "points": 59,
-        "comments": 3,
-        "discussion": "https://dev.to/hemapriya_kanagala/dev-pet-corner-5-show-us-your-pets-dao",
-        "tags": [
-          "discuss",
-          "community",
-          "watercooler"
-        ]
-      },
-      {
-        "title": "Everyone Is Building AI to Replace Developers. Nobody Is Building the Plan for What Comes After.",
-        "url": "https://dev.to/thebitforge/everyone-is-building-ai-to-replace-developers-nobody-is-building-the-plan-for-what-comes-after-4a5o",
-        "points": 57,
-        "comments": 4,
-        "discussion": "https://dev.to/thebitforge/everyone-is-building-ai-to-replace-developers-nobody-is-building-the-plan-for-what-comes-after-4a5o",
-        "tags": [
-          "discuss",
-          "ai",
-          "programming"
-        ]
-      },
-      {
-        "title": "Engine Off: My 2026 Hackathon Run Is Over",
-        "url": "https://dev.to/georgekobaidze/engines-off-my-2026-hackathon-run-is-over-2ho8",
-        "points": 36,
-        "comments": 10,
-        "discussion": "https://dev.to/georgekobaidze/engines-off-my-2026-hackathon-run-is-over-2ho8",
-        "tags": [
-          "devchallenge",
-          "community"
-        ]
-      },
-      {
         "title": "How do you truly stand out in Tech?",
         "url": "https://dev.to/francistrdev/how-do-you-truly-stand-out-in-tech-478a",
-        "points": 23,
-        "comments": 5,
+        "points": 105,
+        "comments": 41,
         "discussion": "https://dev.to/francistrdev/how-do-you-truly-stand-out-in-tech-478a",
         "tags": [
           "discuss",
@@ -9616,10 +9687,34 @@
         ]
       },
       {
+        "title": "Our Looping Factory Cut DEV Page Load Time by 75% and Counting",
+        "url": "https://dev.to/dailycontext/our-looping-factory-cut-dev-page-load-time-by-75-and-counting-1hnf",
+        "points": 98,
+        "comments": 18,
+        "discussion": "https://dev.to/dailycontext/our-looping-factory-cut-dev-page-load-time-by-75-and-counting-1hnf",
+        "tags": [
+          "ai",
+          "agents",
+          "automation"
+        ]
+      },
+      {
+        "title": "I Used gp-grid to Build a React Food Festival App with Advanced Data Grid Features",
+        "url": "https://dev.to/hadil/i-used-gp-grid-to-build-a-react-food-festival-app-with-advanced-data-grid-features-3l22",
+        "points": 85,
+        "comments": 10,
+        "discussion": "https://dev.to/hadil/i-used-gp-grid-to-build-a-react-food-festival-app-with-advanced-data-grid-features-3l22",
+        "tags": [
+          "webdev",
+          "programming",
+          "react"
+        ]
+      },
+      {
         "title": "The C Trilogy: How Dennis Ritchie, Bjarne Stroustrup, and Anders Hejlsberg Built the Modern World 🏛️",
         "url": "https://dev.to/devengers/the-c-trilogy-how-dennis-ritchie-bjarne-stroustrup-and-anders-hejlsberg-built-the-modern-world-1onp",
-        "points": 22,
-        "comments": 7,
+        "points": 74,
+        "comments": 25,
         "discussion": "https://dev.to/devengers/the-c-trilogy-how-dennis-ritchie-bjarne-stroustrup-and-anders-hejlsberg-built-the-modern-world-1onp",
         "tags": [
           "c",
@@ -9628,144 +9723,82 @@
         ]
       },
       {
-        "title": "Microserver Updated with Mini Catbot! ✨😻 mew!",
-        "url": "https://dev.to/annavi11arrea1/microserver-updated-with-mini-catbot-mew-3aa0",
-        "points": 22,
-        "comments": 4,
-        "discussion": "https://dev.to/annavi11arrea1/microserver-updated-with-mini-catbot-mew-3aa0",
+        "title": "How did you end up in tech, and are you staying?",
+        "url": "https://dev.to/maame-codes/how-did-you-end-up-in-tech-and-are-you-staying-4l9b",
+        "points": 71,
+        "comments": 26,
+        "discussion": "https://dev.to/maame-codes/how-did-you-end-up-in-tech-and-are-you-staying-4l9b",
         "tags": [
-          "webdev",
-          "threejs",
-          "css"
+          "discuss",
+          "career",
+          "beginners"
         ]
       },
       {
-        "title": "We Built Opsville, a Free Pixel-Art Town Where You Fix DevOps Incidents",
-        "url": "https://dev.to/devopsdaily/we-built-opsville-a-free-pixel-art-town-where-you-fix-devops-incidents-5892",
-        "points": 19,
-        "comments": 0,
-        "discussion": "https://dev.to/devopsdaily/we-built-opsville-a-free-pixel-art-town-where-you-fix-devops-incidents-5892",
+        "title": "ATLOCK v5, Inch by Inch: How a 10,000-Line Pure-Python Security Suite Actually Works",
+        "url": "https://dev.to/akhourianmolkumar/atlock-v5-inch-by-inch-how-a-10000-line-pure-python-security-suite-actually-works-4kb2",
+        "points": 21,
+        "comments": 33,
+        "discussion": "https://dev.to/akhourianmolkumar/atlock-v5-inch-by-inch-how-a-10000-line-pure-python-security-suite-actually-works-4kb2",
         "tags": [
+          "python",
+          "security",
+          "cryptography"
+        ]
+      },
+      {
+        "title": "Day 82: A Password Removed and a Copy That Stayed Put",
+        "url": "https://dev.to/ndcodes/day-82-a-password-removed-and-a-copy-that-stayed-put-35jd",
+        "points": 15,
+        "comments": 2,
+        "discussion": "https://dev.to/ndcodes/day-82-a-password-removed-and-a-copy-that-stayed-put-35jd",
+        "tags": [
+          "devops",
+          "ansible",
+          "azure"
+        ]
+      },
+      {
+        "title": "I Gave My Startup 6 AI Employees. They Talked More Than They Worked.",
+        "url": "https://dev.to/elliot_brenya/i-gave-my-startup-6-ai-employees-they-talked-more-than-they-worked-480p",
+        "points": 12,
+        "comments": 9,
+        "discussion": "https://dev.to/elliot_brenya/i-gave-my-startup-6-ai-employees-they-talked-more-than-they-worked-480p",
+        "tags": [
+          "discuss",
           "showdev",
-          "gamedev",
-          "devops"
+          "startup"
         ]
       },
       {
-        "title": "How much does it cost to run a text game with LLMs",
-        "url": "https://dev.to/hiper2d/how-much-does-it-cost-to-run-a-text-game-with-llms-57o7",
-        "points": 16,
-        "comments": 19,
-        "discussion": "https://dev.to/hiper2d/how-much-does-it-cost-to-run-a-text-game-with-llms-57o7",
+        "title": "Once Upon Agentic AI (Part 1): Create your own agent and forge its tools with Strands Agents",
+        "url": "https://dev.to/aws/once-upon-agentic-ai-part-1-create-your-own-agent-and-forge-its-tools-with-strands-agents-22mo",
+        "points": 11,
+        "comments": 0,
+        "discussion": "https://dev.to/aws/once-upon-agentic-ai-part-1-create-your-own-agent-and-forge-its-tools-with-strands-agents-22mo",
         "tags": [
           "ai",
-          "llm",
-          "gamedev"
+          "agents",
+          "aws"
         ]
       },
       {
-        "title": "Mobile Data on Android 17 and a 4.9 Kernel: Google Fi on the Pixel 3a",
-        "url": "https://dev.to/gde/mobile-data-on-android-17-and-a-49-kernel-google-fi-on-the-pixel-3a-4cdc",
-        "points": 15,
-        "comments": 0,
-        "discussion": "https://dev.to/gde/mobile-data-on-android-17-and-a-49-kernel-google-fi-on-the-pixel-3a-4cdc",
+        "title": "Your Agent's Config Is a Dependency With No Lockfile",
+        "url": "https://dev.to/debashish_ghosal/your-agents-config-is-a-dependency-with-no-lockfile-4j6l",
+        "points": 11,
+        "comments": 3,
+        "discussion": "https://dev.to/debashish_ghosal/your-agents-config-is-a-dependency-with-no-lockfile-4j6l",
         "tags": [
-          "android",
-          "linux",
-          "lineageos"
+          "discuss",
+          "ai",
+          "security"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-11-09T15:57:18.826Z",
+    "fetchedAt": "2026-11-10T14:44:04.940Z",
     "candidates": {
-      "https://blog.cloudflare.com/kv-cache-exposure-remediation": {
-        "source": "Cloudflare",
-        "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
-        "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-        "published": "2026-10-26T22:01:23.000Z",
-        "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue."
-      },
-      "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks": {
-        "source": "Meta",
-        "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
-        "url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
-        "published": "2026-10-26T16:00:07.000Z",
-        "summary": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark, and our gigawatt-scale Prometheus cluster. Highlights IcePack & IceCube: Meta’s first liquid-cooled network rack with 102.4T switch blades (128×800G, Broadcom Tomahawk 6C and NVIDIA Spectrum-6 variants), running [...] "
-      },
-      "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4": {
-        "source": "Netflix",
-        "title": "Making Failure Diagnosis Reliable with Pensive AI",
-        "url": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4",
-        "published": "2026-10-26T17:04:57.000Z",
-        "summary": ""
-      },
-      "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4": {
-        "source": "Netflix",
-        "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing",
-        "url": "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4",
-        "published": "2026-10-26T16:01:02.000Z",
-        "summary": ""
-      },
-      "https://aws.amazon.com/blogs/architecture/data-governance-with-annotations-in-amazon-s3": {
-        "source": "AWS Architecture",
-        "title": "Data governance with annotations in Amazon S3",
-        "url": "https://aws.amazon.com/blogs/architecture/data-governance-with-annotations-in-amazon-s3/",
-        "published": "2026-10-26T18:00:26.000Z",
-        "summary": "Attach governance context such as classification, retention, residency, and PII flags directly to your Amazon S3 objects with S3 annotations. This post walks through the end-to-end pattern and the handful of S3 behaviors that decide whether your governance design is correct."
-      },
-      "https://aws.amazon.com/blogs/architecture/recommended-resilience-testing-in-the-next-generation-of-aws-resilience-hub": {
-        "source": "AWS Architecture",
-        "title": "Recommended resilience testing in the next generation of AWS Resilience Hub",
-        "url": "https://aws.amazon.com/blogs/architecture/recommended-resilience-testing-in-the-next-generation-of-aws-resilience-hub/",
-        "published": "2026-10-26T17:35:01.000Z",
-        "summary": "The next generation of AWS Resilience Hub introduces recommended resilience testing: four pre-configured, AWS FIS-powered tests that validate how your service detects and recovers from failures across Availability Zones, dependencies, and Regions, turning your resilience policy into evidence-backed pass or fail results."
-      },
-      "https://www.benjoffe.com/fast-floordiv": {
-        "source": "Lobsters",
-        "title": "A faster way to compute signed 64-bit floor division by constants",
-        "url": "https://www.benjoffe.com/fast-floordiv",
-        "discussion": "https://lobste.rs/s/o5to4p/faster_way_compute_signed_64_bit_floor",
-        "published": "2026-10-26T18:44:53.194Z",
-        "summary": ""
-      },
-      "https://bruceediger.com/posts/contabo-crawler": {
-        "source": "Lobsters",
-        "title": "Web Page Crawler Revealed - tracking down requests from Contabo GmbH",
-        "url": "https://bruceediger.com/posts/contabo-crawler/",
-        "discussion": "https://lobste.rs/s/eyrbup/web_page_crawler_revealed_tracking_down",
-        "published": "2026-10-26T16:28:12.804Z",
-        "summary": ""
-      },
-      "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover": {
-        "source": "Discord",
-        "title": "Making Content from Discoverable Servers Easier to Discover",
-        "url": "https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover",
-        "published": "2026-10-27T00:00:00.000Z",
-        "summary": "Starting on November 16, 2026, conversations in Discoverable Servers will be easier to find for people searching the web. Admins can choose which channels are surfaced on the web. Private servers, DMs, and GDMs are not included."
-      },
-      "https://blog.cloudflare.com/php-ctf": {
-        "source": "Cloudflare",
-        "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
-        "url": "https://blog.cloudflare.com/php-ctf/",
-        "published": "2026-10-27T13:00:00.000Z",
-        "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer."
-      },
-      "https://blog.cloudflare.com/q3-2026-internet-disruption-summary": {
-        "source": "Cloudflare",
-        "title": "What took the Internet offline in Q3 2026",
-        "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
-        "published": "2026-10-27T13:00:00.000Z",
-        "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic."
-      },
-      "https://stripe.com/blog/how-the-fastest-growing-enterprises-on-stripe-scale-globally": {
-        "source": "Stripe",
-        "title": "How the fastest-growing enterprises on Stripe scale globally",
-        "url": "https://stripe.com/blog/how-the-fastest-growing-enterprises-on-stripe-scale-globally",
-        "published": "2026-10-27T00:00:00.000Z",
-        "summary": "Despite slower global economic growth and greater geopolitical fragmentation, the fastest-growing enterprises continue to look beyond their home markets and are investing in tools and workflows that make expansion faster and more repeatable."
-      },
       "https://engineering.fb.com/2026/10/27/security/privacylib": {
         "source": "Meta",
         "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
@@ -10282,6 +10315,71 @@
         "url": "https://aphyr.com/posts/427-rip-harvest",
         "published": "2026-11-08T19:35:42.000Z",
         "summary": "I’ve been a self-employed contractor for about a decade now, and I’m bummed about Harvest . Harvest was a time-tracking and invoicing service. You’d track how many hours or weeks you spent on a project, put together an invoice, email it to the client, and close it out when they paid. There was a little Stripe integration for accepting credit and ACH payments on the invoice web view. A historical c"
+      },
+      "https://discord.com/blog/discord-patch-notes-november-9-2026": {
+        "source": "Discord",
+        "title": "Discord Patch Notes: November 9, 2026",
+        "url": "https://discord.com/blog/discord-patch-notes-november-9-2026",
+        "published": "2026-11-09T00:00:00.000Z",
+        "summary": "Check out the finer details of the more technical fixes implemented into Discord recently."
+      },
+      "https://discord.com/blog/unlock-level-up-flex-discord-profile-badges-got-an-upgrade": {
+        "source": "Discord",
+        "title": "Unlock, Level Up, Flex: Discord Profile Badges Got an Upgrade",
+        "url": "https://discord.com/blog/unlock-level-up-flex-discord-profile-badges-got-an-upgrade",
+        "published": "2026-11-09T00:00:00.000Z",
+        "summary": "Meet the new badge directory: one spot to browse every badge on Discord, including 4 shiny new ones to unlock, level up, and flex."
+      },
+      "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4": {
+        "source": "Netflix",
+        "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System",
+        "url": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4",
+        "published": "2026-11-09T17:01:02.000Z",
+        "summary": ""
+      },
+      "https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now": {
+        "source": "Figma",
+        "title": "6 easy ways to use the Figma agent right now",
+        "url": "https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now/",
+        "published": "2026-11-09T21:46:00.000Z",
+        "summary": "From making designs more expressive and automating busywork, to exploring more possibilities on the canvas, here are six ways to push designers further with the Figma agent."
+      },
+      "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus": {
+        "source": "Meta",
+        "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
+        "url": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+        "published": "2026-11-09T17:00:12.000Z",
+        "summary": "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs. It separates shared debugger infrastructure from hardware-specific device control. The design represents the CPU and GPU as separate debugger processes while presenting them in one debugging session. Modern AI applications rarely execute in one place. A workload can [...] Re"
+      },
+      "https://aws.amazon.com/blogs/architecture/transforming-fleet-analytics-for-novus-hi-tech-through-agentic-ai": {
+        "source": "AWS Architecture",
+        "title": "Transforming fleet analytics for Novus Hi-Tech through agentic AI",
+        "url": "https://aws.amazon.com/blogs/architecture/transforming-fleet-analytics-for-novus-hi-tech-through-agentic-ai/",
+        "published": "2026-11-09T20:34:35.000Z",
+        "summary": "Learn how Novus Hi-Tech, with the AWS Prototyping and AI Customer Engineering (PACE) team, built FleetGPT, an agentic AI solution on Amazon Bedrock that turns fleet IoT data into real-time safety interventions through natural language querying, automated investigation, and AI-powered driver voice calls, cutting road-behavior violations by 46% and drowsiness alerts by 55%."
+      },
+      "https://aws.amazon.com/blogs/architecture/how-deepl-keeps-closest-exit-routing-during-maintenance-with-aws-cloud-wan": {
+        "source": "AWS Architecture",
+        "title": "How DeepL keeps closest-exit routing during maintenance with AWS Cloud WAN",
+        "url": "https://aws.amazon.com/blogs/architecture/how-deepl-keeps-closest-exit-routing-during-maintenance-with-aws-cloud-wan/",
+        "published": "2026-11-09T20:15:09.000Z",
+        "summary": "DeepL runs a multi-Region hybrid network across multiple AWS Regions and AWS Direct Connect locations. See how DeepL drains a single Direct Connect link for planned maintenance without packet loss or cross-Region rerouting, using AWS Cloud WAN and an on-premises AS_PATH prepend so every other Region keeps its closest-exit routing."
+      },
+      "https://tiki.li/blog/about_blqsort": {
+        "source": "Lobsters",
+        "title": "A C++ Quicksort Faster Than std::sort",
+        "url": "https://tiki.li/blog/about_blqsort",
+        "discussion": "https://lobste.rs/s/qi2lni/c_quicksort_faster_than_std_sort",
+        "published": "2026-11-09T12:55:38.018Z",
+        "summary": ""
+      },
+      "https://nayak.im/posts/optimizing-reference-deletion": {
+        "source": "Lobsters",
+        "title": "Optimizing reference deletions in Git",
+        "url": "https://nayak.im/posts/optimizing-reference-deletion/",
+        "discussion": "https://lobste.rs/s/ic1ora/optimizing_reference_deletions_git",
+        "published": "2026-11-08T21:37:53.908Z",
+        "summary": ""
       }
     }
   }
