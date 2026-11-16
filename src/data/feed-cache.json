@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-11-15T13:49:12.466Z",
+    "fetchedAt": "2026-11-16T15:31:54.041Z",
     "repos": [
       {
         "name": "storytold/craft-anything",
         "description": "Craft Anything: understand how any software works, and craft your own.",
         "language": "Rust",
-        "stars": 33384,
+        "stars": 34509,
         "url": "https://github.com/storytold/craft-anything",
         "created": "2026-10-31T14:50:00Z",
         "topics": []
@@ -15,7 +15,7 @@
         "name": "deepseek-ai/dsh-superagent-prototype",
         "description": "Towards a More Autonomous Agent System",
         "language": "TypeScript",
-        "stars": 23222,
+        "stars": 23462,
         "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
         "created": "2026-10-31T09:32:46Z",
         "topics": []
@@ -24,7 +24,7 @@
         "name": "heydamir/unslop",
         "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
         "language": "JavaScript",
-        "stars": 16387,
+        "stars": 17119,
         "url": "https://github.com/heydamir/unslop",
         "created": "2026-10-29T15:41:21Z",
         "topics": []
@@ -33,7 +33,7 @@
         "name": "anefzaoui/misterdownloadmanager",
         "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
         "language": "Rust",
-        "stars": 10011,
+        "stars": 11005,
         "url": "https://github.com/anefzaoui/misterdownloadmanager",
         "created": "2026-10-29T01:25:19Z",
         "topics": [
@@ -44,19 +44,10 @@
         ]
       },
       {
-        "name": "zortos293/Lichii",
-        "description": "VERY experimental Nintendo Switch 2 emulator",
-        "language": "C++",
-        "stars": 9284,
-        "url": "https://github.com/zortos293/Lichii",
-        "created": "2026-10-31T14:17:26Z",
-        "topics": []
-      },
-      {
         "name": "JuneYaooo/rea-video",
         "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
         "language": "Python",
-        "stars": 8926,
+        "stars": 9558,
         "url": "https://github.com/JuneYaooo/rea-video",
         "created": "2026-10-29T16:15:01Z",
         "topics": [
@@ -67,10 +58,19 @@
         ]
       },
       {
+        "name": "zortos293/Lichii",
+        "description": "VERY experimental Nintendo Switch 2 emulator",
+        "language": "C++",
+        "stars": 9467,
+        "url": "https://github.com/zortos293/Lichii",
+        "created": "2026-10-31T14:17:26Z",
+        "topics": []
+      },
+      {
         "name": "Minireel/HGhub",
         "description": "Plug-in media player",
         "language": "Rust",
-        "stars": 8920,
+        "stars": 9417,
         "url": "https://github.com/Minireel/HGhub",
         "created": "2026-11-03T14:04:27Z",
         "topics": [
@@ -84,164 +84,180 @@
         "name": "janestreet/agent_skills",
         "description": "Agent skills",
         "language": null,
-        "stars": 8797,
+        "stars": 9409,
         "url": "https://github.com/janestreet/agent_skills",
         "created": "2026-11-03T16:50:21Z",
         "topics": [],
         "hn": {
-          "points": 710,
-          "comments": 169,
+          "points": 715,
+          "comments": 170,
           "url": "https://news.ycombinator.com/item?id=50438261"
         }
       },
       {
-        "name": "opencoredev/islandcn",
-        "description": "The open-source Dynamic Island for React, installed with shadcn.",
-        "language": "TypeScript",
-        "stars": 712,
-        "url": "https://github.com/opencoredev/islandcn",
-        "created": "2026-11-13T11:50:50Z",
+        "name": "yetanotherbrowser/yab",
+        "description": "Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion",
+        "language": "Swift",
+        "stars": 548,
+        "url": "https://github.com/yetanotherbrowser/yab",
+        "created": "2026-11-14T23:56:32Z",
+        "topics": []
+      },
+      {
+        "name": "haziqahmedqasmi/PeakCut",
+        "description": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
+        "language": "Python",
+        "stars": 545,
+        "url": "https://github.com/haziqahmedqasmi/PeakCut",
+        "created": "2026-11-14T07:38:20Z",
+        "topics": []
+      },
+      {
+        "name": "n4ze3m/tiny-voca",
+        "description": "A 4.5M-parameter two-voice English text-to-speech model, trained from scratch",
+        "language": "Python",
+        "stars": 542,
+        "url": "https://github.com/n4ze3m/tiny-voca",
+        "created": "2026-11-14T16:02:56Z",
         "topics": [
-          "dynamic-island",
-          "nextjs",
-          "react",
-          "shadcn"
+          "onnx",
+          "text-to-speech",
+          "tts"
         ]
       },
       {
-        "name": "Topkiflare74/ai--manus2.0",
-        "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-        "language": null,
-        "stars": 678,
-        "url": "https://github.com/Topkiflare74/ai--manus2.0",
-        "created": "2026-11-14T19:15:24Z",
+        "name": "YellowLaborerMarket/Gemini-Config-Checker-",
+        "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+        "language": "Makefile",
+        "stars": 474,
+        "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+        "created": "2026-11-15T16:48:18Z",
         "topics": [
           "ai",
-          "ai-agents",
-          "ai-sdk",
-          "anthropic"
+          "ai-search",
+          "aichecker",
+          "chatgpt"
         ]
       },
       {
-        "name": "WarriorRemember/IPTV_Player_2.0",
-        "description": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes. ",
-        "language": "Rust",
-        "stars": 673,
-        "url": "https://github.com/WarriorRemember/IPTV_Player_2.0",
-        "created": "2026-11-14T19:25:25Z",
-        "topics": [
-          "dash",
-          "ip-tv",
-          "iptv",
-          "iptv-channels"
-        ]
-      },
-      {
-        "name": "trackboatwrightplan/GitHub-Copilot-app",
-        "description": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
-        "language": null,
-        "stars": 672,
-        "url": "https://github.com/trackboatwrightplan/GitHub-Copilot-app",
-        "created": "2026-11-14T19:16:41Z",
-        "topics": [
-          "adminlte",
-          "agent-skills",
-          "ai",
-          "awesome"
-        ]
-      },
-      {
-        "name": "TrapAccountant/GitHub-Copilot-app",
-        "description": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
-        "language": null,
-        "stars": 670,
-        "url": "https://github.com/TrapAccountant/GitHub-Copilot-app",
-        "created": "2026-11-14T19:16:47Z",
-        "topics": [
-          "adminlte",
-          "agent-skills",
-          "ai",
-          "awesome"
-        ]
-      },
-      {
-        "name": "TurquoiseDetective/IPTV_Player_2.0",
-        "description": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes. ",
-        "language": "Rust",
-        "stars": 669,
-        "url": "https://github.com/TurquoiseDetective/IPTV_Player_2.0",
-        "created": "2026-11-14T19:25:17Z",
-        "topics": [
-          "dash",
-          "ip-tv",
-          "iptv",
-          "iptv-channels"
-        ]
-      },
-      {
-        "name": "tornadonovicewhirl40/IPTV_Player_2.0",
-        "description": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes. ",
-        "language": "Rust",
-        "stars": 669,
-        "url": "https://github.com/tornadonovicewhirl40/IPTV_Player_2.0",
-        "created": "2026-11-14T19:15:43Z",
-        "topics": [
-          "dash",
-          "ip-tv",
-          "iptv",
-          "iptv-channels"
-        ]
-      },
-      {
-        "name": "WattBeetleLearn/IPTV_Player_2.0",
-        "description": "🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes. ",
-        "language": "Rust",
-        "stars": 667,
-        "url": "https://github.com/WattBeetleLearn/IPTV_Player_2.0",
-        "created": "2026-11-14T19:25:28Z",
-        "topics": [
-          "dash",
-          "ip-tv",
-          "iptv",
-          "iptv-channels"
-        ]
-      },
-      {
-        "name": "topapothecarycanal/ai--manus2.0",
-        "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-        "language": null,
-        "stars": 666,
-        "url": "https://github.com/topapothecarycanal/ai--manus2.0",
-        "created": "2026-11-14T19:15:24Z",
+        "name": "WindGatorRise37/Gemini-Config-Checker-",
+        "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+        "language": "Makefile",
+        "stars": 473,
+        "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
+        "created": "2026-11-15T16:47:17Z",
         "topics": [
           "ai",
-          "ai-agents",
-          "ai-sdk",
-          "anthropic"
+          "ai-search",
+          "aichecker",
+          "chatgpt"
         ]
       },
       {
-        "name": "toppatronweave/GitHub-Copilot-app",
-        "description": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
-        "language": null,
-        "stars": 666,
-        "url": "https://github.com/toppatronweave/GitHub-Copilot-app",
-        "created": "2026-11-14T19:25:20Z",
+        "name": "WyrmClimberManacle/Gemini-Config-Checker-",
+        "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+        "language": "Makefile",
+        "stars": 473,
+        "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
+        "created": "2026-11-15T16:48:18Z",
         "topics": [
-          "adminlte",
-          "agent-skills",
           "ai",
-          "awesome"
+          "ai-search",
+          "aichecker",
+          "chatgpt"
+        ]
+      },
+      {
+        "name": "TurtleReside/Gemini-Config-Checker-",
+        "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+        "language": "Go",
+        "stars": 473,
+        "url": "https://github.com/TurtleReside/Gemini-Config-Checker-",
+        "created": "2026-11-15T16:46:04Z",
+        "topics": [
+          "ai",
+          "ai-search",
+          "aichecker",
+          "chatgpt"
+        ]
+      },
+      {
+        "name": "weldbladesmithwharf/Gemini-Config-Checker-",
+        "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+        "language": "Makefile",
+        "stars": 473,
+        "url": "https://github.com/weldbladesmithwharf/Gemini-Config-Checker-",
+        "created": "2026-11-15T16:47:11Z",
+        "topics": [
+          "ai",
+          "ai-search",
+          "aichecker",
+          "chatgpt"
+        ]
+      },
+      {
+        "name": "WindowStaffGate11/Gemini-Config-Checker-",
+        "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+        "language": "Makefile",
+        "stars": 473,
+        "url": "https://github.com/WindowStaffGate11/Gemini-Config-Checker-",
+        "created": "2026-11-15T16:47:18Z",
+        "topics": [
+          "ai",
+          "ai-search",
+          "aichecker",
+          "chatgpt"
+        ]
+      },
+      {
+        "name": "WerewolfEmuHub/Gemini-Config-Checker-",
+        "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+        "language": "Go",
+        "stars": 473,
+        "url": "https://github.com/WerewolfEmuHub/Gemini-Config-Checker-",
+        "created": "2026-11-15T16:47:11Z",
+        "topics": [
+          "ai",
+          "ai-search",
+          "aichecker",
+          "chatgpt"
         ]
       }
     ],
     "posts": [
       {
         "source": "showhn",
+        "title": "Coral – Open-source gateway where agents write their own tools",
+        "url": "https://github.com/withcoral/coral",
+        "points": 37,
+        "comments": 11,
+        "discussion": "https://news.ycombinator.com/item?id=50517803",
+        "created": "2026-11-16T14:14:51.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "The Last Complication, a Zachtronics-style watchmaking puzzle game",
+        "url": "https://lastcomplication.com/",
+        "points": 75,
+        "comments": 15,
+        "discussion": "https://news.ycombinator.com/item?id=50511718",
+        "created": "2026-11-15T22:48:52.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "db-branch – database branches in seconds for AI agents and CI, via ZFS",
+        "url": "https://github.com/db-branch/db-branch",
+        "points": 44,
+        "comments": 16,
+        "discussion": "https://news.ycombinator.com/item?id=50506940",
+        "created": "2026-11-15T13:50:51.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "Gawain – Require type hints on all Python variables",
         "url": "https://github.com/matheuzgomes/gawain",
-        "points": 61,
-        "comments": 42,
+        "points": 67,
+        "comments": 58,
         "discussion": "https://news.ycombinator.com/item?id=50504072",
         "created": "2026-11-15T04:39:25.000Z"
       },
@@ -249,8 +265,8 @@
         "source": "showhn",
         "title": "Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
         "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
-        "points": 40,
-        "comments": 8,
+        "points": 48,
+        "comments": 9,
         "discussion": "https://news.ycombinator.com/item?id=50503930",
         "created": "2026-11-15T04:09:11.000Z"
       },
@@ -258,44 +274,17 @@
         "source": "showhn",
         "title": "A custom font based on the Jamaican flag alphabet",
         "url": "https://bobbiec.github.io/jamaican-font.html",
-        "points": 46,
-        "comments": 6,
+        "points": 55,
+        "comments": 8,
         "discussion": "https://news.ycombinator.com/item?id=50502839",
         "created": "2026-11-15T00:56:45.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "DeepSeek V3 in ~200 lines of pure Jax",
-        "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-        "points": 250,
-        "comments": 23,
-        "discussion": "https://news.ycombinator.com/item?id=50497589",
-        "created": "2026-11-14T15:04:15.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Agweb – a browser for agents that stays out of your way",
-        "url": "https://github.com/paul-nameless/agweb",
-        "points": 103,
-        "comments": 30,
-        "discussion": "https://news.ycombinator.com/item?id=50497147",
-        "created": "2026-11-14T14:08:12.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Fursoy – Out-of-order RV64IMAFDV core in SystemVerilog (Linux 6.6)",
-        "url": "https://github.com/FURSOY/fursoy-cpu",
-        "points": 81,
-        "comments": 26,
-        "discussion": "https://news.ycombinator.com/item?id=50497137",
-        "created": "2026-11-14T14:06:34.000Z"
       },
       {
         "source": "launchhn",
         "title": "Pomerado (YC F26) – Turn any website into an MCP for agents",
         "url": "https://news.ycombinator.com/item?id=50455811",
-        "points": 63,
-        "comments": 48,
+        "points": 64,
+        "comments": 49,
         "discussion": "https://news.ycombinator.com/item?id=50455811",
         "created": "2026-11-11T17:11:56.000Z"
       },
@@ -321,7 +310,7 @@
         "source": "launchhn",
         "title": "Momentic (YC W24) – Agents that catch bugs by using your app",
         "url": "https://momentic.ai/",
-        "points": 167,
+        "points": 168,
         "comments": 135,
         "discussion": "https://news.ycombinator.com/item?id=50339913",
         "created": "2026-11-02T17:05:25.000Z"
@@ -4828,12 +4817,12 @@
         "name": "heydamir/unslop",
         "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
         "language": "JavaScript",
-        "stars": 16387,
+        "stars": 17119,
         "url": "https://github.com/heydamir/unslop",
         "created": "2026-10-29T15:41:21Z",
         "topics": [],
         "firstSeen": "2026-10-31",
-        "lastSeen": "2026-11-15",
+        "lastSeen": "2026-11-16",
         "starsAtFirstSeen": 2339
       },
       "kevinraymond/florilegium": {
@@ -4949,12 +4938,12 @@
         "name": "deepseek-ai/dsh-superagent-prototype",
         "description": "Towards a More Autonomous Agent System",
         "language": "TypeScript",
-        "stars": 23222,
+        "stars": 23462,
         "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
         "created": "2026-10-31T09:32:46Z",
         "topics": [],
         "firstSeen": "2026-11-01",
-        "lastSeen": "2026-11-15",
+        "lastSeen": "2026-11-16",
         "starsAtFirstSeen": 5473
       },
       "Arjun-Ingole/hop": {
@@ -5002,12 +4991,12 @@
         "name": "storytold/craft-anything",
         "description": "Craft Anything: understand how any software works, and craft your own.",
         "language": "Rust",
-        "stars": 33384,
+        "stars": 34509,
         "url": "https://github.com/storytold/craft-anything",
         "created": "2026-10-31T14:50:00Z",
         "topics": [],
         "firstSeen": "2026-11-01",
-        "lastSeen": "2026-11-15",
+        "lastSeen": "2026-11-16",
         "starsAtFirstSeen": 432
       },
       "N1nEmAn/sapper-v2": {
@@ -5234,12 +5223,12 @@
         "name": "Minireel/HGhub",
         "description": "Plug-in media player",
         "language": "Rust",
-        "stars": 8920,
+        "stars": 9417,
         "url": "https://github.com/Minireel/HGhub",
         "created": "2026-11-03T14:04:27Z",
         "topics": [],
         "firstSeen": "2026-11-04",
-        "lastSeen": "2026-11-15",
+        "lastSeen": "2026-11-16",
         "starsAtFirstSeen": 538
       },
       "Chipwithinflash/watson-AI-osint-all-in-one": {
@@ -5590,12 +5579,12 @@
         "name": "zortos293/Lichii",
         "description": "VERY experimental Nintendo Switch 2 emulator",
         "language": "C++",
-        "stars": 9284,
+        "stars": 9467,
         "url": "https://github.com/zortos293/Lichii",
         "created": "2026-10-31T14:17:26Z",
         "topics": [],
         "firstSeen": "2026-11-08",
-        "lastSeen": "2026-11-15",
+        "lastSeen": "2026-11-16",
         "starsAtFirstSeen": 6338
       },
       "Th0rgal/satmux": {
@@ -6038,7 +6027,7 @@
         "name": "anefzaoui/misterdownloadmanager",
         "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
         "language": "Rust",
-        "stars": 10011,
+        "stars": 11005,
         "url": "https://github.com/anefzaoui/misterdownloadmanager",
         "created": "2026-10-29T01:25:19Z",
         "topics": [
@@ -6048,7 +6037,7 @@
           "download-manager"
         ],
         "firstSeen": "2026-11-12",
-        "lastSeen": "2026-11-15",
+        "lastSeen": "2026-11-16",
         "starsAtFirstSeen": 7563
       },
       "FrigadeHQ/yogurt": {
@@ -6193,17 +6182,17 @@
         "name": "janestreet/agent_skills",
         "description": "Agent skills",
         "language": null,
-        "stars": 8797,
+        "stars": 9409,
         "url": "https://github.com/janestreet/agent_skills",
         "created": "2026-11-03T16:50:21Z",
         "topics": [],
         "hn": {
-          "points": 710,
-          "comments": 169,
+          "points": 715,
+          "comments": 170,
           "url": "https://news.ycombinator.com/item?id=50438261"
         },
         "firstSeen": "2026-11-13",
-        "lastSeen": "2026-11-15",
+        "lastSeen": "2026-11-16",
         "starsAtFirstSeen": 8082
       },
       "DevedevT/FFmpeg-GUI-Editor-Windows": {
@@ -6404,7 +6393,7 @@
         "name": "JuneYaooo/rea-video",
         "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
         "language": "Python",
-        "stars": 8926,
+        "stars": 9558,
         "url": "https://github.com/JuneYaooo/rea-video",
         "created": "2026-10-29T16:15:01Z",
         "topics": [
@@ -6414,7 +6403,7 @@
           "claude-code"
         ],
         "firstSeen": "2026-11-15",
-        "lastSeen": "2026-11-15",
+        "lastSeen": "2026-11-16",
         "starsAtFirstSeen": 8926
       },
       "Topkiflare74/ai--manus2.0": {
@@ -6569,6 +6558,165 @@
         "firstSeen": "2026-11-15",
         "lastSeen": "2026-11-15",
         "starsAtFirstSeen": 666
+      },
+      "yetanotherbrowser/yab": {
+        "name": "yetanotherbrowser/yab",
+        "description": "Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion",
+        "language": "Swift",
+        "stars": 548,
+        "url": "https://github.com/yetanotherbrowser/yab",
+        "created": "2026-11-14T23:56:32Z",
+        "topics": [],
+        "firstSeen": "2026-11-16",
+        "lastSeen": "2026-11-16",
+        "starsAtFirstSeen": 548
+      },
+      "haziqahmedqasmi/PeakCut": {
+        "name": "haziqahmedqasmi/PeakCut",
+        "description": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
+        "language": "Python",
+        "stars": 545,
+        "url": "https://github.com/haziqahmedqasmi/PeakCut",
+        "created": "2026-11-14T07:38:20Z",
+        "topics": [],
+        "firstSeen": "2026-11-16",
+        "lastSeen": "2026-11-16",
+        "starsAtFirstSeen": 545
+      },
+      "n4ze3m/tiny-voca": {
+        "name": "n4ze3m/tiny-voca",
+        "description": "A 4.5M-parameter two-voice English text-to-speech model, trained from scratch",
+        "language": "Python",
+        "stars": 542,
+        "url": "https://github.com/n4ze3m/tiny-voca",
+        "created": "2026-11-14T16:02:56Z",
+        "topics": [
+          "onnx",
+          "text-to-speech",
+          "tts"
+        ],
+        "firstSeen": "2026-11-16",
+        "lastSeen": "2026-11-16",
+        "starsAtFirstSeen": 542
+      },
+      "YellowLaborerMarket/Gemini-Config-Checker-": {
+        "name": "YellowLaborerMarket/Gemini-Config-Checker-",
+        "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+        "language": "Makefile",
+        "stars": 474,
+        "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+        "created": "2026-11-15T16:48:18Z",
+        "topics": [
+          "ai",
+          "ai-search",
+          "aichecker",
+          "chatgpt"
+        ],
+        "firstSeen": "2026-11-16",
+        "lastSeen": "2026-11-16",
+        "starsAtFirstSeen": 474
+      },
+      "WindGatorRise37/Gemini-Config-Checker-": {
+        "name": "WindGatorRise37/Gemini-Config-Checker-",
+        "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+        "language": "Makefile",
+        "stars": 473,
+        "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
+        "created": "2026-11-15T16:47:17Z",
+        "topics": [
+          "ai",
+          "ai-search",
+          "aichecker",
+          "chatgpt"
+        ],
+        "firstSeen": "2026-11-16",
+        "lastSeen": "2026-11-16",
+        "starsAtFirstSeen": 473
+      },
+      "WyrmClimberManacle/Gemini-Config-Checker-": {
+        "name": "WyrmClimberManacle/Gemini-Config-Checker-",
+        "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+        "language": "Makefile",
+        "stars": 473,
+        "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
+        "created": "2026-11-15T16:48:18Z",
+        "topics": [
+          "ai",
+          "ai-search",
+          "aichecker",
+          "chatgpt"
+        ],
+        "firstSeen": "2026-11-16",
+        "lastSeen": "2026-11-16",
+        "starsAtFirstSeen": 473
+      },
+      "TurtleReside/Gemini-Config-Checker-": {
+        "name": "TurtleReside/Gemini-Config-Checker-",
+        "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+        "language": "Go",
+        "stars": 473,
+        "url": "https://github.com/TurtleReside/Gemini-Config-Checker-",
+        "created": "2026-11-15T16:46:04Z",
+        "topics": [
+          "ai",
+          "ai-search",
+          "aichecker",
+          "chatgpt"
+        ],
+        "firstSeen": "2026-11-16",
+        "lastSeen": "2026-11-16",
+        "starsAtFirstSeen": 473
+      },
+      "weldbladesmithwharf/Gemini-Config-Checker-": {
+        "name": "weldbladesmithwharf/Gemini-Config-Checker-",
+        "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+        "language": "Makefile",
+        "stars": 473,
+        "url": "https://github.com/weldbladesmithwharf/Gemini-Config-Checker-",
+        "created": "2026-11-15T16:47:11Z",
+        "topics": [
+          "ai",
+          "ai-search",
+          "aichecker",
+          "chatgpt"
+        ],
+        "firstSeen": "2026-11-16",
+        "lastSeen": "2026-11-16",
+        "starsAtFirstSeen": 473
+      },
+      "WindowStaffGate11/Gemini-Config-Checker-": {
+        "name": "WindowStaffGate11/Gemini-Config-Checker-",
+        "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+        "language": "Makefile",
+        "stars": 473,
+        "url": "https://github.com/WindowStaffGate11/Gemini-Config-Checker-",
+        "created": "2026-11-15T16:47:18Z",
+        "topics": [
+          "ai",
+          "ai-search",
+          "aichecker",
+          "chatgpt"
+        ],
+        "firstSeen": "2026-11-16",
+        "lastSeen": "2026-11-16",
+        "starsAtFirstSeen": 473
+      },
+      "WerewolfEmuHub/Gemini-Config-Checker-": {
+        "name": "WerewolfEmuHub/Gemini-Config-Checker-",
+        "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
+        "language": "Go",
+        "stars": 473,
+        "url": "https://github.com/WerewolfEmuHub/Gemini-Config-Checker-",
+        "created": "2026-11-15T16:47:11Z",
+        "topics": [
+          "ai",
+          "ai-search",
+          "aichecker",
+          "chatgpt"
+        ],
+        "firstSeen": "2026-11-16",
+        "lastSeen": "2026-11-16",
+        "starsAtFirstSeen": 473
       }
     },
     "posts": {
@@ -9656,12 +9804,12 @@
         "source": "launchhn",
         "title": "Momentic (YC W24) – Agents that catch bugs by using your app",
         "url": "https://momentic.ai/",
-        "points": 167,
+        "points": 168,
         "comments": 135,
         "discussion": "https://news.ycombinator.com/item?id=50339913",
         "created": "2026-11-02T17:05:25.000Z",
         "firstSeen": "2026-11-03",
-        "lastSeen": "2026-11-15"
+        "lastSeen": "2026-11-16"
       },
       "https://news.ycombinator.com/item?id=50346849": {
         "source": "hn",
@@ -9815,7 +9963,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50368804",
         "created": "2026-11-04T17:31:53.000Z",
         "firstSeen": "2026-11-05",
-        "lastSeen": "2026-11-15"
+        "lastSeen": "2026-11-16"
       },
       "https://news.ycombinator.com/item?id=50377221": {
         "source": "hn",
@@ -9881,7 +10029,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50381687",
         "created": "2026-11-05T17:17:42.000Z",
         "firstSeen": "2026-11-06",
-        "lastSeen": "2026-11-15"
+        "lastSeen": "2026-11-16"
       },
       "https://news.ycombinator.com/item?id=50385272": {
         "source": "hn",
@@ -10239,12 +10387,12 @@
         "source": "launchhn",
         "title": "Pomerado (YC F26) – Turn any website into an MCP for agents",
         "url": "https://news.ycombinator.com/item?id=50455811",
-        "points": 63,
-        "comments": 48,
+        "points": 64,
+        "comments": 49,
         "discussion": "https://news.ycombinator.com/item?id=50455811",
         "created": "2026-11-11T17:11:56.000Z",
         "firstSeen": "2026-11-12",
-        "lastSeen": "2026-11-15"
+        "lastSeen": "2026-11-16"
       },
       "https://news.ycombinator.com/item?id=50456631": {
         "source": "hn",
@@ -10415,34 +10563,34 @@
         "source": "showhn",
         "title": "Gawain – Require type hints on all Python variables",
         "url": "https://github.com/matheuzgomes/gawain",
-        "points": 61,
-        "comments": 42,
+        "points": 67,
+        "comments": 58,
         "discussion": "https://news.ycombinator.com/item?id=50504072",
         "created": "2026-11-15T04:39:25.000Z",
         "firstSeen": "2026-11-15",
-        "lastSeen": "2026-11-15"
+        "lastSeen": "2026-11-16"
       },
       "https://news.ycombinator.com/item?id=50503930": {
         "source": "showhn",
         "title": "Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
         "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
-        "points": 40,
-        "comments": 8,
+        "points": 48,
+        "comments": 9,
         "discussion": "https://news.ycombinator.com/item?id=50503930",
         "created": "2026-11-15T04:09:11.000Z",
         "firstSeen": "2026-11-15",
-        "lastSeen": "2026-11-15"
+        "lastSeen": "2026-11-16"
       },
       "https://news.ycombinator.com/item?id=50502839": {
         "source": "showhn",
         "title": "A custom font based on the Jamaican flag alphabet",
         "url": "https://bobbiec.github.io/jamaican-font.html",
-        "points": 46,
-        "comments": 6,
+        "points": 55,
+        "comments": 8,
         "discussion": "https://news.ycombinator.com/item?id=50502839",
         "created": "2026-11-15T00:56:45.000Z",
         "firstSeen": "2026-11-15",
-        "lastSeen": "2026-11-15"
+        "lastSeen": "2026-11-16"
       },
       "https://news.ycombinator.com/item?id=50497589": {
         "source": "showhn",
@@ -10476,354 +10624,351 @@
         "created": "2026-11-14T14:06:34.000Z",
         "firstSeen": "2026-11-15",
         "lastSeen": "2026-11-15"
+      },
+      "https://news.ycombinator.com/item?id=50517803": {
+        "source": "showhn",
+        "title": "Coral – Open-source gateway where agents write their own tools",
+        "url": "https://github.com/withcoral/coral",
+        "points": 37,
+        "comments": 11,
+        "discussion": "https://news.ycombinator.com/item?id=50517803",
+        "created": "2026-11-16T14:14:51.000Z",
+        "firstSeen": "2026-11-16",
+        "lastSeen": "2026-11-16"
+      },
+      "https://news.ycombinator.com/item?id=50511718": {
+        "source": "showhn",
+        "title": "The Last Complication, a Zachtronics-style watchmaking puzzle game",
+        "url": "https://lastcomplication.com/",
+        "points": 75,
+        "comments": 15,
+        "discussion": "https://news.ycombinator.com/item?id=50511718",
+        "created": "2026-11-15T22:48:52.000Z",
+        "firstSeen": "2026-11-16",
+        "lastSeen": "2026-11-16"
+      },
+      "https://news.ycombinator.com/item?id=50506940": {
+        "source": "showhn",
+        "title": "db-branch – database branches in seconds for AI agents and CI, via ZFS",
+        "url": "https://github.com/db-branch/db-branch",
+        "points": 44,
+        "comments": 16,
+        "discussion": "https://news.ycombinator.com/item?id=50506940",
+        "created": "2026-11-15T13:50:51.000Z",
+        "firstSeen": "2026-11-16",
+        "lastSeen": "2026-11-16"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-11-15T13:49:12.466Z",
+    "fetchedAt": "2026-11-16T15:31:54.041Z",
     "hn": [
       {
-        "title": "SpaceX catches the Starship to end Flight 15",
-        "url": "https://www.spacex.com/launches/starship-flight-15",
-        "points": 1368,
-        "comments": 915,
-        "discussion": "https://news.ycombinator.com/item?id=50500963"
+        "title": "Qwen4-Max",
+        "url": "https://qwen.ai/blog?id=qwen4-max",
+        "points": 716,
+        "comments": 352,
+        "discussion": "https://news.ycombinator.com/item?id=50513215"
       },
       {
-        "title": "Lovable apps expose passport details and more than 200K private messages",
-        "url": "https://www.crissyfield.de/research/lovable-en/",
-        "points": 885,
-        "comments": 338,
-        "discussion": "https://news.ycombinator.com/item?id=50499017"
+        "title": "How to make almost anything",
+        "url": "https://pub.cba.mit.edu/863.26/site/",
+        "points": 555,
+        "comments": 98,
+        "discussion": "https://news.ycombinator.com/item?id=50514470"
       },
       {
-        "title": "Why get an expensive Pi when I have an old phone?",
-        "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
-        "points": 577,
-        "comments": 309,
-        "discussion": "https://news.ycombinator.com/item?id=50440709"
+        "title": "Universal XSS in uBlock Origin from website-driven element picker",
+        "url": "https://iter.ca/post/ubo-uxss/",
+        "points": 501,
+        "comments": 143,
+        "discussion": "https://news.ycombinator.com/item?id=50513160"
       },
       {
-        "title": "KDE: The documentary [video]",
-        "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
-        "points": 520,
-        "comments": 116,
-        "discussion": "https://news.ycombinator.com/item?id=50496976"
-      },
-      {
-        "title": "A family tree of software job titles",
-        "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-        "points": 357,
-        "comments": 181,
-        "discussion": "https://news.ycombinator.com/item?id=50499038"
-      },
-      {
-        "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
-        "url": "https://projectzero.google/2026/11/disclosure-policy.html",
-        "points": 277,
-        "comments": 158,
-        "discussion": "https://news.ycombinator.com/item?id=50496051"
-      },
-      {
-        "title": "Court denies motion to dismiss DRAM price fixing case",
-        "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-        "points": 276,
-        "comments": 103,
-        "discussion": "https://news.ycombinator.com/item?id=50502988"
-      },
-      {
-        "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
-        "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
-        "points": 272,
+        "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+        "url": "https://bruceroettgers.eu/blog/protomaps/",
+        "points": 412,
         "comments": 72,
-        "discussion": "https://news.ycombinator.com/item?id=50503255"
+        "discussion": "https://news.ycombinator.com/item?id=50509837"
       },
       {
-        "title": "PyPI's redesigned project pages with clearer security signals are now live",
-        "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-        "points": 256,
-        "comments": 111,
-        "discussion": "https://news.ycombinator.com/item?id=50497892"
+        "title": "Handwriting, as a Font",
+        "url": "https://ductus.sorenblank.com",
+        "points": 384,
+        "comments": 66,
+        "discussion": "https://news.ycombinator.com/item?id=50509972"
       },
       {
-        "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-        "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-        "points": 249,
-        "comments": 23,
-        "discussion": "https://news.ycombinator.com/item?id=50497589"
+        "title": "What's Next for Nvidia?",
+        "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+        "points": 369,
+        "comments": 467,
+        "discussion": "https://news.ycombinator.com/item?id=50512235"
+      },
+      {
+        "title": "Old Bitly links are being hijacked",
+        "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+        "points": 339,
+        "comments": 170,
+        "discussion": "https://news.ycombinator.com/item?id=50511395"
+      },
+      {
+        "title": "Crows make decisions faster than we can",
+        "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+        "points": 275,
+        "comments": 182,
+        "discussion": "https://news.ycombinator.com/item?id=50509023"
+      },
+      {
+        "title": "A short explainer on how El Niño works [video]",
+        "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+        "points": 271,
+        "comments": 155,
+        "discussion": "https://news.ycombinator.com/item?id=50509308"
+      },
+      {
+        "title": "WebGL Flight Simulator with seed generated terrain",
+        "url": "https://baron.by.dai.studio/",
+        "points": 205,
+        "comments": 49,
+        "discussion": "https://news.ycombinator.com/item?id=50510296"
       }
     ],
     "lobsters": [
       {
-        "title": "25 of my favourite modern NES games",
-        "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
-        "points": 37,
-        "comments": 2,
-        "discussion": "https://lobste.rs/s/w9j7xs/25_my_favourite_modern_nes_games",
+        "title": "A datetime library for Rust",
+        "url": "https://burntsushi.net/jiff/",
+        "points": 99,
+        "comments": 27,
+        "discussion": "https://lobste.rs/s/dxxvek/datetime_library_for_rust",
         "tags": [
-          "games",
-          "retrocomputing"
+          "rust"
         ]
       },
       {
-        "title": "cursor:pointer on buttons",
-        "url": "https://blog.kizu.dev/cursors/",
-        "points": 12,
-        "comments": 6,
-        "discussion": "https://lobste.rs/s/h8tghc/cursor_pointer_on_buttons",
+        "title": "Migrating from GitHub to Codeberg",
+        "url": "https://yorickpeterse.com/articles/migrating-from-github-to-codeberg/",
+        "points": 39,
+        "comments": 9,
+        "discussion": "https://lobste.rs/s/rhoopo/migrating_from_github_codeberg",
         "tags": [
-          "a11y",
-          "css",
-          "web"
+          "programming",
+          "vcs"
+        ]
+      },
+      {
+        "title": "What are you doing this week?",
+        "url": "https://lobste.rs/s/isejqv/what_are_you_doing_this_week",
+        "points": 11,
+        "comments": 8,
+        "discussion": "https://lobste.rs/s/isejqv/what_are_you_doing_this_week",
+        "tags": [
+          "ask",
+          "programming"
+        ]
+      },
+      {
+        "title": "Paint in the memory of other programs",
+        "url": "https://citrons.xyz/journal/2026-04-13",
+        "points": 40,
+        "comments": 4,
+        "discussion": "https://lobste.rs/s/thiekk/paint_memory_other_programs",
+        "tags": [
+          "programming",
+          "visualization"
+        ]
+      },
+      {
+        "title": "Squircles",
+        "url": "https://linebender.org/wiki/curves/squircle/",
+        "points": 13,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/iihw5u/squircles",
+        "tags": [
+          "graphics"
+        ]
+      },
+      {
+        "title": "All AI-generated code should be Open Source",
+        "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+        "points": 69,
+        "comments": 21,
+        "discussion": "https://lobste.rs/s/ek4fkg/all_ai_generated_code_should_be_open",
+        "tags": [
+          "programming"
+        ]
+      },
+      {
+        "title": "beer.drv.drv.drv",
+        "url": "https://fzakaria.com/2026/11/14/beer-drv-drv-drv",
+        "points": 19,
+        "comments": 6,
+        "discussion": "https://lobste.rs/s/md0vco/beer_drv_drv_drv",
+        "tags": [
+          "nix"
         ]
       },
       {
         "title": "Memory management in 40 major C projects, a survey",
         "url": "https://theconsensus.dev/p/2026/11/08/c-memory-management-survey.html",
-        "points": 4,
-        "comments": 1,
+        "points": 55,
+        "comments": 13,
         "discussion": "https://lobste.rs/s/vdxevp/memory_management_40_major_c_projects",
         "tags": [
           "c"
         ]
       },
       {
-        "title": "Let Me Let You Own Your Data",
-        "url": "https://www.willett.io/posts/data/",
-        "points": 37,
-        "comments": 27,
-        "discussion": "https://lobste.rs/s/fllb0m/let_me_let_you_own_your_data",
+        "title": "you won't win at copyright",
+        "url": "https://ingrids.space/posts/you-wont-win-at-copyright/",
+        "points": 30,
+        "comments": 3,
+        "discussion": "https://lobste.rs/s/emdfap/you_won_t_win_at_copyright",
         "tags": [
-          "databases",
-          "privacy"
+          "culture",
+          "law",
+          "philosophy"
         ]
       },
       {
-        "title": "Periodic-Oriented Programming for FIRST Robotics",
-        "url": "https://bvisness.me/periodic-oriented-programming/",
-        "points": 12,
-        "comments": 1,
-        "discussion": "https://lobste.rs/s/bwjt1b/periodic_oriented_programming_for_first",
-        "tags": [
-          "programming"
-        ]
-      },
-      {
-        "title": "Parsing nested lists in BQN",
-        "url": "https://saltysylvi.github.io/blog/parsing-nested-lists-in-bqn.html",
-        "points": 12,
-        "comments": 1,
-        "discussion": "https://lobste.rs/s/nbjckz/parsing_nested_lists_bqn",
-        "tags": [
-          "apl"
-        ]
-      },
-      {
-        "title": "Anthropomorphic Software",
-        "url": "https://aspiz.uk/wiki/AnthropomorphicSoftware",
-        "points": 12,
-        "comments": 5,
-        "discussion": "https://lobste.rs/s/ofic7z/anthropomorphic_software",
-        "tags": [
-          "culture"
-        ]
-      },
-      {
-        "title": "FreeBSD bhyve Live Migration: Moving VMs Between Hosts",
-        "url": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/",
-        "points": 7,
+        "title": "Announcing Hegel-clj",
+        "url": "https://aphyr.com/posts/428-announcing-hegel-clj",
+        "points": 26,
         "comments": 0,
-        "discussion": "https://lobste.rs/s/hiayul/freebsd_bhyve_live_migration_moving_vms",
+        "discussion": "https://lobste.rs/s/ydzo2o/announcing_hegel_clj",
         "tags": [
-          "freebsd",
-          "virtualization"
-        ]
-      },
-      {
-        "title": "What happened to 3com?",
-        "url": "https://dfarq.homeip.net/what-happened-to-3com/",
-        "points": 35,
-        "comments": 7,
-        "discussion": "https://lobste.rs/s/pgmw6b/what_happened_3com",
-        "tags": [
-          "hardware",
-          "historical",
-          "retrocomputing"
-        ]
-      },
-      {
-        "title": "Reintroducing Spaces",
-        "url": "https://dholms.leaflet.pub/3mu3p3ldwrc26",
-        "points": 6,
-        "comments": 1,
-        "discussion": "https://lobste.rs/s/dwd6xu/reintroducing_spaces",
-        "tags": [
-          "programming"
+          "clojure",
+          "release",
+          "testing"
         ]
       }
     ],
     "devto": [
       {
-        "title": "Cat Mutilation Successful!! 🛸 Welcome New Members!! 🐈🎉",
-        "url": "https://dev.to/necoz/cat-mutilation-successful-welcome-new-members-4bj4",
-        "points": 52,
-        "comments": 11,
-        "discussion": "https://dev.to/necoz/cat-mutilation-successful-welcome-new-members-4bj4",
+        "title": "🐾 DEV Pet Corner #6: Show Us Your Pets!",
+        "url": "https://dev.to/hemapriya_kanagala/dev-pet-corner-6-show-us-your-pets-2gd3",
+        "points": 77,
+        "comments": 18,
+        "discussion": "https://dev.to/hemapriya_kanagala/dev-pet-corner-6-show-us-your-pets-2gd3",
         "tags": [
-          "necoz",
-          "opensource",
-          "community"
+          "discuss",
+          "community",
+          "watercooler"
         ]
       },
       {
-        "title": "Are You a CSS Developer or a CSS Expert? 9 Tests I Failed Styling a 12,400-Line Photo Editor",
-        "url": "https://dev.to/akhourianmolkumar/are-you-a-css-developer-or-a-css-expert-9-tests-i-failed-styling-a-12400-line-photo-editor-161p",
-        "points": 36,
-        "comments": 68,
-        "discussion": "https://dev.to/akhourianmolkumar/are-you-a-css-developer-or-a-css-expert-9-tests-i-failed-styling-a-12400-line-photo-editor-161p",
-        "tags": [
-          "css",
-          "html",
-          "beginners"
-        ]
-      },
-      {
-        "title": "Jira said Done. It wasn't, and the bug showed up later. So I made Jira check first.",
-        "url": "https://dev.to/wst2002rk/jira-said-done-it-wasnt-and-the-bug-showed-up-later-so-i-made-jira-check-first-9ed",
-        "points": 35,
-        "comments": 3,
-        "discussion": "https://dev.to/wst2002rk/jira-said-done-it-wasnt-and-the-bug-showed-up-later-so-i-made-jira-check-first-9ed",
+        "title": "The four controls that decide a Kling 4.0 shot",
+        "url": "https://dev.to/chet103cc/the-four-controls-that-decide-a-kling-40-shot-579n",
+        "points": 71,
+        "comments": 5,
+        "discussion": "https://dev.to/chet103cc/the-four-controls-that-decide-a-kling-40-shot-579n",
         "tags": [
           "ai",
-          "testing",
-          "showdev"
+          "video",
+          "kling"
         ]
       },
       {
-        "title": "Ghost Rovers: I Called 12 Machines NASA Left Behind. One Picked Up.",
-        "url": "https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-left-behind-one-picked-up-2575",
-        "points": 23,
-        "comments": 2,
-        "discussion": "https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-left-behind-one-picked-up-2575",
-        "tags": [
-          "ai",
-          "webdev",
-          "hackathon"
-        ]
-      },
-      {
-        "title": "Your AI Coding Agent Wrote a 600-Word Summary. What It Skipped Is in the Fine Print.",
-        "url": "https://dev.to/debashish_ghosal/your-ai-coding-agent-wrote-a-600-word-summary-what-it-skipped-is-in-the-fine-print-1h7d",
-        "points": 18,
-        "comments": 6,
-        "discussion": "https://dev.to/debashish_ghosal/your-ai-coding-agent-wrote-a-600-word-summary-what-it-skipped-is-in-the-fine-print-1h7d",
+        "title": "Stratagem #34: Derek Gave Up Acceptance Sign-Off. The AI Still Can't Tell Who Won.",
+        "url": "https://dev.to/xulingfeng/stratagem-34-derek-gave-up-acceptance-sign-off-the-ai-still-cant-tell-who-won-25f8",
+        "points": 54,
+        "comments": 5,
+        "discussion": "https://dev.to/xulingfeng/stratagem-34-derek-gave-up-acceptance-sign-off-the-ai-still-cant-tell-who-won-25f8",
         "tags": [
           "discuss",
           "ai",
-          "softwareengineering"
+          "career"
         ]
       },
       {
-        "title": "I Told My Agent Who Sent the Message. It Mostly Stopped Saying We Were Talking.",
-        "url": "https://dev.to/kenielzep97/i-told-my-agent-who-sent-the-message-it-mostly-stopped-saying-we-were-talking-12o8",
-        "points": 14,
-        "comments": 1,
-        "discussion": "https://dev.to/kenielzep97/i-told-my-agent-who-sent-the-message-it-mostly-stopped-saying-we-were-talking-12o8",
+        "title": "What does DEV stand for?",
+        "url": "https://dev.to/devengers/what-does-dev-stand-for-2kg9",
+        "points": 50,
+        "comments": 15,
+        "discussion": "https://dev.to/devengers/what-does-dev-stand-for-2kg9",
         "tags": [
-          "ai",
-          "agents",
-          "llm"
+          "discuss",
+          "community",
+          "watercooler"
         ]
       },
       {
-        "title": "Code Is Cheap Now. Judgment Isn't: The Review Bottleneck and the Vanishing Apprenticeship",
-        "url": "https://dev.to/karmen_f883f51347e4136a4e/code-is-cheap-now-judgment-isnt-the-review-bottleneck-and-the-vanishing-apprenticeship-1neg",
-        "points": 10,
-        "comments": 2,
-        "discussion": "https://dev.to/karmen_f883f51347e4136a4e/code-is-cheap-now-judgment-isnt-the-review-bottleneck-and-the-vanishing-apprenticeship-1neg",
+        "title": "Give Your Voice Agent Hands: Let It Act Across Sales and Marketing",
+        "url": "https://dev.to/therealmrmumba/give-your-voice-agent-hands-let-it-act-across-sales-and-marketing-fn2",
+        "points": 39,
+        "comments": 0,
+        "discussion": "https://dev.to/therealmrmumba/give-your-voice-agent-hands-let-it-act-across-sales-and-marketing-fn2",
         "tags": [
           "ai",
-          "career",
+          "webdev",
+          "productivity"
+        ]
+      },
+      {
+        "title": "How I Made a Markov Chain Model from Scratch in C++ During a Global Online Teen Hackathon",
+        "url": "https://dev.to/necoz/how-i-made-a-markov-chain-model-from-scratch-in-c-during-a-global-online-teen-hackathon-3gd7",
+        "points": 35,
+        "comments": 5,
+        "discussion": "https://dev.to/necoz/how-i-made-a-markov-chain-model-from-scratch-in-c-during-a-global-online-teen-hackathon-3gd7",
+        "tags": [
+          "cpp",
+          "showdev",
           "programming"
         ]
       },
       {
-        "title": "Call controls that match the app: one floating-control component",
-        "url": "https://dev.to/frankmilvus/call-controls-that-match-the-app-one-floating-control-component-2pap",
-        "points": 10,
-        "comments": 2,
-        "discussion": "https://dev.to/frankmilvus/call-controls-that-match-the-app-one-floating-control-component-2pap",
-        "tags": [
-          "showdev",
-          "flutter",
-          "ux"
-        ]
-      },
-      {
-        "title": "Zombies, a Gunship and a Judgment Model: What Could Go Wrong?",
-        "url": "https://dev.to/copyleftdev/zombies-a-gunship-and-a-judgment-model-what-could-go-wrong-2k95",
-        "points": 9,
-        "comments": 0,
-        "discussion": "https://dev.to/copyleftdev/zombies-a-gunship-and-a-judgment-model-what-could-go-wrong-2k95",
+        "title": "AI Avatar v28 (Security Support, Voxel Avatar)🛡️",
+        "url": "https://dev.to/webdeveloperhyper/ai-avatar-v28-security-support-voxel-avatar-2i5i",
+        "points": 29,
+        "comments": 3,
+        "discussion": "https://dev.to/webdeveloperhyper/ai-avatar-v28-security-support-voxel-avatar-2i5i",
         "tags": [
           "ai",
-          "llm",
-          "gamedev"
+          "webdev",
+          "productivity"
         ]
       },
       {
-        "title": "Swizzle Runtime v0.1.0: How We Reached 209 tok/s and 43ms TTFT on a 4GB Laptop GPU in Pure Rust",
-        "url": "https://dev.to/paramveer_singh_53163a04c/swizzle-runtime-v010-how-we-reached-209-toks-and-43ms-ttft-on-a-4gb-laptop-gpu-in-pure-rust-4l7l",
-        "points": 9,
-        "comments": 3,
-        "discussion": "https://dev.to/paramveer_singh_53163a04c/swizzle-runtime-v010-how-we-reached-209-toks-and-43ms-ttft-on-a-4gb-laptop-gpu-in-pure-rust-4l7l",
+        "title": ".NET 11 Unpacked: Why I'm Recommending STS This Time",
+        "url": "https://dev.to/georgekobaidze/net-11-unpacked-why-im-recommending-sts-this-time-lnj",
+        "points": 28,
+        "comments": 0,
+        "discussion": "https://dev.to/georgekobaidze/net-11-unpacked-why-im-recommending-sts-this-time-lnj",
         "tags": [
-          "rust",
-          "cuda",
-          "llm"
+          "dotnet",
+          "csharp",
+          "news"
+        ]
+      },
+      {
+        "title": "10 Things Every Coder Has Blamed at Least Once (at Least I Have)",
+        "url": "https://dev.to/canro91/10-things-every-coder-has-blamed-at-least-once-at-least-i-have-4ad0",
+        "points": 24,
+        "comments": 8,
+        "discussion": "https://dev.to/canro91/10-things-every-coder-has-blamed-at-least-once-at-least-i-have-4ad0",
+        "tags": [
+          "coding",
+          "beginners",
+          "discuss"
+        ]
+      },
+      {
+        "title": "Google Ads AI Tools: 7 Options Compared in 2026",
+        "url": "https://dev.to/hellyeahai/google-ads-ai-tools-7-options-compared-in-2026-39p4",
+        "points": 22,
+        "comments": 0,
+        "discussion": "https://dev.to/hellyeahai/google-ads-ai-tools-7-options-compared-in-2026-39p4",
+        "tags": [
+          "ai",
+          "webdev",
+          "marketing"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-11-15T13:49:12.466Z",
+    "fetchedAt": "2026-11-16T15:31:54.041Z",
     "candidates": {
-      "https://blog.cloudflare.com/dns-targeted-zone-builds": {
-        "source": "Cloudflare",
-        "title": "How we halved DNS build delay and cut memory use by 85%",
-        "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
-        "published": "2026-11-02T14:00:00.000Z",
-        "summary": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay."
-      },
-      "https://www.figma.com/blog/hello-kitty-and-friends-in-figma": {
-        "source": "Figma",
-        "title": "How we brought Hello Kitty® And Friends to Figma",
-        "url": "https://www.figma.com/blog/hello-kitty-and-friends-in-figma/",
-        "published": "2026-11-02T14:58:00.000Z",
-        "summary": "Since Hello Kitty® first stepped onto the world stage in 1974, she and her friends have connected generations of fans through the spirit of togetherness and thoughtful design. Here’s how our shared love of craft and community shaped our collaboration with Sanrio®, in FigJam and around the world."
-      },
-      "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html": {
-        "source": "Lobsters",
-        "title": "Postgres 19 is late, and it's AI's fault",
-        "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
-        "discussion": "https://lobste.rs/s/0yxkvs/postgres_19_is_late_it_s_ai_s_fault",
-        "published": "2026-11-02T02:19:02.905Z",
-        "summary": ""
-      },
-      "https://discord.com/blog/modernizing-the-video-playback-experience-at-discord": {
-        "source": "Discord",
-        "title": "Modernizing the Video Playback Experience at Discord",
-        "url": "https://discord.com/blog/modernizing-the-video-playback-experience-at-discord",
-        "published": "2026-11-02T00:00:00.000Z",
-        "summary": "This is the story of how we assessed and refactored two video players into one, cut the player code each product maintained by up to 94%, and swapped to the new player without disruption to any users."
-      },
-      "https://www.figma.com/blog/figma-and-sanrio-celebrate-hello-kitty-and-friends": {
-        "source": "Figma",
-        "title": "Figma and Sanrio® celebrate Hello Kitty® and the joy of making things with friends",
-        "url": "https://www.figma.com/blog/figma-and-sanrio-celebrate-hello-kitty-and-friends/",
-        "published": "2026-11-02T14:00:00.000Z",
-        "summary": "In honor of Hello Kitty®’s birthday, Hello Kitty® and Friends are moving into FigJam, and throwing a party in NYC."
-      },
       "https://aws.amazon.com/blogs/architecture/how-to-run-a-dr-readiness-engagement": {
         "source": "AWS Architecture",
         "title": "How to run a DR readiness engagement",
@@ -11048,13 +11193,6 @@
         "url": "https://medium.com/pinterest-engineering/safe-and-efficient-multi-epoch-embedding-training-103bec2abc83?source=rss----4c5a5f6279b6---4",
         "published": "2026-11-06T16:01:03.000Z",
         "summary": ""
-      },
-      "https://danluu.com/astra-testing": {
-        "source": "Dan Luu",
-        "title": "Test and verification technique effectiveness with GPT-6 Astra",
-        "url": "https://danluu.com/astra-testing/",
-        "published": "2026-11-02T00:00:00.000Z",
-        "summary": "When we looked at how well agents used test/verification techniques in August 1 , we saw that GPT-5.6 Sol generally did what you might call a caricature of various techniques when asked to use a technique or library such as TDD, QuickCheck, Lean 4, etc.; not specifying any particular test method (which we'll call Default) resulted in many worthless unit tests, which was one of the best performing "
       },
       "https://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html": {
         "source": "Murat Demirbas",
@@ -11390,6 +11528,37 @@
         "url": "https://blog.janestreet.com/writing-a-dsl-for-high-performance-parallel-programming-in-oxcaml/",
         "discussion": "https://lobste.rs/s/kh9fri/writing_dsl_for_high_performance",
         "published": "2026-11-14T02:57:49.133Z",
+        "summary": ""
+      },
+      "https://aphyr.com/posts/428-announcing-hegel-clj": {
+        "source": "Kyle Kingsbury",
+        "title": "Announcing Hegel-clj",
+        "url": "https://aphyr.com/posts/428-announcing-hegel-clj",
+        "published": "2026-11-12T01:01:43.000Z",
+        "summary": "I’ve just released hegel-clj , a Clojure interface for the Hegel generative testing library. You can jump right to the docs , but I thought it might be interesting to explain why I want another testing library. I do a lot of generative testing in Clojure with the excellent test.check . However, using test.check can be frustrating! In particular, complex generators can get stuck during shrinking, l"
+      },
+      "https://nix.dev/manual/nix/2.35/advanced-topics/eval-profiler": {
+        "source": "Lobsters",
+        "title": "Nix: Using the eval-profiler",
+        "url": "https://nix.dev/manual/nix/2.35/advanced-topics/eval-profiler",
+        "discussion": "https://lobste.rs/s/7kt4yi/nix_using_eval_profiler",
+        "published": "2026-11-16T01:28:22.349Z",
+        "summary": ""
+      },
+      "https://transactional.blog/talk/please-implement-a-quorum-database": {
+        "source": "Lobsters",
+        "title": "Please Implement A Quorum Database",
+        "url": "https://transactional.blog/talk/please-implement-a-quorum-database",
+        "discussion": "https://lobste.rs/s/hgicaq/please_implement_quorum_database",
+        "published": "2026-11-15T22:44:13.886Z",
+        "summary": ""
+      },
+      "https://bughunters.google.com/blog/preventing-cross-service-udp-loops-in-quic": {
+        "source": "Lobsters",
+        "title": "Blog: Preventing Cross-Service UDP Loops in QUIC",
+        "url": "https://bughunters.google.com/blog/preventing-cross-service-udp-loops-in-quic",
+        "discussion": "https://lobste.rs/s/om6v89/blog_preventing_cross_service_udp_loops",
+        "published": "2026-11-15T20:34:37.269Z",
         "summary": ""
       }
     }
