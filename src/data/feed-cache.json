@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-11-19T18:20:50.245Z",
+    "fetchedAt": "2026-11-19T18:38:46.387Z",
     "repos": [
       {
         "name": "storytold/craft-anything",
         "description": "Craft Anything: understand how any software works, and craft your own.",
         "language": "Rust",
-        "stars": 38221,
+        "stars": 38238,
         "url": "https://github.com/storytold/craft-anything",
         "created": "2026-10-31T14:50:00Z",
         "topics": []
@@ -15,7 +15,7 @@
         "name": "deepseek-ai/dsh-superagent-prototype",
         "description": "Towards a More Autonomous Agent System",
         "language": "TypeScript",
-        "stars": 23947,
+        "stars": 23948,
         "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
         "created": "2026-10-31T09:32:46Z",
         "topics": []
@@ -24,7 +24,7 @@
         "name": "libracoder/kiri",
         "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
         "language": "Rust",
-        "stars": 11173,
+        "stars": 11177,
         "url": "https://github.com/libracoder/kiri",
         "created": "2026-11-02T16:11:30Z",
         "topics": [
@@ -38,7 +38,7 @@
         "name": "Minireel/HGhub",
         "description": "Plug-in media player",
         "language": "Rust",
-        "stars": 10298,
+        "stars": 10299,
         "url": "https://github.com/Minireel/HGhub",
         "created": "2026-11-03T14:04:27Z",
         "topics": [
@@ -52,7 +52,7 @@
         "name": "janestreet/agent_skills",
         "description": "Agent skills",
         "language": null,
-        "stars": 10248,
+        "stars": 10249,
         "url": "https://github.com/janestreet/agent_skills",
         "created": "2026-11-03T16:50:21Z",
         "topics": [],
@@ -75,7 +75,7 @@
         "name": "huami1314/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
         "language": "Swift",
-        "stars": 8522,
+        "stars": 8523,
         "url": "https://github.com/huami1314/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": []
@@ -84,7 +84,7 @@
         "name": "patch-gg/pixelfx",
         "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
         "language": "JavaScript",
-        "stars": 8280,
+        "stars": 8282,
         "url": "https://github.com/patch-gg/pixelfx",
         "created": "2026-10-30T06:43:25Z",
         "topics": [
@@ -98,7 +98,7 @@
         "name": "Bodila51/gtavi-claudecode",
         "description": "Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions and credits.",
         "language": "Python",
-        "stars": 618,
+        "stars": 643,
         "url": "https://github.com/Bodila51/gtavi-claudecode",
         "created": "2026-11-18T17:54:29Z",
         "topics": [
@@ -112,7 +112,7 @@
         "name": "sourmitocand1987/VividFrame-GPU",
         "description": "Any source. One real-time GPU enhancement pipeline. · video enhancer · gpu video · real-time video enhancement · hdr · super-resolution · game-streaming · moonlight · dolby-vision · frame-interpolation · video-player · media-player · video-super-resolution · video-processing · upscaling · rife · vulkan · nvidia · windows · video-enhancement · ncnn",
         "language": null,
-        "stars": 486,
+        "stars": 505,
         "url": "https://github.com/sourmitocand1987/VividFrame-GPU",
         "created": "2026-11-18T15:51:00Z",
         "topics": [
@@ -126,7 +126,7 @@
         "name": "bothaggsigym1988/frameglide",
         "description": "From a 30 fps console stream to 60–120 fps on your PC. · frame-interpolation · frame-generation · nvidia · windows · dlss · super-resolution · vulkan · dlss5 · upscaling · rife · neural-rendering · ps5 · rtx · remote-play · pytorch · video · chiaki · optical-flow · video-frame-interpolation · amd · tensorrt · fsr · rtx-vsr · video-upscaling",
         "language": null,
-        "stars": 450,
+        "stars": 469,
         "url": "https://github.com/bothaggsigym1988/frameglide",
         "created": "2026-11-18T15:40:02Z",
         "topics": [
@@ -151,19 +151,10 @@
         ]
       },
       {
-        "name": "prusa3d/prusa-connect",
-        "description": "Prusa Connect: a local server for your printers",
-        "language": "Go",
-        "stars": 245,
-        "url": "https://github.com/prusa3d/prusa-connect",
-        "created": "2026-11-17T08:54:51Z",
-        "topics": []
-      },
-      {
         "name": "iamajmeena/neonclipping",
         "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
         "language": "Python",
-        "stars": 236,
+        "stars": 247,
         "url": "https://github.com/iamajmeena/neonclipping",
         "created": "2026-11-19T10:00:43Z",
         "topics": [
@@ -174,10 +165,19 @@
         ]
       },
       {
+        "name": "prusa3d/prusa-connect",
+        "description": "Prusa Connect: a local server for your printers",
+        "language": "Go",
+        "stars": 246,
+        "url": "https://github.com/prusa3d/prusa-connect",
+        "created": "2026-11-17T08:54:51Z",
+        "topics": []
+      },
+      {
         "name": "sfewer-r7/CVE-2026-123007",
         "description": "Proof-of-concept (PoC) scripts for CVE-2026-123007, an integer underflow in NGINX HTTP/2.",
         "language": "Python",
-        "stars": 235,
+        "stars": 236,
         "url": "https://github.com/sfewer-r7/CVE-2026-123007",
         "created": "2026-11-18T11:16:51Z",
         "topics": []
@@ -186,7 +186,7 @@
         "name": "MSNightmare/FastUnlock",
         "description": "FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
         "language": null,
-        "stars": 213,
+        "stars": 231,
         "url": "https://github.com/MSNightmare/FastUnlock",
         "created": "2026-11-19T12:37:51Z",
         "topics": []
@@ -195,7 +195,7 @@
         "name": "Lemxy/WinRust",
         "description": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
         "language": "Rust",
-        "stars": 194,
+        "stars": 195,
         "url": "https://github.com/Lemxy/WinRust",
         "created": "2026-11-17T14:27:06Z",
         "topics": []
@@ -216,7 +216,7 @@
         "title": "Foolscap – a writing app that reads your book and never writes for you",
         "url": "https://foolscap.works/",
         "points": 94,
-        "comments": 74,
+        "comments": 75,
         "discussion": "https://news.ycombinator.com/item?id=50559749",
         "created": "2026-11-19T13:21:20.000Z"
       },
@@ -242,7 +242,7 @@
         "source": "showhn",
         "title": "ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
         "url": "https://exitpath-ruddy.vercel.app/",
-        "points": 243,
+        "points": 244,
         "comments": 90,
         "discussion": "https://news.ycombinator.com/item?id=50547980",
         "created": "2026-11-18T16:04:43.000Z"
@@ -269,8 +269,8 @@
         "source": "launchhn",
         "title": "Onlook (YC W25) – An open-source developer tool for designers",
         "url": "https://github.com/onlook-dev/onlook/",
-        "points": 28,
-        "comments": 20,
+        "points": 33,
+        "comments": 24,
         "discussion": "https://news.ycombinator.com/item?id=50562320",
         "created": "2026-11-19T16:34:04.000Z"
       },
@@ -305,8 +305,8 @@
         "source": "hn",
         "title": "Someone reported java4shell bug in September 2026",
         "url": "https://github.com/openjdk/jdk/pull/32781",
-        "points": 198,
-        "comments": 50,
+        "points": 208,
+        "comments": 51,
         "discussion": "https://news.ycombinator.com/item?id=50558906",
         "created": "2026-11-19T11:47:03.000Z"
       }
@@ -4853,7 +4853,7 @@
         "name": "patch-gg/pixelfx",
         "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
         "language": "JavaScript",
-        "stars": 8280,
+        "stars": 8282,
         "url": "https://github.com/patch-gg/pixelfx",
         "created": "2026-10-30T06:43:25Z",
         "topics": [
@@ -4933,7 +4933,7 @@
         "name": "deepseek-ai/dsh-superagent-prototype",
         "description": "Towards a More Autonomous Agent System",
         "language": "TypeScript",
-        "stars": 23947,
+        "stars": 23948,
         "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
         "created": "2026-10-31T09:32:46Z",
         "topics": [],
@@ -4986,7 +4986,7 @@
         "name": "storytold/craft-anything",
         "description": "Craft Anything: understand how any software works, and craft your own.",
         "language": "Rust",
-        "stars": 38221,
+        "stars": 38238,
         "url": "https://github.com/storytold/craft-anything",
         "created": "2026-10-31T14:50:00Z",
         "topics": [],
@@ -5218,7 +5218,7 @@
         "name": "Minireel/HGhub",
         "description": "Plug-in media player",
         "language": "Rust",
-        "stars": 10298,
+        "stars": 10299,
         "url": "https://github.com/Minireel/HGhub",
         "created": "2026-11-03T14:04:27Z",
         "topics": [],
@@ -6177,7 +6177,7 @@
         "name": "janestreet/agent_skills",
         "description": "Agent skills",
         "language": null,
-        "stars": 10248,
+        "stars": 10249,
         "url": "https://github.com/janestreet/agent_skills",
         "created": "2026-11-03T16:50:21Z",
         "topics": [],
@@ -6717,7 +6717,7 @@
         "name": "libracoder/kiri",
         "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
         "language": "Rust",
-        "stars": 11173,
+        "stars": 11177,
         "url": "https://github.com/libracoder/kiri",
         "created": "2026-11-02T16:11:30Z",
         "topics": [
@@ -6896,7 +6896,7 @@
         "name": "huami1314/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
         "language": "Swift",
-        "stars": 8522,
+        "stars": 8523,
         "url": "https://github.com/huami1314/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": [],
@@ -6908,7 +6908,7 @@
         "name": "Bodila51/gtavi-claudecode",
         "description": "Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions and credits.",
         "language": "Python",
-        "stars": 618,
+        "stars": 643,
         "url": "https://github.com/Bodila51/gtavi-claudecode",
         "created": "2026-11-18T17:54:29Z",
         "topics": [
@@ -6925,7 +6925,7 @@
         "name": "sourmitocand1987/VividFrame-GPU",
         "description": "Any source. One real-time GPU enhancement pipeline. · video enhancer · gpu video · real-time video enhancement · hdr · super-resolution · game-streaming · moonlight · dolby-vision · frame-interpolation · video-player · media-player · video-super-resolution · video-processing · upscaling · rife · vulkan · nvidia · windows · video-enhancement · ncnn",
         "language": null,
-        "stars": 486,
+        "stars": 505,
         "url": "https://github.com/sourmitocand1987/VividFrame-GPU",
         "created": "2026-11-18T15:51:00Z",
         "topics": [
@@ -6959,7 +6959,7 @@
         "name": "bothaggsigym1988/frameglide",
         "description": "From a 30 fps console stream to 60–120 fps on your PC. · frame-interpolation · frame-generation · nvidia · windows · dlss · super-resolution · vulkan · dlss5 · upscaling · rife · neural-rendering · ps5 · rtx · remote-play · pytorch · video · chiaki · optical-flow · video-frame-interpolation · amd · tensorrt · fsr · rtx-vsr · video-upscaling",
         "language": null,
-        "stars": 450,
+        "stars": 469,
         "url": "https://github.com/bothaggsigym1988/frameglide",
         "created": "2026-11-18T15:40:02Z",
         "topics": [
@@ -6976,7 +6976,7 @@
         "name": "prusa3d/prusa-connect",
         "description": "Prusa Connect: a local server for your printers",
         "language": "Go",
-        "stars": 245,
+        "stars": 246,
         "url": "https://github.com/prusa3d/prusa-connect",
         "created": "2026-11-17T08:54:51Z",
         "topics": [],
@@ -6988,7 +6988,7 @@
         "name": "sfewer-r7/CVE-2026-123007",
         "description": "Proof-of-concept (PoC) scripts for CVE-2026-123007, an integer underflow in NGINX HTTP/2.",
         "language": "Python",
-        "stars": 235,
+        "stars": 236,
         "url": "https://github.com/sfewer-r7/CVE-2026-123007",
         "created": "2026-11-18T11:16:51Z",
         "topics": [],
@@ -7012,7 +7012,7 @@
         "name": "Lemxy/WinRust",
         "description": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
         "language": "Rust",
-        "stars": 194,
+        "stars": 195,
         "url": "https://github.com/Lemxy/WinRust",
         "created": "2026-11-17T14:27:06Z",
         "topics": [],
@@ -7058,7 +7058,7 @@
         "name": "iamajmeena/neonclipping",
         "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
         "language": "Python",
-        "stars": 236,
+        "stars": 247,
         "url": "https://github.com/iamajmeena/neonclipping",
         "created": "2026-11-19T10:00:43Z",
         "topics": [
@@ -7075,7 +7075,7 @@
         "name": "MSNightmare/FastUnlock",
         "description": "FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
         "language": null,
-        "stars": 213,
+        "stars": 231,
         "url": "https://github.com/MSNightmare/FastUnlock",
         "created": "2026-11-19T12:37:51Z",
         "topics": [],
@@ -11149,7 +11149,7 @@
         "title": "Foolscap – a writing app that reads your book and never writes for you",
         "url": "https://foolscap.works/",
         "points": 94,
-        "comments": 74,
+        "comments": 75,
         "discussion": "https://news.ycombinator.com/item?id=50559749",
         "created": "2026-11-19T13:21:20.000Z",
         "firstSeen": "2026-11-19",
@@ -11181,7 +11181,7 @@
         "source": "showhn",
         "title": "ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
         "url": "https://exitpath-ruddy.vercel.app/",
-        "points": 243,
+        "points": 244,
         "comments": 90,
         "discussion": "https://news.ycombinator.com/item?id=50547980",
         "created": "2026-11-18T16:04:43.000Z",
@@ -11203,8 +11203,8 @@
         "source": "hn",
         "title": "Someone reported java4shell bug in September 2026",
         "url": "https://github.com/openjdk/jdk/pull/32781",
-        "points": 198,
-        "comments": 50,
+        "points": 208,
+        "comments": 51,
         "discussion": "https://news.ycombinator.com/item?id=50558906",
         "created": "2026-11-19T11:47:03.000Z",
         "firstSeen": "2026-11-19",
@@ -11214,8 +11214,8 @@
         "source": "launchhn",
         "title": "Onlook (YC W25) – An open-source developer tool for designers",
         "url": "https://github.com/onlook-dev/onlook/",
-        "points": 28,
-        "comments": 20,
+        "points": 33,
+        "comments": 24,
         "discussion": "https://news.ycombinator.com/item?id=50562320",
         "created": "2026-11-19T16:34:04.000Z",
         "firstSeen": "2026-11-19",
@@ -11224,85 +11224,85 @@
     }
   },
   "reading": {
-    "fetchedAt": "2026-11-19T18:20:50.245Z",
+    "fetchedAt": "2026-11-19T18:38:46.387Z",
     "hn": [
       {
         "title": "How the European Commission rolled out Matrix to more than 40k staff",
         "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
-        "points": 562,
-        "comments": 273,
+        "points": 570,
+        "comments": 274,
         "discussion": "https://news.ycombinator.com/item?id=50558533"
       },
       {
         "title": "Garage Door Spam",
         "url": "https://blog.harrison.page/garage-door-spam/",
-        "points": 519,
-        "comments": 222,
+        "points": 541,
+        "comments": 228,
         "discussion": "https://news.ycombinator.com/item?id=50519231"
       },
       {
         "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
         "url": "https://verialabs.com/ruby2shell/",
-        "points": 316,
-        "comments": 129,
+        "points": 325,
+        "comments": 133,
         "discussion": "https://news.ycombinator.com/item?id=50556287"
       },
       {
         "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
         "url": "https://kapteko.com/15-million-webservers/",
-        "points": 313,
-        "comments": 37,
+        "points": 317,
+        "comments": 36,
         "discussion": "https://news.ycombinator.com/item?id=50556533"
       },
       {
         "title": "SSD prices may begin to decline in the latter half of 2027",
         "url": "https://www.drivevault.io/blog/when-will-hard-drive-prices-come-down.html",
-        "points": 253,
-        "comments": 208,
+        "points": 256,
+        "comments": 211,
         "discussion": "https://news.ycombinator.com/item?id=50557716"
-      },
-      {
-        "title": "What's New in PHP 8.6",
-        "url": "https://www.php.net/releases/8.6/en.php",
-        "points": 222,
-        "comments": 104,
-        "discussion": "https://news.ycombinator.com/item?id=50557870"
       },
       {
         "title": "Everything you need to survive and rebuild society",
         "url": "https://lastbook.org/",
-        "points": 220,
-        "comments": 127,
+        "points": 232,
+        "comments": 130,
         "discussion": "https://news.ycombinator.com/item?id=50560822"
       },
       {
-        "title": "Distributed, high-performance blob storage on SQLite",
-        "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
-        "points": 196,
-        "comments": 58,
-        "discussion": "https://news.ycombinator.com/item?id=50557537"
+        "title": "What's New in PHP 8.6",
+        "url": "https://www.php.net/releases/8.6/en.php",
+        "points": 228,
+        "comments": 104,
+        "discussion": "https://news.ycombinator.com/item?id=50557870"
+      },
+      {
+        "title": "Anthropic hits $2T in Nasdaq debut",
+        "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+        "points": 218,
+        "comments": 298,
+        "discussion": "https://news.ycombinator.com/item?id=50562754"
       },
       {
         "title": "Someone reported java4shell bug in September 2026",
         "url": "https://github.com/openjdk/jdk/pull/32781",
-        "points": 195,
-        "comments": 49,
+        "points": 208,
+        "comments": 51,
         "discussion": "https://news.ycombinator.com/item?id=50558906"
       },
       {
-        "title": "Nintendo takes Picofly firmware down from GitHub [video]",
-        "url": "https://www.youtube.com/watch?v=-TLCGUpoD6c",
-        "points": 183,
-        "comments": 62,
-        "discussion": "https://news.ycombinator.com/item?id=50547048"
+        "title": "Distributed, high-performance blob storage on SQLite",
+        "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
+        "points": 198,
+        "comments": 58,
+        "discussion": "https://news.ycombinator.com/item?id=50557537"
       }
     ],
     "lobsters": [
       {
         "title": "Design for Understandability",
         "url": "https://jschuster.org/blog/2026/11/19/design-for-understandability/",
-        "points": 13,
-        "comments": 9,
+        "points": 14,
+        "comments": 10,
         "discussion": "https://lobste.rs/s/qsrnot/design_for_understandability",
         "tags": [
           "api",
@@ -11314,8 +11314,8 @@
       {
         "title": "We Need Smart People Who Give a Shit",
         "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
-        "points": 73,
-        "comments": 30,
+        "points": 75,
+        "comments": 31,
         "discussion": "https://lobste.rs/s/rzuasm/we_need_smart_people_who_give_shit",
         "tags": [
           "culture"
@@ -11324,7 +11324,7 @@
       {
         "title": "PostgreSQL 19 Released",
         "url": "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
-        "points": 16,
+        "points": 18,
         "comments": 1,
         "discussion": "https://lobste.rs/s/pqyuhk/postgresql_19_released",
         "tags": [
@@ -11355,7 +11355,7 @@
       {
         "title": "nginx2root",
         "url": "https://xint.io/blog/nginx2root-remote-code-execution",
-        "points": 81,
+        "points": 82,
         "comments": 16,
         "discussion": "https://lobste.rs/s/wj2svg/nginx2root",
         "tags": [
@@ -11365,7 +11365,7 @@
       {
         "title": "PHP 8.6 Release Announcement",
         "url": "https://www.php.net/releases/8.6/en.php",
-        "points": 13,
+        "points": 14,
         "comments": 3,
         "discussion": "https://lobste.rs/s/xn50o0/php_8_6_release_announcement",
         "tags": [
@@ -11376,7 +11376,7 @@
       {
         "title": "Java4Shell is a reason to use Java",
         "url": "https://mccue.dev/pages/11-18-26-java4shell",
-        "points": 38,
+        "points": 39,
         "comments": 15,
         "discussion": "https://lobste.rs/s/a1uff5/java4shell_is_reason_use_java",
         "tags": [
@@ -11387,7 +11387,7 @@
       {
         "title": "15 million web servers on one VM - smoltcp, DPDK, AF_XDP",
         "url": "https://kapteko.com/15-million-webservers/",
-        "points": 10,
+        "points": 11,
         "comments": 0,
         "discussion": "https://lobste.rs/s/elmy67/15_million_web_servers_on_one_vm_smoltcp",
         "tags": [
@@ -11421,18 +11421,6 @@
         ]
       },
       {
-        "title": "The CodeNewbie Podcast is Back for Season 28!",
-        "url": "https://dev.to/codenewbie/the-codenewbie-podcast-is-back-for-season-28-2484",
-        "points": 68,
-        "comments": 10,
-        "discussion": "https://dev.to/codenewbie/the-codenewbie-podcast-is-back-for-season-28-2484",
-        "tags": [
-          "codenewbie",
-          "ai",
-          "podcast"
-        ]
-      },
-      {
         "title": "My Linux Course Put Me to Sleep, So I Built Something That Wouldn’t",
         "url": "https://dev.to/maame-codes/my-linux-course-put-me-to-sleep-so-i-built-something-that-wouldnt-5g4k",
         "points": 64,
@@ -11447,8 +11435,8 @@
       {
         "title": "My First GitHub Issue & My First Forem (DEV.to) Issue 🚀",
         "url": "https://dev.to/necoz/my-first-github-issue-my-first-forem-devto-issue-5eap",
-        "points": 47,
-        "comments": 12,
+        "points": 52,
+        "comments": 13,
         "discussion": "https://dev.to/necoz/my-first-github-issue-my-first-forem-devto-issue-5eap",
         "tags": [
           "discuss",
@@ -11481,15 +11469,15 @@
         ]
       },
       {
-        "title": "Stop Asking 'Was It Approved?' Ask the right questions & raise the bar!",
-        "url": "https://dev.to/debashish_ghosal/stop-asking-was-it-approved-ask-the-right-questions-raise-the-bar-41i1",
-        "points": 16,
+        "title": "Exploring Decision Models, Part 1: Putting Gemini Decision 1 to the Test",
+        "url": "https://dev.to/googleai/exploring-decision-models-part-1-putting-gemini-decision-1-to-the-test-50f0",
+        "points": 14,
         "comments": 0,
-        "discussion": "https://dev.to/debashish_ghosal/stop-asking-was-it-approved-ask-the-right-questions-raise-the-bar-41i1",
+        "discussion": "https://dev.to/googleai/exploring-decision-models-part-1-putting-gemini-decision-1-to-the-test-50f0",
         "tags": [
-          "culture",
-          "discuss",
-          "leadership"
+          "ai",
+          "googlecloud",
+          "gemini"
         ]
       },
       {
@@ -11505,18 +11493,6 @@
         ]
       },
       {
-        "title": "Exploring Decision Models, Part 1: Putting Gemini Decision 1 to the Test",
-        "url": "https://dev.to/googleai/exploring-decision-models-part-1-putting-gemini-decision-1-to-the-test-50f0",
-        "points": 13,
-        "comments": 0,
-        "discussion": "https://dev.to/googleai/exploring-decision-models-part-1-putting-gemini-decision-1-to-the-test-50f0",
-        "tags": [
-          "ai",
-          "googlecloud",
-          "gemini"
-        ]
-      },
-      {
         "title": "Stop Paying LLM Prices for an if Statement: A Field Guide to Decision Models in Late 2026",
         "url": "https://dev.to/amananandrai/stop-paying-llm-prices-for-an-if-statement-a-field-guide-to-decision-models-in-late-2026-4d24",
         "points": 12,
@@ -11527,11 +11503,35 @@
           "llm",
           "agents"
         ]
+      },
+      {
+        "title": "What this week's nginx HTTP/2 CVEs mean for the server I actually run",
+        "url": "https://dev.to/alexgeorgiev17/what-this-weeks-nginx-http2-cves-mean-for-the-server-i-actually-run-3nbf",
+        "points": 11,
+        "comments": 1,
+        "discussion": "https://dev.to/alexgeorgiev17/what-this-weeks-nginx-http2-cves-mean-for-the-server-i-actually-run-3nbf",
+        "tags": [
+          "nginx",
+          "security",
+          "devops"
+        ]
+      },
+      {
+        "title": "Running my agent's code through DigitalOcean's Action Gateway",
+        "url": "https://dev.to/alexgeorgiev17/running-my-agents-code-through-digitaloceans-action-gateway-7o7",
+        "points": 11,
+        "comments": 0,
+        "discussion": "https://dev.to/alexgeorgiev17/running-my-agents-code-through-digitaloceans-action-gateway-7o7",
+        "tags": [
+          "digitalocean",
+          "ai",
+          "agents"
+        ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-11-19T18:20:50.245Z",
+    "fetchedAt": "2026-11-19T18:38:46.387Z",
     "candidates": {
       "https://blog.cloudflare.com/vole-mole": {
         "source": "Cloudflare",
@@ -12161,7 +12161,7 @@
     }
   },
   "world": {
-    "fetchedAt": "2026-11-19T18:20:50.245Z",
+    "fetchedAt": "2026-11-19T18:38:46.387Z",
     "candidates": {
       "https://www.theverge.com/policy/1037804/elon-musk-maga-dealbook": {
         "source": "The Verge",
@@ -12855,11 +12855,60 @@
         "url": "https://yourstory.com/2026/11/inprime-finserv-raises-rs-101-cr-in-series-b-round-led-by-fmo",
         "published": "2026-11-19T11:14:26.000Z",
         "summary": "InPrime will use the funding to expand its reach and improve its technology stack, especially in AI use cases."
+      },
+      "https://www.theregister.com/os-platforms/2026/11/19/xxri-os-explores-the-lowest-end-of-the-linux-desktop/5311036": {
+        "source": "The Register",
+        "title": "XXRI-OS explores the lowest end of the Linux desktop",
+        "url": "https://www.theregister.com/os-platforms/2026/11/19/xxri-os-explores-the-lowest-end-of-the-linux-desktop/5311036",
+        "published": "2026-11-19T18:35:00.000Z",
+        "summary": "Less is more, but this distro explores exactly how much less"
+      },
+      "https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143": {
+        "source": "The Register",
+        "title": "Anthropic throws open doors at $2T valuation as shares pop 34% in initial trading",
+        "url": "https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143",
+        "published": "2026-11-19T17:09:45.000Z",
+        "summary": "Company still has to content with massive compute obligations and the threat of open models, neither of which Dario Amodei is worried about, he claims"
+      },
+      "https://www.theverge.com/podcast/1036484/jon-favreau-pod-save-america-offline-crooked-media-trump-big-tech-ai-2028-election": {
+        "source": "The Verge",
+        "title": "How Silicon Valley lost the public, with Crooked Media’s Jon Favreau",
+        "url": "https://www.theverge.com/podcast/1036484/jon-favreau-pod-save-america-offline-crooked-media-trump-big-tech-ai-2028-election",
+        "published": "2026-11-19T15:00:00.000Z",
+        "summary": "Today, I’m talking with Jon Favreau, a political commentator and cofounder of Crooked Media. You probably know Jon best from a little show called Pod Save America, which Jon started with a group of fellow Obama staffers in the wake of Donald Trump’s election in 2016. It’s now one of the most popular podcasts in […]"
+      },
+      "https://www.theverge.com/tech/1037552/analogue-3d-nintendo-64-console-wi-fi-activated-automatic-updates": {
+        "source": "The Verge",
+        "title": "The Analogue 3D can now update itself over Wi-Fi",
+        "url": "https://www.theverge.com/tech/1037552/analogue-3d-nintendo-64-console-wi-fi-activated-automatic-updates",
+        "published": "2026-11-19T14:32:33.000Z",
+        "summary": "Analogue has long been good at expanding the features and functionality of its consoles through regular firmware updates, but installing those updates has always required moving files around with a memory card. That's no longer the case with the Analogue 3D, the company's modernized version of the Nintendo 64. Although the console has had Wi-Fi […]"
+      },
+      "https://yourstory.com/2026/11/agents-lasso-enterprises-secure-ai-agents": {
+        "source": "YourStory",
+        "title": "When agents go out of bounds: How Lasso is helping enterprises secure the AI agents they build and use",
+        "url": "https://yourstory.com/2026/11/agents-lasso-enterprises-secure-ai-agents",
+        "published": "2026-11-19T10:18:24.000Z",
+        "summary": "Enterprises are deploying AI agents faster than they can track them, and not every agent stays within the boundaries it was given. Lasso, part of NetApp Excellerator, is changing that."
+      },
+      "https://yourstory.com/2026/11/physical-ai-startup-humyn-labs-raises-47-million-series-a": {
+        "source": "YourStory",
+        "title": "Physical AI startup Humyn Labs raises $47M in Series A",
+        "url": "https://yourstory.com/2026/11/physical-ai-startup-humyn-labs-raises-47-million-series-a",
+        "published": "2026-11-19T07:32:27.000Z",
+        "summary": "Humyn Labs said it will use the funds across three areas: building deployment-readiness infrastructure in Brazil, South Korea and India; and expanding its R&D and market presence in San Francisco, London and Seoul."
+      },
+      "https://yourstory.com/2026/11/ms-dhonis-startup-investments-13-companies-he-has-backed": {
+        "source": "YourStory",
+        "title": "Inside MS Dhoni’s startup playbook: 13 companies backed by Captain Cool",
+        "url": "https://yourstory.com/2026/11/ms-dhonis-startup-investments-13-companies-he-has-backed",
+        "published": "2026-11-19T07:21:31.000Z",
+        "summary": "From Garuda Aerospace to SolarSquare, explore 13 startups backed by MS Dhoni across fintech, electric mobility, gaming and clean energy."
       }
     }
   },
   "asks": {
-    "fetchedAt": "2026-11-19T18:20:50.245Z",
+    "fetchedAt": "2026-11-19T18:38:46.387Z",
     "candidates": {
       "https://news.ycombinator.com/item?id=50542948": {
         "title": "Codeberg seems to have vanished from DNS",
@@ -12955,7 +13004,7 @@
     }
   },
   "launches": {
-    "fetchedAt": "2026-11-19T18:20:50.245Z",
+    "fetchedAt": "2026-11-19T18:38:46.387Z",
     "candidates": {
       "https://www.producthunt.com/products/tecla-3": {
         "source": "Product Hunt",
@@ -13166,6 +13215,13 @@
         "url": "https://www.producthunt.com/products/dusk-bot",
         "published": "2026-11-17T14:13:59.000Z",
         "summary": "free open source Grok bot alternative Discussion | Link"
+      },
+      "https://www.producthunt.com/products/incredible": {
+        "source": "Product Hunt",
+        "title": "Incredible Agents",
+        "url": "https://www.producthunt.com/products/incredible",
+        "published": "2026-11-17T22:02:24.000Z",
+        "summary": "Fast Voice AI that sees your screen and runs your agents Discussion | Link"
       }
     }
   }
