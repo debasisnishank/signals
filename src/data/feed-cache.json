@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-11-19T18:17:56.410Z",
+    "fetchedAt": "2026-11-19T18:20:50.245Z",
     "repos": [
       {
         "name": "storytold/craft-anything",
         "description": "Craft Anything: understand how any software works, and craft your own.",
         "language": "Rust",
-        "stars": 38219,
+        "stars": 38221,
         "url": "https://github.com/storytold/craft-anything",
         "created": "2026-10-31T14:50:00Z",
         "topics": []
@@ -24,7 +24,7 @@
         "name": "libracoder/kiri",
         "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
         "language": "Rust",
-        "stars": 11172,
+        "stars": 11173,
         "url": "https://github.com/libracoder/kiri",
         "created": "2026-11-02T16:11:30Z",
         "topics": [
@@ -66,7 +66,7 @@
         "name": "zortos293/Lichii",
         "description": "VERY experimental Nintendo Switch 2 emulator",
         "language": "C++",
-        "stars": 9816,
+        "stars": 9817,
         "url": "https://github.com/zortos293/Lichii",
         "created": "2026-10-31T14:17:26Z",
         "topics": []
@@ -75,7 +75,7 @@
         "name": "huami1314/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
         "language": "Swift",
-        "stars": 8521,
+        "stars": 8522,
         "url": "https://github.com/huami1314/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": []
@@ -98,7 +98,7 @@
         "name": "Bodila51/gtavi-claudecode",
         "description": "Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions and credits.",
         "language": "Python",
-        "stars": 616,
+        "stars": 618,
         "url": "https://github.com/Bodila51/gtavi-claudecode",
         "created": "2026-11-18T17:54:29Z",
         "topics": [
@@ -112,7 +112,7 @@
         "name": "sourmitocand1987/VividFrame-GPU",
         "description": "Any source. One real-time GPU enhancement pipeline. · video enhancer · gpu video · real-time video enhancement · hdr · super-resolution · game-streaming · moonlight · dolby-vision · frame-interpolation · video-player · media-player · video-super-resolution · video-processing · upscaling · rife · vulkan · nvidia · windows · video-enhancement · ncnn",
         "language": null,
-        "stars": 482,
+        "stars": 486,
         "url": "https://github.com/sourmitocand1987/VividFrame-GPU",
         "created": "2026-11-18T15:51:00Z",
         "topics": [
@@ -126,7 +126,7 @@
         "name": "bothaggsigym1988/frameglide",
         "description": "From a 30 fps console stream to 60–120 fps on your PC. · frame-interpolation · frame-generation · nvidia · windows · dlss · super-resolution · vulkan · dlss5 · upscaling · rife · neural-rendering · ps5 · rtx · remote-play · pytorch · video · chiaki · optical-flow · video-frame-interpolation · amd · tensorrt · fsr · rtx-vsr · video-upscaling",
         "language": null,
-        "stars": 447,
+        "stars": 450,
         "url": "https://github.com/bothaggsigym1988/frameglide",
         "created": "2026-11-18T15:40:02Z",
         "topics": [
@@ -160,19 +160,10 @@
         "topics": []
       },
       {
-        "name": "sfewer-r7/CVE-2026-123007",
-        "description": "Proof-of-concept (PoC) scripts for CVE-2026-123007, an integer underflow in NGINX HTTP/2.",
-        "language": "Python",
-        "stars": 235,
-        "url": "https://github.com/sfewer-r7/CVE-2026-123007",
-        "created": "2026-11-18T11:16:51Z",
-        "topics": []
-      },
-      {
         "name": "iamajmeena/neonclipping",
         "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
         "language": "Python",
-        "stars": 235,
+        "stars": 236,
         "url": "https://github.com/iamajmeena/neonclipping",
         "created": "2026-11-19T10:00:43Z",
         "topics": [
@@ -183,10 +174,19 @@
         ]
       },
       {
+        "name": "sfewer-r7/CVE-2026-123007",
+        "description": "Proof-of-concept (PoC) scripts for CVE-2026-123007, an integer underflow in NGINX HTTP/2.",
+        "language": "Python",
+        "stars": 235,
+        "url": "https://github.com/sfewer-r7/CVE-2026-123007",
+        "created": "2026-11-18T11:16:51Z",
+        "topics": []
+      },
+      {
         "name": "MSNightmare/FastUnlock",
         "description": "FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
         "language": null,
-        "stars": 211,
+        "stars": 213,
         "url": "https://github.com/MSNightmare/FastUnlock",
         "created": "2026-11-19T12:37:51Z",
         "topics": []
@@ -269,7 +269,7 @@
         "source": "launchhn",
         "title": "Onlook (YC W25) – An open-source developer tool for designers",
         "url": "https://github.com/onlook-dev/onlook/",
-        "points": 27,
+        "points": 28,
         "comments": 20,
         "discussion": "https://news.ycombinator.com/item?id=50562320",
         "created": "2026-11-19T16:34:04.000Z"
@@ -305,8 +305,8 @@
         "source": "hn",
         "title": "Someone reported java4shell bug in September 2026",
         "url": "https://github.com/openjdk/jdk/pull/32781",
-        "points": 195,
-        "comments": 47,
+        "points": 198,
+        "comments": 50,
         "discussion": "https://news.ycombinator.com/item?id=50558906",
         "created": "2026-11-19T11:47:03.000Z"
       }
@@ -4986,7 +4986,7 @@
         "name": "storytold/craft-anything",
         "description": "Craft Anything: understand how any software works, and craft your own.",
         "language": "Rust",
-        "stars": 38219,
+        "stars": 38221,
         "url": "https://github.com/storytold/craft-anything",
         "created": "2026-10-31T14:50:00Z",
         "topics": [],
@@ -5574,7 +5574,7 @@
         "name": "zortos293/Lichii",
         "description": "VERY experimental Nintendo Switch 2 emulator",
         "language": "C++",
-        "stars": 9816,
+        "stars": 9817,
         "url": "https://github.com/zortos293/Lichii",
         "created": "2026-10-31T14:17:26Z",
         "topics": [],
@@ -6717,7 +6717,7 @@
         "name": "libracoder/kiri",
         "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
         "language": "Rust",
-        "stars": 11172,
+        "stars": 11173,
         "url": "https://github.com/libracoder/kiri",
         "created": "2026-11-02T16:11:30Z",
         "topics": [
@@ -6896,7 +6896,7 @@
         "name": "huami1314/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
         "language": "Swift",
-        "stars": 8521,
+        "stars": 8522,
         "url": "https://github.com/huami1314/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": [],
@@ -6908,7 +6908,7 @@
         "name": "Bodila51/gtavi-claudecode",
         "description": "Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions and credits.",
         "language": "Python",
-        "stars": 616,
+        "stars": 618,
         "url": "https://github.com/Bodila51/gtavi-claudecode",
         "created": "2026-11-18T17:54:29Z",
         "topics": [
@@ -6925,7 +6925,7 @@
         "name": "sourmitocand1987/VividFrame-GPU",
         "description": "Any source. One real-time GPU enhancement pipeline. · video enhancer · gpu video · real-time video enhancement · hdr · super-resolution · game-streaming · moonlight · dolby-vision · frame-interpolation · video-player · media-player · video-super-resolution · video-processing · upscaling · rife · vulkan · nvidia · windows · video-enhancement · ncnn",
         "language": null,
-        "stars": 482,
+        "stars": 486,
         "url": "https://github.com/sourmitocand1987/VividFrame-GPU",
         "created": "2026-11-18T15:51:00Z",
         "topics": [
@@ -6959,7 +6959,7 @@
         "name": "bothaggsigym1988/frameglide",
         "description": "From a 30 fps console stream to 60–120 fps on your PC. · frame-interpolation · frame-generation · nvidia · windows · dlss · super-resolution · vulkan · dlss5 · upscaling · rife · neural-rendering · ps5 · rtx · remote-play · pytorch · video · chiaki · optical-flow · video-frame-interpolation · amd · tensorrt · fsr · rtx-vsr · video-upscaling",
         "language": null,
-        "stars": 447,
+        "stars": 450,
         "url": "https://github.com/bothaggsigym1988/frameglide",
         "created": "2026-11-18T15:40:02Z",
         "topics": [
@@ -7058,7 +7058,7 @@
         "name": "iamajmeena/neonclipping",
         "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
         "language": "Python",
-        "stars": 235,
+        "stars": 236,
         "url": "https://github.com/iamajmeena/neonclipping",
         "created": "2026-11-19T10:00:43Z",
         "topics": [
@@ -7075,7 +7075,7 @@
         "name": "MSNightmare/FastUnlock",
         "description": "FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
         "language": null,
-        "stars": 211,
+        "stars": 213,
         "url": "https://github.com/MSNightmare/FastUnlock",
         "created": "2026-11-19T12:37:51Z",
         "topics": [],
@@ -11203,8 +11203,8 @@
         "source": "hn",
         "title": "Someone reported java4shell bug in September 2026",
         "url": "https://github.com/openjdk/jdk/pull/32781",
-        "points": 195,
-        "comments": 47,
+        "points": 198,
+        "comments": 50,
         "discussion": "https://news.ycombinator.com/item?id=50558906",
         "created": "2026-11-19T11:47:03.000Z",
         "firstSeen": "2026-11-19",
@@ -11214,7 +11214,7 @@
         "source": "launchhn",
         "title": "Onlook (YC W25) – An open-source developer tool for designers",
         "url": "https://github.com/onlook-dev/onlook/",
-        "points": 27,
+        "points": 28,
         "comments": 20,
         "discussion": "https://news.ycombinator.com/item?id=50562320",
         "created": "2026-11-19T16:34:04.000Z",
@@ -11224,20 +11224,20 @@
     }
   },
   "reading": {
-    "fetchedAt": "2026-11-19T18:17:56.410Z",
+    "fetchedAt": "2026-11-19T18:20:50.245Z",
     "hn": [
       {
         "title": "How the European Commission rolled out Matrix to more than 40k staff",
         "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
-        "points": 560,
+        "points": 562,
         "comments": 273,
         "discussion": "https://news.ycombinator.com/item?id=50558533"
       },
       {
         "title": "Garage Door Spam",
         "url": "https://blog.harrison.page/garage-door-spam/",
-        "points": 514,
-        "comments": 221,
+        "points": 519,
+        "comments": 222,
         "discussion": "https://news.ycombinator.com/item?id=50519231"
       },
       {
@@ -11251,7 +11251,7 @@
         "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
         "url": "https://kapteko.com/15-million-webservers/",
         "points": 313,
-        "comments": 36,
+        "comments": 37,
         "discussion": "https://news.ycombinator.com/item?id=50556533"
       },
       {
@@ -11264,36 +11264,36 @@
       {
         "title": "What's New in PHP 8.6",
         "url": "https://www.php.net/releases/8.6/en.php",
-        "points": 221,
-        "comments": 102,
+        "points": 222,
+        "comments": 104,
         "discussion": "https://news.ycombinator.com/item?id=50557870"
       },
       {
         "title": "Everything you need to survive and rebuild society",
         "url": "https://lastbook.org/",
-        "points": 218,
-        "comments": 120,
+        "points": 220,
+        "comments": 127,
         "discussion": "https://news.ycombinator.com/item?id=50560822"
       },
       {
         "title": "Distributed, high-performance blob storage on SQLite",
         "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
         "points": 196,
-        "comments": 56,
+        "comments": 58,
         "discussion": "https://news.ycombinator.com/item?id=50557537"
       },
       {
         "title": "Someone reported java4shell bug in September 2026",
         "url": "https://github.com/openjdk/jdk/pull/32781",
-        "points": 194,
-        "comments": 46,
+        "points": 195,
+        "comments": 49,
         "discussion": "https://news.ycombinator.com/item?id=50558906"
       },
       {
         "title": "Nintendo takes Picofly firmware down from GitHub [video]",
         "url": "https://www.youtube.com/watch?v=-TLCGUpoD6c",
-        "points": 182,
-        "comments": 61,
+        "points": 183,
+        "comments": 62,
         "discussion": "https://news.ycombinator.com/item?id=50547048"
       }
     ],
@@ -11314,7 +11314,7 @@
       {
         "title": "We Need Smart People Who Give a Shit",
         "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
-        "points": 72,
+        "points": 73,
         "comments": 30,
         "discussion": "https://lobste.rs/s/rzuasm/we_need_smart_people_who_give_shit",
         "tags": [
@@ -11531,7 +11531,7 @@
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-11-19T18:17:56.410Z",
+    "fetchedAt": "2026-11-19T18:20:50.245Z",
     "candidates": {
       "https://blog.cloudflare.com/vole-mole": {
         "source": "Cloudflare",
@@ -12150,11 +12150,18 @@
         "discussion": "https://lobste.rs/s/elmy67/15_million_web_servers_on_one_vm_smoltcp",
         "published": "2026-11-19T13:38:19.736Z",
         "summary": ""
+      },
+      "https://discord.com/blog/discord-update-november-19-2026": {
+        "source": "Discord",
+        "title": "Discord Update: November 19, 2026",
+        "url": "https://discord.com/blog/discord-update-november-19-2026",
+        "published": "2026-11-19T00:00:00.000Z",
+        "summary": "Here's the Discord Changelog from November 19, 2026, so you can stay informed on what’s new in recent app updates!"
       }
     }
   },
   "world": {
-    "fetchedAt": "2026-11-19T18:17:56.410Z",
+    "fetchedAt": "2026-11-19T18:20:50.245Z",
     "candidates": {
       "https://www.theverge.com/policy/1037804/elon-musk-maga-dealbook": {
         "source": "The Verge",
@@ -12834,11 +12841,25 @@
         "url": "https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/",
         "published": "2026-11-17T13:10:00.000Z",
         "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The open-source movement wants Jensen Huang back A petition to reinstate Jensen Huang as Nvidia CEO has attracted more than 115,000 signatures, including Elon Musk, but comb through the names, and…"
+      },
+      "https://www.theverge.com/tech/1037848/motorola-razr-flex-wide-foldable-folding-smartphone-android-leak": {
+        "source": "The Verge",
+        "title": "Leaked images reveal Motorola’s wide foldable",
+        "url": "https://www.theverge.com/tech/1037848/motorola-razr-flex-wide-foldable-folding-smartphone-android-leak",
+        "published": "2026-11-19T18:19:03.000Z",
+        "summary": "New leaked images of Motorola's next folding smartphone shared by SammyGuru add more credence to the theory that widescreen could be the default design for foldables moving forward. Following a single leaked shot shared to Reddit yesterday, this new crop of images reveal the Motorola Razr Flex from several angles in two finishes with its […]"
+      },
+      "https://yourstory.com/2026/11/inprime-finserv-raises-rs-101-cr-in-series-b-round-led-by-fmo": {
+        "source": "YourStory",
+        "title": "InPrime Finserv raises Rs 101 Cr in Series B round led by FMO",
+        "url": "https://yourstory.com/2026/11/inprime-finserv-raises-rs-101-cr-in-series-b-round-led-by-fmo",
+        "published": "2026-11-19T11:14:26.000Z",
+        "summary": "InPrime will use the funding to expand its reach and improve its technology stack, especially in AI use cases."
       }
     }
   },
   "asks": {
-    "fetchedAt": "2026-11-19T18:17:56.410Z",
+    "fetchedAt": "2026-11-19T18:20:50.245Z",
     "candidates": {
       "https://news.ycombinator.com/item?id=50542948": {
         "title": "Codeberg seems to have vanished from DNS",
@@ -12934,7 +12955,7 @@
     }
   },
   "launches": {
-    "fetchedAt": "2026-11-19T18:17:56.410Z",
+    "fetchedAt": "2026-11-19T18:20:50.245Z",
     "candidates": {
       "https://www.producthunt.com/products/tecla-3": {
         "source": "Product Hunt",
