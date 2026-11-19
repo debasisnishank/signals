@@ -9,7 +9,7 @@
 # The model reads untrusted READMEs and comments, so it runs as the `curator`
 # user, which cannot read /root and with it the deploy key. Git stays with root.
 #
-# Pass a stage name (picks or deepdives) to run just that one by hand.
+# Pass a stage name (picks, deepdives, news or ideas) to rerun only that stage.
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
@@ -23,13 +23,13 @@ trap 'rm -f "$out"' EXIT
 runuser -u curator -- env HOME=/home/curator CURATED_OUT="$out" node scripts/curate.mjs "$@"
 
 if [ ! -s "$out" ]; then
-  echo "No new picks."
+  echo "No new curation."
   exit 0
 fi
 cp "$out" src/data/curated.json
 
 if [ -z "$(git status --porcelain src/data/curated.json)" ]; then
-  echo "No new picks."
+  echo "No new curation."
   exit 0
 fi
 
@@ -38,4 +38,4 @@ git commit -q -m "Curate picks for $(date -u +%Y-%m-%d)"
 # CI may have logged discoveries meanwhile; it never touches curated.json.
 git pull -q --rebase origin main
 git push -q origin HEAD:main
-echo "Pushed picks."
+echo "Pushed curation."

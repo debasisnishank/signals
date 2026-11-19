@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import curated from '../data/curated.json';
+
+const description = 'Source-linked mobile app ideas from the daily Signals curation run, with a first build and a question to validate.';
+const days = Object.entries(curated.ideaDays ?? {}).sort(([a], [b]) => b.localeCompare(a));
+const fmtDate = (day) => new Date(`${day}T12:00:00Z`).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+---
+
+<BaseLayout title="Signals — ideas to build" description={description}>
+  <main id="main" class="wrap">
+    <a class="back" href="/">&larr; Signals</a>
+
+    <header>
+      <h1>Ideas to build</h1>
+      <p class="lede">
+        The daily VPS model reads new repositories, Product Hunt launches, Ask HN discussions and
+        <a href="/news">world tech news</a>, then proposes small iOS or Android apps.
+        Each idea includes the source that inspired it and a question to test with real users.
+      </p>
+    </header>
+
+    {days.length === 0 && <p class="lede">No ideas curated yet. The next VPS run will start this list.</p>}
+
+    {days.map(([day, ideas]) => (
+      <section class="day">
+        <div class="day__head"><h2>{fmtDate(day)}</h2></div>
+        <div class="ideas-grid">
+        {ideas.map((idea, index) => (
+          <article class="idea-card">
+            <span class="idea-card__number">{String(index + 1).padStart(2, '0')}</span>
+            <h3>{idea.title}</h3>
+            <p>{idea.problem}</p>
+            <div class="idea-card__build">
+              <span class="idea-card__label">First build</span>
+              <p>{idea.firstBuild}</p>
+            </div>
+            <div class="idea-card__detail"><span class="idea-card__label">Why mobile</span><p>{idea.mobileFit}</p></div>
+            <div class="idea-card__detail"><span class="idea-card__label">Check before building</span><p>{idea.validation}</p></div>
+            <div class="idea-card__source">
+              <span class="idea-card__label">Inspired by</span>
+              <ul>{idea.evidence.map((item) => (
+                <li><a href={item.url} target="_blank" rel="noopener noreferrer">{item.title} · {item.source} &rarr;</a></li>
+              ))}</ul>
+            </div>
+          </article>
+        ))}
+        </div>
+      </section>
+    ))}
+
+    <section class="day" aria-labelledby="publish-heading">
+      <div class="day__head"><h2 id="publish-heading">Before submitting to a store</h2></div>
+      <p class="lede">These are starting points, not verified demand or a promise of store approval. Test the problem and build a useful mobile workflow. Read the current <a href="https://developer.apple.com/app-store/review/guidelines/" target="_blank" rel="noopener noreferrer">App Review Guidelines</a> and <a href="https://support.google.com/googleplay/android-developer/answer/9898783" target="_blank" rel="noopener noreferrer">Google Play functionality policy</a> before submission.</p>
+    </section>
+  </main>
+</BaseLayout>

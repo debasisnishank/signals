@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import curated from '../data/curated.json';
+
+const days = Object.entries(curated.newsDays ?? {}).sort(([a], [b]) => b.localeCompare(a));
+const fmtDate = (day) => new Date(`${day}T12:00:00Z`).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+const description = 'A daily selection of consequential technology news from publishers around the world, with links to the original reporting.';
+---
+
+<BaseLayout title="Signals — world tech news" description={description}>
+  <main id="main" class="wrap">
+    <a class="back" href="/">&larr; Signals</a>
+    <header>
+      <h1>World tech news</h1>
+      <p class="lede">A short daily brief drawn from ten publisher feeds across technology, business and engineering. The VPS model reads the articles and chooses stories; titles and links come from the publishers' feeds.</p>
+    </header>
+
+    {days.length === 0 && <p class="lede">No news curated yet. The next VPS run will start this brief.</p>}
+    {days.map(([day, stories]) => (
+      <section class="day">
+        <div class="day__head"><h2>{fmtDate(day)}</h2></div>
+        <ol class="list">
+          {stories.map((story) => (
+            <li class="row">
+              <a class="row__title" href={story.url} target="_blank" rel="noopener noreferrer">{story.title}</a>
+              <p class="picks__why">{story.why}</p>
+              <span class="row__meta"><span class="tag">{story.topic}</span> &middot; {story.source}</span>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))}
+  </main>
+</BaseLayout>

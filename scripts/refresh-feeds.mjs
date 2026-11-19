@@ -13,7 +13,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const CACHE_PATH = resolve(ROOT, 'src/data/feed-cache.json');
+const CACHE_PATH = process.env.FEED_CACHE_PATH || resolve(ROOT, 'src/data/feed-cache.json');
 
 /** Warn in a way that is visible both locally and on the Actions run summary. */
 function warn(msg) {
@@ -314,7 +314,7 @@ function parseFeed(xml) {
       href: m[1].match(/href=["']([^"']+)/)?.[1],
     }));
     const url = links.find((l) => l.href && l.rel === 'alternate')?.href ?? tag('link')?.trim();
-    const date = tag('pubDate') ?? tag('published') ?? tag('dc:date') ?? tag('updated');
+    const date = decodeXml(tag('pubDate') ?? tag('published') ?? tag('dc:date') ?? tag('updated') ?? '').trim();
     return {
       title: plain(tag('title') ?? ''),
       url: url && decodeXml(url).trim(),
@@ -354,6 +354,87 @@ async function fetchDeepDives() {
     }
   }
   return found;
+}
+
+/* ---------------------------------------------------------------------------
+ * World tech news: independent publisher feeds, kept as short-lived candidates
+ * for the VPS model. The model selects stories; it never supplies their URLs.
+ * ------------------------------------------------------------------------- */
+const WORLD_FEEDS = [
+  ['TechCrunch', 'https://techcrunch.com/feed/'],
+  ['The Verge', 'https://www.theverge.com/rss/index.xml'],
+  ['Ars Technica', 'https://feeds.arstechnica.com/arstechnica/index'],
+  ['Rest of World', 'https://restofworld.org/feed/'],
+  ['The Register', 'https://www.theregister.com/headlines.atom'],
+  ['BBC Technology', 'https://feeds.bbci.co.uk/news/technology/rss.xml'],
+  ['The Hindu', 'https://www.thehindu.com/sci-tech/technology/feeder/default.rss'],
+  ['YourStory', 'https://yourstory.com/feed'],
+  ['MIT Technology Review', 'https://www.technologyreview.com/feed/'],
+  ['IEEE Spectrum', 'https://spectrum.ieee.org/feeds/feed.rss'],
+];
+const WORLD_HOSTS = new Set([
+  'techcrunch.com', 'theverge.com', 'arstechnica.com', 'restofworld.org', 'theregister.com',
+  'bbc.co.uk', 'bbc.com', 'thehindu.com', 'yourstory.com', 'technologyreview.com', 'spectrum.ieee.org',
+]);
+const WORLD_WINDOW_DAYS = 3;
+
+function isPublisherUrl(value) {
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' && WORLD_HOSTS.has(url.hostname.replace(/^www\./, ''));
+  } catch { return false; }
+}
+
+async function fetchWorldNews() {
+  const cutoff = Date.now() - WORLD_WINDOW_DAYS * 86400_000;
+  const found = [];
+  await Promise.all(WORLD_FEEDS.map(async ([source, url]) => {
+    try {
+      const res = await fetch(url, { ...FEED_HEADERS, signal: AbortSignal.timeout(15_000) });
+      if (!res.ok) throw new Error(`${res.status}`);
+      for (const item of parseFeed(await res.text()).slice(0, 12)) {
+        if (item.title && isPublisherUrl(item.url) && item.published && Date.parse(item.published) > cutoff) {
+          found.push({ source, ...item });
+        }
+      }
+    } catch (err) {
+      warn(`${source} news feed failed (${err.message}); other publishers still count.`);
+    }
+  }));
+  return found.sort((a, b) => b.published.localeCompare(a.published));
+}
+
+async function fetchAskHN() {
+  const hits = await hnSearch('search_by_date', {
+    tags: 'ask_hn', hitsPerPage: 80,
+    numericFilters: `points>10,created_at_i>${secondsAgo(WORLD_WINDOW_DAYS)}`,
+  });
+  return hits.filter((h) => h.title)
+    .sort((a, b) => b.points - a.points)
+    .slice(0, 15)
+    .map((h) => ({
+      title: h.title,
+      url: discussionUrl(h),
+      points: h.points,
+      comments: h.num_comments ?? 0,
+      created: new Date(h.created_at_i * 1000).toISOString(),
+    }));
+}
+
+const LAUNCH_WINDOW_DAYS = 7;
+async function fetchProductHunt() {
+  const res = await fetch('https://www.producthunt.com/feed', { ...FEED_HEADERS, signal: AbortSignal.timeout(15_000) });
+  if (!res.ok) throw new Error(`product hunt ${res.status} ${res.statusText}`);
+  const cutoff = Date.now() - LAUNCH_WINDOW_DAYS * 86400_000;
+  return parseFeed(await res.text())
+    .filter((item) => {
+      try {
+        return item.title && item.published && Date.parse(item.published) > cutoff &&
+          new URL(item.url).hostname === 'www.producthunt.com';
+      } catch { return false; }
+    })
+    .slice(0, 30)
+    .map((item) => ({ source: 'Product Hunt', ...item }));
 }
 
 /** The best-received HN thread linking to a repository, if one did well. */
@@ -505,6 +586,27 @@ const candidates = Object.fromEntries(Object.entries(prevDeep).filter(([, c]) =>
 for (const d of deepDives) candidates[normUrl(d.url)] ??= d;
 cache.deepdives = { fetchedAt: deepDives.length ? now : cache.deepdives?.fetchedAt ?? null, candidates };
 console.log(`  ok  deep dives: ${Object.keys(candidates).length} candidate(s) in the window`);
+
+const worldNews = await collect('world tech news', fetchWorldNews);
+const worldCutoff = new Date(Date.now() - WORLD_WINDOW_DAYS * 86400_000).toISOString();
+const worldCandidates = Object.fromEntries(Object.entries(cache.world?.candidates ?? {})
+  .filter(([, item]) => item.published >= worldCutoff));
+for (const item of worldNews) worldCandidates[normUrl(item.url)] ??= item;
+cache.world = { fetchedAt: worldNews.length ? now : cache.world?.fetchedAt ?? null, candidates: worldCandidates };
+
+const asks = await collect('ask hn', fetchAskHN);
+const askCandidates = Object.fromEntries(Object.entries(cache.asks?.candidates ?? {})
+  .filter(([, item]) => item.created >= worldCutoff));
+for (const item of asks) askCandidates[item.url] ??= item;
+cache.asks = { fetchedAt: asks.length ? now : cache.asks?.fetchedAt ?? null, candidates: askCandidates };
+
+const launches = await collect('product hunt', fetchProductHunt);
+const launchCutoff = new Date(Date.now() - LAUNCH_WINDOW_DAYS * 86400_000).toISOString();
+const launchCandidates = Object.fromEntries(Object.entries(cache.launches?.candidates ?? {})
+  .filter(([, item]) => item.published >= launchCutoff));
+for (const item of launches) launchCandidates[normUrl(item.url)] ??= item;
+cache.launches = { fetchedAt: launches.length ? now : cache.launches?.fetchedAt ?? null, candidates: launchCandidates };
+console.log(`  ok  idea and news pool: ${Object.keys(worldCandidates).length} article(s), ${Object.keys(askCandidates).length} Ask HN thread(s), ${Object.keys(launchCandidates).length} Product Hunt launch(es)`);
 
 // CI owns this file: it commits the refreshed cache back after every run, so a
 // local build that also wrote it would conflict on the next pull for no gain —

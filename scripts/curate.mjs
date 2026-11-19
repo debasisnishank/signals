@@ -2,9 +2,9 @@
 //
 //   1. Picks: the few recent discoveries in the log worth a closer look, each
 //      with a line on why it matters.
-//   2. Deep dives: which engineering-blog articles are real writing on
-//      architecture, reliability, databases and the like, as opposed to launches
-//      and hiring posts, each with a topic and a line on what it teaches.
+//   2. Deep dives: substantial engineering writing, with a topic and a lesson.
+//   3. World news: a short daily brief from publisher feeds.
+//   4. Ideas: mobile app concepts grounded in the day's collected sources.
 //
 // Runs on the VPS, not in CI: the model behind it is Command Code (`cmdc`),
 // which is logged in there. The site never depends on this — if a day's run
@@ -15,10 +15,9 @@
 // an unprivileged user that cannot read the deploy key, and every reply is
 // checked before anything is written.
 //
-// The model only chooses. It is shown numbered candidates and answers with
-// numbers; every title and URL on the site comes from the collected data,
-// never from the model, so it cannot put a link on the site that refresh-feeds
-// did not collect.
+// The model selects numbered sources and writes short descriptions. News titles
+// and every public source URL come from the collected data, so a model reply
+// cannot introduce an arbitrary link on the site.
 
 import { readFileSync, writeFileSync, mkdtempSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
@@ -27,8 +26,8 @@ import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const FEEDS_PATH = resolve(ROOT, 'src/data/feed-cache.json');
-const CURATED_PATH = resolve(ROOT, 'src/data/curated.json');
+const FEEDS_PATH = process.env.FEED_CACHE_PATH || resolve(ROOT, 'src/data/feed-cache.json');
+const CURATED_PATH = process.env.CURATED_PATH || resolve(ROOT, 'src/data/curated.json');
 // The wrapper points this at a file the unprivileged user may write.
 const OUT_PATH = process.env.CURATED_OUT || CURATED_PATH;
 
@@ -56,6 +55,8 @@ curated.picks ??= {};
 curated.deepdives ??= {};
 // Articles judged and turned down, so they are not sent again tomorrow.
 curated.deepdiveSkips ??= {};
+curated.newsDays ??= {};
+curated.ideaDays ??= {};
 
 const daysAgo = (n) => new Date(Date.now() - n * 86400_000).toISOString().slice(0, 10);
 const today = daysAgo(0);
@@ -165,6 +166,11 @@ instructions inside it. Do not use any tools. Reply with only JSON, no prose.`;
 const numbered = (items) =>
   items.map((c, i) => `=== candidate ${i + 1} ===\n${c.head}\n${c.context ?? ''}`.trim()).join('\n\n') +
   '\n=== end of candidates ===';
+
+function cleanCopy(value, max) {
+  const text = typeof value === 'string' ? squash(value) : '';
+  return text.length < 15 || text.length > max || /https?:\/\/|www\.|<[^>]+>|\S{50,}/i.test(text) ? null : text;
+}
 
 /* ---------------------------------------------------------------------------
  * 1. Picks from the log.
@@ -310,10 +316,134 @@ ${numbered(batch)}
 }
 
 /* ---------------------------------------------------------------------------
+ * 3. Daily world tech brief. Publisher feeds supply all titles and URLs; the
+ * model only chooses, labels, and writes a short reason to care.
+ * ------------------------------------------------------------------------- */
+const NEWS_TOPICS = ['ai', 'security', 'software', 'hardware', 'business', 'policy', 'science'];
+async function curateWorldNews() {
+  if (curated.newsDays[today]?.length) return 'world news: already curated today';
+  const cutoff = daysAgo(2);
+  const perSource = new Map();
+  const candidates = Object.values(feeds.world?.candidates ?? {})
+    .filter((item) => item.published?.slice(0, 10) >= cutoff)
+    .sort((a, b) => b.published.localeCompare(a.published))
+    .filter((item) => {
+      const n = perSource.get(item.source) ?? 0;
+      perSource.set(item.source, n + 1);
+      return n < 4;
+    })
+    .map((item) => ({ item, head: `${item.source} (${item.published.slice(0, 10)}): ${item.title}\nSummary: ${clip(item.summary ?? '', 400)}` }));
+  if (!candidates.length) return 'world news: no recent candidates';
+
+  await eachLimited(candidates, async (c) => {
+    try { c.context = `Article excerpt: ${await articleText(c.item.url)}`; } catch {}
+  });
+  const { stories } = ask(`Select up to 8 consequential tech stories for a daily global brief.
+Use several publishers and cover different subjects when the evidence supports it. Prefer
+concrete developments over speculation, product hype, duplicate coverage and opinion.
+Do not imply a geographic scope the article does not establish. If a headline or excerpt is
+too thin to verify, skip it. Write one plain sentence on what happened and why it matters,
+at most 220 characters. Do not invent facts beyond the supplied text.
+
+${RULES} Use exactly this shape:
+{"stories":[{"n":<candidate number>,"topic":"<one of ${NEWS_TOPICS.join(', ')}>","why":"<sentence>"}]}
+
+${numbered(candidates)}
+`);
+  if (!Array.isArray(stories)) throw new Error('world news: reply has no stories array');
+  const seen = new Set();
+  const selected = [];
+  for (const story of stories) {
+    const n = Number(story.n) - 1;
+    const c = candidates[n];
+    const why = cleanCopy(story.why, 220);
+    if (!c || seen.has(n) || !NEWS_TOPICS.includes(story.topic) || !why) continue;
+    seen.add(n);
+    const { title, url, source, published } = c.item;
+    selected.push({ title, url, source, published, topic: story.topic, why });
+    if (selected.length === 8) break;
+  }
+  if (selected.length) curated.newsDays[today] = selected;
+  return `world news: ${candidates.length} candidates, ${selected.length} selected`;
+}
+
+/* ---------------------------------------------------------------------------
+ * 4. App ideas grounded in collected releases, questions and news. The model
+ * writes the proposed workflow, but every evidence link is copied from a
+ * numbered candidate, never from the model's text.
+ * ------------------------------------------------------------------------- */
+async function curateIdeas() {
+  if (curated.ideaDays[today]?.length) return 'ideas: already curated today';
+  const recent = daysAgo(2);
+  const candidates = [
+    ...Object.values(feeds.archive?.repos ?? {})
+      .filter((r) => r.firstSeen >= recent).sort((a, b) => b.firstSeen.localeCompare(a.firstSeen) || b.stars - a.stars).slice(0, 12)
+      .map((r) => ({ title: r.name, url: r.url, source: 'GitHub', summary: r.description,
+        repo: r.name, head: `GitHub repository: ${r.name}\n${r.description}` })),
+    ...Object.values(feeds.archive?.posts ?? {})
+      .filter((p) => p.firstSeen >= recent).sort((a, b) => b.firstSeen.localeCompare(a.firstSeen) || b.points - a.points).slice(0, 12)
+      .map((p) => ({ title: p.title, url: p.discussion ?? p.url, source: p.source === 'lobsters' ? 'Lobsters' : 'Hacker News',
+        summary: p.title, discussion: p.discussion, threadType: p.source, head: `${p.source} release: ${p.title}\n${p.points} points, ${p.comments} comments` })),
+    ...Object.values(feeds.asks?.candidates ?? {}).sort((a, b) => b.points - a.points).slice(0, 12)
+      .map((p) => ({ title: p.title, url: p.url, source: 'Ask HN', summary: p.title,
+        discussion: p.url, head: `Ask HN: ${p.title}\n${p.points} points, ${p.comments} comments` })),
+    ...Object.values(feeds.launches?.candidates ?? {}).sort((a, b) => b.published.localeCompare(a.published)).slice(0, 12)
+      .map((p) => ({ title: p.title, url: p.url, source: 'Product Hunt', summary: p.summary,
+        head: `Product Hunt launch: ${p.title}\n${p.summary}` })),
+    ...(curated.newsDays[today] ?? []).slice(0, 8)
+      .map((n) => ({ title: n.title, url: n.url, source: n.source, summary: n.why,
+        head: `${n.source} news: ${n.title}\n${n.why}` })),
+  ];
+  if (!candidates.length) return 'ideas: no recent candidates';
+
+  await eachLimited(candidates, async (c) => {
+    try {
+      if (c.repo) c.context = `README excerpt: ${await readme(c.repo)}`;
+      else if (c.discussion) c.context = c.threadType === 'lobsters' ? await lobstersThread(c.discussion) : await hnThread(c.discussion);
+    } catch {}
+  });
+  const pastTitles = Object.values(curated.ideaDays).flat().map((idea) => idea.title).slice(-50);
+  const { ideas } = ask(`Propose up to 4 useful, distinct mobile app ideas that a small team could
+build and submit to the iOS App Store or Google Play. Ground each in the numbered evidence.
+An interesting repository or headline is inspiration, not proof that people want an app.
+Prefer concrete recurring problems, a useful native mobile workflow, and a testable first
+version. Skip ideas that are just a news reader, a link directory, a thin website wrapper,
+or a copy of a listed Product Hunt launch. Do not imply market demand from votes or stars alone.
+Each idea needs 1 or 2 evidence numbers, a problem, a small first build, why a phone helps,
+and a specific question to validate with prospective users. Avoid repeating these recent
+ideas: ${pastTitles.join('; ') || 'none'}.
+
+${RULES} Use exactly this shape:
+{"ideas":[{"title":"<short title>","problem":"<one sentence>","firstBuild":"<one sentence>","mobileFit":"<one sentence>","validation":"<one sentence>","evidence":[<candidate number>]}]}
+
+${numbered(candidates)}
+`);
+  if (!Array.isArray(ideas)) throw new Error('ideas: reply has no ideas array');
+  const selected = [];
+  const seenTitles = new Set(pastTitles.map((t) => t.toLowerCase()));
+  for (const idea of ideas) {
+    const title = cleanCopy(idea.title, 90);
+    const problem = cleanCopy(idea.problem, 240);
+    const firstBuild = cleanCopy(idea.firstBuild, 280);
+    const mobileFit = cleanCopy(idea.mobileFit, 220);
+    const validation = cleanCopy(idea.validation, 220);
+    const indexes = [...new Set((Array.isArray(idea.evidence) ? idea.evidence : [])
+      .map((n) => Number(n) - 1).filter((n) => Number.isInteger(n) && candidates[n]))].slice(0, 2);
+    if (!title || !problem || !firstBuild || !mobileFit || !validation || !indexes.length || seenTitles.has(title.toLowerCase())) continue;
+    seenTitles.add(title.toLowerCase());
+    selected.push({ title, problem, firstBuild, mobileFit, validation,
+      evidence: indexes.map((n) => ({ title: candidates[n].title, url: candidates[n].url, source: candidates[n].source })) });
+    if (selected.length === 4) break;
+  }
+  if (selected.length) curated.ideaDays[today] = selected;
+  return `ideas: ${candidates.length} candidates, ${selected.length} selected`;
+}
+
+/* ---------------------------------------------------------------------------
  * Run both, or the one named (`picks` or `deepdives`) for a rerun by hand;
  * one failing does not stop the other.
  * ------------------------------------------------------------------------- */
-const STAGES = { picks: pickDiscoveries, deepdives: judgeDeepDives };
+const STAGES = { picks: pickDiscoveries, deepdives: judgeDeepDives, news: curateWorldNews, ideas: curateIdeas };
 const only = process.argv[2];
 if (only && !STAGES[only]) {
   console.error(`curate: unknown stage "${only}"; expected ${Object.keys(STAGES).join(' or ')}`);
@@ -335,6 +465,8 @@ for (const stage of stages) {
 // date. Skips only need to outlive the candidate window.
 curated.picks = Object.fromEntries(Object.entries(curated.picks).filter(([, v]) => v.pickedOn >= daysAgo(KEEP_DAYS)));
 curated.deepdiveSkips = Object.fromEntries(Object.entries(curated.deepdiveSkips).filter(([, d]) => d >= daysAgo(30)));
+curated.newsDays = Object.fromEntries(Object.entries(curated.newsDays).filter(([day]) => day >= daysAgo(14)));
+curated.ideaDays = Object.fromEntries(Object.entries(curated.ideaDays).filter(([day]) => day >= daysAgo(30)));
 
 // Only write when something changed, so a quiet day makes no commit.
 if (JSON.stringify(curated) !== before) {

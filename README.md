@@ -3,6 +3,13 @@
 A dated log of newly released open source: repositories that broke out, and
 tools people shipped on Show HN, each filed under the day it first appeared.
 
+The `/news` and `/ideas` pages come from the VPS curation run. CI collects
+recent stories from ten publisher feeds, Product Hunt launches and Ask HN
+threads into `feed-cache.json`. The existing `cmdc` model on the VPS selects
+news and proposes mobile app ideas, storing them in `curated.json`. Every
+public evidence URL is copied from collected source data. If curation fails,
+the last saved brief stays on the site.
+
 ## How it works
 
 `scripts/refresh-feeds.mjs` runs before `astro build` and writes

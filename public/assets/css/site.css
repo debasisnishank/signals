@@ -530,3 +530,58 @@ html { scroll-behavior: smooth; }
   opacity: 0.9;
 }
 .tag--pick { color: var(--clr-anchor); }
+
+/* Mobile app ideas and research sources. */
+.ideas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: var(--space-md);
+}
+.idea-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid var(--clr-rule);
+  border-radius: var(--card-radius);
+}
+.idea-card__number,
+.idea-card__label {
+  font-family: var(--font-section);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--clr-header);
+}
+.idea-card h3 {
+  margin: 0.5rem 0;
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.idea-card p { margin: 0; line-height: 1.5; }
+.idea-card__build,
+.idea-card__detail {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--clr-rule);
+}
+.idea-card__build p,
+.idea-card__detail p { margin-top: 0.35rem; }
+.idea-card__source {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  font-size: 0.82rem;
+}
+.idea-card__source ul {
+  margin: 0.35rem 0 0;
+  padding-left: 1.1rem;
+}
+.idea-card__source li + li { margin-top: 0.2rem; }
+.idea-card__source a { overflow-wrap: anywhere; }
+@media (max-width: 640px) {
+  .ideas-grid { gap: var(--space-sm); }
+}
+@media print {
+  .idea-card { break-inside: avoid; }
+}
