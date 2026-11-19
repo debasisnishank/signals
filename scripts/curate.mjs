@@ -138,11 +138,18 @@ function ask(prompt) {
   const work = mkdtempSync(join(tmpdir(), 'curate-'));
   let reply;
   try {
-    reply = execFileSync(
-      'cmdc',
-      ['-p', prompt, '--skip-onboarding', '--no-auto-update', '--no-session', '--max-turns', '2'],
-      { cwd: work, encoding: 'utf8', timeout: 300_000, maxBuffer: 4 * 1024 * 1024 },
-    );
+    try {
+      reply = execFileSync(
+        'cmdc',
+        ['-p', prompt, '--skip-onboarding', '--no-auto-update', '--no-session', '--max-turns', '2'],
+        { cwd: work, encoding: 'utf8', timeout: 300_000, maxBuffer: 4 * 1024 * 1024, stdio: ['ignore', 'pipe', 'pipe'] },
+      );
+    } catch (err) {
+      // execFileSync's default error message includes the entire prompt, which
+      // would flood the systemd journal with scraped articles on an auth error.
+      const detail = String(err.stderr ?? '').trim().split('\n').filter(Boolean).at(-1);
+      throw new Error(`model failed (${err.status ?? 'unknown'}): ${detail ?? 'no error detail'}`);
+    }
   } finally {
     rmSync(work, { recursive: true, force: true });
   }
