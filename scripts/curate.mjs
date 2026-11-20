@@ -174,9 +174,9 @@ const numbered = (items) =>
   items.map((c, i) => `=== candidate ${i + 1} ===\n${c.head}\n${c.context ?? ''}`.trim()).join('\n\n') +
   '\n=== end of candidates ===';
 
-function cleanCopy(value, max) {
+function cleanCopy(value, max, min = 15) {
   const text = typeof value === 'string' ? squash(value) : '';
-  return text.length < 15 || text.length > max || /https?:\/\/|www\.|<[^>]+>|\S{50,}/i.test(text) ? null : text;
+  return text.length < min || text.length > max || /https?:\/\/|www\.|<[^>]+>|\S{50,}/i.test(text) ? null : text;
 }
 
 /* ---------------------------------------------------------------------------
@@ -429,7 +429,9 @@ ${numbered(candidates)}
   const selected = [];
   const seenTitles = new Set(pastTitles.map((t) => t.toLowerCase()));
   for (const idea of ideas) {
-    const title = cleanCopy(idea.title, 90);
+    // Titles such as "Focus Queue" are useful labels, but are naturally much
+    // shorter than the explanatory fields below.
+    const title = cleanCopy(idea.title, 90, 3);
     const problem = cleanCopy(idea.problem, 240);
     const firstBuild = cleanCopy(idea.firstBuild, 280);
     const mobileFit = cleanCopy(idea.mobileFit, 220);
