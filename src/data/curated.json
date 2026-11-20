@@ -581,7 +581,7 @@
       "pickedOn": "2026-11-20"
     }
   },
-  "updatedAt": "2026-11-20T06:33:40.872Z",
+  "updatedAt": "2026-11-20T13:27:08.208Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -2009,5 +2009,79 @@
       }
     ]
   },
-  "ideaDays": {}
+  "ideaDays": {
+    "2026-11-20": [
+      {
+        "title": "BlurBefore",
+        "problem": "Parents, schools, and club organizers need to remove bystanders' faces from photos and videos before posting, but manual blurring is slow and most tools upload the media.",
+        "firstBuild": "An app that imports a photo or short clip, detects faces on-device, lets the user tap faces to blur or track them across frames, and exports a redacted copy.",
+        "mobileFit": "The media is captured and shared on the phone, and on-device processing keeps children's faces from leaving the device.",
+        "validation": "Ask school event organizers and team parents how they currently handle consent and face blurring, and whether they would use an on-device tool at the event.",
+        "evidence": [
+          {
+            "title": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+            "url": "https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+            "source": "GitHub"
+          }
+        ]
+      },
+      {
+        "title": "ClipCapture",
+        "problem": "Coaches, podcasters, and event speakers record long talks but need several vertical captioned clips, and moving footage to a desktop editor breaks the flow.",
+        "firstBuild": "Record or import a long talk, transcribe it, pick three high-signal moments, and export 9:16 clips with captions and a hook to the share sheet.",
+        "mobileFit": "The phone is already the camera and microphone at the event, so capture, cutting, and posting can happen on one device.",
+        "validation": "Ask podcasters and coaches how many clips they publish per episode and whether they would cut them on the phone immediately after recording.",
+        "evidence": [
+          {
+            "title": "Bodila51/gtavi-claudecode",
+            "url": "https://github.com/Bodila51/gtavi-claudecode",
+            "source": "GitHub"
+          },
+          {
+            "title": "iamajmeena/neonclipping",
+            "url": "https://github.com/iamajmeena/neonclipping",
+            "source": "GitHub"
+          }
+        ]
+      },
+      {
+        "title": "AgentApproval",
+        "problem": "Computer-use AI agents can click through accounts and apps on a person's behalf, and account mix-ups can expose private data before anyone notices.",
+        "firstBuild": "A companion app with a webhook approval inbox: each consequential agent action sends a screenshot and summary, and the user approves or denies with biometrics, leaving an audit log.",
+        "mobileFit": "The phone is the natural second factor for consent, giving a fast approve-or-deny decision away from the desktop.",
+        "validation": "Ask people already using computer-use agents whether they want per-action approval or only an after-the-fact undo and audit trail.",
+        "evidence": [
+          {
+            "title": "Google gives Gemini the ability to use your Mac for you",
+            "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+            "source": "TechCrunch"
+          },
+          {
+            "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
+            "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+            "source": "TechCrunch"
+          }
+        ]
+      },
+      {
+        "title": "UpstreamWatch",
+        "problem": "Builds and sites break when a critical open-source repository, package, or domain suddenly disappears, and teams usually find out only when something fails.",
+        "firstBuild": "A watchlist for repos, packages, and domains that checks daily, stores a last-known snapshot, and sends a push alert when a source goes missing or changes ownership.",
+        "mobileFit": "Push alerts reach the on-call maintainer immediately, and the app can show the last-known snapshot and a one-tap archive request.",
+        "validation": "Ask maintainers and small dev teams which upstream sources they depend on and what they would do in the first hour after one vanished.",
+        "evidence": [
+          {
+            "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+            "url": "https://news.ycombinator.com/item?id=50539610",
+            "source": "Hacker News"
+          },
+          {
+            "title": "Codeberg seems to have vanished from DNS",
+            "url": "https://news.ycombinator.com/item?id=50542948",
+            "source": "Ask HN"
+          }
+        ]
+      }
+    ]
+  }
 }
