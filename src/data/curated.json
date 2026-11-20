@@ -559,9 +559,29 @@
     "https://news.ycombinator.com/item?id=50552140": {
       "why": "A dependency-free safe-Rust B-rep kernel covering fillets, sweeps, lofts and STEP, released with a kernel-agnostic conformance suite of 3,487 tests under MIT.",
       "pickedOn": "2026-11-19"
+    },
+    "ikow/java4shell-poc": {
+      "why": "Ships a minimal trigger plus a working pre-auth RCE chain against Keycloak, Jira and Jenkins targets, alongside Suricata, Sigma and ModSecurity rules, so it works as a lab and a detection test.",
+      "pickedOn": "2026-11-20"
+    },
+    "https://news.ycombinator.com/item?id=50533270": {
+      "why": "Rather than a generic serving stack, it fuses decode into per-layer NKI megakernels with a radix-tree prefix cache; only one model works today, but it serves an OpenAI-compatible API from one box.",
+      "pickedOn": "2026-11-20"
+    },
+    "https://news.ycombinator.com/item?id=50532385": {
+      "why": "Builds dropdowns, modals and tabs from dialog, popover and :has() instead of a JS library; the discussion flags accessibility gaps, so audit before replacing existing components.",
+      "pickedOn": "2026-11-20"
+    },
+    "prusa3d/prusa-connect": {
+      "why": "A genuine self-hosted substitute for the cloud service: one Go binary for a Pi or desktop, REST plus MQTT, and a driver SDK for other makers, though it is still 0.x beta with breaking changes.",
+      "pickedOn": "2026-11-20"
+    },
+    "SamG-Coder/SmartImposter": {
+      "why": "Anything past mesh distance becomes a parallax octahedral impostor evaluated by the RTX cores, letting a from-scratch Vulkan renderer draw millions of plants from one noisy sample per pixel.",
+      "pickedOn": "2026-11-20"
     }
   },
-  "updatedAt": "2026-11-19T18:38:21.890Z",
+  "updatedAt": "2026-11-20T06:33:40.872Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1759,8 +1779,6 @@
     }
   },
   "deepdiveSkips": {
-    "https://ranet3.com": "2026-10-20",
-    "https://benjcal.space/blog/arp-tell-your-network-to-explain-itself": "2026-10-20",
     "https://stripe.com/blog/saas-platform-trends-in-ai-era": "2026-10-21",
     "https://blog.cloudflare.com/clairic-extraction-model": "2026-10-21",
     "https://blog.cloudflare.com/protect-your-netscaler-gateway": "2026-10-21",
@@ -1922,6 +1940,72 @@
         "published": "2026-11-19T18:09:11.000Z",
         "topic": "ai",
         "why": "Google added an AI agent to Gemini on the Mac that can organize files, fill out forms and tackle multistep workflows on the user's behalf."
+      }
+    ],
+    "2026-11-20": [
+      {
+        "title": "Anthropic raises $81bn in record-breaking stock market debut",
+        "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "published": "2026-11-19T15:58:58.000Z",
+        "topic": "business",
+        "why": "Anthropic raised a record $81bn in its IPO at $83 a share, valuing the loss-making Claude maker at around $1.5tn and making it one of the world's most valuable companies."
+      },
+      {
+        "title": "Google gives Gemini the ability to use your Mac for you",
+        "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+        "source": "TechCrunch",
+        "published": "2026-11-19T18:09:11.000Z",
+        "topic": "ai",
+        "why": "Google added computer use to Gemini on macOS, letting its AI agent navigate native apps and the web to complete multistep tasks, initially for US subscribers on paid plans."
+      },
+      {
+        "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
+        "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+        "source": "TechCrunch",
+        "published": "2026-11-19T17:38:40.000Z",
+        "topic": "security",
+        "why": "Internal Meta posts reported by Reuters say the Muse AI agent mixed up accounts, surfacing other people's messages, orders and bank balances, raising agent privacy concerns."
+      },
+      {
+        "title": "How U.S. controls flow of advanced tech, chip, and compute to China | Explained",
+        "url": "https://www.thehindu.com/sci-tech/technology/how-us-controls-flow-of-advanced-tech-chip-and-compute-to-china-explained/article71721133.ece",
+        "source": "The Hindu",
+        "published": "2026-11-19T15:42:46.000Z",
+        "topic": "policy",
+        "why": "The US Commerce Department issued an interim final rule barring non-US data centres with advanced American AI chips from serving cloud customers in two dozen countries, including China, Iran and Russia."
+      },
+      {
+        "title": "NAND prices tipped to fall as Chinese cloud giants cut SSD orders",
+        "url": "https://www.theregister.com/systems/2026/11/19/nand-prices-tipped-to-fall-as-chinese-cloud-giants-cut-ssd-orders/5311116",
+        "source": "The Register",
+        "published": "2026-11-19T17:02:00.000Z",
+        "topic": "hardware",
+        "why": "TrendForce expects NAND flash contract prices to fall in early 2027 as Chinese cloud providers cut enterprise SSD orders, easing flash supply even as the DRAM squeeze persists."
+      },
+      {
+        "title": "A human liver has been kept alive outside the body for a record seven weeks",
+        "url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
+        "source": "MIT Technology Review",
+        "published": "2026-11-19T12:00:00.000Z",
+        "topic": "science",
+        "why": "Australian researchers kept a donated human liver alive outside the body for seven weeks using an automated perfusion system, far surpassing the previous two-week record."
+      },
+      {
+        "title": "Amazon is pushing alerts opposing NYC’s Delivery Protection Act",
+        "url": "https://www.theverge.com/tech/1037813/amazon-is-pushing-alerts-to-shoppers-opposing-nycs-delivery-protection-act",
+        "source": "The Verge",
+        "published": "2026-11-19T17:58:01.000Z",
+        "topic": "policy",
+        "why": "Amazon is pushing app alerts and homepage banners against New York City's Delivery Protection Act, which would require direct employment of last-mile delivery workers, warning of $5 per-order costs."
+      },
+      {
+        "title": "NASA's new Moon plans have a problem: Orion wasn't designed to fly this way",
+        "url": "https://arstechnica.com/space/2026/11/to-make-moon-landings-easier-nasa-is-making-life-harder-for-orion/",
+        "source": "Ars Technica",
+        "published": "2026-11-19T13:40:02.000Z",
+        "topic": "hardware",
+        "why": "NASA's new Moon plans face a problem because the Orion spacecraft was not designed to fly the way the revised approach requires, a constraint the agency says must be addressed without cutting corners."
       }
     ]
   },
