@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-11-19T18:38:46.387Z",
+    "fetchedAt": "2026-11-20T06:34:04.369Z",
     "repos": [
       {
         "name": "storytold/craft-anything",
         "description": "Craft Anything: understand how any software works, and craft your own.",
         "language": "Rust",
-        "stars": 38238,
+        "stars": 38798,
         "url": "https://github.com/storytold/craft-anything",
         "created": "2026-10-31T14:50:00Z",
         "topics": []
@@ -15,7 +15,7 @@
         "name": "deepseek-ai/dsh-superagent-prototype",
         "description": "Towards a More Autonomous Agent System",
         "language": "TypeScript",
-        "stars": 23948,
+        "stars": 23986,
         "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
         "created": "2026-10-31T09:32:46Z",
         "topics": []
@@ -24,7 +24,7 @@
         "name": "libracoder/kiri",
         "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
         "language": "Rust",
-        "stars": 11177,
+        "stars": 11382,
         "url": "https://github.com/libracoder/kiri",
         "created": "2026-11-02T16:11:30Z",
         "topics": [
@@ -38,7 +38,7 @@
         "name": "Minireel/HGhub",
         "description": "Plug-in media player",
         "language": "Rust",
-        "stars": 10299,
+        "stars": 10369,
         "url": "https://github.com/Minireel/HGhub",
         "created": "2026-11-03T14:04:27Z",
         "topics": [
@@ -52,7 +52,7 @@
         "name": "janestreet/agent_skills",
         "description": "Agent skills",
         "language": null,
-        "stars": 10249,
+        "stars": 10321,
         "url": "https://github.com/janestreet/agent_skills",
         "created": "2026-11-03T16:50:21Z",
         "topics": [],
@@ -66,7 +66,7 @@
         "name": "zortos293/Lichii",
         "description": "VERY experimental Nintendo Switch 2 emulator",
         "language": "C++",
-        "stars": 9817,
+        "stars": 9851,
         "url": "https://github.com/zortos293/Lichii",
         "created": "2026-10-31T14:17:26Z",
         "topics": []
@@ -75,44 +75,30 @@
         "name": "huami1314/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
         "language": "Swift",
-        "stars": 8523,
+        "stars": 8582,
         "url": "https://github.com/huami1314/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": []
       },
       {
-        "name": "patch-gg/pixelfx",
-        "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
-        "language": "JavaScript",
-        "stars": 8282,
-        "url": "https://github.com/patch-gg/pixelfx",
-        "created": "2026-10-30T06:43:25Z",
-        "topics": [
-          "agent-skills",
-          "animation",
-          "canvas",
-          "claude-code-plugin"
-        ]
-      },
-      {
-        "name": "Bodila51/gtavi-claudecode",
-        "description": "Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions and credits.",
-        "language": "Python",
-        "stars": 643,
-        "url": "https://github.com/Bodila51/gtavi-claudecode",
-        "created": "2026-11-18T17:54:29Z",
+        "name": "erkamyaman/rust-anything",
+        "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+        "language": "Rust",
+        "stars": 5565,
+        "url": "https://github.com/erkamyaman/rust-anything",
+        "created": "2026-11-16T12:10:36Z",
         "topics": [
           "agent-skills",
           "claude-code",
-          "clipping",
-          "gta6"
+          "cli",
+          "code-migration"
         ]
       },
       {
         "name": "sourmitocand1987/VividFrame-GPU",
         "description": "Any source. One real-time GPU enhancement pipeline. · video enhancer · gpu video · real-time video enhancement · hdr · super-resolution · game-streaming · moonlight · dolby-vision · frame-interpolation · video-player · media-player · video-super-resolution · video-processing · upscaling · rife · vulkan · nvidia · windows · video-enhancement · ncnn",
         "language": null,
-        "stars": 505,
+        "stars": 1169,
         "url": "https://github.com/sourmitocand1987/VividFrame-GPU",
         "created": "2026-11-18T15:51:00Z",
         "topics": [
@@ -126,7 +112,7 @@
         "name": "bothaggsigym1988/frameglide",
         "description": "From a 30 fps console stream to 60–120 fps on your PC. · frame-interpolation · frame-generation · nvidia · windows · dlss · super-resolution · vulkan · dlss5 · upscaling · rife · neural-rendering · ps5 · rtx · remote-play · pytorch · video · chiaki · optical-flow · video-frame-interpolation · amd · tensorrt · fsr · rtx-vsr · video-upscaling",
         "language": null,
-        "stars": 469,
+        "stars": 1122,
         "url": "https://github.com/bothaggsigym1988/frameglide",
         "created": "2026-11-18T15:40:02Z",
         "topics": [
@@ -137,24 +123,38 @@
         ]
       },
       {
-        "name": "replit/datacat",
-        "description": "Self-hosted observability: metrics, logs, traces, dashboards and alerts. Stores data in PostgreSQL or ClickHouse. Accepts OpenTelemetry data.",
-        "language": "TypeScript",
-        "stars": 363,
-        "url": "https://github.com/replit/datacat",
-        "created": "2026-11-17T02:51:06Z",
+        "name": "Bodila51/gtavi-claudecode",
+        "description": "Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions and credits.",
+        "language": "Python",
+        "stars": 1006,
+        "url": "https://github.com/Bodila51/gtavi-claudecode",
+        "created": "2026-11-18T17:54:29Z",
         "topics": [
-          "alerting",
-          "apm",
-          "clickhouse",
-          "dashboards"
+          "agent-skills",
+          "claude-code",
+          "clipping",
+          "gta6"
+        ]
+      },
+      {
+        "name": "bookwjitchieni1986/blender-ai-mcp-addon",
+        "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+        "language": null,
+        "stars": 858,
+        "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+        "created": "2026-11-19T14:43:10Z",
+        "topics": [
+          "ai-agents",
+          "ai-assistant",
+          "blender",
+          "blender-addon"
         ]
       },
       {
         "name": "iamajmeena/neonclipping",
         "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
         "language": "Python",
-        "stars": 247,
+        "stars": 583,
         "url": "https://github.com/iamajmeena/neonclipping",
         "created": "2026-11-19T10:00:43Z",
         "topics": [
@@ -165,58 +165,86 @@
         ]
       },
       {
-        "name": "prusa3d/prusa-connect",
-        "description": "Prusa Connect: a local server for your printers",
-        "language": "Go",
-        "stars": 246,
-        "url": "https://github.com/prusa3d/prusa-connect",
-        "created": "2026-11-17T08:54:51Z",
+        "name": "MSNightmare/FastUnlock",
+        "description": "FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
+        "language": null,
+        "stars": 424,
+        "url": "https://github.com/MSNightmare/FastUnlock",
+        "created": "2026-11-19T12:37:51Z",
         "topics": []
       },
       {
         "name": "sfewer-r7/CVE-2026-123007",
         "description": "Proof-of-concept (PoC) scripts for CVE-2026-123007, an integer underflow in NGINX HTTP/2.",
         "language": "Python",
-        "stars": 236,
+        "stars": 249,
         "url": "https://github.com/sfewer-r7/CVE-2026-123007",
         "created": "2026-11-18T11:16:51Z",
         "topics": []
       },
       {
-        "name": "MSNightmare/FastUnlock",
-        "description": "FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
+        "name": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+        "description": "Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Attributes, Face Templates Extraction, Face Landmarks",
+        "language": "Python",
+        "stars": 233,
+        "url": "https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+        "created": "2026-11-19T10:40:46Z",
+        "topics": []
+      },
+      {
+        "name": "HandcuffPerfumer/fl-studio-audio",
+        "description": "FL Studio Audio is a comprehensive digital audio workstation (DAW) environment designed for music producers and sound engineers to compose, arrange, record, edit, mix, and master studio-quality audio tracks.",
         "language": null,
-        "stars": 231,
-        "url": "https://github.com/MSNightmare/FastUnlock",
-        "created": "2026-11-19T12:37:51Z",
-        "topics": []
+        "stars": 191,
+        "url": "https://github.com/HandcuffPerfumer/fl-studio-audio",
+        "created": "2026-11-20T00:49:31Z",
+        "topics": [
+          "audio-engineering",
+          "beat-making",
+          "digital-audio-workstation",
+          "fl"
+        ]
       },
       {
-        "name": "Lemxy/WinRust",
-        "description": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
-        "language": "Rust",
-        "stars": 195,
-        "url": "https://github.com/Lemxy/WinRust",
-        "created": "2026-11-17T14:27:06Z",
-        "topics": []
-      },
-      {
-        "name": "dmitrykurash/holospot",
-        "description": "The holographic materials of holo.spot for your own three.js scenes, made to be handed to an AI agent",
-        "language": "TypeScript",
-        "stars": 182,
-        "url": "https://github.com/dmitrykurash/holospot",
-        "created": "2026-11-17T13:38:59Z",
-        "topics": []
+        "name": "Dimnyohollow/capcut-pro-video-editor-latest",
+        "description": "CapCut Pro Video Editor Latest is an all-in-one, cross-platform video editing suite that equips creators with AI-powered tools, automated captions, background removal, premium effects, and high-resolution 4K export capabilities for producing professional social media and commercial content.",
+        "language": null,
+        "stars": 169,
+        "url": "https://github.com/Dimnyohollow/capcut-pro-video-editor-latest",
+        "created": "2026-11-20T00:52:19Z",
+        "topics": [
+          "capcut-activated",
+          "capcut-crack-2026",
+          "capcut-cracked-2026",
+          "capcut-exe"
+        ]
       }
     ],
     "posts": [
       {
         "source": "showhn",
+        "title": "Cornhole News – A Hacker News inspired site for news across the Midwest",
+        "url": "https://cornholenews.news",
+        "points": 210,
+        "comments": 97,
+        "discussion": "https://news.ycombinator.com/item?id=50561515",
+        "created": "2026-11-19T15:38:32.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "Watch weight-space programming in action with WebGPU",
+        "url": "https://tabbyml.github.io/weight-space-playground/",
+        "points": 33,
+        "comments": 5,
+        "discussion": "https://news.ycombinator.com/item?id=50561436",
+        "created": "2026-11-19T15:32:47.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "Foolscap – a writing app that reads your book and never writes for you",
         "url": "https://foolscap.works/",
-        "points": 94,
-        "comments": 75,
+        "points": 105,
+        "comments": 85,
         "discussion": "https://news.ycombinator.com/item?id=50559749",
         "created": "2026-11-19T13:21:20.000Z"
       },
@@ -224,8 +252,8 @@
         "source": "showhn",
         "title": "Robotics needs better CAD, so I wrote a B-rep kernel and 3,487 tests",
         "url": "https://springcraft-ai.github.io/springrep/",
-        "points": 32,
-        "comments": 7,
+        "points": 34,
+        "comments": 9,
         "discussion": "https://news.ycombinator.com/item?id=50552140",
         "created": "2026-11-18T21:08:47.000Z"
       },
@@ -233,7 +261,7 @@
         "source": "showhn",
         "title": "Take Voyager 1 apart, down to a single memory chip",
         "url": "https://rshekhar.com/voyager/",
-        "points": 229,
+        "points": 234,
         "comments": 57,
         "discussion": "https://news.ycombinator.com/item?id=50548161",
         "created": "2026-11-18T16:18:51.000Z"
@@ -242,35 +270,17 @@
         "source": "showhn",
         "title": "ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
         "url": "https://exitpath-ruddy.vercel.app/",
-        "points": 244,
-        "comments": 90,
+        "points": 248,
+        "comments": 93,
         "discussion": "https://news.ycombinator.com/item?id=50547980",
         "created": "2026-11-18T16:04:43.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Type Fighter 2",
-        "url": "https://typefighter2.com/",
-        "points": 138,
-        "comments": 64,
-        "discussion": "https://news.ycombinator.com/item?id=50544821",
-        "created": "2026-11-18T11:11:53.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "TrnRT – An open-source LLM inference engine for AWS Trainium",
-        "url": "https://github.com/RunanywhereAI/trnrt",
-        "points": 54,
-        "comments": 7,
-        "discussion": "https://news.ycombinator.com/item?id=50533270",
-        "created": "2026-11-17T16:01:04.000Z"
       },
       {
         "source": "launchhn",
         "title": "Onlook (YC W25) – An open-source developer tool for designers",
         "url": "https://github.com/onlook-dev/onlook/",
-        "points": 33,
-        "comments": 24,
+        "points": 106,
+        "comments": 73,
         "discussion": "https://news.ycombinator.com/item?id=50562320",
         "created": "2026-11-19T16:34:04.000Z"
       },
@@ -278,8 +288,8 @@
         "source": "launchhn",
         "title": "Maritime (YC F26) – A managed cloud for production AI agents",
         "url": "https://news.ycombinator.com/item?id=50549188",
-        "points": 57,
-        "comments": 53,
+        "points": 59,
+        "comments": 60,
         "discussion": "https://news.ycombinator.com/item?id=50549188",
         "created": "2026-11-18T17:26:28.000Z"
       },
@@ -288,7 +298,7 @@
         "title": "StarSling (YC P25) – Self-improving CI for agent-volume repos",
         "url": "https://news.ycombinator.com/item?id=50536468",
         "points": 87,
-        "comments": 51,
+        "comments": 52,
         "discussion": "https://news.ycombinator.com/item?id=50536468",
         "created": "2026-11-17T19:01:43.000Z"
       },
@@ -305,10 +315,19 @@
         "source": "hn",
         "title": "Someone reported java4shell bug in September 2026",
         "url": "https://github.com/openjdk/jdk/pull/32781",
-        "points": 208,
-        "comments": 51,
+        "points": 407,
+        "comments": 111,
         "discussion": "https://news.ycombinator.com/item?id=50558906",
         "created": "2026-11-19T11:47:03.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+        "url": "https://github.com/openssl/openssl/pull/33652",
+        "points": 124,
+        "comments": 62,
+        "discussion": "https://news.ycombinator.com/item?id=50569226",
+        "created": "2026-11-20T02:01:09.000Z"
       }
     ]
   },
@@ -4933,12 +4952,12 @@
         "name": "deepseek-ai/dsh-superagent-prototype",
         "description": "Towards a More Autonomous Agent System",
         "language": "TypeScript",
-        "stars": 23948,
+        "stars": 23986,
         "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
         "created": "2026-10-31T09:32:46Z",
         "topics": [],
         "firstSeen": "2026-11-01",
-        "lastSeen": "2026-11-19",
+        "lastSeen": "2026-11-20",
         "starsAtFirstSeen": 5473
       },
       "Arjun-Ingole/hop": {
@@ -4986,12 +5005,12 @@
         "name": "storytold/craft-anything",
         "description": "Craft Anything: understand how any software works, and craft your own.",
         "language": "Rust",
-        "stars": 38238,
+        "stars": 38798,
         "url": "https://github.com/storytold/craft-anything",
         "created": "2026-10-31T14:50:00Z",
         "topics": [],
         "firstSeen": "2026-11-01",
-        "lastSeen": "2026-11-19",
+        "lastSeen": "2026-11-20",
         "starsAtFirstSeen": 432
       },
       "N1nEmAn/sapper-v2": {
@@ -5218,12 +5237,12 @@
         "name": "Minireel/HGhub",
         "description": "Plug-in media player",
         "language": "Rust",
-        "stars": 10299,
+        "stars": 10369,
         "url": "https://github.com/Minireel/HGhub",
         "created": "2026-11-03T14:04:27Z",
         "topics": [],
         "firstSeen": "2026-11-04",
-        "lastSeen": "2026-11-19",
+        "lastSeen": "2026-11-20",
         "starsAtFirstSeen": 538
       },
       "Chipwithinflash/watson-AI-osint-all-in-one": {
@@ -5574,12 +5593,12 @@
         "name": "zortos293/Lichii",
         "description": "VERY experimental Nintendo Switch 2 emulator",
         "language": "C++",
-        "stars": 9817,
+        "stars": 9851,
         "url": "https://github.com/zortos293/Lichii",
         "created": "2026-10-31T14:17:26Z",
         "topics": [],
         "firstSeen": "2026-11-08",
-        "lastSeen": "2026-11-19",
+        "lastSeen": "2026-11-20",
         "starsAtFirstSeen": 6338
       },
       "Th0rgal/satmux": {
@@ -6177,7 +6196,7 @@
         "name": "janestreet/agent_skills",
         "description": "Agent skills",
         "language": null,
-        "stars": 10249,
+        "stars": 10321,
         "url": "https://github.com/janestreet/agent_skills",
         "created": "2026-11-03T16:50:21Z",
         "topics": [],
@@ -6187,7 +6206,7 @@
           "url": "https://news.ycombinator.com/item?id=50438261"
         },
         "firstSeen": "2026-11-13",
-        "lastSeen": "2026-11-19",
+        "lastSeen": "2026-11-20",
         "starsAtFirstSeen": 8082
       },
       "DevedevT/FFmpeg-GUI-Editor-Windows": {
@@ -6717,7 +6736,7 @@
         "name": "libracoder/kiri",
         "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
         "language": "Rust",
-        "stars": 11177,
+        "stars": 11382,
         "url": "https://github.com/libracoder/kiri",
         "created": "2026-11-02T16:11:30Z",
         "topics": [
@@ -6727,7 +6746,7 @@
           "linux"
         ],
         "firstSeen": "2026-11-17",
-        "lastSeen": "2026-11-19",
+        "lastSeen": "2026-11-20",
         "starsAtFirstSeen": 9854
       },
       "krisgfx9/Wireless-Device-Battery-Monitor": {
@@ -6787,7 +6806,7 @@
         "name": "erkamyaman/rust-anything",
         "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
         "language": "Rust",
-        "stars": 2736,
+        "stars": 5565,
         "url": "https://github.com/erkamyaman/rust-anything",
         "created": "2026-11-16T12:10:36Z",
         "topics": [
@@ -6797,7 +6816,7 @@
           "code-migration"
         ],
         "firstSeen": "2026-11-17",
-        "lastSeen": "2026-11-18",
+        "lastSeen": "2026-11-20",
         "starsAtFirstSeen": 481
       },
       "boringmarketer/boring-marketing-skills": {
@@ -6896,19 +6915,19 @@
         "name": "huami1314/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
         "language": "Swift",
-        "stars": 8523,
+        "stars": 8582,
         "url": "https://github.com/huami1314/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": [],
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-19",
+        "lastSeen": "2026-11-20",
         "starsAtFirstSeen": 8506
       },
       "Bodila51/gtavi-claudecode": {
         "name": "Bodila51/gtavi-claudecode",
         "description": "Claude Code plugin that turns GTA 6 streams into paid vertical clips: live campaigns, trending videos, best moments, 9:16 cuts with hooks, captions and credits.",
         "language": "Python",
-        "stars": 643,
+        "stars": 1006,
         "url": "https://github.com/Bodila51/gtavi-claudecode",
         "created": "2026-11-18T17:54:29Z",
         "topics": [
@@ -6918,14 +6937,14 @@
           "gta6"
         ],
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-19",
+        "lastSeen": "2026-11-20",
         "starsAtFirstSeen": 413
       },
       "sourmitocand1987/VividFrame-GPU": {
         "name": "sourmitocand1987/VividFrame-GPU",
         "description": "Any source. One real-time GPU enhancement pipeline. · video enhancer · gpu video · real-time video enhancement · hdr · super-resolution · game-streaming · moonlight · dolby-vision · frame-interpolation · video-player · media-player · video-super-resolution · video-processing · upscaling · rife · vulkan · nvidia · windows · video-enhancement · ncnn",
         "language": null,
-        "stars": 505,
+        "stars": 1169,
         "url": "https://github.com/sourmitocand1987/VividFrame-GPU",
         "created": "2026-11-18T15:51:00Z",
         "topics": [
@@ -6935,7 +6954,7 @@
           "game-streaming"
         ],
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-19",
+        "lastSeen": "2026-11-20",
         "starsAtFirstSeen": 332
       },
       "replit/datacat": {
@@ -6959,7 +6978,7 @@
         "name": "bothaggsigym1988/frameglide",
         "description": "From a 30 fps console stream to 60–120 fps on your PC. · frame-interpolation · frame-generation · nvidia · windows · dlss · super-resolution · vulkan · dlss5 · upscaling · rife · neural-rendering · ps5 · rtx · remote-play · pytorch · video · chiaki · optical-flow · video-frame-interpolation · amd · tensorrt · fsr · rtx-vsr · video-upscaling",
         "language": null,
-        "stars": 469,
+        "stars": 1122,
         "url": "https://github.com/bothaggsigym1988/frameglide",
         "created": "2026-11-18T15:40:02Z",
         "topics": [
@@ -6969,7 +6988,7 @@
           "dlss5"
         ],
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-19",
+        "lastSeen": "2026-11-20",
         "starsAtFirstSeen": 314
       },
       "prusa3d/prusa-connect": {
@@ -6988,12 +7007,12 @@
         "name": "sfewer-r7/CVE-2026-123007",
         "description": "Proof-of-concept (PoC) scripts for CVE-2026-123007, an integer underflow in NGINX HTTP/2.",
         "language": "Python",
-        "stars": 236,
+        "stars": 249,
         "url": "https://github.com/sfewer-r7/CVE-2026-123007",
         "created": "2026-11-18T11:16:51Z",
         "topics": [],
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-19",
+        "lastSeen": "2026-11-20",
         "starsAtFirstSeen": 230
       },
       "dmitrykurash/holospot": {
@@ -7058,7 +7077,7 @@
         "name": "iamajmeena/neonclipping",
         "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
         "language": "Python",
-        "stars": 247,
+        "stars": 583,
         "url": "https://github.com/iamajmeena/neonclipping",
         "created": "2026-11-19T10:00:43Z",
         "topics": [
@@ -7068,20 +7087,83 @@
           "video"
         ],
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-19",
+        "lastSeen": "2026-11-20",
         "starsAtFirstSeen": 235
       },
       "MSNightmare/FastUnlock": {
         "name": "MSNightmare/FastUnlock",
         "description": "FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
         "language": null,
-        "stars": 231,
+        "stars": 424,
         "url": "https://github.com/MSNightmare/FastUnlock",
         "created": "2026-11-19T12:37:51Z",
         "topics": [],
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-19",
+        "lastSeen": "2026-11-20",
         "starsAtFirstSeen": 211
+      },
+      "bookwjitchieni1986/blender-ai-mcp-addon": {
+        "name": "bookwjitchieni1986/blender-ai-mcp-addon",
+        "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+        "language": null,
+        "stars": 858,
+        "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+        "created": "2026-11-19T14:43:10Z",
+        "topics": [
+          "ai-agents",
+          "ai-assistant",
+          "blender",
+          "blender-addon"
+        ],
+        "firstSeen": "2026-11-20",
+        "lastSeen": "2026-11-20",
+        "starsAtFirstSeen": 858
+      },
+      "nataphong-lab/Open-Source-Face-Recognition-Ultimate": {
+        "name": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+        "description": "Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Attributes, Face Templates Extraction, Face Landmarks",
+        "language": "Python",
+        "stars": 233,
+        "url": "https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+        "created": "2026-11-19T10:40:46Z",
+        "topics": [],
+        "firstSeen": "2026-11-20",
+        "lastSeen": "2026-11-20",
+        "starsAtFirstSeen": 233
+      },
+      "HandcuffPerfumer/fl-studio-audio": {
+        "name": "HandcuffPerfumer/fl-studio-audio",
+        "description": "FL Studio Audio is a comprehensive digital audio workstation (DAW) environment designed for music producers and sound engineers to compose, arrange, record, edit, mix, and master studio-quality audio tracks.",
+        "language": null,
+        "stars": 191,
+        "url": "https://github.com/HandcuffPerfumer/fl-studio-audio",
+        "created": "2026-11-20T00:49:31Z",
+        "topics": [
+          "audio-engineering",
+          "beat-making",
+          "digital-audio-workstation",
+          "fl"
+        ],
+        "firstSeen": "2026-11-20",
+        "lastSeen": "2026-11-20",
+        "starsAtFirstSeen": 191
+      },
+      "Dimnyohollow/capcut-pro-video-editor-latest": {
+        "name": "Dimnyohollow/capcut-pro-video-editor-latest",
+        "description": "CapCut Pro Video Editor Latest is an all-in-one, cross-platform video editing suite that equips creators with AI-powered tools, automated captions, background removal, premium effects, and high-resolution 4K export capabilities for producing professional social media and commercial content.",
+        "language": null,
+        "stars": 169,
+        "url": "https://github.com/Dimnyohollow/capcut-pro-video-editor-latest",
+        "created": "2026-11-20T00:52:19Z",
+        "topics": [
+          "capcut-activated",
+          "capcut-crack-2026",
+          "capcut-cracked-2026",
+          "capcut-exe"
+        ],
+        "firstSeen": "2026-11-20",
+        "lastSeen": "2026-11-20",
+        "starsAtFirstSeen": 169
       }
     },
     "posts": {
@@ -11065,7 +11147,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50522776",
         "created": "2026-11-16T20:29:48.000Z",
         "firstSeen": "2026-11-17",
-        "lastSeen": "2026-11-19"
+        "lastSeen": "2026-11-20"
       },
       "https://news.ycombinator.com/item?id=50532086": {
         "source": "hn",
@@ -11116,11 +11198,11 @@
         "title": "StarSling (YC P25) – Self-improving CI for agent-volume repos",
         "url": "https://news.ycombinator.com/item?id=50536468",
         "points": 87,
-        "comments": 51,
+        "comments": 52,
         "discussion": "https://news.ycombinator.com/item?id=50536468",
         "created": "2026-11-17T19:01:43.000Z",
         "firstSeen": "2026-11-18",
-        "lastSeen": "2026-11-19"
+        "lastSeen": "2026-11-20"
       },
       "https://news.ycombinator.com/item?id=50539610": {
         "source": "hn",
@@ -11148,161 +11230,194 @@
         "source": "showhn",
         "title": "Foolscap – a writing app that reads your book and never writes for you",
         "url": "https://foolscap.works/",
-        "points": 94,
-        "comments": 75,
+        "points": 105,
+        "comments": 85,
         "discussion": "https://news.ycombinator.com/item?id=50559749",
         "created": "2026-11-19T13:21:20.000Z",
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-19"
+        "lastSeen": "2026-11-20"
       },
       "https://news.ycombinator.com/item?id=50552140": {
         "source": "showhn",
         "title": "Robotics needs better CAD, so I wrote a B-rep kernel and 3,487 tests",
         "url": "https://springcraft-ai.github.io/springrep/",
-        "points": 32,
-        "comments": 7,
+        "points": 34,
+        "comments": 9,
         "discussion": "https://news.ycombinator.com/item?id=50552140",
         "created": "2026-11-18T21:08:47.000Z",
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-19"
+        "lastSeen": "2026-11-20"
       },
       "https://news.ycombinator.com/item?id=50548161": {
         "source": "showhn",
         "title": "Take Voyager 1 apart, down to a single memory chip",
         "url": "https://rshekhar.com/voyager/",
-        "points": 229,
+        "points": 234,
         "comments": 57,
         "discussion": "https://news.ycombinator.com/item?id=50548161",
         "created": "2026-11-18T16:18:51.000Z",
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-19"
+        "lastSeen": "2026-11-20"
       },
       "https://news.ycombinator.com/item?id=50547980": {
         "source": "showhn",
         "title": "ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
         "url": "https://exitpath-ruddy.vercel.app/",
-        "points": 244,
-        "comments": 90,
+        "points": 248,
+        "comments": 93,
         "discussion": "https://news.ycombinator.com/item?id=50547980",
         "created": "2026-11-18T16:04:43.000Z",
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-19"
+        "lastSeen": "2026-11-20"
       },
       "https://news.ycombinator.com/item?id=50549188": {
         "source": "launchhn",
         "title": "Maritime (YC F26) – A managed cloud for production AI agents",
         "url": "https://news.ycombinator.com/item?id=50549188",
-        "points": 57,
-        "comments": 53,
+        "points": 59,
+        "comments": 60,
         "discussion": "https://news.ycombinator.com/item?id=50549188",
         "created": "2026-11-18T17:26:28.000Z",
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-19"
+        "lastSeen": "2026-11-20"
       },
       "https://news.ycombinator.com/item?id=50558906": {
         "source": "hn",
         "title": "Someone reported java4shell bug in September 2026",
         "url": "https://github.com/openjdk/jdk/pull/32781",
-        "points": 208,
-        "comments": 51,
+        "points": 407,
+        "comments": 111,
         "discussion": "https://news.ycombinator.com/item?id=50558906",
         "created": "2026-11-19T11:47:03.000Z",
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-19"
+        "lastSeen": "2026-11-20"
       },
       "https://news.ycombinator.com/item?id=50562320": {
         "source": "launchhn",
         "title": "Onlook (YC W25) – An open-source developer tool for designers",
         "url": "https://github.com/onlook-dev/onlook/",
-        "points": 33,
-        "comments": 24,
+        "points": 106,
+        "comments": 73,
         "discussion": "https://news.ycombinator.com/item?id=50562320",
         "created": "2026-11-19T16:34:04.000Z",
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-19"
+        "lastSeen": "2026-11-20"
+      },
+      "https://news.ycombinator.com/item?id=50561515": {
+        "source": "showhn",
+        "title": "Cornhole News – A Hacker News inspired site for news across the Midwest",
+        "url": "https://cornholenews.news",
+        "points": 210,
+        "comments": 97,
+        "discussion": "https://news.ycombinator.com/item?id=50561515",
+        "created": "2026-11-19T15:38:32.000Z",
+        "firstSeen": "2026-11-20",
+        "lastSeen": "2026-11-20"
+      },
+      "https://news.ycombinator.com/item?id=50561436": {
+        "source": "showhn",
+        "title": "Watch weight-space programming in action with WebGPU",
+        "url": "https://tabbyml.github.io/weight-space-playground/",
+        "points": 33,
+        "comments": 5,
+        "discussion": "https://news.ycombinator.com/item?id=50561436",
+        "created": "2026-11-19T15:32:47.000Z",
+        "firstSeen": "2026-11-20",
+        "lastSeen": "2026-11-20"
+      },
+      "https://news.ycombinator.com/item?id=50569226": {
+        "source": "hn",
+        "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+        "url": "https://github.com/openssl/openssl/pull/33652",
+        "points": 124,
+        "comments": 62,
+        "discussion": "https://news.ycombinator.com/item?id=50569226",
+        "created": "2026-11-20T02:01:09.000Z",
+        "firstSeen": "2026-11-20",
+        "lastSeen": "2026-11-20"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-11-19T18:38:46.387Z",
+    "fetchedAt": "2026-11-20T06:34:04.369Z",
     "hn": [
       {
-        "title": "How the European Commission rolled out Matrix to more than 40k staff",
-        "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
-        "points": 570,
-        "comments": 274,
-        "discussion": "https://news.ycombinator.com/item?id=50558533"
+        "title": "Anthropic’s Nasdaq debut",
+        "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+        "points": 1037,
+        "comments": 2049,
+        "discussion": "https://news.ycombinator.com/item?id=50562754"
       },
       {
         "title": "Garage Door Spam",
         "url": "https://blog.harrison.page/garage-door-spam/",
-        "points": 541,
-        "comments": 228,
+        "points": 820,
+        "comments": 344,
         "discussion": "https://news.ycombinator.com/item?id=50519231"
       },
       {
-        "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
-        "url": "https://verialabs.com/ruby2shell/",
-        "points": 325,
-        "comments": 133,
-        "discussion": "https://news.ycombinator.com/item?id=50556287"
+        "title": "Pancreatic cancer halted by virus injection in three patients",
+        "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+        "points": 718,
+        "comments": 112,
+        "discussion": "https://news.ycombinator.com/item?id=50563066"
       },
       {
-        "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
-        "url": "https://kapteko.com/15-million-webservers/",
-        "points": 317,
-        "comments": 36,
-        "discussion": "https://news.ycombinator.com/item?id=50556533"
+        "title": "UK government forced to admit it issued Apple a secret encryption order",
+        "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+        "points": 599,
+        "comments": 267,
+        "discussion": "https://news.ycombinator.com/item?id=50562113"
       },
       {
-        "title": "SSD prices may begin to decline in the latter half of 2027",
-        "url": "https://www.drivevault.io/blog/when-will-hard-drive-prices-come-down.html",
-        "points": 256,
-        "comments": 211,
-        "discussion": "https://news.ycombinator.com/item?id=50557716"
-      },
-      {
-        "title": "Everything you need to survive and rebuild society",
-        "url": "https://lastbook.org/",
-        "points": 232,
-        "comments": 130,
-        "discussion": "https://news.ycombinator.com/item?id=50560822"
-      },
-      {
-        "title": "What's New in PHP 8.6",
-        "url": "https://www.php.net/releases/8.6/en.php",
-        "points": 228,
-        "comments": 104,
-        "discussion": "https://news.ycombinator.com/item?id=50557870"
-      },
-      {
-        "title": "Anthropic hits $2T in Nasdaq debut",
-        "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-        "points": 218,
-        "comments": 298,
-        "discussion": "https://news.ycombinator.com/item?id=50562754"
+        "title": "Claude solves two open problems in the physics of black holes",
+        "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+        "points": 456,
+        "comments": 218,
+        "discussion": "https://news.ycombinator.com/item?id=50563148"
       },
       {
         "title": "Someone reported java4shell bug in September 2026",
         "url": "https://github.com/openjdk/jdk/pull/32781",
-        "points": 208,
-        "comments": 51,
+        "points": 407,
+        "comments": 111,
         "discussion": "https://news.ycombinator.com/item?id=50558906"
       },
       {
-        "title": "Distributed, high-performance blob storage on SQLite",
-        "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
-        "points": 198,
-        "comments": 58,
-        "discussion": "https://news.ycombinator.com/item?id=50557537"
+        "title": "Making 8-page foldable zines from a single A4 sheet in the browser",
+        "url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
+        "points": 280,
+        "comments": 61,
+        "discussion": "https://news.ycombinator.com/item?id=50559719"
+      },
+      {
+        "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
+        "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+        "points": 249,
+        "comments": 138,
+        "discussion": "https://news.ycombinator.com/item?id=50564159"
+      },
+      {
+        "title": "How to CAD Almost Anything",
+        "url": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/",
+        "points": 211,
+        "comments": 62,
+        "discussion": "https://news.ycombinator.com/item?id=50528119"
+      },
+      {
+        "title": "Show HN: Cornhole News – A Hacker News inspired site for news across the Midwest",
+        "url": "https://cornholenews.news",
+        "points": 210,
+        "comments": 97,
+        "discussion": "https://news.ycombinator.com/item?id=50561515"
       }
     ],
     "lobsters": [
       {
         "title": "Design for Understandability",
         "url": "https://jschuster.org/blog/2026/11/19/design-for-understandability/",
-        "points": 14,
-        "comments": 10,
+        "points": 34,
+        "comments": 20,
         "discussion": "https://lobste.rs/s/qsrnot/design_for_understandability",
         "tags": [
           "api",
@@ -11312,83 +11427,52 @@
         ]
       },
       {
+        "title": "PostgreSQL 19 Released",
+        "url": "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+        "points": 64,
+        "comments": 3,
+        "discussion": "https://lobste.rs/s/pqyuhk/postgresql_19_released",
+        "tags": [
+          "databases",
+          "release"
+        ]
+      },
+      {
         "title": "We Need Smart People Who Give a Shit",
         "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
-        "points": 75,
-        "comments": 31,
+        "points": 149,
+        "comments": 55,
         "discussion": "https://lobste.rs/s/rzuasm/we_need_smart_people_who_give_shit",
         "tags": [
           "culture"
         ]
       },
       {
-        "title": "PostgreSQL 19 Released",
-        "url": "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
-        "points": 18,
-        "comments": 1,
-        "discussion": "https://lobste.rs/s/pqyuhk/postgresql_19_released",
+        "title": "Mutex poisoning is not for everyone",
+        "url": "https://bertptrs.nl/2026/11/16/mutex-poisoning-is-not-for-everyone.html",
+        "points": 30,
+        "comments": 8,
+        "discussion": "https://lobste.rs/s/uzn2t6/mutex_poisoning_is_not_for_everyone",
         "tags": [
-          "databases"
+          "rust"
         ]
       },
       {
-        "title": "Codeberg's domain suddenly disappeared from their account, site is unreachable",
-        "url": "https://social.anoxinon.de/@Codeberg/117636454915265360",
-        "points": 215,
-        "comments": 66,
-        "discussion": "https://lobste.rs/s/spmgsd/codeberg_s_domain_suddenly_disappeared",
+        "title": "Hiring a Systems Programmer for Boxem",
+        "url": "https://lobste.rs/s/pnfs5p/hiring_systems_programmer_for_boxem",
+        "points": 16,
+        "comments": 7,
+        "discussion": "https://lobste.rs/s/pnfs5p/hiring_systems_programmer_for_boxem",
         "tags": [
-          "vcs"
-        ]
-      },
-      {
-        "title": "Ruby2Shell (GHSA-34m4-m9fh-gqp5)",
-        "url": "https://verialabs.com/ruby2shell/",
-        "points": 13,
-        "comments": 5,
-        "discussion": "https://lobste.rs/s/usdf7t/ruby2shell_ghsa_34m4_m9fh_gqp5",
-        "tags": [
-          "ruby",
-          "security"
-        ]
-      },
-      {
-        "title": "nginx2root",
-        "url": "https://xint.io/blog/nginx2root-remote-code-execution",
-        "points": 82,
-        "comments": 16,
-        "discussion": "https://lobste.rs/s/wj2svg/nginx2root",
-        "tags": [
-          "security"
-        ]
-      },
-      {
-        "title": "PHP 8.6 Release Announcement",
-        "url": "https://www.php.net/releases/8.6/en.php",
-        "points": 14,
-        "comments": 3,
-        "discussion": "https://lobste.rs/s/xn50o0/php_8_6_release_announcement",
-        "tags": [
-          "php",
-          "release"
-        ]
-      },
-      {
-        "title": "Java4Shell is a reason to use Java",
-        "url": "https://mccue.dev/pages/11-18-26-java4shell",
-        "points": 39,
-        "comments": 15,
-        "discussion": "https://lobste.rs/s/a1uff5/java4shell_is_reason_use_java",
-        "tags": [
-          "java",
-          "security"
+          "c",
+          "job"
         ]
       },
       {
         "title": "15 million web servers on one VM - smoltcp, DPDK, AF_XDP",
         "url": "https://kapteko.com/15-million-webservers/",
-        "points": 11,
-        "comments": 0,
+        "points": 40,
+        "comments": 1,
         "discussion": "https://lobste.rs/s/elmy67/15_million_web_servers_on_one_vm_smoltcp",
         "tags": [
           "networking",
@@ -11396,10 +11480,41 @@
         ]
       },
       {
+        "title": "Ruby2Shell (GHSA-34m4-m9fh-gqp5)",
+        "url": "https://verialabs.com/ruby2shell/",
+        "points": 25,
+        "comments": 6,
+        "discussion": "https://lobste.rs/s/usdf7t/ruby2shell_ghsa_34m4_m9fh_gqp5",
+        "tags": [
+          "ruby",
+          "security"
+        ]
+      },
+      {
+        "title": "Garage Door Spam",
+        "url": "https://blog.harrison.page/garage-door-spam/",
+        "points": 3,
+        "comments": 2,
+        "discussion": "https://lobste.rs/s/tr5ghf/garage_door_spam",
+        "tags": [
+          "hardware"
+        ]
+      },
+      {
+        "title": "Codeberg's domain suddenly disappeared from their account, site is unreachable",
+        "url": "https://social.anoxinon.de/@Codeberg/117636454915265360",
+        "points": 223,
+        "comments": 73,
+        "discussion": "https://lobste.rs/s/spmgsd/codeberg_s_domain_suddenly_disappeared",
+        "tags": [
+          "vcs"
+        ]
+      },
+      {
         "title": "Distributed, high-performance blob storage on SQLite",
         "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
-        "points": 17,
-        "comments": 0,
+        "points": 27,
+        "comments": 3,
         "discussion": "https://lobste.rs/s/bk5nfs/distributed_high_performance_blob",
         "tags": [
           "distributed",
@@ -11409,33 +11524,9 @@
     ],
     "devto": [
       {
-        "title": "Stratagems #36: They Finished Their Coffee. The AI Still Has No Answer.",
-        "url": "https://dev.to/xulingfeng/stratagems-36-they-finished-their-coffee-the-ai-still-has-no-answer-4igh",
-        "points": 97,
-        "comments": 40,
-        "discussion": "https://dev.to/xulingfeng/stratagems-36-they-finished-their-coffee-the-ai-still-has-no-answer-4igh",
-        "tags": [
-          "discuss",
-          "ai",
-          "career"
-        ]
-      },
-      {
-        "title": "My Linux Course Put Me to Sleep, So I Built Something That Wouldn’t",
-        "url": "https://dev.to/maame-codes/my-linux-course-put-me-to-sleep-so-i-built-something-that-wouldnt-5g4k",
-        "points": 64,
-        "comments": 2,
-        "discussion": "https://dev.to/maame-codes/my-linux-course-put-me-to-sleep-so-i-built-something-that-wouldnt-5g4k",
-        "tags": [
-          "beginners",
-          "learning",
-          "linux"
-        ]
-      },
-      {
         "title": "My First GitHub Issue & My First Forem (DEV.to) Issue 🚀",
         "url": "https://dev.to/necoz/my-first-github-issue-my-first-forem-devto-issue-5eap",
-        "points": 52,
+        "points": 54,
         "comments": 13,
         "discussion": "https://dev.to/necoz/my-first-github-issue-my-first-forem-devto-issue-5eap",
         "tags": [
@@ -11445,22 +11536,34 @@
         ]
       },
       {
-        "title": "Serverless Gemma 4: E2B on a Lambda GPU Function, with Google's QAT Weights and Drafter",
-        "url": "https://dev.to/gde/serverless-gemma-4-e2b-on-a-lambda-gpu-function-with-googles-qat-weights-and-drafter-fh4",
-        "points": 24,
-        "comments": 1,
-        "discussion": "https://dev.to/gde/serverless-gemma-4-e2b-on-a-lambda-gpu-function-with-googles-qat-weights-and-drafter-fh4",
+        "title": "After the Thirty-Six Stratagems: Three Questions",
+        "url": "https://dev.to/xulingfeng/after-the-thirty-six-stratagems-three-questions-gb1",
+        "points": 47,
+        "comments": 20,
+        "discussion": "https://dev.to/xulingfeng/after-the-thirty-six-stratagems-three-questions-gb1",
         "tags": [
-          "gemma",
+          "discuss",
           "ai",
-          "vllm"
+          "career"
+        ]
+      },
+      {
+        "title": "What team-wide AI adoption actually takes",
+        "url": "https://dev.to/peter/what-team-wide-ai-adoption-actually-takes-1gbh",
+        "points": 29,
+        "comments": 2,
+        "discussion": "https://dev.to/peter/what-team-wide-ai-adoption-actually-takes-1gbh",
+        "tags": [
+          "ai",
+          "productivity",
+          "discuss"
         ]
       },
       {
         "title": "Stop Wrapping Everything in Promise.all: How Unbounded Concurrency Crashes APIs",
         "url": "https://dev.to/johnnylemonny/stop-wrapping-everything-in-promiseall-how-unbounded-concurrency-crashes-apis-11ol",
-        "points": 17,
-        "comments": 2,
+        "points": 23,
+        "comments": 13,
         "discussion": "https://dev.to/johnnylemonny/stop-wrapping-everything-in-promiseall-how-unbounded-concurrency-crashes-apis-11ol",
         "tags": [
           "javascript",
@@ -11469,34 +11572,46 @@
         ]
       },
       {
-        "title": "Exploring Decision Models, Part 1: Putting Gemini Decision 1 to the Test",
-        "url": "https://dev.to/googleai/exploring-decision-models-part-1-putting-gemini-decision-1-to-the-test-50f0",
-        "points": 14,
-        "comments": 0,
-        "discussion": "https://dev.to/googleai/exploring-decision-models-part-1-putting-gemini-decision-1-to-the-test-50f0",
+        "title": "C# 15 Unpacked: Unions Have Arrived. Here's Why They Matter",
+        "url": "https://dev.to/georgekobaidze/c-15-unpacked-unions-have-arrived-heres-why-they-matter-48je",
+        "points": 18,
+        "comments": 2,
+        "discussion": "https://dev.to/georgekobaidze/c-15-unpacked-unions-have-arrived-heres-why-they-matter-48je",
         "tags": [
-          "ai",
-          "googlecloud",
-          "gemini"
+          "dotnet",
+          "csharp",
+          "news"
         ]
       },
       {
-        "title": "A DigitalOcean volume next to the Droplet's own disk",
-        "url": "https://dev.to/remdore/a-digitalocean-volume-next-to-the-droplets-own-disk-51nb",
-        "points": 14,
-        "comments": 1,
-        "discussion": "https://dev.to/remdore/a-digitalocean-volume-next-to-the-droplets-own-disk-51nb",
+        "title": "Maintaining open source projects up to date with Renovate and Antigravity",
+        "url": "https://dev.to/gde/maintaining-open-source-projects-up-to-date-with-renovate-and-antigravity-3haj",
+        "points": 17,
+        "comments": 2,
+        "discussion": "https://dev.to/gde/maintaining-open-source-projects-up-to-date-with-renovate-and-antigravity-3haj",
         "tags": [
-          "digitalocean",
-          "linux",
-          "postgres"
+          "antigravity",
+          "renovate",
+          "development"
+        ]
+      },
+      {
+        "title": "Can a plain table hijack an AI agent?",
+        "url": "https://dev.to/edbrdi/can-a-plain-table-hijack-an-ai-agent-2pde",
+        "points": 16,
+        "comments": 25,
+        "discussion": "https://dev.to/edbrdi/can-a-plain-table-hijack-an-ai-agent-2pde",
+        "tags": [
+          "ai",
+          "security",
+          "llm"
         ]
       },
       {
         "title": "Stop Paying LLM Prices for an if Statement: A Field Guide to Decision Models in Late 2026",
         "url": "https://dev.to/amananandrai/stop-paying-llm-prices-for-an-if-statement-a-field-guide-to-decision-models-in-late-2026-4d24",
-        "points": 12,
-        "comments": 5,
+        "points": 15,
+        "comments": 11,
         "discussion": "https://dev.to/amananandrai/stop-paying-llm-prices-for-an-if-statement-a-field-guide-to-decision-models-in-late-2026-4d24",
         "tags": [
           "ai",
@@ -11505,33 +11620,33 @@
         ]
       },
       {
+        "title": "Thinking On or Off? Gemma 4 E4B on an 8 GB RTX 3050",
+        "url": "https://dev.to/gde/thinking-on-or-off-gemma-4-e4b-on-an-8-gb-rtx-3050-5d5",
+        "points": 15,
+        "comments": 3,
+        "discussion": "https://dev.to/gde/thinking-on-or-off-gemma-4-e4b-on-an-8-gb-rtx-3050-5d5",
+        "tags": [
+          "gemma",
+          "llm",
+          "benchmark"
+        ]
+      },
+      {
         "title": "What this week's nginx HTTP/2 CVEs mean for the server I actually run",
         "url": "https://dev.to/alexgeorgiev17/what-this-weeks-nginx-http2-cves-mean-for-the-server-i-actually-run-3nbf",
-        "points": 11,
-        "comments": 1,
+        "points": 15,
+        "comments": 8,
         "discussion": "https://dev.to/alexgeorgiev17/what-this-weeks-nginx-http2-cves-mean-for-the-server-i-actually-run-3nbf",
         "tags": [
           "nginx",
           "security",
           "devops"
         ]
-      },
-      {
-        "title": "Running my agent's code through DigitalOcean's Action Gateway",
-        "url": "https://dev.to/alexgeorgiev17/running-my-agents-code-through-digitaloceans-action-gateway-7o7",
-        "points": 11,
-        "comments": 0,
-        "discussion": "https://dev.to/alexgeorgiev17/running-my-agents-code-through-digitaloceans-action-gateway-7o7",
-        "tags": [
-          "digitalocean",
-          "ai",
-          "agents"
-        ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-11-19T18:38:46.387Z",
+    "fetchedAt": "2026-11-20T06:34:04.369Z",
     "candidates": {
       "https://blog.cloudflare.com/vole-mole": {
         "source": "Cloudflare",
@@ -11539,27 +11654,6 @@
         "url": "https://blog.cloudflare.com/vole-mole/",
         "published": "2026-11-06T14:00:00.000Z",
         "summary": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap."
-      },
-      "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture": {
-        "source": "GitHub",
-        "title": "Inside GitHub’s new Git storage architecture",
-        "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-        "published": "2026-11-05T20:23:21.000Z",
-        "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog ."
-      },
-      "https://aws.amazon.com/blogs/architecture/how-orderserv-achieved-up-to-64-cost-savings-with-multi-tenant-ecs": {
-        "source": "AWS Architecture",
-        "title": "How OrderServ achieved up to 64% cost savings with multi-tenant ECS",
-        "url": "https://aws.amazon.com/blogs/architecture/how-orderserv-achieved-up-to-64-cost-savings-with-multi-tenant-ecs/",
-        "published": "2026-11-06T00:09:41.000Z",
-        "summary": "See how Cognizant and AWS Professional Services transformed the OrderServ food-ordering platform into a multi-tenant SaaS offering on shared Amazon ECS, cutting compute costs up to 64%, reducing scaling time from minutes to seconds, and lowering authentication costs by 80%."
-      },
-      "https://aws.amazon.com/blogs/architecture/how-tui-scales-threat-modeling-for-100-teams-with-amazon-bedrock": {
-        "source": "AWS Architecture",
-        "title": "How TUI scales threat modeling for 100+ teams with Amazon Bedrock",
-        "url": "https://aws.amazon.com/blogs/architecture/how-tui-scales-threat-modeling-for-100-teams-with-amazon-bedrock/",
-        "published": "2026-11-05T18:45:07.000Z",
-        "summary": "Learn how TUI, the world's leading tourism group, built an AI-powered threat modeling system on Amazon Bedrock and Amazon Bedrock AgentCore to scale security assessments across more than 100 product teams, cutting threat modeling time by up to 70% while applying security standards consistently."
       },
       "https://www.figma.com/blog/in-conversation-dylan-field-and-david-friedberg": {
         "source": "Figma",
@@ -12157,11 +12251,47 @@
         "url": "https://discord.com/blog/discord-update-november-19-2026",
         "published": "2026-11-19T00:00:00.000Z",
         "summary": "Here's the Discord Changelog from November 19, 2026, so you can stay informed on what’s new in recent app updates!"
+      },
+      "https://blog.cloudflare.com/nginx2root": {
+        "source": "Cloudflare",
+        "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+        "url": "https://blog.cloudflare.com/nginx2root/",
+        "published": "2026-11-20T01:58:29.000Z",
+        "summary": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs."
+      },
+      "https://stripe.com/blog/give-your-agents-controlled-access-to-analyze-your-data-and-move-funds": {
+        "source": "Stripe",
+        "title": "Give your agents controlled access to analyze your data and move funds",
+        "url": "https://stripe.com/blog/give-your-agents-controlled-access-to-analyze-your-data-and-move-funds",
+        "published": "2026-11-19T00:00:00.000Z",
+        "summary": "Stripe Treasury now lets agents transfer funds, convert currencies, and pay vendors within limits you set. Give agents the access they need to help run your business, with customizable controls and human approvals."
+      },
+      "https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos": {
+        "source": "AWS Architecture",
+        "title": "AI coding agents on Amazon EC2 Mac: How Cognition scales Devin for macOS",
+        "url": "https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos/",
+        "published": "2026-11-20T01:10:14.000Z",
+        "summary": "Cognition gave its AI software engineer, Devin, a cloud Mac. Each Devin session gets a fresh macOS VM on Amazon EC2 Mac bare metal hosts, so Devin can build, run, and test iOS and macOS apps. Learn how Cognition built it with disk snapshots, a user-space network gateway, prepared guest images, and accessibility-based control."
+      },
+      "https://aws.amazon.com/blogs/architecture/how-country-road-group-built-a-pattern-driven-integration-solution-on-aws": {
+        "source": "AWS Architecture",
+        "title": "How Country Road Group built a pattern-driven integration solution on AWS",
+        "url": "https://aws.amazon.com/blogs/architecture/how-country-road-group-built-a-pattern-driven-integration-solution-on-aws/",
+        "published": "2026-11-19T23:07:30.000Z",
+        "summary": "Country Road Group replaced Microsoft BizTalk with a pattern-driven, serverless integration platform on AWS. Learn how its Strategic Integration Platform works across four processing lanes, and get the open-source Enterprise Integration Patterns CDK library to apply the same approach to your own middleware."
+      },
+      "https://dl.acm.org/doi/10.1145/3830418.3843899": {
+        "source": "Lobsters",
+        "title": "Validating a High-Performance Cloud Object Store with Lightweight Formal Methods",
+        "url": "https://dl.acm.org/doi/10.1145/3830418.3843899",
+        "discussion": "https://lobste.rs/s/zfe21b/validating_high_performance_cloud",
+        "published": "2026-11-19T08:53:43.470Z",
+        "summary": ""
       }
     }
   },
   "world": {
-    "fetchedAt": "2026-11-19T18:38:46.387Z",
+    "fetchedAt": "2026-11-20T06:34:04.369Z",
     "candidates": {
       "https://www.theverge.com/policy/1037804/elon-musk-maga-dealbook": {
         "source": "The Verge",
@@ -12904,11 +13034,326 @@
         "url": "https://yourstory.com/2026/11/ms-dhonis-startup-investments-13-companies-he-has-backed",
         "published": "2026-11-19T07:21:31.000Z",
         "summary": "From Garuda Aerospace to SolarSquare, explore 13 startups backed by MS Dhoni across fintech, electric mobility, gaming and clean energy."
+      },
+      "https://www.theregister.com/personal-tech/2026/11/20/support-tech-fixed-malware-by-charging-client-less-for-their-services/5310959": {
+        "source": "The Register",
+        "title": "Support tech fixed malware by charging client less for their services",
+        "url": "https://www.theregister.com/personal-tech/2026/11/20/support-tech-fixed-malware-by-charging-client-less-for-their-services/5310959",
+        "published": "2026-11-20T06:29:00.000Z",
+        "summary": "‘I gave up at least $6,000 and I’d do it again’"
+      },
+      "https://www.thehindu.com/sci-tech/technology/if-ai-lifts-productivity-will-demand-sustain-growth/article71720146.ece": {
+        "source": "The Hindu",
+        "title": "If AI lifts productivity, will demand sustain growth?",
+        "url": "https://www.thehindu.com/sci-tech/technology/if-ai-lifts-productivity-will-demand-sustain-growth/article71720146.ece",
+        "published": "2026-11-20T06:05:43.000Z",
+        "summary": "Tugan-Baranovsky argued that machines can produce machines which can produce more machines, while Luxemburg contended that machines are not an end in themselves; only time will tell who is right"
+      },
+      "https://yourstory.com/2026/11/vembu-flags-possible-us-immigration-reversal-could-revive-housing-demand": {
+        "source": "YourStory",
+        "title": "Vembu flags possible US immigration reversal, says it could revive housing demand",
+        "url": "https://yourstory.com/2026/11/vembu-flags-possible-us-immigration-reversal-could-revive-housing-demand",
+        "published": "2026-11-20T05:12:48.000Z",
+        "summary": "Sridhar Vembu warns that a possible US immigration policy reversal could restore population-driven demand in housing and other sectors."
+      },
+      "https://yourstory.com/2026/11/bengaluru-tech-summit-innovation-entrepreneur-photography": {
+        "source": "YourStory",
+        "title": "Meet the innovators exhibiting at Bengaluru Tech Summit 2026",
+        "url": "https://yourstory.com/2026/11/bengaluru-tech-summit-innovation-entrepreneur-photography",
+        "published": "2026-11-20T04:59:27.000Z",
+        "summary": "In our photo essay from BTS at the Bangalore International Exhibition Centre, we showcase highlights from the exhibition halls."
+      },
+      "https://www.theregister.com/legal/2026/11/20/big-techs-compliance-with-eu-market-rules-is-performative-consumer-group-says/5311066": {
+        "source": "The Register",
+        "title": "Big Tech's compliance with EU market rules is performative, consumer group says",
+        "url": "https://www.theregister.com/legal/2026/11/20/big-techs-compliance-with-eu-market-rules-is-performative-consumer-group-says/5311066",
+        "published": "2026-11-20T04:30:00.000Z",
+        "summary": "BEUC urges Brussels to impose tougher penalties over alleged barriers to switching services and controlling personal data"
+      },
+      "https://www.theregister.com/legal/2026/11/20/us-let-nvidia-and-amd-sell-bucketloads-of-chips-to-military-linked-chinese-companies/5311200": {
+        "source": "The Register",
+        "title": "US let Nvidia and AMD sell bucketloads of chips to military-linked Chinese companies",
+        "url": "https://www.theregister.com/legal/2026/11/20/us-let-nvidia-and-amd-sell-bucketloads-of-chips-to-military-linked-chinese-companies/5311200",
+        "published": "2026-11-20T04:04:56.000Z",
+        "summary": "Not many of them made it in, but Chinese clouds no longer care"
+      },
+      "https://www.thehindu.com/business/markets/ai-firm-anthropic-shares-wall-streets-nasdaq-debut/article71721723.ece": {
+        "source": "The Hindu",
+        "title": "Anthropic shares close 17% higher on first day of trading",
+        "url": "https://www.thehindu.com/business/markets/ai-firm-anthropic-shares-wall-streets-nasdaq-debut/article71721723.ece",
+        "published": "2026-11-20T04:01:02.000Z",
+        "summary": "The shares ended the session at around $97, up from an IPO price of $83, after opening at $111.50 and briefly valuing the maker of the Claude chatbot at about $2 trillion"
+      },
+      "https://www.thehindu.com/business/anthropic-raises-81-billion-in-ipo-amid-ai-market-volatility/article71721392.ece": {
+        "source": "The Hindu",
+        "title": "Anthropic raises $81 billion in IPO amid AI market volatility",
+        "url": "https://www.thehindu.com/business/anthropic-raises-81-billion-in-ipo-amid-ai-market-volatility/article71721392.ece",
+        "published": "2026-11-20T03:59:51.000Z",
+        "summary": "The Claude maker priced its shares at $83 apiece, implying an equity valuation of about $1.03 trillion based on outstanding shares, with trading scheduled to begin on Nasdaq under the ticker ANT on November 19"
+      },
+      "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=rss&at_campaign=rss": {
+        "source": "BBC Technology",
+        "title": "GTA 6 breaks records as estimated sales top $2.3bn",
+        "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-20T02:54:40.000Z",
+        "summary": "Rockstar Games ended a 13-year wait with what is expected to be the biggest entertainment launch ever."
+      },
+      "https://yourstory.com/2026/11/my-dream-is-to-make-wework-india-the-default-choice-for-workspaces": {
+        "source": "YourStory",
+        "title": "‘My dream is to make WeWork India the default choice for workspaces’",
+        "url": "https://yourstory.com/2026/11/my-dream-is-to-make-wework-india-the-default-choice-for-workspaces",
+        "published": "2026-11-20T01:45:00.000Z",
+        "summary": "CEO and Managing Director Karan Virmani speaks to YourStory about WeWork India's first year as a public company, its expanding product portfolio, the impact of AI, market opportunities, and his ambitions for the business."
+      },
+      "https://www.theregister.com/security/2026/11/20/flaws-in-vmware-and-kvm-need-attention-if-you-have-time-while-fixing-java-php-and-everything-else/5311193": {
+        "source": "The Register",
+        "title": "Flaws in VMware and KVM need attention, if you have time while fixing Java, PHP, and everything else",
+        "url": "https://www.theregister.com/security/2026/11/20/flaws-in-vmware-and-kvm-need-attention-if-you-have-time-while-fixing-java-php-and-everything-else/5311193",
+        "published": "2026-11-20T00:57:45.000Z",
+        "summary": "Critical Virtzilla bugs, plus a strange Digital Ocean reaction to a nested virtualization issue"
+      },
+      "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac": {
+        "source": "TechCrunch",
+        "title": "Apple may be developing its own AI agent that runs your Mac",
+        "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+        "published": "2026-11-20T00:56:01.000Z",
+        "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots."
+      },
+      "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo": {
+        "source": "TechCrunch",
+        "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+        "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+        "published": "2026-11-20T00:43:50.000Z",
+        "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion."
+      },
+      "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models": {
+        "source": "TechCrunch",
+        "title": "Anthropic rival says companies can (mostly) skip the pricey models",
+        "url": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
+        "published": "2026-11-20T00:26:03.000Z",
+        "summary": "On the day Anthropic went public, Fireworks AI’s co-founder made the case for open source models as a cheaper alternative, and addressed the breaches that have cost the company some customers’ trust."
+      },
+      "https://www.theregister.com/security/2026/11/20/germ-network-infects-android-but-in-a-good-way/5311186": {
+        "source": "The Register",
+        "title": "Germ Network infects Android, but in a good way",
+        "url": "https://www.theregister.com/security/2026/11/20/germ-network-infects-android-but-in-a-good-way/5311186",
+        "published": "2026-11-20T00:06:35.000Z",
+        "summary": "Bluesky's preferred encrypted messaging app allows multiple identities without tying you to a phone number"
+      },
+      "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=rss&at_campaign=rss": {
+        "source": "BBC Technology",
+        "title": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
+        "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-20T00:02:07.000Z",
+        "summary": "Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe."
+      },
+      "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones": {
+        "source": "TechCrunch",
+        "title": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
+        "url": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
+        "published": "2026-11-19T23:37:56.000Z",
+        "summary": "SpaceX CEO Elon Musk said the company has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones."
+      },
+      "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=rss&at_campaign=rss": {
+        "source": "BBC Technology",
+        "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+        "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-19T23:33:51.000Z",
+        "summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry."
+      },
+      "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you": {
+        "source": "TechCrunch",
+        "title": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you",
+        "url": "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/",
+        "published": "2026-11-19T22:33:26.000Z",
+        "summary": "IconSwapper brings your Mac's app icons to life with real-time data, animations, and playful customizations that make your desktop more fun."
+      },
+      "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing": {
+        "source": "The Verge",
+        "title": "Apple is hiring engineers to build its own AI agent",
+        "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+        "published": "2026-11-19T22:31:41.000Z",
+        "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant. […]"
+      },
+      "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up": {
+        "source": "Ars Technica",
+        "title": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
+        "url": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/",
+        "published": "2026-11-19T22:16:37.000Z",
+        "summary": "Amazon now uses its shopping platform for political purposes."
+      },
+      "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings": {
+        "source": "The Verge",
+        "title": "A brief history of Nvidia’s recent stock fluctuations",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+        "published": "2026-11-19T21:59:35.000Z",
+        "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings […]"
+      },
+      "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300": {
+        "source": "TechCrunch",
+        "title": "Meta’s new Muse Charm device may cost $300",
+        "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+        "published": "2026-11-19T21:58:06.000Z",
+        "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable."
+      },
+      "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style": {
+        "source": "TechCrunch",
+        "title": "These tech outages are giving Y2K, AI agent style",
+        "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+        "published": "2026-11-19T21:42:31.000Z",
+        "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say."
+      },
+      "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers": {
+        "source": "TechCrunch",
+        "title": "Uber tests rides for kids as young as 10, with extra pay for drivers",
+        "url": "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers/",
+        "published": "2026-11-19T21:33:24.000Z",
+        "summary": "Uber is testing the new program in three U.S. cities."
+      },
+      "https://arstechnica.com/health/2026/11/maha-pac-spent-more-on-steak-luxury-club-than-candidates-report-shows": {
+        "source": "Ars Technica",
+        "title": "MAHA PAC spent more on steak, luxury club than candidates, report shows",
+        "url": "https://arstechnica.com/health/2026/11/maha-pac-spent-more-on-steak-luxury-club-than-candidates-report-shows/",
+        "published": "2026-11-19T21:19:12.000Z",
+        "summary": "Expert called MAHA's spending \"pretty unusual\" for a PAC."
+      },
+      "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175": {
+        "source": "The Register",
+        "title": "Chase, Visa, Mastercard confirm third-party cyberattacks that may have exposed customers' info",
+        "url": "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+        "published": "2026-11-19T21:12:33.000Z",
+        "summary": "First service outages, then data breaches…what's next?!"
+      },
+      "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app": {
+        "source": "The Verge",
+        "title": "Meta now sells 3D movies on Quest VR headsets",
+        "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
+        "published": "2026-11-19T21:12:06.000Z",
+        "summary": "Meta now offers more than 150 3D movies that you can buy or rent to watch in VR on its Quest 3 and 3S headsets, the company announced today. The movies are available in Meta's TV app and include titles like Avatar, Spider-Man: Far From Home, Jurassic World Rebirth, Wicked: For Good, and a Billie […]"
+      },
+      "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia": {
+        "source": "Ars Technica",
+        "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
+        "url": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
+        "published": "2026-11-19T20:29:46.000Z",
+        "summary": "25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit."
+      },
+      "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price": {
+        "source": "The Verge",
+        "title": "Meta’s Muse Charm might cost $300",
+        "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+        "published": "2026-11-19T20:22:17.000Z",
+        "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but […]"
+      },
+      "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert": {
+        "source": "Ars Technica",
+        "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+        "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+        "published": "2026-11-19T20:19:28.000Z",
+        "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives."
+      },
+      "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline": {
+        "source": "TechCrunch",
+        "title": "The unfolding Jensen Huang scandal: a timeline",
+        "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+        "published": "2026-11-19T20:18:49.000Z",
+        "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure."
+      },
+      "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats": {
+        "source": "The Verge",
+        "title": "Google is putting AI chats right on the homepage",
+        "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+        "published": "2026-11-19T20:05:06.000Z",
+        "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the […]"
+      },
+      "https://www.theregister.com/ai-and-ml/2026/11/19/palo-alto-networks-opens-wallet-for-open-weight-training-biz/5311168": {
+        "source": "The Register",
+        "title": "Palo Alto Networks opens wallet for open-weight training biz",
+        "url": "https://www.theregister.com/ai-and-ml/2026/11/19/palo-alto-networks-opens-wallet-for-open-weight-training-biz/5311168",
+        "published": "2026-11-19T20:00:00.000Z",
+        "summary": "Security shop buys the hand that feeds it"
+      },
+      "https://arstechnica.com/space/2026/11/google-turns-to-blue-origin-for-a-rocket-but-its-long-term-problem-remains": {
+        "source": "Ars Technica",
+        "title": "Google turns to Blue Origin for a rocket, but its long-term problem remains",
+        "url": "https://arstechnica.com/space/2026/11/google-turns-to-blue-origin-for-a-rocket-but-its-long-term-problem-remains/",
+        "published": "2026-11-19T19:52:54.000Z",
+        "summary": "\"Project Suncatcher is a long-term moonshot.\""
+      },
+      "https://www.theverge.com/policy/1037987/fcc-prison-cellphone-signal-jamming": {
+        "source": "The Verge",
+        "title": "FCC greenlights rule allowing prisons to jam cellphone signals",
+        "url": "https://www.theverge.com/policy/1037987/fcc-prison-cellphone-signal-jamming",
+        "published": "2026-11-19T19:40:28.000Z",
+        "summary": "The Federal Communications Commission voted unanimously to allow state and local prisons to jam cellphones. In an announcement on Thursday, the FCC argues the rule will help combat an \"influx of contraband cellphones\" used to carry out crimes from prison. Jammers are generally banned under Section 333 of the Communications Act of 1934, though they're […]"
+      },
+      "https://www.theverge.com/gadgets/1037790/sony-wh-1000xm5-black-friday-deal-sale": {
+        "source": "The Verge",
+        "title": "Sony’s WH-1000XM5 are cheaper than ever for Black Friday",
+        "url": "https://www.theverge.com/gadgets/1037790/sony-wh-1000xm5-black-friday-deal-sale",
+        "published": "2026-11-19T19:35:52.000Z",
+        "summary": "Back in my day, the only “Doorbuster” sales were at physical retail stores. But now, you can get ultra-low prices before Black Friday whether you want to shop in-store or online. One that stands out is the previous-generation Sony WH-1000XM5 noise-canceling headphones, which are marked down to their lowest price ever, just $169.99 at Best […]"
+      },
+      "https://www.theverge.com/games/1038010/valve-steam-machine-waitlist-supply": {
+        "source": "The Verge",
+        "title": "You can now buy a Steam Machine without getting on a waitlist",
+        "url": "https://www.theverge.com/games/1038010/valve-steam-machine-waitlist-supply",
+        "published": "2026-11-19T19:33:22.000Z",
+        "summary": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon. The good news: You can now purchase a 512GB Steam Machine without getting on a waitlist. Initially, interested buyers had to get on Valve's waitlist […]"
+      },
+      "https://www.theverge.com/news/1037951/instagram-amazon-affiliate-links-influencers-ads": {
+        "source": "The Verge",
+        "title": "Some creators are skeptical of Instagram’s new affiliate program",
+        "url": "https://www.theverge.com/news/1037951/instagram-amazon-affiliate-links-influencers-ads",
+        "published": "2026-11-19T19:12:30.000Z",
+        "summary": "For years, influencers have come up with workarounds on social media to figure out how to share affiliate links with followers. A new integration between Instagram and Amazon was announced earlier this month as a way to make it easier for influencers to make money from affiliate links - but some content creators are suspicious […]"
+      },
+      "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity": {
+        "source": "TechCrunch",
+        "title": "Anthropic’s IPO could deliver $156B to charity",
+        "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+        "published": "2026-11-19T19:10:45.000Z",
+        "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion."
+      },
+      "https://spectrum.ieee.org/ai-tools-for-rural-communities": {
+        "source": "IEEE Spectrum",
+        "title": "Community-Focused Academic Brings AI Tools to Colorado Farmers",
+        "url": "https://spectrum.ieee.org/ai-tools-for-rural-communities",
+        "published": "2026-11-19T19:00:02.000Z",
+        "summary": "Many farmers and ranchers in eastern Colorado are curious about artificial intelligence, but they don’t have a local tech-savvy person to show them how to use it. Xue “Alice” Dong has made that her job. Dong, an IEEE senior member, is an extension regional specialist with the Colorado State University Extension , CSU’s outreach arm. She works in Logan County and serves a 10-county farming area in "
+      },
+      "https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153": {
+        "source": "The Register",
+        "title": "Nvidia adds possible hack to list of very bad things under investigation",
+        "url": "https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153",
+        "published": "2026-11-19T18:52:53.000Z",
+        "summary": "Ransomware group sets a deadline for the chipmaker to pay up - or see its data leaked"
+      },
+      "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont": {
+        "source": "Ars Technica",
+        "title": "\"You’re right\"—LLMs will get climate info wrong if you ask",
+        "url": "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/",
+        "published": "2026-11-19T18:44:39.000Z",
+        "summary": "Some models fare better, but all fail in similar ways."
+      },
+      "https://www.theverge.com/gadgets/1037042/sonos-black-friday-2026-speaker-soundbar-deals-sale": {
+        "source": "The Verge",
+        "title": "Sonos is taking up to 30 percent off speakers and soundbars right now",
+        "url": "https://www.theverge.com/gadgets/1037042/sonos-black-friday-2026-speaker-soundbar-deals-sale",
+        "published": "2026-11-19T18:33:08.000Z",
+        "summary": "Sonos speakers and soundbars aren’t exactly cheap, but thankfully the company’s Black Friday sale has already begun, making everything a little easier to afford through November 30th. Most notably, you can pick up the Arc Ultra soundbar for a new low of $849 ($250 off) from Sonos, Amazon, and Best Buy, or the newfangled Sonos […]"
+      },
+      "https://www.thehindu.com/sci-tech/technology/how-jensen-huangs-exit-from-nvidia-alters-ai-roadmap/article71719593.ece": {
+        "source": "The Hindu",
+        "title": "How Jensen Huang’s exit from Nvidia alters AI roadmap",
+        "url": "https://www.thehindu.com/sci-tech/technology/how-jensen-huangs-exit-from-nvidia-alters-ai-roadmap/article71719593.ece",
+        "published": "2026-11-19T11:18:34.000Z",
+        "summary": "Neoclouds have mushroomed to meet the growing computing demand, and Mr Huang has been at the centre of this proliferation by supporting these AI-native data centres through guarantees"
       }
     }
   },
   "asks": {
-    "fetchedAt": "2026-11-19T18:38:46.387Z",
+    "fetchedAt": "2026-11-20T06:34:04.369Z",
     "candidates": {
       "https://news.ycombinator.com/item?id=50542948": {
         "title": "Codeberg seems to have vanished from DNS",
@@ -12945,13 +13390,6 @@
         "comments": 17,
         "created": "2026-11-17T21:28:57.000Z"
       },
-      "https://news.ycombinator.com/item?id=50522639": {
-        "title": "Ask HN: Are iPhone Duo Customers Happy?",
-        "url": "https://news.ycombinator.com/item?id=50522639",
-        "points": 17,
-        "comments": 18,
-        "created": "2026-11-16T20:21:58.000Z"
-      },
       "https://news.ycombinator.com/item?id=50561571": {
         "title": "GitLab 19.6.0 is out and still vulnerable to Ruby2Shell and NGINX2Root",
         "url": "https://news.ycombinator.com/item?id=50561571",
@@ -12973,13 +13411,6 @@
         "comments": 8,
         "created": "2026-11-19T00:30:18.000Z"
       },
-      "https://news.ycombinator.com/item?id=50527395": {
-        "title": "AI is killing cheap VPS servers/manageable pricing",
-        "url": "https://news.ycombinator.com/item?id=50527395",
-        "points": 13,
-        "comments": 14,
-        "created": "2026-11-17T04:20:53.000Z"
-      },
       "https://news.ycombinator.com/item?id=50538010": {
         "title": "Possible theory of why things are breaking",
         "url": "https://news.ycombinator.com/item?id=50538010",
@@ -12994,17 +13425,17 @@
         "comments": 7,
         "created": "2026-11-18T22:08:50.000Z"
       },
-      "https://news.ycombinator.com/item?id=50526822": {
-        "title": "Ask HN: Are the more software malfunctions now than before?",
-        "url": "https://news.ycombinator.com/item?id=50526822",
-        "points": 11,
-        "comments": 6,
-        "created": "2026-11-17T02:57:04.000Z"
+      "https://news.ycombinator.com/item?id=50565484": {
+        "title": "Ask HN: Where do you see Software in 5 years?",
+        "url": "https://news.ycombinator.com/item?id=50565484",
+        "points": 15,
+        "comments": 16,
+        "created": "2026-11-19T20:01:18.000Z"
       }
     }
   },
   "launches": {
-    "fetchedAt": "2026-11-19T18:38:46.387Z",
+    "fetchedAt": "2026-11-20T06:34:04.369Z",
     "candidates": {
       "https://www.producthunt.com/products/tecla-3": {
         "source": "Product Hunt",
@@ -13019,13 +13450,6 @@
         "url": "https://www.producthunt.com/products/noteshell",
         "published": "2026-11-18T15:28:16.000Z",
         "summary": "AI teammates that build and run your workspace Discussion | Link"
-      },
-      "https://www.producthunt.com/products/testsprite": {
-        "source": "Product Hunt",
-        "title": "TestSprite 4.0",
-        "url": "https://www.producthunt.com/products/testsprite",
-        "published": "2026-11-12T22:40:48.000Z",
-        "summary": "Fix one thing, break another? This agent checks it all Discussion | Link"
       },
       "https://www.producthunt.com/products/adside": {
         "source": "Product Hunt",
@@ -13222,6 +13646,41 @@
         "url": "https://www.producthunt.com/products/incredible",
         "published": "2026-11-17T22:02:24.000Z",
         "summary": "Fast Voice AI that sees your screen and runs your agents Discussion | Link"
+      },
+      "https://www.producthunt.com/products/replayio": {
+        "source": "Product Hunt",
+        "title": "Replay QA Self-healing Mode",
+        "url": "https://www.producthunt.com/products/replayio",
+        "published": "2026-11-16T21:45:46.000Z",
+        "summary": "Turn user frustration into verified fixes Discussion | Link"
+      },
+      "https://www.producthunt.com/products/hunyuan-a13b": {
+        "source": "Product Hunt",
+        "title": "Tencent Hy4 flash",
+        "url": "https://www.producthunt.com/products/hunyuan-a13b",
+        "published": "2026-11-16T06:53:29.000Z",
+        "summary": "Fast, low-cost model from $0.07/M input Discussion | Link"
+      },
+      "https://www.producthunt.com/products/lepoly": {
+        "source": "Product Hunt",
+        "title": "lepoly",
+        "url": "https://www.producthunt.com/products/lepoly",
+        "published": "2026-11-17T16:39:10.000Z",
+        "summary": "One place for all your 3D assets Discussion | Link"
+      },
+      "https://www.producthunt.com/products/introzy": {
+        "source": "Product Hunt",
+        "title": "Introzy",
+        "url": "https://www.producthunt.com/products/introzy",
+        "published": "2026-11-17T19:39:36.000Z",
+        "summary": "Track referrals from intro to commission Discussion | Link"
+      },
+      "https://www.producthunt.com/products/stringman": {
+        "source": "Product Hunt",
+        "title": "Stringman",
+        "url": "https://www.producthunt.com/products/stringman",
+        "published": "2026-11-16T15:05:23.000Z",
+        "summary": "Turns your room into a crane game Discussion | Link"
       }
     }
   }
