@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-11-21T06:35:03.879Z",
+    "fetchedAt": "2026-11-21T14:30:31.413Z",
     "repos": [
       {
         "name": "libracoder/kiri",
         "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
         "language": "Rust",
-        "stars": 11755,
+        "stars": 11914,
         "url": "https://github.com/libracoder/kiri",
         "created": "2026-11-02T16:11:30Z",
         "topics": [
@@ -20,7 +20,7 @@
         "name": "Minireel/HGhub",
         "description": "Plug-in media player",
         "language": "Rust",
-        "stars": 10486,
+        "stars": 10722,
         "url": "https://github.com/Minireel/HGhub",
         "created": "2026-11-03T14:04:27Z",
         "topics": [
@@ -34,7 +34,7 @@
         "name": "janestreet/agent_skills",
         "description": "Agent skills",
         "language": null,
-        "stars": 10465,
+        "stars": 10514,
         "url": "https://github.com/janestreet/agent_skills",
         "created": "2026-11-03T16:50:21Z",
         "topics": [],
@@ -48,7 +48,7 @@
         "name": "huami1314/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
         "language": "Swift",
-        "stars": 8665,
+        "stars": 8703,
         "url": "https://github.com/huami1314/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": []
@@ -57,7 +57,7 @@
         "name": "erkamyaman/rust-anything",
         "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
         "language": "Rust",
-        "stars": 6840,
+        "stars": 7124,
         "url": "https://github.com/erkamyaman/rust-anything",
         "created": "2026-11-16T12:10:36Z",
         "topics": [
@@ -71,7 +71,7 @@
         "name": "krisgfx9/Wireless-Device-Battery-Monitor",
         "description": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
         "language": "C++",
-        "stars": 5431,
+        "stars": 5644,
         "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
         "created": "2026-11-16T19:28:29Z",
         "topics": []
@@ -80,7 +80,7 @@
         "name": "deepseek-ai/chat-demo",
         "description": "Chat Demo",
         "language": "TypeScript",
-        "stars": 5149,
+        "stars": 5193,
         "url": "https://github.com/deepseek-ai/chat-demo",
         "created": "2026-11-12T08:08:19Z",
         "topics": []
@@ -89,7 +89,7 @@
         "name": "expo/exact",
         "description": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
         "language": "Rust",
-        "stars": 4838,
+        "stars": 4861,
         "url": "https://github.com/expo/exact",
         "created": "2026-11-02T01:29:01Z",
         "topics": [
@@ -108,7 +108,7 @@
         "name": "bookwjitchieni1986/blender-ai-mcp-addon",
         "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
         "language": null,
-        "stars": 1853,
+        "stars": 1946,
         "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
         "created": "2026-11-19T14:43:10Z",
         "topics": [
@@ -122,21 +122,21 @@
         "name": "iamajmeena/neonclipping",
         "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
         "language": "Python",
-        "stars": 1349,
+        "stars": 1582,
         "url": "https://github.com/iamajmeena/neonclipping",
         "created": "2026-11-19T10:00:43Z",
         "topics": [
+          "ai-video-clipper",
           "clipping",
-          "ffmpeg",
-          "shorts",
-          "video"
+          "faster-whisper",
+          "ffmpeg"
         ]
       },
       {
         "name": "MSNightmare/FastUnlock",
         "description": "FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
         "language": null,
-        "stars": 601,
+        "stars": 631,
         "url": "https://github.com/MSNightmare/FastUnlock",
         "created": "2026-11-19T12:37:51Z",
         "topics": []
@@ -145,7 +145,7 @@
         "name": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
         "description": "Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Attributes, Face Templates Extraction, Face Landmarks",
         "language": "Python",
-        "stars": 514,
+        "stars": 516,
         "url": "https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate",
         "created": "2026-11-19T10:40:46Z",
         "topics": []
@@ -154,53 +154,25 @@
         "name": "CocoSgt/riemann-hypothesis-lean",
         "description": "Mirror of Levent Alpöge's Lean proof of the Riemann Hypothesis (with Claude). All credit to Levent Alpöge. Source: alpo.ge",
         "language": "Lean",
-        "stars": 340,
+        "stars": 402,
         "url": "https://github.com/CocoSgt/riemann-hypothesis-lean",
         "created": "2026-11-20T14:59:14Z",
         "topics": []
       },
       {
-        "name": "umbra0688/windows-clipboard-manager-sync",
-        "description": "Free open-source Windows clipboard manager with searchable history, smart collections, keyboard shortcuts and cloud sync.",
-        "language": "Dart",
-        "stars": 239,
-        "url": "https://github.com/umbra0688/windows-clipboard-manager-sync",
-        "created": "2026-11-19T21:55:11Z",
-        "topics": [
-          "clipboard",
-          "clipboard-history",
-          "clipboard-manager",
-          "clipboard-organizer"
-        ]
-      },
-      {
         "name": "leanprover-community/riemann-hypothesis",
-        "description": "Byte-exact mirror and independent Comparator setup for the Lean formalization claiming a proof of the Riemann Hypothesis (alpo.ge, 2026-11-20)",
+        "description": "Independent Comparator setup for the Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20)",
         "language": "Lean",
-        "stars": 231,
+        "stars": 315,
         "url": "https://github.com/leanprover-community/riemann-hypothesis",
         "created": "2026-11-20T14:47:49Z",
         "topics": []
       },
       {
-        "name": "INK-Q/agy-fast",
-        "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
-        "language": "TypeScript",
-        "stars": 209,
-        "url": "https://github.com/INK-Q/agy-fast",
-        "created": "2026-11-19T04:58:46Z",
-        "topics": [
-          "ai-coding",
-          "antigravity",
-          "coding-agent",
-          "developer-tools"
-        ]
-      },
-      {
         "name": "danielwh2/sprite-stacking",
         "description": "Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.",
         "language": "HTML",
-        "stars": 180,
+        "stars": 298,
         "url": "https://github.com/danielwh2/sprite-stacking",
         "created": "2026-11-20T14:32:43Z",
         "topics": [
@@ -211,13 +183,41 @@
         ]
       },
       {
+        "name": "umbra0688/windows-clipboard-manager-sync",
+        "description": "Free open-source Windows clipboard manager with searchable history, smart collections, keyboard shortcuts and cloud sync.",
+        "language": "Dart",
+        "stars": 284,
+        "url": "https://github.com/umbra0688/windows-clipboard-manager-sync",
+        "created": "2026-11-19T21:55:11Z",
+        "topics": [
+          "clipboard",
+          "clipboard-history",
+          "clipboard-manager",
+          "clipboard-organizer"
+        ]
+      },
+      {
         "name": "heep-ai/restaurant-ai-skills",
         "description": "Practical AI skills for restaurant marketing, reservations and guest communication. Maintained by Heep.",
         "language": "Python",
-        "stars": 175,
+        "stars": 241,
         "url": "https://github.com/heep-ai/restaurant-ai-skills",
         "created": "2026-11-19T09:26:20Z",
         "topics": []
+      },
+      {
+        "name": "INK-Q/agy-fast",
+        "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+        "language": "TypeScript",
+        "stars": 237,
+        "url": "https://github.com/INK-Q/agy-fast",
+        "created": "2026-11-19T04:58:46Z",
+        "topics": [
+          "ai-coding",
+          "antigravity",
+          "coding-agent",
+          "developer-tools"
+        ]
       }
     ],
     "posts": [
@@ -225,8 +225,8 @@
         "source": "showhn",
         "title": "OpenComputer – an open source alternative to Devin",
         "url": "https://github.com/diggerhq/opencomputer",
-        "points": 94,
-        "comments": 24,
+        "points": 109,
+        "comments": 34,
         "discussion": "https://news.ycombinator.com/item?id=50581403",
         "created": "2026-11-20T20:19:56.000Z"
       },
@@ -234,7 +234,7 @@
         "source": "showhn",
         "title": "Cornhole News – A Hacker News inspired site for news across the Midwest",
         "url": "https://cornholenews.news",
-        "points": 235,
+        "points": 236,
         "comments": 119,
         "discussion": "https://news.ycombinator.com/item?id=50561515",
         "created": "2026-11-19T15:38:32.000Z"
@@ -252,8 +252,8 @@
         "source": "showhn",
         "title": "Fast deterministic natural language search for OpenStreetMap data",
         "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
-        "points": 127,
-        "comments": 33,
+        "points": 133,
+        "comments": 39,
         "discussion": "https://news.ycombinator.com/item?id=50561199",
         "created": "2026-11-19T15:16:02.000Z"
       },
@@ -261,8 +261,8 @@
         "source": "showhn",
         "title": "Foolscap – a writing app that reads your book and never writes for you",
         "url": "https://foolscap.works/",
-        "points": 119,
-        "comments": 92,
+        "points": 122,
+        "comments": 93,
         "discussion": "https://news.ycombinator.com/item?id=50559749",
         "created": "2026-11-19T13:21:20.000Z"
       },
@@ -289,7 +289,7 @@
         "title": "Maritime (YC F26) – A managed cloud for production AI agents",
         "url": "https://news.ycombinator.com/item?id=50549188",
         "points": 60,
-        "comments": 65,
+        "comments": 66,
         "discussion": "https://news.ycombinator.com/item?id=50549188",
         "created": "2026-11-18T17:26:28.000Z"
       },
@@ -315,8 +315,8 @@
         "source": "hn",
         "title": "Finite-time blow-up for the Navier–Stokes equations",
         "url": "https://github.com/tristanbuckmaster/navier-stokes/",
-        "points": 273,
-        "comments": 86,
+        "points": 300,
+        "comments": 94,
         "discussion": "https://news.ycombinator.com/item?id=50576232",
         "created": "2026-11-20T15:34:31.000Z"
       }
@@ -5228,7 +5228,7 @@
         "name": "Minireel/HGhub",
         "description": "Plug-in media player",
         "language": "Rust",
-        "stars": 10486,
+        "stars": 10722,
         "url": "https://github.com/Minireel/HGhub",
         "created": "2026-11-03T14:04:27Z",
         "topics": [],
@@ -6187,7 +6187,7 @@
         "name": "janestreet/agent_skills",
         "description": "Agent skills",
         "language": null,
-        "stars": 10465,
+        "stars": 10514,
         "url": "https://github.com/janestreet/agent_skills",
         "created": "2026-11-03T16:50:21Z",
         "topics": [],
@@ -6727,7 +6727,7 @@
         "name": "libracoder/kiri",
         "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
         "language": "Rust",
-        "stars": 11755,
+        "stars": 11914,
         "url": "https://github.com/libracoder/kiri",
         "created": "2026-11-02T16:11:30Z",
         "topics": [
@@ -6744,7 +6744,7 @@
         "name": "krisgfx9/Wireless-Device-Battery-Monitor",
         "description": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
         "language": "C++",
-        "stars": 5431,
+        "stars": 5644,
         "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
         "created": "2026-11-16T19:28:29Z",
         "topics": [],
@@ -6797,7 +6797,7 @@
         "name": "erkamyaman/rust-anything",
         "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
         "language": "Rust",
-        "stars": 6840,
+        "stars": 7124,
         "url": "https://github.com/erkamyaman/rust-anything",
         "created": "2026-11-16T12:10:36Z",
         "topics": [
@@ -6906,7 +6906,7 @@
         "name": "huami1314/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
         "language": "Swift",
-        "stars": 8665,
+        "stars": 8703,
         "url": "https://github.com/huami1314/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": [],
@@ -7068,7 +7068,7 @@
         "name": "iamajmeena/neonclipping",
         "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
         "language": "Python",
-        "stars": 1349,
+        "stars": 1582,
         "url": "https://github.com/iamajmeena/neonclipping",
         "created": "2026-11-19T10:00:43Z",
         "topics": [
@@ -7085,7 +7085,7 @@
         "name": "MSNightmare/FastUnlock",
         "description": "FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
         "language": null,
-        "stars": 601,
+        "stars": 631,
         "url": "https://github.com/MSNightmare/FastUnlock",
         "created": "2026-11-19T12:37:51Z",
         "topics": [],
@@ -7097,7 +7097,7 @@
         "name": "bookwjitchieni1986/blender-ai-mcp-addon",
         "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
         "language": null,
-        "stars": 1853,
+        "stars": 1946,
         "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
         "created": "2026-11-19T14:43:10Z",
         "topics": [
@@ -7114,7 +7114,7 @@
         "name": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
         "description": "Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare, Face Matching, Face Pose, Face Expression, Face Attributes, Face Templates Extraction, Face Landmarks",
         "language": "Python",
-        "stars": 514,
+        "stars": 516,
         "url": "https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate",
         "created": "2026-11-19T10:40:46Z",
         "topics": [],
@@ -7213,7 +7213,7 @@
         "name": "deepseek-ai/chat-demo",
         "description": "Chat Demo",
         "language": "TypeScript",
-        "stars": 5149,
+        "stars": 5193,
         "url": "https://github.com/deepseek-ai/chat-demo",
         "created": "2026-11-12T08:08:19Z",
         "topics": [],
@@ -7225,7 +7225,7 @@
         "name": "expo/exact",
         "description": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
         "language": "Rust",
-        "stars": 4838,
+        "stars": 4861,
         "url": "https://github.com/expo/exact",
         "created": "2026-11-02T01:29:01Z",
         "topics": [
@@ -7247,7 +7247,7 @@
         "name": "CocoSgt/riemann-hypothesis-lean",
         "description": "Mirror of Levent Alpöge's Lean proof of the Riemann Hypothesis (with Claude). All credit to Levent Alpöge. Source: alpo.ge",
         "language": "Lean",
-        "stars": 340,
+        "stars": 402,
         "url": "https://github.com/CocoSgt/riemann-hypothesis-lean",
         "created": "2026-11-20T14:59:14Z",
         "topics": [],
@@ -7259,7 +7259,7 @@
         "name": "umbra0688/windows-clipboard-manager-sync",
         "description": "Free open-source Windows clipboard manager with searchable history, smart collections, keyboard shortcuts and cloud sync.",
         "language": "Dart",
-        "stars": 239,
+        "stars": 284,
         "url": "https://github.com/umbra0688/windows-clipboard-manager-sync",
         "created": "2026-11-19T21:55:11Z",
         "topics": [
@@ -7274,9 +7274,9 @@
       },
       "leanprover-community/riemann-hypothesis": {
         "name": "leanprover-community/riemann-hypothesis",
-        "description": "Byte-exact mirror and independent Comparator setup for the Lean formalization claiming a proof of the Riemann Hypothesis (alpo.ge, 2026-11-20)",
+        "description": "Independent Comparator setup for the Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20)",
         "language": "Lean",
-        "stars": 231,
+        "stars": 315,
         "url": "https://github.com/leanprover-community/riemann-hypothesis",
         "created": "2026-11-20T14:47:49Z",
         "topics": [],
@@ -7288,7 +7288,7 @@
         "name": "INK-Q/agy-fast",
         "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
         "language": "TypeScript",
-        "stars": 209,
+        "stars": 237,
         "url": "https://github.com/INK-Q/agy-fast",
         "created": "2026-11-19T04:58:46Z",
         "topics": [
@@ -7305,7 +7305,7 @@
         "name": "danielwh2/sprite-stacking",
         "description": "Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.",
         "language": "HTML",
-        "stars": 180,
+        "stars": 298,
         "url": "https://github.com/danielwh2/sprite-stacking",
         "created": "2026-11-20T14:32:43Z",
         "topics": [
@@ -7322,7 +7322,7 @@
         "name": "heep-ai/restaurant-ai-skills",
         "description": "Practical AI skills for restaurant marketing, reservations and guest communication. Maintained by Heep.",
         "language": "Python",
-        "stars": 175,
+        "stars": 241,
         "url": "https://github.com/heep-ai/restaurant-ai-skills",
         "created": "2026-11-19T09:26:20Z",
         "topics": [],
@@ -11395,8 +11395,8 @@
         "source": "showhn",
         "title": "Foolscap – a writing app that reads your book and never writes for you",
         "url": "https://foolscap.works/",
-        "points": 119,
-        "comments": 92,
+        "points": 122,
+        "comments": 93,
         "discussion": "https://news.ycombinator.com/item?id=50559749",
         "created": "2026-11-19T13:21:20.000Z",
         "firstSeen": "2026-11-19",
@@ -11440,7 +11440,7 @@
         "title": "Maritime (YC F26) – A managed cloud for production AI agents",
         "url": "https://news.ycombinator.com/item?id=50549188",
         "points": 60,
-        "comments": 65,
+        "comments": 66,
         "discussion": "https://news.ycombinator.com/item?id=50549188",
         "created": "2026-11-18T17:26:28.000Z",
         "firstSeen": "2026-11-19",
@@ -11472,7 +11472,7 @@
         "source": "showhn",
         "title": "Cornhole News – A Hacker News inspired site for news across the Midwest",
         "url": "https://cornholenews.news",
-        "points": 235,
+        "points": 236,
         "comments": 119,
         "discussion": "https://news.ycombinator.com/item?id=50561515",
         "created": "2026-11-19T15:38:32.000Z",
@@ -11505,8 +11505,8 @@
         "source": "showhn",
         "title": "Fast deterministic natural language search for OpenStreetMap data",
         "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
-        "points": 127,
-        "comments": 33,
+        "points": 133,
+        "comments": 39,
         "discussion": "https://news.ycombinator.com/item?id=50561199",
         "created": "2026-11-19T15:16:02.000Z",
         "firstSeen": "2026-11-20",
@@ -11527,8 +11527,8 @@
         "source": "showhn",
         "title": "OpenComputer – an open source alternative to Devin",
         "url": "https://github.com/diggerhq/opencomputer",
-        "points": 94,
-        "comments": 24,
+        "points": 109,
+        "comments": 34,
         "discussion": "https://news.ycombinator.com/item?id=50581403",
         "created": "2026-11-20T20:19:56.000Z",
         "firstSeen": "2026-11-21",
@@ -11538,8 +11538,8 @@
         "source": "hn",
         "title": "Finite-time blow-up for the Navier–Stokes equations",
         "url": "https://github.com/tristanbuckmaster/navier-stokes/",
-        "points": 273,
-        "comments": 86,
+        "points": 300,
+        "comments": 94,
         "discussion": "https://news.ycombinator.com/item?id=50576232",
         "created": "2026-11-20T15:34:31.000Z",
         "firstSeen": "2026-11-21",
@@ -11548,85 +11548,85 @@
     }
   },
   "reading": {
-    "fetchedAt": "2026-11-21T06:35:03.879Z",
+    "fetchedAt": "2026-11-21T14:30:31.413Z",
     "hn": [
       {
         "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
         "url": "https://alpo.ge/remark.pdf",
-        "points": 2508,
-        "comments": 1733,
+        "points": 2746,
+        "comments": 1922,
         "discussion": "https://news.ycombinator.com/item?id=50574968"
       },
       {
         "title": "Hurried Announcement: Alessandro Masullo GRH",
         "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-        "points": 1847,
-        "comments": 848,
+        "points": 2240,
+        "comments": 1058,
         "discussion": "https://news.ycombinator.com/item?id=50579568"
       },
       {
         "title": "Inkling 2 Mini",
         "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-        "points": 871,
-        "comments": 162,
+        "points": 1136,
+        "comments": 213,
         "discussion": "https://news.ycombinator.com/item?id=50581260"
+      },
+      {
+        "title": "We promoted developers into architects without informing them",
+        "url": "https://manidoraisamy.com/developer-to-architect.html",
+        "points": 498,
+        "comments": 277,
+        "discussion": "https://news.ycombinator.com/item?id=50579331"
       },
       {
         "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
         "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
-        "points": 397,
-        "comments": 164,
+        "points": 481,
+        "comments": 208,
         "discussion": "https://news.ycombinator.com/item?id=50578358"
       },
       {
         "title": "Language Models Can Rewrite Their Own Weights",
         "url": "https://arxiv.org/abs/2611.21885",
-        "points": 381,
-        "comments": 116,
+        "points": 440,
+        "comments": 128,
         "discussion": "https://news.ycombinator.com/item?id=50577265"
-      },
-      {
-        "title": "We promoted developers into architects without informing them",
-        "url": "https://manidoraisamy.com/developer-to-architect.html",
-        "points": 377,
-        "comments": 218,
-        "discussion": "https://news.ycombinator.com/item?id=50579331"
-      },
-      {
-        "title": "Finite-time blow-up for the Navier–Stokes equations",
-        "url": "https://github.com/tristanbuckmaster/navier-stokes/",
-        "points": 273,
-        "comments": 86,
-        "discussion": "https://news.ycombinator.com/item?id=50576232"
-      },
-      {
-        "title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
-        "url": "https://kobi.music/research/dettato",
-        "points": 266,
-        "comments": 56,
-        "discussion": "https://news.ycombinator.com/item?id=50526023"
-      },
-      {
-        "title": "The stochastic parrots have apparently proved the Riemann Hypothesis",
-        "url": "https://scottaaronson.blog/?p=10344",
-        "points": 265,
-        "comments": 238,
-        "discussion": "https://news.ycombinator.com/item?id=50581084"
       },
       {
         "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
         "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-        "points": 229,
-        "comments": 509,
+        "points": 386,
+        "comments": 696,
         "discussion": "https://news.ycombinator.com/item?id=50574383"
+      },
+      {
+        "title": "Slopstrap – Make your site look hastily vibecoded",
+        "url": "https://slopstrap.mikelacher.com/",
+        "points": 365,
+        "comments": 65,
+        "discussion": "https://news.ycombinator.com/item?id=50576012"
+      },
+      {
+        "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+        "url": "https://news.ycombinator.com/item?id=50583761",
+        "points": 318,
+        "comments": 323,
+        "discussion": "https://news.ycombinator.com/item?id=50583761"
+      },
+      {
+        "title": "NINLIVE: The Nine Inch Nails live archive",
+        "url": "https://ninlive.com/",
+        "points": 301,
+        "comments": 78,
+        "discussion": "https://news.ycombinator.com/item?id=50583274"
       }
     ],
     "lobsters": [
       {
         "title": "Levent Alpoge Claims Proof of Riemann Hypothesis",
         "url": "https://alpo.ge/remark.pdf",
-        "points": 76,
-        "comments": 32,
+        "points": 86,
+        "comments": 48,
         "discussion": "https://lobste.rs/s/cmifpg/levent_alpoge_claims_proof_riemann",
         "tags": [
           "math",
@@ -11636,8 +11636,8 @@
       {
         "title": "Vim Classic 8.3.1 released",
         "url": "https://vim-classic.org/news/vim-8.3.1-released.html",
-        "points": 57,
-        "comments": 10,
+        "points": 63,
+        "comments": 19,
         "discussion": "https://lobste.rs/s/kkglbw/vim_classic_8_3_1_released",
         "tags": [
           "editors",
@@ -11647,8 +11647,8 @@
       {
         "title": "Announcing jj-musubi: live sync for Jujutsu",
         "url": "https://www.serpentine.com/posts/2026/announcing-jj-musubi/",
-        "points": 46,
-        "comments": 27,
+        "points": 60,
+        "comments": 28,
         "discussion": "https://lobste.rs/s/tj1j4b/announcing_jj_musubi_live_sync_for",
         "tags": [
           "release",
@@ -11656,10 +11656,32 @@
         ]
       },
       {
+        "title": "Internet Archive Staffers Are Unionizing",
+        "url": "https://cwa-union.org/news/releases/internet-archive-workers-launch-union-campaign-communications-workers-america",
+        "points": 64,
+        "comments": 7,
+        "discussion": "https://lobste.rs/s/o5coeq/internet_archive_staffers_are",
+        "tags": [
+          "culture"
+        ]
+      },
+      {
+        "title": "Slopstrap: Make your site look hastily vibecoded",
+        "url": "https://slopstrap.mikelacher.com/l",
+        "points": 33,
+        "comments": 6,
+        "discussion": "https://lobste.rs/s/1n8fzn/slopstrap_make_your_site_look_hastily",
+        "tags": [
+          "css",
+          "satire",
+          "web"
+        ]
+      },
+      {
         "title": "Removing binder.c",
         "url": "https://lwn.net/Articles/1102982/",
-        "points": 60,
-        "comments": 7,
+        "points": 64,
+        "comments": 8,
         "discussion": "https://lobste.rs/s/vo5jve/removing_binder_c",
         "tags": [
           "android",
@@ -11668,19 +11690,9 @@
         ]
       },
       {
-        "title": "Internet Archive Staffers Are Unionizing",
-        "url": "https://cwa-union.org/news/releases/internet-archive-workers-launch-union-campaign-communications-workers-america",
-        "points": 47,
-        "comments": 6,
-        "discussion": "https://lobste.rs/s/o5coeq/internet_archive_staffers_are",
-        "tags": [
-          "culture"
-        ]
-      },
-      {
         "title": "Alice v0.6.0",
         "url": "https://www.alicecaml.org/blog/alice-v0-6-0/",
-        "points": 16,
+        "points": 22,
         "comments": 3,
         "discussion": "https://lobste.rs/s/18c0lq/alice_v0_6_0",
         "tags": [
@@ -11689,10 +11701,20 @@
         ]
       },
       {
+        "title": "Changes on freedesktop.org",
+        "url": "https://blog.tenstral.net/2026/11/new-fdo-website.html",
+        "points": 3,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/p5zsx4/changes_on_freedesktop_org",
+        "tags": [
+          "programming"
+        ]
+      },
+      {
         "title": "Visited links are purple",
         "url": "https://dbushell.com/2026/11/16/visited-links/",
-        "points": 29,
-        "comments": 6,
+        "points": 34,
+        "comments": 10,
         "discussion": "https://lobste.rs/s/hcahbx/visited_links_are_purple",
         "tags": [
           "a11y",
@@ -11700,56 +11722,22 @@
         ]
       },
       {
-        "title": "DreamCoder: coding harness and IDE from the author of Mastering Emacs",
-        "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
-        "points": 24,
-        "comments": 3,
-        "discussion": "https://lobste.rs/s/ocdhli/dreamcoder_coding_harness_ide_from",
-        "tags": [
-          "building-ai-tooling",
-          "emacs",
-          "historical"
-        ]
-      },
-      {
-        "title": "Garage Door Spam",
-        "url": "https://blog.harrison.page/garage-door-spam/",
-        "points": 40,
-        "comments": 9,
-        "discussion": "https://lobste.rs/s/tr5ghf/garage_door_spam",
-        "tags": [
-          "hardware"
-        ]
-      },
-      {
-        "title": "Verifying formal models of Raft implementations",
-        "url": "https://antithesis.com/blog/2026/verifying-formal-models/",
-        "points": 7,
+        "title": "C++26 is done (again)! — Trip report: November 2026 ISO C++ standards meeting (Búzios, Brazil)",
+        "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+        "points": 2,
         "comments": 0,
-        "discussion": "https://lobste.rs/s/4qcr3k/verifying_formal_models_raft",
+        "discussion": "https://lobste.rs/s/fjueso/c_26_is_done_again_trip_report_november",
         "tags": [
-          "formalmethods"
+          "c++"
         ]
       }
     ],
     "devto": [
       {
-        "title": "Dev Opportunity Radar #26: $85K Claude Corps Fellowship, a16z FDE Fellowship, and Reddit's $35K Game Hackathon",
-        "url": "https://dev.to/devengers/dev-opportunity-radar-26-85k-claude-corps-fellowship-a16z-fde-fellowship-and-reddits-35k-2k2",
-        "points": 82,
-        "comments": 6,
-        "discussion": "https://dev.to/devengers/dev-opportunity-radar-26-85k-claude-corps-fellowship-a16z-fde-fellowship-and-reddits-35k-2k2",
-        "tags": [
-          "discuss",
-          "community",
-          "opportunities"
-        ]
-      },
-      {
         "title": "Cozy Bytes 🍺 | Rust::Who Owns the Cat? 🐈🦀",
         "url": "https://dev.to/_yourbrainbuffer_/cozy-bytes-rustwho-owns-the-cat-13ch",
-        "points": 62,
-        "comments": 10,
+        "points": 65,
+        "comments": 12,
         "discussion": "https://dev.to/_yourbrainbuffer_/cozy-bytes-rustwho-owns-the-cat-13ch",
         "tags": [
           "rust",
@@ -11760,8 +11748,8 @@
       {
         "title": "🐱 The Function Factory of Necoz! ⚙️ | Learning Python Functions 🚀",
         "url": "https://dev.to/necoz/the-function-factory-of-necoz-learning-python-functions-2ikd",
-        "points": 35,
-        "comments": 4,
+        "points": 59,
+        "comments": 15,
         "discussion": "https://dev.to/necoz/the-function-factory-of-necoz-learning-python-functions-2ikd",
         "tags": [
           "beginners",
@@ -11769,9 +11757,33 @@
         ]
       },
       {
+        "title": "The Chairs Are Back. The Coffee Is On. ☕",
+        "url": "https://dev.to/thethirdcup/the-chairs-are-back-the-coffee-is-on-243p",
+        "points": 59,
+        "comments": 14,
+        "discussion": "https://dev.to/thethirdcup/the-chairs-are-back-the-coffee-is-on-243p",
+        "tags": [
+          "community",
+          "discuss",
+          "ai"
+        ]
+      },
+      {
+        "title": "A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)",
+        "url": "https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1n21",
+        "points": 36,
+        "comments": 5,
+        "discussion": "https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1n21",
+        "tags": [
+          "ai",
+          "programming",
+          "opensource"
+        ]
+      },
+      {
         "title": "Tell us your story, and we might read it on the CodeNewbie Podcast 🎙️",
         "url": "https://dev.to/codenewbie/tell-us-your-story-and-we-might-read-it-on-the-codenewbie-podcast-2840",
-        "points": 29,
+        "points": 31,
         "comments": 4,
         "discussion": "https://dev.to/codenewbie/tell-us-your-story-and-we-might-read-it-on-the-codenewbie-podcast-2840",
         "tags": [
@@ -11781,46 +11793,34 @@
         ]
       },
       {
-        "title": "I can't believe the podcast I learned to code with is back!",
-        "url": "https://dev.to/codenewbie/i-cant-believe-the-podcast-i-learned-to-code-with-is-back-2gi5",
-        "points": 29,
-        "comments": 0,
-        "discussion": "https://dev.to/codenewbie/i-cant-believe-the-podcast-i-learned-to-code-with-is-back-2gi5",
+        "title": "The Rent Was $1,150",
+        "url": "https://dev.to/startupcafe/the-rent-was-1150-22hl",
+        "points": 30,
+        "comments": 4,
+        "discussion": "https://dev.to/startupcafe/the-rent-was-1150-22hl",
         "tags": [
-          "codenewbie",
-          "podcast",
-          "ai"
+          "thestartupcafe",
+          "startup",
+          "discuss"
         ]
       },
       {
-        "title": "Your Error Survived the Wrapper. Did Its Code Survive the Trace?",
-        "url": "https://dev.to/gde/your-error-survived-the-wrapper-did-its-code-survive-the-trace-17gg",
-        "points": 27,
-        "comments": 7,
-        "discussion": "https://dev.to/gde/your-error-survived-the-wrapper-did-its-code-survive-the-trace-17gg",
+        "title": "Zombie Sweep on Google Cloud: A Daily Waste Report on AlloyDB Express, With a Database Bill You Can Predict",
+        "url": "https://dev.to/gde/zombie-sweep-on-google-cloud-a-daily-waste-report-on-alloydb-express-with-a-database-bill-you-can-305g",
+        "points": 22,
+        "comments": 1,
+        "discussion": "https://dev.to/gde/zombie-sweep-on-google-cloud-a-daily-waste-report-on-alloydb-express-with-a-database-bill-you-can-305g",
         "tags": [
-          "typescript",
-          "debugging",
-          "observability"
-        ]
-      },
-      {
-        "title": "Agentic engineering a smart home energy system with Antigravity and Gemini 4",
-        "url": "https://dev.to/googleai/agentic-engineering-a-smart-home-energy-system-with-antigravity-and-gemini-4-53md",
-        "points": 23,
-        "comments": 2,
-        "discussion": "https://dev.to/googleai/agentic-engineering-a-smart-home-energy-system-with-antigravity-and-gemini-4-53md",
-        "tags": [
-          "ai",
-          "antigravity",
-          "smarthome"
+          "googlecloud",
+          "postgres",
+          "finops"
         ]
       },
       {
         "title": "Day 88: A Marker in the File and a Disputed Status Code",
         "url": "https://dev.to/ndcodes/day-88-a-dead-service-and-a-disputed-status-code-48j5",
         "points": 20,
-        "comments": 1,
+        "comments": 5,
         "discussion": "https://dev.to/ndcodes/day-88-a-dead-service-and-a-disputed-status-code-48j5",
         "tags": [
           "devops",
@@ -11832,7 +11832,7 @@
         "title": "When AGENTS.md, CLAUDE.md, and a Skill Disagree, Which One Wins?",
         "url": "https://dev.to/debashish_ghosal/when-agentsmd-claudemd-and-a-skill-disagree-which-one-wins-cp2",
         "points": 19,
-        "comments": 5,
+        "comments": 6,
         "discussion": "https://dev.to/debashish_ghosal/when-agentsmd-claudemd-and-a-skill-disagree-which-one-wins-cp2",
         "tags": [
           "discuss",
@@ -11841,37 +11841,22 @@
         ]
       },
       {
-        "title": "Most of the AI Agents on GitHub Are While Loops in a Trench Coat",
-        "url": "https://dev.to/debashish_ghosal/most-of-the-ai-agents-on-github-are-while-loops-in-a-trench-coat-37ig",
-        "points": 17,
-        "comments": 1,
-        "discussion": "https://dev.to/debashish_ghosal/most-of-the-ai-agents-on-github-are-while-loops-in-a-trench-coat-37ig",
+        "title": "Your IR Runbook Is a PDF Nobody Reads at 3 AM. I Turned Mine Into a State Machine.",
+        "url": "https://dev.to/le_beltagy/your-ir-runbook-is-a-pdf-nobody-reads-at-3-am-i-turned-mine-into-a-state-machine-32o8",
+        "points": 18,
+        "comments": 11,
+        "discussion": "https://dev.to/le_beltagy/your-ir-runbook-is-a-pdf-nobody-reads-at-3-am-i-turned-mine-into-a-state-machine-32o8",
         "tags": [
-          "discuss",
-          "ai",
-          "agents"
+          "aws",
+          "security",
+          "devops"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-11-21T06:35:03.879Z",
+    "fetchedAt": "2026-11-21T14:30:31.413Z",
     "candidates": {
-      "https://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html": {
-        "source": "Murat Demirbas",
-        "title": "Writing as a thinking tool",
-        "url": "https://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
-        "published": "2026-11-07T08:22:10.322Z",
-        "summary": "In middle school I could not get through long passages no matter how hard I tried. I would read an entire page and find that nothing had registered, so I started taking notes out of desperation. This was the late 80s, and Tony Buzan's mind maps had just reached Turkey. This led me to produce pages and pages of notes that looked like spiderwebs. Creating those notes have helped me tremendously. I m"
-      },
-      "https://vincent.bernat.ch/en/blog/2026-bunny-geodns": {
-        "source": "Lobsters",
-        "title": "Scriptable GeoDNS: leaving AWS for Bunny",
-        "url": "https://vincent.bernat.ch/en/blog/2026-bunny-geodns",
-        "discussion": "https://lobste.rs/s/jsvlfm/scriptable_geodns_leaving_aws_for_bunny",
-        "published": "2026-11-07T07:46:35.449Z",
-        "summary": ""
-      },
       "https://blog.cloudflare.com/launching-vite-ecosystem-fund": {
         "source": "Cloudflare",
         "title": "Launching the Vite Ecosystem Fund",
@@ -12491,7 +12476,7 @@
     }
   },
   "world": {
-    "fetchedAt": "2026-11-21T06:35:03.879Z",
+    "fetchedAt": "2026-11-21T14:30:31.413Z",
     "candidates": {
       "https://www.theverge.com/policy/1037804/elon-musk-maga-dealbook": {
         "source": "The Verge",
@@ -13066,55 +13051,6 @@
         "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
         "published": "2026-11-18T14:42:44.000Z",
         "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and…"
-      },
-      "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "Hacks, AI or just overdue updates - why have there been so many outages?",
-        "url": "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-18T13:16:53.000Z",
-        "summary": "There is no evidence these are linked, but the constant series of tech disruptions can be unnerving."
-      },
-      "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles": {
-        "source": "MIT Technology Review",
-        "title": "The Download: AI learns to smell and hydropower struggles",
-        "url": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
-        "published": "2026-11-18T13:10:00.000Z",
-        "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every odor on Earth. Their careful notes—“nutty,” “peachy,”…"
-      },
-      "https://www.thehindu.com/sci-tech/technology/air-purifier-sales-surge-as-demand-smart-features-drive-market-growth/article71710866.ece": {
-        "source": "The Hindu",
-        "title": "Air purifier sales surge as demand, smart features drive market growth",
-        "url": "https://www.thehindu.com/sci-tech/technology/air-purifier-sales-surge-as-demand-smart-features-drive-market-growth/article71710866.ece",
-        "published": "2026-11-18T11:53:18.000Z",
-        "summary": "While Delhi-NCR remains the dominant market, cities like Mumbai and regions beyond traditional high-pollution belts are showing sustained upticks"
-      },
-      "https://www.thehindu.com/sci-tech/science/lineshine-computers-defending-champ/article71712174.ece": {
-        "source": "The Hindu",
-        "title": "China’s LineShine retains top spot on list of world’s most powerful supercomputers",
-        "url": "https://www.thehindu.com/sci-tech/science/lineshine-computers-defending-champ/article71712174.ece",
-        "published": "2026-11-18T11:13:40.000Z",
-        "summary": "The highest ranked Indian machine on the list is Shakti Cloud at number 35"
-      },
-      "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans": {
-        "source": "MIT Technology Review",
-        "title": "This smell startup says its AI nose is as good as a human’s",
-        "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
-        "published": "2026-11-18T10:20:30.000Z",
-        "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation…"
-      },
-      "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "British hacker who stole $11m through text message scheme jailed for six years in US",
-        "url": "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-18T09:28:35.000Z",
-        "summary": "Tyler Buchanan, from Dundee, was a member of the notorious Scattered Spider group and began hacking when he was a teenager."
-      },
-      "https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "Security flaw found in Java, world's third-largest programming language",
-        "url": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-18T08:47:06.000Z",
-        "summary": "The same tech start-up that discovered a PHP flaw used AI to uncover a critical software bug in one of the world's most popular computer language programs."
       },
       "https://www.theverge.com/tech/1037848/motorola-razr-flex-wide-foldable-folding-smartphone-android-leak": {
         "source": "The Verge",
@@ -14130,32 +14066,116 @@
         "url": "https://yourstory.com/2026/11/eazeebox-co-founder-srinivas-shanbhogue-passes-away",
         "published": "2026-11-20T08:17:45.000Z",
         "summary": "Shanbhogue spent two decades at Schneider Electric before building Eazeebox, a Bengaluru startup that helps neighbourhood electrical shops restock from multiple brands through a single app."
+      },
+      "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai": {
+        "source": "The Verge",
+        "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+        "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+        "published": "2026-11-21T14:00:00.000Z",
+        "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching […]"
+      },
+      "https://www.theverge.com/tech/1038562/xiaomi-18-pro-max-review": {
+        "source": "The Verge",
+        "title": "The Xiaomi 18 Pro proves two screens aren’t better than one",
+        "url": "https://www.theverge.com/tech/1038562/xiaomi-18-pro-max-review",
+        "published": "2026-11-21T13:00:00.000Z",
+        "summary": "Xiaomi introduced a second screen to its flagship phones with last year's 17 Pros, but didn't release them outside China. That means the new 18 Pro and Pro Max are the first chance I've had to find out if a screen on the back of a phone is any more useful now than it was […]"
+      },
+      "https://www.theverge.com/tech/1039433/gta-vi-alfred-6-clockwisetv-installer": {
+        "source": "The Verge",
+        "title": "The game of the year is finally here",
+        "url": "https://www.theverge.com/tech/1039433/gta-vi-alfred-6-clockwisetv-installer",
+        "published": "2026-11-21T13:00:00.000Z",
+        "summary": "Hi, friends! Welcome to Installer No. 153, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, thank you for tearing yourself away from GTA to be here, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about nuclear radiation […]"
+      },
+      "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science": {
+        "source": "Ars Technica",
+        "title": "“Race realism” isn’t realistic—and it isn’t good science",
+        "url": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
+        "published": "2026-11-21T12:01:13.000Z",
+        "summary": "Modern genetics does not support claims of innate racial differences in intelligence."
+      },
+      "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks": {
+        "source": "The Verge",
+        "title": "Harbinger is building the unsexy EVs that keep the economy moving",
+        "url": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks",
+        "published": "2026-11-21T12:00:00.000Z",
+        "summary": "While legacy automakers tap the brakes on electric vehicles, one startup is hitting the accelerator. Earlier this month, electric truck maker Harbinger raised $240 million in a Series D round, capping a banner stretch that includes a $300 million order from FedEx and a new defense contract with the US military. Harbinger is stacking up […]"
+      },
+      "https://www.theregister.com/offbeat/2026/11/21/chatgpt-shrunk-down-to-run-on-a-super-nintendo/5311418": {
+        "source": "The Register",
+        "title": "ChatGPT shrunk down to run on a Super Nintendo",
+        "url": "https://www.theregister.com/offbeat/2026/11/21/chatgpt-shrunk-down-to-run-on-a-super-nintendo/5311418",
+        "published": "2026-11-21T11:46:00.000Z",
+        "summary": "Just don't expect complex, coherent, or always correct answers"
+      },
+      "https://yourstory.com/2026/11/momentum-by-google--yourstory-uniting-indias-startup-ecos": {
+        "source": "YourStory",
+        "title": "Momentum by Google and YourStory to bring India’s founders, investors, and policymakers into one room in New Delhi",
+        "url": "https://yourstory.com/2026/11/momentum-by-google--yourstory-uniting-indias-startup-ecos",
+        "published": "2026-11-21T11:10:07.000Z",
+        "summary": "Momentum by Google, in collaboration with YourStory, puts India’s startup future on one stage, with the people who will build, fund, and shape it."
+      },
+      "https://www.thehindu.com/sci-tech/technology/google-launches-gemini-4-neon-taking-on-claude-opus-55-and-gpt-62-sol/article71727599.ece": {
+        "source": "The Hindu",
+        "title": "Google launches Gemini 4 Neon taking on Claude Opus 5.5 and GPT-6.2 Sol",
+        "url": "https://www.thehindu.com/sci-tech/technology/google-launches-gemini-4-neon-taking-on-claude-opus-55-and-gpt-62-sol/article71727599.ece",
+        "published": "2026-11-21T08:33:51.000Z",
+        "summary": "Google said the new model was built for complex coding, analytical reasoning, and enterprise workflows"
+      },
+      "https://yourstory.com/2026/11/google-announces-5m-funding-for-iit-kharagpur-for-advanced-ai-research": {
+        "source": "YourStory",
+        "title": "Google announces $5M funding for IIT Kharagpur for advanced AI research",
+        "url": "https://yourstory.com/2026/11/google-announces-5m-funding-for-iit-kharagpur-for-advanced-ai-research",
+        "published": "2026-11-21T08:23:27.000Z",
+        "summary": "The funding will support the institute's researchers and students across three core pillars: advanced AI research, educational opportunities, and AI capacity building."
+      },
+      "https://yourstory.com/2026/11/karnataka-cm-to-lead-delegation-to-japan-to-explore-investments": {
+        "source": "YourStory",
+        "title": "Karnataka CM to lead delegation to Japan to explore investments",
+        "url": "https://yourstory.com/2026/11/karnataka-cm-to-lead-delegation-to-japan-to-explore-investments",
+        "published": "2026-11-21T08:19:33.000Z",
+        "summary": "Karnataka Chief Minister D K Shivakumar will lead a high-level state government delegation to Japan from November 23 to 25."
+      },
+      "https://yourstory.com/2026/11/design-data-delight-tech-business-exhibition-entrepreneur-innovation-photography": {
+        "source": "YourStory",
+        "title": "Design, data, delight: how to get your message across at tech business exhibitions",
+        "url": "https://yourstory.com/2026/11/design-data-delight-tech-business-exhibition-entrepreneur-innovation-photography",
+        "published": "2026-11-21T08:18:38.000Z",
+        "summary": "In this photo essay from BTS at the Bangalore International Exhibition Centre, we showcase highlights from the exhibition halls along with insights for innovators."
+      },
+      "https://yourstory.com/2026/11/noel-seeks-tata-sons-board-meet-recordings-objects": {
+        "source": "YourStory",
+        "title": "Noel Tata seeks Tata Sons board meet recordings",
+        "url": "https://yourstory.com/2026/11/noel-seeks-tata-sons-board-meet-recordings-objects",
+        "published": "2026-11-21T08:17:30.000Z",
+        "summary": "Tata Trusts chairman Noel Tata has written to Tata Sons seeking the audio and video recordings of the September 17 board meeting of the holding company of all Tata Group entities."
+      },
+      "https://www.theregister.com/science/2026/11/21/nasa-mars-rover-and-orbiter-suffer-glitches/5311360": {
+        "source": "The Register",
+        "title": "NASA Mars rover and orbiter suffer glitches",
+        "url": "https://www.theregister.com/science/2026/11/21/nasa-mars-rover-and-orbiter-suffer-glitches/5311360",
+        "published": "2026-11-21T07:47:00.000Z",
+        "summary": "It isn't only systems on Earth suffering technical problems"
+      },
+      "https://www.thehindu.com/sci-tech/technology/pune-startup-develops-atomic-clock-prototype-amid-growing-export-curbs-on-critical-technologies/article71727456.ece": {
+        "source": "The Hindu",
+        "title": "Pune startup develops atomic clock prototype amid growing export curbs on critical technologies",
+        "url": "https://www.thehindu.com/sci-tech/technology/pune-startup-develops-atomic-clock-prototype-amid-growing-export-curbs-on-critical-technologies/article71727456.ece",
+        "published": "2026-11-21T06:33:51.000Z",
+        "summary": "Atomic clocks are critical to satellite navigation, telecommunications, space missions and strategic systems, where highly precise and stable timekeeping is essential."
       }
     }
   },
   "asks": {
-    "fetchedAt": "2026-11-21T06:35:03.879Z",
+    "fetchedAt": "2026-11-21T14:30:31.413Z",
     "candidates": {
-      "https://news.ycombinator.com/item?id=50542948": {
-        "title": "Codeberg seems to have vanished from DNS",
-        "url": "https://news.ycombinator.com/item?id=50542948",
-        "points": 58,
-        "comments": 21,
-        "created": "2026-11-18T07:28:57.000Z"
-      },
       "https://news.ycombinator.com/item?id=50562528": {
         "title": "Anthropic (ANT) stock lists at nearly $2T valuation",
         "url": "https://news.ycombinator.com/item?id=50562528",
         "points": 38,
         "comments": 10,
         "created": "2026-11-19T16:47:32.000Z"
-      },
-      "https://news.ycombinator.com/item?id=50543947": {
-        "title": "Claude Gets Hella Paranoid",
-        "url": "https://news.ycombinator.com/item?id=50543947",
-        "points": 19,
-        "comments": 11,
-        "created": "2026-11-18T09:24:58.000Z"
       },
       "https://news.ycombinator.com/item?id=50561571": {
         "title": "GitLab 19.6.0 is out and still vulnerable to Ruby2Shell and NGINX2Root",
@@ -14212,11 +14232,32 @@
         "points": 11,
         "comments": 7,
         "created": "2026-11-19T01:04:20.000Z"
+      },
+      "https://news.ycombinator.com/item?id=50585962": {
+        "title": "Tell HN: OpenRouter prompts to Minimax may have been read",
+        "url": "https://news.ycombinator.com/item?id=50585962",
+        "points": 27,
+        "comments": 2,
+        "created": "2026-11-21T04:31:38.000Z"
+      },
+      "https://news.ycombinator.com/item?id=50573839": {
+        "title": "Ask HN: Any actual balanced reviews of GTA 6?",
+        "url": "https://news.ycombinator.com/item?id=50573839",
+        "points": 11,
+        "comments": 19,
+        "created": "2026-11-20T12:36:49.000Z"
+      },
+      "https://news.ycombinator.com/item?id=50558285": {
+        "title": "Ask HN: How do you manage the curse of rabbit hole?",
+        "url": "https://news.ycombinator.com/item?id=50558285",
+        "points": 11,
+        "comments": 7,
+        "created": "2026-11-19T10:21:56.000Z"
       }
     }
   },
   "launches": {
-    "fetchedAt": "2026-11-21T06:35:03.879Z",
+    "fetchedAt": "2026-11-21T14:30:31.413Z",
     "candidates": {
       "https://www.producthunt.com/products/tecla-3": {
         "source": "Product Hunt",
@@ -14693,6 +14734,132 @@
         "url": "https://www.producthunt.com/products/baby-s-day-in",
         "published": "2026-11-19T08:50:55.000Z",
         "summary": "Turn two phones into a baby monitor Discussion | Link"
+      },
+      "https://www.producthunt.com/products/openvorld": {
+        "source": "Product Hunt",
+        "title": "OpenVorld",
+        "url": "https://www.producthunt.com/products/openvorld",
+        "published": "2026-11-16T19:15:46.000Z",
+        "summary": "Give your AI agents a home you can see Discussion | Link"
+      },
+      "https://www.producthunt.com/products/beat-watcher": {
+        "source": "Product Hunt",
+        "title": "Beat Watcher",
+        "url": "https://www.producthunt.com/products/beat-watcher",
+        "published": "2026-11-15T02:56:43.000Z",
+        "summary": "Fast Apple Watch heart rate alerts you can share with family Discussion | Link"
+      },
+      "https://www.producthunt.com/products/glassmail": {
+        "source": "Product Hunt",
+        "title": "Glassmail",
+        "url": "https://www.producthunt.com/products/glassmail",
+        "published": "2026-11-14T15:57:43.000Z",
+        "summary": "A fast Mac email app with AI that never leaves your Mac Discussion | Link"
+      },
+      "https://www.producthunt.com/products/smorza": {
+        "source": "Product Hunt",
+        "title": "Smorza",
+        "url": "https://www.producthunt.com/products/smorza",
+        "published": "2026-11-20T19:28:10.000Z",
+        "summary": "Every Mac app gets its own volume and output Discussion | Link"
+      },
+      "https://www.producthunt.com/products/shipyard": {
+        "source": "Product Hunt",
+        "title": "Shipyard",
+        "url": "https://www.producthunt.com/products/shipyard",
+        "published": "2026-11-16T18:21:35.000Z",
+        "summary": "MCP for Claude, Cursor and Codex to Automate Integrations Discussion | Link"
+      },
+      "https://www.producthunt.com/products/backspin": {
+        "source": "Product Hunt",
+        "title": "Backspin",
+        "url": "https://www.producthunt.com/products/backspin",
+        "published": "2026-11-19T02:52:10.000Z",
+        "summary": "Learn to DJ in your browser, on real vinyl decks Discussion | Link"
+      },
+      "https://www.producthunt.com/products/alter-contacts-ai-client-relationships": {
+        "source": "Product Hunt",
+        "title": "AlterContacts",
+        "url": "https://www.producthunt.com/products/alter-contacts-ai-client-relationships",
+        "published": "2026-11-17T10:25:12.000Z",
+        "summary": "AI client relationship assistant that thinks and does ahead Discussion | Link"
+      },
+      "https://www.producthunt.com/products/exa-ai": {
+        "source": "Product Hunt",
+        "title": "Exa Websets V2",
+        "url": "https://www.producthunt.com/products/exa-ai",
+        "published": "2026-11-18T17:15:13.000Z",
+        "summary": "Build custom datasets from the live web, 4x faster Discussion | Link"
+      },
+      "https://www.producthunt.com/products/stitch-loop": {
+        "source": "Product Hunt",
+        "title": "Stitch Loop",
+        "url": "https://www.producthunt.com/products/stitch-loop",
+        "published": "2026-11-20T19:38:38.000Z",
+        "summary": "Google’s AI agent that ships fixes and watches the metric Discussion | Link"
+      },
+      "https://www.producthunt.com/products/gitroots": {
+        "source": "Product Hunt",
+        "title": "gitroots",
+        "url": "https://www.producthunt.com/products/gitroots",
+        "published": "2026-11-20T13:22:16.000Z",
+        "summary": "Path-level GitHub access for developers and AI agents Discussion | Link"
+      },
+      "https://www.producthunt.com/products/anyprofile": {
+        "source": "Product Hunt",
+        "title": "AnyProfile",
+        "url": "https://www.producthunt.com/products/anyprofile",
+        "published": "2026-11-14T14:46:05.000Z",
+        "summary": "Free open-source antidetect browser for Mac & Windows Discussion | Link"
+      },
+      "https://www.producthunt.com/products/publicit": {
+        "source": "Product Hunt",
+        "title": "Publicit",
+        "url": "https://www.producthunt.com/products/publicit",
+        "published": "2026-11-18T15:19:01.000Z",
+        "summary": "Omnichannel ad infrastructure for marketers and AI agents Discussion | Link"
+      },
+      "https://www.producthunt.com/products/waitfeed-2": {
+        "source": "Product Hunt",
+        "title": "WaitFeed",
+        "url": "https://www.producthunt.com/products/waitfeed-2",
+        "published": "2026-11-20T20:01:06.000Z",
+        "summary": "Tech feed inside agent wait time Discussion | Link"
+      },
+      "https://www.producthunt.com/products/codemany": {
+        "source": "Product Hunt",
+        "title": "Codemany",
+        "url": "https://www.producthunt.com/products/codemany",
+        "published": "2026-11-14T20:12:52.000Z",
+        "summary": "Run GitHub Actions 3x faster Discussion | Link"
+      },
+      "https://www.producthunt.com/products/prompt-puncher": {
+        "source": "Product Hunt",
+        "title": "Prompt Puncher",
+        "url": "https://www.producthunt.com/products/prompt-puncher",
+        "published": "2026-11-17T18:29:56.000Z",
+        "summary": "The AI CEO Fighting Game Discussion | Link"
+      },
+      "https://www.producthunt.com/products/hollr-3": {
+        "source": "Product Hunt",
+        "title": "Hollr",
+        "url": "https://www.producthunt.com/products/hollr-3",
+        "published": "2026-11-17T12:22:18.000Z",
+        "summary": "Push-to-talk for your family, on iPhone and Apple Watch Discussion | Link"
+      },
+      "https://www.producthunt.com/products/doddle-3": {
+        "source": "Product Hunt",
+        "title": "Doddle",
+        "url": "https://www.producthunt.com/products/doddle-3",
+        "published": "2026-11-19T03:30:17.000Z",
+        "summary": "Draw on what your videos for 3D effects Discussion | Link"
+      },
+      "https://www.producthunt.com/products/croon": {
+        "source": "Product Hunt",
+        "title": "CROON",
+        "url": "https://www.producthunt.com/products/croon",
+        "published": "2026-11-18T11:51:36.000Z",
+        "summary": "Live dubbing for whatever's playing on your iPhone Discussion | Link"
       }
     }
   }
