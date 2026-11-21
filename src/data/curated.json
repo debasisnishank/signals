@@ -579,9 +579,29 @@
     "SamG-Coder/SmartImposter": {
       "why": "Anything past mesh distance becomes a parallax octahedral impostor evaluated by the RTX cores, letting a from-scratch Vulkan renderer draw millions of plants from one noisy sample per pixel.",
       "pickedOn": "2026-11-20"
+    },
+    "Lemxy/WinRust": {
+      "why": "Native Rust replacements for taskbar, Explorer and search ship with one-click install and uninstall, and the README is candid about admin risk and unsigned binaries.",
+      "pickedOn": "2026-11-21"
+    },
+    "MSNightmare/FastUnlock": {
+      "why": "Documents a working Narrator lockscreen bug that bypasses BitLocker on fully patched Windows 11, though it needs physical access and a linked online account.",
+      "pickedOn": "2026-11-21"
+    },
+    "mitsuhiko/tvpipe": {
+      "why": "By mitsuhiko, it uses real AirPlay and Cast mirroring protocols instead of URL playback, so latency stays low, and embeds as a Rust crate or Node SDK.",
+      "pickedOn": "2026-11-21"
+    },
+    "geerlingguy/chronytop": {
+      "why": "Single static Go binary that talks to chronyd's socket directly without chronyc, graphing request rates and showing which clients get rate-limited most.",
+      "pickedOn": "2026-11-21"
+    },
+    "https://news.ycombinator.com/item?id=50561199": {
+      "why": "Its search is a deterministic token parser translating plain queries into Overpass QL with no LLM, targeting the weak search that keeps people on Google Maps.",
+      "pickedOn": "2026-11-21"
     }
   },
-  "updatedAt": "2026-11-20T13:27:08.208Z",
+  "updatedAt": "2026-11-21T06:34:30.638Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1776,15 +1796,28 @@
       "topic": "infrastructure",
       "why": "Shows why naive accept-loop servers stall at millions of connections and how kernel-bypass networking with DPDK and AF_XDP changes the syscall-per-connection cost model.",
       "pickedOn": "2026-11-19"
+    },
+    "https://blog.cloudflare.com/nginx2root": {
+      "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+      "url": "https://blog.cloudflare.com/nginx2root/",
+      "source": "Cloudflare",
+      "published": "2026-11-20T01:58:29.000Z",
+      "topic": "infrastructure",
+      "why": "Explains how nginx memory-corruption bugs chain to host root and how Cloudflare's Rust edge and per-origin connection handling shield proxied origins.",
+      "pickedOn": "2026-11-21"
+    },
+    "https://dl.acm.org/doi/10.1145/3830418.3843899": {
+      "title": "Validating a High-Performance Cloud Object Store with Lightweight Formal Methods",
+      "url": "https://dl.acm.org/doi/10.1145/3830418.3843899",
+      "source": "Lobsters",
+      "published": "2026-11-19T08:53:43.470Z",
+      "discussion": "https://lobste.rs/s/zfe21b/validating_high_performance_cloud",
+      "topic": "distributed",
+      "why": "Shows how lightweight formal methods validated a high-performance cloud object store, a practical approach to proving correctness in distributed storage.",
+      "pickedOn": "2026-11-21"
     }
   },
   "deepdiveSkips": {
-    "https://stripe.com/blog/saas-platform-trends-in-ai-era": "2026-10-21",
-    "https://blog.cloudflare.com/clairic-extraction-model": "2026-10-21",
-    "https://blog.cloudflare.com/protect-your-netscaler-gateway": "2026-10-21",
-    "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary": "2026-10-21",
-    "https://medium.com/pinterest-engineering/introducing-modulelens-zooming-into-pytorch-modules-for-human-and-agentic-engineering-b7e9be9d29f8?source=rss----4c5a5f6279b6---4": "2026-10-21",
-    "https://www.calabro.io/ohbf": "2026-10-21",
     "https://shopify.engineering/open-model-task-experts": "2026-10-22",
     "https://www.figma.com/blog/source-material-ben-ganz": "2026-10-22",
     "https://enroute.sh/blog/everyone-is-doing-git-on-s3-wrong": "2026-10-22",
@@ -1873,7 +1906,10 @@
     "https://shopify.engineering/secure-agentic-apps": "2026-11-19",
     "https://savyasacheejha.com/posts/why-odhcpd": "2026-11-19",
     "https://www.postgresql.org/about/news/postgresql-19-released-3449": "2026-11-19",
-    "https://discord.com/blog/discord-update-november-19-2026": "2026-11-19"
+    "https://discord.com/blog/discord-update-november-19-2026": "2026-11-19",
+    "https://stripe.com/blog/give-your-agents-controlled-access-to-analyze-your-data-and-move-funds": "2026-11-21",
+    "https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos": "2026-11-21",
+    "https://aws.amazon.com/blogs/architecture/how-country-road-group-built-a-pattern-driven-integration-solution-on-aws": "2026-11-21"
   },
   "newsDays": {
     "2026-11-19": [
@@ -2007,6 +2043,72 @@
         "topic": "hardware",
         "why": "NASA's new Moon plans face a problem because the Orion spacecraft was not designed to fly the way the revised approach requires, a constraint the agency says must be addressed without cutting corners."
       }
+    ],
+    "2026-11-21": [
+      {
+        "title": "Anthropic shares fall a day after blockbuster opening",
+        "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "published": "2026-11-20T15:16:52.000Z",
+        "topic": "business",
+        "why": "Anthropic's shares fell 8.5% to near their $83 IPO price a day after a 17% debut gain, as a broad tech sell-off pushed the S&P 500 and Nasdaq into correction territory."
+      },
+      {
+        "title": "'Critical' 1970s-era Fujitsu UK police system could remain unsupported for three years",
+        "url": "https://www.theregister.com/public-sector/2026/11/20/critical-1970s-era-fujitsu-uk-police-system-could-remain-unsupported-for-three-years/5311322",
+        "source": "The Register",
+        "published": "2026-11-20T15:12:00.000Z",
+        "topic": "software",
+        "why": "The UK Home Office may run the 1974-era Police National Computer without Fujitsu vendor support for three years or more after missing another decommissioning deadline."
+      },
+      {
+        "title": "UN court cites military Facebook posts while finding Myanmar guilty of genocide",
+        "url": "https://www.theverge.com/policy/1038450/facebook-myanmar-genocide-un",
+        "source": "The Verge",
+        "published": "2026-11-20T15:02:13.000Z",
+        "topic": "policy",
+        "why": "The International Court of Justice found Myanmar committed genocide against the Rohingya and cited military Facebook posts that dehumanized them, underscoring platforms' role in mass violence."
+      },
+      {
+        "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
+        "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
+        "source": "TechCrunch",
+        "published": "2026-11-20T13:21:11.000Z",
+        "topic": "business",
+        "why": "California's attorney general served Nvidia an investigative subpoena over whether former CEO Jensen Huang's ties to a Chinese national led to chip or data leaks and misled investors."
+      },
+      {
+        "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+        "source": "The Verge",
+        "published": "2026-11-20T12:30:47.000Z",
+        "topic": "security",
+        "why": "Signal is blocking screenshots on iOS and Android by default to stop Siri, Gemini and other OS AI agents from reading on-screen messages, calling such agents hostile to privacy."
+      },
+      {
+        "title": "White House removes cyber-security chief after series of tech outages",
+        "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "published": "2026-11-20T09:37:59.000Z",
+        "topic": "security",
+        "why": "White House National Cyber Director Sean Cairncross left his post after a string of banking and air-traffic outages, though officials said no cyberattack caused them."
+      },
+      {
+        "title": "India’s smartphone sale plunged 22% during festive season",
+        "url": "https://www.thehindu.com/sci-tech/technology/indias-smartphone-sale-plunged-22-during-festive-season/article71723721.ece",
+        "source": "The Hindu",
+        "published": "2026-11-20T08:56:31.000Z",
+        "topic": "business",
+        "why": "India's festive-season smartphone sales fell an estimated 22% year over year as rising memory costs pushed prices up 28%, leaving market value roughly flat, Counterpoint said."
+      },
+      {
+        "title": "A human liver has been kept alive outside the body for a record seven weeks",
+        "url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
+        "source": "MIT Technology Review",
+        "published": "2026-11-19T12:00:00.000Z",
+        "topic": "science",
+        "why": "Australian researchers kept a donated human liver alive outside the body for seven weeks using an automated perfusion system, far surpassing the prior two-week record."
+      }
     ]
   },
   "ideaDays": {
@@ -2079,6 +2181,69 @@
             "title": "Codeberg seems to have vanished from DNS",
             "url": "https://news.ycombinator.com/item?id=50542948",
             "source": "Ask HN"
+          }
+        ]
+      }
+    ],
+    "2026-11-21": [
+      {
+        "title": "SiteFilter",
+        "problem": "Land and property buyers can't express exclusion rules like \"houses more than 1 km from a sewage works and 200 m from a rail line\" in Google Maps or OSM apps, so they screen parcels by driving around and eyeballing distances.",
+        "firstBuild": "An offline county-level OSM extract with a deterministic, non-LLM query parser that turns typed distance rules into filtered map pins, saved shortlists, and per-pin distance readouts.",
+        "mobileFit": "Screening happens standing on or beside a parcel, often with no signal, where GPS plus an offline map is the entire workflow.",
+        "validation": "Ask rural land buyers and small developers whether they would pre-filter parcels on a phone before driving out, and which five exclusion rules they would use first.",
+        "evidence": [
+          {
+            "title": "Fast deterministic natural language search for OpenStreetMap data",
+            "url": "https://news.ycombinator.com/item?id=50561199",
+            "source": "Hacker News"
+          }
+        ]
+      },
+      {
+        "title": "ShootMatch",
+        "problem": "Event and wedding photographers shoot thousands of frames and guests wait days to find their own photos, while cloud face-matching services are ruled out by schools and venues on biometric-privacy grounds.",
+        "firstBuild": "A photographer-side app that indexes one shoot's faces on-device plus a QR-code guest page that returns only that guest's matched photos, with explicit consent prompts and no upload of embeddings or images.",
+        "mobileFit": "Indexing and handoff run on a tablet or phone at the event, so local processing enables same-day delivery without sending biometrics anywhere.",
+        "validation": "Ask wedding and school-event photographers whether same-day on-device delivery to guests would change their package pricing or clear a privacy objection that currently blocks cloud face search.",
+        "evidence": [
+          {
+            "title": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+            "url": "https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+            "source": "GitHub"
+          }
+        ]
+      },
+      {
+        "title": "PatchProof",
+        "problem": "After a rushed patch wave, small IT shops and MSP techs confirm that services still work using camera-roll photos and scattered notes, leaving no consistent evidence of what was checked or when.",
+        "firstBuild": "An asset-QR app with per-service check templates (version-string photo, port probe, login-page capture), offline queueing, and a timestamped PDF sign-off per patch window.",
+        "mobileFit": "Verification happens at the rack and in the server room, where the phone camera, QR scanning, and offline capture are the only tools on hand.",
+        "validation": "Ask three small MSPs whether they would replace their photos-plus-notes patch sign-off with a QR check-template app, and what evidence their clients actually ask to see.",
+        "evidence": [
+          {
+            "title": "Possible theory of why things are breaking",
+            "url": "https://news.ycombinator.com/item?id=50538010",
+            "source": "Ask HN"
+          },
+          {
+            "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+            "url": "https://news.ycombinator.com/item?id=50569226",
+            "source": "Hacker News"
+          }
+        ]
+      },
+      {
+        "title": "ThreadDigest",
+        "problem": "Novelists collect scene ideas and character notes in scattered voice memos and phone notes, then lose track of which characters and plot threads they left unresolved across drafts.",
+        "firstBuild": "A dictation-first app that transcribes voice notes on-device, extracts named characters and open threads, and shows a weekly \"still hanging\" digest, with no generated prose.",
+        "mobileFit": "Writers think out loud on walks and commutes, so capture and review belong on the phone at the moment ideas appear rather than at a desk.",
+        "validation": "Ask novelists mid-draft whether they would dictate scene notes and act on a weekly unresolved-thread digest, or whether that duplicates the notes app they already use.",
+        "evidence": [
+          {
+            "title": "Foolscap – a writing app that reads your book and never writes for you",
+            "url": "https://news.ycombinator.com/item?id=50559749",
+            "source": "Hacker News"
           }
         ]
       }
