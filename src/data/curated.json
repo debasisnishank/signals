@@ -599,9 +599,29 @@
     "https://news.ycombinator.com/item?id=50561199": {
       "why": "Its search is a deterministic token parser translating plain queries into Overpass QL with no LLM, targeting the weak search that keeps people on Google Maps.",
       "pickedOn": "2026-11-21"
+    },
+    "deepseek-ai/chat-demo": {
+      "why": "Static site that opens from index.html with no backend; branching, attachments and voice input already work, unlike most thin API demo UIs.",
+      "pickedOn": "2026-11-22"
+    },
+    "danielwh2/sprite-stacking": {
+      "why": "Encodes a real technique: four orthographic views are carved, sliced and rendered, with a CLI for slice count and view ordering that fits game engines.",
+      "pickedOn": "2026-11-22"
+    },
+    "https://news.ycombinator.com/item?id=50569226": {
+      "why": "CVSS 9.8 overflow in EVP_EncodeBlock; comments note impact may be limited to OpenSSL 4, so check your version before assuming exposure.",
+      "pickedOn": "2026-11-22"
+    },
+    "https://news.ycombinator.com/item?id=50560595": {
+      "why": "Working prototype with a custom PCB: RP2354A speaks Greaseweazle, ESP32-S3 serves decoded photos over WiFi, and both sides are OTA updatable.",
+      "pickedOn": "2026-11-22"
+    },
+    "https://news.ycombinator.com/item?id=50581403": {
+      "why": "Self-hostable on one outbound-only VM with rootless Podman isolation, git worktree sessions and per-turn state backups; concrete benchmark against Devin.",
+      "pickedOn": "2026-11-22"
     }
   },
-  "updatedAt": "2026-11-21T06:34:30.638Z",
+  "updatedAt": "2026-11-22T06:34:26.141Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1815,12 +1835,18 @@
       "topic": "distributed",
       "why": "Shows how lightweight formal methods validated a high-performance cloud object store, a practical approach to proving correctness in distributed storage.",
       "pickedOn": "2026-11-21"
+    },
+    "https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws": {
+      "title": "How Bee implemented Zero Operator Access for personal AI on AWS",
+      "url": "https://aws.amazon.com/blogs/architecture/how-bee-implemented-zero-operator-access-for-personal-ai-on-aws/",
+      "source": "AWS Architecture",
+      "published": "2026-11-20T18:49:05.000Z",
+      "topic": "architecture",
+      "why": "Explains how a wearable maker designs a system where no operator can reach user data, gating decryption keys on attested instances and Nitro isolation.",
+      "pickedOn": "2026-11-22"
     }
   },
   "deepdiveSkips": {
-    "https://shopify.engineering/open-model-task-experts": "2026-10-22",
-    "https://www.figma.com/blog/source-material-ben-ganz": "2026-10-22",
-    "https://enroute.sh/blog/everyone-is-doing-git-on-s3-wrong": "2026-10-22",
     "https://blog.cloudflare.com/full-transaction-waf": "2026-10-23",
     "https://blog.cloudflare.com/webmcp-commerce": "2026-10-23",
     "https://aws.amazon.com/blogs/architecture/automate-medical-coding-with-step-functions-and-amazon-bedrock-agentcore": "2026-10-23",
@@ -1909,7 +1935,10 @@
     "https://discord.com/blog/discord-update-november-19-2026": "2026-11-19",
     "https://stripe.com/blog/give-your-agents-controlled-access-to-analyze-your-data-and-move-funds": "2026-11-21",
     "https://aws.amazon.com/blogs/architecture/ai-coding-agents-on-amazon-ec2-mac-how-cognition-scales-devin-for-macos": "2026-11-21",
-    "https://aws.amazon.com/blogs/architecture/how-country-road-group-built-a-pattern-driven-integration-solution-on-aws": "2026-11-21"
+    "https://aws.amazon.com/blogs/architecture/how-country-road-group-built-a-pattern-driven-integration-solution-on-aws": "2026-11-21",
+    "https://blog.cloudflare.com/ruby2shell-waf-protection": "2026-11-22",
+    "https://blog.cloudflare.com/phpaftershell-waf-protection": "2026-11-22",
+    "https://www.figma.com/blog/workflow-lab-specs-and-the-figma-agent": "2026-11-22"
   },
   "newsDays": {
     "2026-11-19": [
@@ -2109,6 +2138,72 @@
         "topic": "science",
         "why": "Australian researchers kept a donated human liver alive outside the body for seven weeks using an automated perfusion system, far surpassing the prior two-week record."
       }
+    ],
+    "2026-11-22": [
+      {
+        "title": "Google launches Gemini 4 Neon taking on Claude Opus 5.5 and GPT-6.2 Sol",
+        "url": "https://www.thehindu.com/sci-tech/technology/google-launches-gemini-4-neon-taking-on-claude-opus-55-and-gpt-62-sol/article71727599.ece",
+        "source": "The Hindu",
+        "published": "2026-11-21T08:33:51.000Z",
+        "topic": "ai",
+        "why": "Google launched Gemini 4 Neon for coding, reasoning and enterprise work, saying it beat Claude Opus 5.5 and GPT-6.2 Sol on benchmarks, priced at $3/$15 per million tokens."
+      },
+      {
+        "title": "Nvidia's accounting is a focus of U.S. SEC investigation, sources say",
+        "url": "https://www.thehindu.com/sci-tech/technology/nvidias-accounting-is-a-focus-of-us-sec-investigation-sources-say/article71727338.ece",
+        "source": "The Hindu",
+        "published": "2026-11-21T05:58:43.000Z",
+        "topic": "business",
+        "why": "The US SEC is examining Nvidia's accounting, Reuters reported, and Nvidia shares fell about 13% Friday as the probe added to the chipmaker's legal troubles."
+      },
+      {
+        "title": "Anthropic shares fall a day after blockbuster opening",
+        "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "published": "2026-11-20T15:16:52.000Z",
+        "topic": "business",
+        "why": "Anthropic shares closed down 8.5%, near their IPO price, as a broad AI-investment selloff pushed the S&P 500 and Dow into correction territory."
+      },
+      {
+        "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+        "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "published": "2026-11-20T23:08:57.000Z",
+        "topic": "science",
+        "why": "An Anthropic mathematician claimed he used Claude to produce a Lean proof of the 167-year-old Riemann hypothesis; verification will take time."
+      },
+      {
+        "title": "NASA Mars rover and orbiter suffer glitches",
+        "url": "https://www.theregister.com/science/2026/11/21/nasa-mars-rover-and-orbiter-suffer-glitches/5311360",
+        "source": "The Register",
+        "published": "2026-11-21T07:47:00.000Z",
+        "topic": "science",
+        "why": "NASA's Perseverance rover paused science due to low data rates, while the Odyssey orbiter lost a reaction wheel and may have only months of thruster fuel left."
+      },
+      {
+        "title": "PHP 8.6: Things are gonna get a lot more strict around here",
+        "url": "https://www.theregister.com/devops/2026/11/20/php-86-things-are-gonna-get-a-lot-more-strict-around-here/5311486",
+        "source": "The Register",
+        "published": "2026-11-20T23:28:47.000Z",
+        "topic": "security",
+        "why": "PHP 8.6 shipped with stricter security-friendly defaults after a swarm of vulnerabilities forced coordinated patches for critical remote code execution flaws."
+      },
+      {
+        "title": "Pune startup develops atomic clock prototype amid growing export curbs on critical technologies",
+        "url": "https://www.thehindu.com/sci-tech/technology/pune-startup-develops-atomic-clock-prototype-amid-growing-export-curbs-on-critical-technologies/article71727456.ece",
+        "source": "The Hindu",
+        "published": "2026-11-21T06:33:51.000Z",
+        "topic": "hardware",
+        "why": "Pune startup QuPrayog built a laboratory-scale rubidium atomic clock prototype, aiming at indigenous precision timing as export controls limit access."
+      },
+      {
+        "title": "Startup sues Apple in India over tap-to-share contacts feature",
+        "url": "https://techcrunch.com/2026/11/20/startup-sues-apple-in-india-over-tap-to-share-contacts-feature/",
+        "source": "TechCrunch",
+        "published": "2026-11-21T04:00:00.000Z",
+        "topic": "policy",
+        "why": "US startup GG Technologies sued Apple in India, seeking about $162 million and an import injunction over the iPhone's NameDrop contact-sharing feature."
+      }
     ]
   },
   "ideaDays": {
@@ -2244,6 +2339,64 @@
             "title": "Foolscap – a writing app that reads your book and never writes for you",
             "url": "https://news.ycombinator.com/item?id=50559749",
             "source": "Hacker News"
+          }
+        ]
+      }
+    ],
+    "2026-11-22": [
+      {
+        "title": "Wayword",
+        "problem": "Map apps make multi-condition searches like \"quiet campsite within 2 km of a train but away from major roads\" nearly impossible, and the workarounds need a signal exactly where people lack one.",
+        "firstBuild": "Ship an offline POI index for one region plus a deterministic parser for five filters (category, within/away-from, distance, open-now, max-price) that returns results in airplane mode.",
+        "mobileFit": "These searches happen while walking, riding, or parked in a dead zone, so GPS plus a pre-downloaded index is the natural interface.",
+        "validation": "Ask hikers and van travelers to name the last three map searches they gave up on, and whether they would pre-download a region to run them offline.",
+        "evidence": [
+          {
+            "title": "Fast deterministic natural language search for OpenStreetMap data",
+            "url": "https://news.ycombinator.com/item?id=50561199",
+            "source": "Hacker News"
+          }
+        ]
+      },
+      {
+        "title": "DoorMatch",
+        "problem": "Small home-service and childcare operators cannot confirm the right person actually arrived, while cloud face-matching services make them uneasy about biometric uploads.",
+        "firstBuild": "A two-phone check where the worker records a liveness selfie, the client scans a QR to compare it on-device against the scheduled worker's enrollment, and only a pass/fail receipt leaves the device.",
+        "mobileFit": "The check happens at a doorstep with two cameras present, where phones are the only hardware the parties already carry.",
+        "validation": "Ask agency owners whether wrong-person arrivals or impersonation have actually cost them money, and what proof they accept today.",
+        "evidence": [
+          {
+            "title": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+            "url": "https://github.com/nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+            "source": "GitHub"
+          }
+        ]
+      },
+      {
+        "title": "SpinSheet",
+        "problem": "Pixel artists draw four orthographic views but turning them into a rotatable sprite still means manually carving a volume and slicing layers.",
+        "firstBuild": "Import or photograph a four-view sheet, auto-align and carve the volume, then export a turntable GIF and per-frame PNGs at 32-48 slices.",
+        "mobileFit": "Source art usually lives in a sketchbook or on a tablet, so camera capture, Pencil touch-up, and the share sheet cover the whole loop.",
+        "validation": "Ask pixel artists whether they would trust automatic carving or need per-slice editing before exporting to a game engine.",
+        "evidence": [
+          {
+            "title": "danielwh2/sprite-stacking",
+            "url": "https://github.com/danielwh2/sprite-stacking",
+            "source": "GitHub"
+          }
+        ]
+      },
+      {
+        "title": "GroupQuote",
+        "problem": "Small restaurants rebuild group-booking quotes by hand from DMs and emails, losing hours and letting provisional holds lapse.",
+        "firstBuild": "Paste an enquiry or screenshot, extract party size, date, and budget, then generate an editable one-page proposal with menu, per-head price, deposit, and hold deadline ready to share.",
+        "mobileFit": "Owners answer enquiries between services on their phones, so capture and send must work from the share sheet without opening a laptop.",
+        "validation": "Ask ten independent restaurants to show their last group enquiry and time how long the quote actually took to produce.",
+        "evidence": [
+          {
+            "title": "heep-ai/restaurant-ai-skills",
+            "url": "https://github.com/heep-ai/restaurant-ai-skills",
+            "source": "GitHub"
           }
         ]
       }
