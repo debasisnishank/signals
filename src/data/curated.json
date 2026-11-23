@@ -619,9 +619,29 @@
     "https://news.ycombinator.com/item?id=50581403": {
       "why": "Self-hostable on one outbound-only VM with rootless Podman isolation, git worktree sessions and per-turn state backups; concrete benchmark against Devin.",
       "pickedOn": "2026-11-22"
+    },
+    "omonkeyz/xbox-emulator": {
+      "why": "Reimplements the console platform layer (D3D12, RDNA2 shaders) as a title-agnostic runtime and ships its Rust source, rather than patching one game; many library calls are still missing.",
+      "pickedOn": "2026-11-23"
+    },
+    "sybil-solutions/skill-distill": {
+      "why": "The teacher model rewrites the skill between automated tmux runs until a smaller model reproduces the session, three trials per version, with your final review instead of a one-shot prompt dump.",
+      "pickedOn": "2026-11-23"
+    },
+    "EL4CTEO/fast-anything": {
+      "why": "Records real calls and replays them to prove the ported function matches before swapping it in, and enable/disable is a single reversible marked block, so you do not commit blind.",
+      "pickedOn": "2026-11-23"
+    },
+    "https://news.ycombinator.com/item?id=50591853": {
+      "why": "Allocates bits per row by Fisher information over trellis codes, publishing the full recipe and about $34 of GPU cost; beats Q4_K_M by 12x KL at equal file size.",
+      "pickedOn": "2026-11-23"
+    },
+    "https://news.ycombinator.com/item?id=50594132": {
+      "why": "Runs 27 named detectors over a capture locally and returns a severity plus a next step for each, aimed at finding faults rather than browsing packets; beta, Apache 2.0.",
+      "pickedOn": "2026-11-23"
     }
   },
-  "updatedAt": "2026-11-22T06:34:26.141Z",
+  "updatedAt": "2026-11-23T06:34:06.920Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1847,12 +1867,6 @@
     }
   },
   "deepdiveSkips": {
-    "https://blog.cloudflare.com/full-transaction-waf": "2026-10-23",
-    "https://blog.cloudflare.com/webmcp-commerce": "2026-10-23",
-    "https://aws.amazon.com/blogs/architecture/automate-medical-coding-with-step-functions-and-amazon-bedrock-agentcore": "2026-10-23",
-    "https://muratbuffalo.blogspot.com/2026/10/hpts-2026-day-1.html": "2026-10-23",
-    "https://blickeditor.com/blog/caching-an-immediate-mode-ui": "2026-10-23",
-    "https://www.corsix.org/content/using-a-lookup-table-to-correct-an-approximation": "2026-10-23",
     "https://stripe.com/blog/trends-from-money20-20-2026-the-rise-of-hidden-financial-services": "2026-10-24",
     "https://discord.com/blog/discord-update-october-22-2026": "2026-10-24",
     "https://blog.cloudflare.com/k-isms": "2026-10-24",
@@ -2204,6 +2218,72 @@
         "topic": "policy",
         "why": "US startup GG Technologies sued Apple in India, seeking about $162 million and an import injunction over the iPhone's NameDrop contact-sharing feature."
       }
+    ],
+    "2026-11-23": [
+      {
+        "title": "CII proposes 15 financial sector reforms to boost long-term growth ambitions",
+        "url": "https://yourstory.com/2026/11/cii-15-financial-sector-reforms-boost-long-term-growth-ambitions",
+        "source": "YourStory",
+        "published": "2026-11-22T12:13:28.000Z",
+        "topic": "business",
+        "why": "India's CII industry body proposed 15 financial-sector reforms, including a permanent liquidity window for well-governed NBFCs and higher priority lending limits for renewable energy."
+      },
+      {
+        "title": "GLP-1 drugs could have a surprisingly large environmental payoff",
+        "url": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/",
+        "source": "Ars Technica",
+        "published": "2026-11-22T12:07:41.000Z",
+        "topic": "science",
+        "why": "Research suggests GLP-1 drugs could cut food demand enough to free farmland larger than Italy, linking weight-loss medicines to major land-use and environmental change."
+      },
+      {
+        "title": "Passive 'ghost' radar can detect airborne threats without revealing its own position",
+        "url": "https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023",
+        "source": "The Register",
+        "published": "2026-11-22T09:15:00.000Z",
+        "topic": "hardware",
+        "why": "BAE Systems is developing a passive radar that uses TV, radio and mobile signals to covertly track drones and aircraft, costing as little as a tenth of active systems and fitting in an SUV."
+      },
+      {
+        "title": "U.S. blocks China’s remote access to AI chips after Nvidia scandal; China slams move",
+        "url": "https://www.thehindu.com/news/international/us-blocks-chinas-remote-access-to-ai-chips-after-nvidia-scandal-china-slams-move/article71711869.ece",
+        "source": "The Hindu",
+        "published": "2026-11-22T06:50:36.000Z",
+        "topic": "policy",
+        "why": "The US issued rules curbing Chinese firms' remote access to advanced AI chips through data centers in third countries; Beijing accused Washington of abusing export controls."
+      },
+      {
+        "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+        "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+        "source": "TechCrunch",
+        "published": "2026-11-21T21:37:10.000Z",
+        "topic": "security",
+        "why": "Signal began restricting screenshots in its Android and iOS apps, with president Meredith Whittaker calling OS-level AI agents an existential threat to its privacy guarantees."
+      },
+      {
+        "title": "Trump says reported FBI database hack is ‘not good’",
+        "url": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
+        "source": "TechCrunch",
+        "published": "2026-11-21T18:44:53.000Z",
+        "topic": "security",
+        "why": "The FBI is investigating an apparent hack of the National Crime Information Center, the law-enforcement database for warrants and background checks; the breach's scope is unclear."
+      },
+      {
+        "title": "Google launches Gemini 4 Neon taking on Claude Opus 5.5 and GPT-6.2 Sol",
+        "url": "https://www.thehindu.com/sci-tech/technology/google-launches-gemini-4-neon-taking-on-claude-opus-55-and-gpt-62-sol/article71727599.ece",
+        "source": "The Hindu",
+        "published": "2026-11-21T08:33:51.000Z",
+        "topic": "ai",
+        "why": "Google launched Gemini 4 Neon for coding and enterprise work, claiming it beats Anthropic's Claude Opus 5.5 and OpenAI's GPT-6.2 Sol on several benchmarks at $3/$15 per million tokens."
+      },
+      {
+        "title": "Pune startup develops atomic clock prototype amid growing export curbs on critical technologies",
+        "url": "https://www.thehindu.com/sci-tech/technology/pune-startup-develops-atomic-clock-prototype-amid-growing-export-curbs-on-critical-technologies/article71727456.ece",
+        "source": "The Hindu",
+        "published": "2026-11-21T06:33:51.000Z",
+        "topic": "hardware",
+        "why": "A Pune startup built an atomic clock prototype, a technology critical to navigation, telecom and space missions, as export curbs tighten on such strategic components."
+      }
     ]
   },
   "ideaDays": {
@@ -2397,6 +2477,64 @@
             "title": "heep-ai/restaurant-ai-skills",
             "url": "https://github.com/heep-ai/restaurant-ai-skills",
             "source": "GitHub"
+          }
+        ]
+      }
+    ],
+    "2026-11-23": [
+      {
+        "title": "NetBlame",
+        "problem": "When home or small-office internet breaks, people can't tell whether the fault is DNS, a captive portal, a VPN, MTU, or the ISP, so they reboot blindly and open support tickets with no evidence.",
+        "firstBuild": "A one-tap probe sequence that tests DNS, captive portal, TCP/TLS, throughput, and MTU, then names the likely culprit and exports a shareable report.",
+        "mobileFit": "The phone is usually the device that lost connectivity, can compare Wi-Fi against cellular, and can hand the report to a support agent from the same screen.",
+        "validation": "Ask ten people who recently had an outage what evidence they gave their ISP and whether a one-tap verdict would have changed their next step.",
+        "evidence": [
+          {
+            "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+            "url": "https://news.ycombinator.com/item?id=50594132",
+            "source": "Hacker News"
+          }
+        ]
+      },
+      {
+        "title": "CanaryPrompt",
+        "problem": "Prompts and documents sent to third-party model providers can be retained and the URLs inside them fetched days later by unknown parties, leaving users with no signal that a leak happened.",
+        "firstBuild": "Mint unique canary URLs, insert them through the share sheet, and push an alert with time, referrer, and geography the moment one is fetched.",
+        "mobileFit": "Push notifications deliver the leak signal wherever you are, and the share sheet lets you plant a canary in any chat or prompt field in two taps.",
+        "validation": "Ask teams that paste internal links into chatbots whether they would plant a canary and what action an alert arriving three days later should trigger.",
+        "evidence": [
+          {
+            "title": "Tell HN: OpenRouter prompts to Minimax may have been read",
+            "url": "https://news.ycombinator.com/item?id=50585962",
+            "source": "Ask HN"
+          }
+        ]
+      },
+      {
+        "title": "ModelFit",
+        "problem": "People downloading local models cannot predict whether a given quantization will fit their phone's memory or stay fast before spending gigabytes on it.",
+        "firstBuild": "A benchmark that downloads two or three small quantized models, runs fixed prompts, and reports peak memory, tokens per second, and thermal throttling as a shareable card.",
+        "mobileFit": "Memory ceilings and thermal throttling are device-specific, so the measurement has to run on the phone itself, ideally while charging.",
+        "validation": "Ask local-model users which download last failed to fit or ran too slowly and whether a pre-download fit and speed estimate would have changed their choice.",
+        "evidence": [
+          {
+            "title": "Inkling-2-Mini in 5.4 GB Memory",
+            "url": "https://news.ycombinator.com/item?id=50591853",
+            "source": "Hacker News"
+          }
+        ]
+      },
+      {
+        "title": "DeadlineVault",
+        "problem": "Immigration filings depend on hard deadlines and exact document sets, yet applicants track them across email, PDFs, and spreadsheets, where a missed date can end a case.",
+        "firstBuild": "Pick a visa type, generate a dated checklist, scan documents into a per-case vault, and send reminders for filing windows and document expiry.",
+        "mobileFit": "The phone camera is the scanner, and push reminders plus a shareable case folder keep applicants and attorneys in sync without email chains.",
+        "validation": "Ask people with a pending petition where their deadlines and document checklist currently live and whether they would trust an app to remind them.",
+        "evidence": [
+          {
+            "title": "I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA",
+            "url": "https://news.ycombinator.com/item?id=50577613",
+            "source": "Ask HN"
           }
         ]
       }
