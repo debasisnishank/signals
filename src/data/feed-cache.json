@@ -1,18 +1,18 @@
 {
   "tech": {
-    "fetchedAt": "2026-11-23T06:34:36.175Z",
+    "fetchedAt": "2026-11-23T17:54:26.433Z",
     "repos": [
       {
         "name": "ItsNotRexed/Leonida",
         "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
         "language": "Python",
-        "stars": 16884,
+        "stars": 25989,
         "url": "https://github.com/ItsNotRexed/Leonida",
         "created": "2026-11-20T20:07:13Z",
         "topics": [],
         "hn": {
-          "points": 215,
-          "comments": 173,
+          "points": 230,
+          "comments": 188,
           "url": "https://news.ycombinator.com/item?id=50595168"
         }
       },
@@ -20,7 +20,7 @@
         "name": "Minireel/HGhub",
         "description": "Plug-in media player",
         "language": "Rust",
-        "stars": 11564,
+        "stars": 11629,
         "url": "https://github.com/Minireel/HGhub",
         "created": "2026-11-03T14:04:27Z",
         "topics": [
@@ -34,12 +34,12 @@
         "name": "janestreet/agent_skills",
         "description": "Agent skills",
         "language": null,
-        "stars": 10829,
+        "stars": 11222,
         "url": "https://github.com/janestreet/agent_skills",
         "created": "2026-11-03T16:50:21Z",
         "topics": [],
         "hn": {
-          "points": 723,
+          "points": 724,
           "comments": 172,
           "url": "https://news.ycombinator.com/item?id=50438261"
         }
@@ -48,7 +48,7 @@
         "name": "huami1314/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
         "language": "Swift",
-        "stars": 8825,
+        "stars": 8859,
         "url": "https://github.com/huami1314/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": []
@@ -57,7 +57,7 @@
         "name": "erkamyaman/rust-anything",
         "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
         "language": "Rust",
-        "stars": 8172,
+        "stars": 8597,
         "url": "https://github.com/erkamyaman/rust-anything",
         "created": "2026-11-16T12:10:36Z",
         "topics": [
@@ -68,19 +68,10 @@
         ]
       },
       {
-        "name": "deepseek-ai/chat-demo",
-        "description": "Chat Demo",
-        "language": "TypeScript",
-        "stars": 5308,
-        "url": "https://github.com/deepseek-ai/chat-demo",
-        "created": "2026-11-12T08:08:19Z",
-        "topics": []
-      },
-      {
         "name": "ersinkoc/phonebox",
         "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
         "language": "JavaScript",
-        "stars": 5157,
+        "stars": 5376,
         "url": "https://github.com/ersinkoc/phonebox",
         "created": "2026-11-07T16:45:16Z",
         "topics": [
@@ -91,10 +82,19 @@
         ]
       },
       {
+        "name": "deepseek-ai/chat-demo",
+        "description": "Chat Demo",
+        "language": "TypeScript",
+        "stars": 5341,
+        "url": "https://github.com/deepseek-ai/chat-demo",
+        "created": "2026-11-12T08:08:19Z",
+        "topics": []
+      },
+      {
         "name": "simplexai-labs/linger",
         "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
         "language": "TypeScript",
-        "stars": 3972,
+        "stars": 4140,
         "url": "https://github.com/simplexai-labs/linger",
         "created": "2026-11-10T03:50:38Z",
         "topics": [
@@ -108,7 +108,7 @@
         "name": "EL4CTEO/fast-anything",
         "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
         "language": "Rust",
-        "stars": 2249,
+        "stars": 2989,
         "url": "https://github.com/EL4CTEO/fast-anything",
         "created": "2026-11-21T14:40:27Z",
         "topics": [
@@ -118,8 +118,8 @@
           "claude-code-plugin"
         ],
         "hn": {
-          "points": 192,
-          "comments": 157,
+          "points": 204,
+          "comments": 165,
           "url": "https://news.ycombinator.com/item?id=50596155"
         }
       },
@@ -127,7 +127,7 @@
         "name": "omonkeyz/xbox-emulator",
         "description": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
         "language": "Rust",
-        "stars": 1396,
+        "stars": 1571,
         "url": "https://github.com/omonkeyz/xbox-emulator",
         "created": "2026-11-21T08:08:39Z",
         "topics": []
@@ -136,7 +136,7 @@
         "name": "os6/nospeaker",
         "description": "make your macbook's trackpad talk using its haptic motor",
         "language": "Swift",
-        "stars": 605,
+        "stars": 1193,
         "url": "https://github.com/os6/nospeaker",
         "created": "2026-11-22T12:05:54Z",
         "topics": [
@@ -144,13 +144,18 @@
           "macos",
           "swift",
           "trackpad"
-        ]
+        ],
+        "hn": {
+          "points": 161,
+          "comments": 81,
+          "url": "https://news.ycombinator.com/item?id=50610318"
+        }
       },
       {
         "name": "sybil-solutions/skill-distill",
         "description": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task",
         "language": "Python",
-        "stars": 467,
+        "stars": 498,
         "url": "https://github.com/sybil-solutions/skill-distill",
         "created": "2026-11-21T01:43:00Z",
         "topics": []
@@ -159,7 +164,7 @@
         "name": "w01fb0ss/PiBot",
         "description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
         "language": "TypeScript",
-        "stars": 437,
+        "stars": 491,
         "url": "https://github.com/w01fb0ss/PiBot",
         "created": "2026-11-21T06:54:24Z",
         "topics": [
@@ -170,73 +175,68 @@
         ]
       },
       {
-        "name": "deep-patch-true/synchro-arts-revoice-pro-5-win",
-        "description": "Synchro Arts Revoice Pro 5 - vocal editing and pitch correction software for automatic timing alignment, pitch shifting and double-track generation on Windows 10/11",
-        "language": null,
-        "stars": 421,
-        "url": "https://github.com/deep-patch-true/synchro-arts-revoice-pro-5-win",
-        "created": "2026-11-21T16:39:14Z",
+        "name": "sshkeda/minecraft-server-on-orange-cloud",
+        "description": "Run a Minecraft Java server entirely on Cloudflare. Sleeps when nobody's playing.",
+        "language": "TypeScript",
+        "stars": 414,
+        "url": "https://github.com/sshkeda/minecraft-server-on-orange-cloud",
+        "created": "2026-11-21T02:36:03Z",
         "topics": [
-          "arts",
-          "desktop-app",
-          "pitch-correction",
-          "post-production"
+          "bun",
+          "cloudflare",
+          "cloudflare-containers",
+          "cloudflare-workers"
         ]
       },
       {
-        "name": "alexeytarasov8/jetbrains-pycharm-professional-win",
-        "description": "JetBrains PyCharm - Python integrated development environment for scientific computing, web frameworks and data analysis on Windows 10/11",
-        "language": null,
-        "stars": 421,
-        "url": "https://github.com/alexeytarasov8/jetbrains-pycharm-professional-win",
-        "created": "2026-11-21T16:19:17Z",
+        "name": "erkamyaman/safe-anything",
+        "description": "Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.",
+        "language": "Rust",
+        "stars": 403,
+        "url": "https://github.com/erkamyaman/safe-anything",
+        "created": "2026-11-22T16:44:10Z",
         "topics": [
-          "awesome",
+          "ai-agents",
+          "claude-code",
+          "claude-code-plugin",
+          "cli"
+        ]
+      },
+      {
+        "name": "xikhar/papercraft",
+        "description": "Agent skill to build games, interactive scenes, web pages and animations in a handcrafted pop-up papercraft style",
+        "language": "JavaScript",
+        "stars": 398,
+        "url": "https://github.com/xikhar/papercraft",
+        "created": "2026-11-21T00:29:56Z",
+        "topics": []
+      },
+      {
+        "name": "icitycode/capcut-for-windows",
+        "description": "CapCut for Windows: Visual Video Editing and Screen Recording Workflow",
+        "language": "HTML",
+        "stars": 356,
+        "url": "https://github.com/icitycode/capcut-for-windows",
+        "created": "2026-11-21T13:11:07Z",
+        "topics": [
+          "automation",
+          "capcut-activated",
+          "capcut-crack-2026",
+          "capcut-cracked-2026"
+        ]
+      },
+      {
+        "name": "juniordroid/better-discord-client",
+        "description": "Better Discord Client: Remastered Desktop Experience for Modders",
+        "language": "HTML",
+        "stars": 340,
+        "url": "https://github.com/juniordroid/better-discord-client",
+        "created": "2026-11-21T13:05:46Z",
+        "topics": [
+          "automation",
+          "desktop",
           "developer-tools",
-          "eclipse",
-          "gpt-4"
-        ]
-      },
-      {
-        "name": "Wojcik1999/rob-run-menu-win",
-        "description": "Rob Run Menu - Windows desktop customization utility for building custom right-click menus, launching frequently used apps and organizing context menu commands on Windows 10/11",
-        "language": null,
-        "stars": 420,
-        "url": "https://github.com/Wojcik1999/rob-run-menu-win",
-        "created": "2026-11-21T15:27:49Z",
-        "topics": [
-          "arcmenu",
-          "desktop-app",
-          "marking-menu",
-          "menu"
-        ]
-      },
-      {
-        "name": "Shellsmall/mathway-premium-win",
-        "description": "Mathway - mathematical problem solver for equation solving, graphing and step-by-step explanations on Windows 10/11",
-        "language": null,
-        "stars": 418,
-        "url": "https://github.com/Shellsmall/mathway-premium-win",
-        "created": "2026-11-21T14:57:55Z",
-        "topics": [
-          "algebra",
-          "calculus",
-          "differential-equations",
-          "e-learning"
-        ]
-      },
-      {
-        "name": "Nilespand/tableau-desktop-win",
-        "description": "Tableau - business intelligence and data visualization platform for interactive dashboards, data blending and calculated analytics on Windows 10/11",
-        "language": null,
-        "stars": 418,
-        "url": "https://github.com/Nilespand/tableau-desktop-win",
-        "created": "2026-11-21T16:19:50Z",
-        "topics": [
-          "analytics",
-          "analytics-dashboard",
-          "bi",
-          "business-intelligence"
+          "open-source"
         ]
       }
     ],
@@ -245,8 +245,8 @@
         "source": "showhn",
         "title": "I built a game where you are an LLM's subagent",
         "url": "https://github.com/gulivan/worker755",
-        "points": 302,
-        "comments": 74,
+        "points": 354,
+        "comments": 86,
         "discussion": "https://news.ycombinator.com/item?id=50599762",
         "created": "2026-11-22T13:56:58.000Z"
       },
@@ -254,8 +254,8 @@
         "source": "showhn",
         "title": "The Riemann Proof Handbook",
         "url": "https://github.com/tamnd/riemann-handbook",
-        "points": 87,
-        "comments": 59,
+        "points": 89,
+        "comments": 60,
         "discussion": "https://news.ycombinator.com/item?id=50596664",
         "created": "2026-11-22T05:46:30.000Z"
       },
@@ -263,8 +263,8 @@
         "source": "showhn",
         "title": "Zero C# – C# without a runtime or GC",
         "url": "https://onurgumus.github.io/zero-csharp/index.html",
-        "points": 176,
-        "comments": 126,
+        "points": 178,
+        "comments": 130,
         "discussion": "https://news.ycombinator.com/item?id=50590279",
         "created": "2026-11-21T15:39:09.000Z"
       },
@@ -272,8 +272,8 @@
         "source": "showhn",
         "title": "I made a PS1 style racing game",
         "url": "https://outpostracer.com",
-        "points": 47,
-        "comments": 36,
+        "points": 48,
+        "comments": 38,
         "discussion": "https://news.ycombinator.com/item?id=50589184",
         "created": "2026-11-21T13:47:45.000Z"
       },
@@ -281,19 +281,19 @@
         "source": "showhn",
         "title": "OpenComputer – an open source alternative to Devin",
         "url": "https://github.com/diggerhq/opencomputer",
-        "points": 125,
+        "points": 126,
         "comments": 36,
         "discussion": "https://news.ycombinator.com/item?id=50581403",
         "created": "2026-11-20T20:19:56.000Z"
       },
       {
         "source": "showhn",
-        "title": "Cornhole News – A Hacker News inspired site for news across the Midwest",
-        "url": "https://cornholenews.news",
-        "points": 237,
-        "comments": 122,
-        "discussion": "https://news.ycombinator.com/item?id=50561515",
-        "created": "2026-11-19T15:38:32.000Z"
+        "title": "Drive around my village in 3D",
+        "url": "https://cherwellvalleymotorclub.app",
+        "points": 53,
+        "comments": 45,
+        "discussion": "https://news.ycombinator.com/item?id=50574412",
+        "created": "2026-11-20T13:32:42.000Z"
       },
       {
         "source": "launchhn",
@@ -309,7 +309,7 @@
         "title": "Maritime (YC F26) – A managed cloud for production AI agents",
         "url": "https://news.ycombinator.com/item?id=50549188",
         "points": 60,
-        "comments": 66,
+        "comments": 67,
         "discussion": "https://news.ycombinator.com/item?id=50549188",
         "created": "2026-11-18T17:26:28.000Z"
       },
@@ -335,10 +335,28 @@
         "source": "hn",
         "title": "XNU Linux: Full OS X GUI Userspace on Linux",
         "url": "https://github.com/AFK-surf/xnulinux",
-        "points": 128,
-        "comments": 59,
+        "points": 529,
+        "comments": 221,
         "discussion": "https://news.ycombinator.com/item?id=50607261",
         "created": "2026-11-23T03:49:24.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
+        "url": "https://github.com/mikuta0407/win4wine",
+        "points": 134,
+        "comments": 75,
+        "discussion": "https://news.ycombinator.com/item?id=50610743",
+        "created": "2026-11-23T12:28:11.000Z"
+      },
+      {
+        "source": "hn",
+        "title": "GTA 6 Xbox executable released early by cyberleek",
+        "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1y3jzqe/cyberleek_posted_the_gta_6_xbox_build_executable/",
+        "points": 85,
+        "comments": 47,
+        "discussion": "https://news.ycombinator.com/item?id=50612686",
+        "created": "2026-11-23T14:49:44.000Z"
       }
     ]
   },
@@ -5248,7 +5266,7 @@
         "name": "Minireel/HGhub",
         "description": "Plug-in media player",
         "language": "Rust",
-        "stars": 11564,
+        "stars": 11629,
         "url": "https://github.com/Minireel/HGhub",
         "created": "2026-11-03T14:04:27Z",
         "topics": [],
@@ -6207,12 +6225,12 @@
         "name": "janestreet/agent_skills",
         "description": "Agent skills",
         "language": null,
-        "stars": 10829,
+        "stars": 11222,
         "url": "https://github.com/janestreet/agent_skills",
         "created": "2026-11-03T16:50:21Z",
         "topics": [],
         "hn": {
-          "points": 723,
+          "points": 724,
           "comments": 172,
           "url": "https://news.ycombinator.com/item?id=50438261"
         },
@@ -6817,7 +6835,7 @@
         "name": "erkamyaman/rust-anything",
         "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
         "language": "Rust",
-        "stars": 8172,
+        "stars": 8597,
         "url": "https://github.com/erkamyaman/rust-anything",
         "created": "2026-11-16T12:10:36Z",
         "topics": [
@@ -6926,7 +6944,7 @@
         "name": "huami1314/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
         "language": "Swift",
-        "stars": 8825,
+        "stars": 8859,
         "url": "https://github.com/huami1314/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": [],
@@ -7233,7 +7251,7 @@
         "name": "deepseek-ai/chat-demo",
         "description": "Chat Demo",
         "language": "TypeScript",
-        "stars": 5308,
+        "stars": 5341,
         "url": "https://github.com/deepseek-ai/chat-demo",
         "created": "2026-11-12T08:08:19Z",
         "topics": [],
@@ -7354,13 +7372,13 @@
         "name": "ItsNotRexed/Leonida",
         "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
         "language": "Python",
-        "stars": 16884,
+        "stars": 25989,
         "url": "https://github.com/ItsNotRexed/Leonida",
         "created": "2026-11-20T20:07:13Z",
         "topics": [],
         "hn": {
-          "points": 215,
-          "comments": 173,
+          "points": 230,
+          "comments": 188,
           "url": "https://news.ycombinator.com/item?id=50595168"
         },
         "firstSeen": "2026-11-22",
@@ -7388,7 +7406,7 @@
         "name": "omonkeyz/xbox-emulator",
         "description": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
         "language": "Rust",
-        "stars": 1396,
+        "stars": 1571,
         "url": "https://github.com/omonkeyz/xbox-emulator",
         "created": "2026-11-21T08:08:39Z",
         "topics": [],
@@ -7400,7 +7418,7 @@
         "name": "sybil-solutions/skill-distill",
         "description": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task",
         "language": "Python",
-        "stars": 467,
+        "stars": 498,
         "url": "https://github.com/sybil-solutions/skill-distill",
         "created": "2026-11-21T01:43:00Z",
         "topics": [],
@@ -7463,7 +7481,7 @@
         "name": "EL4CTEO/fast-anything",
         "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
         "language": "Rust",
-        "stars": 2249,
+        "stars": 2989,
         "url": "https://github.com/EL4CTEO/fast-anything",
         "created": "2026-11-21T14:40:27Z",
         "topics": [
@@ -7473,8 +7491,8 @@
           "claude-code-plugin"
         ],
         "hn": {
-          "points": 192,
-          "comments": 157,
+          "points": 204,
+          "comments": 165,
           "url": "https://news.ycombinator.com/item?id=50596155"
         },
         "firstSeen": "2026-11-22",
@@ -7485,7 +7503,7 @@
         "name": "ersinkoc/phonebox",
         "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
         "language": "JavaScript",
-        "stars": 5157,
+        "stars": 5376,
         "url": "https://github.com/ersinkoc/phonebox",
         "created": "2026-11-07T16:45:16Z",
         "topics": [
@@ -7502,7 +7520,7 @@
         "name": "simplexai-labs/linger",
         "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
         "language": "TypeScript",
-        "stars": 3972,
+        "stars": 4140,
         "url": "https://github.com/simplexai-labs/linger",
         "created": "2026-11-10T03:50:38Z",
         "topics": [
@@ -7519,7 +7537,7 @@
         "name": "os6/nospeaker",
         "description": "make your macbook's trackpad talk using its haptic motor",
         "language": "Swift",
-        "stars": 605,
+        "stars": 1193,
         "url": "https://github.com/os6/nospeaker",
         "created": "2026-11-22T12:05:54Z",
         "topics": [
@@ -7530,13 +7548,18 @@
         ],
         "firstSeen": "2026-11-23",
         "lastSeen": "2026-11-23",
-        "starsAtFirstSeen": 605
+        "starsAtFirstSeen": 605,
+        "hn": {
+          "points": 161,
+          "comments": 81,
+          "url": "https://news.ycombinator.com/item?id=50610318"
+        }
       },
       "w01fb0ss/PiBot": {
         "name": "w01fb0ss/PiBot",
         "description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
         "language": "TypeScript",
-        "stars": 437,
+        "stars": 491,
         "url": "https://github.com/w01fb0ss/PiBot",
         "created": "2026-11-21T06:54:24Z",
         "topics": [
@@ -7633,6 +7656,86 @@
         "firstSeen": "2026-11-23",
         "lastSeen": "2026-11-23",
         "starsAtFirstSeen": 418
+      },
+      "sshkeda/minecraft-server-on-orange-cloud": {
+        "name": "sshkeda/minecraft-server-on-orange-cloud",
+        "description": "Run a Minecraft Java server entirely on Cloudflare. Sleeps when nobody's playing.",
+        "language": "TypeScript",
+        "stars": 414,
+        "url": "https://github.com/sshkeda/minecraft-server-on-orange-cloud",
+        "created": "2026-11-21T02:36:03Z",
+        "topics": [
+          "bun",
+          "cloudflare",
+          "cloudflare-containers",
+          "cloudflare-workers"
+        ],
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23",
+        "starsAtFirstSeen": 414
+      },
+      "erkamyaman/safe-anything": {
+        "name": "erkamyaman/safe-anything",
+        "description": "Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.",
+        "language": "Rust",
+        "stars": 403,
+        "url": "https://github.com/erkamyaman/safe-anything",
+        "created": "2026-11-22T16:44:10Z",
+        "topics": [
+          "ai-agents",
+          "claude-code",
+          "claude-code-plugin",
+          "cli"
+        ],
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23",
+        "starsAtFirstSeen": 403
+      },
+      "xikhar/papercraft": {
+        "name": "xikhar/papercraft",
+        "description": "Agent skill to build games, interactive scenes, web pages and animations in a handcrafted pop-up papercraft style",
+        "language": "JavaScript",
+        "stars": 398,
+        "url": "https://github.com/xikhar/papercraft",
+        "created": "2026-11-21T00:29:56Z",
+        "topics": [],
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23",
+        "starsAtFirstSeen": 398
+      },
+      "icitycode/capcut-for-windows": {
+        "name": "icitycode/capcut-for-windows",
+        "description": "CapCut for Windows: Visual Video Editing and Screen Recording Workflow",
+        "language": "HTML",
+        "stars": 356,
+        "url": "https://github.com/icitycode/capcut-for-windows",
+        "created": "2026-11-21T13:11:07Z",
+        "topics": [
+          "automation",
+          "capcut-activated",
+          "capcut-crack-2026",
+          "capcut-cracked-2026"
+        ],
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23",
+        "starsAtFirstSeen": 356
+      },
+      "juniordroid/better-discord-client": {
+        "name": "juniordroid/better-discord-client",
+        "description": "Better Discord Client: Remastered Desktop Experience for Modders",
+        "language": "HTML",
+        "stars": 340,
+        "url": "https://github.com/juniordroid/better-discord-client",
+        "created": "2026-11-21T13:05:46Z",
+        "topics": [
+          "automation",
+          "desktop",
+          "developer-tools",
+          "open-source"
+        ],
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23",
+        "starsAtFirstSeen": 340
       }
     },
     "posts": {
@@ -11744,7 +11847,7 @@
         "title": "Maritime (YC F26) – A managed cloud for production AI agents",
         "url": "https://news.ycombinator.com/item?id=50549188",
         "points": 60,
-        "comments": 66,
+        "comments": 67,
         "discussion": "https://news.ycombinator.com/item?id=50549188",
         "created": "2026-11-18T17:26:28.000Z",
         "firstSeen": "2026-11-19",
@@ -11831,7 +11934,7 @@
         "source": "showhn",
         "title": "OpenComputer – an open source alternative to Devin",
         "url": "https://github.com/diggerhq/opencomputer",
-        "points": 125,
+        "points": 126,
         "comments": 36,
         "discussion": "https://news.ycombinator.com/item?id=50581403",
         "created": "2026-11-20T20:19:56.000Z",
@@ -11853,8 +11956,8 @@
         "source": "showhn",
         "title": "Zero C# – C# without a runtime or GC",
         "url": "https://onurgumus.github.io/zero-csharp/index.html",
-        "points": 176,
-        "comments": 126,
+        "points": 178,
+        "comments": 130,
         "discussion": "https://news.ycombinator.com/item?id=50590279",
         "created": "2026-11-21T15:39:09.000Z",
         "firstSeen": "2026-11-22",
@@ -11886,8 +11989,8 @@
         "source": "showhn",
         "title": "The Riemann Proof Handbook",
         "url": "https://github.com/tamnd/riemann-handbook",
-        "points": 87,
-        "comments": 59,
+        "points": 89,
+        "comments": 60,
         "discussion": "https://news.ycombinator.com/item?id=50596664",
         "created": "2026-11-22T05:46:30.000Z",
         "firstSeen": "2026-11-22",
@@ -11897,8 +12000,8 @@
         "source": "showhn",
         "title": "I made a PS1 style racing game",
         "url": "https://outpostracer.com",
-        "points": 47,
-        "comments": 36,
+        "points": 48,
+        "comments": 38,
         "discussion": "https://news.ycombinator.com/item?id=50589184",
         "created": "2026-11-21T13:47:45.000Z",
         "firstSeen": "2026-11-22",
@@ -11908,8 +12011,8 @@
         "source": "showhn",
         "title": "I built a game where you are an LLM's subagent",
         "url": "https://github.com/gulivan/worker755",
-        "points": 302,
-        "comments": 74,
+        "points": 354,
+        "comments": 86,
         "discussion": "https://news.ycombinator.com/item?id=50599762",
         "created": "2026-11-22T13:56:58.000Z",
         "firstSeen": "2026-11-23",
@@ -11919,105 +12022,202 @@
         "source": "hn",
         "title": "XNU Linux: Full OS X GUI Userspace on Linux",
         "url": "https://github.com/AFK-surf/xnulinux",
-        "points": 128,
-        "comments": 59,
+        "points": 529,
+        "comments": 221,
         "discussion": "https://news.ycombinator.com/item?id=50607261",
         "created": "2026-11-23T03:49:24.000Z",
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23"
+      },
+      "https://news.ycombinator.com/item?id=50574412": {
+        "source": "showhn",
+        "title": "Drive around my village in 3D",
+        "url": "https://cherwellvalleymotorclub.app",
+        "points": 53,
+        "comments": 45,
+        "discussion": "https://news.ycombinator.com/item?id=50574412",
+        "created": "2026-11-20T13:32:42.000Z",
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23"
+      },
+      "https://news.ycombinator.com/item?id=50610743": {
+        "source": "hn",
+        "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
+        "url": "https://github.com/mikuta0407/win4wine",
+        "points": 134,
+        "comments": 75,
+        "discussion": "https://news.ycombinator.com/item?id=50610743",
+        "created": "2026-11-23T12:28:11.000Z",
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23"
+      },
+      "https://news.ycombinator.com/item?id=50612686": {
+        "source": "hn",
+        "title": "GTA 6 Xbox executable released early by cyberleek",
+        "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1y3jzqe/cyberleek_posted_the_gta_6_xbox_build_executable/",
+        "points": 85,
+        "comments": 47,
+        "discussion": "https://news.ycombinator.com/item?id=50612686",
+        "created": "2026-11-23T14:49:44.000Z",
         "firstSeen": "2026-11-23",
         "lastSeen": "2026-11-23"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-11-23T06:34:36.175Z",
+    "fetchedAt": "2026-11-23T17:54:26.433Z",
     "hn": [
       {
-        "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
-        "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-        "points": 1257,
-        "comments": 690,
-        "discussion": "https://news.ycombinator.com/item?id=50596133"
+        "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+        "url": "https://spelunkr.tv",
+        "points": 797,
+        "comments": 144,
+        "discussion": "https://news.ycombinator.com/item?id=50606192"
       },
       {
-        "title": "What Happened to Silicon Valley?",
-        "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
-        "points": 574,
-        "comments": 302,
-        "discussion": "https://news.ycombinator.com/item?id=50602947"
+        "title": "Nvidia Reinstates Jensen Huang as CEO",
+        "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+        "points": 793,
+        "comments": 1951,
+        "discussion": "https://news.ycombinator.com/item?id=50611576"
+      },
+      {
+        "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+        "url": "https://z.ai/blog/glm-5.4",
+        "points": 787,
+        "comments": 275,
+        "discussion": "https://news.ycombinator.com/item?id=50609685"
+      },
+      {
+        "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+        "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+        "points": 679,
+        "comments": 278,
+        "discussion": "https://news.ycombinator.com/item?id=50603845"
       },
       {
         "title": "Perplexity and Intelligence",
         "url": "https://openai.com/index/perplexity-and-intelligence/",
-        "points": 549,
-        "comments": 370,
+        "points": 665,
+        "comments": 432,
         "discussion": "https://news.ycombinator.com/item?id=50601525"
       },
       {
         "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
         "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
-        "points": 441,
-        "comments": 223,
+        "points": 611,
+        "comments": 347,
         "discussion": "https://news.ycombinator.com/item?id=50602843"
       },
       {
-        "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-        "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-        "points": 393,
-        "comments": 157,
-        "discussion": "https://news.ycombinator.com/item?id=50603845"
+        "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+        "url": "https://github.com/AFK-surf/xnulinux",
+        "points": 529,
+        "comments": 221,
+        "discussion": "https://news.ycombinator.com/item?id=50607261"
       },
       {
-        "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
-        "url": "https://spelunkr.tv",
-        "points": 351,
-        "comments": 53,
-        "discussion": "https://news.ycombinator.com/item?id=50606192"
-      },
-      {
-        "title": "Show HN: I built a game where you are an LLM's subagent",
-        "url": "https://github.com/gulivan/worker755",
-        "points": 302,
-        "comments": 74,
-        "discussion": "https://news.ycombinator.com/item?id=50599762"
+        "title": "Ladybird Is Now in Alpha",
+        "url": "https://ladybird.org/posts/alpha/",
+        "points": 463,
+        "comments": 118,
+        "discussion": "https://news.ycombinator.com/item?id=50614249"
       },
       {
         "title": "A miniature San Francisco with live buses, planes and boats",
         "url": "https://smallsf.com/",
-        "points": 224,
-        "comments": 85,
+        "points": 354,
+        "comments": 109,
         "discussion": "https://news.ycombinator.com/item?id=50603589"
-      },
-      {
-        "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
-        "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-        "points": 208,
-        "comments": 155,
-        "discussion": "https://news.ycombinator.com/item?id=50605045"
       },
       {
         "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
         "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
-        "points": 179,
-        "comments": 38,
+        "points": 339,
+        "comments": 124,
         "discussion": "https://news.ycombinator.com/item?id=50547698"
       }
     ],
     "lobsters": [
       {
+        "title": "Signal is Serious About Protecting Your Privacy",
+        "url": "https://signal.org/blog/protecting-your-privacy/",
+        "points": 70,
+        "comments": 27,
+        "discussion": "https://lobste.rs/s/vldbcn/signal_is_serious_about_protecting_your",
+        "tags": [
+          "mobile",
+          "privacy"
+        ]
+      },
+      {
         "title": "GitHub Actions accepts invalid YAML",
         "url": "https://yossarian.net/til/post/github-actions-accepts-invalid-yaml/",
-        "points": 42,
-        "comments": 11,
+        "points": 74,
+        "comments": 27,
         "discussion": "https://lobste.rs/s/leqwqu/github_actions_accepts_invalid_yaml",
         "tags": [
           "programming"
         ]
       },
       {
+        "title": "Held together by spare time: Reviving wiki.alpinelinux.org during PHP2Shell",
+        "url": "https://lambdacreate.com/posts/held-together-by-spare-time",
+        "points": 7,
+        "comments": 4,
+        "discussion": "https://lobste.rs/s/gtc9rg/held_together_by_spare_time_reviving_wiki",
+        "tags": [
+          "devops"
+        ]
+      },
+      {
+        "title": "Quality IMAP, Part 2: Mailbox Concurrency",
+        "url": "https://aerogramme.deuxfleurs.fr/blog/2026-quality-imap-part-2/",
+        "points": 16,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/lnpwpu/quality_imap_part_2_mailbox_concurrency",
+        "tags": [
+          "distributed",
+          "email",
+          "testing"
+        ]
+      },
+      {
+        "title": "Ladybird is now in alpha",
+        "url": "https://ladybird.org/posts/alpha/",
+        "points": 14,
+        "comments": 2,
+        "discussion": "https://lobste.rs/s/h6webg/ladybird_is_now_alpha",
+        "tags": [
+          "browsers"
+        ]
+      },
+      {
+        "title": "What are you doing this week?",
+        "url": "https://lobste.rs/s/t8c4vj/what_are_you_doing_this_week",
+        "points": 9,
+        "comments": 13,
+        "discussion": "https://lobste.rs/s/t8c4vj/what_are_you_doing_this_week",
+        "tags": [
+          "ask",
+          "programming"
+        ]
+      },
+      {
+        "title": "Good morning and welcome to my idea of a new web",
+        "url": "https://dave.writersweb.org/index.md",
+        "points": 18,
+        "comments": 24,
+        "discussion": "https://lobste.rs/s/l8u1tj/good_morning_welcome_my_idea_new_web",
+        "tags": [
+          "web"
+        ]
+      },
+      {
         "title": "Gliver completes the Guix desktop",
         "url": "https://dustycloud.org/blog/gliver-completes-the-guix-desktop/",
-        "points": 32,
-        "comments": 4,
+        "points": 55,
+        "comments": 5,
         "discussion": "https://lobste.rs/s/wc8fla/gliver_completes_guix_desktop",
         "tags": [
           "linux",
@@ -12025,172 +12225,94 @@
         ]
       },
       {
-        "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
-        "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-        "points": 123,
-        "comments": 19,
-        "discussion": "https://lobste.rs/s/32rhzb/researcher_plants_2m_canaries_into_ai",
+        "title": "On self-healing code and the obvious issue (2023)",
+        "url": "https://gynvael.coldwind.pl/?id=766",
+        "points": 8,
+        "comments": 6,
+        "discussion": "https://lobste.rs/s/zorlwr/on_self_healing_code_obvious_issue_2023",
         "tags": [
+          "building-ai-tooling",
           "security"
         ]
       },
       {
-        "title": "Falsehoods Programmers Believe About ATProto",
-        "url": "https://reiver.link/atproto/falsehoods-programmers-believe/",
-        "points": 29,
-        "comments": 4,
-        "discussion": "https://lobste.rs/s/bjoete/falsehoods_programmers_believe_about",
-        "tags": [
-          "api"
-        ]
-      },
-      {
-        "title": "Good morning and welcome to my idea of a new web",
-        "url": "https://dave.writersweb.org/index.md",
-        "points": 5,
-        "comments": 5,
-        "discussion": "https://lobste.rs/s/l8u1tj/good_morning_welcome_my_idea_new_web",
-        "tags": [
-          "web"
-        ]
-      },
-      {
-        "title": "scriptura: a cozy corner for your scripts",
-        "url": "https://alanpearce.eu/post/scriptura/",
-        "points": 12,
-        "comments": 3,
-        "discussion": "https://lobste.rs/s/oeamed/scriptura_cozy_corner_for_your_scripts",
-        "tags": [
-          "programming"
-        ]
-      },
-      {
-        "title": "NixOS bring-up on an Alibaba RISC-V board",
-        "url": "https://feyor.sh/blog/nixos-bringup-on-an-alibaba-riscv-board/",
-        "points": 34,
-        "comments": 11,
-        "discussion": "https://lobste.rs/s/6jloca/nixos_bring_up_on_alibaba_risc_v_board",
-        "tags": [
-          "hardware",
-          "nix"
-        ]
-      },
-      {
-        "title": "Calculate radio link placement and node amount for your city's mesh network",
-        "url": "https://meshcoveragecalculator.lalala.ing/",
-        "points": 5,
-        "comments": 3,
-        "discussion": "https://lobste.rs/s/e89tey/calculate_radio_link_placement_node",
-        "tags": [
-          "hardware"
-        ]
-      },
-      {
-        "title": "My Monitor Was Cutting My Download Speed by 75%",
-        "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
-        "points": 126,
-        "comments": 9,
-        "discussion": "https://lobste.rs/s/qzerls/my_monitor_was_cutting_my_download_speed",
-        "tags": [
-          "networking"
-        ]
-      },
-      {
-        "title": "Testing Terraform with AWS Emulator",
-        "url": "https://notes.hatedabamboo.me/terraform-tests-with-aws-emulator/",
+        "title": "Reverse Engineering a Board Game",
+        "url": "https://wuemeli.com/blog/reversing-hitster-game/",
         "points": 6,
         "comments": 0,
-        "discussion": "https://lobste.rs/s/g5msf2/testing_terraform_with_aws_emulator",
+        "discussion": "https://lobste.rs/s/8g6qyx/reverse_engineering_board_game",
         "tags": [
-          "programming"
+          "android",
+          "reversing",
+          "rust"
         ]
       }
     ],
     "devto": [
       {
-        "title": "Necoz Is Building a New House!! 🛸 All Cats, Follow Me!! 🐈🚀",
-        "url": "https://dev.to/necoz/necoz-is-building-a-new-house-all-cats-follow-me-530n",
-        "points": 79,
-        "comments": 21,
-        "discussion": "https://dev.to/necoz/necoz-is-building-a-new-house-all-cats-follow-me-530n",
-        "tags": [
-          "necoz",
-          "opensource",
-          "community"
-        ]
-      },
-      {
-        "title": "I turned my GitHub contribution graph into a Bloomberg-style trading terminal",
-        "url": "https://dev.to/necoz/i-turned-my-github-contribution-graph-into-a-bloomberg-style-trading-terminal-31eh",
-        "points": 49,
-        "comments": 11,
-        "discussion": "https://dev.to/necoz/i-turned-my-github-contribution-graph-into-a-bloomberg-style-trading-terminal-31eh",
+        "title": "The Third Cup: Change Never Sleeps",
+        "url": "https://dev.to/thethirdcup/the-third-cup-change-never-sleeps-2ldf",
+        "points": 90,
+        "comments": 31,
+        "discussion": "https://dev.to/thethirdcup/the-third-cup-change-never-sleeps-2ldf",
         "tags": [
           "discuss",
-          "github",
-          "webdev"
+          "career",
+          "programming"
         ]
       },
       {
-        "title": "C++ STL: WHERE HAVE YOU BEEN ALL MY LIFE? 😭",
-        "url": "https://dev.to/_yourbrainbuffer_/c-stl-where-have-you-been-all-my-life-3gbl",
-        "points": 32,
-        "comments": 11,
-        "discussion": "https://dev.to/_yourbrainbuffer_/c-stl-where-have-you-been-all-my-life-3gbl",
-        "tags": []
-      },
-      {
-        "title": "Peek: a horror game where your MacBook lid is your eyelids",
-        "url": "https://dev.to/kakeroth/peek-a-horror-game-where-your-macbook-lid-is-your-eyelids-3hdp",
-        "points": 30,
-        "comments": 2,
-        "discussion": "https://dev.to/kakeroth/peek-a-horror-game-where-your-macbook-lid-is-your-eyelids-3hdp",
+        "title": "What are you Grateful for this Thanksgiving?",
+        "url": "https://dev.to/francistrdev/what-are-you-grateful-for-this-thanksgiving-4570",
+        "points": 76,
+        "comments": 32,
+        "discussion": "https://dev.to/francistrdev/what-are-you-grateful-for-this-thanksgiving-4570",
         "tags": [
-          "devchallenge",
-          "presagechallenge",
-          "gamedev"
+          "discuss",
+          "community",
+          "watercooler"
         ]
       },
       {
-        "title": "Day 90: A Mask in the Way and a Policy Pointing at Nothing",
-        "url": "https://dev.to/ndcodes/day-90-a-mask-in-the-way-and-a-policy-pointing-at-nothing-390o",
-        "points": 24,
-        "comments": 14,
-        "discussion": "https://dev.to/ndcodes/day-90-a-mask-in-the-way-and-a-policy-pointing-at-nothing-390o",
+        "title": "🎨 NECOZ Art Class: The Day 35 Cats Painted a Portrait of the King 👑 | How Pixels Work",
+        "url": "https://dev.to/necoz/necoz-art-class-the-day-35-cats-painted-a-portrait-of-the-king-how-pixels-work-10en",
+        "points": 52,
+        "comments": 9,
+        "discussion": "https://dev.to/necoz/necoz-art-class-the-day-35-cats-painted-a-portrait-of-the-king-how-pixels-work-10en",
         "tags": [
-          "devops",
-          "ansible",
-          "azure"
+          "python",
+          "beginners",
+          "discuss"
         ]
       },
       {
-        "title": "3Draft: Five Percent — 30 Minutes to Deadline",
-        "url": "https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk",
-        "points": 21,
-        "comments": 6,
-        "discussion": "https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk",
+        "title": "6 Lessons Every Developer Should Learn",
+        "url": "https://dev.to/hadil/6-lessons-every-developer-should-learn-3d5l",
+        "points": 36,
+        "comments": 8,
+        "discussion": "https://dev.to/hadil/6-lessons-every-developer-should-learn-3d5l",
         "tags": [
-          "ai",
-          "opensource",
-          "showdev"
+          "programming",
+          "c",
+          "cpp"
         ]
       },
       {
-        "title": "Glint: type and speak with your eyebrows and your breath",
-        "url": "https://dev.to/yashksaini/glint-type-and-speak-with-your-eyebrows-and-your-breath-569o",
-        "points": 18,
-        "comments": 3,
-        "discussion": "https://dev.to/yashksaini/glint-type-and-speak-with-your-eyebrows-and-your-breath-569o",
+        "title": "C# 15 Unpacked: Practical Use Cases for Unions with Real Examples",
+        "url": "https://dev.to/georgekobaidze/c-15-unpacked-practical-use-cases-for-unions-with-real-examples-e32",
+        "points": 26,
+        "comments": 8,
+        "discussion": "https://dev.to/georgekobaidze/c-15-unpacked-practical-use-cases-for-unions-with-real-examples-e32",
         "tags": [
-          "devchallenge",
-          "presagechallenge",
-          "electron"
+          "microsoft",
+          "dotnet",
+          "csharp"
         ]
       },
       {
         "title": "Wrist vs Camera: Can I Trust a Camera Pulse on My Own Laptop?",
         "url": "https://dev.to/dannwaneri/wrist-vs-camera-can-i-trust-a-camera-pulse-on-my-own-laptop-4g3o",
-        "points": 15,
+        "points": 25,
         "comments": 0,
         "discussion": "https://dev.to/dannwaneri/wrist-vs-camera-can-i-trust-a-camera-pulse-on-my-own-laptop-4g3o",
         "tags": [
@@ -12199,61 +12321,64 @@
         ]
       },
       {
-        "title": "Your Team Ships Faster Every Quarter and Understands Its Own Code Less. Nobody's Measuring That.",
-        "url": "https://dev.to/debashish_ghosal/your-team-ships-faster-every-quarter-and-understands-its-own-code-less-nobodys-measuring-that-2j5i",
-        "points": 15,
-        "comments": 9,
-        "discussion": "https://dev.to/debashish_ghosal/your-team-ships-faster-every-quarter-and-understands-its-own-code-less-nobodys-measuring-that-2j5i",
+        "title": "A challenge won against myself (and the Chrome Web Store)",
+        "url": "https://dev.to/necoz/a-challenge-won-against-myself-and-the-chrome-web-store-24l4",
+        "points": 24,
+        "comments": 5,
+        "discussion": "https://dev.to/necoz/a-challenge-won-against-myself-and-the-chrome-web-store-24l4",
         "tags": [
-          "discuss",
-          "ai",
-          "career"
+          "necoz",
+          "opensource",
+          "webdev"
         ]
       },
       {
-        "title": "3Draft : Game Engine Targetting System",
-        "url": "https://dev.to/pengeszikra/3draft-game-engine-targetting-system-4gfp",
-        "points": 13,
+        "title": "Stand-In Studio: I Automated How Much of You Others See in Video Calls, with SmartSpectra! 📸",
+        "url": "https://dev.to/fm/stand-in-studio-i-automated-how-much-of-you-others-see-in-video-calls-with-smartspectra-5bo8",
+        "points": 23,
         "comments": 2,
-        "discussion": "https://dev.to/pengeszikra/3draft-game-engine-targetting-system-4gfp",
+        "discussion": "https://dev.to/fm/stand-in-studio-i-automated-how-much-of-you-others-see-in-video-calls-with-smartspectra-5bo8",
+        "tags": [
+          "devchallenge",
+          "presagechallenge",
+          "automation"
+        ]
+      },
+      {
+        "title": "Proofreader vs. Rewriter vs. Prompt API: Test the Task, Not the Demo",
+        "url": "https://dev.to/gde/proofreader-vs-rewriter-vs-prompt-api-test-the-task-not-the-demo-pi9",
+        "points": 17,
+        "comments": 2,
+        "discussion": "https://dev.to/gde/proofreader-vs-rewriter-vs-prompt-api-test-the-task-not-the-demo-pi9",
         "tags": [
           "webdev",
-          "gamedev",
-          "basic"
+          "ai",
+          "typescript"
+        ]
+      },
+      {
+        "title": "We Automated the Software Factory. Why Am I Still Clicking Approve on Typo Fixes?",
+        "url": "https://dev.to/therealmrmumba/we-automated-the-software-factory-why-am-i-still-clicking-approve-on-typo-fixes-1fc1",
+        "points": 17,
+        "comments": 0,
+        "discussion": "https://dev.to/therealmrmumba/we-automated-the-software-factory-why-am-i-still-clicking-approve-on-typo-fixes-1fc1",
+        "tags": [
+          "ai",
+          "webdev",
+          "programming"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-11-23T06:34:36.175Z",
+    "fetchedAt": "2026-11-23T17:54:26.433Z",
     "candidates": {
-      "https://blog.cloudflare.com/launching-vite-ecosystem-fund": {
-        "source": "Cloudflare",
-        "title": "Launching the Vite Ecosystem Fund",
-        "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
-        "published": "2026-11-09T13:00:00.000Z",
-        "summary": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare."
-      },
-      "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4": {
-        "source": "Netflix",
-        "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System",
-        "url": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4",
-        "published": "2026-11-09T17:01:02.000Z",
-        "summary": ""
-      },
       "https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now": {
         "source": "Figma",
         "title": "6 easy ways to use the Figma agent right now",
         "url": "https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now/",
         "published": "2026-11-09T21:46:00.000Z",
         "summary": "From making designs more expressive and automating busywork, to exploring more possibilities on the canvas, here are six ways to push designers further with the Figma agent."
-      },
-      "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus": {
-        "source": "Meta",
-        "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
-        "url": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
-        "published": "2026-11-09T17:00:12.000Z",
-        "summary": "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs. It separates shared debugger infrastructure from hardware-specific device control. The design represents the CPU and GPU as separate debugger processes while presenting them in one debugging session. Modern AI applications rarely execute in one place. A workload can [...] Re"
       },
       "https://aws.amazon.com/blogs/architecture/transforming-fleet-analytics-for-novus-hi-tech-through-agentic-ai": {
         "source": "AWS Architecture",
@@ -12268,14 +12393,6 @@
         "url": "https://aws.amazon.com/blogs/architecture/how-deepl-keeps-closest-exit-routing-during-maintenance-with-aws-cloud-wan/",
         "published": "2026-11-09T20:15:09.000Z",
         "summary": "DeepL runs a multi-Region hybrid network across multiple AWS Regions and AWS Direct Connect locations. See how DeepL drains a single Direct Connect link for planned maintenance without packet loss or cross-Region rerouting, using AWS Cloud WAN and an on-premises AS_PATH prepend so every other Region keeps its closest-exit routing."
-      },
-      "https://tiki.li/blog/about_blqsort": {
-        "source": "Lobsters",
-        "title": "A C++ Quicksort Faster Than std::sort",
-        "url": "https://tiki.li/blog/about_blqsort",
-        "discussion": "https://lobste.rs/s/qi2lni/c_quicksort_faster_than_std_sort",
-        "published": "2026-11-09T12:55:38.018Z",
-        "summary": ""
       },
       "https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations": {
         "source": "Meta",
@@ -12844,271 +12961,27 @@
         "url": "https://aphyr.com/posts/429-and-you-would-be-supporting-a-local-paper",
         "published": "2026-11-22T14:46:19.000Z",
         "summary": "Last spring my dear friend Taber was doored while riding his bike, and came very close to dying. A friend and I got in our cars, made it to the hospital by three AM, and spent the next week caring for him. We traded off sitting at his bedside, making sure he stayed plugged in to the machines keeping him alive, coordinating with a dozen-odd specialists, taking notes, working with the medical and ci"
+      },
+      "https://blog.cloudflare.com/probing-dns-at-cloudflare": {
+        "source": "Cloudflare",
+        "title": "Probing DNS at Cloudflare",
+        "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+        "published": "2026-11-23T14:00:00.000Z",
+        "summary": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS."
+      },
+      "https://aerogramme.deuxfleurs.fr/blog/2026-quality-imap-part-2": {
+        "source": "Lobsters",
+        "title": "Quality IMAP, Part 2: Mailbox Concurrency",
+        "url": "https://aerogramme.deuxfleurs.fr/blog/2026-quality-imap-part-2/",
+        "discussion": "https://lobste.rs/s/lnpwpu/quality_imap_part_2_mailbox_concurrency",
+        "published": "2026-11-23T11:05:08.785Z",
+        "summary": ""
       }
     }
   },
   "world": {
-    "fetchedAt": "2026-11-23T06:34:36.175Z",
+    "fetchedAt": "2026-11-23T17:54:26.433Z",
     "candidates": {
-      "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear": {
-        "source": "TechCrunch",
-        "title": "Behind Jensen Huang’s exit, questions about a management style reportedly built on fear",
-        "url": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
-        "published": "2026-11-20T13:25:00.000Z",
-        "summary": "Elon Musk may have been overstating it when he said Nvidia’s employees “love” the ousted Jensen Huang."
-      },
-      "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china": {
-        "source": "TechCrunch",
-        "title": "California AG subpoenas Nvidia over worries about Huang’s ties with China",
-        "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/",
-        "published": "2026-11-20T13:21:11.000Z",
-        "summary": "\"The conduct of Nvidia and its former CEO raises bright red flags, including about the ways in which the company may have misled investors,\" California AG Rob Bonta said."
-      },
-      "https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal": {
-        "source": "MIT Technology Review",
-        "title": "The Download: inside the quest to make our minds immortal",
-        "url": "https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal/",
-        "published": "2026-11-20T13:10:00.000Z",
-        "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What we learned when our Roundtables explored the quest to make minds immortal To preserve our sense of self, some scientists are working on ways to keep our brains going—even beyond…"
-      },
-      "https://yourstory.com/2026/11/india-ties-for-apac-highest-phishing-rate-employee-awareness-gaps-emerge-kaspersky": {
-        "source": "YourStory",
-        "title": "India ties for APAC’s highest phishing rate as employee awareness gaps emerge: Kaspersky",
-        "url": "https://yourstory.com/2026/11/india-ties-for-apac-highest-phishing-rate-employee-awareness-gaps-emerge-kaspersky",
-        "published": "2026-11-20T13:05:08.000Z",
-        "summary": "India and Indonesia share APAC's highest reported phishing rate, but the survey's 70% employee-awareness finding points to a broader weakness in business cyber resilience."
-      },
-      "https://www.theregister.com/ai-and-ml/2026/11/20/ai-could-open-wallets-where-erp-upgrade-pitches-cant-says-pwc/5311221": {
-        "source": "The Register",
-        "title": "AI could open wallets where ERP upgrade pitches can't, says PwC",
-        "url": "https://www.theregister.com/ai-and-ml/2026/11/20/ai-could-open-wallets-where-erp-upgrade-pitches-cant-says-pwc/5311221",
-        "published": "2026-11-20T12:47:00.000Z",
-        "summary": "Consultancy argues a 'clean core' makes agents easier to deploy – but Kingfisher is taking a different route"
-      },
-      "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app": {
-        "source": "The Verge",
-        "title": "Signal is blocking Gemini and Siri AI from reading your screen",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-        "published": "2026-11-20T12:30:47.000Z",
-        "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president […]"
-      },
-      "https://arstechnica.com/tech-policy/2026/11/seminole-tribe-tries-to-stop-draftkings-illegal-gambling-in-florida": {
-        "source": "Ars Technica",
-        "title": "Only the Seminole tribe can offer online gambling in Florida—and they're furious at DraftKings",
-        "url": "https://arstechnica.com/tech-policy/2026/11/seminole-tribe-tries-to-stop-draftkings-illegal-gambling-in-florida/",
-        "published": "2026-11-20T12:30:29.000Z",
-        "summary": "Gambling? We're just swapping contracts!"
-      },
-      "https://yourstory.com/2026/11/bill-gates-book-recommendations-2026": {
-        "source": "YourStory",
-        "title": "5 Books from Bill Gates' latest reading list before 2026 end",
-        "url": "https://yourstory.com/2026/11/bill-gates-book-recommendations-2026",
-        "published": "2026-11-20T12:30:00.000Z",
-        "summary": "Explore five books recommended by Bill Gates, covering science, history, personal growth, and big ideas worth exploring before 2026 ends."
-      },
-      "https://www.theregister.com/security/2026/11/20/uk-government-cant-keep-its-encryption-busting-order-to-apple-a-secret-tribunal-rules/5311292": {
-        "source": "The Register",
-        "title": "UK government can't keep its encryption-busting order to Apple a secret, tribunal rules",
-        "url": "https://www.theregister.com/security/2026/11/20/uk-government-cant-keep-its-encryption-busting-order-to-apple-a-secret-tribunal-rules/5311292",
-        "published": "2026-11-20T12:18:19.000Z",
-        "summary": "Notice's existence can be acknowledged without harming national security, but its precise demands remain under wraps"
-      },
-      "https://arstechnica.com/staff/2026/11/science-has-a-home-here-at-ars-please-help-keep-it-that-way": {
-        "source": "Ars Technica",
-        "title": "Science has a home here at Ars—please help keep it that way",
-        "url": "https://arstechnica.com/staff/2026/11/science-has-a-home-here-at-ars-please-help-keep-it-that-way/",
-        "published": "2026-11-20T12:15:36.000Z",
-        "summary": "Your support for Ars matters more now than ever."
-      },
-      "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us": {
-        "source": "Ars Technica",
-        "title": "Trump admin still won't let Wi-Fi giant TP-Link sell its latest routers in US",
-        "url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us/",
-        "published": "2026-11-20T12:00:43.000Z",
-        "summary": "TP-Link's struggle illustrates how Trump admin wields control over device makers."
-      },
-      "https://www.theverge.com/transportation/1037667/waymo-serve-robotics-ditch-uber-autonomous-partnerships": {
-        "source": "The Verge",
-        "title": "Why the robots are ditching Uber",
-        "url": "https://www.theverge.com/transportation/1037667/waymo-serve-robotics-ditch-uber-autonomous-partnerships",
-        "published": "2026-11-20T12:00:00.000Z",
-        "summary": "In a late August earnings call, Uber CEO Dara Khosrowshahi sounded optimistic about his company's \"very strong\" partnership with Waymo, the global leader in autonomous robotaxis. The two companies had been working together for years in several cities - including exclusively in Austin and Atlanta - and things were going swimmingly, according to Khosrowshahi. \"We […]"
-      },
-      "https://yourstory.com/2026/11/7-bryan-johnson-longevity-habits-anyone-can-afford": {
-        "source": "YourStory",
-        "title": "7 Bryan Johnson longevity habits anyone can afford",
-        "url": "https://yourstory.com/2026/11/7-bryan-johnson-longevity-habits-anyone-can-afford",
-        "published": "2026-11-20T11:21:53.000Z",
-        "summary": "Explore seven affordable longevity habits inspired by Bryan Johnson, from better sleep and daily exercise to balanced eating and stress management."
-      },
-      "https://www.theregister.com/security/2026/11/20/windows-11-passkey-bug-cries-failure-after-successful-sign-in/5311263": {
-        "source": "The Register",
-        "title": "Windows 11 passkey bug cries failure after successful sign-in",
-        "url": "https://www.theregister.com/security/2026/11/20/windows-11-passkey-bug-cries-failure-after-successful-sign-in/5311263",
-        "published": "2026-11-20T11:09:44.000Z",
-        "summary": "Optional update fixes misleading Android error for versions 25H2 and 26H2"
-      },
-      "https://www.thehindu.com/sci-tech/technology/the-hidden-cost-of-handing-smartphone-to-a-child-explained/article71723638.ece": {
-        "source": "The Hindu",
-        "title": "The hidden cost of handing smartphone to a child | Explained",
-        "url": "https://www.thehindu.com/sci-tech/technology/the-hidden-cost-of-handing-smartphone-to-a-child-explained/article71723638.ece",
-        "published": "2026-11-20T11:01:19.000Z",
-        "summary": "Paediatricians are witnessing an alarming trend: smartphones being increasingly used as “digital pacifiers” to appease toddlers during mealtime, soothe them when they throw a tantrum and keeping them engaged while managing household chores"
-      },
-      "https://www.thehindu.com/business/anthropic-journey-from-start-up-to-stock-market-giant-infographics/article71723571.ece": {
-        "source": "The Hindu",
-        "title": "Anthropic’s journey from start-up to stock market giant | Infographics",
-        "url": "https://www.thehindu.com/business/anthropic-journey-from-start-up-to-stock-market-giant-infographics/article71723571.ece",
-        "published": "2026-11-20T09:56:37.000Z",
-        "summary": "From its founding in 2021 to a record-breaking Nasdaq debut, tracing Anthropic’s journey into one of the world’s most valuable AI companies"
-      },
-      "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "White House removes cyber-security chief after series of tech outages",
-        "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-20T09:37:59.000Z",
-        "summary": "CBS is reporting he has been fired after losing the confidence of White House chief of staff Stephen Miller."
-      },
-      "https://www.theregister.com/os-platforms/2026/11/20/ubuntu-core-desktop-targets-2804-debut-with-default-status-in-its-sights/5310837": {
-        "source": "The Register",
-        "title": "Ubuntu Core Desktop targets 28.04 debut, with default status in its sights",
-        "url": "https://www.theregister.com/os-platforms/2026/11/20/ubuntu-core-desktop-targets-2804-debut-with-default-status-in-its-sights/5310837",
-        "published": "2026-11-20T09:29:00.000Z",
-        "summary": "Canonical's stretch goal is to make the immutable OS standard in 30.04 – without retiring the traditional distro"
-      },
-      "https://yourstory.com/2026/11/gta-6-is-rated-17-what-indian-parents-should-know-before-letting-their-children-play": {
-        "source": "YourStory",
-        "title": "GTA 6 is rated 17+: What Indian parents should know before letting their children play",
-        "url": "https://yourstory.com/2026/11/gta-6-is-rated-17-what-indian-parents-should-know-before-letting-their-children-play",
-        "published": "2026-11-20T09:20:38.000Z",
-        "summary": "Graphic violence, nudity, sexual content and drug use feature in Grand Theft Auto VI's age-rating disclosures. As the highly anticipated game draws global attention, Indian parents face a familiar question: Should teenagers be allowed to play it?"
-      },
-      "https://techcrunch.com/2026/11/20/the-u-s-national-cyber-director-is-stepping-down": {
-        "source": "TechCrunch",
-        "title": "The U.S. national cyber director is stepping down",
-        "url": "https://techcrunch.com/2026/11/20/the-u-s-national-cyber-director-is-stepping-down/",
-        "published": "2026-11-20T09:14:19.000Z",
-        "summary": "The news comes as businesses across the country report a flurry of technical outages, the causes of which are still unknown."
-      },
-      "https://www.thehindu.com/sci-tech/technology/indias-smartphone-sale-plunged-22-during-festive-season/article71723721.ece": {
-        "source": "The Hindu",
-        "title": "India’s smartphone sale plunged 22% during festive season",
-        "url": "https://www.thehindu.com/sci-tech/technology/indias-smartphone-sale-plunged-22-during-festive-season/article71723721.ece",
-        "published": "2026-11-20T08:56:31.000Z",
-        "summary": "The decline was much steeper than the pre-festive forecast of 12%. Market value, however, stayed broadly flat YoY, as ASPs grew 28% YoY, largely offsetting the fall in unit sales"
-      },
-      "https://www.bbc.co.uk/news/articles/c6d94pzk9vleo?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "Should AI be judging our credit worthiness?",
-        "url": "https://www.bbc.co.uk/news/articles/c6d94pzk9vleo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-20T07:32:19.000Z",
-        "summary": "Would AI be a good judge of whether you should get a mortgage, car loan or mobile phone contract?"
-      },
-      "https://yourstory.com/2026/11/hack2skill-yourstory-launches-voice-ai-hackathon-with-rs-8-lakh-prize-pool-in-collaboration-with-google-cloud-india": {
-        "source": "YourStory",
-        "title": "YourStory launches voice AI hackathon with Rs 8 lakh prize pool in collaboration with Google Cloud India",
-        "url": "https://yourstory.com/2026/11/hack2skill-yourstory-launches-voice-ai-hackathon-with-rs-8-lakh-prize-pool-in-collaboration-with-google-cloud-india",
-        "published": "2026-11-20T07:30:43.000Z",
-        "summary": "Virtual hackathon invites working professionals to build voice AI prototypes using Gemini Enterprise and the Google Cloud AI stack."
-      },
-      "https://www.thehindu.com/sci-tech/technology/gadgets/lava-launches-smart-4-pro-4g-phone-for-offline-buyers-in-india/article71723467.ece": {
-        "source": "The Hindu",
-        "title": "Lava launches Smart 4 Pro 4G phone for offline buyers in India",
-        "url": "https://www.thehindu.com/sci-tech/technology/gadgets/lava-launches-smart-4-pro-4g-phone-for-offline-buyers-in-india/article71723467.ece",
-        "published": "2026-11-20T07:03:17.000Z",
-        "summary": "Lava Smart 4 Pro ships with a 7,000 mAh battery with an 18W Type-C charging support"
-      },
-      "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "Anthropic shares fall a day after blockbuster opening",
-        "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-20T15:16:52.000Z",
-        "summary": "Other tech companies have also taken a hit as share markets broadly slump."
-      },
-      "https://www.theregister.com/public-sector/2026/11/20/critical-1970s-era-fujitsu-uk-police-system-could-remain-unsupported-for-three-years/5311322": {
-        "source": "The Register",
-        "title": "'Critical' 1970s-era Fujitsu UK police system could remain unsupported for three years",
-        "url": "https://www.theregister.com/public-sector/2026/11/20/critical-1970s-era-fujitsu-uk-police-system-could-remain-unsupported-for-three-years/5311322",
-        "published": "2026-11-20T15:12:00.000Z",
-        "summary": "Home Office needs more time with the PNC, which began life more than 50 years ago"
-      },
-      "https://www.theverge.com/policy/1038450/facebook-myanmar-genocide-un": {
-        "source": "The Verge",
-        "title": "UN court cites military Facebook posts while finding Myanmar guilty of genocide",
-        "url": "https://www.theverge.com/policy/1038450/facebook-myanmar-genocide-un",
-        "published": "2026-11-20T15:02:13.000Z",
-        "summary": "In its ruling that Myanmar committed state-sponsored genocide against the Rohingya people in 2016 and 2017, the United Nations' top court says that Facebook played a role in helping Myanmar's military spread hate speech against its Muslim minority. The ruling from the International Court of Justice determined that Facebook posts made by the country's military […]"
-      },
-      "https://www.theverge.com/entertainment/1037545/gta-6-discussion": {
-        "source": "The Verge",
-        "title": "Let’s talk about GTA VI",
-        "url": "https://www.theverge.com/entertainment/1037545/gta-6-discussion",
-        "published": "2026-11-20T15:00:00.000Z",
-        "summary": "It's hard to believe, but Grand Theft Auto VI is now a real thing that we all can play. Thirteen years after GTA V, and eight years since Red Dead Redemption 2, Rockstar is back with its latest sprawling, extravagant open world. There's a lot to experience - and a lot to talk about. Perhaps […]"
-      },
-      "https://arstechnica.com/gadgets/2026/11/how-faa-can-modernize-us-national-airspace-system-without-emergency-ground-stops": {
-        "source": "Ars Technica",
-        "title": "US will soon announce root cause behind FAA nationwide ground stop",
-        "url": "https://arstechnica.com/gadgets/2026/11/how-faa-can-modernize-us-national-airspace-system-without-emergency-ground-stops/",
-        "published": "2026-11-20T14:52:51.000Z",
-        "summary": "Former FAA insider on reducing the risks of upgrading a decades-old network."
-      },
-      "https://www.theregister.com/os-platforms/2026/11/20/microsofts-last-non-security-preview-of-2026-packs-a-punch/5311300": {
-        "source": "The Register",
-        "title": "Microsoft's last non-security preview of 2026 packs a punch",
-        "url": "https://www.theregister.com/os-platforms/2026/11/20/microsofts-last-non-security-preview-of-2026-packs-a-punch/5311300",
-        "published": "2026-11-20T14:28:00.000Z",
-        "summary": "Windows Search gets a makeover, while Hello lights up dim rooms"
-      },
-      "https://yourstory.com/2026/11/weekly-funding-roundup-nov-14-20-vc-funding-bounces-back-after-record-low-last-week": {
-        "source": "YourStory",
-        "title": "(Weekly funding roundup Nov 14-20) VC funding bounces back after record low last week",
-        "url": "https://yourstory.com/2026/11/weekly-funding-roundup-nov-14-20-vc-funding-bounces-back-after-record-low-last-week",
-        "published": "2026-11-20T14:23:14.000Z",
-        "summary": "Venture capital funding in Indian startups saw a sharp rise this week, propped up by a couple of deals in the $50-million range."
-      },
-      "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space": {
-        "source": "Ars Technica",
-        "title": "SpaceX lenders don’t want Elon Musk launching their collateral into space",
-        "url": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
-        "published": "2026-11-20T14:15:21.000Z",
-        "summary": "Bondholders want SpaceX’s valuable chip collateral kept on Earth and within reach."
-      },
-      "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast": {
-        "source": "The Verge",
-        "title": "The week everything fell apart",
-        "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
-        "published": "2026-11-20T14:06:59.000Z",
-        "summary": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technological world simply collapsed. And it felt like this might be the beginning of something even bigger. On […]"
-      },
-      "https://spectrum.ieee.org/fighting-back-against-deep-fakes": {
-        "source": "IEEE Spectrum",
-        "title": "I Don’t Trust Visual Recordings Anymore. But One Day I Will Again",
-        "url": "https://spectrum.ieee.org/fighting-back-against-deep-fakes",
-        "published": "2026-11-20T14:00:03.000Z",
-        "summary": "In March of this year, a flurry of emails and text messages from a half dozen reporters around the world disrupted my quiet Saturday morning. An Iranian news agency had aired a week-old video of what appeared to be a U.S.-made Tomahawk missile hitting a school. News reports claimed that the strike killed more than 175 people, most of them children. The U.S. president and military denied responsibi"
-      },
-      "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter": {
-        "source": "TechCrunch",
-        "title": "Six AI-powered gadgets that could make your home office smarter",
-        "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
-        "published": "2026-11-20T14:00:00.000Z",
-        "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace."
-      },
-      "https://www.theregister.com/os-platforms/2026/11/20/microsoft-suggests-registry-hack-to-work-around-hotpatch-woes/5311279": {
-        "source": "The Register",
-        "title": "Microsoft suggests Registry hack to work around hotpatch woes",
-        "url": "https://www.theregister.com/os-platforms/2026/11/20/microsoft-suggests-registry-hack-to-work-around-hotpatch-woes/5311279",
-        "published": "2026-11-20T13:39:00.000Z",
-        "summary": "App problems in Windows after default hotpatching? Who could have foreseen that?"
-      },
-      "https://arstechnica.com/space/2026/11/rocket-report-a-weekend-of-ups-and-downs-stoke-celebrates-engine-milestone": {
-        "source": "Ars Technica",
-        "title": "Rocket Report: A weekend of ups and downs; Stoke celebrates engine milestone",
-        "url": "https://arstechnica.com/space/2026/11/rocket-report-a-weekend-of-ups-and-downs-stoke-celebrates-engine-milestone/",
-        "published": "2026-11-20T13:35:45.000Z",
-        "summary": "Russia launched a Soyuz rocket with satellites to help enable drone attacks over Ukraine."
-      },
       "https://www.thehindu.com/entertainment/grand-theft-auto-vi-sets-record-with-379b-in-first-day-retail-sales-rockstar-games-reports/article71727468.ece": {
         "source": "The Hindu",
         "title": "‘Grand Theft Auto VI’ sets record with $3.79B in first-day retail sales, Rockstar Games reports",
@@ -13367,111 +13240,6 @@
         "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
         "published": "2026-11-20T18:00:00.000Z",
         "summary": "Google is announcing some significant changes to its smart home software. Starting next year, the company will shut down the Nest app in favor of the Google Home app and retire Google Assistant on its smart home devices. The Nest app shutdown takes place on January 25th, 2027, meaning you'll have to manage your Nest […]"
-      },
-      "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing": {
-        "source": "TechCrunch",
-        "title": "Chips can survive the space environment — can their financing?",
-        "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-        "published": "2026-11-20T17:40:01.000Z",
-        "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?"
-      },
-      "https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026": {
-        "source": "The Verge",
-        "title": "Here are the Apple deals actually worth picking up ahead of Black Friday",
-        "url": "https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026",
-        "published": "2026-11-20T17:33:59.000Z",
-        "summary": "A new pair of AirPods or the latest Apple Watch can make a great holiday gift, but they can also take a pretty big dent out of your budget. That’s especially true this year, as rising hardware prices have made MacBooks and other Apple devices even more expensive. Fortunately, Black Friday offers a chance to […]"
-      },
-      "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382": {
-        "source": "The Register",
-        "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
-        "url": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
-        "published": "2026-11-20T17:30:00.000Z",
-        "summary": "'Agents kept adapting for nearly a full day without human direction,' Amazon CISO said"
-      },
-      "https://www.theverge.com/tech/1038692/teenage-engineering-ep-bc-1-cd-compact-disc-player-broadcast-series-bluetooth": {
-        "source": "The Verge",
-        "title": "Teenage Engineering’s first CD player puts the spinning disc on display",
-        "url": "https://www.theverge.com/tech/1038692/teenage-engineering-ep-bc-1-cd-compact-disc-player-broadcast-series-bluetooth",
-        "published": "2026-11-20T17:05:52.000Z",
-        "summary": "Teenage Engineering announced what it describes as \"a modern take on a classic CD player\" with its new EP/BC-1 featuring a slab-like design that leaves the spinning disc exposed instead of hiding it under a lid or inside a slide-out tray. The company says the EP/BC-1 is the first entry in its new broadcast series […]"
-      },
-      "https://www.theregister.com/security/2026/11/20/dutch-data-watchdog-highlights-safety-issues-with-ai-glasses/5311345": {
-        "source": "The Register",
-        "title": "Dutch data watchdog highlights safety issues with AI glasses",
-        "url": "https://www.theregister.com/security/2026/11/20/dutch-data-watchdog-highlights-safety-issues-with-ai-glasses/5311345",
-        "published": "2026-11-20T16:44:00.000Z",
-        "summary": "Devices found to misinterpret medication instructions and other scenarios impacting human safety"
-      },
-      "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem": {
-        "source": "The Verge",
-        "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-        "published": "2026-11-20T16:34:13.000Z",
-        "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval […]"
-      },
-      "https://www.theverge.com/entertainment/1038444/boys-noize-7llvsion-interview": {
-        "source": "The Verge",
-        "title": "Boys Noize turns to the club (and an obscure Italian synth) for inspiration on 7LLVSION",
-        "url": "https://www.theverge.com/entertainment/1038444/boys-noize-7llvsion-interview",
-        "published": "2026-11-20T16:22:15.000Z",
-        "summary": "If you're wondering how Alex Ridha's (aka Boys Noize) collaboration with Nine Inch Nails influenced his new record 7LLVSION, the answer is simple: It didn't. That's not to say Ridha didn't learn anything from the virtuosic production team of Trent Reznor and Atticus Ross, but most of the songs on 7LLVSION had been knocking around […]"
-      },
-      "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion": {
-        "source": "TechCrunch",
-        "title": "Bending Spoons buys Mailchimp for $3.68B",
-        "url": "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion/",
-        "published": "2026-11-20T16:16:06.000Z",
-        "summary": "Intuit acquired the company in 2021 for roughly $12 billion, so it looks like Bending Spoons is getting quite a bargain."
-      },
-      "https://arstechnica.com/gaming/2026/11/valve-says-it-might-have-to-raise-the-price-of-supply-limited-steam-machines": {
-        "source": "Ars Technica",
-        "title": "Valve says it might have to raise the price of supply-limited Steam Machines",
-        "url": "https://arstechnica.com/gaming/2026/11/valve-says-it-might-have-to-raise-the-price-of-supply-limited-steam-machines/",
-        "published": "2026-11-20T16:11:21.000Z",
-        "summary": "\"We don't yet know the number we are able to make, and at what price...\""
-      },
-      "https://www.theregister.com/systems/2026/11/20/ai-boom-threatens-circuit-board-crunch-to-rival-pandemic-era-chip-shortage/5311335": {
-        "source": "The Register",
-        "title": "AI boom threatens circuit board crunch to rival pandemic-era chip shortage",
-        "url": "https://www.theregister.com/systems/2026/11/20/ai-boom-threatens-circuit-board-crunch-to-rival-pandemic-era-chip-shortage/5311335",
-        "published": "2026-11-20T16:01:00.000Z",
-        "summary": "Trade body warns automotive, medical, and defense orders are being crowded out, with relief unlikely before mid-2028"
-      },
-      "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online": {
-        "source": "TechCrunch",
-        "title": "A transcription firm used by police, prosecutors, and tech giants exposed customer data online",
-        "url": "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online/",
-        "published": "2026-11-20T15:46:07.000Z",
-        "summary": "Exclusive: A simple security lapse exposed transcriptions of police interviews and bodycam footage on a cloud server without a password."
-      },
-      "https://www.theregister.com/security/2026/11/20/spy-court-blasts-uk-secrecy-forces-government-to-admit-apple-backdoor-demand/5311292": {
-        "source": "The Register",
-        "title": "Spy court blasts UK secrecy, forces government to admit Apple ‘backdoor’ demand",
-        "url": "https://www.theregister.com/security/2026/11/20/spy-court-blasts-uk-secrecy-forces-government-to-admit-apple-backdoor-demand/5311292",
-        "published": "2026-11-20T12:18:19.000Z",
-        "summary": "Notice's existence can be acknowledged without harming national security, but its precise demands remain under wraps"
-      },
-      "https://yourstory.com/2026/11/startup-news-updates-daily-roundup-november-20-2026": {
-        "source": "YourStory",
-        "title": "Startup news and updates: Daily roundup (November 20, 2026)",
-        "url": "https://yourstory.com/2026/11/startup-news-updates-daily-roundup-november-20-2026",
-        "published": "2026-11-20T09:31:30.000Z",
-        "summary": "YourStory presents the daily news roundup from the Indian startup ecosystem and beyond. Here's the roundup for Friday, November 20, 2026."
-      },
-      "https://yourstory.com/2026/11/urban-company-raises-rs-2500-cr-through-qip": {
-        "source": "YourStory",
-        "title": "Urban Company raises Rs 2,500 Cr through QIP",
-        "url": "https://yourstory.com/2026/11/urban-company-raises-rs-2500-cr-through-qip",
-        "published": "2026-11-20T08:47:50.000Z",
-        "summary": "Urban Company's QIP saw participation from domestic and overseas investors. The proceeds of the issue will be used to build the supply ecosystem for on-demand household help services InstaHelp and on brand marketing, business promotion, and infrastructure."
-      },
-      "https://yourstory.com/2026/11/eazeebox-co-founder-srinivas-shanbhogue-passes-away": {
-        "source": "YourStory",
-        "title": "Eazeebox co-founder Srinivas Shanbhogue passes away",
-        "url": "https://yourstory.com/2026/11/eazeebox-co-founder-srinivas-shanbhogue-passes-away",
-        "published": "2026-11-20T08:17:45.000Z",
-        "summary": "Shanbhogue spent two decades at Schneider Electric before building Eazeebox, a Bengaluru startup that helps neighbourhood electrical shops restock from multiple brands through a single app."
       },
       "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai": {
         "source": "The Verge",
@@ -13969,19 +13737,432 @@
         "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
         "published": "2026-11-20T22:53:24.000Z",
         "summary": "The mammoth figure surpasses every video game launch and single-day film box office record."
+      },
+      "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=rss&at_campaign=rss": {
+        "source": "BBC Technology",
+        "title": "Nvidia shares up nearly 33% and tech stocks rally after Jensen Huang returns",
+        "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-23T17:42:37.000Z",
+        "summary": "The jump in Nvidia shares has also lifted stock markets, with the tech-heavy Nasdaq up 7%."
+      },
+      "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument": {
+        "source": "MIT Technology Review",
+        "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+        "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+        "published": "2026-11-23T17:36:08.000Z",
+        "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral…"
+      },
+      "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips": {
+        "source": "TechCrunch",
+        "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+        "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+        "published": "2026-11-23T17:14:23.000Z",
+        "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal."
+      },
+      "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026": {
+        "source": "The Verge",
+        "title": "The best Black Friday deals we’ve already found",
+        "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+        "published": "2026-11-23T17:14:20.000Z",
+        "summary": "The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn’t officially until Friday, November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t necessarily mean you’re getting a historically low price. […]"
+      },
+      "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious": {
+        "source": "TechCrunch",
+        "title": "Meta throws out its net-zero goal. Its competitors should be furious",
+        "url": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/",
+        "published": "2026-11-23T17:13:45.000Z",
+        "summary": "Meta walked back its 2030 net zero goal in its 2026 sustainability report, a decision that could send ripples throughout the tech industry."
+      },
+      "https://www.theregister.com/security/2026/11/23/bulgaria-evicts-cyber-snoops-who-lurked-inside-government-networks-for-5-years/5311629": {
+        "source": "The Register",
+        "title": "Bulgaria evicts cyber snoops who lurked inside government networks for 5 years",
+        "url": "https://www.theregister.com/security/2026/11/23/bulgaria-evicts-cyber-snoops-who-lurked-inside-government-networks-for-5-years/5311629",
+        "published": "2026-11-23T17:01:00.000Z",
+        "summary": "Minister says intruders downloaded more than 130 GB of data as political churn left security neglected"
+      },
+      "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet": {
+        "source": "TechCrunch",
+        "title": "Jensen Huang isn’t out of the woods yet",
+        "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+        "published": "2026-11-23T16:57:40.000Z",
+        "summary": "It’s safe to say no one expected this. Monday morning, Jensen Huang returned as CEO of Nvidia, after resigning the position following news of multiple affairs, including one with a subordinate and one with a woman tied to Chinese intelligence services. With so much of the AI industry built on top of Nvidia’s AI infrastructure, […]"
+      },
+      "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return": {
+        "source": "TechCrunch",
+        "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+        "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+        "published": "2026-11-23T16:39:10.000Z",
+        "summary": "\"I spoke to them, let me put it that way... And I convinced them,\" the president told CNBC."
+      },
+      "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated": {
+        "source": "The Verge",
+        "title": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
+        "url": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
+        "published": "2026-11-23T16:30:11.000Z",
+        "summary": "It sure looked like President Donald Trump played a role in Jensen Huang's reinstatement as Nvidia CEO - and now the White House is making sure everyone knows he was. \"President Trump was totally involved and this is a great decision by the NVIDIA board,\" White House communications director Steven Cheung said in a statement, […]"
+      },
+      "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion": {
+        "source": "TechCrunch",
+        "title": "CrowdStrike to acquire Zscaler for $44 billion",
+        "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/",
+        "published": "2026-11-23T16:20:11.000Z",
+        "summary": "The cybersecurity giant said that the deal to buy Zscaler, which provides zero-trust products to large enterprises, will better equip their customers to use AI agents."
+      },
+      "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656": {
+        "source": "The Register",
+        "title": "Microsoft mega outage: Report reveals testing gaps and emails that never arrived",
+        "url": "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656",
+        "published": "2026-11-23T16:16:00.000Z",
+        "summary": "July bug overwhelmed newer servers, prompting promises of stronger safeguards and faster recovery"
+      },
+      "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay": {
+        "source": "The Verge",
+        "title": "Tech leaders are celebrating Jensen Huang’s return",
+        "url": "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay",
+        "published": "2026-11-23T16:14:04.000Z",
+        "summary": "Let's say you're Jensen Huang. You (allegedly) cheated on your wife with an alleged Chinese spy, allegedly had an affair with not one, but two subordinates, and (allegedly!) \"terrorized\" your employees, a series of indiscretions that led to your ouster from what was once the world's most valuable company. (The stock price has recently taken […]"
+      },
+      "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=rss&at_campaign=rss": {
+        "source": "BBC Technology",
+        "title": "How important are Nvidia and Jensen Huang to the US economy?",
+        "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-23T16:12:35.000Z",
+        "summary": "The Nvidia chief executive has been at the centre of the artificial intelligence boom."
+      },
+      "https://www.theverge.com/gadgets/1039999/alienware-aw2726dm-qdoled-gaming-monitor-black-friday-2026-deal-sale": {
+        "source": "The Verge",
+        "title": "My trusty 27-inch Alienware QD-OLED gaming monitor is just $280",
+        "url": "https://www.theverge.com/gadgets/1039999/alienware-aw2726dm-qdoled-gaming-monitor-black-friday-2026-deal-sale",
+        "published": "2026-11-23T16:00:00.000Z",
+        "summary": "Alienware’s AW2726DM QD-OLED gaming monitor was a great deal even at its original $349.99 price. The low price and impressive specs were enough to convince me to get one at launch, and I’m glad that I did. I’m a little jealous that you have the opportunity to save $70 on the monitor I’ve been using […]"
+      },
+      "https://arstechnica.com/culture/2026/11/marvel-crams-every-superhero-ever-into-avengers-doomsday-final-trailer": {
+        "source": "Ars Technica",
+        "title": "Marvel crams every superhero ever into Avengers: Doomsday final trailer",
+        "url": "https://arstechnica.com/culture/2026/11/marvel-crams-every-superhero-ever-into-avengers-doomsday-final-trailer/",
+        "published": "2026-11-23T15:55:12.000Z",
+        "summary": "\"All of you have lived stolen lives. But now you must give them back.\""
+      },
+      "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=rss&at_campaign=rss": {
+        "source": "BBC Technology",
+        "title": "The rise and fall and rise again of Jensen Huang",
+        "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-23T15:49:52.000Z",
+        "summary": "Days after resigning while mired in scandal of extra-marital affairs, Nvidia's Jensen Huang is making a remarkable return."
+      },
+      "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair": {
+        "source": "Ars Technica",
+        "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+        "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+        "published": "2026-11-23T15:46:18.000Z",
+        "summary": "Trump says he spoke to the board and that Huang \"did nothing wrong.\""
+      },
+      "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses": {
+        "source": "TechCrunch",
+        "title": "Dutch privacy authority urges consumers not to buy ‘pervert glasses’",
+        "url": "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/",
+        "published": "2026-11-23T15:29:49.000Z",
+        "summary": "The Netherlands' data protection agency said smart wearables violate people's privacy, get information wrong, and can result in unsafe situations."
+      },
+      "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance": {
+        "source": "Ars Technica",
+        "title": "COP31 ends in failure as countries split over fossil fuels, climate finance",
+        "url": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
+        "published": "2026-11-23T15:23:26.000Z",
+        "summary": "COP31 ended without a consensus deal for the first time since 2009."
+      },
+      "https://www.theregister.com/cyber-crime/2026/11/23/british-retailer-next-downplays-data-breach-at-tech-supplier/5311684": {
+        "source": "The Register",
+        "title": "British retailer Next downplays data breach at tech supplier",
+        "url": "https://www.theregister.com/cyber-crime/2026/11/23/british-retailer-next-downplays-data-breach-at-tech-supplier/5311684",
+        "published": "2026-11-23T15:09:00.000Z",
+        "summary": "Retailer insists customer details are safe and the data accessed is 'benign,' but won't say exactly what hackers got their hands on"
+      },
+      "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing": {
+        "source": "TechCrunch",
+        "title": "Trump endorses Jensen Huang’s return to Nvidia, says US has no evidence of wrongdoing",
+        "url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+        "published": "2026-11-23T15:04:01.000Z",
+        "summary": "The president cited the U.S. attorney general in defending Huang's return, while urging Nvidia to continue its export-control investigation."
+      },
+      "https://www.theverge.com/gadgets/1039978/airpods-pro-3-apple-earbuds-black-friday-2026-deal-sale": {
+        "source": "The Verge",
+        "title": "Apple’s AirPods Pro 3 are 40 percent off ahead of Black Friday",
+        "url": "https://www.theverge.com/gadgets/1039978/airpods-pro-3-apple-earbuds-black-friday-2026-deal-sale",
+        "published": "2026-11-23T15:00:44.000Z",
+        "summary": "The AirPods Pro 3 are cheaper than ever. Apple’s latest flagship wireless earbuds dropped this morning to just $149 at Amazon, Best Buy and Walmart. Originally, they sold for $249, but have been commonly available for $199 outside the range of deal events. The best price that we’ve previously seen was $169, which is what […]"
+      },
+      "https://www.theverge.com/gadgets/1023471/best-gifts-under-50-2026": {
+        "source": "The Verge",
+        "title": "The Verge’s favorite holiday gifts that cost $50 or less",
+        "url": "https://www.theverge.com/gadgets/1023471/best-gifts-under-50-2026",
+        "published": "2026-11-23T15:00:00.000Z",
+        "summary": "You've got $50 to spend on a friend or loved one this shopping season, and you're not sure what to spend it on. First off, that's actually really generous of you. While this price tier can sometimes be challenging to shop for - caught between affordable accessories and big-ticket items - there's plenty of gold […]"
+      },
+      "https://www.theverge.com/podcast/1039215/faa-ground-stop-cause-trump-elon-musk-doge-airlines-safety": {
+        "source": "The Verge",
+        "title": "How one router caused the worst ground stop since 9/11",
+        "url": "https://www.theverge.com/podcast/1039215/faa-ground-stop-cause-trump-elon-musk-doge-airlines-safety",
+        "published": "2026-11-23T15:00:00.000Z",
+        "summary": "Today I’m talking with Darryl Campbell, a freelance journalist, aviation expert, and author of the book Fatal Abstraction: Why the Managerial Class Loses Control of Software. Darryl covers aviation and the FAA, and earlier this month, when the US suffered a sudden nationwide ground stop on air travel, Darryl was all over the story. He […]"
+      },
+      "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off": {
+        "source": "TechCrunch",
+        "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+        "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+        "published": "2026-11-23T14:43:03.000Z",
+        "summary": "Enterprise customer experience company Sierra, co-founded by former Salesforce co-CEO Bret Taylor, said on Monday that it has raised $1.75 billion in a Series F round."
+      },
+      "https://yourstory.com/2026/11/nvidia-reinstates-jensen-huang-as-ceo": {
+        "source": "YourStory",
+        "title": "NVIDIA reinstates Jensen Huang as CEO",
+        "url": "https://yourstory.com/2026/11/nvidia-reinstates-jensen-huang-as-ceo",
+        "published": "2026-11-23T14:42:16.000Z",
+        "summary": "Just 11 days after his resignation from the company, Jensen Huang is back at Nvidia as president, CEO, and board director."
+      },
+      "https://www.thehindu.com/sci-tech/technology/nvidia-reinstates-jensen-huang-as-ceo-after-us-government-input/article71735341.ece": {
+        "source": "The Hindu",
+        "title": "Nvidia reinstates Jensen Huang as CEO after U.S. government input",
+        "url": "https://www.thehindu.com/sci-tech/technology/nvidia-reinstates-jensen-huang-as-ceo-after-us-government-input/article71735341.ece",
+        "published": "2026-11-23T14:38:23.000Z",
+        "summary": "U.S. President Donald Trump welcomed the move as a “correct and proper decision”"
+      },
+      "https://www.theregister.com/systems/2026/11/23/nvidia-board-puts-jensen-huang-back-as-boss/5311674": {
+        "source": "The Register",
+        "title": "Nvidia board puts Jensen Huang back as boss",
+        "url": "https://www.theregister.com/systems/2026/11/23/nvidia-board-puts-jensen-huang-back-as-boss/5311674",
+        "published": "2026-11-23T14:35:50.000Z",
+        "summary": "On the 11th day, Jensen Huang rose from the ranks of CEOs past and, with the full confidence of the board, returned to helm Nvidia"
+      },
+      "https://yourstory.com/2026/11/flexibility-services-employee-experience-driving-indiqubes-growth": {
+        "source": "YourStory",
+        "title": "How flexibility, services, and employee experience are driving IndiQube’s growth",
+        "url": "https://yourstory.com/2026/11/flexibility-services-employee-experience-driving-indiqubes-growth",
+        "published": "2026-11-23T14:28:54.000Z",
+        "summary": "IndiQube, which manages close to 11 million square feet of office space, is broadening its offerings through integrated services, design solutions, and sustainability offerings to drive growth and enhance employee experience."
+      },
+      "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo": {
+        "source": "TechCrunch",
+        "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+        "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/",
+        "published": "2026-11-23T14:21:59.000Z",
+        "summary": "The stunning reversal was supported by senior officials in the U.S. government."
+      },
+      "https://yourstory.com/2026/11/ig-defence-test-fires-jwala-mk-i-counter-drone-micro-missile-system": {
+        "source": "YourStory",
+        "title": "IG Defence test-fires counter-drone micro-missile system",
+        "url": "https://yourstory.com/2026/11/ig-defence-test-fires-jwala-mk-i-counter-drone-micro-missile-system",
+        "published": "2026-11-23T14:16:31.000Z",
+        "summary": "The company's indigenously developed micro-missile system JWALA MK-I was successfully tested at Pokhran, Rajasthan."
+      },
+      "https://www.theverge.com/transportation/1039919/tesla-fsd-v15-reality-view-gta-nhtsa-safety-rollout": {
+        "source": "The Verge",
+        "title": "Tesla’s FSD v15 turns driving visuals into Grand Theft Auto",
+        "url": "https://www.theverge.com/transportation/1039919/tesla-fsd-v15-reality-view-gta-nhtsa-safety-rollout",
+        "published": "2026-11-23T14:12:28.000Z",
+        "summary": "Tesla has begun rolling out Full Self-Driving (Supervised) v15, calling it a ground-up overhaul of its end-to-end driver assist system. The centerpiece is Reality View, a real-time generative display that swaps out old wireframe graphics for a live, overhead camera angle that lets drivers see and tap to influence what the car plans to do […]"
+      },
+      "https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro?at_medium=rss&at_campaign=rss": {
+        "source": "BBC Technology",
+        "title": "GTA 6 hacker released on licence with warning 'don't let this happen again'",
+        "url": "https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-23T14:08:50.000Z",
+        "summary": "21-year-old Arion Kurtaj pleaded guilty to the Rockstar Games hack and others he carried out when he was a teenager."
+      },
+      "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated": {
+        "source": "The Verge",
+        "title": "Jensen Huang is back as Nvidia’s CEO",
+        "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
+        "published": "2026-11-23T14:04:24.000Z",
+        "summary": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang's candor and ability to lead NVIDIA.\" In its statement, the board […]"
+      },
+      "https://www.theregister.com/off-prem/2026/11/23/everything-going-down-at-once-wasnt-evidence-of-a-conspiracy-but-the-truth-may-be-scarier/5311458": {
+        "source": "The Register",
+        "title": "Everything going down at once wasn't evidence of a conspiracy – but the truth may be scarier",
+        "url": "https://www.theregister.com/off-prem/2026/11/23/everything-going-down-at-once-wasnt-evidence-of-a-conspiracy-but-the-truth-may-be-scarier/5311458",
+        "published": "2026-11-23T14:04:00.000Z",
+        "summary": "Rogue AI or nation-state hackers would be preferable to the amount of technical debt the past week of wobbling services laid bare"
+      },
+      "https://www.theverge.com/entertainment/1039095/blade-runner-2099-review": {
+        "source": "The Verge",
+        "title": "Blade Runner 2099 is an inventive twist on a cyberpunk classic",
+        "url": "https://www.theverge.com/entertainment/1039095/blade-runner-2099-review",
+        "published": "2026-11-23T14:00:00.000Z",
+        "summary": "In an age of streaming shows designed to appeal to distracted viewers, Blade Runner 2099 can feel like a welcome anachronism. The Amazon series is slow and methodical, just like the movies it follows, as it delves deep into moral ambiguity. It is very Blade Runner, in that it both feels true to the films […]"
+      },
+      "https://techcrunch.com/2026/11/23/uber-now-lets-you-book-rides-that-record-the-drive-by-default": {
+        "source": "TechCrunch",
+        "title": "Uber now lets you book rides that record the drive by default",
+        "url": "https://techcrunch.com/2026/11/23/uber-now-lets-you-book-rides-that-record-the-drive-by-default/",
+        "published": "2026-11-23T14:00:00.000Z",
+        "summary": "The option, which uses the front camera of the Uber driver's phone to record the entire drive, will show up as \"Recorded Rides\" in the app."
+      },
+      "https://arstechnica.com/cars/2026/11/f1-in-las-vegas-youve-never-seen-an-f1-race-like-this-before": {
+        "source": "Ars Technica",
+        "title": "F1 in Las Vegas: You've never seen an F1 race like this before",
+        "url": "https://arstechnica.com/cars/2026/11/f1-in-las-vegas-youve-never-seen-an-f1-race-like-this-before/",
+        "published": "2026-11-23T13:54:22.000Z",
+        "summary": "There were 352 position changes, including 35 for the lead."
+      },
+      "https://www.theregister.com/off-prem/2026/11/23/trump-says-he-wont-allow-us-companies-to-build-datacenters-abroad/5311640": {
+        "source": "The Register",
+        "title": "Trump says he won't allow US companies to build datacenters abroad",
+        "url": "https://www.theregister.com/off-prem/2026/11/23/trump-says-he-wont-allow-us-companies-to-build-datacenters-abroad/5311640",
+        "published": "2026-11-23T13:40:00.000Z",
+        "summary": "President threatens 'tremendous tax' on overseas builds, but analysts question how restrictions would work"
+      },
+      "https://yourstory.com/2026/11/india-ai-funding-nearly-doubles-jan-sept-2026-tracxn": {
+        "source": "YourStory",
+        "title": "India AI funding nearly doubles to $1.6B in Jan-Sept 2026: Tracxn",
+        "url": "https://yourstory.com/2026/11/india-ai-funding-nearly-doubles-jan-sept-2026-tracxn",
+        "published": "2026-11-23T13:16:44.000Z",
+        "summary": "Early-stage funding led the investment mix. Mumbai overtook Bengaluru to become the city with the largest funding during the period."
+      },
+      "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat": {
+        "source": "MIT Technology Review",
+        "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
+        "url": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+        "published": "2026-11-23T13:10:00.000Z",
+        "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that some capabilities are improving exponentially—but models aren’t as good…"
+      },
+      "https://www.theregister.com/saas/2026/11/23/new-outlooks-attachment-issues-sent-users-into-the-arms-of-its-predecessor/5311576": {
+        "source": "The Register",
+        "title": "New Outlook's attachment issues sent users into the arms of its predecessor",
+        "url": "https://www.theregister.com/saas/2026/11/23/new-outlooks-attachment-issues-sent-users-into-the-arms-of-its-predecessor/5311576",
+        "published": "2026-11-23T12:30:00.000Z",
+        "summary": "Microsoft recommended Classic or the web client while two rounds of fixes restored normal service"
+      },
+      "https://www.thehindu.com/news/national/cybercriminals-may-hijack-account-if-whatsapp-web-session-left-logged-in-on-public-computer-govt/article71734286.ece": {
+        "source": "The Hindu",
+        "title": "Indian Cyber Crime Coordination Centre warns of possible misuse of WhatsApp Web sessions",
+        "url": "https://www.thehindu.com/news/national/cybercriminals-may-hijack-account-if-whatsapp-web-session-left-logged-in-on-public-computer-govt/article71734286.ece",
+        "published": "2026-11-23T12:29:31.000Z",
+        "summary": "National Cybercrime Threat Analytics Unit issues advisory asking users to manually log out after every session"
+      },
+      "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598": {
+        "source": "The Register",
+        "title": "Norway links energy firm cyberattacks to critical Azure API Management flaw",
+        "url": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598",
+        "published": "2026-11-23T12:29:00.000Z",
+        "summary": "Microsoft says mitigation is in place, but admins must investigate possible compromise and rotate secrets"
+      },
+      "https://arstechnica.com/gadgets/2026/11/a-triple-screen-portable-monitor-means-more-pixels-and-more-bulk": {
+        "source": "Ars Technica",
+        "title": "Tri-screen portable monitors aren’t for the faint of heart",
+        "url": "https://arstechnica.com/gadgets/2026/11/a-triple-screen-portable-monitor-means-more-pixels-and-more-bulk/",
+        "published": "2026-11-23T12:15:16.000Z",
+        "summary": "Three extra screens boost multitasking but can distract and overwhelm."
+      },
+      "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai": {
+        "source": "Ars Technica",
+        "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+        "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+        "published": "2026-11-23T12:00:00.000Z",
+        "summary": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents."
+      },
+      "https://yourstory.com/2026/11/8-carl-jung-ideas-that-explain-why-you-repeat-mistakes": {
+        "source": "YourStory",
+        "title": "8 Carl Jung ideas that explain why you repeat mistakes",
+        "url": "https://yourstory.com/2026/11/8-carl-jung-ideas-that-explain-why-you-repeat-mistakes",
+        "published": "2026-11-23T11:52:32.000Z",
+        "summary": "Explore eight Carl Jung ideas that explain why you repeat mistakes, repeat unhealthy patterns, and struggle to change your behaviour."
+      },
+      "https://www.theregister.com/cyber-crime/2026/11/23/cleverbridge-admits-attackers-stole-customers-credit-card-and-cvv-numbers-yep-you-read-that-right/5311573": {
+        "source": "The Register",
+        "title": "Cleverbridge admits attackers stole customers' credit card and CVV numbers. Yep, you read that right",
+        "url": "https://www.theregister.com/cyber-crime/2026/11/23/cleverbridge-admits-attackers-stole-customers-credit-card-and-cvv-numbers-yep-you-read-that-right/5311573",
+        "published": "2026-11-23T11:48:00.000Z",
+        "summary": "Payments platform hasn't disclosed how the data was captured or the scale of the breach"
+      },
+      "https://www.theregister.com/public-sector/2026/11/23/capita-ceo-leaves-following-pensions-contract-disaster/5311585": {
+        "source": "The Register",
+        "title": "Capita CEO leaves following pensions contract disaster",
+        "url": "https://www.theregister.com/public-sector/2026/11/23/capita-ceo-leaves-following-pensions-contract-disaster/5311585",
+        "published": "2026-11-23T11:11:25.000Z",
+        "summary": "Shares plunge around 70% as outsourcer cuts profit expectations and plans £190M cash call"
+      },
+      "https://www.technologyreview.com/2026/11/23/1149392/why-using-rocks-for-carbon-removal-could-eventually-reduce-crop-growth": {
+        "source": "MIT Technology Review",
+        "title": "Why using rocks for carbon removal could eventually reduce crop growth",
+        "url": "https://www.technologyreview.com/2026/11/23/1149392/why-using-rocks-for-carbon-removal-could-eventually-reduce-crop-growth/",
+        "published": "2026-11-23T11:00:00.000Z",
+        "summary": "Tech companies are investing a lot of hope and money in rocks. Google, Microsoft, and others have committed hundreds of millions of dollars to get startups to spread crushed basalt, olivine, or other alkaline materials across farms, in an effort to capture carbon from the air and lock it away. A number of influential models…"
+      },
+      "https://restofworld.org/2026/ibm-consulting-ends-us-visa-green-card-sponsorship/?utm_source=rss&utm_medium=rss&utm_campaign=feeds": {
+        "source": "Rest of World",
+        "title": "The catch in IBM’s offer to relocate its U.S.-based immigrant workers",
+        "url": "https://restofworld.org/2026/ibm-consulting-ends-us-visa-green-card-sponsorship/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+        "published": "2026-11-23T11:00:00.000Z",
+        "summary": "Ending U.S. visa sponsorship and shifting roles abroad helps the company retain talent, but leaves employees paying a steep financial and personal price."
+      },
+      "https://yourstory.com/2026/11/enterprise-data-security-startup-matters-ai-raises-rs-115-cr-pre-series-a-round": {
+        "source": "YourStory",
+        "title": "Enterprise data security startup Matters.AI raises Rs 115 Cr in pre-Series A round",
+        "url": "https://yourstory.com/2026/11/enterprise-data-security-startup-matters-ai-raises-rs-115-cr-pre-series-a-round",
+        "published": "2026-11-23T10:58:53.000Z",
+        "summary": "Matters.AI gives security teams one source of truth for sensitive data, showing where it is, where it has travelled, who or what has touched it, and whether that use was intended."
+      },
+      "https://yourstory.com/2026/11/taking-a-personal-loan-with-variable-income-heres-how-to-plan-your-emi-smartly": {
+        "source": "YourStory",
+        "title": "Taking a personal loan with variable income? Here's how to plan your EMI smartly",
+        "url": "https://yourstory.com/2026/11/taking-a-personal-loan-with-variable-income-heres-how-to-plan-your-emi-smartly",
+        "published": "2026-11-23T10:35:00.000Z",
+        "summary": "Taking a personal loan with variable income? Here's how to plan your EMI smartly For freelancers and self-employed professionals, monthly income can fluctuate significantly. One month may bring several projects, while the next may be quieter. This makes fixed loan repayments harder to plan. An"
+      },
+      "https://www.theregister.com/os-platforms/2026/11/23/old-school-linux-desktops-find-fresh-routes-to-wayland/5311349": {
+        "source": "The Register",
+        "title": "Old-school Linux desktops find fresh routes to Wayland",
+        "url": "https://www.theregister.com/os-platforms/2026/11/23/old-school-linux-desktops-find-fresh-routes-to-wayland/5311349",
+        "published": "2026-11-23T10:17:00.000Z",
+        "summary": "Xfce lines up 4.22 for 2027, while MATE gains an Ubuntu-based distro and a compositor of its own"
+      },
+      "https://www.theregister.com/applications/2026/11/23/airbus-may-be-leaving-microsoft-office-but-for-its-36000-defense-staff-office-isnt-leaving-them/5311325": {
+        "source": "The Register",
+        "title": "Airbus may be leaving Microsoft Office, but for its 36,000 defense staff, Office isn't leaving them",
+        "url": "https://www.theregister.com/applications/2026/11/23/airbus-may-be-leaving-microsoft-office-but-for-its-36000-defense-staff-office-isnt-leaving-them/5311325",
+        "published": "2026-11-23T09:32:00.000Z",
+        "summary": "Planemaker's 2-to-3-year plan to ditch Redmond's suite stops short of the 22% who can't go near the cloud"
+      },
+      "https://yourstory.com/2026/11/what-it-takes-for-indian-startups-to-win-when-building-is-no-longer-the-hard-part": {
+        "source": "YourStory",
+        "title": "What it takes for Indian startups to win when building is no longer the hard part",
+        "url": "https://yourstory.com/2026/11/what-it-takes-for-indian-startups-to-win-when-building-is-no-longer-the-hard-part",
+        "published": "2026-11-23T09:28:55.000Z",
+        "summary": "At TechSparks 2026, Lukas Jablonskas of Hostinger and Amar Dixit of WOI India discussed how founders can turn ideas into sustainable businesses in the age of AI."
+      },
+      "https://www.thehindu.com/sci-tech/technology/how-to-tune-into-world-radio-music-from-a-single-app/article71733921.ece": {
+        "source": "The Hindu",
+        "title": "How to tune into world radio music from a single app",
+        "url": "https://www.thehindu.com/sci-tech/technology/how-to-tune-into-world-radio-music-from-a-single-app/article71733921.ece",
+        "published": "2026-11-23T09:14:05.000Z",
+        "summary": "Whether you’re yearning for futuristic Russian pop, soulful Palestinian songs, a North Korean curation of classical symphonies, or just the sound of your own mother tongue, Radio Garden is a fantastic tool for listeners of all ages"
+      },
+      "https://yourstory.com/2026/11/india-ranks-sixth-globally-in-gta-6-search-volume-study": {
+        "source": "YourStory",
+        "title": "India ranks sixth globally in GTA VI search volume, says study",
+        "url": "https://yourstory.com/2026/11/india-ranks-sixth-globally-in-gta-6-search-volume-study",
+        "published": "2026-11-23T07:47:36.000Z",
+        "summary": "India recorded nearly 9.44 lakh average monthly searches for GTA VI-related terms, ranking sixth globally by search volume. However, it ranked 106th on a per-capita basis, according to a study by The Action Network."
+      },
+      "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=rss&at_campaign=rss": {
+        "source": "BBC Technology",
+        "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+        "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-20T22:42:47.000Z",
+        "summary": "Pressures weighed on US markets, with the S&P 500 and the Dow Jones Industrial Average pushed into correction territory."
+      },
+      "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=rss&at_campaign=rss": {
+        "source": "BBC Technology",
+        "title": "White House removes cyber-security chief after series of tech outages",
+        "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-20T19:03:56.000Z",
+        "summary": "He has been fired after losing the confidence of new White House chief of staff Stephen Miller, according to reports."
       }
     }
   },
   "asks": {
-    "fetchedAt": "2026-11-23T06:34:36.175Z",
+    "fetchedAt": "2026-11-23T17:54:26.433Z",
     "candidates": {
-      "https://news.ycombinator.com/item?id=50577613": {
-        "title": "I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA",
-        "url": "https://news.ycombinator.com/item?id=50577613",
-        "points": 107,
-        "comments": 149,
-        "created": "2026-11-20T16:45:25.000Z"
-      },
       "https://news.ycombinator.com/item?id=50583761": {
         "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
         "url": "https://news.ycombinator.com/item?id=50583761",
@@ -13995,13 +14176,6 @@
         "points": 27,
         "comments": 2,
         "created": "2026-11-21T04:31:38.000Z"
-      },
-      "https://news.ycombinator.com/item?id=50573839": {
-        "title": "Ask HN: Any actual balanced reviews of GTA 6?",
-        "url": "https://news.ycombinator.com/item?id=50573839",
-        "points": 11,
-        "comments": 19,
-        "created": "2026-11-20T12:36:49.000Z"
       },
       "https://news.ycombinator.com/item?id=50583294": {
         "title": "Ask HN: Should Uber Ratings Decay over Time?",
@@ -14027,7 +14201,7 @@
     }
   },
   "launches": {
-    "fetchedAt": "2026-11-23T06:34:36.175Z",
+    "fetchedAt": "2026-11-23T17:54:26.433Z",
     "candidates": {
       "https://www.producthunt.com/products/tecla-3": {
         "source": "Product Hunt",
@@ -14064,26 +14238,12 @@
         "published": "2026-11-16T21:57:39.000Z",
         "summary": "Give your model the web without giving up your privacy Discussion | Link"
       },
-      "https://www.producthunt.com/products/source-public-beta": {
-        "source": "Product Hunt",
-        "title": "Source",
-        "url": "https://www.producthunt.com/products/source-public-beta",
-        "published": "2026-11-16T17:34:12.000Z",
-        "summary": "The attribution data layer for your agents to drive pipeline Discussion | Link"
-      },
       "https://www.producthunt.com/products/ofintech-desk": {
         "source": "Product Hunt",
         "title": "OfinTech Desk",
         "url": "https://www.producthunt.com/products/ofintech-desk",
         "published": "2026-11-17T03:25:07.000Z",
         "summary": "Finance AI where every figure traces to its source Discussion | Link"
-      },
-      "https://www.producthunt.com/products/spellar": {
-        "source": "Product Hunt",
-        "title": "Spellar for Chrome",
-        "url": "https://www.producthunt.com/products/spellar",
-        "published": "2026-11-16T12:57:22.000Z",
-        "summary": "Free, no-bot meeting notes with memory, now in your browser Discussion | Link"
       },
       "https://www.producthunt.com/products/gemini-6": {
         "source": "Product Hunt",
@@ -14204,13 +14364,6 @@
         "published": "2026-11-18T22:45:39.000Z",
         "summary": "Supercharging macOS since 2010 Discussion | Link"
       },
-      "https://www.producthunt.com/products/qwen3": {
-        "source": "Product Hunt",
-        "title": "Qwen4-Max",
-        "url": "https://www.producthunt.com/products/qwen3",
-        "published": "2026-11-16T12:32:32.000Z",
-        "summary": "Qwen's new flagship for long-running agent work Discussion | Link"
-      },
       "https://www.producthunt.com/products/dusk-bot": {
         "source": "Product Hunt",
         "title": "dusk bot",
@@ -14232,13 +14385,6 @@
         "published": "2026-11-16T21:45:46.000Z",
         "summary": "Turn user frustration into verified fixes Discussion | Link"
       },
-      "https://www.producthunt.com/products/hunyuan-a13b": {
-        "source": "Product Hunt",
-        "title": "Tencent Hy4 flash",
-        "url": "https://www.producthunt.com/products/hunyuan-a13b",
-        "published": "2026-11-16T06:53:29.000Z",
-        "summary": "Fast, low-cost model from $0.07/M input Discussion | Link"
-      },
       "https://www.producthunt.com/products/lepoly": {
         "source": "Product Hunt",
         "title": "lepoly",
@@ -14252,13 +14398,6 @@
         "url": "https://www.producthunt.com/products/introzy",
         "published": "2026-11-17T19:39:36.000Z",
         "summary": "Track referrals from intro to commission Discussion | Link"
-      },
-      "https://www.producthunt.com/products/stringman": {
-        "source": "Product Hunt",
-        "title": "Stringman",
-        "url": "https://www.producthunt.com/products/stringman",
-        "published": "2026-11-16T15:05:23.000Z",
-        "summary": "Turns your room into a crane game Discussion | Link"
       },
       "https://www.producthunt.com/products/netsieve": {
         "source": "Product Hunt",
@@ -14371,13 +14510,6 @@
         "url": "https://www.producthunt.com/products/dozy",
         "published": "2026-11-19T21:18:14.000Z",
         "summary": "Turns your sleep data into one thing to do today Discussion | Link"
-      },
-      "https://www.producthunt.com/products/same-moon": {
-        "source": "Product Hunt",
-        "title": "Same Moon",
-        "url": "https://www.producthunt.com/products/same-moon",
-        "published": "2026-11-16T11:04:38.000Z",
-        "summary": "Free bedtime stories for children who had to leave home Discussion | Link"
       },
       "https://www.producthunt.com/products/fack-d": {
         "source": "Product Hunt",
@@ -14617,13 +14749,6 @@
         "published": "2026-11-21T20:02:03.000Z",
         "summary": "Your own team of AI on your desktop Discussion | Link"
       },
-      "https://www.producthunt.com/products/leapdeck": {
-        "source": "Product Hunt",
-        "title": "Leapdeck",
-        "url": "https://www.producthunt.com/products/leapdeck",
-        "published": "2026-11-16T13:09:26.000Z",
-        "summary": "Leap to any Mac Space from a key or your iPhone Discussion | Link"
-      },
       "https://www.producthunt.com/products/raccoon-kids": {
         "source": "Product Hunt",
         "title": "Raccoon Kids",
@@ -14707,6 +14832,181 @@
         "url": "https://www.producthunt.com/products/do-it-for-them-wallpaper-maker",
         "published": "2026-11-17T22:58:38.000Z",
         "summary": "Photo wallpapers for the people you do it for Discussion | Link"
+      },
+      "https://www.producthunt.com/products/chat-with-work": {
+        "source": "Product Hunt",
+        "title": "Chat with Work",
+        "url": "https://www.producthunt.com/products/chat-with-work",
+        "published": "2026-11-21T09:06:12.000Z",
+        "summary": "AI bots in Europe. They work. You decide. Discussion | Link"
+      },
+      "https://www.producthunt.com/products/leantake": {
+        "source": "Product Hunt",
+        "title": "LeanTake",
+        "url": "https://www.producthunt.com/products/leantake",
+        "published": "2026-11-22T12:14:55.000Z",
+        "summary": "4.1 MB native Mac screen recorder — zero export wait Discussion | Link"
+      },
+      "https://www.producthunt.com/products/visitors": {
+        "source": "Product Hunt",
+        "title": "Letter Visitors",
+        "url": "https://www.producthunt.com/products/visitors",
+        "published": "2026-11-22T07:39:42.000Z",
+        "summary": "See website visitors on your website itself Discussion | Link"
+      },
+      "https://www.producthunt.com/products/gauth-ai-course": {
+        "source": "Product Hunt",
+        "title": "Gauth Personal Study Agent",
+        "url": "https://www.producthunt.com/products/gauth-ai-course",
+        "published": "2026-11-20T17:12:34.000Z",
+        "summary": "An AI study agent that remembers where you struggle Discussion | Link"
+      },
+      "https://www.producthunt.com/products/tesla": {
+        "source": "Product Hunt",
+        "title": "Tesla Self-Driving V15",
+        "url": "https://www.producthunt.com/products/tesla",
+        "published": "2026-11-22T02:23:40.000Z",
+        "summary": "Upgrading every part of the end-to-end driving network Discussion | Link"
+      },
+      "https://www.producthunt.com/products/jot-15": {
+        "source": "Product Hunt",
+        "title": "Jot",
+        "url": "https://www.producthunt.com/products/jot-15",
+        "published": "2026-11-21T09:34:42.000Z",
+        "summary": "One key for everything you do with text Discussion | Link"
+      },
+      "https://www.producthunt.com/products/tinker-2": {
+        "source": "Product Hunt",
+        "title": "Inkling 2 Mini",
+        "url": "https://www.producthunt.com/products/tinker-2",
+        "published": "2026-11-23T03:37:24.000Z",
+        "summary": "26B looped model for coding on your laptop Discussion | Link"
+      },
+      "https://www.producthunt.com/products/kopyo": {
+        "source": "Product Hunt",
+        "title": "Kopyo",
+        "url": "https://www.producthunt.com/products/kopyo",
+        "published": "2026-11-22T15:35:04.000Z",
+        "summary": "The Mac clipboard manager that remembers everything Discussion | Link"
+      },
+      "https://www.producthunt.com/products/omi-work": {
+        "source": "Product Hunt",
+        "title": "Omi Work",
+        "url": "https://www.producthunt.com/products/omi-work",
+        "published": "2026-11-22T08:35:25.000Z",
+        "summary": "Omi can build anything. Now it finds your next 100 customers Discussion | Link"
+      },
+      "https://www.producthunt.com/products/naturefunding-org": {
+        "source": "Product Hunt",
+        "title": "naturefunding.org",
+        "url": "https://www.producthunt.com/products/naturefunding-org",
+        "published": "2026-11-19T03:48:42.000Z",
+        "summary": "Grants for nature projects, checked against funder pages Discussion | Link"
+      },
+      "https://www.producthunt.com/products/open-source-solana-wallet": {
+        "source": "Product Hunt",
+        "title": "Open Source Solana Wallet",
+        "url": "https://www.producthunt.com/products/open-source-solana-wallet",
+        "published": "2026-11-22T22:44:38.000Z",
+        "summary": "Your own keys, your very own network Discussion | Link"
+      },
+      "https://www.producthunt.com/products/figmamcp": {
+        "source": "Product Hunt",
+        "title": "FigmaMCP",
+        "url": "https://www.producthunt.com/products/figmamcp",
+        "published": "2026-11-22T23:28:02.000Z",
+        "summary": "Let Claude Code or Codex edit your open Figma file Discussion | Link"
+      },
+      "https://www.producthunt.com/products/strict": {
+        "source": "Product Hunt",
+        "title": "Strict",
+        "url": "https://www.producthunt.com/products/strict",
+        "published": "2026-11-22T23:04:09.000Z",
+        "summary": "Run GitHub Actions on any spare Mac or Linux machine Discussion | Link"
+      },
+      "https://www.producthunt.com/products/mai-image-2-3": {
+        "source": "Product Hunt",
+        "title": "MAI Image 2.7",
+        "url": "https://www.producthunt.com/products/mai-image-2-3",
+        "published": "2026-11-17T18:42:27.000Z",
+        "summary": "Microsoft's image model with precise edits and Canvas Discussion | Link"
+      },
+      "https://www.producthunt.com/products/plango": {
+        "source": "Product Hunt",
+        "title": "Plango",
+        "url": "https://www.producthunt.com/products/plango",
+        "published": "2026-11-22T17:08:26.000Z",
+        "summary": "Plango lets your AI agents work all night - safely Discussion | Link"
+      },
+      "https://www.producthunt.com/products/ashwa": {
+        "source": "Product Hunt",
+        "title": "Ashwa",
+        "url": "https://www.producthunt.com/products/ashwa",
+        "published": "2026-11-22T20:25:10.000Z",
+        "summary": "Your AI companion that never forgets what you say Discussion | Link"
+      },
+      "https://www.producthunt.com/products/journalistic-tech": {
+        "source": "Product Hunt",
+        "title": "Journalistic Tech",
+        "url": "https://www.producthunt.com/products/journalistic-tech",
+        "published": "2026-11-16T19:28:27.000Z",
+        "summary": "Async interviews that get you published on HackerNoon Discussion | Link"
+      },
+      "https://www.producthunt.com/products/spikely": {
+        "source": "Product Hunt",
+        "title": "Spikely",
+        "url": "https://www.producthunt.com/products/spikely",
+        "published": "2026-11-21T10:04:50.000Z",
+        "summary": "Startup Metric Alerts for iPhone, Mac and Apple Watch Discussion | Link"
+      },
+      "https://www.producthunt.com/products/branchery": {
+        "source": "Product Hunt",
+        "title": "Branchery",
+        "url": "https://www.producthunt.com/products/branchery",
+        "published": "2026-11-22T21:29:23.000Z",
+        "summary": "Branchery, a Git client for Mac Discussion | Link"
+      },
+      "https://www.producthunt.com/products/replit": {
+        "source": "Product Hunt",
+        "title": "Replit Missions",
+        "url": "https://www.producthunt.com/products/replit",
+        "published": "2026-11-22T17:13:25.000Z",
+        "summary": "Set a budget, coordinate teams of AI agents, Discussion | Link"
+      },
+      "https://www.producthunt.com/products/snowly-2": {
+        "source": "Product Hunt",
+        "title": "Snowly",
+        "url": "https://www.producthunt.com/products/snowly-2",
+        "published": "2026-11-18T02:11:19.000Z",
+        "summary": "Plan ski trips with friends. Remember every run. Discussion | Link"
+      },
+      "https://www.producthunt.com/products/freddy": {
+        "source": "Product Hunt",
+        "title": "freddy",
+        "url": "https://www.producthunt.com/products/freddy",
+        "published": "2026-11-19T17:09:58.000Z",
+        "summary": "Private health data server: talk to your health with any AI Discussion | Link"
+      },
+      "https://www.producthunt.com/products/mobile-agent-testers": {
+        "source": "Product Hunt",
+        "title": "Mobile Agent Testers",
+        "url": "https://www.producthunt.com/products/mobile-agent-testers",
+        "published": "2026-11-22T16:08:46.000Z",
+        "summary": "Free open-source AI agents that beta-test your app on phones Discussion | Link"
+      },
+      "https://www.producthunt.com/products/othor-ai": {
+        "source": "Product Hunt",
+        "title": "Othor AI",
+        "url": "https://www.producthunt.com/products/othor-ai",
+        "published": "2026-11-21T11:57:04.000Z",
+        "summary": "Your Head of Intelligence. Know what your numbers are hiding Discussion | Link"
+      },
+      "https://www.producthunt.com/products/extrabar": {
+        "source": "Product Hunt",
+        "title": "ExtraBar",
+        "url": "https://www.producthunt.com/products/extrabar",
+        "published": "2026-11-20T11:21:22.000Z",
+        "summary": "Build a custom menu bar for your Mac Discussion | Link"
       }
     }
   }
