@@ -1,26 +1,26 @@
 {
   "tech": {
-    "fetchedAt": "2026-11-22T14:26:40.539Z",
+    "fetchedAt": "2026-11-23T06:34:36.175Z",
     "repos": [
       {
-        "name": "libracoder/kiri",
-        "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
-        "language": "Rust",
-        "stars": 12209,
-        "url": "https://github.com/libracoder/kiri",
-        "created": "2026-11-02T16:11:30Z",
-        "topics": [
-          "containers",
-          "docker",
-          "kubernetes",
-          "linux"
-        ]
+        "name": "ItsNotRexed/Leonida",
+        "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+        "language": "Python",
+        "stars": 16884,
+        "url": "https://github.com/ItsNotRexed/Leonida",
+        "created": "2026-11-20T20:07:13Z",
+        "topics": [],
+        "hn": {
+          "points": 215,
+          "comments": 173,
+          "url": "https://news.ycombinator.com/item?id=50595168"
+        }
       },
       {
         "name": "Minireel/HGhub",
         "description": "Plug-in media player",
         "language": "Rust",
-        "stars": 11424,
+        "stars": 11564,
         "url": "https://github.com/Minireel/HGhub",
         "created": "2026-11-03T14:04:27Z",
         "topics": [
@@ -31,24 +31,10 @@
         ]
       },
       {
-        "name": "ItsNotRexed/Leonida",
-        "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
-        "language": "Python",
-        "stars": 10782,
-        "url": "https://github.com/ItsNotRexed/Leonida",
-        "created": "2026-11-20T20:07:13Z",
-        "topics": [],
-        "hn": {
-          "points": 184,
-          "comments": 135,
-          "url": "https://news.ycombinator.com/item?id=50595168"
-        }
-      },
-      {
         "name": "janestreet/agent_skills",
         "description": "Agent skills",
         "language": null,
-        "stars": 10615,
+        "stars": 10829,
         "url": "https://github.com/janestreet/agent_skills",
         "created": "2026-11-03T16:50:21Z",
         "topics": [],
@@ -62,7 +48,7 @@
         "name": "huami1314/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
         "language": "Swift",
-        "stars": 8785,
+        "stars": 8825,
         "url": "https://github.com/huami1314/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": []
@@ -71,7 +57,7 @@
         "name": "erkamyaman/rust-anything",
         "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
         "language": "Rust",
-        "stars": 7781,
+        "stars": 8172,
         "url": "https://github.com/erkamyaman/rust-anything",
         "created": "2026-11-16T12:10:36Z",
         "topics": [
@@ -82,51 +68,47 @@
         ]
       },
       {
-        "name": "krisgfx9/Wireless-Device-Battery-Monitor",
-        "description": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
-        "language": "C++",
-        "stars": 6025,
-        "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
-        "created": "2026-11-16T19:28:29Z",
-        "topics": []
-      },
-      {
         "name": "deepseek-ai/chat-demo",
         "description": "Chat Demo",
         "language": "TypeScript",
-        "stars": 5269,
+        "stars": 5308,
         "url": "https://github.com/deepseek-ai/chat-demo",
         "created": "2026-11-12T08:08:19Z",
         "topics": []
       },
       {
-        "name": "R0Y00/Xbox2Windows",
-        "description": "GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game startup is unverified.",
-        "language": "Python",
-        "stars": 1176,
-        "url": "https://github.com/R0Y00/Xbox2Windows",
-        "created": "2026-11-20T17:43:52Z",
+        "name": "ersinkoc/phonebox",
+        "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
+        "language": "JavaScript",
+        "stars": 5157,
+        "url": "https://github.com/ersinkoc/phonebox",
+        "created": "2026-11-07T16:45:16Z",
         "topics": [
-          "d3d12",
-          "directx-raytracing",
-          "scarlett",
-          "static-recompilation"
+          "android",
+          "claude-code",
+          "codex",
+          "dashboard"
         ]
       },
       {
-        "name": "omonkeyz/xbox-emulator",
-        "description": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
-        "language": "Rust",
-        "stars": 1095,
-        "url": "https://github.com/omonkeyz/xbox-emulator",
-        "created": "2026-11-21T08:08:39Z",
-        "topics": []
+        "name": "simplexai-labs/linger",
+        "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
+        "language": "TypeScript",
+        "stars": 3972,
+        "url": "https://github.com/simplexai-labs/linger",
+        "created": "2026-11-10T03:50:38Z",
+        "topics": [
+          "agent-teams",
+          "local-llm",
+          "memory",
+          "personal-agent"
+        ]
       },
       {
         "name": "EL4CTEO/fast-anything",
         "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
         "language": "Rust",
-        "stars": 1010,
+        "stars": 2249,
         "url": "https://github.com/EL4CTEO/fast-anything",
         "created": "2026-11-21T14:40:27Z",
         "topics": [
@@ -136,88 +118,144 @@
           "claude-code-plugin"
         ],
         "hn": {
-          "points": 87,
-          "comments": 63,
+          "points": 192,
+          "comments": 157,
           "url": "https://news.ycombinator.com/item?id=50596155"
         }
       },
       {
-        "name": "leanprover-community/riemann-hypothesis",
-        "description": "Independent Comparator setup for the Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20)",
-        "language": "Lean",
-        "stars": 536,
-        "url": "https://github.com/leanprover-community/riemann-hypothesis",
-        "created": "2026-11-20T14:47:49Z",
+        "name": "omonkeyz/xbox-emulator",
+        "description": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+        "language": "Rust",
+        "stars": 1396,
+        "url": "https://github.com/omonkeyz/xbox-emulator",
+        "created": "2026-11-21T08:08:39Z",
         "topics": []
       },
       {
-        "name": "CocoSgt/riemann-hypothesis-lean",
-        "description": "Mirror of Levent Alpöge's Lean proof of the Riemann Hypothesis (with Claude). All credit to Levent Alpöge. Source: alpo.ge",
-        "language": "Lean",
-        "stars": 498,
-        "url": "https://github.com/CocoSgt/riemann-hypothesis-lean",
-        "created": "2026-11-20T14:59:14Z",
-        "topics": []
-      },
-      {
-        "name": "opokukopoku/gta-6-pc-release",
-        "description": "GTA 6 PC Release: Full Access, Zero Hassle",
-        "language": "HTML",
-        "stars": 446,
-        "url": "https://github.com/opokukopoku/gta-6-pc-release",
-        "created": "2026-11-21T14:16:44Z",
+        "name": "os6/nospeaker",
+        "description": "make your macbook's trackpad talk using its haptic motor",
+        "language": "Swift",
+        "stars": 605,
+        "url": "https://github.com/os6/nospeaker",
+        "created": "2026-11-22T12:05:54Z",
         "topics": [
-          "gta6-cover-art",
-          "gta6-cover-art-01",
-          "gta6-disk-space",
-          "gta6-online"
+          "haptics",
+          "macos",
+          "swift",
+          "trackpad"
         ]
       },
       {
         "name": "sybil-solutions/skill-distill",
         "description": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task",
         "language": "Python",
-        "stars": 432,
+        "stars": 467,
         "url": "https://github.com/sybil-solutions/skill-distill",
         "created": "2026-11-21T01:43:00Z",
         "topics": []
       },
       {
-        "name": "danielwh2/sprite-stacking",
-        "description": "Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.",
-        "language": "HTML",
-        "stars": 426,
-        "url": "https://github.com/danielwh2/sprite-stacking",
-        "created": "2026-11-20T14:32:43Z",
+        "name": "w01fb0ss/PiBot",
+        "description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+        "language": "TypeScript",
+        "stars": 437,
+        "url": "https://github.com/w01fb0ss/PiBot",
+        "created": "2026-11-21T06:54:24Z",
         "topics": [
-          "agent-skills",
-          "claude-code",
-          "codex",
-          "cursor"
+          "agent",
+          "ai-agent",
+          "ai-agents",
+          "ai-assistant"
         ]
       },
       {
-        "name": "kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64",
-        "description": "DAW & Synth Studio Suite FL Studio 2026.1 Producer All-Plugins Edition Runtime: native 64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime, and prebuilt portable release.",
-        "language": "Jupyter Notebook",
-        "stars": 350,
-        "url": "https://github.com/kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64",
-        "created": "2026-11-21T20:43:48Z",
+        "name": "deep-patch-true/synchro-arts-revoice-pro-5-win",
+        "description": "Synchro Arts Revoice Pro 5 - vocal editing and pitch correction software for automatic timing alignment, pitch shifting and double-track generation on Windows 10/11",
+        "language": null,
+        "stars": 421,
+        "url": "https://github.com/deep-patch-true/synchro-arts-revoice-pro-5-win",
+        "created": "2026-11-21T16:39:14Z",
         "topics": [
-          "2026",
-          "ableton-live-12",
-          "all",
-          "autotune-pro"
+          "arts",
+          "desktop-app",
+          "pitch-correction",
+          "post-production"
+        ]
+      },
+      {
+        "name": "alexeytarasov8/jetbrains-pycharm-professional-win",
+        "description": "JetBrains PyCharm - Python integrated development environment for scientific computing, web frameworks and data analysis on Windows 10/11",
+        "language": null,
+        "stars": 421,
+        "url": "https://github.com/alexeytarasov8/jetbrains-pycharm-professional-win",
+        "created": "2026-11-21T16:19:17Z",
+        "topics": [
+          "awesome",
+          "developer-tools",
+          "eclipse",
+          "gpt-4"
+        ]
+      },
+      {
+        "name": "Wojcik1999/rob-run-menu-win",
+        "description": "Rob Run Menu - Windows desktop customization utility for building custom right-click menus, launching frequently used apps and organizing context menu commands on Windows 10/11",
+        "language": null,
+        "stars": 420,
+        "url": "https://github.com/Wojcik1999/rob-run-menu-win",
+        "created": "2026-11-21T15:27:49Z",
+        "topics": [
+          "arcmenu",
+          "desktop-app",
+          "marking-menu",
+          "menu"
+        ]
+      },
+      {
+        "name": "Shellsmall/mathway-premium-win",
+        "description": "Mathway - mathematical problem solver for equation solving, graphing and step-by-step explanations on Windows 10/11",
+        "language": null,
+        "stars": 418,
+        "url": "https://github.com/Shellsmall/mathway-premium-win",
+        "created": "2026-11-21T14:57:55Z",
+        "topics": [
+          "algebra",
+          "calculus",
+          "differential-equations",
+          "e-learning"
+        ]
+      },
+      {
+        "name": "Nilespand/tableau-desktop-win",
+        "description": "Tableau - business intelligence and data visualization platform for interactive dashboards, data blending and calculated analytics on Windows 10/11",
+        "language": null,
+        "stars": 418,
+        "url": "https://github.com/Nilespand/tableau-desktop-win",
+        "created": "2026-11-21T16:19:50Z",
+        "topics": [
+          "analytics",
+          "analytics-dashboard",
+          "bi",
+          "business-intelligence"
         ]
       }
     ],
     "posts": [
       {
         "source": "showhn",
+        "title": "I built a game where you are an LLM's subagent",
+        "url": "https://github.com/gulivan/worker755",
+        "points": 302,
+        "comments": 74,
+        "discussion": "https://news.ycombinator.com/item?id=50599762",
+        "created": "2026-11-22T13:56:58.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "The Riemann Proof Handbook",
         "url": "https://github.com/tamnd/riemann-handbook",
-        "points": 74,
-        "comments": 46,
+        "points": 87,
+        "comments": 59,
         "discussion": "https://news.ycombinator.com/item?id=50596664",
         "created": "2026-11-22T05:46:30.000Z"
       },
@@ -225,8 +263,8 @@
         "source": "showhn",
         "title": "Zero C# – C# without a runtime or GC",
         "url": "https://onurgumus.github.io/zero-csharp/index.html",
-        "points": 165,
-        "comments": 115,
+        "points": 176,
+        "comments": 126,
         "discussion": "https://news.ycombinator.com/item?id=50590279",
         "created": "2026-11-21T15:39:09.000Z"
       },
@@ -234,8 +272,8 @@
         "source": "showhn",
         "title": "I made a PS1 style racing game",
         "url": "https://outpostracer.com",
-        "points": 38,
-        "comments": 28,
+        "points": 47,
+        "comments": 36,
         "discussion": "https://news.ycombinator.com/item?id=50589184",
         "created": "2026-11-21T13:47:45.000Z"
       },
@@ -243,7 +281,7 @@
         "source": "showhn",
         "title": "OpenComputer – an open source alternative to Devin",
         "url": "https://github.com/diggerhq/opencomputer",
-        "points": 120,
+        "points": 125,
         "comments": 36,
         "discussion": "https://news.ycombinator.com/item?id=50581403",
         "created": "2026-11-20T20:19:56.000Z"
@@ -253,25 +291,16 @@
         "title": "Cornhole News – A Hacker News inspired site for news across the Midwest",
         "url": "https://cornholenews.news",
         "points": 237,
-        "comments": 121,
+        "comments": 122,
         "discussion": "https://news.ycombinator.com/item?id=50561515",
         "created": "2026-11-19T15:38:32.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Watch weight-space programming in action with WebGPU",
-        "url": "https://tabbyml.github.io/weight-space-playground/",
-        "points": 40,
-        "comments": 6,
-        "discussion": "https://news.ycombinator.com/item?id=50561436",
-        "created": "2026-11-19T15:32:47.000Z"
       },
       {
         "source": "launchhn",
         "title": "Onlook (YC W25) – An open-source developer tool for designers",
         "url": "https://github.com/onlook-dev/onlook/",
         "points": 125,
-        "comments": 85,
+        "comments": 87,
         "discussion": "https://news.ycombinator.com/item?id=50562320",
         "created": "2026-11-19T16:34:04.000Z"
       },
@@ -304,21 +333,12 @@
       },
       {
         "source": "hn",
-        "title": "Inkling-2-Mini in 5.4 GB Memory",
-        "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
-        "points": 501,
-        "comments": 125,
-        "discussion": "https://news.ycombinator.com/item?id=50591853",
-        "created": "2026-11-21T18:02:19.000Z"
-      },
-      {
-        "source": "hn",
-        "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
-        "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
-        "points": 134,
-        "comments": 19,
-        "discussion": "https://news.ycombinator.com/item?id=50594132",
-        "created": "2026-11-21T22:09:58.000Z"
+        "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+        "url": "https://github.com/AFK-surf/xnulinux",
+        "points": 128,
+        "comments": 59,
+        "discussion": "https://news.ycombinator.com/item?id=50607261",
+        "created": "2026-11-23T03:49:24.000Z"
       }
     ]
   },
@@ -5228,12 +5248,12 @@
         "name": "Minireel/HGhub",
         "description": "Plug-in media player",
         "language": "Rust",
-        "stars": 11424,
+        "stars": 11564,
         "url": "https://github.com/Minireel/HGhub",
         "created": "2026-11-03T14:04:27Z",
         "topics": [],
         "firstSeen": "2026-11-04",
-        "lastSeen": "2026-11-22",
+        "lastSeen": "2026-11-23",
         "starsAtFirstSeen": 538
       },
       "Chipwithinflash/watson-AI-osint-all-in-one": {
@@ -6187,7 +6207,7 @@
         "name": "janestreet/agent_skills",
         "description": "Agent skills",
         "language": null,
-        "stars": 10615,
+        "stars": 10829,
         "url": "https://github.com/janestreet/agent_skills",
         "created": "2026-11-03T16:50:21Z",
         "topics": [],
@@ -6197,7 +6217,7 @@
           "url": "https://news.ycombinator.com/item?id=50438261"
         },
         "firstSeen": "2026-11-13",
-        "lastSeen": "2026-11-22",
+        "lastSeen": "2026-11-23",
         "starsAtFirstSeen": 8082
       },
       "DevedevT/FFmpeg-GUI-Editor-Windows": {
@@ -6797,7 +6817,7 @@
         "name": "erkamyaman/rust-anything",
         "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
         "language": "Rust",
-        "stars": 7781,
+        "stars": 8172,
         "url": "https://github.com/erkamyaman/rust-anything",
         "created": "2026-11-16T12:10:36Z",
         "topics": [
@@ -6807,7 +6827,7 @@
           "code-migration"
         ],
         "firstSeen": "2026-11-17",
-        "lastSeen": "2026-11-22",
+        "lastSeen": "2026-11-23",
         "starsAtFirstSeen": 481
       },
       "boringmarketer/boring-marketing-skills": {
@@ -6906,12 +6926,12 @@
         "name": "huami1314/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
         "language": "Swift",
-        "stars": 8785,
+        "stars": 8825,
         "url": "https://github.com/huami1314/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": [],
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-22",
+        "lastSeen": "2026-11-23",
         "starsAtFirstSeen": 8506
       },
       "Bodila51/gtavi-claudecode": {
@@ -7213,12 +7233,12 @@
         "name": "deepseek-ai/chat-demo",
         "description": "Chat Demo",
         "language": "TypeScript",
-        "stars": 5269,
+        "stars": 5308,
         "url": "https://github.com/deepseek-ai/chat-demo",
         "created": "2026-11-12T08:08:19Z",
         "topics": [],
         "firstSeen": "2026-11-21",
-        "lastSeen": "2026-11-22",
+        "lastSeen": "2026-11-23",
         "starsAtFirstSeen": 5149
       },
       "expo/exact": {
@@ -7334,17 +7354,17 @@
         "name": "ItsNotRexed/Leonida",
         "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
         "language": "Python",
-        "stars": 10782,
+        "stars": 16884,
         "url": "https://github.com/ItsNotRexed/Leonida",
         "created": "2026-11-20T20:07:13Z",
         "topics": [],
         "hn": {
-          "points": 184,
-          "comments": 135,
+          "points": 215,
+          "comments": 173,
           "url": "https://news.ycombinator.com/item?id=50595168"
         },
         "firstSeen": "2026-11-22",
-        "lastSeen": "2026-11-22",
+        "lastSeen": "2026-11-23",
         "starsAtFirstSeen": 7518
       },
       "R0Y00/Xbox2Windows": {
@@ -7368,24 +7388,24 @@
         "name": "omonkeyz/xbox-emulator",
         "description": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
         "language": "Rust",
-        "stars": 1095,
+        "stars": 1396,
         "url": "https://github.com/omonkeyz/xbox-emulator",
         "created": "2026-11-21T08:08:39Z",
         "topics": [],
         "firstSeen": "2026-11-22",
-        "lastSeen": "2026-11-22",
+        "lastSeen": "2026-11-23",
         "starsAtFirstSeen": 909
       },
       "sybil-solutions/skill-distill": {
         "name": "sybil-solutions/skill-distill",
         "description": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task",
         "language": "Python",
-        "stars": 432,
+        "stars": 467,
         "url": "https://github.com/sybil-solutions/skill-distill",
         "created": "2026-11-21T01:43:00Z",
         "topics": [],
         "firstSeen": "2026-11-22",
-        "lastSeen": "2026-11-22",
+        "lastSeen": "2026-11-23",
         "starsAtFirstSeen": 399
       },
       "opokukopoku/gta-6-pc-release": {
@@ -7443,7 +7463,7 @@
         "name": "EL4CTEO/fast-anything",
         "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
         "language": "Rust",
-        "stars": 1010,
+        "stars": 2249,
         "url": "https://github.com/EL4CTEO/fast-anything",
         "created": "2026-11-21T14:40:27Z",
         "topics": [
@@ -7453,13 +7473,166 @@
           "claude-code-plugin"
         ],
         "hn": {
-          "points": 87,
-          "comments": 63,
+          "points": 192,
+          "comments": 157,
           "url": "https://news.ycombinator.com/item?id=50596155"
         },
         "firstSeen": "2026-11-22",
-        "lastSeen": "2026-11-22",
+        "lastSeen": "2026-11-23",
         "starsAtFirstSeen": 1010
+      },
+      "ersinkoc/phonebox": {
+        "name": "ersinkoc/phonebox",
+        "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
+        "language": "JavaScript",
+        "stars": 5157,
+        "url": "https://github.com/ersinkoc/phonebox",
+        "created": "2026-11-07T16:45:16Z",
+        "topics": [
+          "android",
+          "claude-code",
+          "codex",
+          "dashboard"
+        ],
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23",
+        "starsAtFirstSeen": 5157
+      },
+      "simplexai-labs/linger": {
+        "name": "simplexai-labs/linger",
+        "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
+        "language": "TypeScript",
+        "stars": 3972,
+        "url": "https://github.com/simplexai-labs/linger",
+        "created": "2026-11-10T03:50:38Z",
+        "topics": [
+          "agent-teams",
+          "local-llm",
+          "memory",
+          "personal-agent"
+        ],
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23",
+        "starsAtFirstSeen": 3972
+      },
+      "os6/nospeaker": {
+        "name": "os6/nospeaker",
+        "description": "make your macbook's trackpad talk using its haptic motor",
+        "language": "Swift",
+        "stars": 605,
+        "url": "https://github.com/os6/nospeaker",
+        "created": "2026-11-22T12:05:54Z",
+        "topics": [
+          "haptics",
+          "macos",
+          "swift",
+          "trackpad"
+        ],
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23",
+        "starsAtFirstSeen": 605
+      },
+      "w01fb0ss/PiBot": {
+        "name": "w01fb0ss/PiBot",
+        "description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+        "language": "TypeScript",
+        "stars": 437,
+        "url": "https://github.com/w01fb0ss/PiBot",
+        "created": "2026-11-21T06:54:24Z",
+        "topics": [
+          "agent",
+          "ai-agent",
+          "ai-agents",
+          "ai-assistant"
+        ],
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23",
+        "starsAtFirstSeen": 437
+      },
+      "deep-patch-true/synchro-arts-revoice-pro-5-win": {
+        "name": "deep-patch-true/synchro-arts-revoice-pro-5-win",
+        "description": "Synchro Arts Revoice Pro 5 - vocal editing and pitch correction software for automatic timing alignment, pitch shifting and double-track generation on Windows 10/11",
+        "language": null,
+        "stars": 421,
+        "url": "https://github.com/deep-patch-true/synchro-arts-revoice-pro-5-win",
+        "created": "2026-11-21T16:39:14Z",
+        "topics": [
+          "arts",
+          "desktop-app",
+          "pitch-correction",
+          "post-production"
+        ],
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23",
+        "starsAtFirstSeen": 421
+      },
+      "alexeytarasov8/jetbrains-pycharm-professional-win": {
+        "name": "alexeytarasov8/jetbrains-pycharm-professional-win",
+        "description": "JetBrains PyCharm - Python integrated development environment for scientific computing, web frameworks and data analysis on Windows 10/11",
+        "language": null,
+        "stars": 421,
+        "url": "https://github.com/alexeytarasov8/jetbrains-pycharm-professional-win",
+        "created": "2026-11-21T16:19:17Z",
+        "topics": [
+          "awesome",
+          "developer-tools",
+          "eclipse",
+          "gpt-4"
+        ],
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23",
+        "starsAtFirstSeen": 421
+      },
+      "Wojcik1999/rob-run-menu-win": {
+        "name": "Wojcik1999/rob-run-menu-win",
+        "description": "Rob Run Menu - Windows desktop customization utility for building custom right-click menus, launching frequently used apps and organizing context menu commands on Windows 10/11",
+        "language": null,
+        "stars": 420,
+        "url": "https://github.com/Wojcik1999/rob-run-menu-win",
+        "created": "2026-11-21T15:27:49Z",
+        "topics": [
+          "arcmenu",
+          "desktop-app",
+          "marking-menu",
+          "menu"
+        ],
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23",
+        "starsAtFirstSeen": 420
+      },
+      "Shellsmall/mathway-premium-win": {
+        "name": "Shellsmall/mathway-premium-win",
+        "description": "Mathway - mathematical problem solver for equation solving, graphing and step-by-step explanations on Windows 10/11",
+        "language": null,
+        "stars": 418,
+        "url": "https://github.com/Shellsmall/mathway-premium-win",
+        "created": "2026-11-21T14:57:55Z",
+        "topics": [
+          "algebra",
+          "calculus",
+          "differential-equations",
+          "e-learning"
+        ],
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23",
+        "starsAtFirstSeen": 418
+      },
+      "Nilespand/tableau-desktop-win": {
+        "name": "Nilespand/tableau-desktop-win",
+        "description": "Tableau - business intelligence and data visualization platform for interactive dashboards, data blending and calculated analytics on Windows 10/11",
+        "language": null,
+        "stars": 418,
+        "url": "https://github.com/Nilespand/tableau-desktop-win",
+        "created": "2026-11-21T16:19:50Z",
+        "topics": [
+          "analytics",
+          "analytics-dashboard",
+          "bi",
+          "business-intelligence"
+        ],
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23",
+        "starsAtFirstSeen": 418
       }
     },
     "posts": {
@@ -11443,7 +11616,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50522776",
         "created": "2026-11-16T20:29:48.000Z",
         "firstSeen": "2026-11-17",
-        "lastSeen": "2026-11-22"
+        "lastSeen": "2026-11-23"
       },
       "https://news.ycombinator.com/item?id=50532086": {
         "source": "hn",
@@ -11498,7 +11671,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50536468",
         "created": "2026-11-17T19:01:43.000Z",
         "firstSeen": "2026-11-18",
-        "lastSeen": "2026-11-22"
+        "lastSeen": "2026-11-23"
       },
       "https://news.ycombinator.com/item?id=50539610": {
         "source": "hn",
@@ -11575,7 +11748,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50549188",
         "created": "2026-11-18T17:26:28.000Z",
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-22"
+        "lastSeen": "2026-11-23"
       },
       "https://news.ycombinator.com/item?id=50558906": {
         "source": "hn",
@@ -11593,22 +11766,22 @@
         "title": "Onlook (YC W25) – An open-source developer tool for designers",
         "url": "https://github.com/onlook-dev/onlook/",
         "points": 125,
-        "comments": 85,
+        "comments": 87,
         "discussion": "https://news.ycombinator.com/item?id=50562320",
         "created": "2026-11-19T16:34:04.000Z",
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-22"
+        "lastSeen": "2026-11-23"
       },
       "https://news.ycombinator.com/item?id=50561515": {
         "source": "showhn",
         "title": "Cornhole News – A Hacker News inspired site for news across the Midwest",
         "url": "https://cornholenews.news",
         "points": 237,
-        "comments": 121,
+        "comments": 122,
         "discussion": "https://news.ycombinator.com/item?id=50561515",
         "created": "2026-11-19T15:38:32.000Z",
         "firstSeen": "2026-11-20",
-        "lastSeen": "2026-11-22"
+        "lastSeen": "2026-11-23"
       },
       "https://news.ycombinator.com/item?id=50561436": {
         "source": "showhn",
@@ -11658,12 +11831,12 @@
         "source": "showhn",
         "title": "OpenComputer – an open source alternative to Devin",
         "url": "https://github.com/diggerhq/opencomputer",
-        "points": 120,
+        "points": 125,
         "comments": 36,
         "discussion": "https://news.ycombinator.com/item?id=50581403",
         "created": "2026-11-20T20:19:56.000Z",
         "firstSeen": "2026-11-21",
-        "lastSeen": "2026-11-22"
+        "lastSeen": "2026-11-23"
       },
       "https://news.ycombinator.com/item?id=50576232": {
         "source": "hn",
@@ -11680,12 +11853,12 @@
         "source": "showhn",
         "title": "Zero C# – C# without a runtime or GC",
         "url": "https://onurgumus.github.io/zero-csharp/index.html",
-        "points": 165,
-        "comments": 115,
+        "points": 176,
+        "comments": 126,
         "discussion": "https://news.ycombinator.com/item?id=50590279",
         "created": "2026-11-21T15:39:09.000Z",
         "firstSeen": "2026-11-22",
-        "lastSeen": "2026-11-22"
+        "lastSeen": "2026-11-23"
       },
       "https://news.ycombinator.com/item?id=50591853": {
         "source": "hn",
@@ -11713,127 +11886,189 @@
         "source": "showhn",
         "title": "The Riemann Proof Handbook",
         "url": "https://github.com/tamnd/riemann-handbook",
-        "points": 74,
-        "comments": 46,
+        "points": 87,
+        "comments": 59,
         "discussion": "https://news.ycombinator.com/item?id=50596664",
         "created": "2026-11-22T05:46:30.000Z",
         "firstSeen": "2026-11-22",
-        "lastSeen": "2026-11-22"
+        "lastSeen": "2026-11-23"
       },
       "https://news.ycombinator.com/item?id=50589184": {
         "source": "showhn",
         "title": "I made a PS1 style racing game",
         "url": "https://outpostracer.com",
-        "points": 38,
-        "comments": 28,
+        "points": 47,
+        "comments": 36,
         "discussion": "https://news.ycombinator.com/item?id=50589184",
         "created": "2026-11-21T13:47:45.000Z",
         "firstSeen": "2026-11-22",
-        "lastSeen": "2026-11-22"
+        "lastSeen": "2026-11-23"
+      },
+      "https://news.ycombinator.com/item?id=50599762": {
+        "source": "showhn",
+        "title": "I built a game where you are an LLM's subagent",
+        "url": "https://github.com/gulivan/worker755",
+        "points": 302,
+        "comments": 74,
+        "discussion": "https://news.ycombinator.com/item?id=50599762",
+        "created": "2026-11-22T13:56:58.000Z",
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23"
+      },
+      "https://news.ycombinator.com/item?id=50607261": {
+        "source": "hn",
+        "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+        "url": "https://github.com/AFK-surf/xnulinux",
+        "points": 128,
+        "comments": 59,
+        "discussion": "https://news.ycombinator.com/item?id=50607261",
+        "created": "2026-11-23T03:49:24.000Z",
+        "firstSeen": "2026-11-23",
+        "lastSeen": "2026-11-23"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-11-22T14:26:40.539Z",
+    "fetchedAt": "2026-11-23T06:34:36.175Z",
     "hn": [
-      {
-        "title": "Hurried Announcement: Alessandro Masullo GRH",
-        "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-        "points": 2432,
-        "comments": 1184,
-        "discussion": "https://news.ycombinator.com/item?id=50579568"
-      },
-      {
-        "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-        "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-        "points": 1153,
-        "comments": 244,
-        "discussion": "https://news.ycombinator.com/item?id=50582069"
-      },
-      {
-        "title": "Lean verification of the Riemann Hypothesis",
-        "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-        "points": 1112,
-        "comments": 927,
-        "discussion": "https://news.ycombinator.com/item?id=50589618"
-      },
       {
         "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
         "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-        "points": 763,
-        "comments": 454,
+        "points": 1257,
+        "comments": 690,
         "discussion": "https://news.ycombinator.com/item?id=50596133"
       },
       {
-        "title": "Detonating a pile of lead azide",
-        "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
-        "points": 649,
-        "comments": 401,
-        "discussion": "https://news.ycombinator.com/item?id=50588982"
+        "title": "What Happened to Silicon Valley?",
+        "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+        "points": 574,
+        "comments": 302,
+        "discussion": "https://news.ycombinator.com/item?id=50602947"
       },
       {
-        "title": "My monitor was cutting my download speed by 75%",
-        "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
-        "points": 621,
-        "comments": 290,
-        "discussion": "https://news.ycombinator.com/item?id=50587875"
+        "title": "Perplexity and Intelligence",
+        "url": "https://openai.com/index/perplexity-and-intelligence/",
+        "points": 549,
+        "comments": 370,
+        "discussion": "https://news.ycombinator.com/item?id=50601525"
       },
       {
-        "title": "Inkling-2-Mini in 5.4 GB Memory",
-        "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
-        "points": 501,
-        "comments": 125,
-        "discussion": "https://news.ycombinator.com/item?id=50591853"
+        "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+        "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+        "points": 441,
+        "comments": 223,
+        "discussion": "https://news.ycombinator.com/item?id=50602843"
       },
       {
-        "title": "Sandwich Simulator",
-        "url": "https://stulle.app/",
-        "points": 368,
-        "comments": 130,
-        "discussion": "https://news.ycombinator.com/item?id=50594911"
+        "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+        "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+        "points": 393,
+        "comments": 157,
+        "discussion": "https://news.ycombinator.com/item?id=50603845"
       },
       {
-        "title": "Getting the mind to steer the body to steer you",
-        "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
-        "points": 334,
-        "comments": 116,
-        "discussion": "https://news.ycombinator.com/item?id=50583028"
+        "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+        "url": "https://spelunkr.tv",
+        "points": 351,
+        "comments": 53,
+        "discussion": "https://news.ycombinator.com/item?id=50606192"
       },
       {
-        "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-        "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-        "points": 297,
-        "comments": 403,
-        "discussion": "https://news.ycombinator.com/item?id=50597612"
+        "title": "Show HN: I built a game where you are an LLM's subagent",
+        "url": "https://github.com/gulivan/worker755",
+        "points": 302,
+        "comments": 74,
+        "discussion": "https://news.ycombinator.com/item?id=50599762"
+      },
+      {
+        "title": "A miniature San Francisco with live buses, planes and boats",
+        "url": "https://smallsf.com/",
+        "points": 224,
+        "comments": 85,
+        "discussion": "https://news.ycombinator.com/item?id=50603589"
+      },
+      {
+        "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+        "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
+        "points": 208,
+        "comments": 155,
+        "discussion": "https://news.ycombinator.com/item?id=50605045"
+      },
+      {
+        "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+        "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
+        "points": 179,
+        "comments": 38,
+        "discussion": "https://news.ycombinator.com/item?id=50547698"
       }
     ],
     "lobsters": [
       {
+        "title": "GitHub Actions accepts invalid YAML",
+        "url": "https://yossarian.net/til/post/github-actions-accepts-invalid-yaml/",
+        "points": 42,
+        "comments": 11,
+        "discussion": "https://lobste.rs/s/leqwqu/github_actions_accepts_invalid_yaml",
+        "tags": [
+          "programming"
+        ]
+      },
+      {
+        "title": "Gliver completes the Guix desktop",
+        "url": "https://dustycloud.org/blog/gliver-completes-the-guix-desktop/",
+        "points": 32,
+        "comments": 4,
+        "discussion": "https://lobste.rs/s/wc8fla/gliver_completes_guix_desktop",
+        "tags": [
+          "linux",
+          "lisp"
+        ]
+      },
+      {
         "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
         "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-        "points": 52,
-        "comments": 8,
+        "points": 123,
+        "comments": 19,
         "discussion": "https://lobste.rs/s/32rhzb/researcher_plants_2m_canaries_into_ai",
         "tags": [
-          "ai",
           "security"
         ]
       },
       {
-        "title": "My Monitor Was Cutting My Download Speed by 75%",
-        "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
-        "points": 103,
-        "comments": 7,
-        "discussion": "https://lobste.rs/s/qzerls/my_monitor_was_cutting_my_download_speed",
+        "title": "Falsehoods Programmers Believe About ATProto",
+        "url": "https://reiver.link/atproto/falsehoods-programmers-believe/",
+        "points": 29,
+        "comments": 4,
+        "discussion": "https://lobste.rs/s/bjoete/falsehoods_programmers_believe_about",
         "tags": [
-          "networking"
+          "api"
+        ]
+      },
+      {
+        "title": "Good morning and welcome to my idea of a new web",
+        "url": "https://dave.writersweb.org/index.md",
+        "points": 5,
+        "comments": 5,
+        "discussion": "https://lobste.rs/s/l8u1tj/good_morning_welcome_my_idea_new_web",
+        "tags": [
+          "web"
+        ]
+      },
+      {
+        "title": "scriptura: a cozy corner for your scripts",
+        "url": "https://alanpearce.eu/post/scriptura/",
+        "points": 12,
+        "comments": 3,
+        "discussion": "https://lobste.rs/s/oeamed/scriptura_cozy_corner_for_your_scripts",
+        "tags": [
+          "programming"
         ]
       },
       {
         "title": "NixOS bring-up on an Alibaba RISC-V board",
         "url": "https://feyor.sh/blog/nixos-bringup-on-an-alibaba-riscv-board/",
-        "points": 21,
-        "comments": 3,
+        "points": 34,
+        "comments": 11,
         "discussion": "https://lobste.rs/s/6jloca/nixos_bring_up_on_alibaba_risc_v_board",
         "tags": [
           "hardware",
@@ -11841,107 +12076,42 @@
         ]
       },
       {
-        "title": "Advice for the next 100 Rust GUIs",
-        "url": "https://linebender.org/blog/next-100-guis/",
-        "points": 24,
-        "comments": 6,
-        "discussion": "https://lobste.rs/s/inhlo2/advice_for_next_100_rust_guis",
-        "tags": [
-          "rust"
-        ]
-      },
-      {
-        "title": "TODOs JJ Style",
-        "url": "https://bwc9876.dev/blog/jj_todo/",
-        "points": 56,
-        "comments": 9,
-        "discussion": "https://lobste.rs/s/qxzs4y/todos_jj_style",
-        "tags": [
-          "vcs"
-        ]
-      },
-      {
-        "title": "port scanning for mojang",
-        "url": "https://sipacid.com/blog/port-scanning-for-mojang/",
-        "points": 39,
-        "comments": 5,
-        "discussion": "https://lobste.rs/s/et5q0q/port_scanning_for_mojang",
-        "tags": [
-          "rant"
-        ]
-      },
-      {
-        "title": "How I Got Postgres into a Single Binary",
-        "url": "https://progrium.xyz/articles/2026/single-binary-postgres",
-        "points": 19,
+        "title": "Calculate radio link placement and node amount for your city's mesh network",
+        "url": "https://meshcoveragecalculator.lalala.ing/",
+        "points": 5,
         "comments": 3,
-        "discussion": "https://lobste.rs/s/pvylnk/how_i_got_postgres_into_single_binary",
+        "discussion": "https://lobste.rs/s/e89tey/calculate_radio_link_placement_node",
         "tags": [
-          "databases"
+          "hardware"
         ]
       },
       {
-        "title": "Fixing Google’s Feedburner problem, and caching that half works",
-        "url": "https://joshua.hu/fixing-google-feedburner-cache-problem-atom-rss",
-        "points": 3,
+        "title": "My Monitor Was Cutting My Download Speed by 75%",
+        "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+        "points": 126,
+        "comments": 9,
+        "discussion": "https://lobste.rs/s/qzerls/my_monitor_was_cutting_my_download_speed",
+        "tags": [
+          "networking"
+        ]
+      },
+      {
+        "title": "Testing Terraform with AWS Emulator",
+        "url": "https://notes.hatedabamboo.me/terraform-tests-with-aws-emulator/",
+        "points": 6,
         "comments": 0,
-        "discussion": "https://lobste.rs/s/nbtm5j/fixing_google_s_feedburner_problem",
+        "discussion": "https://lobste.rs/s/g5msf2/testing_terraform_with_aws_emulator",
         "tags": [
-          "web"
-        ]
-      },
-      {
-        "title": "C++26 is done (again)! — Trip report: November 2026 ISO C++ standards meeting (Búzios, Brazil)",
-        "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
-        "points": 18,
-        "comments": 25,
-        "discussion": "https://lobste.rs/s/fjueso/c_26_is_done_again_trip_report_november",
-        "tags": [
-          "c++"
-        ]
-      },
-      {
-        "title": "Microsoft 365 Outage - Post Incident Report",
-        "url": "https://tianyin.github.io/misc/pir_microsoft_365_11-12-2026.pdf",
-        "points": 17,
-        "comments": 7,
-        "discussion": "https://lobste.rs/s/becitz/microsoft_365_outage_post_incident",
-        "tags": [
-          "distributed",
-          "pdf"
+          "programming"
         ]
       }
     ],
     "devto": [
       {
-        "title": "The Third Cup: Five Elements, One IT Company",
-        "url": "https://dev.to/thethirdcup/the-third-cup-five-elements-one-it-company-1bca",
-        "points": 57,
-        "comments": 24,
-        "discussion": "https://dev.to/thethirdcup/the-third-cup-five-elements-one-it-company-1bca",
-        "tags": [
-          "discuss",
-          "management",
-          "career"
-        ]
-      },
-      {
-        "title": "I turned my GitHub contribution graph into a Bloomberg-style trading terminal",
-        "url": "https://dev.to/necoz/i-turned-my-github-contribution-graph-into-a-bloomberg-style-trading-terminal-31eh",
-        "points": 35,
-        "comments": 5,
-        "discussion": "https://dev.to/necoz/i-turned-my-github-contribution-graph-into-a-bloomberg-style-trading-terminal-31eh",
-        "tags": [
-          "discuss",
-          "github",
-          "webdev"
-        ]
-      },
-      {
         "title": "Necoz Is Building a New House!! 🛸 All Cats, Follow Me!! 🐈🚀",
         "url": "https://dev.to/necoz/necoz-is-building-a-new-house-all-cats-follow-me-530n",
-        "points": 33,
-        "comments": 7,
+        "points": 79,
+        "comments": 21,
         "discussion": "https://dev.to/necoz/necoz-is-building-a-new-house-all-cats-follow-me-530n",
         "tags": [
           "necoz",
@@ -11950,34 +12120,30 @@
         ]
       },
       {
-        "title": "Dead Keys: I Brought Back the Typing Games. Kiro Did the Heavy Lifting.",
-        "url": "https://dev.to/earlgreyhot1701d/dead-keys-i-brought-back-the-typing-games-kiro-did-the-heavy-lifting-5gc2",
-        "points": 30,
-        "comments": 9,
-        "discussion": "https://dev.to/earlgreyhot1701d/dead-keys-i-brought-back-the-typing-games-kiro-did-the-heavy-lifting-5gc2",
+        "title": "I turned my GitHub contribution graph into a Bloomberg-style trading terminal",
+        "url": "https://dev.to/necoz/i-turned-my-github-contribution-graph-into-a-bloomberg-style-trading-terminal-31eh",
+        "points": 49,
+        "comments": 11,
+        "discussion": "https://dev.to/necoz/i-turned-my-github-contribution-graph-into-a-bloomberg-style-trading-terminal-31eh",
         "tags": [
-          "ai",
-          "kiro",
-          "gamedev"
+          "discuss",
+          "github",
+          "webdev"
         ]
       },
       {
-        "title": "I Made My RAG Safer. It Got Worse Under Load",
-        "url": "https://dev.to/ayush_singh_9b0d83152be5b/i-made-my-rag-safer-it-got-worse-under-load-3olm",
-        "points": 26,
-        "comments": 23,
-        "discussion": "https://dev.to/ayush_singh_9b0d83152be5b/i-made-my-rag-safer-it-got-worse-under-load-3olm",
-        "tags": [
-          "ai",
-          "rag",
-          "discuss"
-        ]
+        "title": "C++ STL: WHERE HAVE YOU BEEN ALL MY LIFE? 😭",
+        "url": "https://dev.to/_yourbrainbuffer_/c-stl-where-have-you-been-all-my-life-3gbl",
+        "points": 32,
+        "comments": 11,
+        "discussion": "https://dev.to/_yourbrainbuffer_/c-stl-where-have-you-been-all-my-life-3gbl",
+        "tags": []
       },
       {
         "title": "Peek: a horror game where your MacBook lid is your eyelids",
         "url": "https://dev.to/kakeroth/peek-a-horror-game-where-your-macbook-lid-is-your-eyelids-3hdp",
-        "points": 25,
-        "comments": 1,
+        "points": 30,
+        "comments": 2,
         "discussion": "https://dev.to/kakeroth/peek-a-horror-game-where-your-macbook-lid-is-your-eyelids-3hdp",
         "tags": [
           "devchallenge",
@@ -11988,8 +12154,8 @@
       {
         "title": "Day 90: A Mask in the Way and a Policy Pointing at Nothing",
         "url": "https://dev.to/ndcodes/day-90-a-mask-in-the-way-and-a-policy-pointing-at-nothing-390o",
-        "points": 23,
-        "comments": 9,
+        "points": 24,
+        "comments": 14,
         "discussion": "https://dev.to/ndcodes/day-90-a-mask-in-the-way-and-a-policy-pointing-at-nothing-390o",
         "tags": [
           "devops",
@@ -11998,17 +12164,21 @@
         ]
       },
       {
-        "title": "C++ STL: WHERE HAVE YOU BEEN ALL MY LIFE? 😭",
-        "url": "https://dev.to/_yourbrainbuffer_/c-stl-where-have-you-been-all-my-life-3gbl",
+        "title": "3Draft: Five Percent — 30 Minutes to Deadline",
+        "url": "https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk",
         "points": 21,
-        "comments": 1,
-        "discussion": "https://dev.to/_yourbrainbuffer_/c-stl-where-have-you-been-all-my-life-3gbl",
-        "tags": []
+        "comments": 6,
+        "discussion": "https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk",
+        "tags": [
+          "ai",
+          "opensource",
+          "showdev"
+        ]
       },
       {
         "title": "Glint: type and speak with your eyebrows and your breath",
         "url": "https://dev.to/yashksaini/glint-type-and-speak-with-your-eyebrows-and-your-breath-569o",
-        "points": 16,
+        "points": 18,
         "comments": 3,
         "discussion": "https://dev.to/yashksaini/glint-type-and-speak-with-your-eyebrows-and-your-breath-569o",
         "tags": [
@@ -12018,21 +12188,44 @@
         ]
       },
       {
-        "title": "cueback: What If Tutorials Waited for You?",
-        "url": "https://dev.to/arjuncodess/cueback-what-if-tutorials-waited-for-you-4fec",
-        "points": 16,
+        "title": "Wrist vs Camera: Can I Trust a Camera Pulse on My Own Laptop?",
+        "url": "https://dev.to/dannwaneri/wrist-vs-camera-can-i-trust-a-camera-pulse-on-my-own-laptop-4g3o",
+        "points": 15,
         "comments": 0,
-        "discussion": "https://dev.to/arjuncodess/cueback-what-if-tutorials-waited-for-you-4fec",
+        "discussion": "https://dev.to/dannwaneri/wrist-vs-camera-can-i-trust-a-camera-pulse-on-my-own-laptop-4g3o",
         "tags": [
           "devchallenge",
-          "presagechallenge",
-          "electron"
+          "presagechallenge"
+        ]
+      },
+      {
+        "title": "Your Team Ships Faster Every Quarter and Understands Its Own Code Less. Nobody's Measuring That.",
+        "url": "https://dev.to/debashish_ghosal/your-team-ships-faster-every-quarter-and-understands-its-own-code-less-nobodys-measuring-that-2j5i",
+        "points": 15,
+        "comments": 9,
+        "discussion": "https://dev.to/debashish_ghosal/your-team-ships-faster-every-quarter-and-understands-its-own-code-less-nobodys-measuring-that-2j5i",
+        "tags": [
+          "discuss",
+          "ai",
+          "career"
+        ]
+      },
+      {
+        "title": "3Draft : Game Engine Targetting System",
+        "url": "https://dev.to/pengeszikra/3draft-game-engine-targetting-system-4gfp",
+        "points": 13,
+        "comments": 2,
+        "discussion": "https://dev.to/pengeszikra/3draft-game-engine-targetting-system-4gfp",
+        "tags": [
+          "webdev",
+          "gamedev",
+          "basic"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-11-22T14:26:40.539Z",
+    "fetchedAt": "2026-11-23T06:34:36.175Z",
     "candidates": {
       "https://blog.cloudflare.com/launching-vite-ecosystem-fund": {
         "source": "Cloudflare",
@@ -12040,27 +12233,6 @@
         "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
         "published": "2026-11-09T13:00:00.000Z",
         "summary": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare."
-      },
-      "https://aphyr.com/posts/427-rip-harvest": {
-        "source": "Kyle Kingsbury",
-        "title": "RIP, Harvest",
-        "url": "https://aphyr.com/posts/427-rip-harvest",
-        "published": "2026-11-08T19:35:42.000Z",
-        "summary": "I’ve been a self-employed contractor for about a decade now, and I’m bummed about Harvest . Harvest was a time-tracking and invoicing service. You’d track how many hours or weeks you spent on a project, put together an invoice, email it to the client, and close it out when they paid. There was a little Stripe integration for accepting credit and ACH payments on the invoice web view. A historical c"
-      },
-      "https://discord.com/blog/discord-patch-notes-november-9-2026": {
-        "source": "Discord",
-        "title": "Discord Patch Notes: November 9, 2026",
-        "url": "https://discord.com/blog/discord-patch-notes-november-9-2026",
-        "published": "2026-11-09T00:00:00.000Z",
-        "summary": "Check out the finer details of the more technical fixes implemented into Discord recently."
-      },
-      "https://discord.com/blog/unlock-level-up-flex-discord-profile-badges-got-an-upgrade": {
-        "source": "Discord",
-        "title": "Unlock, Level Up, Flex: Discord Profile Badges Got an Upgrade",
-        "url": "https://discord.com/blog/unlock-level-up-flex-discord-profile-badges-got-an-upgrade",
-        "published": "2026-11-09T00:00:00.000Z",
-        "summary": "Meet the new badge directory: one spot to browse every badge on Discord, including 4 shiny new ones to unlock, level up, and flex."
       },
       "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4": {
         "source": "Netflix",
@@ -12103,14 +12275,6 @@
         "url": "https://tiki.li/blog/about_blqsort",
         "discussion": "https://lobste.rs/s/qi2lni/c_quicksort_faster_than_std_sort",
         "published": "2026-11-09T12:55:38.018Z",
-        "summary": ""
-      },
-      "https://nayak.im/posts/optimizing-reference-deletion": {
-        "source": "Lobsters",
-        "title": "Optimizing reference deletions in Git",
-        "url": "https://nayak.im/posts/optimizing-reference-deletion/",
-        "discussion": "https://lobste.rs/s/ic1ora/optimizing_reference_deletions_git",
-        "published": "2026-11-08T21:37:53.908Z",
         "summary": ""
       },
       "https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations": {
@@ -12673,537 +12837,19 @@
         "discussion": "https://lobste.rs/s/becitz/microsoft_365_outage_post_incident",
         "published": "2026-11-21T12:22:47.193Z",
         "summary": ""
+      },
+      "https://aphyr.com/posts/429-and-you-would-be-supporting-a-local-paper": {
+        "source": "Kyle Kingsbury",
+        "title": "\"And You Would be Supporting a Local Paper\"",
+        "url": "https://aphyr.com/posts/429-and-you-would-be-supporting-a-local-paper",
+        "published": "2026-11-22T14:46:19.000Z",
+        "summary": "Last spring my dear friend Taber was doored while riding his bike, and came very close to dying. A friend and I got in our cars, made it to the hospital by three AM, and spent the next week caring for him. We traded off sitting at his bedside, making sure he stayed plugged in to the machines keeping him alive, coordinating with a dozen-odd specialists, taking notes, working with the medical and ci"
       }
     }
   },
   "world": {
-    "fetchedAt": "2026-11-22T14:26:40.539Z",
+    "fetchedAt": "2026-11-23T06:34:36.175Z",
     "candidates": {
-      "https://www.theverge.com/policy/1037804/elon-musk-maga-dealbook": {
-        "source": "The Verge",
-        "title": "Oh, Elon Musk is ‘moderate’ now, is he?",
-        "url": "https://www.theverge.com/policy/1037804/elon-musk-maga-dealbook",
-        "published": "2026-11-19T18:15:00.000Z",
-        "summary": "A little less than two years ago, Elon Musk stood onstage at the Conservative Political Action Conference, sunglasses on, black MAGA hat perched atop his head, wielding a chainsaw. Last night, Musk called in to The New York Times DealBook Summit and distanced himself from President Donald Trump's movement. \"I think I'm ideologically quite moderate. […]"
-      },
-      "https://www.theverge.com/tech/1037846/apple-jon-mccormack-retired-iphone-camera": {
-        "source": "The Verge",
-        "title": "Apple’s iPhone camera leader has reportedly left the company",
-        "url": "https://www.theverge.com/tech/1037846/apple-jon-mccormack-retired-iphone-camera",
-        "published": "2026-11-19T18:13:05.000Z",
-        "summary": "Jon McCormack, Apple's vice president of camera software engineering, left the company last month, Bloomberg reports. Its sources say McCormack retired \"at the end of October after more than eight years at the company.\" Apple reportedly has not yet named a new VP to step in for McCormack, who oversaw its Camera and Photos apps, […]"
-      },
-      "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you": {
-        "source": "TechCrunch",
-        "title": "Google gives Gemini the ability to use your Mac for you",
-        "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
-        "published": "2026-11-19T18:09:11.000Z",
-        "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows."
-      },
-      "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027": {
-        "source": "Ars Technica",
-        "title": "Google will launch Android app verification requirement globally in January 2027",
-        "url": "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027/",
-        "published": "2026-11-19T18:00:33.000Z",
-        "summary": "Google says almost all developers have already gotten on board with verification."
-      },
-      "https://www.theverge.com/tech/1037813/amazon-is-pushing-alerts-to-shoppers-opposing-nycs-delivery-protection-act": {
-        "source": "The Verge",
-        "title": "Amazon is pushing alerts opposing NYC’s Delivery Protection Act",
-        "url": "https://www.theverge.com/tech/1037813/amazon-is-pushing-alerts-to-shoppers-opposing-nycs-delivery-protection-act",
-        "published": "2026-11-19T17:58:01.000Z",
-        "summary": "Amazon is serving up push notifications and banners on its home page to some users, warning that a new bill could add up to $5 per order in New York City. The Delivery Protection Act, which is backed by Mayor Zohran Mamdani and a number of labor groups, including the Teamsters, would require Amazon to […]"
-      },
-      "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says": {
-        "source": "TechCrunch",
-        "title": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
-        "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
-        "published": "2026-11-19T17:38:40.000Z",
-        "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them."
-      },
-      "https://www.theverge.com/gadgets/1037635/amazon-kindle-paperwhite-black-friday-2026-deal-sale": {
-        "source": "The Verge",
-        "title": "Amazon’s last-gen Kindle Paperwhite hasn’t been this cheap since June",
-        "url": "https://www.theverge.com/gadgets/1037635/amazon-kindle-paperwhite-black-friday-2026-deal-sale",
-        "published": "2026-11-19T17:15:00.000Z",
-        "summary": "alt: Amazon’s last-gen Kindle Paperwhite is just $10 more than the base modelalt: The last-gen Kindle Paperwhite for $130 is a stellar Black Friday deal Amazon debuted its latest Kindle Paperwhite in October, which is now available for $199.99 and replaces the outgoing 2024 model. However, given the minimal improvements on the new model — […]"
-      },
-      "https://www.theregister.com/systems/2026/11/19/nand-prices-tipped-to-fall-as-chinese-cloud-giants-cut-ssd-orders/5311116": {
-        "source": "The Register",
-        "title": "NAND prices tipped to fall as Chinese cloud giants cut SSD orders",
-        "url": "https://www.theregister.com/systems/2026/11/19/nand-prices-tipped-to-fall-as-chinese-cloud-giants-cut-ssd-orders/5311116",
-        "published": "2026-11-19T17:02:00.000Z",
-        "summary": "TrendForce sees supply outpacing demand in 2027, though cheaper flash won't fix the DRAM squeeze"
-      },
-      "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories": {
-        "source": "TechCrunch",
-        "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
-        "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
-        "published": "2026-11-19T17:00:00.000Z",
-        "summary": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers."
-      },
-      "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price": {
-        "source": "TechCrunch",
-        "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
-        "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
-        "published": "2026-11-19T16:59:23.000Z",
-        "summary": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised."
-      },
-      "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq": {
-        "source": "The Verge",
-        "title": "Anthropic starts trading on Wall Street",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
-        "published": "2026-11-19T16:52:01.000Z",
-        "summary": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, […]"
-      },
-      "https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "Dutch watchdog tells people not to buy AI smart glasses",
-        "url": "https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-19T16:33:17.000Z",
-        "summary": "Tests of glasses showed some misread medicine instructions or pretended to have called an ambulance"
-      },
-      "https://www.theverge.com/tech/1037558/microsoft-to-do-shutdown-planner": {
-        "source": "The Verge",
-        "title": "Microsoft is killing its great tasks app in favor of its worse tasks app",
-        "url": "https://www.theverge.com/tech/1037558/microsoft-to-do-shutdown-planner",
-        "published": "2026-11-19T16:28:12.000Z",
-        "summary": "In 2015 Microsoft acquired a to-do list app called Wunderlist, for a price rumored to be as high as $200 million. Wunderlist fans were worried that Microsoft would make their beloved app soulless and corporate, or worse, hide it behind some convoluted enterprise subscription. But against all odds, Microsoft was a good steward: The app […]"
-      },
-      "https://www.theregister.com/security/2026/11/19/russian-national-accused-of-stalking-san-francisco-techie-in-plot-against-us-defense-tech-giant/5311126": {
-        "source": "The Register",
-        "title": "Russian national accused of stalking San Francisco techie in plot against US defense-tech giant",
-        "url": "https://www.theregister.com/security/2026/11/19/russian-national-accused-of-stalking-san-francisco-techie-in-plot-against-us-defense-tech-giant/5311126",
-        "published": "2026-11-19T16:20:00.000Z",
-        "summary": "DoJ claims suspect part of 4-month operation to steal secrets, surveil employees"
-      },
-      "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development": {
-        "source": "TechCrunch",
-        "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-        "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-        "published": "2026-11-19T16:19:41.000Z",
-        "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure."
-      },
-      "https://www.theverge.com/gadgets/1036229/paramount-plus-black-friday-deal-2026-sale": {
-        "source": "The Verge",
-        "title": "You can grab two months of Paramount Plus for just $2.99 for Black Friday",
-        "url": "https://www.theverge.com/gadgets/1036229/paramount-plus-black-friday-deal-2026-sale",
-        "published": "2026-11-19T16:15:01.000Z",
-        "summary": "Ahead of Black Friday, you can subscribe to Paramount Plus for just $2.99 per month for the first two months. After the introductory period, you can cancel your subscription or automatically renew at the then-current rate, which, as of now, is $8.99 per month for the ad-supported Essential plan or $13.99 per month for the […]"
-      },
-      "https://www.theverge.com/tech/1037695/jpmorgan-chase-cyberattack": {
-        "source": "The Verge",
-        "title": "JPMorgan Chase reveals data breach, but says it’s unrelated to this week’s banking outage",
-        "url": "https://www.theverge.com/tech/1037695/jpmorgan-chase-cyberattack",
-        "published": "2026-11-19T16:14:23.000Z",
-        "summary": "JPMorgan Chase says its third-party vendors suffered a cyberattack, exposing marketing data like customer names and email addresses. The confirmation follows a report from Cybernews, which says a ransomware group leaked email addresses belonging to around 16,000 JPMorgan Chase customers. In a post about the attack, JPMorgan Chase says \"there is no connection\" to the […]"
-      },
-      "https://www.theverge.com/gadgets/1021241/best-fitness-wellness-gifts-2026": {
-        "source": "The Verge",
-        "title": "The Verge’s 2026 fitness and wellness gift guide",
-        "url": "https://www.theverge.com/gadgets/1021241/best-fitness-wellness-gifts-2026",
-        "published": "2026-11-19T16:00:00.000Z",
-        "summary": "We could all use a hand when it comes to being more mindful about our health and fitness. The holidays provide plenty of reasons to focus on wellness in body and mind, and a good gift can be just the thing to spur a new hobby or support healthy habits. With that in mind, we're […]"
-      },
-      "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "Anthropic raises $81bn in record-breaking stock market debut",
-        "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-19T15:58:58.000Z",
-        "summary": "The company behind the Claude chatbot will become one of the most valuable firms in the world."
-      },
-      "https://www.thehindu.com/sci-tech/technology/how-us-controls-flow-of-advanced-tech-chip-and-compute-to-china-explained/article71721133.ece": {
-        "source": "The Hindu",
-        "title": "How U.S. controls flow of advanced tech, chip, and compute to China | Explained",
-        "url": "https://www.thehindu.com/sci-tech/technology/how-us-controls-flow-of-advanced-tech-chip-and-compute-to-china-explained/article71721133.ece",
-        "published": "2026-11-19T15:42:46.000Z",
-        "summary": "The U.S. Commerce Department, on November 16, 2026, issued an interim final rule barring data centre operators outside of the U.S., equipped with advanced American AI chips, from providing cloud service to businesses in two dozen countries, including China, Iran and Russia"
-      },
-      "https://www.theregister.com/cyber-crime/2026/11/19/europes-biggest-gas-supplier-battling-cyberattack-with-no-timeline-for-recovery/5311026": {
-        "source": "The Register",
-        "title": "Europe's biggest gas supplier battling cyberattack – with no timeline for recovery",
-        "url": "https://www.theregister.com/cyber-crime/2026/11/19/europes-biggest-gas-supplier-battling-cyberattack-with-no-timeline-for-recovery/5311026",
-        "published": "2026-11-19T15:37:00.000Z",
-        "summary": "Norwegian energy giant Equinor says oil and gas production remains unaffected"
-      },
-      "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order": {
-        "source": "TechCrunch",
-        "title": "UK government forced to disclose secret Apple backdoor order",
-        "url": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/",
-        "published": "2026-11-19T15:32:20.000Z",
-        "summary": "The U.K. tribunal's ruling rejected London's claim that disclosing the order would be damaging to national security."
-      },
-      "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation": {
-        "source": "The Verge",
-        "title": "ChatGPT can transcribe as you speak now with Live Dictation",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
-        "published": "2026-11-19T15:16:45.000Z",
-        "summary": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation in ChatGPT, you can tap or […]"
-      },
-      "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103": {
-        "source": "The Register",
-        "title": "European Commission scrambles to contain AI-assisted cyberattack",
-        "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
-        "published": "2026-11-19T15:14:54.000Z",
-        "summary": "Staff HR and medical reimbursement systems taken offline as officials investigate whether personal data was compromised"
-      },
-      "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test": {
-        "source": "TechCrunch",
-        "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-        "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-        "published": "2026-11-19T14:54:39.000Z",
-        "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead."
-      },
-      "https://www.theregister.com/public-sector/2026/11/19/union-demands-capita-lose-whitehall-payroll-deal-after-pensions-fiasco/5311050": {
-        "source": "The Register",
-        "title": "Union demands Capita lose Whitehall payroll deal after pensions fiasco",
-        "url": "https://www.theregister.com/public-sector/2026/11/19/union-demands-capita-lose-whitehall-payroll-deal-after-pensions-fiasco/5311050",
-        "published": "2026-11-19T14:44:00.000Z",
-        "summary": "PCS wants services for more than 250,000 civil servants brought in-house as ministers defend outsourcing decision"
-      },
-      "https://www.theverge.com/tech/1037848/motorola-razr-flex-wide-foldable-folding-smartphone-android-leak": {
-        "source": "The Verge",
-        "title": "Leaked images reveal Motorola’s wide foldable",
-        "url": "https://www.theverge.com/tech/1037848/motorola-razr-flex-wide-foldable-folding-smartphone-android-leak",
-        "published": "2026-11-19T18:19:03.000Z",
-        "summary": "New leaked images of Motorola's next folding smartphone shared by SammyGuru add more credence to the theory that widescreen could be the default design for foldables moving forward. Following a single leaked shot shared to Reddit yesterday, this new crop of images reveal the Motorola Razr Flex from several angles in two finishes with its […]"
-      },
-      "https://www.theregister.com/os-platforms/2026/11/19/xxri-os-explores-the-lowest-end-of-the-linux-desktop/5311036": {
-        "source": "The Register",
-        "title": "XXRI-OS explores the lowest end of the Linux desktop",
-        "url": "https://www.theregister.com/os-platforms/2026/11/19/xxri-os-explores-the-lowest-end-of-the-linux-desktop/5311036",
-        "published": "2026-11-19T18:35:00.000Z",
-        "summary": "Less is more, but this distro explores exactly how much less"
-      },
-      "https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143": {
-        "source": "The Register",
-        "title": "Anthropic throws open doors at $2T valuation as shares pop 34% in initial trading",
-        "url": "https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143",
-        "published": "2026-11-19T17:09:45.000Z",
-        "summary": "Company still has to content with massive compute obligations and the threat of open models, neither of which Dario Amodei is worried about, he claims"
-      },
-      "https://www.theverge.com/podcast/1036484/jon-favreau-pod-save-america-offline-crooked-media-trump-big-tech-ai-2028-election": {
-        "source": "The Verge",
-        "title": "How Silicon Valley lost the public, with Crooked Media’s Jon Favreau",
-        "url": "https://www.theverge.com/podcast/1036484/jon-favreau-pod-save-america-offline-crooked-media-trump-big-tech-ai-2028-election",
-        "published": "2026-11-19T15:00:00.000Z",
-        "summary": "Today, I’m talking with Jon Favreau, a political commentator and cofounder of Crooked Media. You probably know Jon best from a little show called Pod Save America, which Jon started with a group of fellow Obama staffers in the wake of Donald Trump’s election in 2016. It’s now one of the most popular podcasts in […]"
-      },
-      "https://www.theverge.com/tech/1037552/analogue-3d-nintendo-64-console-wi-fi-activated-automatic-updates": {
-        "source": "The Verge",
-        "title": "The Analogue 3D can now update itself over Wi-Fi",
-        "url": "https://www.theverge.com/tech/1037552/analogue-3d-nintendo-64-console-wi-fi-activated-automatic-updates",
-        "published": "2026-11-19T14:32:33.000Z",
-        "summary": "Analogue has long been good at expanding the features and functionality of its consoles through regular firmware updates, but installing those updates has always required moving files around with a memory card. That's no longer the case with the Analogue 3D, the company's modernized version of the Nintendo 64. Although the console has had Wi-Fi […]"
-      },
-      "https://www.theregister.com/personal-tech/2026/11/20/support-tech-fixed-malware-by-charging-client-less-for-their-services/5310959": {
-        "source": "The Register",
-        "title": "Support tech fixed malware by charging client less for their services",
-        "url": "https://www.theregister.com/personal-tech/2026/11/20/support-tech-fixed-malware-by-charging-client-less-for-their-services/5310959",
-        "published": "2026-11-20T06:29:00.000Z",
-        "summary": "‘I gave up at least $6,000 and I’d do it again’"
-      },
-      "https://www.thehindu.com/sci-tech/technology/if-ai-lifts-productivity-will-demand-sustain-growth/article71720146.ece": {
-        "source": "The Hindu",
-        "title": "If AI lifts productivity, will demand sustain growth?",
-        "url": "https://www.thehindu.com/sci-tech/technology/if-ai-lifts-productivity-will-demand-sustain-growth/article71720146.ece",
-        "published": "2026-11-20T06:05:43.000Z",
-        "summary": "Tugan-Baranovsky argued that machines can produce machines which can produce more machines, while Luxemburg contended that machines are not an end in themselves; only time will tell who is right"
-      },
-      "https://yourstory.com/2026/11/vembu-flags-possible-us-immigration-reversal-could-revive-housing-demand": {
-        "source": "YourStory",
-        "title": "Vembu flags possible US immigration reversal, says it could revive housing demand",
-        "url": "https://yourstory.com/2026/11/vembu-flags-possible-us-immigration-reversal-could-revive-housing-demand",
-        "published": "2026-11-20T05:12:48.000Z",
-        "summary": "Sridhar Vembu warns that a possible US immigration policy reversal could restore population-driven demand in housing and other sectors."
-      },
-      "https://yourstory.com/2026/11/bengaluru-tech-summit-innovation-entrepreneur-photography": {
-        "source": "YourStory",
-        "title": "Meet the innovators exhibiting at Bengaluru Tech Summit 2026",
-        "url": "https://yourstory.com/2026/11/bengaluru-tech-summit-innovation-entrepreneur-photography",
-        "published": "2026-11-20T04:59:27.000Z",
-        "summary": "In our photo essay from BTS at the Bangalore International Exhibition Centre, we showcase highlights from the exhibition halls."
-      },
-      "https://www.theregister.com/legal/2026/11/20/big-techs-compliance-with-eu-market-rules-is-performative-consumer-group-says/5311066": {
-        "source": "The Register",
-        "title": "Big Tech's compliance with EU market rules is performative, consumer group says",
-        "url": "https://www.theregister.com/legal/2026/11/20/big-techs-compliance-with-eu-market-rules-is-performative-consumer-group-says/5311066",
-        "published": "2026-11-20T04:30:00.000Z",
-        "summary": "BEUC urges Brussels to impose tougher penalties over alleged barriers to switching services and controlling personal data"
-      },
-      "https://www.theregister.com/legal/2026/11/20/us-let-nvidia-and-amd-sell-bucketloads-of-chips-to-military-linked-chinese-companies/5311200": {
-        "source": "The Register",
-        "title": "US let Nvidia and AMD sell bucketloads of chips to military-linked Chinese companies",
-        "url": "https://www.theregister.com/legal/2026/11/20/us-let-nvidia-and-amd-sell-bucketloads-of-chips-to-military-linked-chinese-companies/5311200",
-        "published": "2026-11-20T04:04:56.000Z",
-        "summary": "Not many of them made it in, but Chinese clouds no longer care"
-      },
-      "https://www.thehindu.com/business/markets/ai-firm-anthropic-shares-wall-streets-nasdaq-debut/article71721723.ece": {
-        "source": "The Hindu",
-        "title": "Anthropic shares close 17% higher on first day of trading",
-        "url": "https://www.thehindu.com/business/markets/ai-firm-anthropic-shares-wall-streets-nasdaq-debut/article71721723.ece",
-        "published": "2026-11-20T04:01:02.000Z",
-        "summary": "The shares ended the session at around $97, up from an IPO price of $83, after opening at $111.50 and briefly valuing the maker of the Claude chatbot at about $2 trillion"
-      },
-      "https://www.thehindu.com/business/anthropic-raises-81-billion-in-ipo-amid-ai-market-volatility/article71721392.ece": {
-        "source": "The Hindu",
-        "title": "Anthropic raises $81 billion in IPO amid AI market volatility",
-        "url": "https://www.thehindu.com/business/anthropic-raises-81-billion-in-ipo-amid-ai-market-volatility/article71721392.ece",
-        "published": "2026-11-20T03:59:51.000Z",
-        "summary": "The Claude maker priced its shares at $83 apiece, implying an equity valuation of about $1.03 trillion based on outstanding shares, with trading scheduled to begin on Nasdaq under the ticker ANT on November 19"
-      },
-      "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "GTA 6 breaks records as estimated sales top $2.3bn",
-        "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-20T02:54:40.000Z",
-        "summary": "Rockstar Games ended a 13-year wait with what is expected to be the biggest entertainment launch ever."
-      },
-      "https://yourstory.com/2026/11/my-dream-is-to-make-wework-india-the-default-choice-for-workspaces": {
-        "source": "YourStory",
-        "title": "‘My dream is to make WeWork India the default choice for workspaces’",
-        "url": "https://yourstory.com/2026/11/my-dream-is-to-make-wework-india-the-default-choice-for-workspaces",
-        "published": "2026-11-20T01:45:00.000Z",
-        "summary": "CEO and Managing Director Karan Virmani speaks to YourStory about WeWork India's first year as a public company, its expanding product portfolio, the impact of AI, market opportunities, and his ambitions for the business."
-      },
-      "https://www.theregister.com/security/2026/11/20/flaws-in-vmware-and-kvm-need-attention-if-you-have-time-while-fixing-java-php-and-everything-else/5311193": {
-        "source": "The Register",
-        "title": "Flaws in VMware and KVM need attention, if you have time while fixing Java, PHP, and everything else",
-        "url": "https://www.theregister.com/security/2026/11/20/flaws-in-vmware-and-kvm-need-attention-if-you-have-time-while-fixing-java-php-and-everything-else/5311193",
-        "published": "2026-11-20T00:57:45.000Z",
-        "summary": "Critical Virtzilla bugs, plus a strange Digital Ocean reaction to a nested virtualization issue"
-      },
-      "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac": {
-        "source": "TechCrunch",
-        "title": "Apple may be developing its own AI agent that runs your Mac",
-        "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-        "published": "2026-11-20T00:56:01.000Z",
-        "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots."
-      },
-      "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo": {
-        "source": "TechCrunch",
-        "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
-        "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-        "published": "2026-11-20T00:43:50.000Z",
-        "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion."
-      },
-      "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models": {
-        "source": "TechCrunch",
-        "title": "Anthropic rival says companies can (mostly) skip the pricey models",
-        "url": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
-        "published": "2026-11-20T00:26:03.000Z",
-        "summary": "On the day Anthropic went public, Fireworks AI’s co-founder made the case for open source models as a cheaper alternative, and addressed the breaches that have cost the company some customers’ trust."
-      },
-      "https://www.theregister.com/security/2026/11/20/germ-network-infects-android-but-in-a-good-way/5311186": {
-        "source": "The Register",
-        "title": "Germ Network infects Android, but in a good way",
-        "url": "https://www.theregister.com/security/2026/11/20/germ-network-infects-android-but-in-a-good-way/5311186",
-        "published": "2026-11-20T00:06:35.000Z",
-        "summary": "Bluesky's preferred encrypted messaging app allows multiple identities without tying you to a phone number"
-      },
-      "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
-        "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-20T00:02:07.000Z",
-        "summary": "Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe."
-      },
-      "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones": {
-        "source": "TechCrunch",
-        "title": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
-        "url": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
-        "published": "2026-11-19T23:37:56.000Z",
-        "summary": "SpaceX CEO Elon Musk said the company has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones."
-      },
-      "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
-        "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-19T23:33:51.000Z",
-        "summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry."
-      },
-      "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you": {
-        "source": "TechCrunch",
-        "title": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you",
-        "url": "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/",
-        "published": "2026-11-19T22:33:26.000Z",
-        "summary": "IconSwapper brings your Mac's app icons to life with real-time data, animations, and playful customizations that make your desktop more fun."
-      },
-      "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing": {
-        "source": "The Verge",
-        "title": "Apple is hiring engineers to build its own AI agent",
-        "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-        "published": "2026-11-19T22:31:41.000Z",
-        "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant. […]"
-      },
-      "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up": {
-        "source": "Ars Technica",
-        "title": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
-        "url": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/",
-        "published": "2026-11-19T22:16:37.000Z",
-        "summary": "Amazon now uses its shopping platform for political purposes."
-      },
-      "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings": {
-        "source": "The Verge",
-        "title": "A brief history of Nvidia’s recent stock fluctuations",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
-        "published": "2026-11-19T21:59:35.000Z",
-        "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings […]"
-      },
-      "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300": {
-        "source": "TechCrunch",
-        "title": "Meta’s new Muse Charm device may cost $300",
-        "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
-        "published": "2026-11-19T21:58:06.000Z",
-        "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable."
-      },
-      "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style": {
-        "source": "TechCrunch",
-        "title": "These tech outages are giving Y2K, AI agent style",
-        "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
-        "published": "2026-11-19T21:42:31.000Z",
-        "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say."
-      },
-      "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers": {
-        "source": "TechCrunch",
-        "title": "Uber tests rides for kids as young as 10, with extra pay for drivers",
-        "url": "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers/",
-        "published": "2026-11-19T21:33:24.000Z",
-        "summary": "Uber is testing the new program in three U.S. cities."
-      },
-      "https://arstechnica.com/health/2026/11/maha-pac-spent-more-on-steak-luxury-club-than-candidates-report-shows": {
-        "source": "Ars Technica",
-        "title": "MAHA PAC spent more on steak, luxury club than candidates, report shows",
-        "url": "https://arstechnica.com/health/2026/11/maha-pac-spent-more-on-steak-luxury-club-than-candidates-report-shows/",
-        "published": "2026-11-19T21:19:12.000Z",
-        "summary": "Expert called MAHA's spending \"pretty unusual\" for a PAC."
-      },
-      "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175": {
-        "source": "The Register",
-        "title": "Chase, Visa, Mastercard confirm third-party cyberattacks that may have exposed customers' info",
-        "url": "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
-        "published": "2026-11-19T21:12:33.000Z",
-        "summary": "First service outages, then data breaches…what's next?!"
-      },
-      "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app": {
-        "source": "The Verge",
-        "title": "Meta now sells 3D movies on Quest VR headsets",
-        "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
-        "published": "2026-11-19T21:12:06.000Z",
-        "summary": "Meta now offers more than 150 3D movies that you can buy or rent to watch in VR on its Quest 3 and 3S headsets, the company announced today. The movies are available in Meta's TV app and include titles like Avatar, Spider-Man: Far From Home, Jurassic World Rebirth, Wicked: For Good, and a Billie […]"
-      },
-      "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia": {
-        "source": "Ars Technica",
-        "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
-        "url": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
-        "published": "2026-11-19T20:29:46.000Z",
-        "summary": "25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit."
-      },
-      "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price": {
-        "source": "The Verge",
-        "title": "Meta’s Muse Charm might cost $300",
-        "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-        "published": "2026-11-19T20:22:17.000Z",
-        "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but […]"
-      },
-      "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert": {
-        "source": "Ars Technica",
-        "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
-        "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
-        "published": "2026-11-19T20:19:28.000Z",
-        "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives."
-      },
-      "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline": {
-        "source": "TechCrunch",
-        "title": "The unfolding Jensen Huang scandal: a timeline",
-        "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-        "published": "2026-11-19T20:18:49.000Z",
-        "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure."
-      },
-      "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats": {
-        "source": "The Verge",
-        "title": "Google is putting AI chats right on the homepage",
-        "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
-        "published": "2026-11-19T20:05:06.000Z",
-        "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the […]"
-      },
-      "https://www.theregister.com/ai-and-ml/2026/11/19/palo-alto-networks-opens-wallet-for-open-weight-training-biz/5311168": {
-        "source": "The Register",
-        "title": "Palo Alto Networks opens wallet for open-weight training biz",
-        "url": "https://www.theregister.com/ai-and-ml/2026/11/19/palo-alto-networks-opens-wallet-for-open-weight-training-biz/5311168",
-        "published": "2026-11-19T20:00:00.000Z",
-        "summary": "Security shop buys the hand that feeds it"
-      },
-      "https://arstechnica.com/space/2026/11/google-turns-to-blue-origin-for-a-rocket-but-its-long-term-problem-remains": {
-        "source": "Ars Technica",
-        "title": "Google turns to Blue Origin for a rocket, but its long-term problem remains",
-        "url": "https://arstechnica.com/space/2026/11/google-turns-to-blue-origin-for-a-rocket-but-its-long-term-problem-remains/",
-        "published": "2026-11-19T19:52:54.000Z",
-        "summary": "\"Project Suncatcher is a long-term moonshot.\""
-      },
-      "https://www.theverge.com/policy/1037987/fcc-prison-cellphone-signal-jamming": {
-        "source": "The Verge",
-        "title": "FCC greenlights rule allowing prisons to jam cellphone signals",
-        "url": "https://www.theverge.com/policy/1037987/fcc-prison-cellphone-signal-jamming",
-        "published": "2026-11-19T19:40:28.000Z",
-        "summary": "The Federal Communications Commission voted unanimously to allow state and local prisons to jam cellphones. In an announcement on Thursday, the FCC argues the rule will help combat an \"influx of contraband cellphones\" used to carry out crimes from prison. Jammers are generally banned under Section 333 of the Communications Act of 1934, though they're […]"
-      },
-      "https://www.theverge.com/gadgets/1037790/sony-wh-1000xm5-black-friday-deal-sale": {
-        "source": "The Verge",
-        "title": "Sony’s WH-1000XM5 are cheaper than ever for Black Friday",
-        "url": "https://www.theverge.com/gadgets/1037790/sony-wh-1000xm5-black-friday-deal-sale",
-        "published": "2026-11-19T19:35:52.000Z",
-        "summary": "Back in my day, the only “Doorbuster” sales were at physical retail stores. But now, you can get ultra-low prices before Black Friday whether you want to shop in-store or online. One that stands out is the previous-generation Sony WH-1000XM5 noise-canceling headphones, which are marked down to their lowest price ever, just $169.99 at Best […]"
-      },
-      "https://www.theverge.com/games/1038010/valve-steam-machine-waitlist-supply": {
-        "source": "The Verge",
-        "title": "You can now buy a Steam Machine without getting on a waitlist",
-        "url": "https://www.theverge.com/games/1038010/valve-steam-machine-waitlist-supply",
-        "published": "2026-11-19T19:33:22.000Z",
-        "summary": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon. The good news: You can now purchase a 512GB Steam Machine without getting on a waitlist. Initially, interested buyers had to get on Valve's waitlist […]"
-      },
-      "https://www.theverge.com/news/1037951/instagram-amazon-affiliate-links-influencers-ads": {
-        "source": "The Verge",
-        "title": "Some creators are skeptical of Instagram’s new affiliate program",
-        "url": "https://www.theverge.com/news/1037951/instagram-amazon-affiliate-links-influencers-ads",
-        "published": "2026-11-19T19:12:30.000Z",
-        "summary": "For years, influencers have come up with workarounds on social media to figure out how to share affiliate links with followers. A new integration between Instagram and Amazon was announced earlier this month as a way to make it easier for influencers to make money from affiliate links - but some content creators are suspicious […]"
-      },
-      "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity": {
-        "source": "TechCrunch",
-        "title": "Anthropic’s IPO could deliver $156B to charity",
-        "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
-        "published": "2026-11-19T19:10:45.000Z",
-        "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion."
-      },
-      "https://spectrum.ieee.org/ai-tools-for-rural-communities": {
-        "source": "IEEE Spectrum",
-        "title": "Community-Focused Academic Brings AI Tools to Colorado Farmers",
-        "url": "https://spectrum.ieee.org/ai-tools-for-rural-communities",
-        "published": "2026-11-19T19:00:02.000Z",
-        "summary": "Many farmers and ranchers in eastern Colorado are curious about artificial intelligence, but they don’t have a local tech-savvy person to show them how to use it. Xue “Alice” Dong has made that her job. Dong, an IEEE senior member, is an extension regional specialist with the Colorado State University Extension , CSU’s outreach arm. She works in Logan County and serves a 10-county farming area in "
-      },
-      "https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153": {
-        "source": "The Register",
-        "title": "Nvidia adds possible hack to list of very bad things under investigation",
-        "url": "https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153",
-        "published": "2026-11-19T18:52:53.000Z",
-        "summary": "Ransomware group sets a deadline for the chipmaker to pay up - or see its data leaked"
-      },
-      "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont": {
-        "source": "Ars Technica",
-        "title": "\"You’re right\"—LLMs will get climate info wrong if you ask",
-        "url": "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/",
-        "published": "2026-11-19T18:44:39.000Z",
-        "summary": "Some models fare better, but all fail in similar ways."
-      },
-      "https://www.theverge.com/gadgets/1037042/sonos-black-friday-2026-speaker-soundbar-deals-sale": {
-        "source": "The Verge",
-        "title": "Sonos is taking up to 30 percent off speakers and soundbars right now",
-        "url": "https://www.theverge.com/gadgets/1037042/sonos-black-friday-2026-speaker-soundbar-deals-sale",
-        "published": "2026-11-19T18:33:08.000Z",
-        "summary": "Sonos speakers and soundbars aren’t exactly cheap, but thankfully the company’s Black Friday sale has already begun, making everything a little easier to afford through November 30th. Most notably, you can pick up the Arc Ultra soundbar for a new low of $849 ($250 off) from Sonos, Amazon, and Best Buy, or the newfangled Sonos […]"
-      },
       "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear": {
         "source": "TechCrunch",
         "title": "Behind Jensen Huang’s exit, questions about a management style reportedly built on fear",
@@ -13371,20 +13017,6 @@
         "url": "https://www.thehindu.com/sci-tech/technology/gadgets/lava-launches-smart-4-pro-4g-phone-for-offline-buyers-in-india/article71723467.ece",
         "published": "2026-11-20T07:03:17.000Z",
         "summary": "Lava Smart 4 Pro ships with a 7,000 mAh battery with an 18W Type-C charging support"
-      },
-      "https://yourstory.com/2026/11/karnataka-aims-to-raise-its-share-in-aerospace-defence-sector-to-75-per-cent-minister": {
-        "source": "YourStory",
-        "title": "Karnataka aims to raise its share in aerospace, defence sector to 75%: Minister",
-        "url": "https://yourstory.com/2026/11/karnataka-aims-to-raise-its-share-in-aerospace-defence-sector-to-75-per-cent-minister",
-        "published": "2026-11-20T05:08:27.000Z",
-        "summary": "Industries Minister M B Patil said that the government is ready to support the creation of all necessary infrastructure and facilities, including Common Facility Centres, to facilitate investments in the aerospace sector."
-      },
-      "https://yourstory.com/2026/11/amazon-prime-india-head-abhinav-agarwal-steps-down-after-16-years": {
-        "source": "YourStory",
-        "title": "Amazon Prime India head Abhinav Agarwal steps down after 16 years",
-        "url": "https://yourstory.com/2026/11/amazon-prime-india-head-abhinav-agarwal-steps-down-after-16-years",
-        "published": "2026-11-20T05:00:01.000Z",
-        "summary": "Abhinav Agarwal has been director of product and engineering at Amazon Prime in Bengaluru since October 2021, leading the product, marketing and engineering teams responsible for growing Amazon's Prime programme in India."
       },
       "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=rss&at_campaign=rss": {
         "source": "BBC Technology",
@@ -14134,33 +13766,215 @@
         "url": "https://www.thehindu.com/news/international/us-blocks-chinas-remote-access-to-ai-chips-after-nvidia-scandal-china-slams-move/article71711869.ece",
         "published": "2026-11-22T06:50:36.000Z",
         "summary": "Nvidia’s provision of chips to companies running data centres in Southeast Asia has come under the spotlight amid questions surrounding founder Jensen Huang’s relationship with Alice Huang, the CEO of one such Singapore-based company, Megaspeed"
+      },
+      "https://www.thehindu.com/sci-tech/technology/us-seeks-answers-on-nvidias-sale-of-chips-to-china-treasury-secretary-says/article71733268.ece": {
+        "source": "The Hindu",
+        "title": "U.S. seeks answers on Nvidia's sale of chips to China, Treasury ​Secretary says",
+        "url": "https://www.thehindu.com/sci-tech/technology/us-seeks-answers-on-nvidias-sale-of-chips-to-china-treasury-secretary-says/article71733268.ece",
+        "published": "2026-11-23T05:13:36.000Z",
+        "summary": "U.S. President Donald Trump said on Friday that he ⁠would like to see Jensen Huang apologise and return to Nvidia"
+      },
+      "https://yourstory.com/2026/11/what-happened-farmers-weavers-happening-to-programmers-sridhar-vembu-ai": {
+        "source": "YourStory",
+        "title": "AI is doing to programmers what it did to farmers, weavers: Sridhar Vembu",
+        "url": "https://yourstory.com/2026/11/what-happened-farmers-weavers-happening-to-programmers-sridhar-vembu-ai",
+        "published": "2026-11-23T04:58:05.000Z",
+        "summary": "Sridhar Vembu argues AI could transform intellectual work just as mechanisation transformed traditional trades, citing examples of AI tackling complex coding and engineering tasks with striking speed."
+      },
+      "https://www.thehindu.com/sci-tech/technology/us-intelligence-chief-predicts-more-tech-outages-as-systems-undergo-upgrades/article71733256.ece": {
+        "source": "The Hindu",
+        "title": "U.S. intelligence chief predicts more tech outages as systems undergo upgrades",
+        "url": "https://www.thehindu.com/sci-tech/technology/us-intelligence-chief-predicts-more-tech-outages-as-systems-undergo-upgrades/article71733256.ece",
+        "published": "2026-11-23T03:58:25.000Z",
+        "summary": "Jay Clayton declined to discuss specifics of ⁠separate reports of cyberattacks on the FBI and ⁠Department of Agriculture"
+      },
+      "https://yourstory.com/2026/11/far-eye-helps-reduce-flipkart-logistics-expenses-6-percent": {
+        "source": "YourStory",
+        "title": "Far Eye helps reduce Flipkart logistics expenses by 6%",
+        "url": "https://yourstory.com/2026/11/far-eye-helps-reduce-flipkart-logistics-expenses-6-percent",
+        "published": "2026-11-23T03:43:30.000Z",
+        "summary": "Far Eye says its logistics platform has helped Flipkart Wholesale cut logistics costs by 6%, reduce vehicle deployment by 8% and lower vehicle idle time by 10% through better routing, dispatch and fleet optimisation across its pan-India operations."
+      },
+      "https://www.thehindu.com/sci-tech/technology/defence-ai-high-tech-a-delicate-balance-between-armies-and-industry/article71733258.ece": {
+        "source": "The Hindu",
+        "title": "Defence, AI, high tech: a delicate balance between armies and industry",
+        "url": "https://www.thehindu.com/sci-tech/technology/defence-ai-high-tech-a-delicate-balance-between-armies-and-industry/article71733258.ece",
+        "published": "2026-11-23T03:18:41.000Z",
+        "summary": "Beyond the even more complex issue of so-called killer robots, one example sums up the defence challenge: the civilian Starlink satellite network and its military counterpart, Starshield"
+      },
+      "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink": {
+        "source": "The Verge",
+        "title": "Kodak’s next collectible is a tiny digital photo frame that doubles as a tracker",
+        "url": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
+        "published": "2026-11-23T03:00:00.000Z",
+        "summary": "After expanding its Charmera collection with a Millennium Edition featuring Y2K-inspired designs earlier this year, Reto's follow-up to its tiny Kodak camera is an equally small digital photo frame you can use to display your shots. But while the Charmera's usefulness stopped at snapping grainy photos and terrible videos, the Kodak SlideTag goes one step […]"
+      },
+      "https://www.thehindu.com/news/international/alice-huang-in-touch-with-chinese-spy-agency-during-affair-with-nvidia-ceo-says-nyt/article71733237.ece": {
+        "source": "The Hindu",
+        "title": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO, says NYT",
+        "url": "https://www.thehindu.com/news/international/alice-huang-in-touch-with-chinese-spy-agency-during-affair-with-nvidia-ceo-says-nyt/article71733237.ece",
+        "published": "2026-11-23T02:34:35.000Z",
+        "summary": "Spokespersons for Nvidia, Jensen Huang and the Chinese Embassy ‌in Washington did not immediately respond to requests for ‌comment"
+      },
+      "https://www.thehindu.com/data/data-viewpoint-on-anthropic-ipo/article71733208.ece": {
+        "source": "The Hindu",
+        "title": "Anthropic IPO: Tracing an ‘unusual’ AI company’s race to the top",
+        "url": "https://www.thehindu.com/data/data-viewpoint-on-anthropic-ipo/article71733208.ece",
+        "published": "2026-11-23T02:14:00.000Z",
+        "summary": "Set up as a Public Benefit Corporation, Anthropic warns that AI could be dangerous, yet races to build the most powerful models. Charts and a timeline unpack the journey and contradictions of the AI company behind the largest-ever IPO"
+      },
+      "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo": {
+        "source": "TechCrunch",
+        "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+        "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+        "published": "2026-11-23T01:25:53.000Z",
+        "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic."
+      },
+      "https://www.theregister.com/security/2026/11/23/1-of-gpt-51-tokens-finds-new-ways-around-chinas-great-firewall/5311532": {
+        "source": "The Register",
+        "title": "$1 of GPT-5.1 tokens finds new ways around China’s Great Firewall",
+        "url": "https://www.theregister.com/security/2026/11/23/1-of-gpt-51-tokens-finds-new-ways-around-chinas-great-firewall/5311532",
+        "published": "2026-11-23T00:23:31.000Z",
+        "summary": "PLUS: Lenovo's infra group finally makes big profit; Indonesia’s glaciers are gone; Australian bank releases its AI bug-finder; and more!"
+      },
+      "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=rss&at_campaign=rss": {
+        "source": "BBC Technology",
+        "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+        "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-23T00:08:00.000Z",
+        "summary": "AI employees in the industry's epicentre - San Francisco - worry that the sector is overheated."
+      },
+      "https://www.theverge.com/tech/1039851/major-tech-outages": {
+        "source": "The Verge",
+        "title": "We haven’t seen the last of the major tech outages",
+        "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+        "published": "2026-11-22T22:48:02.000Z",
+        "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be […]"
+      },
+      "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide": {
+        "source": "TechCrunch",
+        "title": "‘You Can See Everything’ has made more than $100M worldwide",
+        "url": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/",
+        "published": "2026-11-22T21:42:48.000Z",
+        "summary": "The new Elizabeth Holmes documentary is just beginning to roll out internationally."
+      },
+      "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development": {
+        "source": "TechCrunch",
+        "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+        "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+        "published": "2026-11-22T21:14:07.000Z",
+        "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed."
+      },
+      "https://techcrunch.com/2026/11/22/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help": {
+        "source": "TechCrunch",
+        "title": "The best apps to make new friends right now",
+        "url": "https://techcrunch.com/2026/11/22/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/",
+        "published": "2026-11-22T21:00:00.000Z",
+        "summary": "We've compiled a list of friendship apps, from friend discovery platforms like BFF to event-focused ones like Timeleft."
+      },
+      "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash": {
+        "source": "TechCrunch",
+        "title": "Why data centers are at the center of the Big Tech backlash",
+        "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+        "published": "2026-11-22T18:08:43.000Z",
+        "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\""
+      },
+      "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage": {
+        "source": "The Verge",
+        "title": "Delta flights in and out of Atlanta delayed due to system outage",
+        "url": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage",
+        "published": "2026-11-22T17:46:44.000Z",
+        "summary": "All Delta flights in and out of Atlanta are facing significant delays on Sunday due to a problem with the system that calculates a plane's weight and balance. Hartsfield-Jackson Atlanta International Airport is Delta's largest hub and one of the busiest airports in the world. While only Delta is impacted at the moment, disruptions at […]"
+      },
+      "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music": {
+        "source": "The Verge",
+        "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+        "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+        "published": "2026-11-22T17:25:20.000Z",
+        "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to […]"
+      },
+      "https://www.thehindu.com/news/international/nvidia-faces-us-accounting-probe-amid-deepening-turmoil-media/article71732128.ece": {
+        "source": "The Hindu",
+        "title": "Nvidia faces U.S. accounting probe amid deepening turmoil: media",
+        "url": "https://www.thehindu.com/news/international/nvidia-faces-us-accounting-probe-amid-deepening-turmoil-media/article71732128.ece",
+        "published": "2026-11-22T17:07:04.000Z",
+        "summary": "The Securities and Exchange Commission inquiry is in its early stages, U.S. media reported, after Jensen Huang’s resignation as chief executive and a 14% fall in Nvidia shares on Friday (November 20, 2026)"
+      },
+      "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans": {
+        "source": "TechCrunch",
+        "title": "TechCrunch Mobility: A/B testing robots vs. humans",
+        "url": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
+        "published": "2026-11-22T17:06:00.000Z",
+        "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it."
+      },
+      "https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale": {
+        "source": "The Verge",
+        "title": "Some of our favorite Switch 2 games are cheaper through Black Friday",
+        "url": "https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale",
+        "published": "2026-11-22T17:00:00.000Z",
+        "summary": "Black Friday is a great time to expand your game library because it’s a chance to catch deals that aren’t normally happening throughout the year. That’s true for Nintendo Switch 2 games, as well. In addition to a $50 off sale on one of its console bundles, Nintendo is also knocking $20 off some of […]"
+      },
+      "https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review": {
+        "source": "The Verge",
+        "title": "Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk",
+        "url": "https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review",
+        "published": "2026-11-22T16:33:29.000Z",
+        "summary": "Sheherazaad started making ripples in the music world a few years ago with her EP Qasr, which was produced by Grammy Award winner Arooj Aftab. Now she's back with Khudgarzi, her reverb-drenched folk-noir debut LP that's primarily sung in Urdu. The instrumentation on Khudgarzi draws on traditional South Asian music, including Carnatic and Hindustani styles, […]"
+      },
+      "https://www.theregister.com/personal-tech/2026/11/22/as-cars-go-digital-us-consumers-pay-an-extra-12-billion-a-year-for-repairs/5311412": {
+        "source": "The Register",
+        "title": "As cars go digital, US consumers pay an extra $12 billion a year for repairs",
+        "url": "https://www.theregister.com/personal-tech/2026/11/22/as-cars-go-digital-us-consumers-pay-an-extra-12-billion-a-year-for-repairs/5311412",
+        "published": "2026-11-22T16:08:00.000Z",
+        "summary": "Today's vehicles need software tools to make repairs, and the subscriptions inflate insurance fees"
+      },
+      "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india": {
+        "source": "The Verge",
+        "title": "Protesters storm Meta offices in India",
+        "url": "https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india",
+        "published": "2026-11-22T15:15:07.000Z",
+        "summary": "Members of the opposition Congress party protested outside Meta's offices in Delhi on Friday and appear to have entered the building in a video shared by CNN. Members of the party's youth wing are demanding the company restore accounts of party leaders and warned of more protests to come. The Congress party has criticized Meta […]"
+      },
+      "https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation": {
+        "source": "TechCrunch",
+        "title": "Can a TV be too large? An investigation",
+        "url": "https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/",
+        "published": "2026-11-22T15:00:00.000Z",
+        "summary": "Can a TV be too large? This writer's recent upgrade to a 65-inch OLED came with some unexpected challenges."
+      },
+      "https://www.thehindu.com/news/international/china-slams-malicious-us-ban-on-telecom-firms-phone-number-access/article71730683.ece": {
+        "source": "The Hindu",
+        "title": "China slams ‘malicious’ U.S. ban on telecom firms’ phone number access",
+        "url": "https://www.thehindu.com/news/international/china-slams-malicious-us-ban-on-telecom-firms-phone-number-access/article71730683.ece",
+        "published": "2026-11-22T06:49:42.000Z",
+        "summary": "Affected entities include China’s three biggest telecom firms, the state-owned China Unicom, China Telecom and China Mobile"
+      },
+      "https://www.thehindu.com/sci-tech/technology/how-us-controls-flow-of-advanced-tech-chip-and-compute-to-china-explained/article71721133.ece": {
+        "source": "The Hindu",
+        "title": "How U.S. controls flow of advanced tech, chip, and compute to China | Explained",
+        "url": "https://www.thehindu.com/sci-tech/technology/how-us-controls-flow-of-advanced-tech-chip-and-compute-to-china-explained/article71721133.ece",
+        "published": "2026-11-21T23:46:29.000Z",
+        "summary": "The U.S. Commerce Department on November 16 issued an interim final rule barring data centre operators outside the U.S. equipped with advanced American AI chips from providing cloud service to businesses in two dozen countries, including China, Iran, and Russia"
+      },
+      "https://www.thehindu.com/news/national/telangana/youth-congress-workers-detained-over-protest-against-meta/article71727431.ece": {
+        "source": "The Hindu",
+        "title": "Youth Congress workers detained over protest against Meta for blocking social media accounts",
+        "url": "https://www.thehindu.com/news/national/telangana/youth-congress-workers-detained-over-protest-against-meta/article71727431.ece",
+        "published": "2026-11-21T07:36:15.000Z",
+        "summary": "The IYC workers staged a demonstration against Meta in Hyderabad over alleged blocking of social media accounts. Over 21 protesters were released following a three-hour detention by police"
+      },
+      "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=rss&at_campaign=rss": {
+        "source": "BBC Technology",
+        "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
+        "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-20T22:53:24.000Z",
+        "summary": "The mammoth figure surpasses every video game launch and single-day film box office record."
       }
     }
   },
   "asks": {
-    "fetchedAt": "2026-11-22T14:26:40.539Z",
+    "fetchedAt": "2026-11-23T06:34:36.175Z",
     "candidates": {
-      "https://news.ycombinator.com/item?id=50562528": {
-        "title": "Anthropic (ANT) stock lists at nearly $2T valuation",
-        "url": "https://news.ycombinator.com/item?id=50562528",
-        "points": 38,
-        "comments": 10,
-        "created": "2026-11-19T16:47:32.000Z"
-      },
-      "https://news.ycombinator.com/item?id=50561571": {
-        "title": "GitLab 19.6.0 is out and still vulnerable to Ruby2Shell and NGINX2Root",
-        "url": "https://news.ycombinator.com/item?id=50561571",
-        "points": 15,
-        "comments": 3,
-        "created": "2026-11-19T15:42:26.000Z"
-      },
-      "https://news.ycombinator.com/item?id=50565484": {
-        "title": "Ask HN: Where do you see Software in 5 years?",
-        "url": "https://news.ycombinator.com/item?id=50565484",
-        "points": 15,
-        "comments": 16,
-        "created": "2026-11-19T20:01:18.000Z"
-      },
       "https://news.ycombinator.com/item?id=50577613": {
         "title": "I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA",
         "url": "https://news.ycombinator.com/item?id=50577613",
@@ -14174,13 +13988,6 @@
         "points": 76,
         "comments": 78,
         "created": "2026-11-20T23:18:32.000Z"
-      },
-      "https://news.ycombinator.com/item?id=50566487": {
-        "title": "Anthropic should give stock to Stack Overflow (and OpenAI too)",
-        "url": "https://news.ycombinator.com/item?id=50566487",
-        "points": 12,
-        "comments": 5,
-        "created": "2026-11-19T21:15:17.000Z"
       },
       "https://news.ycombinator.com/item?id=50585962": {
         "title": "Tell HN: OpenRouter prompts to Minimax may have been read",
@@ -14196,13 +14003,6 @@
         "comments": 19,
         "created": "2026-11-20T12:36:49.000Z"
       },
-      "https://news.ycombinator.com/item?id=50565386": {
-        "title": "Ask HN: Why no AI-led memory vulns in Python?",
-        "url": "https://news.ycombinator.com/item?id=50565386",
-        "points": 11,
-        "comments": 2,
-        "created": "2026-11-19T19:54:37.000Z"
-      },
       "https://news.ycombinator.com/item?id=50583294": {
         "title": "Ask HN: Should Uber Ratings Decay over Time?",
         "url": "https://news.ycombinator.com/item?id=50583294",
@@ -14216,11 +14016,18 @@
         "points": 11,
         "comments": 7,
         "created": "2026-11-20T21:44:46.000Z"
+      },
+      "https://news.ycombinator.com/item?id=50600771": {
+        "title": "Ask HN: Are the trades a safe career transition?",
+        "url": "https://news.ycombinator.com/item?id=50600771",
+        "points": 42,
+        "comments": 69,
+        "created": "2026-11-22T15:52:33.000Z"
       }
     }
   },
   "launches": {
-    "fetchedAt": "2026-11-22T14:26:40.539Z",
+    "fetchedAt": "2026-11-23T06:34:36.175Z",
     "candidates": {
       "https://www.producthunt.com/products/tecla-3": {
         "source": "Product Hunt",
@@ -14837,13 +14644,6 @@
         "url": "https://www.producthunt.com/products/creavit-studio",
         "published": "2026-11-20T21:11:32.000Z",
         "summary": "Screen recording, iPhone camera and cinematic demos for Mac Discussion | Link"
-      },
-      "https://www.producthunt.com/products/copy-haste": {
-        "source": "Product Hunt",
-        "title": "Copy Haste",
-        "url": "https://www.producthunt.com/products/copy-haste",
-        "published": "2026-11-15T17:16:10.000Z",
-        "summary": "Your clipboard, sorted into Text, Code, Links, Media & more Discussion | Link"
       },
       "https://www.producthunt.com/products/ulika": {
         "source": "Product Hunt",
