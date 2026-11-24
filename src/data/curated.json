@@ -639,9 +639,29 @@
     "https://news.ycombinator.com/item?id=50594132": {
       "why": "Runs 27 named detectors over a capture locally and returns a severity plus a next step for each, aimed at finding faults rather than browsing packets; beta, Apache 2.0.",
       "pickedOn": "2026-11-23"
+    },
+    "ersinkoc/phonebox": {
+      "why": "The layout editor runs in the browser with live preview, and the desktop agent also reads local Claude Code and Codex sessions plus CI status, not just system stats.",
+      "pickedOn": "2026-11-24"
+    },
+    "os6/nospeaker": {
+      "why": "Drives the Force Touch motor at up to 4,000 taps a second to synthesize audible speech from a trackpad, shipped as a signed and notarized binary rather than a demo video.",
+      "pickedOn": "2026-11-24"
+    },
+    "sshkeda/minecraft-server-on-orange-cloud": {
+      "why": "Runs a real Paper server on Spectrum, Durable Objects and containers, saving the world to R2 and cold-starting in about 30 seconds, with the ~$25-30 monthly cost stated up front.",
+      "pickedOn": "2026-11-24"
+    },
+    "erkamyaman/safe-anything": {
+      "why": "One Rust binary combining SAST rules, secret scanning, dependency CVEs and checks of AI agent configs, with a documented 75-rule set and per-finding fixes.",
+      "pickedOn": "2026-11-24"
+    },
+    "https://news.ycombinator.com/item?id=50607261": {
+      "why": "Loads Apple's XNU kernel as a module inside a stock arm64 Linux kernel, so macOS processes run natively beside Linux ones with no hypervisor, booting to the desktop.",
+      "pickedOn": "2026-11-24"
     }
   },
-  "updatedAt": "2026-11-23T06:34:06.920Z",
+  "updatedAt": "2026-11-24T06:34:28.624Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1867,14 +1887,6 @@
     }
   },
   "deepdiveSkips": {
-    "https://stripe.com/blog/trends-from-money20-20-2026-the-rise-of-hidden-financial-services": "2026-10-24",
-    "https://discord.com/blog/discord-update-october-22-2026": "2026-10-24",
-    "https://blog.cloudflare.com/k-isms": "2026-10-24",
-    "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent": "2026-10-24",
-    "https://www.figma.com/blog/lufthansa-figma-make": "2026-10-24",
-    "https://quad9.net/news/blog/au-revoir-france": "2026-10-24",
-    "https://unixdigest.com/tutorials/tell-your-network-to-explain-itself-and-then-some.html": "2026-10-24",
-    "https://duckdb.org/2026/10/21/announcing-duckdb-200.html": "2026-10-24",
     "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4": "2026-10-25",
     "https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers": "2026-10-25",
     "https://www.seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages": "2026-10-25",
@@ -2284,6 +2296,72 @@
         "topic": "hardware",
         "why": "A Pune startup built an atomic clock prototype, a technology critical to navigation, telecom and space missions, as export curbs tighten on such strategic components."
       }
+    ],
+    "2026-11-24": [
+      {
+        "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+        "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+        "source": "Ars Technica",
+        "published": "2026-11-23T15:46:18.000Z",
+        "topic": "ai",
+        "why": "Nvidia's board unanimously reinstated Jensen Huang as CEO and chair 11 days after he resigned over affairs, with Trump saying he spoke to the board and that Huang did nothing wrong."
+      },
+      {
+        "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+        "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+        "source": "TechCrunch",
+        "published": "2026-11-23T17:14:23.000Z",
+        "topic": "business",
+        "why": "Amazon agreed to pay $7.5 billion for Decart's AI optimization technology and research team as it prepares to sell its own Trainium chips as a rival to Nvidia."
+      },
+      {
+        "title": "Bulgaria evicts cyber snoops who lurked inside government networks for 5 years",
+        "url": "https://www.theregister.com/security/2026/11/23/bulgaria-evicts-cyber-snoops-who-lurked-inside-government-networks-for-5-years/5311629",
+        "source": "The Register",
+        "published": "2026-11-23T17:01:00.000Z",
+        "topic": "security",
+        "why": "Bulgaria shut down a cyberespionage operation that had access to government networks for five years and downloaded over 130 GB of data, caught only by a new national security system."
+      },
+      {
+        "title": "Microsoft mega outage: Report reveals testing gaps and emails that never arrived",
+        "url": "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656",
+        "source": "The Register",
+        "published": "2026-11-23T16:16:00.000Z",
+        "topic": "software",
+        "why": "Microsoft's final report on November's Microsoft 365 outage confirmed some emails never reached recipients and exposed testing and recovery gaps, prompting promises of stronger safeguards."
+      },
+      {
+        "title": "COP31 ends in failure as countries split over fossil fuels, climate finance",
+        "url": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
+        "source": "Ars Technica",
+        "published": "2026-11-23T15:23:26.000Z",
+        "topic": "policy",
+        "why": "COP31 ended without a consensus deal for the first time since 2009, as countries split over fossil fuels and climate finance."
+      },
+      {
+        "title": "Why using rocks for carbon removal could eventually reduce crop growth",
+        "url": "https://www.technologyreview.com/2026/11/23/1149392/why-using-rocks-for-carbon-removal-could-eventually-reduce-crop-growth/",
+        "source": "MIT Technology Review",
+        "published": "2026-11-23T11:00:00.000Z",
+        "topic": "science",
+        "why": "New CarbonPlan preprint studies find that spreading crushed rock on farms for carbon removal could eventually cut crop yields, likely capping the method below a billion tons a year."
+      },
+      {
+        "title": "Meta throws out its net-zero goal. Its competitors should be furious",
+        "url": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/",
+        "source": "TechCrunch",
+        "published": "2026-11-23T17:13:45.000Z",
+        "topic": "business",
+        "why": "Meta's 2026 sustainability report drops its 2030 net-zero commitment and sets no new timeline, a retreat as its AI data center buildout drives emissions up."
+      },
+      {
+        "title": "GTA 6 hacker released on licence with warning 'don't let this happen again'",
+        "url": "https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "published": "2026-11-23T14:08:50.000Z",
+        "topic": "security",
+        "why": "Arion Kurtaj, who hacked Rockstar Games and leaked GTA 6 clips as a teen in Lapsus$, was sentenced to seven years but released on licence the same day with a five-year online restriction order."
+      }
     ]
   },
   "ideaDays": {
@@ -2535,6 +2613,64 @@
             "title": "I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA",
             "url": "https://news.ycombinator.com/item?id=50577613",
             "source": "Ask HN"
+          }
+        ]
+      }
+    ],
+    "2026-11-24": [
+      {
+        "title": "WakeCraft",
+        "problem": "Self-hosted game servers that sleep when idle leave the next player staring at a failed connection for half a minute with no way to tell \"waking\" from \"down\" or to alert friends when it is ready.",
+        "firstBuild": "Store a server address and wake hook, poll its status, show waking/ready/online players, and send a push notification when the server is joinable.",
+        "mobileFit": "The phone can trigger the wake before the user reaches a laptop and deliver the \"ready to join\" push wherever they are.",
+        "validation": "Ask server owners whether they currently text friends \"server's up\" and would install a companion app to replace that manual ping.",
+        "evidence": [
+          {
+            "title": "sshkeda/minecraft-server-on-orange-cloud",
+            "url": "https://github.com/sshkeda/minecraft-server-on-orange-cloud",
+            "source": "GitHub"
+          }
+        ]
+      },
+      {
+        "title": "Landed",
+        "problem": "Freelancers and small businesses send invoices and quotes from their phones and only learn an email was spam-filtered or dropped when the client says it never arrived and payment is late.",
+        "firstBuild": "Enter a sending domain to check SPF/DKIM/DMARC, send a test message to seed inboxes, show inbox/spam/missing placement, and add a 48-hour \"no reply, verify delivery\" reminder.",
+        "mobileFit": "Invoices are usually sent from the phone in the field, so the pre-send check and follow-up nudge belong in the same place.",
+        "validation": "Ask freelancers whether a client has ever said \"I never got that email\" about an invoice and whether they would run a pre-send check.",
+        "evidence": [
+          {
+            "title": "Microsoft mega outage: Report reveals testing gaps and emails that never arrived",
+            "url": "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656",
+            "source": "The Register"
+          }
+        ]
+      },
+      {
+        "title": "RatingClock",
+        "problem": "Gig drivers' ratings mix trips from years ago with this week's, so a stale one-star can hide a new problem or hold a driver below a threshold with no per-trip visibility.",
+        "firstBuild": "One-tap logging of rating snapshots after each shift, a recency-weighted 30/90/365-day score, and a shareable trend summary showing which recent period moved the number.",
+        "mobileFit": "Drivers already check their rating between trips, so a home-screen widget and post-shift prompt make logging a few seconds of work.",
+        "validation": "Ask drivers whether they would log rating changes after shifts to find out which recent trips hurt them.",
+        "evidence": [
+          {
+            "title": "Ask HN: Should Uber Ratings Decay over Time?",
+            "url": "https://news.ycombinator.com/item?id=50583294",
+            "source": "Ask HN"
+          }
+        ]
+      },
+      {
+        "title": "TapAlarm",
+        "problem": "Phone alarms and notifications depend on sound or one generic buzz, so Deaf, hard-of-hearing, and sound-sensitive people can miss or sleep through urgent alerts.",
+        "firstBuild": "A composer for distinguishable haptic patterns (escalating, repeated, per-contact) attached to alarms and notifications, with repeat-until-acknowledged behavior.",
+        "mobileFit": "The phone's vibration motor travels with the user and can signal silently at night, in meetings, or in loud places.",
+        "validation": "Ask Deaf and hard-of-hearing users to try three patterns and report which they can recognize and wake to without sound.",
+        "evidence": [
+          {
+            "title": "os6/nospeaker",
+            "url": "https://github.com/os6/nospeaker",
+            "source": "GitHub"
           }
         ]
       }
