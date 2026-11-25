@@ -659,9 +659,29 @@
     "https://news.ycombinator.com/item?id=50607261": {
       "why": "Loads Apple's XNU kernel as a module inside a stock arm64 Linux kernel, so macOS processes run natively beside Linux ones with no hypervisor, booting to the desktop.",
       "pickedOn": "2026-11-24"
+    },
+    "xcl-dev/xcl": {
+      "why": "Unlike an emulator it does no CPU emulation, and its compatibility table lists one game playable with per-title limits; ships no console SDK code or keys.",
+      "pickedOn": "2026-11-25"
+    },
+    "Avaneesh-Inamdar/Stream-Tube-Desktop": {
+      "why": "UI is drawn with GPUI and video plays through libmpv, avoiding Electron memory cost and the constant breakage of web frontends; built for Windows and Linux.",
+      "pickedOn": "2026-11-25"
+    },
+    "https://news.ycombinator.com/item?id=50602561": {
+      "why": "A preprocessor that emits readable C and hands it to your existing cc, so you can adopt it one file at a time; core language works today and examples are tested.",
+      "pickedOn": "2026-11-25"
+    },
+    "https://news.ycombinator.com/item?id=50610743": {
+      "why": "Runs the real XP explorer.exe as your Linux desktop shell on patched Wine, with Linux app windows in XP frames; explicitly experimental, only tested on a fresh Debian 13.",
+      "pickedOn": "2026-11-25"
+    },
+    "deterministic-machines/deslop-please": {
+      "why": "A Rust linter enforcing a small named rule set from A Philosophy of Software Design, like module cycles and shallow modules, aimed at code written by agents.",
+      "pickedOn": "2026-11-25"
     }
   },
-  "updatedAt": "2026-11-24T06:34:28.624Z",
+  "updatedAt": "2026-11-25T06:33:46.471Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1884,14 +1904,58 @@
       "topic": "architecture",
       "why": "Explains how a wearable maker designs a system where no operator can reach user data, gating decryption keys on attested instances and Nitro isolation.",
       "pickedOn": "2026-11-22"
+    },
+    "https://progrium.xyz/articles/2026/single-binary-postgres": {
+      "title": "How I Got Postgres into a Single Binary",
+      "url": "https://progrium.xyz/articles/2026/single-binary-postgres",
+      "source": "Lobsters",
+      "published": "2026-11-21T19:32:22.642Z",
+      "discussion": "https://lobste.rs/s/pvylnk/how_i_got_postgres_into_single_binary",
+      "topic": "infrastructure",
+      "why": "Explains the build and linking work needed to ship Postgres as a single executable, and what has to be embedded or stripped to get there.",
+      "pickedOn": "2026-11-25"
+    },
+    "https://blog.tymscar.com/posts/studiodisplayethernet": {
+      "title": "My Monitor Was Cutting My Download Speed by 75%",
+      "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+      "source": "Lobsters",
+      "published": "2026-11-21T15:03:28.370Z",
+      "discussion": "https://lobste.rs/s/qzerls/my_monitor_was_cutting_my_download_speed",
+      "topic": "infrastructure",
+      "why": "Chases a 2.5 Gbps link delivering only 600 Mbps through a USB-C Ethernet adapter behind a monitor, showing how to isolate a throughput fault across layers.",
+      "pickedOn": "2026-11-25"
+    },
+    "https://tianyin.github.io/misc/pir_microsoft_365_11-12-2026.pdf": {
+      "title": "Microsoft 365 Outage - Post Incident Report",
+      "url": "https://tianyin.github.io/misc/pir_microsoft_365_11-12-2026.pdf",
+      "source": "Lobsters",
+      "published": "2026-11-21T12:22:47.193Z",
+      "discussion": "https://lobste.rs/s/becitz/microsoft_365_outage_post_incident",
+      "topic": "reliability",
+      "why": "Post-incident report on the Microsoft 365 outage covering what failed, how it propagated, and what the team changed afterward.",
+      "pickedOn": "2026-11-25"
+    },
+    "https://blog.cloudflare.com/probing-dns-at-cloudflare": {
+      "title": "Probing DNS at Cloudflare",
+      "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+      "source": "Cloudflare",
+      "published": "2026-11-23T14:00:00.000Z",
+      "topic": "infrastructure",
+      "why": "Shows how Cloudflare extended its internal testing framework into tooling that probes DNS behavior, and what that approach catches.",
+      "pickedOn": "2026-11-25"
+    },
+    "https://aerogramme.deuxfleurs.fr/blog/2026-quality-imap-part-2": {
+      "title": "Quality IMAP, Part 2: Mailbox Concurrency",
+      "url": "https://aerogramme.deuxfleurs.fr/blog/2026-quality-imap-part-2/",
+      "source": "Lobsters",
+      "published": "2026-11-23T11:05:08.785Z",
+      "discussion": "https://lobste.rs/s/lnpwpu/quality_imap_part_2_mailbox_concurrency",
+      "topic": "distributed",
+      "why": "Details the concurrency rules an IMAP server needs so simultaneous clients mutating one mailbox stay consistent, and the trade-offs involved.",
+      "pickedOn": "2026-11-25"
     }
   },
   "deepdiveSkips": {
-    "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4": "2026-10-25",
-    "https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers": "2026-10-25",
-    "https://www.seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages": "2026-10-25",
-    "https://blog.fyralabs.com/debunking-faster-than-rust-malicious-benchmarks-in-tov": "2026-10-25",
-    "https://fishbowl.pastiche.org/2026/10/23/hibernate-origin-story": "2026-10-25",
     "https://muratbuffalo.blogspot.com/2026/10/what-do-frontier-labs-actually-believe.html": "2026-10-26",
     "https://danluu.com/ambitious": "2026-10-26",
     "https://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html": "2026-10-27",
@@ -1964,7 +2028,12 @@
     "https://aws.amazon.com/blogs/architecture/how-country-road-group-built-a-pattern-driven-integration-solution-on-aws": "2026-11-21",
     "https://blog.cloudflare.com/ruby2shell-waf-protection": "2026-11-22",
     "https://blog.cloudflare.com/phpaftershell-waf-protection": "2026-11-22",
-    "https://www.figma.com/blog/workflow-lab-specs-and-the-figma-agent": "2026-11-22"
+    "https://www.figma.com/blog/workflow-lab-specs-and-the-figma-agent": "2026-11-22",
+    "https://aphyr.com/posts/429-and-you-would-be-supporting-a-local-paper": "2026-11-25",
+    "https://discord.com/blog/introducing-auto-clips": "2026-11-25",
+    "https://stripe.com/blog/custom-software-specialized-workflows-and-other-new-growth-paths-from-saas-platform-summit": "2026-11-25",
+    "https://sneakernet.eu": "2026-11-25",
+    "https://discord.com/blog/black-friday-2026": "2026-11-25"
   },
   "newsDays": {
     "2026-11-19": [
@@ -2362,6 +2431,72 @@
         "topic": "security",
         "why": "Arion Kurtaj, who hacked Rockstar Games and leaked GTA 6 clips as a teen in Lapsus$, was sentenced to seven years but released on licence the same day with a five-year online restriction order."
       }
+    ],
+    "2026-11-25": [
+      {
+        "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+        "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+        "source": "TechCrunch",
+        "published": "2026-11-24T16:46:00.000Z",
+        "topic": "ai",
+        "why": "Tidal will delete about 29 million fully AI-generated tracks from December 9 and reject 80,000-85,000 uploads a day, after AI-made songs hit 43% of recent submissions."
+      },
+      {
+        "title": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
+        "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+        "source": "The Verge",
+        "published": "2026-11-24T16:37:03.000Z",
+        "topic": "policy",
+        "why": "The US Commerce Department added Singapore-based Megaspeed and affiliates to its Entity List, restricting trade over suspected diversion of advanced AI chips to China, hours after Jensen Huang returned as Nvidia CEO."
+      },
+      {
+        "title": "An AI coding agent, a browser, and a Mac tool found a financial firm's access key in under 6 minutes",
+        "url": "https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922",
+        "source": "The Register",
+        "published": "2026-11-24T17:00:00.000Z",
+        "topic": "security",
+        "why": "A tester using a free open-source coding agent, Chrome and a Mac found an access key at a financial services firm in under six minutes, showing low-cost AI-driven intrusions are already practical."
+      },
+      {
+        "title": "Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch",
+        "url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
+        "source": "TechCrunch",
+        "published": "2026-11-24T16:40:46.000Z",
+        "topic": "software",
+        "why": "Uber and Nuro began driverless testing of Lucid Gravity robotaxis on Bay Area public roads and will offer employee rides before a commercial service planned for early 2027."
+      },
+      {
+        "title": "NASA may get $2 billion boost as White House seeks to accelerate Artemis",
+        "url": "https://arstechnica.com/space/2026/11/nasa-may-get-2-billion-boost-as-white-house-seeks-to-accelerate-artemis/",
+        "source": "Ars Technica",
+        "published": "2026-11-24T16:12:46.000Z",
+        "topic": "science",
+        "why": "The White House is seeking a $2 billion increase for NASA to accelerate Artemis, warning that without the funding planned activities would be delayed."
+      },
+      {
+        "title": "The New York Times warns photographers not to update Photoshop over AI features",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+        "source": "The Verge",
+        "published": "2026-11-24T16:09:23.000Z",
+        "topic": "software",
+        "why": "The New York Times told freelance photographers not to install the 2027 Photoshop update, saying its AI features can tag photos as AI-generated in metadata and risk eroding trust."
+      },
+      {
+        "title": "Data centers are getting their own natural gas power plants",
+        "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
+        "source": "MIT Technology Review",
+        "published": "2026-11-24T11:00:00.000Z",
+        "topic": "business",
+        "why": "US data center developers have announced more than 100 off-grid gas power plants with over 115 GW planned capacity, bypassing years-long grid queues while raising climate and cost concerns."
+      },
+      {
+        "title": "The catch in IBM’s offer to relocate its U.S.-based immigrant workers",
+        "url": "https://restofworld.org/2026/ibm-consulting-ends-us-visa-green-card-sponsorship/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+        "source": "Rest of World",
+        "published": "2026-11-23T11:00:00.000Z",
+        "topic": "business",
+        "why": "IBM stopped sponsoring US visas and green cards for most consulting roles, offering affected immigrant employees relocation abroad, which one employee said could mean an 80% pay cut in India."
+      }
     ]
   },
   "ideaDays": {
@@ -2671,6 +2806,74 @@
             "title": "os6/nospeaker",
             "url": "https://github.com/os6/nospeaker",
             "source": "GitHub"
+          }
+        ]
+      }
+    ],
+    "2026-11-25": [
+      {
+        "title": "ForkFlood",
+        "problem": "Fast-moving compatibility-layer projects spawn duplicate forks and a flood of near-identical pull requests, so contributors land on abandoned copies and maintainers cannot tell which patch is canonical.",
+        "firstBuild": "A GitHub App plus mobile inbox that clusters open PRs and repos by patch similarity, then lets a maintainer swipe to close duplicates, mark a canonical fork, and push a one-line redirect comment.",
+        "mobileFit": "Maintainers triage bursts of incoming PRs from a phone with push alerts and swipe actions instead of opening a laptop for every duplicate.",
+        "validation": "Ask maintainers of the Leonida and XCL forks how many duplicate PRs or forks they close in a typical week and how they currently decide which fork to point contributors to.",
+        "evidence": [
+          {
+            "title": "GTA 6 Xbox executable released early by cyberleek",
+            "url": "https://news.ycombinator.com/item?id=50612686",
+            "source": "Hacker News"
+          },
+          {
+            "title": "ProjectLeonidaL/leonida",
+            "url": "https://github.com/ProjectLeonidaL/leonida",
+            "source": "GitHub"
+          }
+        ]
+      },
+      {
+        "title": "NegativeProof",
+        "problem": "Photographers' own editing tools can silently write AI-generated provenance metadata into files, which then follows an image to clients and undermines claims that the photo is authentic.",
+        "firstBuild": "An on-device camera-roll scan that flags images carrying IPTC trainedAlgorithmicMedia flags or C2PA generative manifests, shows exactly which fields are set, and warns in the share sheet before the file is sent.",
+        "mobileFit": "The delivered files originate in the phone's camera roll and leave through the share sheet, so the check belongs at that point rather than in desktop editing software.",
+        "validation": "Ask freelance photographers whether a client or editor has ever questioned an image's authenticity, and whether they know which files in their current delivery carry AI-related metadata.",
+        "evidence": [
+          {
+            "title": "The New York Times warns photographers not to update Photoshop over AI features",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+            "source": "The Verge"
+          }
+        ]
+      },
+      {
+        "title": "HeldBy",
+        "problem": "People cannot enumerate which services hold their passport number, phone, or travel history until a breach notice arrives, and the deletion requests that would reduce exposure are tedious to produce.",
+        "firstBuild": "A local encrypted list of vendors and the data categories each one holds, built by scanning documents with the camera, with per-vendor retention reminders and generated deletion-request emails.",
+        "mobileFit": "Passports, contracts, and account emails are photographed and acted on from the phone, and the vault plus reminders work without depending on any single login provider.",
+        "validation": "Ask prospective users to name three services that currently store their passport number and to describe what they did the last time they received a breach notification.",
+        "evidence": [
+          {
+            "title": "Ask HN: Everything will get breached. How do you limit the blast radius?",
+            "url": "https://news.ycombinator.com/item?id=50626772",
+            "source": "Ask HN"
+          },
+          {
+            "title": "Why are so many services using email magic links for login?",
+            "url": "https://news.ycombinator.com/item?id=50625996",
+            "source": "Ask HN"
+          }
+        ]
+      },
+      {
+        "title": "SessionSeal",
+        "problem": "Independent musicians now share release slots with a flood of fully synthetic tracks, but they have no lightweight way to show that a recording came from a human performance.",
+        "firstBuild": "An app that records short performance or session clips at creation time, hashes and timestamps them locally, and attaches a verifiable provenance bundle to a release page.",
+        "mobileFit": "Phones are already where artists capture voice memos, demos, and behind-the-scenes clips, so sealing happens during creation instead of as an afterthought on a desktop.",
+        "validation": "Ask independent artists and small labels whether distributors, playlist curators, or listeners have asked them for any proof of human authorship, and what evidence they could produce today.",
+        "evidence": [
+          {
+            "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+            "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+            "source": "TechCrunch"
           }
         ]
       }
