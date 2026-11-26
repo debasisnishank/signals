@@ -679,9 +679,29 @@
     "deterministic-machines/deslop-please": {
       "why": "A Rust linter enforcing a small named rule set from A Philosophy of Software Design, like module cycles and shallow modules, aimed at code written by agents.",
       "pickedOn": "2026-11-25"
+    },
+    "ivall/xcl": {
+      "why": "Native x64 execution like Wine, but it also recompiles the console's RDNA2 shaders to DXIL and already runs Minecraft Preview, unlike the GTA VI forks built around it.",
+      "pickedOn": "2026-11-26"
+    },
+    "Marvisak/VIctory": {
+      "why": "Static reimplementation of an Xbox Series platform with an unusually honest status table: the title boots and renders the prologue, but only at about 1 fps, so it is research, not playable.",
+      "pickedOn": "2026-11-26"
+    },
+    "https://news.ycombinator.com/item?id=50630294": {
+      "why": "Serves analytics from a Postgres-compatible read replica backed by DuckDB columnar storage, avoiding both ClickHouse's SQL differences and a separate query layer.",
+      "pickedOn": "2026-11-26"
+    },
+    "https://news.ycombinator.com/item?id=50629936": {
+      "why": "Runs agent sandboxes inside your own EKS account with object-storage snapshots you can fork or resume; still beta, with chart values and wire contract subject to change.",
+      "pickedOn": "2026-11-26"
+    },
+    "https://news.ycombinator.com/item?id=50641171": {
+      "why": "Windows loudness equalization reverse-engineered and rebuilt as a PipeWire filter with per-app control and a separate limiter, installable today on PipeWire 1.4 or newer.",
+      "pickedOn": "2026-11-26"
     }
   },
-  "updatedAt": "2026-11-25T06:33:46.471Z",
+  "updatedAt": "2026-11-26T06:34:36.076Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -1953,11 +1973,48 @@
       "topic": "distributed",
       "why": "Details the concurrency rules an IMAP server needs so simultaneous clients mutating one mailbox stay consistent, and the trade-offs involved.",
       "pickedOn": "2026-11-25"
+    },
+    "https://muratbuffalo.blogspot.com/2026/11/meaningful-human-in-loop-checking-of.html": {
+      "title": "Meaningful Human-in-the-Loop Checking of GenAI Synthesis for Restricted Languages",
+      "url": "https://muratbuffalo.blogspot.com/2026/11/meaningful-human-in-loop-checking-of.html",
+      "source": "Murat Demirbas",
+      "published": "2026-11-24T22:11:31.662Z",
+      "topic": "distributed",
+      "why": "Explains how deriving code from specs removes the redundancy that verification relies on, and how asking users to classify distinguishing scenarios restores it.",
+      "pickedOn": "2026-11-26"
+    },
+    "https://donsz.nl/blog/optimizing-rustcs-next-trait-solver": {
+      "title": "Optimizing Rustc's next trait solver",
+      "url": "https://donsz.nl/blog/optimizing-rustcs-next-trait-solver",
+      "source": "Lobsters",
+      "published": "2026-11-25T13:09:22.097Z",
+      "discussion": "https://lobste.rs/s/lyyksp/optimizing_rustc_s_next_trait_solver",
+      "topic": "performance",
+      "why": "Walks through how the rustc trait solver's performance was profiled and improved to unblock stabilization, explaining the solver for readers without prior knowledge.",
+      "pickedOn": "2026-11-26"
+    },
+    "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each": {
+      "title": "Taking over US Treasury subdomains for $3 each",
+      "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+      "source": "Lobsters",
+      "published": "2026-11-25T10:27:49.339Z",
+      "discussion": "https://lobste.rs/s/ogxwpi/taking_over_us_treasury_subdomains_for_3",
+      "topic": "infrastructure",
+      "why": "Shows how dangling DNS records pointing at released AWS Elastic IPs can be claimed for a few dollars, and how the takeover was automated and detected.",
+      "pickedOn": "2026-11-26"
+    },
+    "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg": {
+      "title": "Worshipping at the altar of Brendan Gregg",
+      "url": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
+      "source": "Lobsters",
+      "published": "2026-11-24T10:50:52.927Z",
+      "discussion": "https://lobste.rs/s/voxuev/worshipping_at_altar_brendan_gregg",
+      "topic": "performance",
+      "why": "Uses critical path analysis on a build to show why CPU profiles mislead and where the time actually goes, with concrete numbers.",
+      "pickedOn": "2026-11-26"
     }
   },
   "deepdiveSkips": {
-    "https://muratbuffalo.blogspot.com/2026/10/what-do-frontier-labs-actually-believe.html": "2026-10-26",
-    "https://danluu.com/ambitious": "2026-10-26",
     "https://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html": "2026-10-27",
     "https://media.ccc.de/v/matrix-conference-2026-99070-a-vision-for-a-next-generation-timeline": "2026-10-27",
     "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks": "2026-10-28",
@@ -2033,7 +2090,11 @@
     "https://discord.com/blog/introducing-auto-clips": "2026-11-25",
     "https://stripe.com/blog/custom-software-specialized-workflows-and-other-new-growth-paths-from-saas-platform-summit": "2026-11-25",
     "https://sneakernet.eu": "2026-11-25",
-    "https://discord.com/blog/black-friday-2026": "2026-11-25"
+    "https://discord.com/blog/black-friday-2026": "2026-11-25",
+    "https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides": "2026-11-26",
+    "https://mastodon.social/@pervognsen/117668394962974183": "2026-11-26",
+    "https://blog.cloudflare.com/search-for-agents": "2026-11-26",
+    "https://www.marginalia.nu/log/a_141_marginalia_update": "2026-11-26"
   },
   "newsDays": {
     "2026-11-19": [
@@ -2497,6 +2558,72 @@
         "topic": "business",
         "why": "IBM stopped sponsoring US visas and green cards for most consulting roles, offering affected immigrant employees relocation abroad, which one employee said could mean an 80% pay cut in India."
       }
+    ],
+    "2026-11-26": [
+      {
+        "title": "US Treasury financial crimes unit becomes latest fed breach victim",
+        "url": "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165",
+        "source": "The Register",
+        "published": "2026-11-25T16:40:16.000Z",
+        "topic": "security",
+        "why": "The US Treasury's FinCEN took some systems offline and extended filing deadlines after unauthorized access to a limited subset of its systems, disrupting bank reporting."
+      },
+      {
+        "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+        "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "published": "2026-11-25T02:59:27.000Z",
+        "topic": "business",
+        "why": "A Brooklyn jury found Huawei guilty on 10 of 12 counts, including conspiracy to steal trade secrets, bank fraud and sanctions violations, but acquitted it of racketeering."
+      },
+      {
+        "title": "AI is straining America’s open records systems",
+        "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+        "source": "MIT Technology Review",
+        "published": "2026-11-25T10:00:00.000Z",
+        "topic": "policy",
+        "why": "AI-drafted and startup-driven public records requests are overwhelming US agencies, prompting some states to pass laws making it easier to deny them, potentially reducing transparency."
+      },
+      {
+        "title": "How foreign AI romance apps are reshaping youth intimacy in Africa",
+        "url": "https://restofworld.org/2026/ai-companion-apps-africa-character-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+        "source": "Rest of World",
+        "published": "2026-11-25T11:00:00.000Z",
+        "topic": "ai",
+        "why": "With no African country specifically regulating AI companion apps, downloads jumped nearly 60% in South Africa and Nigeria last year, drawing in children as young as 10."
+      },
+      {
+        "title": "Allstate suffers multi-day tech outage ahead of Thanksgiving",
+        "url": "https://techcrunch.com/2026/11/25/allstate-suffers-multi-day-tech-outage-ahead-of-thanksgiving/",
+        "source": "TechCrunch",
+        "published": "2026-11-25T15:08:37.000Z",
+        "topic": "software",
+        "why": "Allstate's website and app have been down since Monday, blocking US customers from filing claims, paying bills and checking policies before Thanksgiving, with no cause given yet."
+      },
+      {
+        "title": "NASA's nuclear-powered Mars delivery service takes shape",
+        "url": "https://www.theregister.com/science/2026/11/25/nasas-nuclear-powered-mars-delivery-service-takes-shape/5312147",
+        "source": "The Register",
+        "published": "2026-11-25T15:30:00.000Z",
+        "topic": "science",
+        "why": "NASA settled design changes for SR-1 Freedom, a fission-powered spacecraft targeting a late-2028 launch to carry three helicopters to Mars, leaving roughly two years to build and test it."
+      },
+      {
+        "title": "Why tiny cars are taking off across Europe",
+        "url": "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "published": "2026-11-25T00:34:05.000Z",
+        "topic": "hardware",
+        "why": "Registrations of no-licence micro-cars in France rose from about 13,000 in 2019 to 25,000 last year, with teenagers now a quarter of sales as the vehicles spread across Europe."
+      },
+      {
+        "title": "A familiar Iranian hacking group has found a new way to cause chaos",
+        "url": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
+        "source": "Ars Technica",
+        "published": "2026-11-25T14:29:43.000Z",
+        "topic": "security",
+        "why": "France blames an Iranian cyber unit for sabotaging hundreds of supermarket freezers, illustrating a new way for the group to cause disruption."
+      }
     ]
   },
   "ideaDays": {
@@ -2874,6 +3001,74 @@
             "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
             "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
             "source": "TechCrunch"
+          }
+        ]
+      }
+    ],
+    "2026-11-26": [
+      {
+        "title": "SendSize",
+        "problem": "People can't send or upload phone videos and HEIC photos because of format and size limits, and cloud converters require uploading private media first.",
+        "firstBuild": "A share-sheet app that converts HEIC to JPG and compresses video to a target size using saved presets, entirely on-device.",
+        "mobileFit": "The files are created on the phone and the share sheet is exactly where sending fails, so conversion must happen before the file leaves the device.",
+        "validation": "Ask people who regularly hit messaging or upload size limits whether a one-tap size-target preset would replace their current workaround.",
+        "evidence": [
+          {
+            "title": "zero5122/offline-file-converter-windows",
+            "url": "https://github.com/zero5122/offline-file-converter-windows",
+            "source": "GitHub"
+          },
+          {
+            "title": "kai415-debug/ffmpeg-video-audio-converter",
+            "url": "https://github.com/kai415-debug/ffmpeg-video-audio-converter",
+            "source": "GitHub"
+          }
+        ]
+      },
+      {
+        "title": "ExposureLedger",
+        "problem": "People learn their passport number, phone, or address was exposed in a breach but have no record of which vendors hold which identifiers or what follow-up is still owed.",
+        "firstBuild": "An encrypted local inventory of identifiers per vendor plus a breach-notice scanner that turns a letter or email into a dated action checklist.",
+        "mobileFit": "Breach notices arrive by email and mail on the phone, and the follow-up steps like freezing, rotating, and notifying happen while mobile.",
+        "validation": "Ask people who received a breach notice in the past year whether they could list which other vendors hold the same exposed identifier.",
+        "evidence": [
+          {
+            "title": "Ask HN: Everything will get breached. How do you limit the blast radius?",
+            "url": "https://news.ycombinator.com/item?id=50626772",
+            "source": "Ask HN"
+          },
+          {
+            "title": "US Treasury financial crimes unit becomes latest fed breach victim",
+            "url": "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165",
+            "source": "The Register"
+          }
+        ]
+      },
+      {
+        "title": "RequestRelay",
+        "problem": "Journalists and citizens filing public records requests lose track of statutory response deadlines and appeal windows as agencies delay or deny more requests.",
+        "firstBuild": "An app that photographs acknowledgment and denial letters, extracts the agency and date, then creates deadline reminders with a prefilled appeal template.",
+        "mobileFit": "Letters and emails are captured and acted on from the phone, and deadline alerts need to reach the requester wherever they are.",
+        "validation": "Ask reporters who file records requests how they currently track deadlines and whether missed appeal windows are a real loss.",
+        "evidence": [
+          {
+            "title": "AI is straining America’s open records systems",
+            "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+            "source": "MIT Technology Review"
+          }
+        ]
+      },
+      {
+        "title": "EvenOut",
+        "problem": "Podcast and audiobook listeners constantly adjust volume because episodes, ads, and chapters are mastered at different loudness levels.",
+        "firstBuild": "A local audiobook and podcast-file player that normalizes loudness per file, remembers per-show gain, and saves playback position.",
+        "mobileFit": "Listening is a phone-first background, Bluetooth, and CarPlay workflow where the OS offers no per-app loudness control.",
+        "validation": "Ask daily listeners to log every volume adjustment during a week of commuting and say whether remembered per-show gain would stop it.",
+        "evidence": [
+          {
+            "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+            "url": "https://news.ycombinator.com/item?id=50641171",
+            "source": "Hacker News"
           }
         ]
       }
