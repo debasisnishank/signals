@@ -699,9 +699,29 @@
     "https://news.ycombinator.com/item?id=50641171": {
       "why": "Windows loudness equalization reverse-engineered and rebuilt as a PipeWire filter with per-app control and a separate limiter, installable today on PipeWire 1.4 or newer.",
       "pickedOn": "2026-11-26"
+    },
+    "alesha-pro/llm.asm": {
+      "why": "Hand-written AVX2/FMA kernels and BPE tokenizer in a 14 KB NASM binary, with cosine and greedy-token parity checks against PyTorch rather than just benchmark claims.",
+      "pickedOn": "2026-11-27"
+    },
+    "lsernau/grh-lean": {
+      "why": "A ~76k-line Lean 4 edition whose five theorems pass Lean's checker using only propext, choice and Quot.sound; machine-verified only, no mathematician has read it through.",
+      "pickedOn": "2026-11-27"
+    },
+    "Moh4696/inkworks-skill": {
+      "why": "Every part is three.js primitives plus closed-form kinematics driven by one angle, so stepping and scrubbing stay exact; installs as a skill for most coding agents.",
+      "pickedOn": "2026-11-27"
+    },
+    "erkamyaman/rea-games": {
+      "why": "Ports are proven by replaying recorded inputs and comparing state or draw calls against the original, with behavior captured in a plain GAME.md spec instead of prose claims.",
+      "pickedOn": "2026-11-27"
+    },
+    "https://news.ycombinator.com/item?id=50642300": {
+      "why": "Talks to the stock clock over its local HTTP interface instead of flashing firmware, and maps agent events to scenes; a demo runs via npx with no hardware or login.",
+      "pickedOn": "2026-11-27"
     }
   },
-  "updatedAt": "2026-11-26T06:34:36.076Z",
+  "updatedAt": "2026-11-27T06:35:28.607Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -2015,8 +2035,6 @@
     }
   },
   "deepdiveSkips": {
-    "https://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html": "2026-10-27",
-    "https://media.ccc.de/v/matrix-conference-2026-99070-a-vision-for-a-next-generation-timeline": "2026-10-27",
     "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks": "2026-10-28",
     "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4": "2026-10-28",
     "https://aws.amazon.com/blogs/architecture/data-governance-with-annotations-in-amazon-s3": "2026-10-28",
@@ -2094,7 +2112,8 @@
     "https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides": "2026-11-26",
     "https://mastodon.social/@pervognsen/117668394962974183": "2026-11-26",
     "https://blog.cloudflare.com/search-for-agents": "2026-11-26",
-    "https://www.marginalia.nu/log/a_141_marginalia_update": "2026-11-26"
+    "https://www.marginalia.nu/log/a_141_marginalia_update": "2026-11-26",
+    "https://garagehq.deuxfleurs.fr/blog/2026-11-webadmin-release": "2026-11-27"
   },
   "newsDays": {
     "2026-11-19": [
@@ -2624,6 +2643,72 @@
         "topic": "security",
         "why": "France blames an Iranian cyber unit for sabotaging hundreds of supermarket freezers, illustrating a new way for the group to cause disruption."
       }
+    ],
+    "2026-11-27": [
+      {
+        "title": "Federal judge blocks the FCC from reviewing ABC’s licenses early",
+        "url": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
+        "source": "The Verge",
+        "published": "2026-11-26T16:38:00.000Z",
+        "topic": "policy",
+        "why": "A federal judge preliminarily blocked the FCC from pursuing an early review of ABC's broadcast licenses, finding the network likely to succeed on its claim that the agency retaliated over its content."
+      },
+      {
+        "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
+        "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+        "source": "TechCrunch",
+        "published": "2026-11-26T16:00:00.000Z",
+        "topic": "business",
+        "why": "Anthropic became the first major AI lab to go public with an $81.3 billion IPO, the same day GTA VI's $3.79 billion launch highlighted a hit built without generative AI."
+      },
+      {
+        "title": "Rackspace pulls plug on Spot cloud service after security breach",
+        "url": "https://www.theregister.com/cyber-crime/2026/11/26/rackspace-pulls-plug-on-spot-cloud-service-after-security-breach/5312352",
+        "source": "The Register",
+        "published": "2026-11-26T14:45:00.000Z",
+        "topic": "security",
+        "why": "Rackspace is shutting down its Spot cloud service on December 8 after attackers used leaked credentials to breach it, giving customers two weeks to migrate workloads and rotate credentials."
+      },
+      {
+        "title": "The next generation of bionic hands is here—and they can feel",
+        "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
+        "source": "MIT Technology Review",
+        "published": "2026-11-26T09:59:00.000Z",
+        "topic": "science",
+        "why": "A clinical trial participant became the first to take home the LUKE bionic arm wired to nerves in his forearm, letting him feel pressure and handle delicate objects independently."
+      },
+      {
+        "title": "Australia’s Digital Duty of Care law: Why Big Tech is under pressure",
+        "url": "https://www.thehindu.com/sci-tech/technology/australias-digital-duty-of-care-law-why-big-tech-is-under-pressure/article71745512.ece",
+        "source": "The Hindu",
+        "published": "2026-11-26T06:52:42.000Z",
+        "topic": "policy",
+        "why": "Australia's parliament passed a Digital Duty of Care law making online services legally responsible for keeping users safe, with fines up to 5 percent of global turnover."
+      },
+      {
+        "title": "FCC approves SpaceX plan to put AI data centers in space",
+        "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+        "source": "TechCrunch",
+        "published": "2026-11-25T20:56:44.000Z",
+        "topic": "policy",
+        "why": "The FCC conditionally approved SpaceX's plan for up to 1 million orbital data-center satellites, dismissing opponents' concerns about debris, interference and astronomy as outside its authority."
+      },
+      {
+        "title": "How foreign AI romance apps are reshaping youth intimacy in Africa",
+        "url": "https://restofworld.org/2026/ai-companion-apps-africa-character-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+        "source": "Rest of World",
+        "published": "2026-11-25T11:00:00.000Z",
+        "topic": "ai",
+        "why": "With no African country specifically regulating AI companion apps, downloads jumped nearly 60 percent in South Africa and Nigeria last year, drawing in children as young as 10."
+      },
+      {
+        "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+        "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "published": "2026-11-25T02:59:27.000Z",
+        "topic": "business",
+        "why": "A Brooklyn jury found Huawei guilty of conspiring to steal trade secrets and of bank fraud but acquitted it of racketeering, and Huawei said it would defend its rights."
+      }
     ]
   },
   "ideaDays": {
@@ -3069,6 +3154,64 @@
             "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
             "url": "https://news.ycombinator.com/item?id=50641171",
             "source": "Hacker News"
+          }
+        ]
+      }
+    ],
+    "2026-11-27": [
+      {
+        "title": "SoundSticker",
+        "problem": "Making a sticker that plays sound means moving the clip to a desktop app or Chrome extension, because in-browser downloads from sound libraries are blocked, so the photo and audio already on your phone never become a sticker.",
+        "firstBuild": "A phone app that pairs a photo or GIF with a recorded or trimmed 5-second clip, renders a sound-capable video sticker locally, and shares it straight into a chat.",
+        "mobileFit": "The audio is captured, trimmed and previewed on the phone, and the finished sticker goes into the conversation through the share sheet with no desktop round trip.",
+        "validation": "Ask people who already send stickers whether the link-download/CORS step is what actually stops them, and which chat app they would want supported first.",
+        "evidence": [
+          {
+            "title": "SilverFeit/StikSound",
+            "url": "https://github.com/SilverFeit/StikSound",
+            "source": "GitHub"
+          }
+        ]
+      },
+      {
+        "title": "DiskShelf",
+        "problem": "After years of drive upgrades, files are scattered across dozens of unlabeled external disks, SD cards and burned discs, so finding which one holds a folder means plugging each in.",
+        "firstBuild": "A small indexer that writes a filename manifest per volume plus a phone app that scans a QR label stuck on each disk and searches those manifests offline.",
+        "mobileFit": "You are standing at a shelf of drives with no computer on, and a camera scan of the label answers \"which disk has this?\" instantly from cached indexes.",
+        "validation": "Ask owners of 10+ old drives whether they would label and scan every disk, or only index the handful they still plug in.",
+        "evidence": [
+          {
+            "title": "Rchive – Every drive I've owned since the 90s, searchable in one window",
+            "url": "https://news.ycombinator.com/item?id=50624684",
+            "source": "Hacker News"
+          }
+        ]
+      },
+      {
+        "title": "LoudLog",
+        "problem": "Viewers cannot tell whether a blaring ad, a too-quiet dialogue scene or a hidden system compressor is responsible for the volume swings, and have no measurement to argue with.",
+        "firstBuild": "An app that logs room loudness from the phone mic through a show, marks the spikes with timestamps, and exports a loudness-versus-time chart per channel or service.",
+        "mobileFit": "The phone is already the microphone sitting in the room, can keep logging while the TV plays, and can hand the finished chart to whoever you complain to.",
+        "validation": "Ask night-time viewers whether they would press record before a show and later send the chart somewhere, or whether they only want the TV to stop jumping in volume.",
+        "evidence": [
+          {
+            "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+            "url": "https://news.ycombinator.com/item?id=50641171",
+            "source": "Hacker News"
+          }
+        ]
+      },
+      {
+        "title": "CompanionHours",
+        "problem": "Children as young as ten use AI companion apps that no country specifically regulates, and parents have no view of how much time or what kind of attachment is building.",
+        "firstBuild": "An Android app using usage-access that reports weekly minutes in a maintained list of companion apps to a parent, with a conversation-starter card instead of a block screen.",
+        "mobileFit": "Usage and notification data only exist on the child's phone, so a phone-side agent measures them and pushes a short weekly digest to the parent's phone.",
+        "validation": "Ask parents whether they would install a time-reporting app on a child's phone at all, or whether they would only accept something that blocks those apps outright.",
+        "evidence": [
+          {
+            "title": "How foreign AI romance apps are reshaping youth intimacy in Africa",
+            "url": "https://restofworld.org/2026/ai-companion-apps-africa-character-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+            "source": "Rest of World"
           }
         ]
       }
