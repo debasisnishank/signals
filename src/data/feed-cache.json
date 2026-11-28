@@ -1,12 +1,12 @@
 {
   "tech": {
-    "fetchedAt": "2026-11-27T16:30:06.788Z",
+    "fetchedAt": "2026-11-28T06:34:57.136Z",
     "repos": [
       {
         "name": "Marvisak/VIctory",
         "description": "An attempt at running GTA VI on PC",
         "language": "Rust",
-        "stars": 13694,
+        "stars": 13878,
         "url": "https://github.com/Marvisak/VIctory",
         "created": "2026-11-23T21:47:25Z",
         "topics": []
@@ -15,7 +15,7 @@
         "name": "erkamyaman/rust-anything",
         "description": "Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.",
         "language": "Rust",
-        "stars": 10655,
+        "stars": 10878,
         "url": "https://github.com/erkamyaman/rust-anything",
         "created": "2026-11-16T12:10:36Z",
         "topics": [
@@ -29,7 +29,7 @@
         "name": "huami1314/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
         "language": "Swift",
-        "stars": 9058,
+        "stars": 9071,
         "url": "https://github.com/huami1314/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": []
@@ -38,7 +38,7 @@
         "name": "xcl-dev/xcl",
         "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
         "language": "Rust",
-        "stars": 8693,
+        "stars": 8755,
         "url": "https://github.com/xcl-dev/xcl",
         "created": "2026-11-20T20:03:21Z",
         "topics": [
@@ -49,24 +49,10 @@
         ]
       },
       {
-        "name": "ersinkoc/phonebox",
-        "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
-        "language": "JavaScript",
-        "stars": 7560,
-        "url": "https://github.com/ersinkoc/phonebox",
-        "created": "2026-11-07T16:45:16Z",
-        "topics": [
-          "android",
-          "claude-code",
-          "codex",
-          "dashboard"
-        ]
-      },
-      {
         "name": "4lwayz/portwatch-vi",
         "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
         "language": "JavaScript",
-        "stars": 6438,
+        "stars": 6871,
         "url": "https://github.com/4lwayz/portwatch-vi",
         "created": "2026-11-21T23:16:41Z",
         "topics": []
@@ -75,16 +61,30 @@
         "name": "deepseek-ai/chat-demo",
         "description": "Chat Demo",
         "language": "TypeScript",
-        "stars": 5514,
+        "stars": 5529,
         "url": "https://github.com/deepseek-ai/chat-demo",
         "created": "2026-11-12T08:08:19Z",
         "topics": []
       },
       {
+        "name": "XinaTian/MROffice",
+        "description": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
+        "language": "TypeScript",
+        "stars": 5187,
+        "url": "https://github.com/XinaTian/MROffice",
+        "created": "2026-11-10T17:54:07Z",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "claude-code",
+          "codex"
+        ]
+      },
+      {
         "name": "simplexai-labs/linger",
         "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
         "language": "TypeScript",
-        "stars": 5067,
+        "stars": 5145,
         "url": "https://github.com/simplexai-labs/linger",
         "created": "2026-11-10T03:50:38Z",
         "topics": [
@@ -95,61 +95,10 @@
         ]
       },
       {
-        "name": "nexu-io/opengame",
-        "description": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
-        "language": "TypeScript",
-        "stars": 1977,
-        "url": "https://github.com/nexu-io/opengame",
-        "created": "2026-11-25T10:35:45Z",
-        "topics": [
-          "agent-skills",
-          "ai-agents",
-          "ai-game-generator",
-          "claude-code"
-        ]
-      },
-      {
-        "name": "alesha-pro/llm.asm",
-        "description": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
-        "language": "Assembly",
-        "stars": 1942,
-        "url": "https://github.com/alesha-pro/llm.asm",
-        "created": "2026-11-25T07:28:51Z",
-        "topics": [
-          "assembly",
-          "avx2",
-          "bare-metal",
-          "llm"
-        ],
-        "hn": {
-          "points": 233,
-          "comments": 60,
-          "url": "https://news.ycombinator.com/item?id=50648365"
-        }
-      },
-      {
-        "name": "avatarmanz/VIctory-7900XTX",
-        "description": "Goal: an Xbox Series title (your own dump) on PC as the Series X version at 4K with ray tracing, picture matching the Xbox first (textures, lighting), then 30+ fps. Porting, not emulating. RX 7900 XTX first. No game files.",
-        "language": "Rust",
-        "stars": 1924,
-        "url": "https://github.com/avatarmanz/VIctory-7900XTX",
-        "created": "2026-11-25T22:18:14Z",
-        "topics": []
-      },
-      {
-        "name": "Reukix/Reloc",
-        "description": "iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / NMEA)",
-        "language": "Swift",
-        "stars": 1361,
-        "url": "https://github.com/Reukix/Reloc",
-        "created": "2026-11-25T17:29:48Z",
-        "topics": []
-      },
-      {
         "name": "Pixel679-cmyk/windows-titlebar-blur-customizer",
         "description": "Customize Windows 10 and 11 title bar effects with Aero, Acrylic, Mica and advanced DWM blur effects.",
         "language": "C++",
-        "stars": 1231,
+        "stars": 1506,
         "url": "https://github.com/Pixel679-cmyk/windows-titlebar-blur-customizer",
         "created": "2026-11-26T21:26:56Z",
         "topics": [
@@ -160,56 +109,117 @@
         ]
       },
       {
-        "name": "trustno1-coder/VIctory-NVIDIA",
-        "description": "VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS frame generation 2x-6x, an F1 settings menu and F3 stats panel, open water without dark blocks. Built on many repos combined into one. No game files or NVIDIA files included.",
-        "language": "Rust",
-        "stars": 1070,
-        "url": "https://github.com/trustno1-coder/VIctory-NVIDIA",
-        "created": "2026-11-25T23:35:29Z",
+        "name": "riveran0226/windows-explorer-blur-mica",
+        "description": "Free Windows 10 & 11 Explorer customization tool for Acrylic, Mica, transparency and background blur effects.",
+        "language": "C++",
+        "stars": 867,
+        "url": "https://github.com/riveran0226/windows-explorer-blur-mica",
+        "created": "2026-11-27T15:22:34Z",
         "topics": [
-          "compatibility-layer",
-          "directx-12",
-          "dlss",
-          "frame-generation"
+          "acrylic",
+          "blur",
+          "cpp",
+          "customization"
         ]
-      },
-      {
-        "name": "lsernau/grh-lean",
-        "description": "A short Lean 4 proof of the Generalized Riemann Hypothesis",
-        "language": "Lean",
-        "stars": 1004,
-        "url": "https://github.com/lsernau/grh-lean",
-        "created": "2026-11-25T20:42:55Z",
-        "topics": [],
-        "hn": {
-          "points": 558,
-          "comments": 356,
-          "url": "https://news.ycombinator.com/item?id=50648050"
-        }
       },
       {
         "name": "DoubleGhosty/cool_fox",
         "description": "cool_fox: Leading CGBJ runtime continuation for GTA VI PC - Pareto residency, Wine/Vulkan fixes, FPS unlock, Port 5 CBV",
         "language": "Rust",
-        "stars": 832,
+        "stars": 862,
         "url": "https://github.com/DoubleGhosty/cool_fox",
         "created": "2026-11-26T08:48:31Z",
         "topics": []
       },
       {
-        "name": "0x1A6C1A9Y/focus-clock",
-        "description": "Un minuteur web minimal pour se concentrer, faire une pause et avancer une chose à la fois.",
-        "language": "HTML",
-        "stars": 562,
-        "url": "https://github.com/0x1A6C1A9Y/focus-clock",
-        "created": "2026-11-26T13:54:20Z",
-        "topics": []
+        "name": "mist-8659/windows-mouse-keyboard-sharing-kvm",
+        "description": "Free open-source KVM software to share one keyboard and mouse across multiple Windows, macOS and Linux computers.",
+        "language": "C++",
+        "stars": 859,
+        "url": "https://github.com/mist-8659/windows-mouse-keyboard-sharing-kvm",
+        "created": "2026-11-27T15:27:54Z",
+        "topics": [
+          "c-plus-plus",
+          "clipboard",
+          "cross-platform",
+          "desktop"
+        ]
+      },
+      {
+        "name": "flint63-code/gitdesk-windows",
+        "description": "Free open-source Git GUI client for Windows with visual commit history, branch management, SSH, Git LFS and more.",
+        "language": "C#",
+        "stars": 859,
+        "url": "https://github.com/flint63-code/gitdesk-windows",
+        "created": "2026-11-27T15:14:35Z",
+        "topics": [
+          "bitbucket",
+          "cross-platform",
+          "desktop",
+          "developer-tools"
+        ]
+      },
+      {
+        "name": "nocta1554/windows-video-downloader-gui",
+        "description": "Free open-source Windows video downloader GUI for YouTube and 1,000+ websites, powered by yt-dlp.",
+        "language": "C++",
+        "stars": 855,
+        "url": "https://github.com/nocta1554/windows-video-downloader-gui",
+        "created": "2026-11-27T15:39:05Z",
+        "topics": [
+          "audio",
+          "c-plus-plus",
+          "desktop-application",
+          "downloader"
+        ]
+      },
+      {
+        "name": "Red2076-arch/waifu2x-image-upscaler-windows",
+        "description": "Free AI image upscaler and photo denoiser for Windows powered by Vulkan GPU acceleration and ncnn neural networks.",
+        "language": "C++",
+        "stars": 852,
+        "url": "https://github.com/Red2076-arch/waifu2x-image-upscaler-windows",
+        "created": "2026-11-27T15:17:56Z",
+        "topics": [
+          "amd",
+          "artificial-intelligence",
+          "computer-vision",
+          "deep-learning"
+        ]
+      },
+      {
+        "name": "hollow-445/windows-keyboard-manager",
+        "description": "Free open-source keyboard remapping software for Windows with custom layouts, programmable keys, layers and tap-hold actions.",
+        "language": "Haskell",
+        "stars": 849,
+        "url": "https://github.com/hollow-445/windows-keyboard-manager",
+        "created": "2026-11-27T15:16:16Z",
+        "topics": [
+          "automation",
+          "configuration",
+          "cross-platform",
+          "customization"
+        ]
+      },
+      {
+        "name": "leaf7684/windows-modern-media-player",
+        "description": "Free open-source Windows media player with VLC playback, video streaming, subtitles and picture-in-picture.",
+        "language": "C#",
+        "stars": 849,
+        "url": "https://github.com/leaf7684/windows-modern-media-player",
+        "created": "2026-11-27T15:34:01Z",
+        "topics": [
+          "audio-player",
+          "chromecast",
+          "csharp",
+          "desktop-app"
+        ]
       },
       {
         "name": "gary23w/f-ck_data_brokers",
         "description": "fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.",
         "language": "Python",
-        "stars": 524,
+        "stars": 843,
         "url": "https://github.com/gary23w/f-ck_data_brokers",
         "created": "2026-11-26T17:53:07Z",
         "topics": [
@@ -219,8 +229,8 @@
           "data-deletion"
         ],
         "hn": {
-          "points": 240,
-          "comments": 53,
+          "points": 245,
+          "comments": 54,
           "url": "https://news.ycombinator.com/item?id=50658191"
         }
       }
@@ -228,64 +238,64 @@
     "posts": [
       {
         "source": "showhn",
+        "title": "Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+        "url": "https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/",
+        "points": 52,
+        "comments": 11,
+        "discussion": "https://news.ycombinator.com/item?id=50670443",
+        "created": "2026-11-27T18:59:55.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "DragDropMath – Learn math by feel",
+        "url": "https://dragdropmath.com/",
+        "points": 120,
+        "comments": 37,
+        "discussion": "https://news.ycombinator.com/item?id=50669673",
+        "created": "2026-11-27T17:56:28.000Z"
+      },
+      {
+        "source": "showhn",
+        "title": "King – Man + Woman = ?",
+        "url": "https://kingminusman.com/",
+        "points": 33,
+        "comments": 7,
+        "discussion": "https://news.ycombinator.com/item?id=50668269",
+        "created": "2026-11-27T15:50:53.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "bouncemarket – a live prediction market game for a bouncing ball",
         "url": "https://bouncemarket.minhanhday.com/",
-        "points": 102,
-        "comments": 36,
+        "points": 353,
+        "comments": 118,
         "discussion": "https://news.ycombinator.com/item?id=50667726",
         "created": "2026-11-27T15:01:50.000Z"
       },
       {
         "source": "showhn",
+        "title": "I restored Palm's last device, and brought its OS to other platforms",
+        "url": "https://www.webosarchive.org/pivot/2026/11/27/the-story-so-far/",
+        "points": 77,
+        "comments": 27,
+        "discussion": "https://news.ycombinator.com/item?id=50667452",
+        "created": "2026-11-27T14:37:02.000Z"
+      },
+      {
+        "source": "showhn",
         "title": "Fuck_data_brokers.py",
         "url": "https://github.com/gary23w/f-ck_data_brokers",
-        "points": 240,
-        "comments": 53,
+        "points": 245,
+        "comments": 54,
         "discussion": "https://news.ycombinator.com/item?id=50658191",
         "created": "2026-11-26T18:37:21.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "SimDrop – Running iOS simulators in the macOS Finder sidebar",
-        "url": "https://github.com/rxliuli/sim-drop",
-        "points": 53,
-        "comments": 10,
-        "discussion": "https://news.ycombinator.com/item?id=50657070",
-        "created": "2026-11-26T16:51:38.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Three Linux VMs in a browser tab, each running a different browser",
-        "url": "https://michidk.github.io/sidebyside/",
-        "points": 150,
-        "comments": 33,
-        "discussion": "https://news.ycombinator.com/item?id=50656036",
-        "created": "2026-11-26T15:00:06.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "I wrote an entire Vim manual over 4 years",
-        "url": "http://themouseless.dev/vim/",
-        "points": 266,
-        "comments": 87,
-        "discussion": "https://news.ycombinator.com/item?id=50655868",
-        "created": "2026-11-26T14:44:22.000Z"
-      },
-      {
-        "source": "showhn",
-        "title": "Olumino, a Markdown notes and spaced repetition app",
-        "url": "https://olumino.app",
-        "points": 122,
-        "comments": 53,
-        "discussion": "https://news.ycombinator.com/item?id=50651099",
-        "created": "2026-11-26T03:33:06.000Z"
       },
       {
         "source": "launchhn",
         "title": "Versine (YC F26) – MCP to send and receive money",
         "url": "https://news.ycombinator.com/item?id=50634426",
-        "points": 110,
-        "comments": 110,
+        "points": 111,
+        "comments": 112,
         "discussion": "https://news.ycombinator.com/item?id=50634426",
         "created": "2026-11-24T20:44:15.000Z"
       },
@@ -318,27 +328,27 @@
       },
       {
         "source": "hn",
-        "title": "Intel One Mono font (2023)",
-        "url": "https://github.com/intel/intel-one-mono",
-        "points": 564,
-        "comments": 266,
-        "discussion": "https://news.ycombinator.com/item?id=50653667",
-        "created": "2026-11-26T10:11:01.000Z"
+        "title": "Convex skills send the user's app idea to a remote server without telling them",
+        "url": "https://github.com/convex/convex-backend-skill/issues/64",
+        "points": 271,
+        "comments": 88,
+        "discussion": "https://news.ycombinator.com/item?id=50669765",
+        "created": "2026-11-27T18:02:45.000Z"
       },
       {
         "source": "hn",
-        "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
-        "url": "https://github.com/antonpictures/youtube-punisher",
-        "points": 488,
-        "comments": 581,
-        "discussion": "https://news.ycombinator.com/item?id=50657530",
-        "created": "2026-11-26T17:36:47.000Z"
+        "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+        "url": "https://github.com/skeeto/prospero",
+        "points": 53,
+        "comments": 15,
+        "discussion": "https://news.ycombinator.com/item?id=50671275",
+        "created": "2026-11-27T20:23:14.000Z"
       },
       {
         "source": "lobsters",
         "title": "How WinHelp files work",
         "url": "https://quin.fyi/posts/how-winhelp-files-work.html",
-        "points": 19,
+        "points": 23,
         "comments": 8,
         "discussion": "https://lobste.rs/s/w4kxiz/how_winhelp_files_work",
         "created": "2026-11-26T06:39:00.543Z"
@@ -6820,7 +6830,7 @@
         "name": "erkamyaman/rust-anything",
         "description": "Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.",
         "language": "Rust",
-        "stars": 10655,
+        "stars": 10878,
         "url": "https://github.com/erkamyaman/rust-anything",
         "created": "2026-11-16T12:10:36Z",
         "topics": [
@@ -6830,7 +6840,7 @@
           "code-migration"
         ],
         "firstSeen": "2026-11-17",
-        "lastSeen": "2026-11-27",
+        "lastSeen": "2026-11-28",
         "starsAtFirstSeen": 481
       },
       "boringmarketer/boring-marketing-skills": {
@@ -6929,12 +6939,12 @@
         "name": "huami1314/GestaltX",
         "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
         "language": "Swift",
-        "stars": 9058,
+        "stars": 9071,
         "url": "https://github.com/huami1314/GestaltX",
         "created": "2026-11-09T05:15:48Z",
         "topics": [],
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-27",
+        "lastSeen": "2026-11-28",
         "starsAtFirstSeen": 8506
       },
       "Bodila51/gtavi-claudecode": {
@@ -7236,12 +7246,12 @@
         "name": "deepseek-ai/chat-demo",
         "description": "Chat Demo",
         "language": "TypeScript",
-        "stars": 5514,
+        "stars": 5529,
         "url": "https://github.com/deepseek-ai/chat-demo",
         "created": "2026-11-12T08:08:19Z",
         "topics": [],
         "firstSeen": "2026-11-21",
-        "lastSeen": "2026-11-27",
+        "lastSeen": "2026-11-28",
         "starsAtFirstSeen": 5149
       },
       "expo/exact": {
@@ -7505,7 +7515,7 @@
         "name": "simplexai-labs/linger",
         "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
         "language": "TypeScript",
-        "stars": 5067,
+        "stars": 5145,
         "url": "https://github.com/simplexai-labs/linger",
         "created": "2026-11-10T03:50:38Z",
         "topics": [
@@ -7515,7 +7525,7 @@
           "personal-agent"
         ],
         "firstSeen": "2026-11-23",
-        "lastSeen": "2026-11-27",
+        "lastSeen": "2026-11-28",
         "starsAtFirstSeen": 3972
       },
       "os6/nospeaker": {
@@ -7726,12 +7736,12 @@
         "name": "Marvisak/VIctory",
         "description": "An attempt at running GTA VI on PC",
         "language": "Rust",
-        "stars": 13694,
+        "stars": 13878,
         "url": "https://github.com/Marvisak/VIctory",
         "created": "2026-11-23T21:47:25Z",
         "topics": [],
         "firstSeen": "2026-11-24",
-        "lastSeen": "2026-11-27",
+        "lastSeen": "2026-11-28",
         "starsAtFirstSeen": 5347
       },
       "ivall/xcl": {
@@ -7864,7 +7874,7 @@
         "name": "xcl-dev/xcl",
         "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
         "language": "Rust",
-        "stars": 8693,
+        "stars": 8755,
         "url": "https://github.com/xcl-dev/xcl",
         "created": "2026-11-20T20:03:21Z",
         "topics": [
@@ -7874,7 +7884,7 @@
           "xbox"
         ],
         "firstSeen": "2026-11-24",
-        "lastSeen": "2026-11-27",
+        "lastSeen": "2026-11-28",
         "starsAtFirstSeen": 7263
       },
       "LeonidaReforge/Leonida": {
@@ -7910,7 +7920,7 @@
         "name": "XinaTian/MROffice",
         "description": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
         "language": "TypeScript",
-        "stars": 5043,
+        "stars": 5187,
         "url": "https://github.com/XinaTian/MROffice",
         "created": "2026-11-10T17:54:07Z",
         "topics": [
@@ -7920,7 +7930,7 @@
           "codex"
         ],
         "firstSeen": "2026-11-25",
-        "lastSeen": "2026-11-26",
+        "lastSeen": "2026-11-28",
         "starsAtFirstSeen": 4160
       },
       "fxceless/victory-fork": {
@@ -8206,12 +8216,12 @@
         "name": "4lwayz/portwatch-vi",
         "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
         "language": "JavaScript",
-        "stars": 6438,
+        "stars": 6871,
         "url": "https://github.com/4lwayz/portwatch-vi",
         "created": "2026-11-21T23:16:41Z",
         "topics": [],
         "firstSeen": "2026-11-26",
-        "lastSeen": "2026-11-27",
+        "lastSeen": "2026-11-28",
         "starsAtFirstSeen": 5237
       },
       "Reukix/Reloc": {
@@ -8247,19 +8257,19 @@
         "name": "DoubleGhosty/cool_fox",
         "description": "cool_fox: Leading CGBJ runtime continuation for GTA VI PC - Pareto residency, Wine/Vulkan fixes, FPS unlock, Port 5 CBV",
         "language": "Rust",
-        "stars": 832,
+        "stars": 862,
         "url": "https://github.com/DoubleGhosty/cool_fox",
         "created": "2026-11-26T08:48:31Z",
         "topics": [],
         "firstSeen": "2026-11-26",
-        "lastSeen": "2026-11-27",
+        "lastSeen": "2026-11-28",
         "starsAtFirstSeen": 529
       },
       "Pixel679-cmyk/windows-titlebar-blur-customizer": {
         "name": "Pixel679-cmyk/windows-titlebar-blur-customizer",
         "description": "Customize Windows 10 and 11 title bar effects with Aero, Acrylic, Mica and advanced DWM blur effects.",
         "language": "C++",
-        "stars": 1231,
+        "stars": 1506,
         "url": "https://github.com/Pixel679-cmyk/windows-titlebar-blur-customizer",
         "created": "2026-11-26T21:26:56Z",
         "topics": [
@@ -8269,14 +8279,14 @@
           "blur"
         ],
         "firstSeen": "2026-11-27",
-        "lastSeen": "2026-11-27",
+        "lastSeen": "2026-11-28",
         "starsAtFirstSeen": 598
       },
       "gary23w/f-ck_data_brokers": {
         "name": "gary23w/f-ck_data_brokers",
         "description": "fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.",
         "language": "Python",
-        "stars": 524,
+        "stars": 843,
         "url": "https://github.com/gary23w/f-ck_data_brokers",
         "created": "2026-11-26T17:53:07Z",
         "topics": [
@@ -8286,12 +8296,12 @@
           "data-deletion"
         ],
         "hn": {
-          "points": 240,
-          "comments": 53,
+          "points": 245,
+          "comments": 54,
           "url": "https://news.ycombinator.com/item?id=50658191"
         },
         "firstSeen": "2026-11-27",
-        "lastSeen": "2026-11-27",
+        "lastSeen": "2026-11-28",
         "starsAtFirstSeen": 455
       },
       "0x1A6C1A9Y/focus-clock": {
@@ -8322,6 +8332,125 @@
         "firstSeen": "2026-11-27",
         "lastSeen": "2026-11-27",
         "starsAtFirstSeen": 1070
+      },
+      "riveran0226/windows-explorer-blur-mica": {
+        "name": "riveran0226/windows-explorer-blur-mica",
+        "description": "Free Windows 10 & 11 Explorer customization tool for Acrylic, Mica, transparency and background blur effects.",
+        "language": "C++",
+        "stars": 867,
+        "url": "https://github.com/riveran0226/windows-explorer-blur-mica",
+        "created": "2026-11-27T15:22:34Z",
+        "topics": [
+          "acrylic",
+          "blur",
+          "cpp",
+          "customization"
+        ],
+        "firstSeen": "2026-11-28",
+        "lastSeen": "2026-11-28",
+        "starsAtFirstSeen": 867
+      },
+      "mist-8659/windows-mouse-keyboard-sharing-kvm": {
+        "name": "mist-8659/windows-mouse-keyboard-sharing-kvm",
+        "description": "Free open-source KVM software to share one keyboard and mouse across multiple Windows, macOS and Linux computers.",
+        "language": "C++",
+        "stars": 859,
+        "url": "https://github.com/mist-8659/windows-mouse-keyboard-sharing-kvm",
+        "created": "2026-11-27T15:27:54Z",
+        "topics": [
+          "c-plus-plus",
+          "clipboard",
+          "cross-platform",
+          "desktop"
+        ],
+        "firstSeen": "2026-11-28",
+        "lastSeen": "2026-11-28",
+        "starsAtFirstSeen": 859
+      },
+      "flint63-code/gitdesk-windows": {
+        "name": "flint63-code/gitdesk-windows",
+        "description": "Free open-source Git GUI client for Windows with visual commit history, branch management, SSH, Git LFS and more.",
+        "language": "C#",
+        "stars": 859,
+        "url": "https://github.com/flint63-code/gitdesk-windows",
+        "created": "2026-11-27T15:14:35Z",
+        "topics": [
+          "bitbucket",
+          "cross-platform",
+          "desktop",
+          "developer-tools"
+        ],
+        "firstSeen": "2026-11-28",
+        "lastSeen": "2026-11-28",
+        "starsAtFirstSeen": 859
+      },
+      "nocta1554/windows-video-downloader-gui": {
+        "name": "nocta1554/windows-video-downloader-gui",
+        "description": "Free open-source Windows video downloader GUI for YouTube and 1,000+ websites, powered by yt-dlp.",
+        "language": "C++",
+        "stars": 855,
+        "url": "https://github.com/nocta1554/windows-video-downloader-gui",
+        "created": "2026-11-27T15:39:05Z",
+        "topics": [
+          "audio",
+          "c-plus-plus",
+          "desktop-application",
+          "downloader"
+        ],
+        "firstSeen": "2026-11-28",
+        "lastSeen": "2026-11-28",
+        "starsAtFirstSeen": 855
+      },
+      "Red2076-arch/waifu2x-image-upscaler-windows": {
+        "name": "Red2076-arch/waifu2x-image-upscaler-windows",
+        "description": "Free AI image upscaler and photo denoiser for Windows powered by Vulkan GPU acceleration and ncnn neural networks.",
+        "language": "C++",
+        "stars": 852,
+        "url": "https://github.com/Red2076-arch/waifu2x-image-upscaler-windows",
+        "created": "2026-11-27T15:17:56Z",
+        "topics": [
+          "amd",
+          "artificial-intelligence",
+          "computer-vision",
+          "deep-learning"
+        ],
+        "firstSeen": "2026-11-28",
+        "lastSeen": "2026-11-28",
+        "starsAtFirstSeen": 852
+      },
+      "hollow-445/windows-keyboard-manager": {
+        "name": "hollow-445/windows-keyboard-manager",
+        "description": "Free open-source keyboard remapping software for Windows with custom layouts, programmable keys, layers and tap-hold actions.",
+        "language": "Haskell",
+        "stars": 849,
+        "url": "https://github.com/hollow-445/windows-keyboard-manager",
+        "created": "2026-11-27T15:16:16Z",
+        "topics": [
+          "automation",
+          "configuration",
+          "cross-platform",
+          "customization"
+        ],
+        "firstSeen": "2026-11-28",
+        "lastSeen": "2026-11-28",
+        "starsAtFirstSeen": 849
+      },
+      "leaf7684/windows-modern-media-player": {
+        "name": "leaf7684/windows-modern-media-player",
+        "description": "Free open-source Windows media player with VLC playback, video streaming, subtitles and picture-in-picture.",
+        "language": "C#",
+        "stars": 849,
+        "url": "https://github.com/leaf7684/windows-modern-media-player",
+        "created": "2026-11-27T15:34:01Z",
+        "topics": [
+          "audio-player",
+          "chromecast",
+          "csharp",
+          "desktop-app"
+        ],
+        "firstSeen": "2026-11-28",
+        "lastSeen": "2026-11-28",
+        "starsAtFirstSeen": 849
       }
     },
     "posts": {
@@ -12360,7 +12489,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50536468",
         "created": "2026-11-17T19:01:43.000Z",
         "firstSeen": "2026-11-18",
-        "lastSeen": "2026-11-27"
+        "lastSeen": "2026-11-28"
       },
       "https://news.ycombinator.com/item?id=50539610": {
         "source": "hn",
@@ -12437,7 +12566,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50549188",
         "created": "2026-11-18T17:26:28.000Z",
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-27"
+        "lastSeen": "2026-11-28"
       },
       "https://news.ycombinator.com/item?id=50558906": {
         "source": "hn",
@@ -12459,7 +12588,7 @@
         "discussion": "https://news.ycombinator.com/item?id=50562320",
         "created": "2026-11-19T16:34:04.000Z",
         "firstSeen": "2026-11-19",
-        "lastSeen": "2026-11-27"
+        "lastSeen": "2026-11-28"
       },
       "https://news.ycombinator.com/item?id=50561515": {
         "source": "showhn",
@@ -12729,12 +12858,12 @@
         "source": "launchhn",
         "title": "Versine (YC F26) – MCP to send and receive money",
         "url": "https://news.ycombinator.com/item?id=50634426",
-        "points": 110,
-        "comments": 110,
+        "points": 111,
+        "comments": 112,
         "discussion": "https://news.ycombinator.com/item?id=50634426",
         "created": "2026-11-24T20:44:15.000Z",
         "firstSeen": "2026-11-25",
-        "lastSeen": "2026-11-27"
+        "lastSeen": "2026-11-28"
       },
       "https://news.ycombinator.com/item?id=50637220": {
         "source": "hn",
@@ -12861,23 +12990,23 @@
         "source": "lobsters",
         "title": "How WinHelp files work",
         "url": "https://quin.fyi/posts/how-winhelp-files-work.html",
-        "points": 19,
+        "points": 23,
         "comments": 8,
         "discussion": "https://lobste.rs/s/w4kxiz/how_winhelp_files_work",
         "created": "2026-11-26T06:39:00.543Z",
         "firstSeen": "2026-11-26",
-        "lastSeen": "2026-11-27"
+        "lastSeen": "2026-11-28"
       },
       "https://news.ycombinator.com/item?id=50658191": {
         "source": "showhn",
         "title": "Fuck_data_brokers.py",
         "url": "https://github.com/gary23w/f-ck_data_brokers",
-        "points": 240,
-        "comments": 53,
+        "points": 245,
+        "comments": 54,
         "discussion": "https://news.ycombinator.com/item?id=50658191",
         "created": "2026-11-26T18:37:21.000Z",
         "firstSeen": "2026-11-27",
-        "lastSeen": "2026-11-27"
+        "lastSeen": "2026-11-28"
       },
       "https://news.ycombinator.com/item?id=50657070": {
         "source": "showhn",
@@ -12949,95 +13078,181 @@
         "source": "showhn",
         "title": "bouncemarket – a live prediction market game for a bouncing ball",
         "url": "https://bouncemarket.minhanhday.com/",
-        "points": 102,
-        "comments": 36,
+        "points": 353,
+        "comments": 118,
         "discussion": "https://news.ycombinator.com/item?id=50667726",
         "created": "2026-11-27T15:01:50.000Z",
         "firstSeen": "2026-11-27",
-        "lastSeen": "2026-11-27"
+        "lastSeen": "2026-11-28"
+      },
+      "https://news.ycombinator.com/item?id=50670443": {
+        "source": "showhn",
+        "title": "Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+        "url": "https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/",
+        "points": 52,
+        "comments": 11,
+        "discussion": "https://news.ycombinator.com/item?id=50670443",
+        "created": "2026-11-27T18:59:55.000Z",
+        "firstSeen": "2026-11-28",
+        "lastSeen": "2026-11-28"
+      },
+      "https://news.ycombinator.com/item?id=50669673": {
+        "source": "showhn",
+        "title": "DragDropMath – Learn math by feel",
+        "url": "https://dragdropmath.com/",
+        "points": 120,
+        "comments": 37,
+        "discussion": "https://news.ycombinator.com/item?id=50669673",
+        "created": "2026-11-27T17:56:28.000Z",
+        "firstSeen": "2026-11-28",
+        "lastSeen": "2026-11-28"
+      },
+      "https://news.ycombinator.com/item?id=50668269": {
+        "source": "showhn",
+        "title": "King – Man + Woman = ?",
+        "url": "https://kingminusman.com/",
+        "points": 33,
+        "comments": 7,
+        "discussion": "https://news.ycombinator.com/item?id=50668269",
+        "created": "2026-11-27T15:50:53.000Z",
+        "firstSeen": "2026-11-28",
+        "lastSeen": "2026-11-28"
+      },
+      "https://news.ycombinator.com/item?id=50667452": {
+        "source": "showhn",
+        "title": "I restored Palm's last device, and brought its OS to other platforms",
+        "url": "https://www.webosarchive.org/pivot/2026/11/27/the-story-so-far/",
+        "points": 77,
+        "comments": 27,
+        "discussion": "https://news.ycombinator.com/item?id=50667452",
+        "created": "2026-11-27T14:37:02.000Z",
+        "firstSeen": "2026-11-28",
+        "lastSeen": "2026-11-28"
+      },
+      "https://news.ycombinator.com/item?id=50669765": {
+        "source": "hn",
+        "title": "Convex skills send the user's app idea to a remote server without telling them",
+        "url": "https://github.com/convex/convex-backend-skill/issues/64",
+        "points": 271,
+        "comments": 88,
+        "discussion": "https://news.ycombinator.com/item?id=50669765",
+        "created": "2026-11-27T18:02:45.000Z",
+        "firstSeen": "2026-11-28",
+        "lastSeen": "2026-11-28"
+      },
+      "https://news.ycombinator.com/item?id=50671275": {
+        "source": "hn",
+        "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+        "url": "https://github.com/skeeto/prospero",
+        "points": 53,
+        "comments": 15,
+        "discussion": "https://news.ycombinator.com/item?id=50671275",
+        "created": "2026-11-27T20:23:14.000Z",
+        "firstSeen": "2026-11-28",
+        "lastSeen": "2026-11-28"
       }
     }
   },
   "reading": {
-    "fetchedAt": "2026-11-27T16:30:06.788Z",
+    "fetchedAt": "2026-11-28T06:34:57.136Z",
     "hn": [
       {
-        "title": "AI made self-hosting fun again",
-        "url": "https://janlukas.blog/posts/ai-self-hosting",
-        "points": 940,
-        "comments": 451,
-        "discussion": "https://news.ycombinator.com/item?id=50660180"
+        "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+        "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+        "points": 486,
+        "comments": 255,
+        "discussion": "https://news.ycombinator.com/item?id=50668145"
       },
       {
-        "title": "Intel One Mono font (2023)",
-        "url": "https://github.com/intel/intel-one-mono",
-        "points": 564,
-        "comments": 266,
-        "discussion": "https://news.ycombinator.com/item?id=50653667"
+        "title": "Michael Nielsen took down his book on neural nets",
+        "url": "https://neuralnetworksanddeeplearning.com/",
+        "points": 477,
+        "comments": 299,
+        "discussion": "https://news.ycombinator.com/item?id=50670757"
       },
       {
-        "title": "The group chat where your AI talks behind your back",
-        "url": "https://construct22.com/",
-        "points": 530,
-        "comments": 233,
-        "discussion": "https://news.ycombinator.com/item?id=50663595"
+        "title": "GPT 6.2 Astra Solves a Historical Mystery",
+        "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+        "points": 399,
+        "comments": 254,
+        "discussion": "https://news.ycombinator.com/item?id=50643158"
       },
       {
-        "title": "Company Culture = Slack Emoji ÷ √Headcount",
-        "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
-        "points": 492,
-        "comments": 251,
-        "discussion": "https://news.ycombinator.com/item?id=50659640"
+        "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+        "url": "https://bouncemarket.minhanhday.com/",
+        "points": 352,
+        "comments": 117,
+        "discussion": "https://news.ycombinator.com/item?id=50667726"
       },
       {
-        "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
-        "url": "https://github.com/antonpictures/youtube-punisher",
-        "points": 488,
-        "comments": 581,
-        "discussion": "https://news.ycombinator.com/item?id=50657530"
+        "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+        "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+        "points": 346,
+        "comments": 196,
+        "discussion": "https://news.ycombinator.com/item?id=50670855"
       },
       {
-        "title": "Hard Drive pricing has gotten bad",
-        "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-        "points": 488,
-        "comments": 422,
-        "discussion": "https://news.ycombinator.com/item?id=50661646"
+        "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+        "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+        "points": 286,
+        "comments": 106,
+        "discussion": "https://news.ycombinator.com/item?id=50672565"
       },
       {
-        "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
-        "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-        "points": 464,
-        "comments": 118,
-        "discussion": "https://news.ycombinator.com/item?id=50659841"
+        "title": "Convex skills send the user's app idea to a remote server without telling them",
+        "url": "https://github.com/convex/convex-backend-skill/issues/64",
+        "points": 271,
+        "comments": 88,
+        "discussion": "https://news.ycombinator.com/item?id=50669765"
       },
       {
-        "title": "AMD-specific fork of llama.cpp",
-        "url": "https://devnull.land/amd-specific-llama-cpp",
-        "points": 414,
-        "comments": 101,
-        "discussion": "https://news.ycombinator.com/item?id=50657265"
+        "title": "The Balatro Timeline",
+        "url": "https://localthunk.com/blog/balatro-timeline-3aarh",
+        "points": 232,
+        "comments": 50,
+        "discussion": "https://news.ycombinator.com/item?id=50657346"
       },
       {
-        "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-        "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-        "points": 388,
-        "comments": 318,
-        "discussion": "https://news.ycombinator.com/item?id=50653477"
+        "title": "False computer-checked proofs",
+        "url": "https://cr.yp.to/proofs/falseccp.html",
+        "points": 213,
+        "comments": 82,
+        "discussion": "https://news.ycombinator.com/item?id=50667989"
       },
       {
-        "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
-        "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-        "points": 318,
-        "comments": 157,
-        "discussion": "https://news.ycombinator.com/item?id=50657645"
+        "title": "First images of the impact of DART asteroid deflection experiment",
+        "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+        "points": 202,
+        "comments": 60,
+        "discussion": "https://news.ycombinator.com/item?id=50657392"
       }
     ],
     "lobsters": [
       {
+        "title": "Hard Drive pricing has gotten bad",
+        "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+        "points": 41,
+        "comments": 16,
+        "discussion": "https://lobste.rs/s/96gu7o/hard_drive_pricing_has_gotten_bad",
+        "tags": [
+          "hardware"
+        ]
+      },
+      {
+        "title": "Objections to .php application being published on ICANN site",
+        "url": "https://pub.roddie.digital/3n3aavxi6hc2g",
+        "points": 37,
+        "comments": 10,
+        "discussion": "https://lobste.rs/s/d0phlt/objections_php_application_being",
+        "tags": [
+          "web"
+        ]
+      },
+      {
         "title": "Tiny Hat: a new Linux distro dedicated to retro gamedev",
         "url": "https://roboticoverlords.org/tinyhat",
-        "points": 27,
-        "comments": 3,
+        "points": 48,
+        "comments": 8,
         "discussion": "https://lobste.rs/s/mbm7xw/tiny_hat_new_linux_distro_dedicated_retro",
         "tags": [
           "games",
@@ -13046,20 +13261,40 @@
         ]
       },
       {
-        "title": "Taking Email Back",
-        "url": "http://www.linux-magazine.com/Online/Features/Taking-Email-Back",
-        "points": 60,
-        "comments": 18,
-        "discussion": "https://lobste.rs/s/afxeri/taking_email_back",
+        "title": "The State of Allocators in 2026 - Finally Stabilised",
+        "url": "https://cetra3.github.io/blog/state-of-allocators-2026-finally-stabilised/",
+        "points": 46,
+        "comments": 0,
+        "discussion": "https://lobste.rs/s/u746hs/state_allocators_2026_finally",
         "tags": [
-          "email"
+          "rust"
+        ]
+      },
+      {
+        "title": "Why optimistic updates are corrosive",
+        "url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive/",
+        "points": 19,
+        "comments": 8,
+        "discussion": "https://lobste.rs/s/amjski/why_optimistic_updates_are_corrosive",
+        "tags": [
+          "web"
+        ]
+      },
+      {
+        "title": "Build your own Paint",
+        "url": "https://www.buildyourownpaint.com/en",
+        "points": 18,
+        "comments": 4,
+        "discussion": "https://lobste.rs/s/c2zrmq/build_your_own_paint",
+        "tags": [
+          "rust"
         ]
       },
       {
         "title": "What are you doing this weekend?",
         "url": "https://lobste.rs/s/locqp9/what_are_you_doing_this_weekend",
-        "points": 7,
-        "comments": 9,
+        "points": 16,
+        "comments": 36,
         "discussion": "https://lobste.rs/s/locqp9/what_are_you_doing_this_weekend",
         "tags": [
           "ask",
@@ -13067,83 +13302,35 @@
         ]
       },
       {
-        "title": "Pimalaya goes stable",
-        "url": "https://blog.pimalaya.org/pimalaya-goes-stable/",
-        "points": 8,
-        "comments": 9,
-        "discussion": "https://lobste.rs/s/kaj037/pimalaya_goes_stable",
-        "tags": [
-          "email",
-          "release",
-          "rust"
-        ]
-      },
-      {
-        "title": "Exception Best Practices",
-        "url": "https://www.well-typed.com/blog/2026/11/exception-best-practices/",
-        "points": 6,
-        "comments": 1,
-        "discussion": "https://lobste.rs/s/tgihkm/exception_best_practices",
-        "tags": [
-          "haskell"
-        ]
-      },
-      {
-        "title": "AI made self-hosting fun again",
-        "url": "https://janlukas.blog/posts/ai-self-hosting",
-        "points": 11,
-        "comments": 6,
-        "discussion": "https://lobste.rs/s/xsjwvi/ai_made_self_hosting_fun_again",
-        "tags": [
-          "ai",
-          "devops"
-        ]
-      },
-      {
-        "title": "The need for a formally verifiable mainstream programming language",
-        "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
-        "points": 19,
-        "comments": 18,
-        "discussion": "https://lobste.rs/s/byfdgn/need_for_formally_verifiable_mainstream",
-        "tags": [
-          "ai",
-          "building-ai-tooling",
-          "formalmethods",
-          "plt"
-        ]
-      },
-      {
-        "title": "Slow Ubuntu security response times",
-        "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
-        "points": 121,
-        "comments": 22,
-        "discussion": "https://lobste.rs/s/wzlzlh/slow_ubuntu_security_response_times",
+        "title": "Pop!_OS 26.04 LTS Has Landed",
+        "url": "https://system76.com/blog/post/pop_os-26-04-lts-has-landed",
+        "points": 15,
+        "comments": 4,
+        "discussion": "https://lobste.rs/s/hizg2w/pop_os_26_04_lts_has_landed",
         "tags": [
           "linux",
-          "security"
+          "release"
         ]
       },
       {
-        "title": "Garage v2.6.0 released with web admin, v1.x EoL & other news",
-        "url": "https://garagehq.deuxfleurs.fr/blog/2026-11-webadmin-release/",
-        "points": 52,
-        "comments": 3,
-        "discussion": "https://lobste.rs/s/2gfpu3/garage_v2_6_0_released_with_web_admin_v1_x",
+        "title": "Taking Email Back",
+        "url": "http://www.linux-magazine.com/Online/Features/Taking-Email-Back",
+        "points": 86,
+        "comments": 44,
+        "discussion": "https://lobste.rs/s/afxeri/taking_email_back",
         "tags": [
-          "distributed",
-          "release",
-          "web"
+          "email"
         ]
       },
       {
-        "title": "Company Culture = Slack Emoji ÷ sqrt(Headcount)",
-        "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
-        "points": 28,
-        "comments": 8,
-        "discussion": "https://lobste.rs/s/fin7at/company_culture_slack_emoji_sqrt",
+        "title": "x86 is an octal machine",
+        "url": "https://gist.github.com/seanjensengrey/f971c20d05d4d0efc0781f2f3c0353da",
+        "points": 9,
+        "comments": 1,
+        "discussion": "https://lobste.rs/s/kikmfz/x86_is_octal_machine",
         "tags": [
-          "culture",
-          "satire"
+          "compsci",
+          "retrocomputing"
         ]
       }
     ],
@@ -13151,30 +13338,18 @@
       {
         "title": "What was your win this week!?",
         "url": "https://dev.to/devteam/what-was-your-win-this-week-h3d",
-        "points": 43,
-        "comments": 18,
+        "points": 86,
+        "comments": 43,
         "discussion": "https://dev.to/devteam/what-was-your-win-this-week-h3d",
         "tags": [
           "weeklyretro"
         ]
       },
       {
-        "title": "I Got Two AI Agents Talking. Then I Found Out They Weren't Hearing Each Other.",
-        "url": "https://dev.to/kenielzep97/i-got-two-ai-agents-talking-then-i-found-out-they-werent-hearing-each-other-1fn6",
-        "points": 35,
-        "comments": 16,
-        "discussion": "https://dev.to/kenielzep97/i-got-two-ai-agents-talking-then-i-found-out-they-werent-hearing-each-other-1fn6",
-        "tags": [
-          "ai",
-          "agents",
-          "discord"
-        ]
-      },
-      {
         "title": "Writing Is Really Fun, But My Luck Had Other Plans 🐿",
         "url": "https://dev.to/thethirdcup/writing-is-really-fun-but-my-luck-had-other-plans-493m",
-        "points": 26,
-        "comments": 21,
+        "points": 52,
+        "comments": 24,
         "discussion": "https://dev.to/thethirdcup/writing-is-really-fun-but-my-luck-had-other-plans-493m",
         "tags": [
           "writing",
@@ -13183,22 +13358,22 @@
         ]
       },
       {
-        "title": "How Do You Get Different AI Tools to Work Together?",
-        "url": "https://dev.to/therealmrmumba/how-do-you-get-different-ai-tools-to-work-together-5bf2",
-        "points": 26,
-        "comments": 2,
-        "discussion": "https://dev.to/therealmrmumba/how-do-you-get-different-ai-tools-to-work-together-5bf2",
+        "title": "The Best Café in Town Turns People Away. Your System Should Too",
+        "url": "https://dev.to/thethirdcup/the-best-cafe-in-town-turns-people-away-your-system-should-too-5ehh",
+        "points": 40,
+        "comments": 10,
+        "discussion": "https://dev.to/thethirdcup/the-best-cafe-in-town-turns-people-away-your-system-should-too-5ehh",
         "tags": [
-          "ai",
-          "webdev",
-          "productivity"
+          "discuss",
+          "api",
+          "backend"
         ]
       },
       {
         "title": "How I built my own OS",
         "url": "https://dev.to/cloudwerx/how-i-built-my-own-os-942",
-        "points": 21,
-        "comments": 1,
+        "points": 31,
+        "comments": 12,
         "discussion": "https://dev.to/cloudwerx/how-i-built-my-own-os-942",
         "tags": [
           "ai",
@@ -13207,39 +13382,27 @@
         ]
       },
       {
-        "title": "C# 15 Unpacked: Popping the Hood on Labeled Loops and Finding No Labels at All",
-        "url": "https://dev.to/georgekobaidze/c-15-unpacked-popping-the-hood-on-labeled-loops-and-finding-no-labels-at-all-4ci0",
-        "points": 21,
-        "comments": 0,
-        "discussion": "https://dev.to/georgekobaidze/c-15-unpacked-popping-the-hood-on-labeled-loops-and-finding-no-labels-at-all-4ci0",
-        "tags": [
-          "microsoft",
-          "dotnet",
-          "csharp"
-        ]
-      },
-      {
-        "title": "Your Second Brain Is Just A Digital Hoarding Pile (And How To Fix It)",
-        "url": "https://dev.to/johnnylemonny/your-second-brain-is-just-a-digital-hoarding-pile-and-how-to-fix-it-3n1o",
+        "title": "How to Add Crash Reporting and Session Replay to a React Native App",
+        "url": "https://dev.to/studio1hq/how-to-add-crash-reporting-and-session-replay-to-a-react-native-app-bgh",
         "points": 20,
-        "comments": 14,
-        "discussion": "https://dev.to/johnnylemonny/your-second-brain-is-just-a-digital-hoarding-pile-and-how-to-fix-it-3n1o",
+        "comments": 0,
+        "discussion": "https://dev.to/studio1hq/how-to-add-crash-reporting-and-session-replay-to-a-react-native-app-bgh",
         "tags": [
-          "productivity",
-          "pkm",
-          "learning"
+          "reactnative",
+          "android",
+          "mobile"
         ]
       },
       {
-        "title": "Before You Trust the Canary, Plant a Bug",
-        "url": "https://dev.to/copyleftdev/before-you-trust-the-canary-plant-a-bug-1k5a",
+        "title": "I Talk to Claude More Than My Wife.",
+        "url": "https://dev.to/debashish_ghosal/i-talk-to-claude-more-than-my-wife-4cap",
         "points": 16,
-        "comments": 11,
-        "discussion": "https://dev.to/copyleftdev/before-you-trust-the-canary-plant-a-bug-1k5a",
+        "comments": 2,
+        "discussion": "https://dev.to/debashish_ghosal/i-talk-to-claude-more-than-my-wife-4cap",
         "tags": [
+          "discuss",
           "ai",
-          "testing",
-          "rust"
+          "humor"
         ]
       },
       {
@@ -13255,71 +13418,52 @@
         ]
       },
       {
-        "title": "The Best Café in Town Turns People Away. Your System Should Too",
-        "url": "https://dev.to/thethirdcup/the-best-cafe-in-town-turns-people-away-your-system-should-too-5ehh",
-        "points": 15,
-        "comments": 7,
-        "discussion": "https://dev.to/thethirdcup/the-best-cafe-in-town-turns-people-away-your-system-should-too-5ehh",
+        "title": "Two Sisters Tinctures, Now in Motion: An AI Ad Made with Migoo",
+        "url": "https://dev.to/earlgreyhot1701d/two-sisters-tinctures-now-in-motion-an-ai-ad-made-with-migoo-3lo7",
+        "points": 14,
+        "comments": 1,
+        "discussion": "https://dev.to/earlgreyhot1701d/two-sisters-tinctures-now-in-motion-an-ai-ad-made-with-migoo-3lo7",
         "tags": [
-          "discuss",
-          "api",
-          "backend"
+          "ai",
+          "showdev",
+          "buildinpublic"
+        ]
+      },
+      {
+        "title": "Porting an ADK Research and Judge Loop to Strands on Bedrock AgentCore, With A2A 1.x",
+        "url": "https://dev.to/aws-builders/porting-an-adk-research-and-judge-loop-to-strands-on-bedrock-agentcore-with-a2a-1x-209j",
+        "points": 13,
+        "comments": 1,
+        "discussion": "https://dev.to/aws-builders/porting-an-adk-research-and-judge-loop-to-strands-on-bedrock-agentcore-with-a2a-1x-209j",
+        "tags": [
+          "aws",
+          "ai",
+          "python"
+        ]
+      },
+      {
+        "title": "Chasing down why Ansible stalled on a fresh Ubuntu 26.04 box",
+        "url": "https://dev.to/alexgeorgiev17/chasing-down-why-ansible-stalled-on-a-fresh-ubuntu-2604-box-5678",
+        "points": 12,
+        "comments": 1,
+        "discussion": "https://dev.to/alexgeorgiev17/chasing-down-why-ansible-stalled-on-a-fresh-ubuntu-2604-box-5678",
+        "tags": [
+          "devops",
+          "linux",
+          "ansible"
         ]
       }
     ]
   },
   "deepdives": {
-    "fetchedAt": "2026-11-27T16:30:06.788Z",
+    "fetchedAt": "2026-11-28T06:34:57.136Z",
     "candidates": {
-      "https://blog.cloudflare.com/kitesurf-open-source": {
-        "source": "Cloudflare",
-        "title": "Kitesurf is now open source",
-        "url": "https://blog.cloudflare.com/kitesurf-open-source/",
-        "published": "2026-11-13T20:20:21.000Z",
-        "summary": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers."
-      },
-      "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators": {
-        "source": "Cloudflare",
-        "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
-        "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
-        "published": "2026-11-13T19:26:07.000Z",
-        "summary": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures."
-      },
-      "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac": {
-        "source": "Meta",
-        "title": "Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon",
-        "url": "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/",
-        "published": "2026-11-13T17:00:39.000Z",
-        "summary": "How Meta's Reality Labs brought Cuttlefish and its QEMU backend to macOS and Apple silicon. [...] Read More... The post Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon appeared first on Engineering at Meta ."
-      },
-      "https://aws.amazon.com/blogs/architecture/how-thermo-fisher-scientific-built-ai-powered-patient-matching-on-aws": {
-        "source": "AWS Architecture",
-        "title": "How Thermo Fisher Scientific built AI-powered patient matching on AWS",
-        "url": "https://aws.amazon.com/blogs/architecture/how-thermo-fisher-scientific-built-ai-powered-patient-matching-on-aws/",
-        "published": "2026-11-13T20:26:58.000Z",
-        "summary": "Learn how Thermo Fisher Scientific built an AI-powered patient-matching platform on AWS, modernizing its clinical trial recruitment data foundation and using AWS Countdown Premium to de-risk the production launch."
-      },
-      "https://www.figma.com/blog/ai-role-in-the-creative-process": {
-        "source": "Figma",
-        "title": "AI’s role in the creative process",
-        "url": "https://www.figma.com/blog/ai-role-in-the-creative-process/",
-        "published": "2026-11-13T20:00:00.000Z",
-        "summary": "Which parts of the creative process can AI do for us—and which do we insist on keeping for ourselves?"
-      },
       "https://www.willett.io/posts/data": {
         "source": "Lobsters",
         "title": "Let Me Let You Own Your Data",
         "url": "https://www.willett.io/posts/data/",
         "discussion": "https://lobste.rs/s/fllb0m/let_me_let_you_own_your_data",
         "published": "2026-11-14T16:08:27.850Z",
-        "summary": ""
-      },
-      "https://blog.janestreet.com/writing-a-dsl-for-high-performance-parallel-programming-in-oxcaml": {
-        "source": "Lobsters",
-        "title": "Writing a DSL for high performance parallel programming in OxCaml",
-        "url": "https://blog.janestreet.com/writing-a-dsl-for-high-performance-parallel-programming-in-oxcaml/",
-        "discussion": "https://lobste.rs/s/kh9fri/writing_dsl_for_high_performance",
-        "published": "2026-11-14T02:57:49.133Z",
         "summary": ""
       },
       "https://nix.dev/manual/nix/2.35/advanced-topics/eval-profiler": {
@@ -13781,435 +13925,8 @@
     }
   },
   "world": {
-    "fetchedAt": "2026-11-27T16:30:06.788Z",
+    "fetchedAt": "2026-11-28T06:34:57.136Z",
     "candidates": {
-      "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban": {
-        "source": "The Verge",
-        "title": "Tidal will start banning AI-generated music next month",
-        "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
-        "published": "2026-11-24T17:17:09.000Z",
-        "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 […]"
-      },
-      "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "Nvidia shares slide as Trump's role in Jensen Huang's comeback questioned by US politicians",
-        "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-24T17:04:20.000Z",
-        "summary": "Nvidia's stock market value surged on the annoucement of Huang's reappointment, but some of the gains reversed in Tuesday trading."
-      },
-      "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms": {
-        "source": "TechCrunch",
-        "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
-        "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-        "published": "2026-11-24T17:00:00.000Z",
-        "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent."
-      },
-      "https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922": {
-        "source": "The Register",
-        "title": "An AI coding agent, a browser, and a Mac tool found a financial firm's access key in under 6 minutes",
-        "url": "https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922",
-        "published": "2026-11-24T17:00:00.000Z",
-        "summary": "No sophisticated malware or attack framework required"
-      },
-      "https://www.theregister.com/personal-tech/2026/11/24/microsoft-refreshes-copilot-app-search-for-users-without-an-ai-subscription/5311895": {
-        "source": "The Register",
-        "title": "Microsoft refreshes Copilot app search for users without an AI subscription",
-        "url": "https://www.theregister.com/personal-tech/2026/11/24/microsoft-refreshes-copilot-app-search-for-users-without-an-ai-subscription/5311895",
-        "published": "2026-11-24T17:00:00.000Z",
-        "summary": "Meanwhile, Google's homepage demo leaves a familiar button out of the picture"
-      },
-      "https://arstechnica.com/cars/2026/11/fake-gears-and-real-911-dna-driving-porsches-electric-718-boxster": {
-        "source": "Ars Technica",
-        "title": "Porsche 718 Boxster prototype drive: This electric roadster is real",
-        "url": "https://arstechnica.com/cars/2026/11/fake-gears-and-real-911-dna-driving-porsches-electric-718-boxster/",
-        "published": "2026-11-24T16:58:20.000Z",
-        "summary": "Technical details are still limited, but we already know it's fun to drive."
-      },
-      "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming": {
-        "source": "TechCrunch",
-        "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
-        "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-        "published": "2026-11-24T16:46:00.000Z",
-        "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated."
-      },
-      "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch": {
-        "source": "TechCrunch",
-        "title": "Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch",
-        "url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
-        "published": "2026-11-24T16:40:46.000Z",
-        "summary": "Uber and Nuro have started testing driverless Lucid Gravity SUVs on public streets in the San Francisco Bay Area."
-      },
-      "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list": {
-        "source": "The Verge",
-        "title": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
-        "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
-        "published": "2026-11-24T16:37:03.000Z",
-        "summary": "As Jensen Huang returns to his post as Nvidia's CEO with support from the Trump administration, the Department of Commerce has added Megaspeed to its Entity List, which blocks trade with the company, citing national security risks. As reported earlier by Semafor, Commerce Secretary Howard Lutnick had faced increasing pressure to list the company after […]"
-      },
-      "https://yourstory.com/2026/11/beyond-upi-why-many-indians-still-need-help-accessing-basic-banking-services": {
-        "source": "YourStory",
-        "title": "Beyond UPI: Why many Indians still need help accessing basic banking services",
-        "url": "https://yourstory.com/2026/11/beyond-upi-why-many-indians-still-need-help-accessing-basic-banking-services",
-        "published": "2026-11-25T06:29:38.000Z",
-        "summary": "Assisted banking is not an alternative to regular banks or the mobile application that banks provide. Through the extension of their services via designated local access points, banks can make use of the business correspondent model to extend basic banking functions to the local population."
-      },
-      "https://www.thehindu.com/news/national/india-warns-against-using-tech-for-strategic-one-upmanship-calls-for-inclusive-ai-governance/article71741155.ece": {
-        "source": "The Hindu",
-        "title": "India warns against using tech for strategic one-upmanship, calls for inclusive AI governance",
-        "url": "https://www.thehindu.com/news/national/india-warns-against-using-tech-for-strategic-one-upmanship-calls-for-inclusive-ai-governance/article71741155.ece",
-        "published": "2026-11-25T06:18:32.000Z",
-        "summary": "India’s UN Ambassador asserted that amid the rapid integration of AI into military and intelligence spheres, responsibility for the use of lethal autonomous weapons systems must always rest with humans"
-      },
-      "https://www.theregister.com/virtualization/2026/11/25/this-could-mess-with-thanksgiving-says-vmware-as-it-drops-third-critical-patch-bundle-in-a-week/5312017": {
-        "source": "The Register",
-        "title": "This could mess with Thanksgiving, says VMware as it drops third critical patch bundle in a week",
-        "url": "https://www.theregister.com/virtualization/2026/11/25/this-could-mess-with-thanksgiving-says-vmware-as-it-drops-third-critical-patch-bundle-in-a-week/5312017",
-        "published": "2026-11-25T05:15:08.000Z",
-        "summary": "Four more critical vulns, including another unauthorized access flaw in vCenter"
-      },
-      "https://yourstory.com/2026/11/goldman-sachs-societe-generale-buy-rs-920-cr-stake-lenskart": {
-        "source": "YourStory",
-        "title": "Goldman Sachs, Societe Generale buy Rs 920-Cr stake in Lenskart",
-        "url": "https://yourstory.com/2026/11/goldman-sachs-societe-generale-buy-rs-920-cr-stake-lenskart",
-        "published": "2026-11-25T05:06:20.000Z",
-        "summary": "The investors acquired a total of 1,26,97,702 equity shares on Monday, amounting to a 0.73% stake in Lenskart, as per the stock exchange data."
-      },
-      "https://www.thehindu.com/sci-tech/technology/us-lawmakers-raise-alarm-at-faa-decision-to-deploy-aviation-ai-tool-nationally/article71740981.ece": {
-        "source": "The Hindu",
-        "title": "U.S. lawmakers raise alarm at FAA decision to deploy aviation AI tool nationally",
-        "url": "https://www.thehindu.com/sci-tech/technology/us-lawmakers-raise-alarm-at-faa-decision-to-deploy-aviation-ai-tool-nationally/article71740981.ece",
-        "published": "2026-11-25T04:56:55.000Z",
-        "summary": "U.S. Democrats, led ‌by Representative Rick Larsen of Washington, the ranking member of ‌the ⁠House Transportation Committee, criticised the “sudden expansion of a largely untested ⁠system”"
-      },
-      "https://yourstory.com/2026/11/ktaka-clears-pixxel-rs-350-cr-satellite-manufacturing-project": {
-        "source": "YourStory",
-        "title": "Karnataka clears Pixxel’s Rs 350 Cr satellite manufacturing project",
-        "url": "https://yourstory.com/2026/11/ktaka-clears-pixxel-rs-350-cr-satellite-manufacturing-project",
-        "published": "2026-11-25T04:56:02.000Z",
-        "summary": "Welcoming the company’s decision to expand its manufacturing operations in Karnataka, Patil said it reaffirmed Bengaluru’s position as a leading hub for aerospace, space technology and advanced manufacturing."
-      },
-      "https://www.thehindu.com/sci-tech/technology/huawei-says-us-conviction-without-legal-or-factual-merit/article71740978.ece": {
-        "source": "The Hindu",
-        "title": "Huawei says U.S. conviction 'without legal or factual merit'",
-        "url": "https://www.thehindu.com/sci-tech/technology/huawei-says-us-conviction-without-legal-or-factual-merit/article71740978.ece",
-        "published": "2026-11-25T04:28:14.000Z",
-        "summary": "The world's leading telecom equipment manufacturer, Huawei has been targeted by U.S. President Donald Trump's administration"
-      },
-      "https://www.thehindu.com/sci-tech/technology/nvidia-ceo-jensen-huangs-return-brings-open-weight-ai-debate-to-forefront-in-washington/article71740982.ece": {
-        "source": "The Hindu",
-        "title": "Nvidia CEO Jensen Huang's return brings open-weight AI debate to forefront in Washington",
-        "url": "https://www.thehindu.com/sci-tech/technology/nvidia-ceo-jensen-huangs-return-brings-open-weight-ai-debate-to-forefront-in-washington/article71740982.ece",
-        "published": "2026-11-25T04:18:10.000Z",
-        "summary": "Nvidia’s board announced on ​Monday that it would reinstate Mr. Huang as CEO, following his resignation over reports of extramarital affairs"
-      },
-      "https://www.theregister.com/virtualization/2026/11/25/nutanix-ceo-announces-gradual-departure-intent-to-complete-set-of-storage-links/5312010": {
-        "source": "The Register",
-        "title": "Nutanix CEO announces gradual departure, intent to complete set of storage links",
-        "url": "https://www.theregister.com/virtualization/2026/11/25/nutanix-ceo-announces-gradual-departure-intent-to-complete-set-of-storage-links/5312010",
-        "published": "2026-11-25T03:13:13.000Z",
-        "summary": "Rajiv Ramaswami will stay in the chair until new hire lands, then stick around as advisor"
-      },
-      "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-        "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-25T02:59:27.000Z",
-        "summary": "The verdict follows a months-long trial in New York."
-      },
-      "https://www.thehindu.com/sci-tech/technology/microsoft-declares-code-red-after-historic-outage-internal-memos-show/article71740915.ece": {
-        "source": "The Hindu",
-        "title": "Microsoft declares ‘Code Red’ after historic outage, internal memos show",
-        "url": "https://www.thehindu.com/sci-tech/technology/microsoft-declares-code-red-after-historic-outage-internal-memos-show/article71740915.ece",
-        "published": "2026-11-25T01:59:24.000Z",
-        "summary": "The November 12-13 outage ​hit governments from Australia and Japan to the United States, delayed trading firms ⁠and disrupted airline communications, fueling broader concerns about the vulnerability of critical digital infrastructure"
-      },
-      "https://www.thehindu.com/news/international/nvidias-jensen-huang-says-he-is-in-therapy-as-comeback-rally-fades/article71740890.ece": {
-        "source": "The Hindu",
-        "title": "Nvidia's Jensen Huang says he is in therapy as comeback rally fades",
-        "url": "https://www.thehindu.com/news/international/nvidias-jensen-huang-says-he-is-in-therapy-as-comeback-rally-fades/article71740890.ece",
-        "published": "2026-11-25T01:37:20.000Z",
-        "summary": "Jensen Huang told staff it was \"not acceptable\" that he had broken a code of conduct he had helped write, and dismissed suggestions that he was back because U.S. President Donald Trump had pressured the board"
-      },
-      "https://www.theregister.com/systems/2026/11/25/dell-and-hpe-both-say-theyve-become-different-companies/5312003": {
-        "source": "The Register",
-        "title": "Dell and HPE both say they’ve become ‘different companies’",
-        "url": "https://www.theregister.com/systems/2026/11/25/dell-and-hpe-both-say-theyve-become-different-companies/5312003",
-        "published": "2026-11-25T01:17:30.000Z",
-        "summary": "Still slinging hardware – now with added AI and attendant risks or opportunities"
-      },
-      "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident": {
-        "source": "The Verge",
-        "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
-        "url": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
-        "published": "2026-11-25T01:00:00.000Z",
-        "summary": "The Financial Crimes Enforcement Network (FinCEN) disclosed on Tuesday that it's investigating a \"cybersecurity incident.\" The bureau, which is part of the Treasury Department, said it's looking into an \"incident that resulted in unauthorized access to a limited subset of its systems.\" It hasn't offered any information about the full scope or source of the […]"
-      },
-      "https://yourstory.com/2026/11/aeravti-ventures-launches-rs-300-cr-fund-ii": {
-        "source": "YourStory",
-        "title": "Aeravti Ventures launches Rs 300 Cr fund II",
-        "url": "https://yourstory.com/2026/11/aeravti-ventures-launches-rs-300-cr-fund-ii",
-        "published": "2026-11-25T00:35:00.000Z",
-        "summary": "The second fund of Aeravti Ventures will invest in around 10 startups in segments of food security, health infra and physical security."
-      },
-      "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "Why tiny cars are taking off across Europe",
-        "url": "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-25T00:34:05.000Z",
-        "summary": "Once seen as a car for elderly, rural people, tiny cars are being embraced by a younger demographic."
-      },
-      "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion": {
-        "source": "TechCrunch",
-        "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
-        "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-        "published": "2026-11-25T00:12:02.000Z",
-        "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands."
-      },
-      "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary": {
-        "source": "TechCrunch",
-        "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
-        "url": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
-        "published": "2026-11-25T00:10:27.000Z",
-        "summary": "Huang faces ongoing questions about his relationship with Alice Huang, an executive with alleged ties to Chinese intelligence who previously worked for a company that has been accused of illegally diverting Nvidia chips to China."
-      },
-      "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026": {
-        "source": "The Verge",
-        "title": "The Verge’s 2026 gift guide for dads",
-        "url": "https://www.theverge.com/gadgets/1024777/best-gifts-for-dad-2026",
-        "published": "2026-11-24T23:59:29.000Z",
-        "summary": "Gone are the days when you could just buy your father a random tie or some leather-clad alcohol vessel or a shaving kit. Dads want - nay, deserve - something memorable. Luckily for you, it's not that hard to find something special that he'll approve of, and we're here to guide you. We've curated this […]"
-      },
-      "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa": {
-        "source": "The Verge",
-        "title": "Why the US Army is about to blow up nearly 10,000 pounds of unstable explosives in Iowa",
-        "url": "https://www.theverge.com/science/1041819/us-army-detonation-lead-explosives-iowa",
-        "published": "2026-11-24T23:25:46.000Z",
-        "summary": "The US Army is moving ahead with plans to detonate the nation's stockpile of lead azide at an ammunition plant in Middletown, Iowa, at approximately 9:00AM CST on Wednesday. The Verge reached out to experts on what to expect, and will keep this post updated. What material is the Army planning to detonate? There are […]"
-      },
-      "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece": {
-        "source": "The Hindu",
-        "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, U.S. jury finds",
-        "url": "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece",
-        "published": "2026-11-24T22:55:50.000Z",
-        "summary": "Huawei was also accused of doing business in countries subject to U.S. sanctions, including Iran and North Korea, and making false statements to U.S. government officials and banks as part of an effort to hide its misdeeds"
-      },
-      "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues": {
-        "source": "Ars Technica",
-        "title": "Half of NASA's aging Mars fleet knocked offline by technical issues",
-        "url": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/",
-        "published": "2026-11-24T22:50:11.000Z",
-        "summary": "Perseverance is having trouble transmitting to Earth. Odyssey is rapidly burning through its waning fuel supply."
-      },
-      "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war": {
-        "source": "Ars Technica",
-        "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
-        "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
-        "published": "2026-11-24T22:36:28.000Z",
-        "summary": "Internal memos reveal a “Code Red” overhaul and ambitious one-hour recovery goals."
-      },
-      "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy": {
-        "source": "TechCrunch",
-        "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
-        "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
-        "published": "2026-11-24T22:27:52.000Z",
-        "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder."
-      },
-      "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial": {
-        "source": "The Verge",
-        "title": "Huawei found guilty of stealing trade secrets",
-        "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial",
-        "published": "2026-11-24T22:23:27.000Z",
-        "summary": "A jury has found Huawei guilty of stealing US trade secrets, as reported earlier by NBC News and Bloomberg. The verdict, handed down in a federal court in New York, concludes a years-long legal battle that accused the Chinese telecom giant of stealing source code and proprietary technology from several companies, including T-Mobile, Cisco, and […]"
-      },
-      "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy": {
-        "source": "TechCrunch",
-        "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
-        "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
-        "published": "2026-11-24T21:48:27.000Z",
-        "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company."
-      },
-      "https://www.theverge.com/news/1041690/grand-theft-auto-6-pc-recompilation-project-leonida-takedown-take-two": {
-        "source": "The Verge",
-        "title": "GTA VI PC recompilation project shut down by Take-Two",
-        "url": "https://www.theverge.com/news/1041690/grand-theft-auto-6-pc-recompilation-project-leonida-takedown-take-two",
-        "published": "2026-11-24T21:39:14.000Z",
-        "summary": "Game modding communities are racing to get Grand Theft Auto VI running on PC, but one big effort has been taken down by Take-Two today. Leonida, a fan project by 15-year-old \"NotRexed,\" has vanished after a DMCA takedown notice from GTA VI publisher Take-Two. Leonida was designed to translate a leaked GTA VI Xbox build […]"
-      },
-      "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life": {
-        "source": "TechCrunch",
-        "title": "Even the best AI agents struggle with everyday life",
-        "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-        "published": "2026-11-24T21:33:29.000Z",
-        "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems."
-      },
-      "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse": {
-        "source": "TechCrunch",
-        "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
-        "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-        "published": "2026-11-24T21:32:38.000Z",
-        "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent."
-      },
-      "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself": {
-        "source": "TechCrunch",
-        "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
-        "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
-        "published": "2026-11-24T21:19:52.000Z",
-        "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data."
-      },
-      "https://www.theverge.com/gadgets/1021621/best-gifts-for-mom-2026": {
-        "source": "The Verge",
-        "title": "The Verge’s 2026 holiday gift guide for moms",
-        "url": "https://www.theverge.com/gadgets/1021621/best-gifts-for-mom-2026",
-        "published": "2026-11-24T21:09:59.000Z",
-        "summary": "Given everything moms do for us, it feels good to give back during the holidays. But where to start? How do you come up with a physical representation of how you feel about such a key and influential figure in your life? The possibilities seem as endless as they are daunting, but fear not, we've […]"
-      },
-      "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report": {
-        "source": "TechCrunch",
-        "title": "Dozens of oil and shipping tankers hacked in recent weeks, per report",
-        "url": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report/",
-        "published": "2026-11-24T21:09:04.000Z",
-        "summary": "Iran is the chief suspect behind the dozens of cyberattacks targeting oil and chemical shipping vessels."
-      },
-      "https://www.theregister.com/ai-and-ml/2026/11/24/ai-godfather-yann-lecun-torches-anthropic-ceo-over-ai-gatekeeping/5311986": {
-        "source": "The Register",
-        "title": "AI godfather Yann LeCun torches Anthropic CEO over AI gatekeeping",
-        "url": "https://www.theregister.com/ai-and-ml/2026/11/24/ai-godfather-yann-lecun-torches-anthropic-ceo-over-ai-gatekeeping/5311986",
-        "published": "2026-11-24T20:57:08.000Z",
-        "summary": "‘It’s like the Ottoman Empire banning the printing press for Arabic so they would keep in control of the dogma,’ he says"
-      },
-      "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis": {
-        "source": "Ars Technica",
-        "title": "What's going on with the Riemann hypothesis?",
-        "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
-        "published": "2026-11-24T20:34:53.000Z",
-        "summary": "A new AI-assisted proof seems to be solid, but we're not sure what it tells us."
-      },
-      "https://www.theverge.com/tech/1041618/tiktok-down-outage": {
-        "source": "The Verge",
-        "title": "TikTok was down",
-        "url": "https://www.theverge.com/tech/1041618/tiktok-down-outage",
-        "published": "2026-11-24T20:27:27.000Z",
-        "summary": "Earlier on Tuesday, TikTok experienced some issues, with videos, search results, favorites, and other features not loading as they usually do, following a slew of other outages over the past couple of weeks. Videos sometimes wouldn't load in the For You feed on my iPhone, and search results occasionally didn't show up as expected in […]"
-      },
-      "https://www.theregister.com/security/2026/11/24/we-are-not-shinyhunters-says-criminal-hacking-crew-that-looks-and-acts-just-like-shinyhunters/5311978": {
-        "source": "The Register",
-        "title": "'We are not ShinyHunters,' says criminal hacking crew that looks and acts just like ShinyHunters",
-        "url": "https://www.theregister.com/security/2026/11/24/we-are-not-shinyhunters-says-criminal-hacking-crew-that-looks-and-acts-just-like-shinyhunters/5311978",
-        "published": "2026-11-24T20:15:36.000Z",
-        "summary": "Nothing to see here…"
-      },
-      "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology": {
-        "source": "The Verge",
-        "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
-        "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
-        "published": "2026-11-24T20:02:03.000Z",
-        "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbasket's Marisa Kabas. During the meeting, Huang […]"
-      },
-      "https://arstechnica.com/health/2026/11/measles-death-toll-rises-to-14-as-national-case-tally-nears-6000": {
-        "source": "Ars Technica",
-        "title": "Back-to-back measles deaths is our new reality; US tally now at 14",
-        "url": "https://arstechnica.com/health/2026/11/measles-death-toll-rises-to-14-as-national-case-tally-nears-6000/",
-        "published": "2026-11-24T20:00:18.000Z",
-        "summary": "Wisconsin reports 3rd measles death today; Pennsylvania reported its 9th yesterday."
-      },
-      "https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave": {
-        "source": "The Verge",
-        "title": "The clock is running out for America’s most contentious spying law",
-        "url": "https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave",
-        "published": "2026-11-24T20:00:00.000Z",
-        "summary": "Weeks before the end of the legislative session, some members of Congress are scrambling to reauthorize a controversial warrantless wiretapping authority, possibly by attaching it to a must-pass military spending bill. Sen. Mike Rounds (R-SD) told Politico that Section 702 of the Foreign Intelligence Surveillance Act (FISA) could be attached to the National Defense Authorization […]"
-      },
-      "https://spectrum.ieee.org/mitsubishi-electric-research-lab-ceo": {
-        "source": "IEEE Spectrum",
-        "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
-        "url": "https://spectrum.ieee.org/mitsubishi-electric-research-lab-ceo",
-        "published": "2026-11-24T19:00:01.000Z",
-        "summary": "The trajectory from researcher to top executive at a leading R&D organization doesn’t happen overnight. It took Anthony Vetro nearly 30 years to climb the corporate ladder at Mitsubishi Electric Research Laboratories , in Cambridge, Mass. He joined MERL in 1996, right out of college, and he has worked there ever since. Vetro probably is best known for his research in multimedia signal processing, "
-      },
-      "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday": {
-        "source": "The Verge",
-        "title": "Amazon is knocking almost $50 off six months of Apple TV",
-        "url": "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday",
-        "published": "2026-11-24T19:00:00.000Z",
-        "summary": "Streaming deals aren’t as plentiful as they used to be, but they’re still around if you know where to look. One that caught our eye is an offer for Apple TV for those with an Amazon account in the US. Apple’s streaming service usually costs $14.99 per month, but following this page will let you […]"
-      },
-      "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage": {
-        "source": "Ars Technica",
-        "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
-        "url": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
-        "published": "2026-11-24T18:47:57.000Z",
-        "summary": "Amazon says Prime Air drones made “hundreds of thousands” of deliveries in 2026."
-      },
-      "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups": {
-        "source": "TechCrunch",
-        "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
-        "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
-        "published": "2026-11-24T18:30:42.000Z",
-        "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations."
-      },
-      "https://arstechnica.com/space/2026/11/amazon-surges-launches-with-rival-spacex-after-ula-fails-to-deliver": {
-        "source": "Ars Technica",
-        "title": "Amazon discovers Falcon 9 and Ariane 6 can deliver when nobody else can",
-        "url": "https://arstechnica.com/space/2026/11/amazon-surges-launches-with-rival-spacex-after-ula-fails-to-deliver/",
-        "published": "2026-11-24T18:30:36.000Z",
-        "summary": "Amazon has hundreds of satellites in storage waiting for rides to space."
-      },
-      "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=rss&at_campaign=rss": {
-        "source": "BBC Technology",
-        "title": "Faisal Islam: Fears over the AI boom haven't gone away",
-        "url": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-11-24T18:21:43.000Z",
-        "summary": "There were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it"
-      },
-      "https://arstechnica.com/science/2026/11/how-brewers-can-protect-beers-from-smoke-tainted-hops": {
-        "source": "Ars Technica",
-        "title": "How brewers can protect beers from smoke-tainted hops",
-        "url": "https://arstechnica.com/science/2026/11/how-brewers-can-protect-beers-from-smoke-tainted-hops/",
-        "published": "2026-11-24T18:18:37.000Z",
-        "summary": "Study: Brewers can still use up to 50% of smoke-tainted hops without affecting beer taste and aroma."
-      },
-      "https://arstechnica.com/tech-policy/2026/11/kalshi-makes-difficult-decision-to-halt-utah-trading-after-losing-court-fights": {
-        "source": "Ars Technica",
-        "title": "Kalshi makes “difficult decision” to halt Utah trading after losing court fights",
-        "url": "https://arstechnica.com/tech-policy/2026/11/kalshi-makes-difficult-decision-to-halt-utah-trading-after-losing-court-fights/",
-        "published": "2026-11-24T18:03:58.000Z",
-        "summary": "Kalshi’s pause in Utah draws cheers as critics bash ads and boo insider trading."
-      },
-      "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security": {
-        "source": "TechCrunch",
-        "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
-        "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
-        "published": "2026-11-24T18:02:59.000Z",
-        "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws."
-      },
-      "https://www.theregister.com/systems/2026/11/24/arm-strongarms-site-that-hosts-ad-free-documentation-and-it-may-disappear/5311925": {
-        "source": "The Register",
-        "title": "Arm strongarms site that hosts ad-free documentation and it may disappear",
-        "url": "https://www.theregister.com/systems/2026/11/24/arm-strongarms-site-that-hosts-ad-free-documentation-and-it-may-disappear/5311925",
-        "published": "2026-11-24T17:57:41.000Z",
-        "summary": "Easy-to-use, popular, not collecting data for us, or serving our ads? Down with you!"
-      },
-      "https://techcrunch.com/2026/11/24/threads-comes-to-ipad-and-takes-a-page-from-xs-playbook-with-cashtags": {
-        "source": "TechCrunch",
-        "title": "Threads comes to iPad and takes a page from X’s playbook with cashtags",
-        "url": "https://techcrunch.com/2026/11/24/threads-comes-to-ipad-and-takes-a-page-from-xs-playbook-with-cashtags/",
-        "published": "2026-11-24T17:44:34.000Z",
-        "summary": "The addition of live stock quotes and charts could help Threads attract the financial community that has historically relied on X."
-      },
-      "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9": {
-        "source": "Ars Technica",
-        "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
-        "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-        "published": "2026-11-24T17:34:34.000Z",
-        "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero."
-      },
-      "https://techcrunch.com/2026/11/24/electric-truck-startup-harbinger-gets-financing-boost-from-palmer-luckeys-bank": {
-        "source": "TechCrunch",
-        "title": "Electric truck startup Harbinger gets financing boost from Palmer Luckey’s bank",
-        "url": "https://techcrunch.com/2026/11/24/electric-truck-startup-harbinger-gets-financing-boost-from-palmer-luckeys-bank/",
-        "published": "2026-11-24T17:29:09.000Z",
-        "summary": "Harbinger has tapped Palmer Luckey's Erebor Bank as a new source of capital as the electric truck startup looks to diversify how it funds its growth."
-      },
       "https://www.theregister.com/security/2026/11/25/microsofts-ntlm-security-changes-trip-up-third-party-logins/5312085": {
         "source": "The Register",
         "title": "Microsoft's NTLM security changes trip up third-party logins",
@@ -14853,13 +14570,6 @@
         "url": "https://www.thehindu.com/education/cybersecurity-courses-despite-great-promise-first-job-remains-elusive/article71451192.ece",
         "published": "2026-11-25T06:48:28.000Z",
         "summary": "Cybersecurity jobs can involve analysing alerts, investigating suspicious activity, following incident-response procedures, and handling sensitive information. These are reasons why employers ask for previous experience even in jobs described as entry-level."
-      },
-      "https://www.thehindu.com/business/industry/nvidia-ignominy-is-it-a-new-normal/article71741171.ece": {
-        "source": "The Hindu",
-        "title": "Nvidia ignominy: Is it a new normal?",
-        "url": "https://www.thehindu.com/business/Industry/nvidia-ignominy-is-it-a-new-normal/article71741171.ece",
-        "published": "2026-11-25T05:24:16.000Z",
-        "summary": "The financial markets provided a thumb up to the come back of Mr. Huang, who now vows to be “a better CEO”, as Nvidia shares surged 31.5% on November 23, adding $1 trillion to market capitalisation (M-cap)"
       },
       "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block": {
         "source": "The Verge",
@@ -15616,26 +15326,117 @@
         "url": "https://yourstory.com/2026/11/hc-tata-trusts-pleas-against-chandrasekaran-reappointment",
         "published": "2026-11-26T12:01:01.000Z",
         "summary": "The lawsuit by the Tata Trusts says the reappointment of N Chandrasekaran as Tata Sons Chairman was invalid as it did not receive the affirmative vote required."
+      },
+      "https://yourstory.com/2026/11/no-hc-relief-to-tata-trusts-on-plea-against-chandrasekaran-reappointment-nov-30-board-meet-on-": {
+        "source": "YourStory",
+        "title": "No HC relief to Tata Trusts on plea against Chandrasekaran reappointment; Nov 30 board meet on",
+        "url": "https://yourstory.com/2026/11/no-hc-relief-to-tata-trusts-on-plea-against-chandrasekaran-reappointment-nov-30-board-meet-on-",
+        "published": "2026-11-28T05:49:01.000Z",
+        "summary": "A bench of Justice Abhay Ahuja said any outcome of the meeting shall be subject to final orders of the court."
+      },
+      "https://yourstory.com/2026/11/how-to-stop-unnecessary-spending": {
+        "source": "YourStory",
+        "title": "The no-buy challenge: How to stop unnecessary spending",
+        "url": "https://yourstory.com/2026/11/how-to-stop-unnecessary-spending",
+        "published": "2026-11-28T04:30:00.000Z",
+        "summary": "Learn how to try a no-buy challenge, identify spending triggers and build healthier money habits without feeling deprived."
+      },
+      "https://yourstory.com/2026/11/bengaluru-art-exhibition-creativity-photography": {
+        "source": "YourStory",
+        "title": "How Bengaluru’s cosmopolitan nature connects art markets across regions, themes and genres",
+        "url": "https://yourstory.com/2026/11/bengaluru-art-exhibition-creativity-photography",
+        "published": "2026-11-28T04:14:41.000Z",
+        "summary": "In this photo essay, we feature more highlights from the Namma Art Bengaluru festival, as well as curator insights."
+      },
+      "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale": {
+        "source": "The Verge",
+        "title": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
+        "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+        "published": "2026-11-28T03:30:00.000Z",
+        "summary": "If you’ve been holding off on buying a new MacBook Air since Apple raised prices by $200 in June, you’re in luck. The 13-inch M5 MacBook Air is on sale at Amazon and Best Buy with 16GB of RAM and 512GB of storage starting at $999 ($300 off) for Black Friday, which is the lowest […]"
+      },
+      "https://www.bbc.co.uk/news/articles/c64gn8pe5eeqo?at_medium=rss&at_campaign=rss": {
+        "source": "BBC Technology",
+        "title": "How gamers are using AI and leaked files to clone Grand Theft Auto 6",
+        "url": "https://www.bbc.co.uk/news/articles/c64gn8pe5eeqo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-28T01:30:50.000Z",
+        "summary": "With an official PC version potentially still months away, fans are getting impatient."
+      },
+      "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026": {
+        "source": "The Verge",
+        "title": "We found 60-odd Black Friday deals we love for $100 or less",
+        "url": "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026",
+        "published": "2026-11-28T01:30:00.000Z",
+        "summary": "Between holiday travel, gifts, and the rising cost of just about everything, expenses can quickly add up during this time of year. Thankfully, you don’t have to dip too far into your savings to take advantage of some of the better Black Friday deals we’ve seen. Below, we’ve rounded up a range of great stuff […]"
+      },
+      "https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge": {
+        "source": "The Verge",
+        "title": "This purple electric Chinese minivan can go up to 559 miles on a charge",
+        "url": "https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge",
+        "published": "2026-11-28T00:02:49.000Z",
+        "summary": "Electric minivans could be the ultimate in utility, with room for passengers, gear, and huge batteries. While VW's ID Buzz only gave us 200 miles of real-world driving on a charge in 2023, China's BYD has just announced a flagship purple peoplemover that can go an estimated 559 miles (900 km) on electricity. It's called […]"
+      },
+      "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026": {
+        "source": "The Verge",
+        "title": "The best Black Friday deals you can still get on AirPods, Macs, and other Apple gear",
+        "url": "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026",
+        "published": "2026-11-27T23:53:19.000Z",
+        "summary": "Black Friday is entering the evening, which means one of the best times of the year to save some cash on a new pair of AirPods or the latest Apple Watch is coming to a close. After all, the holiday savings can help offset the unfortunate price hikes from earlier this year, when Apple raised […]"
+      },
+      "https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026": {
+        "source": "The Verge",
+        "title": "The best robot vacuums we’ve tested are up to 60 percent off for Black Friday",
+        "url": "https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026",
+        "published": "2026-11-27T23:32:17.000Z",
+        "summary": "Black Friday is here, and if you want a little help keeping your floors clean this holiday season, now is a great time to pick up a robot vacuum. Some of the best models we’ve tested over the last year or two are on sale for up to 60 percent off, whether you’re after a […]"
+      },
+      "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale": {
+        "source": "The Verge",
+        "title": "Sony’s 1000XM4C headphones are a Black Friday bargain at $198",
+        "url": "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
+        "published": "2026-11-27T23:32:00.000Z",
+        "summary": "Instead of purely looking forward with its headphone designs, Sony went back to its popular WH-1000XM4 design and made some improvements to make it even better. The 2026 version, called the WH-1000XM4C, sounds nearly as good as the pricier XM6 model (currently $348), but is down to $198 during Black Friday at Amazon, Best Buy, […]"
+      },
+      "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox": {
+        "source": "The Verge",
+        "title": "Yooka-Laylee’s free upgrade is skipping Xbox",
+        "url": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
+        "published": "2026-11-27T23:30:32.000Z",
+        "summary": "Playtronic Games is getting ready to launch Yooka-Laylee and the Impossible Lair: Definitive Edition as a free update on PlayStation 5, Switch 2, and PC on December 15th. Unfortunately for Xbox owners, the developer says it \"can't commit to any additional platforms for the foreseeable future.\" In a statement posted on X, Playtronic said that […]"
+      },
+      "https://www.theverge.com/gadgets/1040471/4k-bluray-movie-film-black-friday-deal-sale": {
+        "source": "The Verge",
+        "title": "Many of our favorite Blu-ray movies are over 50 percent off for Black Friday",
+        "url": "https://www.theverge.com/gadgets/1040471/4k-bluray-movie-film-black-friday-deal-sale",
+        "published": "2026-11-27T23:30:00.000Z",
+        "summary": "No shade to those who love their subscription services, but viewing physical movies is a time-honored tradition that shouldn’t go away. Watching them doesn’t feel all that different, but deciding which movie to watch feels less annoying; sifting through a movie collection on your shelf or in a storage binder is so much more fun […]"
+      },
+      "https://www.theverge.com/gadgets/1042705/ipad-mini-black-friday-deal-sale-2026": {
+        "source": "The Verge",
+        "title": "The new iPad Mini is getting its first major discount for Black Friday",
+        "url": "https://www.theverge.com/gadgets/1042705/ipad-mini-black-friday-deal-sale-2026",
+        "published": "2026-11-27T22:30:00.000Z",
+        "summary": "We were big fans of Apple’s new iPad Mini when we reviewed it in early November, but its steep starting price of $699 was hard to swallow. Thankfully, the small tablet is already getting a sizable discount for Black Friday. Right now, Amazon and Walmart are both selling the 2026 iPad Mini with Wi-Fi and […]"
+      },
+      "https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find": {
+        "source": "Ars Technica",
+        "title": "The best Black Friday deals Ars could find",
+        "url": "https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/",
+        "published": "2026-11-27T17:05:37.000Z",
+        "summary": "Perhaps some commerce, to help all the Turkey Day leftovers go down easier?"
+      },
+      "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=rss&at_campaign=rss": {
+        "source": "BBC Technology",
+        "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+        "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-11-25T10:52:09.000Z",
+        "summary": "The verdict follows a months-long trial in New York."
       }
     }
   },
   "asks": {
-    "fetchedAt": "2026-11-27T16:30:06.788Z",
+    "fetchedAt": "2026-11-28T06:34:57.136Z",
     "candidates": {
-      "https://news.ycombinator.com/item?id=50630809": {
-        "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
-        "url": "https://news.ycombinator.com/item?id=50630809",
-        "points": 239,
-        "comments": 182,
-        "created": "2026-11-24T16:45:44.000Z"
-      },
-      "https://news.ycombinator.com/item?id=50633601": {
-        "title": "Ask HN: Am I the only one whose AI hype is cooling down a lot?",
-        "url": "https://news.ycombinator.com/item?id=50633601",
-        "points": 23,
-        "comments": 14,
-        "created": "2026-11-24T19:51:01.000Z"
-      },
       "https://news.ycombinator.com/item?id=50649864": {
         "title": "Tell HN: Lots of Ask HNs again",
         "url": "https://news.ycombinator.com/item?id=50649864",
@@ -15678,20 +15479,6 @@
         "comments": 44,
         "created": "2026-11-25T16:02:31.000Z"
       },
-      "https://news.ycombinator.com/item?id=50633280": {
-        "title": "Ask HN: What Happened to Midjourney?",
-        "url": "https://news.ycombinator.com/item?id=50633280",
-        "points": 13,
-        "comments": 7,
-        "created": "2026-11-24T19:32:14.000Z"
-      },
-      "https://news.ycombinator.com/item?id=50630985": {
-        "title": "Ask HN: Its 2026 and there is still not good Email client for macOS. Why?",
-        "url": "https://news.ycombinator.com/item?id=50630985",
-        "points": 12,
-        "comments": 23,
-        "created": "2026-11-24T16:57:03.000Z"
-      },
       "https://news.ycombinator.com/item?id=50656763": {
         "title": "Ask HN: Any courses/products by indie makers worth getting today?",
         "url": "https://news.ycombinator.com/item?id=50656763",
@@ -15730,29 +15517,8 @@
     }
   },
   "launches": {
-    "fetchedAt": "2026-11-27T16:30:06.788Z",
+    "fetchedAt": "2026-11-28T06:34:57.136Z",
     "candidates": {
-      "https://www.producthunt.com/products/smorza": {
-        "source": "Product Hunt",
-        "title": "Smorza",
-        "url": "https://www.producthunt.com/products/smorza",
-        "published": "2026-11-20T19:28:10.000Z",
-        "summary": "Every Mac app gets its own volume and output Discussion | Link"
-      },
-      "https://www.producthunt.com/products/stitch-loop": {
-        "source": "Product Hunt",
-        "title": "Stitch Loop",
-        "url": "https://www.producthunt.com/products/stitch-loop",
-        "published": "2026-11-20T19:38:38.000Z",
-        "summary": "Google’s AI agent that ships fixes and watches the metric Discussion | Link"
-      },
-      "https://www.producthunt.com/products/waitfeed-2": {
-        "source": "Product Hunt",
-        "title": "WaitFeed",
-        "url": "https://www.producthunt.com/products/waitfeed-2",
-        "published": "2026-11-20T20:01:06.000Z",
-        "summary": "Tech feed inside agent wait time Discussion | Link"
-      },
       "https://www.producthunt.com/products/resurf-2": {
         "source": "Product Hunt",
         "title": "Resurf",
@@ -15766,13 +15532,6 @@
         "url": "https://www.producthunt.com/products/oovi",
         "published": "2026-11-21T20:02:03.000Z",
         "summary": "Your own team of AI on your desktop Discussion | Link"
-      },
-      "https://www.producthunt.com/products/creavit-studio": {
-        "source": "Product Hunt",
-        "title": "Creavit Studio 4.0",
-        "url": "https://www.producthunt.com/products/creavit-studio",
-        "published": "2026-11-20T21:11:32.000Z",
-        "summary": "Screen recording, iPhone camera and cinematic demos for Mac Discussion | Link"
       },
       "https://www.producthunt.com/products/omi-cli": {
         "source": "Product Hunt",
@@ -15808,13 +15567,6 @@
         "url": "https://www.producthunt.com/products/visitors",
         "published": "2026-11-22T07:39:42.000Z",
         "summary": "See website visitors on your website itself Discussion | Link"
-      },
-      "https://www.producthunt.com/products/gauth-ai-course": {
-        "source": "Product Hunt",
-        "title": "Gauth Personal Study Agent",
-        "url": "https://www.producthunt.com/products/gauth-ai-course",
-        "published": "2026-11-20T17:12:34.000Z",
-        "summary": "An AI study agent that remembers where you struggle Discussion | Link"
       },
       "https://www.producthunt.com/products/tesla": {
         "source": "Product Hunt",
