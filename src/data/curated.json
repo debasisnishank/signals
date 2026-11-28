@@ -719,9 +719,29 @@
     "https://news.ycombinator.com/item?id=50642300": {
       "why": "Talks to the stock clock over its local HTTP interface instead of flashing firmware, and maps agent events to scenes; a demo runs via npx with no hardware or login.",
       "pickedOn": "2026-11-27"
+    },
+    "https://news.ycombinator.com/item?id=50658632": {
+      "why": "Bundles SIP, RTP, WebRTC and media as Rust crates with published interop runs against Asterisk, FreeSWITCH and Kamailio, so calls go straight from your code to the wire.",
+      "pickedOn": "2026-11-28"
+    },
+    "https://news.ycombinator.com/item?id=50657070": {
+      "why": "Ships as a signed, notarized macOS 15+ app that must run unsandboxed to drive simctl, giving each booted simulator a Downloads and Photos folder in Finder's sidebar.",
+      "pickedOn": "2026-11-28"
+    },
+    "Reukix/Reloc": {
+      "why": "Builds a virtual iAP2 accessory inside the device and streams NMEA sentences, so it needs no Mac, pairing files or VPN; the interface and README are Chinese-first.",
+      "pickedOn": "2026-11-28"
+    },
+    "gary23w/f-ck_data_brokers": {
+      "why": "One dependency-free Python file that sends the opt-out and deletion requests itself from your machine, positioned as a DIY alternative to paid broker-removal services.",
+      "pickedOn": "2026-11-28"
+    },
+    "https://news.ycombinator.com/item?id=50657530": {
+      "why": "Saves the playback timestamp and reloads instead of blocking requests, dodging anti-adblock detection but depending on Chrome's background-tab throttling to settle ad state.",
+      "pickedOn": "2026-11-28"
     }
   },
-  "updatedAt": "2026-11-27T06:35:28.607Z",
+  "updatedAt": "2026-11-28T06:34:32.718Z",
   "deepdives": {
     "https://blog.cloudflare.com/voidzero-update": {
       "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -2035,11 +2055,6 @@
     }
   },
   "deepdiveSkips": {
-    "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks": "2026-10-28",
-    "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4": "2026-10-28",
-    "https://aws.amazon.com/blogs/architecture/data-governance-with-annotations-in-amazon-s3": "2026-10-28",
-    "https://aws.amazon.com/blogs/architecture/recommended-resilience-testing-in-the-next-generation-of-aws-resilience-hub": "2026-10-28",
-    "https://bruceediger.com/posts/contabo-crawler": "2026-10-28",
     "https://aws.amazon.com/blogs/architecture/how-orderserv-achieved-up-to-64-cost-savings-with-multi-tenant-ecs": "2026-11-19",
     "https://aws.amazon.com/blogs/architecture/how-tui-scales-threat-modeling-for-100-teams-with-amazon-bedrock": "2026-11-19",
     "https://www.figma.com/blog/in-conversation-dylan-field-and-david-friedberg": "2026-11-19",
@@ -2709,6 +2724,72 @@
         "topic": "business",
         "why": "A Brooklyn jury found Huawei guilty of conspiring to steal trade secrets and of bank fraud but acquitted it of racketeering, and Huawei said it would defend its rights."
       }
+    ],
+    "2026-11-28": [
+      {
+        "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+        "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "published": "2026-11-26T09:27:44.000Z",
+        "topic": "science",
+        "why": "US regulators approved SpaceX's Starmind plan to launch a million satellites for orbital AI data centres; Amazon called it a lofty ambition and astronomers warned of harm to the night sky."
+      },
+      {
+        "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+        "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+        "source": "TechCrunch",
+        "published": "2026-11-26T20:03:54.000Z",
+        "topic": "business",
+        "why": "Nvidia told Dell, Super Micro and other partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia while it checks whether regional partners meet US export rules."
+      },
+      {
+        "title": "AI agents used in five cyber attacks in Switzerland, government says",
+        "url": "https://www.thehindu.com/sci-tech/technology/ai-agents-used-in-five-cyber-attacks-in-switzerland-government-says/article71749266.ece",
+        "source": "The Hindu",
+        "published": "2026-11-27T05:42:31.000Z",
+        "topic": "security",
+        "why": "Switzerland's federal cybersecurity office said AI agents were used in five recent cyberattacks on companies and critical infrastructure, and four of them succeeded in compromising systems."
+      },
+      {
+        "title": "UK government rejects national consultation on AI datacenters",
+        "url": "https://www.theregister.com/off-prem/2026/11/27/uk-government-rejects-national-consultation-on-ai-datacenters/5312501",
+        "source": "The Register",
+        "published": "2026-11-27T12:38:00.000Z",
+        "topic": "policy",
+        "why": "The UK government rejected a UK-wide public consultation on AI datacentre environmental impacts despite a petition topping 39,000 signatures, pointing instead to project-level planning checks."
+      },
+      {
+        "title": "How Engineers Designed a Mission to One of Jupiter’s Icy Moons",
+        "url": "https://spectrum.ieee.org/jupiter-europa-clipper-mission-jpl",
+        "source": "IEEE Spectrum",
+        "published": "2026-11-26T14:00:02.000Z",
+        "topic": "science",
+        "why": "NASA's Europa Clipper will swing past Earth on 3 December 2026 for a gravity assist to reach Jupiter in 2030, where it will study Europa's ice-covered ocean for possible habitats."
+      },
+      {
+        "title": "Bill for Birmingham's Oracle debacle reaches £128M",
+        "url": "https://www.theregister.com/public-sector/2026/11/27/bill-for-birminghams-oracle-debacle-reaches-128m/5312563",
+        "source": "The Register",
+        "published": "2026-11-27T14:03:00.000Z",
+        "topic": "business",
+        "why": "Birmingham City Council's troubled SAP-to-Oracle finance system move has cost £128.1 million, more than six times its 2019 estimate, contributing to the authority's financial collapse."
+      },
+      {
+        "title": "X finally gets parental controls after 20 years",
+        "url": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
+        "source": "TechCrunch",
+        "published": "2026-11-26T19:31:50.000Z",
+        "topic": "software",
+        "why": "X introduced parental controls for teenage accounts, defaulting 13-to-17-year-olds to protected mode while letting teens see the restrictions applied and retain some control."
+      },
+      {
+        "title": "Smartphone shipments face another bleak year before modest 2028 comeback",
+        "url": "https://www.theregister.com/personal-tech/2026/11/27/smartphone-shipments-face-another-bleak-year-before-modest-2028-comeback/5312580",
+        "source": "The Register",
+        "published": "2026-11-27T15:33:00.000Z",
+        "topic": "hardware",
+        "why": "Counterpoint forecasts global smartphone shipments will fall 14% in 2026 and another 6% in 2027, citing memory costs up about 350% as chipmakers prioritise AI server demand."
+      }
     ]
   },
   "ideaDays": {
@@ -3212,6 +3293,64 @@
             "title": "How foreign AI romance apps are reshaping youth intimacy in Africa",
             "url": "https://restofworld.org/2026/ai-companion-apps-africa-character-ai/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
             "source": "Rest of World"
+          }
+        ]
+      }
+    ],
+    "2026-11-28": [
+      {
+        "title": "PiPulse",
+        "problem": "People running self-hosted services on Raspberry Pi or DietPi often discover an outage only when they need the service, because checks live on a desktop dashboard they are not near.",
+        "firstBuild": "Ship a tiny paired agent plus an iOS/Android app that runs HTTP and TCP checks on five services, sends push alerts, and opens a per-service recovery checklist.",
+        "mobileFit": "Push alerts, widgets, and one-tap access to service admin pages let owners respond from anywhere instead of waiting to reach a laptop.",
+        "validation": "Ask DietPi and self-hosted users how they currently learn about outages and whether they would install a phone-paired monitoring agent.",
+        "evidence": [
+          {
+            "title": "DietPi released a new version v10.9",
+            "url": "https://news.ycombinator.com/item?id=50658963",
+            "source": "Ask HN"
+          }
+        ]
+      },
+      {
+        "title": "ControlCheck",
+        "problem": "Parents set teen social-media protections once, but platform defaults and app updates silently change what is enabled, leaving families without a reliable record.",
+        "firstBuild": "Build a guided audit for X's teen protected-mode settings that captures screenshots, tracks several accounts, and reminds parents to re-audit after app updates.",
+        "mobileFit": "The settings live on the teen's phone, so screenshot capture and the audit checklist belong on a phone rather than a desktop.",
+        "validation": "Ask parents of 13-to-17-year-olds whether they have rechecked platform settings after an update and would use a recurring audit with reminders.",
+        "evidence": [
+          {
+            "title": "X finally gets parental controls after 20 years",
+            "url": "https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/",
+            "source": "TechCrunch"
+          }
+        ]
+      },
+      {
+        "title": "AgentSentry",
+        "problem": "Small businesses and managed service providers using AI agents have no practiced runbook for revoking credentials, preserving logs, and notifying customers when an agent-driven intrusion is suspected.",
+        "firstBuild": "Create an incident checklist with timers, evidence capture for screenshots and logs, deep links to revoke common API tokens, and an exportable incident timeline.",
+        "mobileFit": "On-call responders are alerted away from their desks and need to start containment before they can reach a laptop.",
+        "validation": "Ask MSPs and operations leads whether they have an AI-agent-specific incident playbook and would run it from a phone during an alert.",
+        "evidence": [
+          {
+            "title": "AI agents used in five cyber attacks in Switzerland, government says",
+            "url": "https://www.thehindu.com/sci-tech/technology/ai-agents-used-in-five-cyber-attacks-in-switzerland-government-says/article71749266.ece",
+            "source": "The Hindu"
+          }
+        ]
+      },
+      {
+        "title": "SlideCards",
+        "problem": "Students photograph lecture slides and whiteboards but rarely turn them into review material because mobile card editors fight the keyboard and make editing tedious.",
+        "firstBuild": "Build a local-first app that imports photos, OCRs slides into candidate question-and-answer cards, provides a keyboard-safe editor, and schedules a daily review queue.",
+        "mobileFit": "Capture happens in class with the camera, and review happens in spare minutes, making notifications and offline use essential.",
+        "validation": "Ask university students who photograph slides whether they ever review those photos and what specifically stops them from making cards.",
+        "evidence": [
+          {
+            "title": "Olumino, a Markdown notes and spaced repetition app",
+            "url": "https://news.ycombinator.com/item?id=50651099",
+            "source": "Hacker News"
           }
         ]
       }
